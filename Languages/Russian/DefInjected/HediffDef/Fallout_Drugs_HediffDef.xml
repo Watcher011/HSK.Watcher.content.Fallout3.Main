@@ -1,0 +1,13 @@
+<LanguageData>
+<JetHigh.label>Под кайфом от Винта</JetHigh.label>
+<JetHigh.labelNoun>Винтовой кайф</JetHigh.labelNoun>
+<JetHigh.description>Активный Винт в кровотоке. Вызывает лёгкий эйфорический эффект.</JetHigh.description>
+
+<JetTolerance.label>Толерантность к Винту</JetTolerance.label>
+<JetTolerance.description>Привыкание к Винту. Чем выше толерантность, тем больше требуется препаратов на основе психо, таких как Яйо или Хлопья, для достижения того же эффекта.</JetTolerance.description>
+
+<JetAddiction.label>Винтовая зависимость</JetAddiction.label>
+<JetAddiction.description>Химическая зависимость от Винта. Длительное воздействие психо вызвало неврологические изменения на клеточном уровне, поэтому мозг больше не может нормально функционировать без препарата.
+\nБез регулярных доз Винта (например, в виде Хлопьев или Яйо) начнётся абстинентный синдром. Однако длительное воздержание заставит мозг адаптироваться обратно к нормальному состоянию, устраняя зависимость.</JetAddiction.description>
+<JetAddiction.stages.1.label>абстиненция</JetAddiction.stages.1.label>
+</LanguageData>

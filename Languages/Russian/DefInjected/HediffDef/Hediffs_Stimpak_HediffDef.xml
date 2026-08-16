@@ -1,0 +1,25 @@
+<LanguageData>
+<StimpakBasic.label>Регенерация стимулятора</StimpakBasic.label>
+<StimpakBasic.description>Регенерация стимулятора.</StimpakBasic.description>
+<StimpakBasic.labelNoun>Стимулятор</StimpakBasic.labelNoun>
+<StimpakBasic.stages.0.label>побочный эффект</StimpakBasic.stages.0.label>
+<StimpakBasic.stages.1.label>регенерация</StimpakBasic.stages.1.label>
+
+<StimpakSuper.label>Супер-регенерация</StimpakSuper.label>
+<StimpakSuper.description>Супер-регенерация.</StimpakSuper.description>
+<StimpakSuper.labelNoun>Стимулятор: супер</StimpakSuper.labelNoun>
+<StimpakSuper.stages.0.label>побочный эффект</StimpakSuper.stages.0.label>
+<StimpakSuper.stages.1.label>регенерация</StimpakSuper.stages.1.label>
+
+<Med-xBasic.label>Мед-Икс</Med-xBasic.label>
+<Med-xBasic.description>Мед-Икс.</Med-xBasic.description>
+<Med-xBasic.labelNoun>Мед-Икс</Med-xBasic.labelNoun>
+<Med-xBasic.stages.0.label>Мед-Икс</Med-xBasic.stages.0.label>
+
+<LSS.label>Система жизнеобеспечения</LSS.label>
+<LSS.description>Передовая разработка медицинского комплекса Y-17, созданная для поддержки жизнедеятельности тяжелораненых солдат в полевых условиях. Костюм оснащён автономной системой стабилизации, встроенными анальгетиками и функцией «принудительной эвакуации» — ведь иногда солдат слишком упёрт, чтобы признать, что ему пора в морг.</LSS.description>
+<LSS.labelNoun>Y-17: Система жизнеобеспечения</LSS.labelNoun>
+
+<RadAwayConsumed.label>Антирадин</RadAwayConsumed.label>
+<RadAwayConsumed.description>Принят Антирадин</RadAwayConsumed.description>
+</LanguageData>

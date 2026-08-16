@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>StimpakBasic</defName>
+		<label>Stimpak regeneration</label>  
+		<description>Stimpak regeneration.</description>
+		<labelNoun>Stimpak</labelNoun>
+		<defaultLabelColor>(145,255,145)</defaultLabelColor>
+		<initialSeverity>0.35</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+		    <li>
+        <minSeverity>0</minSeverity>
+		<label>side effect</label>
+        <statFactors>
+		  <WorkSpeedGlobal>-0.8</WorkSpeedGlobal>
+          <MoveSpeed>-0.5</MoveSpeed>
+          <IncomingDamageFactor>0.2</IncomingDamageFactor>
+        </statFactors>
+		<capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.6</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.5</offset>
+          </li>
+		</capMods>
+        </li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>regeneration</label>
+				<statFactors>
+					<IncomingDamageFactor>0.40</IncomingDamageFactor>
+				</statFactors>
+				<regeneration>150</regeneration>
+				<capMods>
+          			<li>
+           				<capacity>Consciousness</capacity>
+            			<setMax>0.75</setMax>
+          			</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+    <HediffDef>
+		<defName>StimpakSuper</defName>
+		<label>Super regeneration</label>  
+		<description>Super regeneration.</description>
+		<labelNoun>Stimpak: super</labelNoun>
+		<defaultLabelColor>(145,255,145)</defaultLabelColor>
+		<initialSeverity>0.35</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+		    <li>
+        <minSeverity>0</minSeverity>
+		<label>side effect</label>
+        <statFactors>
+		  <WorkSpeedGlobal>-0.8</WorkSpeedGlobal>
+          <MoveSpeed>-0.5</MoveSpeed>
+          <IncomingDamageFactor>0.2</IncomingDamageFactor>
+        </statFactors>
+		<capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.8</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.8</offset>
+          </li>
+		</capMods>
+        </li>
+			<li>
+				<minSeverity>0.4</minSeverity>
+				<label>regeneration</label>
+				<statFactors>
+					<IncomingDamageFactor>0.40</IncomingDamageFactor>
+				</statFactors>
+				<regeneration>350</regeneration>
+				<capMods>
+          			<li>
+           				<capacity>Consciousness</capacity>
+            			<setMax>0.75</setMax>
+          			</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	
+	<HediffDef>
+		<defName>Med-xBasic</defName>
+		<label>Med-x</label>  
+		<description>Med-x.</description>
+		<labelNoun>Med-x</labelNoun>
+		<defaultLabelColor>(245,255,145)</defaultLabelColor>
+		<initialSeverity>0.35</initialSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0.1</minSeverity>
+				<label>Med-x</label>
+				<statFactors>
+					 <IncomingDamageFactor>0.5</IncomingDamageFactor>
+                     <MeleeDamageFactor>0.2</MeleeDamageFactor>					 
+				</statFactors>
+			    <painOffset>-1.0</painOffset>
+				<regeneration>3</regeneration>
+				<capMods>
+          			<li>
+           				<capacity>Consciousness</capacity>
+            			<setMax>0.75</setMax>
+          			</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	
+	<HediffDef>
+		 <defName>LSS</defName>
+		<label>Life Support System</label>  
+		<description>An advanced development of the Y-17 medical complex, created to support the life of seriously wounded soldiers in field conditions. The suit is equipped with an autonomous stabilization system, built-in analgesics and a "forced evacuation" function - because sometimes a soldier is too stubborn to admit that it's time for him to go to the morgue..</description>
+		<labelNoun>Y-17:Life Support System</labelNoun>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.88, 0.88, 0.88)</defaultLabelColor>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<everCurableByItem>false</everCurableByItem>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<restFallFactorOffset>0.1</restFallFactorOffset>
+				<hungerRateFactorOffset>0.3</hungerRateFactorOffset>
+			     <regeneration>20</regeneration>
+				<statOffsets>
+		         <AimingDelayFactor>-0.03</AimingDelayFactor>
+			     <MedicalTendQualityOffset>+0.5</MedicalTendQualityOffset>
+			     <Suppressability>-0.2</Suppressability>
+			     <MedicalTendSpeed>0.12</MedicalTendSpeed>
+		        </statOffsets>
+				 <totalBleedFactor>0.5</totalBleedFactor>
+				<capMods>
+				<li>
+                     <capacity>Moving</capacity>
+                     <offset>-0.2</offset>
+                </li>
+                <li>
+                     <capacity>Manipulation</capacity>
+                     <offset>-0.2</offset>
+                </li>
+				</capMods>
+				  </li>
+		</stages>
+	</HediffDef>
+	
+	
+	<HediffDef>
+		<defName>RadAwayConsumed</defName>
+		<label>Rad Away</label>
+		<description>RadAway consumed</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>3.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				 <makeImmuneTo>
+                 <li>RimatomicsRadiation</li>
+                 <li>FatalRad</li>
+                 <li>RadiationIncurable</li>
+				 <li>RadiationMechanoid</li>
+                </makeImmuneTo>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Diarrhea</hediff>
+						<mtbDays>3</mtbDays>
+					</li>
+				</hediffGivers>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.9</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+ <!--<HediffDef>
+    <defName>AddictolCleansing</defName>
+    <label>addictol cleansing</label>
+    <description>Your body is being violently purged of all chemical dependencies. The process is... unpleasant.</description>
+    <labelNoun>Addictol</labelNoun>
+    <defaultLabelColor>(100, 180, 255)</defaultLabelColor>
+    <initialSeverity>1.0</initialSeverity>
+    <hediffClass>HediffWithComps</hediffClass>
+    <isBad>false</isBad>
+    <comps>
+        <!{1}** Удаление зависимостей **{1}>
+        <li Class="Watcher.Hediffs.HediffCompProperties_RemoveAddictions">
+            <addictionsToRemove>
+                <li>AlcoholAddiction</li>
+                <li>SmokeleafAddiction</li>
+                <li>PsychiteAddiction</li>
+                <li>WakeUpAddiction</li>
+                <li>AmbrosiaAddiction</li>
+                <li>MethadoneAddiction</li>
+                <li>SynchronisityAddiction</li>
+                <li>CaffeineAddiction</li>
+                <li>NicotineAddiction</li>
+                <li>JetAddiction</li>
+                <li>GoJuiceAddiction</li>
+                <li>PenoxylineAddiction</li>
+            </addictionsToRemove>
+        </li>
+        <!{1}** Эффект постепенно спадает **{1}>
+        <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>-0.5</severityPerDay>
+        </li>
+        <!{1}** Блокирует рост толерантности **{1}>
+        <li Class="HediffCompProperties_StatOffset">
+            <statOffsets>
+                <DrugToleranceGainFactor>-1.0</DrugToleranceGainFactor>
+            </statOffsets>
+        </li>
+    </comps>
+    <stages>
+        <li>
+            <minSeverity>0.1</minSeverity>
+            <label>system purge</label>
+            <statFactors>
+                <WorkSpeedGlobal>-0.7</WorkSpeedGlobal>
+                <MoveSpeed>-0.6</MoveSpeed>
+                <Pain>0.3</Pain>
+                <DrugNeedFallRateFactor>2.0</DrugNeedFallRateFactor>
+            </statFactors>
+            <capMods>
+                <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>-0.3</offset>
+                </li>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.5</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.4</offset>
+                </li>
+                <li>
+                    <capacity>Eating</capacity>
+                    <offset>-0.8</offset>
+                </li>
+            </capMods>
+            <vomitMtbHours>4</vomitMtbHours>
+        </li>
+    </stages>
+</HediffDef>-->
+</Defs>
+
+

@@ -1,0 +1,25 @@
+<LanguageData>
+	<Apparello_Vaultjumpsuit.label>Комбинезон Убежища</Apparello_Vaultjumpsuit.label>
+<Apparello_Vaultjumpsuit.description>Когда мир превратился в радиоактивный ад, Vault-Tec позаботилась о том, чтобы у вас была не просто защита от радиации, а стильная защита от радиации! Стандартный комбинезон Обитателя Убежища — идеальный выбор для тех, кто предпочитает встречать ядерную зиму в культовом сине-жёлтом стиле и с фирменной улыбкой доверчивого подопытного. Сшитый из «революционного» сплава дешёвого нейлона и наивной надежды, этот комбинезон создаёт иллюзию безопасности, а также обеспечивает удобный доступ для введения экспериментальных препаратов прямо через ткань.</Apparello_Vaultjumpsuit.description>
+
+<Apparello_Prisonjumpsuit.label>Тюремный комбинезон</Apparello_Prisonjumpsuit.label>
+<Apparello_Prisonjumpsuit.description>Этот комбинезон, сшитый из грубого хлопка и пропитанный духом бунтарства, — ваш билет в мир, где вы устанавливаете правила. Он не только подчёркивает вашу уникальность, но и отлично скрывает следы самодельной взрывчатки, скрывает следы раствора при побегах и служит официальной униформой для крутых парней... и тех, кто только начинает ими становиться.</Apparello_Prisonjumpsuit.description>
+
+<Apparello_VaultY-17trauma.label>Упряжь травматического контроля Y-17</Apparello_VaultY-17trauma.label>
+<Apparello_VaultY-17trauma.description>«Когда у вас заканчиваются патроны, ноги подкашиваются, а надежда испаряется — не волнуйтесь! Ваша надёжная "упряжь травматического контроля Y-17" уже знает, что вы труп. Или почти труп. В любом случае, она сделает всё, чтобы дотащить ваше бессознательное тело до ближайшего медцентра... или хотя бы до места, где он когда-то был!»</Apparello_VaultY-17trauma.description>
+
+<Apparel_VaultY-17traumaHelmet.label>Шлем скафандра Y-17</Apparel_VaultY-17traumaHelmet.label>
+<Apparel_VaultY-17traumaHelmet.description>«Ваше лицо — наша забота! (Пока оно ещё прикреплено к черепу.)»</Apparel_VaultY-17traumaHelmet.description>
+
+<Watcher_MedicalFoamPack.label>Упаковка медицинской пены Т-4 «Гемостат»</Watcher_MedicalFoamPack.label>
+<Watcher_MedicalFoamPack.description>Упаковка, содержащая быстротвердеющую полимерную пену. Одноразовая.</Watcher_MedicalFoamPack.description>
+<Watcher_MedicalFoamPack.verbs.0.label>применить медицинскую пену</Watcher_MedicalFoamPack.verbs.0.label>
+<Watcher_MedicalFoamPack.verbs.Verb_LaunchProjectileStaticOneUse.label>ㅤ</Watcher_MedicalFoamPack.verbs.Verb_LaunchProjectileStaticOneUse.label>
+
+<Watcher_MedicalFoamGrenade.label>Капсула медицинской пены</Watcher_MedicalFoamGrenade.label>
+
+<Watcher_Stimulantbackpack.label>Стимулирующий рюкзак</Watcher_Stimulantbackpack.label>
+<Watcher_Stimulantbackpack.description>Довоенная разработка для военнослужащих, которые не могут даже перекусить без дозы стимулятора. Встроенный автоинъектор в лямках вводит стимулятор при первых признаках потери сознания владельцем. ☠️ О ПЕРЕДОЗИРОВКЕ: Если рюкзак решит, что вам плохо дважды — готовьтесь встретить предков. Три инъекции подряд превращают рейнджера в дрожащий кусок мяса, у которого ещё есть время подумать: «Погодите... кнопка "отмена" была просто для украшения?»</Watcher_Stimulantbackpack.description>
+<Watcher_Stimulantbackpack.comps.CompApparelReloadable.chargeNoun>патрон</Watcher_Stimulantbackpack.comps.CompApparelReloadable.chargeNoun>
+<Watcher_Stimulantbackpack.comps.CompApparelReloadable.cooldownGerund>на перезарядке</Watcher_Stimulantbackpack.comps.CompApparelReloadable.cooldownGerund>
+</LanguageData>

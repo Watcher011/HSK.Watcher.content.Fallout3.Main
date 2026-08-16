@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AncientRugBase">
+		<defName>VolttecRug</defName>
+		<label>Volt-Tec:Clean Mat(3x3)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/VolttecRug</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3.3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>120</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>39</Beauty>
+			<Cleanliness>0.85</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(3,3)</size>
+		<description>Medium-sized mat with the Volt-Tec brand logo - so that your boots, dirty with radiation, dirt and moral compromises, leave all this outside! Made of "revolutionary" synthetic material (12% more resistant to melting than competitors!). Easily washed from blood, dirt and traces of radioactive mucus. The kit does not include a safety guarantee, operating instructions and conscience.The inscription on the reverse side is “Volt-Tec: We are not to blame! (But if anything happens, it’s all the Enclave)”</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+<ThingDef ParentName="AncientRugBase">
+		<defName>BrotherhoodRug</defName>
+		<label>Brotherhood of Steel:Purity Rug(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/BrotherhoodRug</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>Medium-sized, but with the ambitions of an orthodox paladin! This rug doesn't just collect dirt - it ideologically filters it, leaving only that which is approved by Elder Maxon. (Easily washed from betrayal - just throw it in the wash, like the Brotherhood throws the unwanted into the mines.)</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+<ThingDef ParentName="AncientRugBase">
+		<defName>NukaColaRug</defName>
+		<label>Nuka-Cola:Purity Rug(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/NukaColaRug</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>Add a pinch of post -war chic to your interior with this medium -sized rug, decorated with the legendary logo of the nuclear - a drink that refreshed your grandfathers ... right before turning them into shining mutants.)</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="AncientRugBase">
+		<defName>EnclavesRugA</defName>
+		<label>Enclave's:Purity Rug(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/EnclaveRug</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>Medium-sized (because the Enclave's budget didn't allow for much more), this mat features the logo of the legendary government-in-exile. Now you can trample on a symbol of former glory every day while you clean your boots of post-war mud!</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="AncientRugBase">
+		<defName>EnclavesRugB</defName>
+		<label>Enclave's:Purity Rug 2(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/EnclaveRug2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>Medium-sized (like the Enclave's ambitions after the oil rig explosion), this rug proudly features the logo of the most unsuccessful government in post-apocalyptic history. Now you can greet your guests in style - with a hint that you understand the intricacies of political collapse!</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="AncientRugBase">
+		<defName>AtomicCatsRug</defName>
+		<label>Atomic Cats:Purity Rug(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/AtomicCatsRug</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>Stylish, practical and slightly radioactive, this rug featuring the iconic Atomic Cats logo is the perfect addition to your hideout, retro-futuristic lounge area or just to remind your guests that you're up to date with real post-apocalyptic pop culture.</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="AncientRugBase">
+		<defName>AtomRug</defName>
+		<label>Children of Atom:Purity Rug(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/AtomRug</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>Turn the entrance to your vault into a sacred ritual with this stylish rug, approved by the Great Destroyer himself (well, almost). The rug does not guarantee protection from radiation, raider attacks, or unannounced visits from super mutants. But it is guaranteed to lift the spirits of you and your guests (unless they are from the Brotherhood of Steel, of course). "Find peace in the light of the Atom... or at least clean socks!".</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="AncientRugBase">
+		<defName>InstituteRugA</defName>
+		<label>Institute:Purity Rug(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/InstituteRug</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>The perfect addition to your lab, bunker or interrogation room - now with even more surface area for brainwashing and purge of disloyal elements! "Synth Institute: Your Floor, Our Control Zone."</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	<ThingDef ParentName="AncientRugBase">
+		<defName>InstituteRugB</defName>
+		<label>Institute:Purity Rug 2(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/InstituteRug2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>"Institute of Synths: We lay the floor softly for you so that your fall won't hurt"Attention! If you notice:
+	    Spontaneous folding of the rug
+		Appearance of slogans "Synths are people too"
+		Unnatural desire to wipe your feet on it
+		Immediately report to the nearest reprogramming point!</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="AncientRugBase">
+		<defName>NKRRug</defName>
+		<label>NKR:Purity Rug 2(2x2)</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/AreaRugs/NKRRug</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<!--<shaderType>CutoutComplex</shaderType>-->
+			<drawSize>(2.2)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Leathery</li>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>35</Beauty>
+			<Cleanliness>0.8</Cleanliness>
+			<Bulk>16</Bulk>
+			<Mass>10</Mass>
+		</statBases>
+		<size>(2,2)</size>
+		<description>A medium-sized, stylish and "virtually radiation-resistant" rug with a proud NCR logo - because even at your doorstep there should be democracy (or the illusion of it).</description>
+		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+	</ThingDef>
+</Defs>

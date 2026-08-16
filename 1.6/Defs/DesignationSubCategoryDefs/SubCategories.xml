@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Structure -->
+
+	
+
+	<!-- Power -->
+   <ArchitectSense.DesignationSubCategoryDef>
+		<debug>false</debug>
+		<defName>SubCategory_LampsVaultec</defName>
+		<label>Vaultec Lamps</label>
+		<description>Lamps Set.</description>
+		<defNames>
+		    <li>VaultLamp</li>
+			<li>Constructionlamp</li>
+			<li>VaultLampFirefly</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+	<ArchitectSense.DesignationSubCategoryDef>
+		<debug>false</debug>
+		<defName>SubCategory_PowerVaultec</defName>
+		<label>Vaultec generators</label>
+		<description>Electric Generator Set.</description>
+		<defNames>
+		    <li>VaultBattery</li>
+		    <li>VaultTecPortableGenerator</li>
+			<li>FalloutTeslaNova</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+   <ArchitectSense.DesignationSubCategoryDef>
+		<debug>false</debug>
+		<defName>SubCategory_RugVaultec</defName>
+		<label>Vaultec rugs</label>
+		<description>Rugs Set.</description>
+		<defNames>
+		    <li>VolttecRug</li>
+			<li>BrotherhoodRug</li>
+			 <li>NukaColaRug</li>
+			<li>EnclavesRugA</li>
+			 <li>EnclavesRugB</li>
+			<li>AtomicCatsRug</li>
+			 <li>AtomRug</li>
+			<li>InstituteRugA</li>
+			<li>InstituteRugB</li>
+			<li>NKRRug</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+<!--	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecTable</defName>
+		<label>Vault-Tec Workbenches</label>
+		<description>Vault-Tec Workbenches.</description>
+		<defNames>
+		   <!{1}** <li>TableFalloutCOINMACHINE</li>**{1}>
+			<li>TableFalloutElectronics</li>
+			<li>TableFalloutPrinter</li>
+			<li>TableFalloutChemicalSynthesis</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+-->
+	
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecWeapon</defName>
+		<label>Vault-Tec defense</label>
+		<description>A Vault-Tec defense.</description>
+		<defNames>
+		   <li>Fallout_FlamethrowerLastWarning_Turret</li>
+			<li>Fallout_laser_Turret</li>
+			<li>Fallout_Turret_Turret</li>
+			<li>Fallout_Turret_HeavyTurret</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+
+   <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecFood</defName>
+		<label>Vault-Tec Food</label>
+		<description>Vault-Tec Food.</description>
+		<defNames>
+			<li>ColaBasin</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+   <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecSign</defName>
+		<label>Vault-Tec Sign</label>
+		<description>Vault-Tec Sign.</description>
+		<defNames>
+			<li>MinesSign</li>
+			<li>SnipersSign</li>
+			<li>TurretSign</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+	
+	
+	 <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecDoors</defName>
+		<label>Vault-Tec Doors</label>
+		<description>Vault-Tec Doors.</description>
+		<defNames>
+		    <li>BigVaultTecSecureLok</li>
+			<li>VaultTecSecureLok</li>
+			<li>ArmoredDoor</li>
+			<li>QDoor</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+</Defs>

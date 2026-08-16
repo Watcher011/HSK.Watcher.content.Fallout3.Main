@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ScenarioDef ParentName="ScenarioBase">
+		<defName>ShelterResidents</defName>
+        <label>Final Protocol</label>
+        <description>Your helicopter is shot down; you eject moments before it explodes. Amid the wreckage, you see the crimson glow of inbound missiles on the horizon—soon, everything will be annihilated. Your only hope is to reach an ancient pre-war bunker whose defenses might withstand the blast. Survive. Then see what's left of the world.</description>
+		<scenario>
+			<summary>Three crashlanded survivors - with nuclear fallout.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>NuclearColonySurvivor</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+				<text>A deafening crash, the shriek of tearing hull, and your vertibird plummets, engulfed in flames. The automation catapults you out mere moments before the fuel tanks transform the machine into a fireball. You land amidst smoldering wreckage, stunned but in one piece. The emergency salvage system worked—the core cargo of supplies survived. But there’s no time to gather your wits. A sinister crimson glow looms on the horizon—the scars of missile launches. Soon, the "gift" will arrive here, and this entire district will be turned to glass and ash. Your only chance is an ancient pre-war outpost, marked in the emergency protocols. Its defense systems might still have a pulse. Reach it. Survive the blast. And then… we’ll see what’s left of this world.</text>
+					<closeSound>GameStartSting</closeSound>
+				</li>
+
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>3</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Standing</method>
+				</li>
+
+				<!-- Player starting things -->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSurvivalPack</thingDef>
+					<count>160</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>50</count>
+				</li>
+
+				<!-- Scatter some things near player start -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>WoodLog</thingDef>
+					<count>320</count>
+				</li>
+				<!-- Scatter some things anywhere -->
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipChunk</thingDef>
+					<count>20</count>
+					<allowRoofed>false</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>ShipMechChunk</thingDef>
+					<count>18</count>
+					<allowRoofed>false</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>WoodPlank</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<visible>false</visible>
+					<thingDef>BlocksSandstone</thingDef>
+					<count>30</count>
+				</li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
+					<stuff>Bronze</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
+					<stuff>Bronze</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
+					<stuff>Bronze</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Sickle</thingDef>
+					<stuff>Bronze</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Hoe</thingDef>
+					<stuff>Bronze</stuff>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Broom</thingDef>
+					<stuff>Bamboo</stuff>
+				</li>
+
+				<!-- Starting research -->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Stones_C1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Oil_Industry_C5</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Metals_C3</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Mining_C1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Fortification_C2</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>MedicineProduction</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Heal_disease_C1</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Prosthesis_install_C3</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Prosthesis_making_C2</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>VitalsMonitor</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>PackagedSurvivalMeal</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<visible>false</visible>
+					<project>Research_table_C1</project>
+				</li>
+
+
+			<li Class="ScenPart_StartingThing_Defined">
+            <def>StartingThing_Defined</def>
+            <thingDef>Fallout_AN556Order</thingDef>
+			<count>3</count>
+          </li>
+          <li Class="ScenPart_StartingThing_Defined">
+            <def>StartingThing_Defined</def>
+            <thingDef>Ammo_556x45mmNATO_FMJ</thingDef>
+            <count>380</count>
+          </li>
+          <li Class="ScenPart_StartingAnimal">
+            <def>StartingAnimal</def>
+            <count>3</count>
+            <animalKind>Radroach</animalKind>
+            <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+          </li>
+          <li Class="ScenPart_ScatterThingsNearPlayerStart">
+            <def>ScatterThingsNearPlayerStart</def>
+            <thingDef>WoodLog</thingDef>
+            <count>150</count>
+          </li>
+          <li Class="ScenPart_ScatterThingsAnywhere">
+            <def>ScatterThingsAnywhere</def>
+            <visible>false</visible>
+            <thingDef>ShipChunk</thingDef>
+            <count>8</count>
+            <allowRoofed>false</allowRoofed>
+          </li>
+          <li Class="ScenPart_ScatterThingsAnywhere">
+            <def>ScatterThingsAnywhere</def>
+            <visible>false</visible>
+            <thingDef>ShipMechChunk</thingDef>
+            <count>4</count>
+            <allowRoofed>false</allowRoofed>
+          </li>
+          <li Class="ScenPart_ScatterThingsAnywhere">
+            <def>ScatterThingsAnywhere</def>
+            <visible>false</visible>
+            <thingDef>WoodPlank</thingDef>
+            <count>20</count>
+          </li>
+          <li Class="ScenPart_ScatterThingsAnywhere">
+            <def>ScatterThingsAnywhere</def>
+            <visible>false</visible>
+            <thingDef>BlocksSandstone</thingDef>
+            <count>30</count>
+          </li>
+		  		<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Woodcutting_Handaxe</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Building_Hammer</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>StartingThing_Defined</def>
+					<thingDef>TFJ_Tool_Mining_Pickaxe</thingDef>
+					<stuff>WoodLog</stuff>
+					<count>2</count>
+				</li>
+		       <!--<li Class="SK.ScenPart_StartwithAsssault">
+					<def>StartWithRaidEnemy</def>
+					<visible>false</visible>
+				</li>-->
+				<li Class="SK.ScenPart_StartwithNF">
+					<def>StartWithNF</def>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>SkyFall</incident>
+					<intervalDays>24.04</intervalDays>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

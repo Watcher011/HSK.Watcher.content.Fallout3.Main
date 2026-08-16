@@ -1,0 +1,194 @@
+<LanguageData>
+	<Description_Comics.rulePack.rulesStrings>
+		<li>desc->[inThisBook], [author] [experiencesWithHeroes]. [specificComicStory] [writingQualitySentence].</li>
+		<li>desc->[inThisBook], [author] [tellsAStoryOf] [heroName]'s [storySource]. [writingQualitySentence].</li>
+		<li>desc->[inThisBook], [author] [detailsAdventure] on [worldname]. [writingQualitySentence].</li>
+		<li>inThisBook->В этом [writingQualityAdjective] [bookTypeSingle]</li>
+		<li>inThisBook->В этих [writingQualityAdjective] [bookTypePlural]</li>
+		<li>bookTypeSingle->комиксе</li>
+		<li>bookTypeSingle->графическом романе</li>
+		<li>bookTypeSingle->иллюстрированном приключении</li>
+		<li>bookTypeSingle->боевом комиксе</li>
+		<li>bookTypeSingle->научно-фантастическом комиксе</li>
+		<li>bookTypeSingle->саге о супергероях</li>
+		<li>bookTypeSingle->космической эпопее</li>
+		<li>bookTypeSingle->космической опере</li>
+		<li>bookTypeSingle->героической хронике</li>
+		<li>bookTypeSingle->галактической сказке</li>
+		<li>bookTypePlural->комиксах</li>
+		<li>bookTypePlural->графических романах</li>
+		<li>bookTypePlural->иллюстрированных историях</li>
+		<li>bookTypePlural->боевых комиксах</li>
+		<li>bookTypePlural->научно-фантастических комиксах</li>
+		<li>author(p=3)->автор</li>
+		<li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
+		<li>author->[anAuthorDesc] художник комиксов</li>
+		<li>author->[anAuthorDesc] сценарист</li>
+		<li>author->[anAuthorDesc] рассказчик</li>
+		<li>author->[anAuthorDesc] иллюстратор</li>
+		<li>author->[anAuthorDesc] автор графических романов</li>
+		<li>author->[anAuthorDesc] писатель-фантаст</li>
+		<li>author->[anAuthorDesc] провидец</li>
+		<li>author->[anAuthorDesc] креативный директор</li>
+		<li>anAuthorDesc(p=2)-></li>
+		<li>anAuthorDesc->молодой</li>
+		<li>anAuthorDesc->старый</li>
+		<li>anAuthorDesc->талантливый</li>
+		<li>anAuthorDesc->гениальный</li>
+		<li>anAuthorDesc->пожилой</li>
+		<li>anAuthorDesc->мудрый</li>
+		<li>anAuthorDesc->упрямый</li>
+		<li>anAuthorDesc->креативный</li>
+		<li>anAuthorDesc->новаторский</li>
+		<li>anAuthorDesc->беспокойный</li>
+		<li>anAuthorDesc->эксцентричный</li>
+		<li>anAuthorDesc->архетипический</li>
+		<li>anAuthorDesc->плодовитый</li>
+		<li>tellsAStoryOf->рассказывает эпическую историю</li>
+		<li>tellsAStoryOf->раскрывает приключения</li>
+		<li>tellsAStoryOf->повествует о героических подвигах</li>
+		<li>tellsAStoryOf->описывает путешествие</li>
+		<li>tellsAStoryOf->подробно излагает похождения</li>
+		<li>tellsAStoryOf->разворачивает сагу о</li>
+		<li>tellsAStoryOf->в деталях описывает миссию</li>
+		<li>tellsAStoryOf->повествует историю</li>
+		<li>tellsAStoryOf->пересказывает квест</li>
+		<li>tellsAStoryOf->сообщает о приключениях</li>
+		<li>tellsAStoryOf->запечатлевает битвы</li>
+		<li>tellsAStoryOf->изображает борьбу</li>
+		<li>tellsAStoryOf->разворачивает легенду о</li>
+		<li>experiencesWithHeroes->[tellsAStoryOf] [heroName] в битве против [villainName]</li>
+		<li>experiencesWithHeroes->[tellsAStoryOf] [heroName] в поисках легендарного [artifact]</li>
+		<li>experiencesWithHeroes->[tellsAStoryOf] [heroName] в исследовании таинственного [location]</li>
+		<li>experiencesWithHeroes->[tellsAStoryOf] [heroName] в защите [worldname] от [threat]</li>
+		<li>experiencesWithHeroes->[tellsAStoryOf] раскрытие [heroName] древнего заговора</li>
+		<li>experiencesWithHeroes->[tellsAStoryOf] путешествие [heroName] по звёздам к [coreworld]</li>
+		<li>experiencesWithHeroes->[tellsAStoryOf] поиски [heroName] сокровищ в системе [rimworld]</li>
+		<li>experiencesWithHeroes->[tellsAStoryOf] защита [heroName] невинных граждан от [threat]</li>
+		<li>detailsAdventure->подробно описывает невероятное приключение</li>
+		<li>detailsAdventure->описывает опасную миссию</li>
+		<li>detailsAdventure->запечатлевает эпический квест</li>
+		<li>detailsAdventure->пересказывает героическое путешествие</li>
+		<li>detailsAdventure->повествует о захватывающей экспедиции</li>
+		<li>heroName->Грогнак-Варвар</li>
+		<li>heroName->Капитан Фотон</li>
+		<li>heroName->Звёздный Рейнджер</li>
+		<li>heroName->Меха-Человек</li>
+		<li>heroName->Квантовый Малыш</li>
+		<li>heroName->Ракетная Девочка</li>
+		<li>heroName->Космический Крестоносец</li>
+		<li>villainName->Доктор Зло</li>
+		<li>villainName->Багровый Коготь</li>
+		<li>villainName->Лорд Мерзкий</li>
+		<li>villainName->Королева Злоба</li>
+		<li>villainName->Король Теней</li>
+		<li>villainName->Меха-Монстр</li>
+		<li>villainName->Профессор Хаос</li>
+		<li>artifact->Хрустальный Череп</li>
+		<li>artifact->Космический Куб</li>
+		<li>artifact->Устройство Судного Дня</li>
+		<li>artifact->Древнее Оружие</li>
+		<li>artifact->Инопланетная Технология</li>
+		<li>location->Хрустальное Королевство</li>
+		<li>location->Джунгли Страха</li>
+		<li>location->Город Смерти</li>
+		<li>location->Цитадель Зла</li>
+		<li>location->Пещеры Ужаса</li>
+		<li>location->Океан Монстров</li>
+		<li>location->Горы Безумия</li>
+		<li>threat->инопланетные захватчики</li>
+		<li>threat->армии роботов</li>
+		<li>threat->космические пираты</li>
+		<li>threat->мутанты</li>
+		<li>threat->похитители времени</li>
+		<li>threat->существа из бездны</li>
+		<li>storySource->невероятное приключение</li>
+		<li>storySource->опасная миссия</li>
+		<li>storySource->эпический квест</li>
+		<li>storySource->битва против зла</li>
+		<li>storySource->путешествие по звёздам</li>
+		<li>storySource->поиски сокровищ</li>
+		<li>storySource->защита невинных</li>
+		<li>specificComicStory->В одной из сцен герой сражается с [villainName] в эпической схватке над [worldname].</li>
+		<li>specificComicStory->Один захватывающий эпизод изображает, как [heroName] обнаруживает древний [artifact], скрытый глубоко в [location].</li>
+		<li>specificComicStory->Комикс включает потрясающие иллюстрации космического корабля [heroName], путешествующего по системе [glitterworld].</li>
+		<li>specificComicStory->В нём есть сюжетная линия о том, как [heroName] защищает мирных колонистов от [threat] на пограничном мире [rimworld].</li>
+		<li>specificComicStory->Один раздел описывает обучение [heroName] у мудрого наставника, раскрывающего истинную природу его сил.</li>
+		<li>specificComicStory->Том украшен динамичными иллюстрациями, изображающими [heroName] в героических позах, с энергетическими вспышками и космическими фонами, которые буквально выпрыгивают со страниц.</li>
+		<li>specificComicStory->На протяжении всего повествования концепция межзвёздных путешествий занимает центральное место, герой посещает множество миров, включая [coreworld] и [urbworld].</li>
+		<li>specificComicStory->Одна глава описывает внутреннюю борьбу [heroName] с ответственностью за свои силы перед лицом непреодолимых препятствий.</li>
+		<li>specificComicStory->Протагонист вспоминает, как чувствовал, что судьба всего [worldname] зависит от его победы над [villainName].</li>
+		<li>specificComicStory->В одной запоминающейся сцене [heroName] совершает героическую жертву, чтобы спасти мирных жителей от неминуемой гибели.</li>
+		<li>worldname->[glitterworld]</li>
+		<li>worldname->[urbworld]</li>
+		<li>worldname->[coreworld]</li>
+		<li>worldname->[rimworld]</li>
+		<li>worldname->[warworld]</li>
+		<li>glitterworld->Калтас IV</li>
+		<li>glitterworld->Амен-Ти</li>
+		<li>urbworld->Эвтерпа</li>
+		<li>urbworld->Авенна</li>
+		<li>coreworld->Новарома</li>
+		<li>coreworld->Лутуни</li>
+		<li>rimworld->Филсон</li>
+		<li>rimworld->Ла-Гранд</li>
+		<li>warworld->Кемия</li>
+		<li>warworld->Вану</li>
+		<li>writingQualityAdjective(quality==0)->плохо нарисованном</li>
+		<li>writingQualityAdjective(quality==0)->почти нечитаемом</li>
+		<li>writingQualityAdjective(quality==0)->неаккуратном</li>
+		<li>writingQualityAdjective(quality==0)->дилетантском</li>
+		<li>writingQualityAdjective(quality==1)->грубо иллюстрированном</li>
+		<li>writingQualityAdjective(quality==1)->набросанном наспех</li>
+		<li>writingQualityAdjective(quality==1)->неровном</li>
+		<li>writingQualityAdjective(quality==1)->поспешном</li>
+		<li>writingQualityAdjective(quality==2)->посредственном</li>
+		<li>writingQualityAdjective(quality==2)->бездарном</li>
+		<li>writingQualityAdjective(quality==2)->заурядном</li>
+		<li>writingQualityAdjective(quality==2)->сносном</li>
+		<li>writingQualityAdjective(quality==3)->хорошо иллюстрированном</li>
+		<li>writingQualityAdjective(quality==3)->хорошо прорисованном</li>
+		<li>writingQualityAdjective(quality==3)->продуманном</li>
+		<li>writingQualityAdjective(quality==3)->читабельном</li>
+		<li>writingQualityAdjective(quality==4)->ярком и увлекательном</li>
+		<li>writingQualityAdjective(quality==4)->живом</li>
+		<li>writingQualityAdjective(quality==4)->динамичном</li>
+		<li>writingQualityAdjective(quality==4)->захватывающем</li>
+		<li>writingQualityAdjective(quality==5)->визуально потрясающем и захватывающем</li>
+		<li>writingQualityAdjective(quality==5)->мастерски нарисованном</li>
+		<li>writingQualityAdjective(quality==5)->дух захватывающем</li>
+		<li>writingQualityAdjective(quality==5)->вдохновенном</li>
+		<li>writingQualityAdjective(quality==6)->замечательно нарисованном и написанном</li>
+		<li>writingQualityAdjective(quality==6)->безупречном</li>
+		<li>writingQualityAdjective(quality==6)->мастерском</li>
+		<li>writingQualityAdjective(quality==6)->изысканном</li>
+		<li>writingQualitySentence(quality[greater_than]4)->Художественное оформление — [excellentDesc]</li>
+		<li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Иллюстрации — [decentDesc]</li>
+		<li>writingQualitySentence(quality[less_than]2)->Рисунки — [awfulDesc]</li>
+		<li>awfulDesc->грубо нарисованы со сбивчивыми боевыми сценами</li>
+		<li>awfulDesc->дилетантские и поспешные, с пропорциями, попирающими физику</li>
+		<li>awfulDesc->их трудно разобрать из-за грязной раскраски</li>
+		<li>awfulDesc->неаккуратные и неровные на протяжении всего комикса</li>
+		<li>awfulDesc->выцветшие и плохо отпечатанные во многих местах</li>
+		<li>awfulDesc->в них отсутствуют ключевые панели в важных сценах</li>
+		<li>awfulDesc->полностью дезорганизованы с запутанной компоновкой панелей</li>
+		<li>awfulDesc->по-детски выполнены</li>
+		<li>awfulDesc->перенасыщены кричащими, режущими глаз цветами</li>
+		<li>decentDesc->добротные, но ничем не примечательные, с неловкими позами</li>
+		<li>decentDesc->приемлемые для сюжета, хотя фоны часто скудны</li>
+		<li>decentDesc->адекватные, хотя качество неравномерное</li>
+		<li>decentDesc->функциональные, но лишённые изобретательности и динамики</li>
+		<li>decentDesc->им не хватает детализации в боевых сценах</li>
+		<li>decentDesc->полезные, но часто слишком статичные по композиции</li>
+		<li>decentDesc->рабочие и выполняют свою задачу</li>
+		<li>decentDesc->приятные, если не особенно новаторские</li>
+		<li>decentDesc->полные хороших идей, но местами плохо выполненные</li>
+		<li>excellentDesc->динамичные и полные энергии, с идеальным потоком панелей</li>
+		<li>excellentDesc->яркие и детализированные на протяжении всего комикса</li>
+		<li>excellentDesc->мастерски выполненные с чёткими линиями и потрясающей раскраской</li>
+		<li>excellentDesc->визуально впечатляющие с захватывающими боевыми сценами</li>
+		<li>excellentDesc->новаторские и революционные в компоновке и дизайне</li>
+		<li>excellentDesc->дизайн персонажей культовый и запоминающийся</li>
+		<li>excellentDesc->раскраска идеально усиливает драматическое напряжение</li>
+	</Description_Comics.rulePack.rulesStrings>
+</LanguageData>

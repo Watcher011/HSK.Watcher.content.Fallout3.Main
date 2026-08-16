@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <RulePackDef>
+    <defName>Description_Comics</defName>
+    <include>
+      <li>ArtDescriptionUtility_Global</li>
+    </include>
+    <rulePack>
+       <rulesStrings>
+
+        <!-- Roots -->
+        <li>desc->[inThisBook], [author] [experiencesWithHeroes]. [specificComicStory] [writingQualitySentence].</li>
+        <li>desc->[inThisBook], [author] [tellsAStoryOf] [heroName]'s [storySource]. [writingQualitySentence].</li>
+        <li>desc->[inThisBook], [author] [detailsAdventure] on [worldname]. [writingQualitySentence].</li>
+
+        <!-- Book description intro -->
+        <li>inThisBook->In this [writingQualityAdjective] [bookTypeSingle]</li>
+        <li>inThisBook->In these [writingQualityAdjective] [bookTypePlural]</li>
+
+        <li>bookTypeSingle->comic book</li>
+        <li>bookTypeSingle->graphic novel</li>
+        <li>bookTypeSingle->illustrated adventure</li>
+        <li>bookTypeSingle->action comic</li>
+        <li>bookTypeSingle->science fiction comic</li>
+        <li>bookTypeSingle->superhero saga</li>
+        <li>bookTypeSingle->cosmic epic</li>
+        <li>bookTypeSingle->space opera</li>
+        <li>bookTypeSingle->heroic chronicle</li>
+        <li>bookTypeSingle->galactic tale</li>
+        <li>bookTypePlural->comic books</li>
+        <li>bookTypePlural->graphic novels</li>
+        <li>bookTypePlural->illustrated stories</li>
+        <li>bookTypePlural->action comics</li>
+        <li>bookTypePlural->science fiction comics</li>
+
+        <!-- Common intros -->
+        <li>author(p=3)->the author</li>
+        <li>author(p=3)->[anAuthorDesc] [PersonJob]</li>
+        <li>author->[anAuthorDesc] comic artist</li>
+        <li>author->[anAuthorDesc] writer</li>
+        <li>author->[anAuthorDesc] storyteller</li>
+        <li>author->[anAuthorDesc] illustrator</li>
+        <li>author->[anAuthorDesc] graphic novelist</li>
+        <li>author->[anAuthorDesc] science fiction author</li>
+        <li>author->[anAuthorDesc] visionary</li>
+        <li>author->[anAuthorDesc] creative director</li>
+
+        <li>anAuthorDesc(p=2)->a</li>
+        <li>anAuthorDesc->a young</li>
+        <li>anAuthorDesc->an old</li>
+        <li>anAuthorDesc->a talented</li>
+        <li>anAuthorDesc->a visionary</li>
+        <li>anAuthorDesc->an elderly</li>
+        <li>anAuthorDesc->a wise</li>
+        <li>anAuthorDesc->a headstrong</li>
+        <li>anAuthorDesc->a creative</li>
+        <li>anAuthorDesc->an innovative</li>
+        <li>anAuthorDesc->a disturbed</li>
+        <li>anAuthorDesc->an outrageous</li>
+        <li>anAuthorDesc->an archetypal</li>
+        <li>anAuthorDesc->a prolific</li>
+
+        <li>tellsAStoryOf->tells the epic tale of</li>
+        <li>tellsAStoryOf->reveals the adventures of</li>
+        <li>tellsAStoryOf->discusses the heroic deeds of</li>
+        <li>tellsAStoryOf->describes the journey of</li>
+        <li>tellsAStoryOf->details the exploits of</li>
+        <li>tellsAStoryOf->elaborates on the saga of</li>
+        <li>tellsAStoryOf->goes into detail about the mission of</li>
+        <li>tellsAStoryOf->narrates the story of</li>
+        <li>tellsAStoryOf->recounts the quest of</li>
+        <li>tellsAStoryOf->reports on the adventures of</li>
+        <li>tellsAStoryOf->chronicles the battles of</li>
+        <li>tellsAStoryOf->depicts the struggles of</li>
+        <li>tellsAStoryOf->unfolds the legend of</li>
+
+        <!-- Root: Hero variant -->
+        <li>experiencesWithHeroes->[tellsAStoryOf] [heroName]'s battle against [villainName]</li>
+        <li>experiencesWithHeroes->[tellsAStoryOf] [heroName]'s quest for the legendary [artifact]</li>
+        <li>experiencesWithHeroes->[tellsAStoryOf] [heroName]'s exploration of the mysterious [location]</li>
+        <li>experiencesWithHeroes->[tellsAStoryOf] [heroName]'s defense of [worldname] from [threat]</li>
+        <li>experiencesWithHeroes->[tellsAStoryOf] [heroName]'s uncovering of an ancient conspiracy</li>
+        <li>experiencesWithHeroes->[tellsAStoryOf] [heroName]'s journey across the stars to [coreworld]</li>
+        <li>experiencesWithHeroes->[tellsAStoryOf] [heroName]'s search for lost treasure in the [rimworld] system</li>
+        <li>experiencesWithHeroes->[tellsAStoryOf] [heroName]'s protection of innocent civilians from [threat]</li>
+
+        <li>detailsAdventure->details an incredible adventure</li>
+        <li>detailsAdventure->describes a dangerous mission</li>
+        <li>detailsAdventure->chronicles an epic quest</li>
+        <li>detailsAdventure->recounts a heroic journey</li>
+        <li>detailsAdventure->narrates a thrilling expedition</li>
+
+        <!-- Hero Names -->
+        <li>heroName->Grognak the Barbarian</li>
+        <li>heroName->Captain Photon</li>
+        <li>heroName->Stellar Ranger</li>
+        <li>heroName->Mecha-Man</li>
+        <li>heroName->Quantum Kid</li>
+        <li>heroName->Rocket Girl</li>
+        <li>heroName->Cosmic Crusader</li>
+
+        <!-- Villains -->
+        <li>villainName->Doctor Doom</li>
+        <li>villainName->the Crimson Claw</li>
+        <li>villainName->Lord Vile</li>
+        <li>villainName->Queen Malice</li>
+        <li>villainName->the Shadow King</li>
+        <li>villainName->Mecha-Monster</li>
+        <li>villainName->Professor Chaos</li>
+
+        <!-- Artifacts -->
+        <li>artifact->Crystal Skull</li>
+        <li>artifact->Cosmic Cube</li>
+        <li>artifact->Doomsday Device</li>
+        <li>artifact->Ancient Weapon</li>
+        <li>artifact->Alien Technology</li>
+
+        <!-- Locations -->
+        <li>location->the Crystal Kingdom</li>
+        <li>location->the Jungle of Fear</li>
+        <li>location->the City of Doom</li>
+        <li>location->the Fortress of Evil</li>
+        <li>location->the Caverns of Terror</li>
+        <li>location->the Ocean of Monsters</li>
+        <li>location->the Mountains of Madness</li>
+
+        <!-- Threats -->
+        <li>threat->alien invaders</li>
+        <li>threat->robot armies</li>
+        <li>threat->space pirates</li>
+        <li>threat->mutant creatures</li>
+        <li>threat->time raiders</li>
+        <li>threat->void creatures</li>
+
+        <!-- Story Sources -->
+        <li>storySource->incredible adventure</li>
+        <li>storySource->dangerous mission</li>
+        <li>storySource->epic quest</li>
+        <li>storySource->battle against evil</li>
+        <li>storySource->journey across the stars</li>
+        <li>storySource->search for lost treasure</li>
+        <li>storySource->defense of the innocent</li>
+
+        <!-- Specific Comic Stories -->
+        <li>specificComicStory->At one point, the hero battles [villainName] in an epic showdown above [worldname].</li>
+        <li>specificComicStory->One thrilling sequence depicts [heroName] discovering the ancient [artifact] hidden deep within [location].</li>
+        <li>specificComicStory->The comic includes stunning illustrations of [heroName]'s spacecraft traveling through the [glitterworld] system.</li>
+        <li>specificComicStory->It features a subplot about [heroName] protecting innocent colonists from [threat] on the frontier world of [rimworld].</li>
+        <li>specificComicStory->One section describes [heroName]'s training under a wise mentor who reveals the true nature of their powers.</li>
+        <li>specificComicStory->The volume is adorned with dynamic illustrations portraying [heroName] in heroic poses, with energy blasts and cosmic backgrounds that leap off the page.</li>
+        <li>specificComicStory->Throughout the narrative, the concept of interstellar travel is central, with the hero visiting multiple worlds including [coreworld] and [urbworld].</li>
+        <li>specificComicStory->One chapter describes [heroName]'s internal struggle with the responsibility of their powers while facing overwhelming odds.</li>
+        <li>specificComicStory->The protagonist recounts feeling the weight of the entire [worldname] depending on their success against [villainName].</li>
+        <li>specificComicStory->In one memorable scene, [heroName] makes a heroic sacrifice to save civilians from certain destruction.</li>
+
+        <!-- World Names -->
+        <li>worldname->[glitterworld]</li>
+        <li>worldname->[urbworld]</li>
+        <li>worldname->[coreworld]</li>
+        <li>worldname->[rimworld]</li>
+        <li>worldname->[warworld]</li>
+
+        <li>glitterworld->Kalthas IV</li>
+        <li>glitterworld->Amen-Ti</li>
+        <li>urbworld->Euterpe</li>
+        <li>urbworld->Avenna</li>
+        <li>coreworld->Novaroma</li>
+        <li>coreworld->Lutuni</li>
+        <li>rimworld->Filson</li>
+        <li>rimworld->La Grand</li>
+        <li>warworld->Kemia</li>
+        <li>warworld->Vanu</li>
+
+        <!-- Writing quality -->
+        <li>writingQualityAdjective(quality==0)->poorly-drawn</li>
+        <li>writingQualityAdjective(quality==0)->nearly-illegible</li>
+        <li>writingQualityAdjective(quality==0)->messy</li>
+        <li>writingQualityAdjective(quality==0)->amateurish</li>
+        <li>writingQualityAdjective(quality==1)->crudely illustrated</li>
+        <li>writingQualityAdjective(quality==1)->roughly sketched</li>
+        <li>writingQualityAdjective(quality==1)->inconsistent</li>
+        <li>writingQualityAdjective(quality==1)->rushed</li>
+        <li>writingQualityAdjective(quality==2)->mediocre</li>
+        <li>writingQualityAdjective(quality==2)->uninspired</li>
+        <li>writingQualityAdjective(quality==2)->unremarkable</li>
+        <li>writingQualityAdjective(quality==2)->passable</li>
+        <li>writingQualityAdjective(quality==3)->well-illustrated</li>
+        <li>writingQualityAdjective(quality==3)->well-drawn</li>
+        <li>writingQualityAdjective(quality==3)->thoughtful</li>
+        <li>writingQualityAdjective(quality==3)->readable</li>
+        <li>writingQualityAdjective(quality==4)->colorful and engaging</li>
+        <li>writingQualityAdjective(quality==4)->vibrant</li>
+        <li>writingQualityAdjective(quality==4)->dynamic</li>
+        <li>writingQualityAdjective(quality==4)->exciting</li>
+        <li>writingQualityAdjective(quality==5)->visually stunning and exciting</li>
+        <li>writingQualityAdjective(quality==5)->masterfully drawn</li>
+        <li>writingQualityAdjective(quality==5)->breathtaking</li>
+        <li>writingQualityAdjective(quality==5)->inspired</li>
+        <li>writingQualityAdjective(quality==6)->remarkably well-drawn and written</li>
+        <li>writingQualityAdjective(quality==6)->peerless</li>
+        <li>writingQualityAdjective(quality==6)->masterful</li>
+        <li>writingQualityAdjective(quality==6)->exquisite</li>
+
+        <li>writingQualitySentence(quality[greater_than]4)->The artwork is [excellentDesc]</li>
+        <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->The illustrations are [decentDesc]</li>
+        <li>writingQualitySentence(quality[less_than]2)->The drawings are [awfulDesc]</li>
+
+        <li>awfulDesc->crudely drawn with confusing action sequences</li>
+        <li>awfulDesc->amateurish and rushed, with proportions that defy physics</li>
+        <li>awfulDesc->difficult to decipher with muddy coloring</li>
+        <li>awfulDesc->messy and inconsistent throughout</li>
+        <li>awfulDesc->faded and poorly printed in many parts</li>
+        <li>awfulDesc->missing key panels in important sequences</li>
+        <li>awfulDesc->totally disorganized with confusing panel layouts</li>
+        <li>awfulDesc->childlike in execution</li>
+        <li>awfulDesc->saturated with garish, clashing colors</li>
+
+        <li>decentDesc->competent but unremarkable with some awkward poses</li>
+        <li>decentDesc->serviceable for the story, though backgrounds are often sparse</li>
+        <li>decentDesc->adequate though inconsistent in quality</li>
+        <li>decentDesc->functional but lacking flair and dynamism</li>
+        <li>decentDesc->missing some detail in action scenes</li>
+        <li>decentDesc->useful, but often too static in composition</li>
+        <li>decentDesc->workmanlike and gets the job done</li>
+        <li>decentDesc->pleasurable if not particularly innovative</li>
+        <li>decentDesc->full of good ideas but poorly executed in places</li>
+        
+        <li>excellentDesc->dynamic and full of energy with perfect panel flow</li>
+        <li>excellentDesc->vibrant and detailed throughout</li>
+        <li>excellentDesc->masterfully crafted with bold lines and spectacular coloring</li>
+        <li>excellentDesc->visually spectacular with breathtaking action sequences</li>
+        <li>excellentDesc->innovative and groundbreaking in layout and design</li>
+        <li>excellentDesc->the character designs are iconic and memorable</li>
+        <li>excellentDesc->the coloring enhances the dramatic tension perfectly</li>
+
+      </rulesStrings>
+    </rulePack>
+</RulePackDef>
+
+</Defs>

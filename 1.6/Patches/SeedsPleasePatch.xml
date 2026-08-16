@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+ <!--   <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<Plant_Mutfruit>0.015</Plant_Mutfruit>
+		</value>
+     </Operation>
+	 
+	  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<Plant_Tato>0.015</Plant_Tato>
+		</value>
+     </Operation>
+	 
+	  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest" or defName="Ocean" or defName="Lake"]/wildPlants</xpath>
+		<value>
+			<PlantTarberry>0.15</PlantTarberry>
+		</value>
+     </Operation>
+	 
+	 <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest" or defName="Ocean" or defName="Lake"]/wildPlants</xpath>
+		<value>
+			<Plant_Prickeye>0.15</Plant_Prickeye>
+		</value>
+     </Operation>
+-->
+<!--
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+        <value>
+            <Plant_Mutfruit>0.014</Plant_Mutfruit>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+        <value>
+            <Plant_Mutfruit>0.015</Plant_Mutfruit>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+        <value>
+            <Plant_Mutfruit>0.012</Plant_Mutfruit>
+        </value>
+    </Operation>
+
+    <!{1}** 2. Plant_Tato - основной продукт, выносливый **{1}>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.028</Plant_Tato>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.025</Plant_Tato>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.030</Plant_Tato>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.012</Plant_Tato>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.010</Plant_Tato>
+        </value>
+    </Operation>
+
+    <!{1}** 3. PlantTarberry - водолюбивое растение **{1}>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+        <value>
+            <PlantTarberry>0.100</PlantTarberry>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+        <value>
+            <PlantTarberry>0.095</PlantTarberry>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+        <value>
+            <PlantTarberry>0.035</PlantTarberry>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+        <value>
+            <PlantTarberry>0.030</PlantTarberry>
+        </value>
+    </Operation>
+
+    <!{1}** 4. Plant_Prickeye - пустынный кактус **{1}>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+        <value>
+            <Plant_Prickeye>0.110</Plant_Prickeye>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildPlants</xpath>
+        <value>
+            <Plant_Prickeye>0.120</Plant_Prickeye>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
+        <value>
+            <Plant_Prickeye>0.070</Plant_Prickeye>
+        </value>
+    </Operation>
+
+    <!{1}** ========== ХОЛОДНЫЕ БИОМЫ ========== **{1}>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.008</Plant_Tato>
+            <PlantTarberry>0.010</PlantTarberry>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+        <value>
+            <Plant_Mutfruit>0.005</Plant_Mutfruit>
+            <Plant_Tato>0.010</Plant_Tato>
+            <PlantTarberry>0.030</PlantTarberry>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.002</Plant_Tato>
+        </value>
+    </Operation>
+    
+  
+    <!{1}** ========== ТРОПИЧЕСКИЕ БИОМЫ ========== **{1}>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+        <value>
+            <Plant_Mutfruit>0.015</Plant_Mutfruit>
+            <Plant_Tato>0.008</Plant_Tato>
+            <PlantTarberry>0.050</PlantTarberry>
+        </value>
+    </Operation>-->
+
+ 
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>SeedsPlease</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Mutfruit_seeds</defName>
+							<label>Mutfruit seeds</label>
+							<sources>
+								<li>Plant_Mutfruit</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Plant/Mutfruitbag</texPath>
+								<drawSize>(1)</drawSize>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+				
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractMutfruit</defName>
+							<label>Extraction of Mutfruit seeds</label>
+							<description>Extraction of Mutfruit seeds</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawMutfruit</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawMutfruit</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Mutfruit_seeds>3</Mutfruit_seeds>
+							</products>
+						</RecipeDef>
+				
+		
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Tato_seeds</defName>
+							<label>Tato seeds</label>
+							<sources>
+								<li>Plant_Tato</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Plant/Tatobag</texPath>
+								<drawSize>(1)</drawSize>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+				
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractTato</defName>
+							<label>Extraction of Tato seeds</label>
+							<description>Extraction of Tato seeds</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawTato</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawTato</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Tato_seeds>3</Tato_seeds>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>				
+			</operations>
+		</match>
+	</Operation>
+</Patch>

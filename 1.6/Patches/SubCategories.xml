@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch> 
+		     <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Traps"]/defNames</xpath>
+				<value>
+				<li>TrapIED_LidMineExplosive</li>
+				<li>TrapIED_PigMineExplosive</li>
+				<li>TrapIED_PlasmaMineExplosive</li>
+				<li>TrapIED_StanMineExplosive</li>
+				<li>ClaymoreNonLethal</li>
+				<li>Claymore</li>
+				</value>
+			 </Operation>
+	
+	
+	
+             <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Stove"]/defNames</xpath>
+				<value>
+				<li>Campfirewastelands</li>
+				</value>
+			 </Operation>
+			 
+			 
+	        <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_ResearchBenches"]/defNames</xpath>
+				<value>
+				<li>SubBrain</li>
+				</value>
+			 </Operation>
+			 
+			  <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Fortifications"]/defNames</xpath>
+				<value>
+				<li>ADVANCED_Embrasure</li>
+				</value>
+			 </Operation>
+			
+	
+</Patch>
+
+
+
+
+

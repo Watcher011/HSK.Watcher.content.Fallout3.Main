@@ -1,0 +1,16 @@
+C:\Users\----\Desktop\Watcher\Watcher\bin\Debug\Watcher.dll
+C:\Users\----\Desktop\Watcher\Watcher\bin\Debug\Watcher.pdb
+C:\Users\----\Desktop\Watcher\Watcher\obj\Debug\Watcher.csproj.AssemblyReference.cache
+C:\Users\----\Desktop\Watcher\Watcher\obj\Debug\Watcher.csproj.CoreCompileInputs.cache
+C:\Users\----\Desktop\Watcher\Watcher\obj\Debug\Watcher.dll
+C:\Users\----\Desktop\Watcher\Watcher\obj\Debug\Watcher.pdb
+C:\Users\----\Desktop\Watcher\Watcher\bin\Debug\UnityEngine.PhysicsModule.dll
+C:\Users\----\Desktop\Watcher\Watcher\obj\Debug\Watcher.csproj.Up2Date
+C:\Users\----\Desktop\Watcher\Watcher\bin\Debug\UnityEngine.IMGUIModule.dll
+C:\Users\----\Desktop\Watcher\Watcher\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\obj\Debug\Watcher.csproj.AssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\obj\Debug\Watcher.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\obj\Debug\Watcher.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\obj\Debug\Watcher.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\bin\Debug\Watcher.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\bin\Debug\Watcher.pdb

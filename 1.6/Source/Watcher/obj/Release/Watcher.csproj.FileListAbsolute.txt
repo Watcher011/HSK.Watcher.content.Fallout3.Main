@@ -1,0 +1,6 @@
+C:\Users\----\Desktop\Watcher\Watcher\bin\Release\Watcher.dll
+C:\Users\----\Desktop\Watcher\Watcher\bin\Release\Watcher.pdb
+C:\Users\----\Desktop\Watcher\Watcher\obj\Release\Watcher.csproj.AssemblyReference.cache
+C:\Users\----\Desktop\Watcher\Watcher\obj\Release\Watcher.csproj.CoreCompileInputs.cache
+C:\Users\----\Desktop\Watcher\Watcher\obj\Release\Watcher.dll
+C:\Users\----\Desktop\Watcher\Watcher\obj\Release\Watcher.pdb

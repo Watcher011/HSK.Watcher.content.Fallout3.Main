@@ -1,0 +1,48 @@
+<LanguageData>
+<Gecko_green.label>Зелёный гекко</Gecko_green.label>
+<Gecko_green.lifeStages.2.labelPlural>Зелёные гекко</Gecko_green.lifeStages.2.labelPlural>
+
+<Deathclaw.label>Коготь Смерти</Deathclaw.label>
+<Deathclaw.lifeStages.2.labelPlural>Когти Смерти</Deathclaw.lifeStages.2.labelPlural>
+
+<Cyberdog.label>Киберпёс</Cyberdog.label>
+<Cyberdog.lifeStages.0.label>Щенок киберпса</Cyberdog.lifeStages.0.label>
+<Cyberdog.lifeStages.0.labelPlural>Щенки киберпсов</Cyberdog.lifeStages.0.labelPlural>
+<Cyberdog.lifeStages.2.labelPlural>Киберпсы</Cyberdog.lifeStages.2.labelPlural>
+
+<Mirelurk.label>Тинник</Mirelurk.label>
+<Mirelurk.lifeStages.2.labelPlural>Тинники</Mirelurk.lifeStages.2.labelPlural>
+
+<Brahmin.label>Брамин</Brahmin.label>
+<Brahmin.labelMale>Брамин</Brahmin.labelMale>
+<Brahmin.lifeStages.0.label>телёнок</Brahmin.lifeStages.0.label>
+<Brahmin.lifeStages.0.labelPlural>телята</Brahmin.lifeStages.0.labelPlural>
+<Brahmin.lifeStages.2.labelPlural>Брамины</Brahmin.lifeStages.2.labelPlural>
+
+<RadDeer.label>Радио-олень</RadDeer.label>
+<RadDeer.labelPlural>Радио-олени</RadDeer.labelPlural>
+<RadDeer.labelMale>Радио-самец</RadDeer.labelMale>
+<RadDeer.labelFemale>Радио-самка</RadDeer.labelFemale>
+<RadDeer.lifeStages.2.labelPlural>Радио-олени</RadDeer.lifeStages.2.labelPlural>
+
+<GlowRadDeer.label>Светящийся радио-олень</GlowRadDeer.label>
+<GlowRadDeer.labelPlural>Светящиеся радио-олени</GlowRadDeer.labelPlural>
+<GlowRadDeer.labelMale>Радио-самец</GlowRadDeer.labelMale>
+<GlowRadDeer.labelFemale>Радио-самка</GlowRadDeer.labelFemale>
+<GlowRadDeer.lifeStages.2.labelPlural>Светящиеся радио-олени</GlowRadDeer.lifeStages.2.labelPlural>
+
+<MoleRat.label>Кротокрыса</MoleRat.label>
+<MoleRat.lifeStages.2.labelPlural>Кротокрысы</MoleRat.lifeStages.2.labelPlural>
+
+<MutantHound.label>Мутант-гончая</MutantHound.label>
+<MutantHound.labelPlural>Мутант-гончие</MutantHound.labelPlural>
+<MutantHound.lifeStages.0.label>Щенок мутант-гончей</MutantHound.lifeStages.0.label>
+<MutantHound.lifeStages.0.labelPlural>Щенки мутант-гончих</MutantHound.lifeStages.0.labelPlural>
+<MutantHound.lifeStages.2.labelPlural>Мутант-гончие</MutantHound.lifeStages.2.labelPlural>
+
+<Radboar.label>Радио-вепрь</Radboar.label>
+<Radboar.lifeStages.2.labelPlural>Радио-вепри</Radboar.lifeStages.2.labelPlural>
+
+<Glutton.label>Заглот</Glutton.label>
+<Glutton.lifeStages.0.labelPlural>Заглоты</Glutton.lifeStages.0.labelPlural>
+</LanguageData>

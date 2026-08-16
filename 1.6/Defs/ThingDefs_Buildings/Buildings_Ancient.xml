@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+<ThingDef ParentName="BuildingNaturalBase">
+    <defName>GECKPump</defName>
+    <label>GECK pump</label>
+    <description>G.E.K.K. is a portable agrocomplex, enclosed in a shockproof case made of polished glass and bulletproof glass. The device was developed as part of the pre-war state program "New Eden" for the rapid restoration of agriculture on fragile soils. Unlike stationary agricultural complexes, G.E.C.K. could be quickly deployed in any place where oases of fertility were made a strategic resource.</description>
+    <thingClass>Watcher.Buildings.Building_GECK</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <rotatable>true</rotatable>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(113,141,117,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>0.01</fuelConsumptionRate>
+        <fuelCapacity>1.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>NuclearBattery</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>1</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <showFuelGizmo>true</showFuelGizmo>
+        <fuelGizmoLabel>NuclearBattery</fuelGizmoLabel>
+      </li>
+      <li Class="CompProperties_PollutionPump">
+        <radius>50</radius>
+        <pumpEffecterDef>PollutionPumped</pumpEffecterDef>
+        <pumpsPerWastepack>6</pumpsPerWastepack>
+        <intervalTicks>15000</intervalTicks>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <!-- Новые свойства для GECK -->
+      <li Class="Watcher.Buildings.CompProperties_GECK">
+        <radius>30</radius>
+        <activationMessage>GECK has completed terraforming the area and has self-destructed. Fertile soil has been created in the surrounding area.</activationMessage>
+        <!-- Можно добавить activationEffect если есть подходящий EffecterDef -->
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>Things/Building/Misc/GECK</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <specialDisplayRadius>30</specialDisplayRadius>
+</ThingDef>
+
+
+
+<ThingDef ParentName="BuildingNaturalBase">
+    <defName>SEISMOSTABILIZER</defName>
+    <label>Tverd</label>
+    <description>The "Tverd" Seismic Stabilizer is a portable geophysical complex encased in a shockproof housing of reinforced glass and tungsten mesh. The device was developed as part of the pre-war state program "Citadel" to protect strategic objects from seismic activity.Unlike stationary seismic stations, "Tverd" could be rapidly deployed at any location where tectonic stability was considered a critical resource. Upon activation, the complex creates a local spatial fixation field, literally "freezing" ground shifts within a radius of up to 500 meters.The device is single-use — after activation, all internal components irreversibly degrade. Attempts to open the casing or extract internal elements lead to immediate detonation of the residual charge.Surviving instructions state: "Tverd is not intended for reuse. Any attempts to reproduce the technology without access to clean Vault-Tec laboratories will lead to catastrophic consequences." All manufacturing plants were destroyed in the first hours of the Great War.</description>
+	<thingClass>Building</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+   <!-- <defaultPlacingRot>South</defaultPlacingRot>-->
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>5000</MarketValue>
+    </statBases>
+    <comps>
+         <!--  <li Class="Watcher.Comps.CompProperties_WatcherSeismicStabilizer">
+                <destroyAfterUse>true</destroyAfterUse>
+                <showLoreWarning>true</showLoreWarning>
+            </li>-->
+	   <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(113,141,117,0)</glowColor>
+      </li>
+	 <li Class="Watcher.Comps.CompProperties_WatcherSeismicStabilizer">
+                <destroyAfterUse>false</destroyAfterUse>
+                <rechargeTicks>30000</rechargeTicks>
+                <maxUses>5</maxUses>
+                <showLoreWarning>true</showLoreWarning>
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>Things/Building/Misc/SEISMOSTABILIZER</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,0)</offset>
+      </shadowData>
+	  <drawOffset>(0, 0, 0.5)</drawOffset>
+	  <drawSize>(1.2,1.2)</drawSize>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+   
+</ThingDef>
+
+	
+	 <ThingDef ParentName="AncientMechBuildingBase">
+    <defName>Encephalon</defName>
+    <label>Encephalon-12</label>
+    <description>Externally, the system resembles a sealed life support capsule integrated with a Thinking Cap® computing unit. The system's central element is a bioprocessor module—a highly organized neural mass grown from pig tissue and human stem cells (a license has been obtained, and ethical objections have been resolved by the legal department)..</description>
+    <rotatable>false</rotatable>
+	 <tickerType>Normal</tickerType>
+	<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Misc/X</texPath>
+			<drawSize>(4,4)</drawSize>
+			<drawOffset>(0, 0, 0)</drawOffset>
+		</graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+	<size>(3,3)</size>
+	  <killedLeavings>
+            <Rubber>40</Rubber>
+			<Mechanism>5</Mechanism>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<NuclearBattery>3</NuclearBattery>
+    </killedLeavings>
+	 <comps>
+	  <li Class="CompProperties_MoteEmitter">
+      <!--  <mote>Mote_PsychicConditionCauserEffect</mote>-->
+		  <mote>Mote_AbductWarmupDistortionRing</mote>
+        <emissionInterval>350</emissionInterval>
+      </li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(17,212,33,0)</glowColor>
+			</li>
+	 <!--  <li Class="SK.CompProperties_ApplyHediffAround">
+		<hediff>AwokenCorpse</hediff>
+		<radius>450</radius>
+		<severityToAdd>0.005</severityToAdd>
+	  </li>-->
+    </comps>
+  </ThingDef>
+</Defs>

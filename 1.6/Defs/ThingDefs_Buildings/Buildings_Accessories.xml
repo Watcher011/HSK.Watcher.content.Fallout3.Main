@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="LampBase">
+		<defName>VaultLamp</defName>
+		<label>Emergency Oil Lamp "Eternal Sunshine"</label>
+		<description>"Because the apocalypse shouldn't mean sacrificing ambiance!"When the bombs fell, Vault-Tec knew survivors would need more than just food, water, and radiation suits—they’d need style. Introducing the "Eternal Glow" Emergency Oil Lamp, the pinnacle of pre-war luxury and post-war necessity!Crafted from the finest reclaimed scrap and topped with a patent-pending shatter-resistant glass dome (resistance not guaranteed), this lamp provides a warm, flickering glow to remind you of the good old days—before the world burned. Perfect for illuminating vault corridors, irradiated wastelands, or your next cannibal dinner party!</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Lights/VaultLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			 <shaderType>CutoutComplex</shaderType>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>15</Bulk>
+			<Mass>5</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+			<li>Ceramic</li>
+			<li>Precious</li>
+		</stuffCategories>
+		<costList>
+			<Mechanism>3</Mechanism>
+			<Glass>5</Glass>
+		</costList>
+		<costStuffCount>25</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompFueled_Properties">
+				<factorByDifficulty>false</factorByDifficulty>
+				<operatingTemp>300</operatingTemp>
+				<fireDrawOffset>(0,0,0)</fireDrawOffset>
+				<fireDrawScale>0.4</fireDrawScale>
+				<fuelDrawOffset>(0,0.1,0.01)</fuelDrawOffset>
+				<fuelDrawScale>0.7</fuelDrawScale>
+				<fuelCapacity>20</fuelCapacity>
+				<burnFuelMultiplier>8.6</burnFuelMultiplier>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeEnabled>false</smokeEnabled>
+				<effectOnWeather>true</effectOnWeather>
+				<smokeDensity>0</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Kindling</li>
+						<li>Chemfuel</li>
+						<li>Prometheum</li>
+						<li>NuclearBattery</li>
+					</thingDefs>
+					<categories>
+						<li>Wooden</li>
+						<li>Woody</li>
+					</categories>  
+				</fuelFilter>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>3.5</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompProperties_FireOverlayMod">
+				<fireSize>0.2</fireSize>
+				<finalFireSize>0.3</finalFireSize>
+				<offset>(0,0,0)</offset>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Flame</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Lit">
+						<offset>0.1</offset>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsLit">
+						<defs>
+							<li>Campfire</li>
+							<li>VaultLamp</li>
+							<li>BowlLamp</li>
+							<li>Candle</li>
+							<li>TorchLamp</li>
+							<li>TorchWallLamp</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+							<li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+							<li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<offsetPerBuilding>0.01</offsetPerBuilding>
+						<explanationKey>MeditationFocusPerFlame</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerFlameAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>SK.ITab_Fuel</li>
+		</inspectorTabs>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	
+		<ThingDef ParentName="LampBase">
+		<defName>Constructionlamp</defName>
+		<label>Survivor's Lantern</label>
+		<description>In a world of perpetual resource shortages, constant pirate raids, and a chronic lack of decent furniture, the "Survivor's Lantern™" isn’t just a lamp—it’s your new best friend, space heater, and potential weapon all in one!</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Lights/LampF</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.2, 0.1, 0.2)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0</fillPercent>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<rotatable>true</rotatable>
+		<pathCost>20</pathCost>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Glass>3</Glass>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ElectronicComponents>1</ElectronicComponents>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
+		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>3.5</heatPerSecond>
+				<heatPushMaxTemperature>15</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9</glowRadius>
+				<glowColor>(217,217,208,0)</glowColor>
+			</li>
+				<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>80</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<soundPowerOn>Power_OnSmall</soundPowerOn>
+				<soundPowerOff>Power_OffSmall</soundPowerOff>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.7</factor>
+					</li>
+				</powerUpgrades>
+			</li>
+		</comps>
+		<building>
+			<uninstallWork>300</uninstallWork>
+		</building>
+		 <altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<researchPrerequisites>
+			<li>Light_B1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+<!--	
+	<ThingDef ParentName="BuildingBase">
+    <defName>CommsConsole</defName>
+    <label>comms console</label>
+    <description>Allows radio contact with other factions and orbital traders.</description>
+    <thingClass>Building_CommsConsole</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Misc/VaultCommsConsole</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	   <shaderType>Transparent</shaderType>
+	   <drawOffset>(0,0,0.3)</drawOffset>
+      <drawSize>(0.8,0.8)</drawSize>
+      <damageData>
+        <rect>(0,0,1,0.8)</rect>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+	<defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+      <Flammability>0.6</Flammability>
+	  <Mass>20</Mass>
+	<Bulk>23</Bulk>
+    </statBases>
+    <size>(1,1)</size>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <isEdifice>false</isEdifice>
+    </building>
+      <stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Glass>15</Glass>
+			<Electronics>5</Electronics>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2100</uiOrder>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Usable" MayRequire="Ludeon.RimWorld.Biotech">
+        <useJob>TriggerObject</useJob>
+        <useLabel>Summon diabolus threat</useLabel>
+        <useDuration>900</useDuration>
+        <floatMenuOptionPriority>SummonThreat</floatMenuOptionPriority>
+        <floatMenuFactionIcon>Mechanoid</floatMenuFactionIcon>
+        <ignoreOtherReservations>true</ignoreOtherReservations>
+      </li>
+      <li Class="CompProperties_Useable_CallBossgroup" MayRequire="Ludeon.RimWorld.Biotech">
+        <bossgroupDef>Diabolus</bossgroupDef>
+        <spawnLetterLabelKey>LetterLabelCommsConsoleSpawned</spawnLetterLabelKey>
+        <spawnLetterTextKey>LetterCommsConsoleSpawned</spawnLetterTextKey>
+        <effecterDef>CommsConsoleBossgroupSummoned</effecterDef>
+        <delayTicks>120</delayTicks>
+      </li>
+    </comps>
+    <designationHotKey>Misc3</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Telecommunications_C1</li>
+    </researchPrerequisites>
+	<thingCategories>
+			<li>BuildingsMisc</li>
+	</thingCategories>
+	 <drawerType>MapMeshAndRealTime</drawerType>
+	<clearBuildingArea>false</clearBuildingArea>
+	<altitudeLayer>BuildingOnTop</altitudeLayer>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <passability>PassThroughOnly</passability>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType><!{1}** used by call bossgroup **{1}>
+  </ThingDef>-->
+  
+ <ThingDef ParentName="BuildingBase">
+		<defName>LabTerminal</defName>
+		<label>research terminal</label>
+		<description>Behold the future of technological progress! This terminal is the quintessence of the RobCo philosophy: maximum efficiency with minimal investment in the... ahem... "human factor."
+An employee no longer needs to study tedious textbooks for years or possess any hints of natural ingenuity. Simply insert a technological sample found in the ruins (the intake bay is reliably shielded with lead against most types of radioactive dust emanating from said samples), and our patented "Understand-O-Matic" software will do all the work for you!</description>
+		<thingClass>SK.Building_Lamp</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Research/terminal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(0.8)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<shadowData>
+				<volume>(0.85, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		 <canOverlapZones>false</canOverlapZones>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Glass>50</Glass>
+			<ElectronicComponents>7</ElectronicComponents>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>0.4</Flammability>
+			<ResearchSpeedFactor>0.65</ResearchSpeedFactor>
+			<Bulk>55</Bulk>
+			<Mass>30</Mass> 
+		</statBases>
+		<size>(1,1)</size>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>250</basePowerConsumption>
+				<shortCircuitInRain>true</shortCircuitInRain>
+			</li>
+			 <li Class="CompProperties_Glower">
+               <glowRadius>8</glowRadius>
+               <glowColor>(80,141,223,0)</glowColor>
+            </li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.08</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>Misc</designationCategory>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+	    <clearBuildingArea>false</clearBuildingArea>
+	    <altitudeLayer>BuildingOnTop</altitudeLayer>
+	    <minifiedDef>MinifiedThing</minifiedDef>
+        <passability>PassThroughOnly</passability>
+	 <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <isEdifice>false</isEdifice>
+     </building>
+	 <thingCategories>
+			<li>BuildingsMisc</li>
+	</thingCategories>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Research_table_C1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+	</ThingDef> 
+  
+  <ThingDef ParentName="FacilitiesBase">
+		<defName>SubBrain</defName>
+		<label>Sub Brain</label>
+		<description>Your "brilliant" guesses are his routine calculations in 3.5 seconds.Now our scientific staff is free for the really important tasks: finding coffee, cleaning test tubes and panicking.</description>
+		<thingClass>SK.Building_Lamp</thingClass>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Research/brain</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1)</drawSize>
+		<!--	 <drawOffset>(0,0,0.2)</drawOffset>-->
+			<shadowData>
+				<volume>(0.85, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<fillPercent>0.35</fillPercent>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>300</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>2</Beauty>
+			<Bulk>28</Bulk>
+			<Mass>14</Mass> 
+		</statBases>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Brain>1</Brain>
+		</costList>
+		<comps>
+		    <li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>250</basePowerConsumption>
+				<shortCircuitInRain>true</shortCircuitInRain>
+			</li>
+			 <li Class="CompProperties_Glower">
+               <glowRadius>8</glowRadius>
+               <glowColor>(80,141,223,0)</glowColor>
+            </li>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.35</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		 <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <isEdifice>false</isEdifice>
+        </building>
+		<designationCategory>Misc</designationCategory>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+	    <clearBuildingArea>false</clearBuildingArea>
+	    <altitudeLayer>BuildingOnTop</altitudeLayer>
+	    <minifiedDef>MinifiedThing</minifiedDef>
+        <passability>PassThroughOnly</passability>
+		<researchPrerequisites>
+			<li>Research_table_B2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+  
+  <ThingDef ParentName="LampBase">
+		<defName>MinesSign</defName>
+		<label>Mines sign</label>
+		<description>If you're reading this with one foot on a landmine, congratulations! You've won... natural selection.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Signs/mines</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			  <drawSize>(1.1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Filth</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>70</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Bulk>8</Bulk>
+			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>
+		</statBases>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+	</ThingDef>
+  
+   <ThingDef ParentName="LampBase">
+		<defName>SnipersSign</defName>
+		<label>Snipers sign</label>
+		<description>"Dear Traveler, Congratulations! You have just entered the special hospitality zone of the local snipers. These nice guys love unexpected surprises, especially when your head suddenly decides to get acquainted with their bullet. "Where some see a death trap, Vault-Tec™ sees an opportunity to increase... fatality statistics."</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Signs/snipers</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			  <drawSize>(1.1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Filth</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>70</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Bulk>8</Bulk>
+			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>
+		</statBases>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="LampBase">
+		<defName>TurretSign</defName>
+		<label>Turret sign</label>
+		<description>"Welcome to our hospitable kill zone!
+Here you will be greeted by our loyal, slightly impulsive friends — the automated turrets™! They are always happy to see new guests and express their joy in the form of high-speed lead hugs.
+The rules are simple:
+Run — they shoot.
+Walk — they shoot.
+Breathe — you get the idea.
+P.S. If you are reading this, it means the turrets haven't noticed you yet. Enjoy the moment!
+RobCo Corporation is not responsible for turning you into a sieve. You came here yourself."
+(In small print on the side: "Try our new model — the turret with the 'sarcastic comments' function! We promise, the last words will be unforgettable.")</description>
+		<graphicData>
+				<texPath>Things/Building/Furniture/Signs/turret</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			  <drawSize>(1.1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Filth</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>70</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Bulk>8</Bulk>
+			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>
+		</statBases>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="LampBase">
+		<defName>VaultLampFirefly</defName>
+		<label>Firefly Lantern</label>
+		<description>Inside a strong, hermetically sealed flask made of armored glass languishes our one and only miracle - the genetically modified Volt-Terra Illuminatus firefly! Thanks to advanced pre-war technology and generous doses of radiation, this creature emits not just light, but a full spectrum of life-giving radiation necessary for photosynthesis, as well as a small amount of soft gamma radiation for the "vigor" of plants.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Lights/FireflyLantern</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shaderType>CutoutComplex</shaderType>
+			 <drawSize>(1.5,1.5)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>15</Bulk>
+			<Mass>5</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+			<li>Ceramic</li>
+			<li>Precious</li>
+		</stuffCategories>
+		<costList>
+			<Glass>5</Glass>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<costStuffCount>50</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<placeWorkers>
+			<li>PlaceWorker_Heater</li>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="SK.CompFueled_Properties">
+				<factorByDifficulty>false</factorByDifficulty>
+				<operatingTemp>300</operatingTemp>
+				<fireDrawOffset>(0,0,0)</fireDrawOffset>
+				<fireDrawScale>0.4</fireDrawScale>
+				<fuelDrawOffset>(0,0.1,0.01)</fuelDrawOffset>
+				<fuelDrawScale>70.0</fuelDrawScale>
+				<fuelCapacity>10</fuelCapacity>
+				<burnFuelMultiplier>100</burnFuelMultiplier>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeEnabled>false</smokeEnabled>
+				<effectOnWeather>true</effectOnWeather>
+				<smokeDensity>0</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>RawMutfruit</li>
+						<li>RawTarberry</li>
+						<li>RawTato</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			  <li Class="CompProperties_Glower">
+              <overlightRadius>10.0</overlightRadius>
+              <glowRadius>18</glowRadius>
+               <glowColor>(370,370,370,0)</glowColor>
+            </li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>3.5</heatPerSecond>
+				<heatPushMaxTemperature>23</heatPushMaxTemperature>
+			</li>
+			 <li Class="Watcher.Comps.CompProperties_Firefly">
+				<offset>(0, 0, -0.05)</offset>
+				<fireSize>0.0</fireSize>
+				<finalFireSize>0.0</finalFireSize>
+				<speed>0.5</speed>
+			</li>
+		</comps>
+		<inspectorTabs>
+			<li>SK.ITab_Fuel</li>
+		</inspectorTabs>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+
+
+<ThingDef ParentName="BuildingBase">
+	  <defName>VaultTecBobbleheadMedicine</defName>
+    <label>Vault-Tec bobblehead medicine</label>
+		<description>This model from the "Volt Boy Pupis" collection depicts the hero in one of the most dramatic scenes from the "Health Crisis" comic, where he uses an experimental serum to save infected citizens. A distinctive feature of this figure is its removable accessory—a syringe filled with a clear blue liquid, symbolizing the serum. One of the rarest and most coveted pieces among collectors.</description>
+		<graphicData>
+			  <texPath>Things/Building/Art/VaultTecBobbleheadMedicine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			  <drawSize>(0.6,0.6)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>3</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<costStuffCount>50</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<MedicalTendQualityOffset>0.12</MedicalTendQualityOffset>
+					<MedicalTendSpeed>0.08</MedicalTendSpeed>
+					<ImmunityGainSpeedFactor>0.14</ImmunityGainSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>3</maxSimultaneous>
+			</li>
+		</comps>
+	     <tradeTags>
+            <li>ExoticBuilding</li>
+        </tradeTags>
+		 <thingSetMakerTags>
+           <li>RewardStandardCore</li>
+         </thingSetMakerTags>
+		  <thingCategories>
+            <li>BuildingsSpecial</li>
+         </thingCategories>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	
+	
+<ThingDef ParentName="BuildingBase">
+	  <defName>VaultTecBobbleheadScience</defName>
+    <label>Vault-Tec bobblehead science</label>
+		<description>This model from the Vault-Tec Bobblehead collection depicts the company's iconic mascot in a moment of genius. The figurine symbolizes Vault-Tec's unwavering commitment to scientific progress and the bright future the company envisioned for humanity underground. A distinctive feature of this piece is its removable accessory—a test tube containing a greenish solution, symbolizing advanced technology. It is one of the rarest and most coveted pieces among collectors, a reminder of the power of human intellect.</description>
+		<graphicData>
+			  <texPath>Things/Building/Art/VaultTecBobbleheadScience</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			  <drawSize>(0.6,0.6)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>3</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<costStuffCount>50</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.20</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+	     <tradeTags>
+            <li>ExoticBuilding</li>
+        </tradeTags>
+		 <thingSetMakerTags>
+           <li>RewardStandardCore</li>
+         </thingSetMakerTags>
+		  <thingCategories>
+            <li>BuildingsSpecial</li>
+         </thingCategories>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="BuildingBase">
+	  <defName>VaultTecBobbleheadMechanic</defName>
+    <label>Vault-Tec bobblehead mechanic</label>
+		<description>This model from the "Vault-Tec Bobblehead" collection depicts the company's legendary mascot, embodying the engineering genius that enabled the construction of the Vaults. The figurine symbolizes the indestructibility and flawless operation of the complex mechanisms designed to preserve the American way of life underground. A distinctive feature of this piece is its removable adjustable wrench, coated in a durable chrome finish, symbolizing the reliability of Vault-Tec technology. It is one of the rarest and most coveted pieces among collectors, a reminder of the power of the human hand and mind.</description>
+		<graphicData>
+			  <texPath>Things/Building/Art/VaultTecBobbleheadMechanic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			  <drawSize>(0.6,0.6)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>3</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<costStuffCount>50</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.50</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>4</maxSimultaneous>
+			</li>
+		</comps>
+	     <tradeTags>
+            <li>ExoticBuilding</li>
+        </tradeTags>
+		 <thingSetMakerTags>
+           <li>RewardStandardCore</li>
+         </thingSetMakerTags>
+		  <thingCategories>
+            <li>BuildingsSpecial</li>
+         </thingCategories>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="FacilitiesBase">
+    <defName>industrial_IV_stand</defName>
+    <label>Scarlet Dawn Stimulating IV</label>
+    <graphicData>
+        <texPath>Things/Building/Misc/stand</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+		 <drawOffset>(0,0,0.3)</drawOffset>
+        <shadowData>
+            <offset>(0,0,0)</offset>
+            <volume>(0.5, 0.3, 0.4)</volume>
+        </shadowData>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites>
+        <li>Clinical_C1</li>
+    </researchPrerequisites>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+        <MaxHitPoints>70</MaxHitPoints>
+        <WorkToBuild>1700</WorkToBuild>
+        <Bulk>16</Bulk>
+        <Mass>7</Mass>
+    </statBases>
+    <description>The system operates on the pre-war principle of "gravity is everything." No complex microchips that could be damaged by radiation! Just you, the law of gravity, and a bag of donor fluid hanging over your head.</description>
+    <size>(1,1)</size>
+    <stuffCategories>
+        <li>StrongMetallic</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+    <costList>
+        <ComponentIndustrial>7</ComponentIndustrial>
+        <Mechanism>3</Mechanism>
+    </costList>
+   <comps>
+    <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>80</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+    </li>
+	 <li Class="CompProperties_Glower">
+               <glowRadius>2</glowRadius>
+               <glowColor>(80,141,223,0)</glowColor>
+     </li>
+    <li Class="CompProperties_Facility">
+        <statOffsets>
+            <MedicalTendQualityOffset>0.05</MedicalTendQualityOffset>
+            <ImmunityGainSpeedFactor>0.02</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <maxDistance>6</maxDistance>
+    </li>
+    <li Class="CompProperties_Flickable"/>
+    <!-- Стандартный Refuelable -->
+    <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>0.0</fuelConsumptionRate>
+        <fuelCapacity>2.0</fuelCapacity>
+        <fuelFilter>
+            <thingDefs>
+                <li>HemogenPack</li>
+            </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+    </li>
+    <li Class="Watcher.Comps.CompProperties_IV_Drip">
+        <radius>2</radius>
+        <requiredTicksNear>250</requiredTicksNear>
+		<fuelConsumedPerTreatment>1</fuelConsumedPerTreatment> 
+        <hediffsToTreat>
+            <li>BloodLoss</li>
+        </hediffsToTreat>
+    </li>
+</comps>
+    <placeWorkers>
+        <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <rotatable>True</rotatable>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+</ThingDef>
+
+ 
+  
+<ThingDef ParentName="StandardBuilding">
+		<defName>poster</defName>
+	    <label>Poster</label>
+		<description>A faded rectangle of pressed fiber and ink, salvaged from the ruins and displaying whatever optimism the old world chose to print on it.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+				<texPath>Things/Building/Furniture/Lights/Poster</texPath>
+	    	<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(0.85,2.00)</drawSize>
+			<drawRotated>true</drawRotated>
+			<allowFlip>true</allowFlip>
+		</graphicData>
+		 <uiIconPath>Things/Building/Furniture/Lights/poster_ui</uiIconPath>
+		<altitudeLayer>PawnUnused</altitudeLayer>
+		<fillPercent>0.15</fillPercent>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<rotatable>true</rotatable>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+		  <Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>5</costStuffCount>
+		<costList>
+			<PaintingSupplies>1</PaintingSupplies>
+		</costList>
+		<surfaceType>Item</surfaceType>
+		<placeWorkers>
+			<li>SK.PlaceWorker_NotOnWall</li>
+			<li>SK.PlaceWorker_WallAttachment</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<thingCategories>
+			<li>BuildingsAccessories</li>
+		</thingCategories>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			<isEdifice>false</isEdifice>
+			<canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+		</building>
+		<clearBuildingArea>false</clearBuildingArea>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		 
+			<li Class="SK.CompProperties_RestrictedPlacement">
+				<compClass>SK.CompRestrictedPlacement</compClass>
+			</li>
+		</comps>
+		 <researchPrerequisites>
+        <li>Art_A1</li>
+        </researchPrerequisites>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+		<designationCategory>VaultTec</designationCategory>
+	</ThingDef>
+  
+  
+
+ <ThingDef ParentName="BuildingBase">
+    <defName>MusicRadio</defName>
+    <label>music radio</label>
+    <description>A vintage radio that plays soothing music, lifting the spirits of everyone nearby. Colonists can gather around to listen for entertainment and relaxation. The melodies work through walls, bringing comfort to the colony.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Radio/MusicRadio</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawOffset>(0,0,0.3)</drawOffset>
+      <drawSize>(0.8, 0.8)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.4, 0.3)</volume>
+        <offset>(0.0, 0.0, -0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0,0.5,1.0,0.5)</rect>
+      </damageData>
+    </graphicData>
+    <uiIconScale>1.0</uiIconScale>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+     <socialPropernessMatters>true</socialPropernessMatters>
+    <!-- Категория строительства -->
+    <designationCategory>Joy</designationCategory>
+    <uiIconPath>Things/Building/Furniture/Radio/MusicRadio_Ico</uiIconPath>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+      <joyKind>MusicRadioJoy</joyKind>
+      <uninstallWork>150</uninstallWork>
+      <isEdifice>false</isEdifice>
+      <watchBuildingStandDistanceRange>1~5</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>10</watchBuildingStandRectWidth>
+      <watchBuildingInSameRoom>false</watchBuildingInSameRoom>
+
+    </building>
+    
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+      <Beauty>2</Beauty>
+      <Mass>5</Mass>
+      <WorkToBuild>1500</WorkToBuild>
+         <JoyGainFactor>1.2</JoyGainFactor>
+    </statBases>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <clearBuildingArea>false</clearBuildingArea>
+    <fillPercent>0.15</fillPercent>
+    <pathCost>40</pathCost>
+    <passability>PassThroughOnly</passability>
+    <rotatable>true</rotatable>
+    <canOverlapZones>false</canOverlapZones>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeability>Sellable</tradeability>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <!-- Исправлено: правильный placeWorker -->
+    <placeWorkers>
+    <li>PlaceWorker_WatchArea</li>
+    </placeWorkers>
+    <researchPrerequisites>
+			<li>TubeTelevision</li>
+		</researchPrerequisites>
+  </ThingDef>
+ 
+</Defs>

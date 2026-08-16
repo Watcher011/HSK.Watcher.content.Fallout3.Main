@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <FactionDef ParentName="FactionBase">
+    <defName>Institute</defName>
+    <label>Institute</label>
+    <pawnSingular>Institute soldier</pawnSingular>
+    <pawnsPlural>Institute soldiers</pawnsPlural>
+    <listOrderPriority>30</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canSiege>true</canSiege>
+    <autoFlee>true</autoFlee>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>director</leaderTitle>
+    <earliestRaidDays>250</earliestRaidDays>
+    <mustStartOneEnemy>true</mustStartOneEnemy>
+	<factionNameMaker>NamerFactionInstitute</factionNameMaker>
+	<settlementNameMaker>NamerSettlementInstitute</settlementNameMaker>
+
+    <colorSpectrum>
+      	<li>(0.5, 0,0.3)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/Institute</factionIconPath>
+   
+    <techLevel>Spacer</techLevel>
+    <naturalEnemy>true</naturalEnemy>
+    <allowedCultures>
+       <li>Corporatocracy</li>
+    </allowedCultures>
+    <disallowedMemes>
+       <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibal</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NaturePrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Darkness</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistEmbodied</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+    </disallowedMemes>
+    <disallowedPrecepts>
+       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+    </disallowedPrecepts>
+    <requiredMemes>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+    </requiredMemes>
+    <structureMemeWeights>
+        <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Archist>
+    </structureMemeWeights>
+    <backstoryFilters>
+        <li>
+            <categories>
+                  <li>Institute</li>
+            </categories>
+            <commonality>1</commonality>
+        </li>
+    </backstoryFilters>
+    <visitorTraderKinds>
+        <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+        <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-50~50</allowedArrivalTemperatureRange>
+    <raidLootMaker>PirateRaidLootMaker</raidLootMaker>
+	 <raidLootValueFromPointsCurve>
+    <points>
+      <li>(0, 0)</li>
+      <li>(50, 20)</li>
+      <li>(100, 40)</li>
+      <li>(200, 70)</li>
+      <li>(500, 150)</li>
+      <li>(1000, 250)</li>
+      <li>(2000, 400)</li>
+      <li>(5000, 800)</li>
+      <li>(10000, 1400)</li>
+    </points>
+  </raidLootValueFromPointsCurve>
+    <raidCommonalityFromPointsCurve>
+        <points>
+            <li>(0, 0.001)</li>
+            <li>(3000, 0.03)</li>
+            <li>(12000, 0.2)</li>
+            <li>(15000, 1.0)</li>
+            <li>(20000, 1.2)</li>
+            <li>(25000, 1.1)</li>
+        </points>
+    </raidCommonalityFromPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
+        <points>
+            <li>(0, 450)</li>
+            <li>(12000, 550)</li>
+            <li>(20000, 650)</li>
+            <li>(100000, 12000)</li>
+        </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <apparelStuffFilter>
+        <categories>
+            <li>Metallic</li>
+        </categories>
+        <thingDefs>
+            <li>Plasteel</li>
+            <li>ComponentIndustrial</li>
+            <li>Uranium</li>
+            <li>Synthread</li>
+            <li>Hyperweave</li>
+            <li>Gold</li>
+            <li>Silver</li>
+        </thingDefs>
+    </apparelStuffFilter>
+    <pawnGroupMakers>
+        <li>
+            <kindDef>Combat</kindDef>
+            <commonality>50</commonality>
+            <options>
+                <Institute_Courser>35</Institute_Courser>
+                <Synth_Enforcer>25</Synth_Enforcer>
+                <Suppressor_Sniper>15</Suppressor_Sniper>
+                <Division_Agent>12</Division_Agent>
+                <Molecular_Harrier>8</Molecular_Harrier>
+                <Reclamation_Strider>5</Reclamation_Strider>
+            </options>
+        </li>
+        <li>
+            <kindDef>Combat</kindDef>
+            <commonality>50</commonality>
+            <options>
+                <Institute_Courser_Advanced>30</Institute_Courser_Advanced>
+                <Synth_Enforcer_Advanced>22</Synth_Enforcer_Advanced>
+                <Suppressor_Sniper_Advanced>18</Suppressor_Sniper_Advanced>
+                <Division_Agent_Advanced>15</Division_Agent_Advanced>
+                <Molecular_Harrier_Advanced>10</Molecular_Harrier_Advanced>
+                <Reclamation_Strider>5</Reclamation_Strider>
+            </options>
+        </li>
+        <li>
+            <kindDef>Peaceful</kindDef>
+            <options>
+                <Institute_Courser>40</Institute_Courser>
+                <Synth_Enforcer>25</Synth_Enforcer>
+                <Suppressor_Sniper>20</Suppressor_Sniper>
+                <Division_Agent>15</Division_Agent>
+            </options>
+        </li>
+        <li>
+            <kindDef>Settlement</kindDef>
+            <options>
+                  <Institute_Courser>35</Institute_Courser>
+                <Synth_Enforcer>25</Synth_Enforcer>
+                <Suppressor_Sniper>15</Suppressor_Sniper>
+                <Division_Agent>12</Division_Agent>
+                <Molecular_Harrier>8</Molecular_Harrier>
+                <Reclamation_Strider>5</Reclamation_Strider>
+				<Institute_Courser_Advanced>30</Institute_Courser_Advanced>
+                <Synth_Enforcer_Advanced>22</Synth_Enforcer_Advanced>
+                <Suppressor_Sniper_Advanced>18</Suppressor_Sniper_Advanced>
+                <Division_Agent_Advanced>15</Division_Agent_Advanced>
+                <Molecular_Harrier_Advanced>10</Molecular_Harrier_Advanced>
+                <Reclamation_Strider>5</Reclamation_Strider>
+            </options>
+        </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>54</configurationListOrderPriority>
+</FactionDef>
+
+
+<RulePackDef>
+    <defName>NamerFactionInstitute</defName>
+    <rulePack>
+      <rulesStrings>
+       <li>empire->Institute</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+<RulePackDef>
+    <defName>NamerSettlementInstitute</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>townend->Institute base</li>
+        <li>townend->Institute camp</li>
+        <li>townend->Institute outpost</li>
+        <li>townend->Institute laboratory</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+ 
+</Defs>
+

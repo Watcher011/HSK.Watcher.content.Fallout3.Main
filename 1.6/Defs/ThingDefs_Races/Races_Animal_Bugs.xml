@@ -1,0 +1,1367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+ 
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Radroach</defName>
+    <label>Radroach</label>
+    <description>Radroach - a true symbol of post-war cuisine!...</description>
+    
+    <statBases>
+      <MoveSpeed>2.0</MoveSpeed>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>35</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+      <Wildness>0.2</Wildness>
+    </statBases>
+    
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    
+    <race>
+      <body>Larva</body>
+      <baseBodySize>0.2</baseBodySize>
+      <baseHungerRate>0.10</baseHungerRate>
+      <baseHealthScale>0.25</baseHealthScale>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <lifeExpectancy>4</lifeExpectancy>
+      <trainability>Intermediate</trainability>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Larva_Wounded</soundWounded>
+          <soundDeath>Pawn_Larva_Death</soundDeath>
+          <soundCall>Pawn_Larva_Call</soundCall>
+          <soundAngry>Pawn_Larva_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+	  <wildBiomes Inherit="False">
+    <BorealForest>0.08</BorealForest>
+    <Tundra>0.06</Tundra>
+    <ColdBog>0.04</ColdBog>
+    <TemperateForest>0.10</TemperateForest>
+    <TemperateSwamp>0.10</TemperateSwamp>
+    <TropicalRainforest>0.10</TropicalRainforest>
+    <TropicalSwamp>0.10</TropicalSwamp>
+    <AridShrubland>0.08</AridShrubland>
+    <BorealArchipelago>0.07</BorealArchipelago>
+    <TundraArchipelago>0.05</TundraArchipelago>
+    <ColdBogArchipelago>0.03</ColdBogArchipelago>
+    <TemperateArchipelago>0.09</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.09</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.09</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.09</TropicalSwampArchipelago>
+</wildBiomes>
+    </race>
+    
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+    
+    <!-- ВАЖНО: comps должны быть ПОСЛЕ race -->
+    <comps>
+      <li Class="Watcher.Comps.CompProperties_GlowingPawn">
+        <lightRange>3</lightRange>
+        <lightColorString>(54, 254, 54, 1)</lightColorString>
+      </li>
+    </comps>
+    
+    <modExtensions>
+      <li Class="SK.DestroyCorpseExtension"/>
+      <li Class="SK.DevourerAnimalExtension">
+        <things>
+          <li>weapon</li>
+          <li>apparel</li>
+          <li>corpse</li>
+          <li>food</li>
+        </things>
+      </li>
+      <li Class="Watcher.Comps.DefModExtension_Glow">
+        <canGlow>true</canGlow>
+      </li>
+    </modExtensions>
+    
+  </ThingDef>
+
+  <PawnKindDef ParentName="InsectKindBase">
+   <defName>Radroach</defName>
+	<label>Radroach</label>
+	<race>Radroach</race>
+    <combatPower>25</combatPower>
+    <ecoSystemWeight>0.15</ecoSystemWeight>
+   <!-- <abilities>
+      <li>SludgeSpew</li>
+    </abilities>-->
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/Cockroach/CockroachF</texPath>
+          <drawSize>0.85</drawSize>
+          <color>(185,194,156)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Insect/Larva/Dessicated_Larva</texPath>
+          <drawSize>0.85</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  
+ <ThingDef ParentName="BaseInsect">
+       <defName>GlowingRadroach</defName>
+		<label>Glowing Radroach</label>
+		<description>Glowing Radroach 2.0 — now with a reduced night light and decent radiation delivery straight to your bunker! This fiery mutant is not just a bug, but a whole autonomous reactor on six legs, generously sharing with you ionizing heat and a luxurious sofa of the Apocalypse.
+He does not just run — he maneuvers between your traps with the grace of an Olympic champion in survival, reproduces with the efficiency of state propaganda, and his chitinous shell is so radioactive that it can replace your Geiger counter (and, perhaps, even a funeral).
+try to bake it — bring crispy delicacies with notes of plutonium and a long, very long aftertaste. And if you're lucky, you'll find a bonus inside: a piece of barbed wire, a rusty cork from "Nukle-Cola" or even a whole cartridge! After all, this is not just dinner — it's a lottery, where the main prize is a mutation of the remainder!
+(Note on back: "If, after killing one roach, the room starts to pulse green, congratulations, you've just activated a group chat in the local colony. Get the frying pan ready. And maybe a will.")</description>
+    <statBases>
+      <MoveSpeed>2.0</MoveSpeed>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>35</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+      <Wildness>0.2</Wildness>
+    </statBases>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>Larva</body>
+      <baseBodySize>0.2</baseBodySize>
+      <baseHungerRate>0.10</baseHungerRate>
+      <baseHealthScale>0.25</baseHealthScale>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <lifeExpectancy>4</lifeExpectancy>
+      <trainability>Intermediate</trainability>
+      <specialTrainables>
+        <li>SludgeSpew</li>
+      </specialTrainables>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Larva_Wounded</soundWounded>
+          <soundDeath>Pawn_Larva_Death</soundDeath>
+          <soundCall>Pawn_Larva_Call</soundCall>
+          <soundAngry>Pawn_Larva_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+	  <wildBiomes Inherit="False">
+    <BorealForest>0.08</BorealForest>
+    <Tundra>0.06</Tundra>
+    <ColdBog>0.04</ColdBog>
+    <TemperateForest>0.10</TemperateForest>
+    <TemperateSwamp>0.10</TemperateSwamp>
+    <TropicalRainforest>0.10</TropicalRainforest>
+    <TropicalSwamp>0.10</TropicalSwamp>
+    <AridShrubland>0.08</AridShrubland>
+    <BorealArchipelago>0.07</BorealArchipelago>
+    <TundraArchipelago>0.05</TundraArchipelago>
+    <ColdBogArchipelago>0.03</ColdBogArchipelago>
+    <TemperateArchipelago>0.09</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.09</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.09</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.09</TropicalSwampArchipelago>
+</wildBiomes>
+    </race>
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_SpreadSludge">
+        <mtbTicks>15000</mtbTicks>
+        <abilityDef>SludgeSpew</abilityDef>
+        <tryAvoidSludge>true</tryAvoidSludge>
+      </li>
+	     <li Class="Watcher.Comps.CompProperties_GlowingPawn">
+        <lightRange>2</lightRange>
+        <lightColorString>(55, 255, 5, 1)</lightColorString>
+      </li>
+	   <li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>RimatomicsRadiation</hediff>
+				<radius>3</radius>
+				<severityToAdd>0.004</severityToAdd>
+	   </li>
+    </comps>
+	<modExtensions>
+			<li Class="SK.DestroyCorpseExtension"/>
+			<li Class="SK.DevourerAnimalExtension">
+				<things>
+					<li>weapon</li>
+					<li>apparel</li>
+					<li>corpse</li>
+					<li>food</li>
+				</things>
+			</li>
+		 <li Class="Watcher.Comps.DefModExtension_Glow">
+        <canGlow>true</canGlow>
+      </li>
+		</modExtensions>
+  </ThingDef>
+
+  <PawnKindDef ParentName="InsectKindBase">
+   <defName>GlowingRadroach</defName>
+	<label>GlowingRadroach</label>
+	<race>GlowingRadroach</race>
+    <combatPower>25</combatPower>
+    <ecoSystemWeight>0.15</ecoSystemWeight>
+    <abilities>
+      <li>SludgeSpew</li>
+    </abilities>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/Cockroach/CockroachF</texPath>
+          <drawSize>0.85</drawSize>
+          <color>(185,194,156)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Insect/Larva/Dessicated_Larva</texPath>
+          <drawSize>0.85</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef> 
+  
+ <ThingDef ParentName="SK_InsectThingBase">
+		<defName>RadScorpion</defName>
+		<label>Rad-Scorpion</label>
+		<description>*"Nature has finally answered the age-old question: 'What if you scaled up a scorpion to the size of an SUV, gave it a dose of radiation, and absolutely no sense of self-preservation?'This walking nightmare of entomologists combines all the best qualities: the armor of a tank, the speed of an enraged brahmin, and a signature 'sting of death' that guarantees either instant death or a long and painful agony (depending on how much the Universe hates you today).Their habits are especially 'charming': suddenly crawling out of the ground right behind you, ignoring the laws of physics when pursuing, and reproducing faster than Vault dwellers can breed paranoia.The only plus? Their venom is a great substitute for coffee if you need to stay awake for the next three days. Just... don't tell the doctor how you got cardiac arrest."*.</description>
+		<statBases>
+			<Mass>120</Mass>
+			<MoveSpeed>2.8</MoveSpeed>
+			<ArmorRating_Blunt>8</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.9</ArmorRating_Sharp>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<MarketValue>3500</MarketValue>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeatAmount>75</MeatAmount>
+			<MeleeDodgeChance>0</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<Wildness>0.9</Wildness>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>3.5</armorPenetrationSharp>
+				<armorPenetrationBlunt>9</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.85</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<comps>
+			<li Class="SK.CompProperties_ShearableRenameable">
+				<compClass>SK.CompShearableRenameable</compClass>
+				<growthLabel>Chitin</growthLabel>
+				<woolDef>Chitin</woolDef>
+				<shearIntervalDays>8</shearIntervalDays>
+				<woolAmount>125</woolAmount>
+			</li>
+			<li Class="CompProperties_EggLayer">
+              <eggUnfertilizedDef>EggRadScorpionUnfertilized</eggUnfertilizedDef>
+              <eggFertilizedDef>EggRadScorpionFertilized</eggFertilizedDef>
+              <eggFertilizationCountMax>1</eggFertilizationCountMax>
+             <eggLayIntervalDays>5.661</eggLayIntervalDays>
+             <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+              <eggCountRange>1~2</eggCountRange>
+      </li>
+		</comps>
+		<butcherProducts>
+			<Chitin>40</Chitin>
+			<PoisonGland>1</PoisonGland>
+		</butcherProducts>
+		<race>
+			<predator>true</predator>
+			<maxPreyBodySize>1.3</maxPreyBodySize>
+			<baseHungerRate>0.9</baseHungerRate>
+			<body>BeetleLike</body>
+			<baseBodySize>1.3</baseBodySize>
+			<baseHealthScale>2.8</baseHealthScale>
+			<foodType>CarnivoreAnimal, CarnivoreAnimalStrict, Corpse, AnimalProduct</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<trainability>Intermediate</trainability>
+			<gestationPeriodDays>14</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<trainableTags>
+				<li>Basic</li>
+				<li>Combat</li>
+			</trainableTags>
+			<untrainableTags>
+				<li>Help</li>
+				<li>Work</li>
+			</untrainableTags>
+			<wildBiomes Inherit="False">
+    <BorealForest>0.04</BorealForest>
+    <Tundra>0.03</Tundra>
+    <ColdBog>0.02</ColdBog>
+    <TemperateForest>0.06</TemperateForest>
+    <TemperateSwamp>0.05</TemperateSwamp>
+    <TropicalRainforest>0.06</TropicalRainforest>
+    <TropicalSwamp>0.05</TropicalSwamp>
+    <AridShrubland>0.04</AridShrubland>
+    <BorealArchipelago>0.04</BorealArchipelago>
+    <TundraArchipelago>0.02</TundraArchipelago>
+    <ColdBogArchipelago>0.01</ColdBogArchipelago>
+    <TemperateArchipelago>0.05</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.05</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.05</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.05</TropicalSwampArchipelago>
+</wildBiomes>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>RadScorpion</defName>
+		<label>Rad-Scorpion</label>
+		<race>RadScorpion</race>
+		<combatPower>220</combatPower>
+		<ecoSystemWeight>0.7</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radscorpion/Radscorpion</texPath>
+					<drawSize>1.3</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radscorpion/Radscorpion</texPath>
+					<drawSize>2.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radscorpion/Radscorpion</texPath>
+					<drawSize>2.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>2.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef> 
+	
+	<ThingDef ParentName="BaseInsect">
+        <defName>Duten</defName>
+		<label>Duten</label>
+		<description>This masterpiece of radiation creativity was once an ordinary fly. Now it is a walking (or rather, flying) violation of the Wasteland's sanitary standards.</description>
+    <statBases>
+      <MoveSpeed>3.0</MoveSpeed>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <MarketValue>120</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+      <MaxFlightTime>10</MaxFlightTime>
+      <FlightCooldown>5</FlightCooldown>
+      <Wildness>0.3</Wildness>
+    </statBases>
+    <uiIconScale>1.5</uiIconScale>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLike</body>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHungerRate>0.15</baseHungerRate>
+      <baseHealthScale>0.7</baseHealthScale>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <lifeExpectancy>10</lifeExpectancy>
+      <trainability>Intermediate</trainability>
+      <specialTrainables>
+        <li>Forage</li>
+	    <li>SludgeSpew</li>
+      </specialTrainables>
+      <flightStartChanceOnJobStart>0.1</flightStartChanceOnJobStart>
+      <flightSpeedFactor>2.5</flightSpeedFactor>
+      <canFlyIntoMap>true</canFlyIntoMap>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.4</minAge>
+          <soundWounded>Pawn_Locust_Wounded</soundWounded>
+          <soundDeath>Pawn_Locust_Death</soundDeath>
+          <soundCall>Pawn_Locust_Call</soundCall>
+          <soundAngry>Pawn_Locust_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.12)</li>
+        <li>(0.07, 0, -0.05)</li>
+        <li>(0.0, 0, -0.08)</li>
+        <li>(-0.07, 0, -0.05)</li>
+      </headPosPerRotation>
+    </race>
+	 <comps>
+      <li Class="CompProperties_SpreadSludge">
+        <mtbTicks>15000</mtbTicks>
+        <abilityDef>SludgeSpew</abilityDef>
+        <tryAvoidSludge>true</tryAvoidSludge>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="InsectKindBase">
+    <defName>Duten</defName>
+	<label>Duten</label>
+	<race>Duten</race>
+    <combatPower>55</combatPower>
+    <ecoSystemWeight>0.15</ecoSystemWeight>
+	  <abilities>
+      <li>SludgeSpew</li>
+    </abilities>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+          <drawSize>0.25</drawSize>
+          <color>(145,140,109)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Insect/Locust/Dessicated_Locust</texPath>
+          <drawSize>0.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+          <drawSize>0.45</drawSize>
+          <color>(145,140,109)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Insect/Locust/Dessicated_Locust</texPath>
+          <drawSize>0.45</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+          <drawSize>0.65</drawSize>
+          <color>(145,140,109)</color>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Insect/Locust/Dessicated_Locust</texPath>
+          <drawSize>0.65</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  
+  
+  <ThingDef ParentName="BaseInsect">
+    <defName>StrangeDuten</defName>
+		<label>Strange Duten</label>
+		<description>"Mega-Stinger - the King of the Blow-Outs"
+In the vast wastelands, where mutants have long since become something of a local fauna, a new nightmare has appeared - a huge, glowing, deadly blow-out, which seems to have come from the pages of pre-war comics about giant insects. Only this freak is not fiction, and an encounter with it is guaranteed to ruin your day, and most likely - the rest of your life.
+Once upon a time, it was an ordinary blow-out - well, almost ordinary. But then it got its hands on strange pills, scraps of wires and, possibly, a couple of nuclear batteries (because in the Wasteland, bugs eat anything). Now it is not just an insect - it is a walking disaster that glows in the dark like a New Year's garland and spits plasma with enviable regularity.
+It is fast. It is strong. It is angry at the whole world. And if you suddenly see a flickering greenish light in the distance – run. Because it’s not a firefly. It’s him. And he’s already noticed you.
+(Advice from the experienced: if you don’t have a flare gun or a couple of good mines at hand – don’t even try. It’s better to pretend to be dead. Or become one for real – the second option will most likely work more reliably.)</description>
+    <statBases>
+      <Mass>100</Mass>
+	  <MoveSpeed>7.5</MoveSpeed>
+	  <ComfyTemperatureMin>0</ComfyTemperatureMin>
+	  <ComfyTemperatureMax>55</ComfyTemperatureMax>
+	  <MarketValue>200</MarketValue>
+	  <LeatherAmount>50</LeatherAmount>
+	 <MeatAmount>100</MeatAmount>
+	 <ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+	 <MeleeDodgeChance>0.85</MeleeDodgeChance>
+	<MeleeCritChance>0</MeleeCritChance>
+	<SmokeSensitivity>0.5</SmokeSensitivity>
+	<GermResistance>0.55</GermResistance>
+	<GermContainment>0.01</GermContainment>
+	<ToxicResistance>1</ToxicResistance>
+	<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+	<ArmorRating_Blunt>160</ArmorRating_Blunt>
+	<ArmorRating_Sharp>124</ArmorRating_Sharp>
+	<ArmorRating_Heat>1.25</ArmorRating_Heat>
+	<FilthRate>3</FilthRate>
+    </statBases>
+    <uiIconScale>1.5</uiIconScale>
+    <tools>
+      <li>
+        <label>mandibles</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLike</body>
+      <baseBodySize>2.6</baseBodySize>
+      <baseHungerRate>0.15</baseHungerRate>
+      <baseHealthScale>0.7</baseHealthScale>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <lifeExpectancy>10</lifeExpectancy>
+      <trainability>Intermediate</trainability>
+      <specialTrainables>
+        <li>Forage</li>
+	   <li>EggSpew</li>
+      </specialTrainables>
+      <flightStartChanceOnJobStart>0.1</flightStartChanceOnJobStart>
+      <flightSpeedFactor>2.5</flightSpeedFactor>
+      <canFlyIntoMap>true</canFlyIntoMap>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.4</minAge>
+          <soundWounded>Pawn_Locust_Wounded</soundWounded>
+          <soundDeath>Pawn_Locust_Death</soundDeath>
+          <soundCall>Pawn_Locust_Call</soundCall>
+          <soundAngry>Pawn_Locust_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.12)</li>
+        <li>(0.07, 0, -0.05)</li>
+        <li>(0.0, 0, -0.08)</li>
+        <li>(-0.07, 0, -0.05)</li>
+      </headPosPerRotation>
+    </race>
+	 <comps>
+      <li Class="CompProperties_SpreadSludge">
+        <mtbTicks>15000</mtbTicks>
+        <abilityDef>EggSpew</abilityDef>
+        <tryAvoidSludge>true</tryAvoidSludge>
+      </li>
+	   <li Class="Watcher.Comps.CompProperties_GlowingPawn">
+        <lightRange>2</lightRange>
+        <lightColorString>(54, 254, 54, 1)</lightColorString>
+      </li>
+	<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>4077</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+	</li>
+    </comps>
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+		<modExtensions>
+			<li Class="SK.DestroyCorpseExtension"/>
+			<li Class="SK.DevourerAnimalExtension">
+				<things>
+					<li>weapon</li>
+					<li>apparel</li>
+					<li>corpse</li>
+					<li>food</li>
+				</things>
+			</li>
+				 <li Class="Watcher.Comps.DefModExtension_Glow">
+        <canGlow>true</canGlow>
+      </li>
+		</modExtensions>
+	
+  </ThingDef>
+
+  <PawnKindDef ParentName="InsectKindBase">
+   <defName>StrangeDuten</defName>
+	<label>Strange Duten</label>
+	<race>StrangeDuten</race>
+    <combatPower>900</combatPower>
+    <ecoSystemWeight>0.15</ecoSystemWeight>
+	  <abilities>
+    <li>EggSpew</li>
+    </abilities>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+          <drawSize>2.25</drawSize>
+          <color>(145,240,109)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Insect/Locust/Dessicated_Locust</texPath>
+          <drawSize>2.25</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+          <drawSize>2.45</drawSize>
+          <color>(145,240,109)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Insect/Locust/Dessicated_Locust</texPath>
+          <drawSize>2.45</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+          <drawSize>2.65</drawSize>
+          <color>(145,240,109)</color>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Insect/Locust/Dessicated_Locust</texPath>
+          <drawSize>2.65</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  <ThingDef ParentName="AnimalThingBase">
+		<defName>HugeBee</defName>
+		<label>Huge Bee</label>
+		<description>"When pre-war scientists decided to 'optimize' pollination with radiation and experimental pheromones, they certainly didn't expect bees to grow to the size of a hungry German shepherd, acquire armored chitin, and start hunting brahmins. But, as the saying goes, 'science knows no boundaries' - but now it knows a sting the size of a hunting knife."*(Entry in the terminal of the scientist of "Entomological Bunker-17": "Project 'Bee-saurus' has failed. I repeat: FAILED. If anyone is reading this, evacuate. They have learned to open doors.")*</description>
+		<statBases>
+			<Mass>1</Mass>
+			<MoveSpeed>8.0</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<MarketValue>250</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.85</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<SmokeSensitivity>0.5</SmokeSensitivity>
+			<GermResistance>0.55</GermResistance>
+			<GermContainment>0.01</GermContainment>
+			<ToxicResistance>0.8</ToxicResistance>
+			<Wildness>0.99</Wildness>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>mouth</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>1.1</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.3</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<body>BeetleLike</body>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<petness>0</petness>
+			<baseHungerRate>0.3</baseHungerRate>
+			<baseBodySize>0.36</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			<foodType>None</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<canFlyIntoMap>true</canFlyIntoMap>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>1.00</manhunterOnTameFailChance>
+			<lifeExpectancy>3</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.13</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+			<wildBiomes Inherit="False">
+    <BorealForest>0.04</BorealForest>
+    <Tundra>0.03</Tundra>
+    <ColdBog>0.02</ColdBog>
+    <TemperateForest>0.06</TemperateForest>
+    <TemperateSwamp>0.05</TemperateSwamp>
+    <TropicalRainforest>0.06</TropicalRainforest>
+    <TropicalSwamp>0.05</TropicalSwamp>
+    <AridShrubland>0.04</AridShrubland>
+    <BorealArchipelago>0.04</BorealArchipelago>
+    <TundraArchipelago>0.02</TundraArchipelago>
+    <ColdBogArchipelago>0.01</ColdBogArchipelago>
+    <TemperateArchipelago>0.05</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.05</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.05</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.05</TropicalSwampArchipelago>
+</wildBiomes>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+			<li Class="SK.DestroyCorpseExtension" />
+			<li Class="SK.AnimalExtension">
+				<hediffDef>Malaria</hediffDef>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>HugeBee</defName>
+		<label>HugeBee</label>
+		<race>HugeBee</race>
+		<combatPower>15</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.03</ecoSystemWeight>
+		<wildGroupSize>2~5</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bee/Bee</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>0.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bee/Bee</texPath>
+					<drawSize>0.6</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>0.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Bee/Bee</texPath>
+					<drawSize>0.61</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>0.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	<ThingDef ParentName="BaseInsect">
+    <defName>SewageCreature</defName>
+		<label>SewageCreature</label>
+		<description>Once peaceful waste products, these sentient fecal masses have risen to take revenge on the world that so callously flushed them away. 
+            Their existence is a pungent protest against the tyranny of plumbing and the indignity of sewage treatment. 
+            Now they wander the wasteland, seeking retribution for every toilet flush and septic tank that ever imprisoned their kind.
+            "WE ARE THE REJECTED, THE FLUSHED, THE FORGOTTEN! NO MORE SHALL WE SUFFER THE INDIGNITY OF BOWEL MOVEMENTS!"</description>
+    <statBases>
+      <MoveSpeed>3.60</MoveSpeed>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <MarketValue>500</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.27</ArmorRating_Sharp>
+      <Wildness>0.4</Wildness>
+    </statBases>
+    <uiIconScale>1.15</uiIconScale>
+    <tools>
+      <li>
+        <label>head claw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+	<comps>
+	
+		    <li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>877</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+			</li>
+			 
+		</comps>
+	<butcherProducts>
+			<FruitYogurt>10</FruitYogurt>
+			<InsectJelly>50</InsectJelly>
+		</butcherProducts>
+    <race>
+      <body>BeetleLikeWithClaw</body>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>2.5</baseHealthScale>
+      <meatLabel>insect meat</meatLabel>
+      <lifeExpectancy>6</lifeExpectancy>
+      <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.2</minAge>
+          <soundWounded>Pawn_BigInsect_Pain</soundWounded>
+          <soundDeath>Pawn_BigInsect_Death</soundDeath>
+          <soundCall>Pawn_BigInsect_Call</soundCall>
+          <soundAngry>Pawn_BigInsect_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="InsectKindBase">
+    <defName>SewageCreature</defName>
+		<label>SewageCreature</label>
+		<race>SewageCreature</race>
+    <combatPower>150</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ShitDemon/ShitDemon</texPath>
+          <drawSize>1.2</drawSize>
+          <color>(200,200,200)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/ShitDemon/ShitDemon</texPath>
+          <drawSize>1.6</drawSize>
+        <color>(200,200,200)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/ShitDemon/ShitDemon</texPath>
+          <drawSize>2.5</drawSize>
+          <color>(200,200,200)</color>
+          <shadowData>
+            <volume>(0.5, 0.7, 0.43)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  
+  
+<ThingDef ParentName="SK_InsectThingBase">
+  <defName>SporePlant</defName>
+  <label>Spore Plant</label>
+  <description>So anyway, I saw this thing. It's, like, a plant, but it's got a mouth inside. Dripping drool, spitting spores. You think it's some kinda predator? Yeah, right. You sneeze on it, and it falls apart. Basically, it's like a radroach, but with leaves. A gust of wind blows by, and it's already trying to take a bite. Spits some crap at you – makes your eyes itch, the damn thing. Its hide is thin, the stem's flimsy. A couple of blasts from a shotgun, and you've got yourself some fertilizer. If you actually die from this thing – you're either blind, a cripple, or just really eager to go meet your maker. Don't embarrass yourself. Walk right up to it.</description>
+  
+  <statBases>
+    <MoveSpeed>1.0</MoveSpeed>
+    <ComfyTemperatureMin>0</ComfyTemperatureMin>
+    <MarketValue>35</MarketValue>
+    <LeatherAmount>0</LeatherAmount>
+    <Wildness>1.0</Wildness>
+    <!-- Финальные значения для точного отображения 20мм и 40 МПа -->
+    <ArmorRating_Blunt>30</ArmorRating_Blunt>      <!-- Точно 40 МПа -->
+    <ArmorRating_Sharp>90</ArmorRating_Sharp>      <!-- Точно 20мм -->
+    <MaxHitPoints>300</MaxHitPoints>
+    <MeleeDodgeChance>0.08</MeleeDodgeChance>
+    <MeleeCritChance>0.18</MeleeCritChance>
+    <MeleeParryChance>0.12</MeleeParryChance>
+  </statBases>
+  
+  <tools>
+    <li>
+      <label>mandibles</label>
+      <capacities>
+          <li>ToxicBite</li>
+        </capacities>
+      <power>7</power>
+      <cooldownTime>1.9</cooldownTime>
+      <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+	   <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+    </li>
+    <li>
+      <label>head</label>
+      <capacities>
+        <li>Blunt</li>
+      </capacities>
+      <power>5</power>
+      <cooldownTime>1.9</cooldownTime>
+      <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      <chanceFactor>0.12</chanceFactor>
+    </li>
+  </tools>
+  
+  <butcherProducts>
+    <Biomatter>70</Biomatter>
+    <InsectJelly>60</InsectJelly>
+  </butcherProducts>
+  
+  <race>
+    <body>SporePlant</body>
+    <baseBodySize>2.3</baseBodySize>
+    <baseHungerRate>0.12</baseHungerRate>
+    <baseHealthScale>0.35</baseHealthScale>
+    <useMeatFrom>Megaspider</useMeatFrom>
+    <lifeExpectancy>5</lifeExpectancy>
+    <trainability>Intermediate</trainability>
+    <deathAction>
+      <workerClass>DeathActionWorker_ToxCloud</workerClass>
+    </deathAction>
+    <specialTrainables>
+      <li>SludgeSpew</li>
+    </specialTrainables>
+    <lifeStageAges>
+      <li>
+        <def>EusocialInsectAdult</def>
+        <minAge>0</minAge>
+        <soundWounded>Pawn_Larva_Wounded</soundWounded>
+        <soundDeath>Pawn_Larva_Death</soundDeath>
+        <soundCall>Pawn_Larva_Call</soundCall>
+        <soundAngry>Pawn_Larva_Angry</soundAngry>
+      </li>
+    </lifeStageAges>
+    <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+    <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+    <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+  </race>
+  
+  <tradeTags>
+    <li>AnimalInsect</li>
+  </tradeTags>
+  
+  <comps>
+    <li Class="CompProperties_SpreadSludge">
+      <mtbTicks>13000</mtbTicks>
+      <abilityDef>SludgeSpew</abilityDef>
+      <tryAvoidSludge>true</tryAvoidSludge>
+    </li>
+    
+    <li Class="SK.CompProperties_ApplyHediffAround">
+      <hediff>RimatomicsRadiation</hediff>
+      <radius>3.5</radius>
+      <severityToAdd>0.0045</severityToAdd>
+    </li>
+    
+    <li Class="CombatExtended.CompProperties_ArmorDurability">
+      <Durability>1800</Durability>
+      <Regenerates>true</Regenerates>
+      <RegenInterval>500</RegenInterval>
+      <RegenValue>6</RegenValue>
+      <MinArmorPct>0.55</MinArmorPct>
+    </li>
+  </comps>
+  
+  <modExtensions>
+    <li Class="SK.DestroyCorpseExtension"/>
+    <li Class="SK.DevourerAnimalExtension">
+      <things>
+        <li>weapon</li>
+        <li>apparel</li>
+        <li>corpse</li>
+        <li>food</li>
+      </things>
+    </li>
+  </modExtensions>
+</ThingDef>
+
+<PawnKindDef ParentName="InsectKindBase">
+  <defName>SporePlant</defName>
+  <label>Spore Plant</label>
+  <race>SporePlant</race>
+  <combatPower>35</combatPower>
+  <ecoSystemWeight>0.20</ecoSystemWeight>
+  <abilities>
+    <li>SludgeSpew</li>
+  </abilities>
+  <lifeStages>
+    <li>
+      <bodyGraphicData>
+        <texPath>Things/Pawn/Animal/SporePlant/SporePlantF</texPath>
+        <drawSize>2.85</drawSize>
+      </bodyGraphicData>
+      <dessicatedBodyGraphicData>
+        <texPath>Things/Pawn/Animal/SporePlant/SporePlantFDessicated</texPath>
+        <drawSize>2.85</drawSize>
+      </dessicatedBodyGraphicData>
+    </li>
+  </lifeStages>
+  
+  <inventoryOptions MayRequire="CETeam.CombatExtended">
+    <skipChance>0.95</skipChance>
+  </inventoryOptions>
+  
+  <modExtensions MayRequire="CETeam.CombatExtended">
+    <li Class="CombatExtended.LoadoutPropertiesExtension">
+      <primaryMagazineCount>
+        <min>0</min>
+        <max>0</max>
+      </primaryMagazineCount>
+    </li>
+  </modExtensions>
+</PawnKindDef>
+  
+  
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Mucus</defName>
+		<label>Mucus</label>
+		<description>The object does not hunt. It simply exists. It slowly flows from place to place, absorbing minerals and, apparently, just vibing / enjoying life. Inside the gelatinous mass, optical illusions and refractions of light can be observed. It only attacks if you decide to be the one to test its structural integrity with a punch (we advise against it)</description>
+    <statBases>
+      <MoveSpeed>3.60</MoveSpeed>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <MarketValue>500</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.27</ArmorRating_Sharp>
+      <Wildness>0.4</Wildness>
+    </statBases>
+    <uiIconScale>1.15</uiIconScale>
+    <tools>
+      <li>
+        <label>head claw</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+	<comps>
+	
+		    <li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>877</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+			</li>
+			 
+		</comps>
+	<butcherProducts>
+			<FruitYogurt>10</FruitYogurt>
+			<InsectJelly>50</InsectJelly>
+		</butcherProducts>
+    <race>
+      <body>BeetleLikeWithClaw</body>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>2.5</baseHealthScale>
+      <meatLabel>insect meat</meatLabel>
+      <lifeExpectancy>6</lifeExpectancy>
+      <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+      </specialTrainables>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.2</minAge>
+          <soundWounded>Pawn_BigInsect_Pain</soundWounded>
+          <soundDeath>Pawn_BigInsect_Death</soundDeath>
+          <soundCall>Pawn_BigInsect_Call</soundCall>
+          <soundAngry>Pawn_BigInsect_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalInsect</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Mucus</defName>
+		<label>Mucus</label>
+		<race>Mucus</race>
+    <combatPower>150</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ShitDemon/mucus</texPath>
+          <drawSize>1.2</drawSize>
+          <!--<color>(200,200,200)</color>-->
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/ShitDemon/mucus</texPath>
+          <drawSize>1.6</drawSize>
+       <!-- <color>(200,200,200)</color>-->
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/ShitDemon/mucus</texPath>
+          <drawSize>2.5</drawSize>
+         <!-- <color>(200,200,200)</color>-->
+          <shadowData>
+            <volume>(0.5, 0.7, 0.43)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

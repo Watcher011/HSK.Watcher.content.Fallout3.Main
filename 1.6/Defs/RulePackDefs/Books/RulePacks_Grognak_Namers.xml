@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+   <RulePackDef>
+    <defName>Namer_ComicsBook</defName>
+    <include>
+      <li>ArtNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- General -->
+        <li>title->[titleBasic]</li>
+        <li>title->[titleAdjective] [titleSubject]</li>
+        <li>title->[titleSubject]: [titleSubtitle]</li>
+        <li>title->The [titleAdjective] [titleSubject]</li>
+        <li>title->[titleNumber]: [titleSubtitle]</li>
+        
+        <!-- Basic Titles -->
+        <li>titleBasic(p=6)->[randAdjective]</li>
+        <li>titleBasic->[heroName] and [titleSubtitle]</li>
+        <li>titleBasic->[heroName] in [titleSubtitle]</li>
+        <li>titleBasic->[heroName] vs. [villainName]</li>
+        <li>titleBasic->The [titleAdjective] [titleSubject]</li>
+        
+        <!-- Hero Names -->
+        <li>heroName->Grognak the Barbarian</li>
+        <li>heroName->Captain Photon</li>
+        <li>heroName->Stellar Ranger</li>
+        <li>heroName->Mecha-Man</li>
+        <li>heroName->Quantum Kid</li>
+        <li>heroName->Astro-Adventurer</li>
+        <li>heroName->Rocket Girl</li>
+        <li>heroName->Cosmic Crusader</li>
+        <li>heroName->Neon Knight</li>
+        <li>heroName->Star Sergeant</li>
+        
+        <!-- Villain Names -->
+        <li>villainName->Doctor Doom</li>
+        <li>villainName->The Crimson Claw</li>
+        <li>villainName->Lord Vile</li>
+        <li>villainName->Queen Malice</li>
+        <li>villainName->The Shadow King</li>
+        <li>villainName->Mecha-Monster</li>
+        <li>villainName->Galactic Ghoul</li>
+        <li>villainName->Professor Chaos</li>
+        
+        <!-- Adjectives -->
+        <li>titleAdjective->Amazing</li>
+        <li>titleAdjective->Incredible</li>
+        <li>titleAdjective->Fantastic</li>
+        <li>titleAdjective->Mighty</li>
+        <li>titleAdjective->Secret</li>
+        <li>titleAdjective->Dark</li>
+        <li>titleAdjective->Future</li>
+        <li>titleAdjective->Atomic</li>
+        <li>titleAdjective->Cosmic</li>
+        <li>titleAdjective->Galactic</li>
+        
+        <!-- Subjects -->
+        <li>titleSubject->Adventure</li>
+        <li>titleSubject->Quest</li>
+        <li>titleSubject->Battle</li>
+        <li>titleSubject->Mystery</li>
+        <li>titleSubject->Journey</li>
+        <li>titleSubject->Saga</li>
+        <li>titleSubject->Chronicle</li>
+        <li>titleSubject->Legend</li>
+        <li>titleSubject->Tale</li>
+        <li>titleSubject->Story</li>
+        
+        <!-- Subtitles -->
+        <li>titleSubtitle->[subtitleBeginning] [subtitleEnd]</li>
+        <li>titleSubtitle->[subtitleLocation] [subtitleThreat]</li>
+        <li>titleSubtitle->[subtitleAction] [subtitleTarget]</li>
+        
+        <li>subtitleBeginning->Return to</li>
+        <li>subtitleBeginning->Attack of</li>
+        <li>subtitleBeginning->Revenge of</li>
+        <li>subtitleBeginning->Rise of</li>
+        <li>subtitleBeginning->Fall of</li>
+        <li>subtitleBeginning->Secret of</li>
+        <li>subtitleBeginning->Curse of</li>
+        <li>subtitleBeginning->Legacy of</li>
+        
+        <li>subtitleEnd->the Lost Planet</li>
+        <li>subtitleEnd->the Space Pirates</li>
+        <li>subtitleEnd->the Crystal Kingdom</li>
+        <li>subtitleEnd->the Doom Machine</li>
+        <li>subtitleEnd->the Time Raiders</li>
+        <li>subtitleEnd->the Cosmic Cube</li>
+        <li>subtitleEnd->the Void Creatures</li>
+        <li>subtitleEnd->the Robot Army</li>
+        
+        <li>subtitleLocation->In the</li>
+        <li>subtitleLocation->Beyond the</li>
+        <li>subtitleLocation->Beneath the</li>
+        <li>subtitleLocation->Above the</li>
+        
+        <li>subtitleThreat->Jungle of Fear</li>
+        <li>subtitleThreat->City of Doom</li>
+        <li>subtitleThreat->Fortress of Evil</li>
+        <li>subtitleThreat->Caverns of Terror</li>
+        <li>subtitleThreat->Ocean of Monsters</li>
+        <li>subtitleThreat->Mountains of Madness</li>
+        
+        <li>subtitleAction->Battle for</li>
+        <li>subtitleAction->Race to</li>
+        <li>subtitleAction->Escape from</li>
+        <li>subtitleAction->Search for</li>
+        <li>subtitleAction->Defense of</li>
+        
+        <li>subtitleTarget->the Space Fortress</li>
+        <li>subtitleTarget->the Hidden City</li>
+        <li>subtitleTarget->the Lost Treasure</li>
+        <li>subtitleTarget->the Secret Base</li>
+        <li>subtitleTarget->the Doomsday Device</li>
+        
+        <!-- Issue Numbers -->
+        <li>titleNumber->Issue #1</li>
+        <li>titleNumber->Issue #2</li>
+        <li>titleNumber->Issue #3</li>
+        <li>titleNumber->Issue #4</li>
+        <li>titleNumber->Issue #5</li>
+        <li>titleNumber->Special Edition</li>
+        <li>titleNumber->Annual Edition</li>
+        <li>titleNumber->Collector's Edition</li>
+        
+        <!-- Your original Grognak titles -->
+        <li>randAdjective->Grognak the Barbarian and Blood on the Harp</li>
+        <li>randAdjective->Grognak the Barbarian and The Rogue's Appearance</li>
+        <li>randAdjective->Grognak the Barbarian and The Bat Jungle</li>
+        <li>randAdjective->Grognak the Barbarian and In the Embrace of the Corsair Queen</li>
+        <li>randAdjective->Grognak the Barbarian and Demon Slaves, Demon Sands</li>
+        <li>randAdjective->Grognak the Barbarian and The Appearance of Maula: War Maiden of Mars</li>
+        <li>randAdjective->Grognak the Barbarian and The Reeking Fatherlessness</li>
+        <li>randAdjective->Grognak the Barbarian and Lost in the Snows of Lust</li>
+        <li>randAdjective->Grognak the Barbarian and In the Lair of the Devourer of Virgins!</li>
+        <li>randAdjective->Grognak the Barbarian and What Sorcery Is This?</li>
+        <li>randAdjective->Grognak the Barbarian and Heavy is the Oaken Crown!</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+</Defs>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--=============== Skin - GhoulDarkGreen ====================-->
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>OE_Skin_GhoulDarkGreen</defName>
+    <label>Ghoul's painfully pale skin</label>
+    <labelShortAdj>Ghoul's skin is green</labelShortAdj>
+    <description>The skin of a ghoul that has seen a lot.</description>
+    <skinColorOverride>(87, 108, 89)</skinColorOverride>
+    <displayOrderInCategory>713</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>green</symbol></li>
+        <li><symbol>ghoul</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+<!--=============== Skin - GhoulLightGreen ====================-->
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>OE_Skin_GhoulLightGreen</defName>
+    <label>Ghoul's sickly light green skin</label>
+    <labelShortAdj>Ghoul's light green skin</labelShortAdj>
+    <description>The skin of a ghoul that has seen a lot.</description>
+    <skinColorOverride>(153, 160, 129)</skinColorOverride>
+    <displayOrderInCategory>714</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>green</symbol></li>
+        <li><symbol>ghoul</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+<!--=============== Skin - TurtleDarkBrown ====================-->
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>OE_Skin_GhoulDarkBrown</defName>
+    <label>Ghoul's sickly brown skin</label>
+    <labelShortAdj>Brown Ghoul Skin</labelShortAdj>
+    <description>Skin of a ghoul that has seen a lot.</description>
+    <skinColorOverride>(90, 66, 48)</skinColorOverride>
+    <displayOrderInCategory>715</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brown</symbol></li>
+        <li><symbol>ghoul</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+<!--=============== Skin - TurtleLightBrown ====================-->
+  <GeneDef ParentName="GeneSkinColorOverride">
+    <defName>OE_Skin_GhoulLightBrown</defName>
+    <label>Sickly light brown skin of a Ghoul</label>
+<labelShortAdj>Light brown skin of a Ghoul</labelShortAdj>
+<description>Skin of a ghoul that has seen a lot.</description>
+    <skinColorOverride>(126, 103, 80)</skinColorOverride>
+    <displayOrderInCategory>716</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>brown</symbol></li>
+        <li><symbol>ghoul</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- =========== HARDCORE SK: THOUGHTS ===============-->
+
+	<ThoughtDef>
+		<defName>HadNukaCola</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Drank Nuka Cola</label>
+				<description>That Cola was so healthy! I'm feeling good now.</description>
+				<baseMoodEffect>7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef>
+		<defName>HadColaDark</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Drank Dark Cola</label>
+				<description>That Cola was so healthy! I am absolutely confident that you can defeat death in hand-to-hand combat.</description>
+				<baseMoodEffect>9</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>HadColaQuantum</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Drank Quantum Cola</label>
+				<description>That Cola was so healthy! The taste is like a miniature supernova exploding, a mix of citrus madness and sweet radiation. Your taste buds scream in either delight or pain.</description>
+				<baseMoodEffect>11</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- =========== Medical Drink ===============-->
+
+	<ThoughtDef>
+    <defName>IngestedRadHemogenPack</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>5</stackLimit>
+    <nullifyingTraits>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <nullifyingGenes>
+      <li>Hemogenic</li>
+    </nullifyingGenes>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Acceptable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+    </nullifyingPrecepts>
+    <stages>
+      <li>
+        <label>Swallowed radioactive blood</label>
+        <description>I swallowed a bag of radioactive blood. It may prolong my life, but the cost could be enormous, and it was absolutely disgusting.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>RadFood</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/MicroSparksGreen/Good</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate wasteland, food</label>
+        <description>If I eat it and not the other way around, then I won.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>FEV</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Bed</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate FEV</label>
+        <description>If I eat it will be the last step.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>HadScorponade</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Drank Scorponade</label>
+				<description>That Scorponade drink was so healthy! I'm feeling my heart is going to stop.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+<ThoughtDef>
+  <defName>DeathclawTunnel_Excited</defName>
+  <durationDays>2</durationDays>
+  <stackLimit>1</stackLimit>
+  <stages>
+    <li>
+    <label>Finally, some fun!</label>
+<description>Monsters from underground? A perfect opportunity for a good fight!</description>
+      <baseMoodEffect>+3</baseMoodEffect>
+    </li>
+  </stages>
+</ThoughtDef>
+	 
+	 
+	 
+	  <ThoughtDef>
+        <defName>ThoughtWitnessedReactorExplosion</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>8</durationDays>
+        <stackLimit>3</stackLimit>
+        <stages>
+            <li>
+                <label>Atom Glow</label>
+<description>Now I understand why no one lives in Glow. Although, wait a minute...</description>
+<baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ThoughtIrradiated</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>5</durationDays>
+        <stackLimit>5</stackLimit>
+        <stages>
+            <li>
+              <label>Glowing Brother</label>
+<description>The doctors say it's "not good." But they haven't seen how beautifully I glow in the dark. Maybe they'll accept me into the Cult of Atom?</description>
+<baseMoodEffect>-6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	  <ThoughtDef>
+    <defName>RadiationLoverHappy</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>RimatomicsRadiation</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+      <label>mild irradiation</label>
+        <description>I feel a slight tingling sensation... it's nice.</description>
+       <baseMoodEffect>+3</baseMoodEffect>
+       <visible>false</visible>
+     </li>
+      <li>
+      <label>mild irradiation</label>
+       <description>Warmth spreads throughout my body. It's... calming.</description>
+       <baseMoodEffect>+5</baseMoodEffect>
+     </li>
+      <li>
+       <label>moderate irradiation</label>
+           <description>My skin is glowing! Well, maybe not, but I feel good!</description>
+           <baseMoodEffect>+8</baseMoodEffect>
+       </li>
+	<li>
+		<label>severe irradiation</label>
+		<description>I feel the power of the atom within me! This is magnificent!</description>
+		<baseMoodEffect>+10</baseMoodEffect>
+	</li>
+	<li>
+		<label>extreme radiation</label>
+		<description>I MERGE WITH RADIATION! I AM THE GOD OF THE ATOM!</description>
+		<baseMoodEffect>+15</baseMoodEffect>
+	</li>
+	<li>
+	<label>critical radiation</label>
+	<description>I... see light... so... beautiful...</description>
+	<baseMoodEffect>+20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+ 
+   <ThoughtDef>
+        <defName>DeadmanFashionHappy</defName>
+        <workerClass>Watcher.GameComponents.ThoughtWorker_DeadmanFashionHappy</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>trendy undertaker</label>
+                <description>This jacket smells like... opportunity. And slight decomposition. But mostly opportunity.</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+            <li>
+                <label>post-mortem collector</label>
+                <description>Two deadman's items! I'm like a walking memorial. Or a museum. Yes, I'm a fashion museum. With exclusive exhibits.</description>
+                <baseMoodEffect>12</baseMoodEffect>
+            </li>
+            <li>
+                <label>posthumous style icon</label>
+                <description>Three items! I'm literally wearing an entire graveyard of fashion. The living wear brands, the dead wear me. Or vice versa. Either way, it's a win-win!</description>
+                <baseMoodEffect>16</baseMoodEffect>
+            </li>
+            <li>
+                <label>lich lord of wardrobe</label>
+                <description>Four or more! I'm a necromancer of fashion! My outfits have history. And aroma. Mostly aroma. But who said history has to smell like roses? Roses were at funerals too.</description>
+                <baseMoodEffect>20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	  <ThoughtDef>
+        <defName>GreenRain_WeirdFeeling</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>strange glow</label>
+                <description>I saw plants glowing green and growing instantly. It was... beautiful? Or creepy? I'm confused about my feelings. And why do I taste pickles?</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	
+	    <ThoughtDef>
+        <defName>ToxicNearbyBreakdown</defName>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <workerClass>Watcher.ThoughtWorker_Toxic</workerClass>
+        <validWhileDespawned>false</validWhileDespawned>
+        <stages>
+            <li>
+                <label>someone's breaking!</label>
+                <description>Ha-ha, look at this idiot! This is hilarious.</description>
+                <baseMoodEffect>20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+	
+<ThoughtDef>
+    <defName>MusicRadioListening</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>  <!-- Исправлено: Situational вместо Memory -->
+    <workerClass>Watcher.Events.ThoughtWorker_MusicRadio</workerClass>
+    <stages>
+       <li>
+            <label>pleasant music</label>
+            <description>The radio is playing a pleasant melody. It lifts the mood. Funny how a few notes from a broken-down pre-war box can make the wasteland feel almost bearable.</description>
+            <baseMoodEffect>4</baseMoodEffect>
+        </li>
+        <li>
+            <label>divine music!</label>
+            <description>This melody is simply wonderful! {PAWN_nameDef} savors every note. For a brief moment, {PAWN_pronoun} forgets about the raiders, the radiation, and the fact that dinner might be two-hundred-year-old canned beans. Worth it.</description>
+            <baseMoodEffect>8</baseMoodEffect>
+        </li>
+
+    </stages>
+</ThoughtDef>
+
+<ThoughtDef>
+    <defName>MusicRadioAnnoying</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>  <!-- Исправлено: Situational вместо Memory -->
+    <workerClass>Watcher.Events.ThoughtWorker_MusicHater</workerClass>
+    <stages>
+           <li>
+            <label>irritating music</label>
+            <description>That awful screeching from the radio is driving {PAWN_objective} insane. Who even listens to this garbage? Probably the same people who think radroach is a delicacy. {PAWN_pronoun} would rather face a deathclaw than hear one more chorus.</description>
+            <baseMoodEffect>-6</baseMoodEffect>
+        </li>
+    </stages>
+</ThoughtDef>
+
+    <ThoughtDef>
+        <defName>ThreeDogBlues</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>2</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>Old World Blues</label>
+                <description>The voice on the radio... it spoke of hope amidst the ashes. For a moment, the wasteland didn't seem so bleak.</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+ 
+
+</Defs>

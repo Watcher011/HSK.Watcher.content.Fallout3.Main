@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <!-- Glutton -->
+
+  <BodyPartDef>
+    <defName>Fin</defName>
+    <label>fin</label>
+    <hitPoints>12</hitPoints>
+    <skinCovered>true</skinCovered>
+    <canScarify>true</canScarify>
+    <frostbiteVulnerability>10</frostbiteVulnerability>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>MovingBody</defName>
+    <label>body</label>
+    <hitPoints>70</hitPoints>
+    <skinCovered>true</skinCovered>
+    <canScarify>true</canScarify>
+    <executionPartPriority>500</executionPartPriority>
+    <frostbiteVulnerability>10</frostbiteVulnerability>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyDef>
+    <defName>Glutton</defName>
+    <label>Glutton</label>
+    <corePart>
+      <def>MovingBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>Spine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Stomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Heart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Lung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Kidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Liver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>Neck</def>
+          <coverage>0.32</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>Head</def>
+              <coverage>0.80</coverage>
+              <groups>
+                <li>HeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Skull</def>
+                  <coverage>0.15</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>Brain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>left ear</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>Ear</def>
+                  <customLabel>right ear</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>Fin</def>
+          <customLabel>left fin</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>LeftFin</li>
+          </groups>
+        </li>
+        <li>
+          <def>Fin</def>
+          <customLabel>right fin</customLabel>
+          <coverage>0.06</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>RightFin</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  
+  
+  <!-- BodyPartGroupDefs -->
+  <BodyPartGroupDef>
+    <defName>SporePlantStalk</defName>
+    <label>stalk</label>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>SporePlantTendril</defName>
+    <label>tendril</label>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>SporePlantMaw</defName>
+    <label>maw</label>
+  </BodyPartGroupDef>
+
+  <BodyPartGroupDef>
+    <defName>SporePlantRoot</defName>
+    <label>root</label>
+  </BodyPartGroupDef>
+
+  <!-- Custom BodyPartDefs for SporePlant -->
+  <!-- Увеличены hitPoints для защиты от мелких калибров -->
+
+  <BodyPartDef>
+    <defName>SporeStalk</defName>
+    <label>stalk</label>
+    <hitPoints>200</hitPoints> <!-- Увеличено для защиты от мелких калибров -->
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+      <li>BreathingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SporeTendril</defName>
+    <label>tendril</label>
+    <hitPoints>100</hitPoints> <!-- Увеличено -->
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SporeBulb</defName>
+    <label>bulb</label>
+    <hitPoints>150</hitPoints> <!-- Увеличено -->
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SporeMaw</defName>
+    <label>maw</label>
+    <hitPoints>120</hitPoints> <!-- Увеличено -->
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>SporeRoot</defName>
+    <label>root</label>
+    <hitPoints>110</hitPoints> <!-- Увеличено -->
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+  <!-- SporePlant Body Definition -->
+  <BodyDef>
+    <defName>SporePlant</defName>
+    <label>SporePlant</label>
+    <corePart>
+      <def>SporeStalk</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <groups>
+        <li>SporePlantStalk</li>
+      </groups>
+      <parts>
+        <!-- Core bulb with vital organs -->
+        <li>
+          <def>SporeBulb</def>
+          <customLabel>core bulb</customLabel>
+          <coverage>0.15</coverage>
+          <depth>Inside</depth>
+        </li>
+        
+        <!-- Digestive system -->
+        <li>
+          <def>Stomach</def>
+          <coverage>0.08</coverage>
+          <depth>Inside</depth>
+        </li>
+        
+        <!-- Circulatory/energy core -->
+        <li>
+          <def>Heart</def>
+          <customLabel>pulsating core</customLabel>
+          <coverage>0.06</coverage>
+          <depth>Inside</depth>
+        </li>
+        
+        <!-- Upper section - Head equivalent with Maw -->
+        <li>
+          <def>SporeBulb</def>
+          <customLabel>cranial bulb</customLabel>
+          <coverage>0.18</coverage>
+          <height>Top</height>
+          <groups>
+            <li>HeadAttackTool</li>
+          </groups>
+          <parts>
+            <!-- Maw with attack capability -->
+            <li>
+              <def>SporeMaw</def>
+              <coverage>0.35</coverage>
+              <groups>
+                <li>SporePlantMaw</li>
+                <li>Mouth</li>
+                <li>Teeth</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>Tongue</def>
+                  <customLabel>sensory tendril</customLabel>
+                  <coverage>0.25</coverage>
+                </li>
+              </parts>
+            </li>
+            
+            <!-- Sensory organs -->
+            <li>
+              <def>Eye</def>
+              <customLabel>primary ocular node</customLabel>
+              <coverage>0.12</coverage>
+            </li>
+            <li>
+              <def>Eye</def>
+              <customLabel>secondary ocular node</customLabel>
+              <coverage>0.08</coverage>
+            </li>
+            <li>
+              <def>Ear</def>
+              <customLabel>vibrational sensor</customLabel>
+              <coverage>0.06</coverage>
+            </li>
+          </parts>
+        </li>
+        
+        <!-- Movement tendrils -->
+        <li>
+          <def>SporeTendril</def>
+          <customLabel>anterior tendril</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SporePlantTendril</li>
+            <li>Legs</li>
+          </groups>
+        </li>
+        <li>
+          <def>SporeTendril</def>
+          <customLabel>posterior tendril</customLabel>
+          <coverage>0.07</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SporePlantTendril</li>
+            <li>Legs</li>
+          </groups>
+        </li>
+        <li>
+          <def>SporeTendril</def>
+          <customLabel>lateral tendril left</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SporePlantTendril</li>
+          </groups>
+        </li>
+        <li>
+          <def>SporeTendril</def>
+          <customLabel>lateral tendril right</customLabel>
+          <coverage>0.05</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SporePlantTendril</li>
+          </groups>
+        </li>
+        
+        <!-- Root system for anchoring -->
+        <li>
+          <def>SporeRoot</def>
+          <customLabel>primary anchor root</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SporePlantRoot</li>
+          </groups>
+        </li>
+        <li>
+          <def>SporeRoot</def>
+          <customLabel>secondary feeder root</customLabel>
+          <coverage>0.04</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SporePlantRoot</li>
+          </groups>
+        </li>
+        <li>
+          <def>SporeRoot</def>
+          <customLabel>tertiary stabilizing root</customLabel>
+          <coverage>0.03</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>SporePlantRoot</li>
+          </groups>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

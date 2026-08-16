@@ -1,0 +1,100 @@
+<LanguageData>
+	<Gecko_green.label>Гекко</Gecko_green.label>
+<Gecko_green.description>Ящерица-мутант, распространённая на западе Соединённых Штатов, потомок довоенных гекконов. Сохранив радиальные гекконьи черты, они достигли очень больших размеров, научились ходить на задних ногах, но не утратили способности лазать по вертикальным поверхностям. Их преемники, огненные гекко, даже научились дышать огнём, подобно мифическим драконам, в то время как зелёные гекко плюются ядовитой слюной.</Gecko_green.description>
+<Gecko_green.tools.0.label>ядовитые клыки</Gecko_green.tools.0.label>
+
+<Deathclaw.label>Коготь Смерти</Deathclaw.label>
+<Deathclaw.description>Представьте себе помесь T-Rexa, броневика и вашего самого страшного кошмара после трёх бутылок Виста-Кваса. Шестиметровая мускулистая ящерица с когтями, способными вскрыть силовую броню как консервную банку, и кожей, игнорирующей пули, потому что «ха-ха, жалко». Швырните в неё мини-ядерный заряд... и надейтесь, что у неё не было приятеля-Когтя Смерти за углом.</Deathclaw.description>
+<Deathclaw.tools.0.label>ядовитые клыки</Deathclaw.tools.0.label>
+
+<Cyberdog.label>Киберпёс</Cyberdog.label>
+<Cyberdog.description>«Киберпёс — это не просто стальной убийца с милыми ушами, это символ прогресса! Раньше собаки просто кусали почтальонов, а теперь они ещё и выписывают штрафы за несанкционированный доступ к частной собственности. Спасибо, RobCo!» P.S. При попытке разобрать киберпса на запчасти активируется встроенная система оповещения: «Поздравляем! Вы стали обладателем акции "Долговая яма"! Ожидайте визита коллекторов!»</Cyberdog.description>
+<Cyberdog.tools.0.label>левый коготь</Cyberdog.tools.0.label>
+<Cyberdog.tools.0.labelNoLocation>коготь</Cyberdog.tools.0.labelNoLocation>
+<Cyberdog.tools.1.label>правый коготь</Cyberdog.tools.1.label>
+<Cyberdog.tools.1.labelNoLocation>коготь</Cyberdog.tools.1.labelNoLocation>
+<Cyberdog.tools.3.label>голова</Cyberdog.tools.3.label>
+
+<Mirelurk.label>Тинник</Mirelurk.label>
+<Mirelurk.description>Большинство обитателей топей тяжело бронированы и устойчивы ко многим типам урона, но морды этих существ всегда уязвимы.</Mirelurk.description>
+<Mirelurk.tools.0.label>правый коготь</Mirelurk.tools.0.label>
+<Mirelurk.tools.0.labelNoLocation>коготь</Mirelurk.tools.0.labelNoLocation>
+<Mirelurk.tools.1.label>левый коготь</Mirelurk.tools.1.label>
+<Mirelurk.tools.1.labelNoLocation>коготь</Mirelurk.tools.1.labelNoLocation>
+<Mirelurk.tools.2.label>голова</Mirelurk.tools.2.label>
+
+<Brahmin.label>Брамин</Brahmin.label>
+<Brahmin.description>«Двуголовое чудо природы и основа послевоенной экономики! Эти ходячие фабрики навоза, производители молока и экзистенциальные кризисы — идеальные спутники для любого уважающего себя пустошного бродяги.
+
+**Почему брамины — лучшее вложение крышек:**
+ Две головы = вдвое больше пустых взглядов
+ Гарантированно переживают своего владельца (примерно на 15 минут)
+ Мгновенно превращают любое поселение в элитную ферму по производству удобрений
+ Отличный камуфляж (если ландшафт полностью состоит из куч навоза)
+
+**Особенности:**
+- Пережуют ЧТО УГОДНО. Буквально. ЧТО УГОДНО.
+- Могут смотреть на вас четырьмя одновременно осуждающими глазами
+- Издают звуки, вдохновляющие на глубокие философские размышления
+- Запах, от которого Сияющее Море покажется полем лаванды
+
+**Популярное применение:**
+- Мобильная баррикада (медленная, но вонючая)
+- Источник «свежего» молока (сомнительной съедобности)
+- Живой счётчик Гейгера (если сдох — зона горячая)
+- Тест на психологическую выносливость («сколько дней вы сможете делить загон с брамином?»)
+
+*Брамин: потому что даже ядерный апокалипсис нуждается в том, кто будет ниже вас по социальной лестнице!*»</Brahmin.description>
+<Brahmin.race.meatLabel>говядина</Brahmin.race.meatLabel>
+<Brahmin.tools.1.label>голова</Brahmin.tools.1.label>
+<Brahmin.tools.2.label>левое копыто</Brahmin.tools.2.label>
+<Brahmin.tools.2.labelNoLocation>копыто</Brahmin.tools.2.labelNoLocation>
+<Brahmin.tools.3.label>правое копыто</Brahmin.tools.3.label>
+<Brahmin.tools.3.labelNoLocation>копыто</Brahmin.tools.3.labelNoLocation>
+
+<RadDeer.label>Рад-олень</RadDeer.label>
+<RadDeer.description>Природа работает таинственными путями! Она взяла прекрасное благородное создание и добавила немного... пикантной радиоактивной изюминки. Рад-олень — идеальный продукт послевоенной Америки: самоходный обед, который не только наполняет ваш желудок, но и обеспечивает запоминающееся внутреннее свечение без необходимости дополнительного освещения! Его мясо обладает уникальным «огненным» послевкусием, которое остаётся на языке от нескольких часов до нескольких дней (в зависимости от дозы радиации). Идеально для игры в кулинарную русскую рулетку: либо вы приготовите стейк, либо самовоспламеняющийся комок токсичных отходов!</RadDeer.description>
+
+<GlowRadDeer.label>Светящийся рад-олень</GlowRadDeer.label>
+<GlowRadDeer.description>Забудьте о мясных мухах и даже о казадорах. Этот парень — настоящая ходячая, фыркающая и жующая кактусы легенда. Ходят слухи, что первое стадо этих красавцев появилось после того, как грузовик Nuka-Cola с партией Квантовой Колы врезался в каньон, где тусовались обычные рад-олени. Результат? Идеальный симбиоз фауны и газированной бомбы замедленного действия.</GlowRadDeer.description>
+
+
+<MoleRat.label>Кротокрыса</MoleRat.label>
+<MoleRat.description>Ирония в том, что этот неудавшийся военный проект стоил миллионы на создание, а теперь он — главный источник самого дешёвого и жёсткого мяса в Пустоши. Идеальный символ послевоенной экономики: бесполезный, вездесущий и отвратительно съедобный.</MoleRat.description>
+<MoleRat.tools.0.label>левый коготь</MoleRat.tools.0.label>
+<MoleRat.tools.0.labelNoLocation>коготь</MoleRat.tools.0.labelNoLocation>
+<MoleRat.tools.1.label>правый коготь</MoleRat.tools.1.label>
+<MoleRat.tools.1.labelNoLocation>коготь</MoleRat.tools.1.labelNoLocation>
+<MoleRat.tools.3.label>голова</MoleRat.tools.3.label>
+
+<MutantHound.label>Мутант-гончая</MutantHound.label>
+<MutantHound.description>Обычная пустошная собака, пропущенная через мясорубку FEV в Марипосе и приправленная щедрой порцией Вируса Принудительной Эволюции. Результат, как и следовало ожидать, оказался ужасающе успешным. Если вы ожидали увидеть свирепого, слюнявого зверя с кислотой вместо слюны и почти непробиваемой шкурой — миссия выполнена. Не пытайтесь её дрессировать или играть с ней в апорт — она съест палку, а вашу руку сочтёт основным блюдом. Её лай может разбить стекло, а слюна растворить осколки. Идеальный питомец для супермутанта, ценящего эффективность в разборке двуногих тварей выше таких тривиальных понятий, как «преданность».</MutantHound.description>
+<MutantHound.tools.0.label>левый коготь</MutantHound.tools.0.label>
+<MutantHound.tools.1.label>правый коготь</MutantHound.tools.1.label>
+<MutantHound.tools.3.label>голова</MutantHound.tools.3.label>
+
+<Radboar.label>Рад-вепрь</Radboar.label>
+<Radboar.description>Одичавший потомок «органических» свиней с довоенных ферм. Его радиоактивные клыки отлично вскрывают как консервные банки, так и броню начинающих выживальщиков. Попытки научить его чему-то сложнее, чем «есть из корыта», провалились — по-видимому, интеллект не пережил мутацию. Его мясо светится в темноте. Вкус — на любителя.</Radboar.description>
+
+<Radroach.label>Радтаракан</Radroach.label>
+<Radroach.description>Радтаракан — истинный символ послевоенной кухни!...</Radroach.description>
+
+<GlowingRadroach.label>Светящийся радтаракан</GlowingRadroach.label>
+
+<RadScorpion.label>Радскорпион</RadScorpion.label>
+
+<MoleRat.label>Кротокрыса</MoleRat.label>
+
+<Glutton.label>Болотный заглот</Glutton.label>
+<Glutton.description>«Если бы бегемот и пиявка скрестились с человечеством, а затем забросили результат в ядерный бассейн для обучения, получился бы Болотный заглот. Это не просто крупное существо. Это бродячее, прожорливое болото, покрытое кожей цвета протухшей ветчины. Его основная функция — есть. Всё. Его земноводная природа позволяет делать это как на суше, так и в воде, превращая любое озеро в потенциальное место для внезапной и очень мокрой смерти».</Glutton.description>
+<Glutton.comps.0.messageDigested>Заглот проглотил {PAWN_nameDef} целиком! Убейте заглота, пока он не переварил {PAWN_nameDef}.</Glutton.comps.0.messageDigested>
+<Glutton.comps.0.messageEmerged>{PAWN_nameDef} выбрался из заглота.</Glutton.comps.0.messageEmerged>
+<Glutton.comps.0.messageEmergedCorpse>{PAWN_nameDef} выбрался из трупа заглота.</Glutton.comps.0.messageEmergedCorpse>
+<Glutton.comps.0.messageDigestionCompleted>Заглот отрыгнул {PAWN_nameDef}.</Glutton.comps.0.messageDigestionCompleted>
+<Glutton.comps.0.digestingInspector>Переваривает {PAWN_nameDef}: осталось {SECONDS} секунд</Glutton.comps.0.digestingInspector>
+<Glutton.tools.0.label>левый плавник</Glutton.tools.0.label>
+<Glutton.tools.0.labelNoLocation>плавник</Glutton.tools.0.labelNoLocation>
+<Glutton.tools.1.label>правый плавник</Glutton.tools.1.label>
+<Glutton.tools.1.labelNoLocation>плавник</Glutton.tools.1.labelNoLocation>
+<Glutton.tools.2.label>зубы</Glutton.tools.2.label>
+</LanguageData>

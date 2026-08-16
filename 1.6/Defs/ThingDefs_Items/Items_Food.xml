@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+  <ThingDef ParentName="MealBase">
+    <defName>SuspiciousOmelette</defName>
+    <label>suspicious omelette</label>
+    <description>A suspicious omelette made from the meat and eggs of a huge lizard. A favorite food in the wastelands</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/SuspiciousOmelette</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>RadFood</tasteThought>
+	  <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.06</severity>
+				</li>
+	   </outcomeDoers>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+  </ThingDef>
+
+
+ <ThingDef ParentName="MealBase">
+    <defName>boiledeggs</defName>
+    <label>boiled eggs</label>
+    <description>A classic example of post-war culinary minimalism, these eggs were boiled (or perhaps just left in the hot radiation fog long enough)</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/boiledeggs</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>RadFood</tasteThought>
+	   <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.06</severity>
+				</li>
+	   </outcomeDoers>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>3</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="MealBase">
+    <defName>friedeggs</defName>
+    <label>fried eggs</label>
+    <description>Ah, fried eggs — a classic of post-war cuisine! These delicious round things were once a symbol of home comfort, but have now become a symbol of despair and culinary compromise. They are prepared from anything from swamp worm eggs (if you are lucky enough to find one that hasn’t mutated) to radroach eggs (if you are unlucky). They are often fried on a rusty piece of metal, because frying pans are now either collectibles or melted down to make bullets. They are served with a generous portion of radiation and nostalgia for the times when food didn’t glow in the dark.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/friedeggs</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>RadFood</tasteThought>
+	   <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.06</severity>
+				</li>
+	   </outcomeDoers>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+  </ThingDef>
+  
+  
+   <ThingDef ParentName="MealBase">
+    <defName>Raweggsinaglass</defName>
+    <label>Raw eggs in a glass</label>
+    <description>This cloudy glass containing a pair of sticky, translucent eggs is either the culinary experiment of a crazy survivalist or the evil joke of a Gladstone farmhand. Judging by the greenish tint, the eggs were probably laid by a bog lurker grazing somewhere near a nuclear crater. The smell is like a mixture of sulfur and despair. But if you dare drink it, you'll get a boost of energy (and possibly a mutation).</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Raweggsinaglass</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.3</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>RadFood</tasteThought>
+	   <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.04</severity>
+				</li>
+	   </outcomeDoers>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+  </ThingDef>
+  
+  
+<ThingDef ParentName="MealBase">
+    <defName>MashedPotatoes</defName>
+    <label>Mashed Potatoes</label>
+    <description>As smooth as wasteland sand and as rich as a radiation storm, this mashed potato is the result of years of survivors experimenting to recreate something resembling pre-war food. The main ingredient is something that was once a potato (or at least didn't scream when dug out of the ground). Whipped with a generous helping of radioactive water, synthetic Tipa-Top 'oil', and the nostalgic tears of those who still remember what it must have looked like.</description>
+    <graphicData>
+    <texPath>Things/Item/Meal/Scramble</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>14</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.7</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-3</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-11</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>RadFood</tasteThought>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+  </ThingDef>
+  
+  
+  
+<ThingDef ParentName="MealBase">
+    <defName>Porridge</defName>
+    <label>Porridge</label>
+    <description>The greatest culinary achievement of the post-war era! Why waste time, effort and precious ingredients on complicated recipes when you can just throw in boiling water... well, let's say, one single ingredient? Critics call it "gastronomic minimalism", survivors call it "sad stew", and your stomach calls it "a crime against humanity". But what savings!</description>
+    <graphicData>
+    <texPath>Things/Item/Meal/porridge</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>14</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.3</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-3</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-11</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>RadFood</tasteThought>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="MealBase">
+    <defName>PrickeyeSalad</defName>
+    <label>Prickeye salad</label>
+    <description>This simple salad consists of basic ingredients like thorn-eye and toshka. It satisfies moderate hunger, but significantly increases your radiation dose.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/PrickeyeSalad</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>24</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.36</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>RadFood</tasteThought>
+	   <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.04</severity>
+				</li>
+	   </outcomeDoers>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+  </ThingDef>
+  
+</Defs>

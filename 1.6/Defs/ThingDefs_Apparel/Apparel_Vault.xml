@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>Apparello_Vaultjumpsuit</defName>
+		<label>Vault jumpsuit</label>
+		<description>When the world turned into a radioactive hell, Vault-Tec made sure you had not just radiation protection, but fashionable radiation protection! The standard Vault Dweller jumpsuit is the perfect choice for those who prefer to face the nuclear winter with the iconic blue and yellow style and the signature smile of a gullible test subject.Made from a "revolutionary" alloy of cheap nylon and naive hope, this jumpsuit provides the illusion of safety, as well as convenient access for administering experimental drugs directly through the fabric.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/Vaultjumpsuit/Vaultjumpsuit</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				 <drawSize>0.85</drawSize>
+		</graphicData>			
+		<costList>
+			<Cloth>12</Cloth>
+		</costList>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.7</Flammability>
+			<Mass>2</Mass>
+			<Bulk>15</Bulk>
+			<WornBulk>8</WornBulk>
+			<EquipDelay>4.3</EquipDelay>			
+			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>1.68</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.075</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryBulk>13</CarryBulk>
+			<MoveSpeed>-0.07</MoveSpeed>
+			<WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
+			<GermResistance>0.11</GermResistance>
+			<GermContainment>0.11</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>2.8</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/Vaultjumpsuit/Vaultjumpsuit</wornGraphicPath>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>IndustrialMilitaryAdvanced</li>
+				<li>Vaultjumpsuit</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<thingCategories>
+			<li>FullBodySuitsCat</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>Apparello_Prisonjumpsuit</defName>
+		<label>Prison jumpsuit</label>
+		<description>This jumpsuit, crafted from rough cotton and imbued with a rebellious spirit, is your ticket to a world where you make the rules. Not only does it highlight your uniqueness, but it also perfectly conceals the traces of homemade explosives, smears mortar during escapes, and serves as the official uniform for tough guys... and those who are just starting to become one.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/Prisonjumpsuit/Prisonjumpsuit</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				 <drawSize>0.85</drawSize>
+		</graphicData>			
+		<costList>
+			<Cloth>12</Cloth>
+		</costList>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.7</Flammability>
+			<Mass>2</Mass>
+			<Bulk>15</Bulk>
+			<WornBulk>8</WornBulk>
+			<EquipDelay>4.3</EquipDelay>			
+			<Insulation_Heat>10</Insulation_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>1.68</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.075</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryBulk>13</CarryBulk>
+			<MoveSpeed>-0.07</MoveSpeed>
+			<WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
+			<GermResistance>0.11</GermResistance>
+			<GermContainment>0.11</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>2.8</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+		    <wornGraphicPath>Things/Apparel/Vault/Prisonjumpsuit/Prisonjumpsuit</wornGraphicPath>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Prisonjumpsuit</li>
+			</tags>
+			<defaultOutfitTags>
+				 <li>Slave</li>
+			</defaultOutfitTags>
+			 <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+             <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+             <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+		</apparel>
+		<thingCategories>
+			<li>FullBodySuitsCat</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+	
+	 <ThingDef ParentName="ApparelBase">
+		<defName>Apparello_VaultY-17trauma</defName>
+		<label>Y-17 trauma override harness</label>
+		<description>*"When you run out of ammo, your legs give way, and hope evaporates - don't worry! Your trusty 'Y-17 trauma override harness' already knows that you're a corpse. Or almost a corpse. In any case, it will do everything to drag your unconscious body to the nearest medical center... or at least to the place where it used to be!"*</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/Y-17/Y-17</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				 <drawSize>0.85</drawSize>
+		</graphicData>			
+		<costList>
+			<Carbon>20</Carbon>
+			<MagneticMaterial>3</MagneticMaterial>
+			<SyntheticFibers>10</SyntheticFibers>
+			<Hexcell>6</Hexcell>
+		</costList>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Mass>1.6</Mass>
+			<Bulk>3</Bulk>
+			<EquipDelay>2.8</EquipDelay>
+			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.03</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<StuffEffectMultiplierArmor>5.73</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.07</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<Radiation>-0.35</Radiation>
+			<SocialImpact>-0.15</SocialImpact>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<ShootingAccuracyPawn>-0.12</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<MeleeHitChance>-0.05</MeleeHitChance>
+			<GermResistance>0.60</GermResistance>
+			<GermContainment>0.75</GermContainment>
+			 <VacuumResistance>0.52</VacuumResistance>
+		</equippedStatOffsets>
+		<generateCommonality>2.8</generateCommonality>
+	    <apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/Y-17/Y-17</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				  <li>Radiation</li>
+				  <li>SpacerMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+			    <li>Spacefarer</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<thingCategories>
+			<li>FullBodySuitsCat</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="CombatExtended.ApparelHediffExtension">
+				<hediff>LSS</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_VaultY-17traumaHelmet</defName>
+	<label>Y-17 Spacesuit helmet</label>
+	<description>"Your face is our concern!(While it is still attached to the skull.)"</description>
+    <possessionCount>1</possessionCount>
+    <generateAllowChance>0</generateAllowChance>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/Vault/Y-17/Y-17Helmet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.52</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.66</ArmorRating_Heat>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>4</Insulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+	  <Radiation>-0.35</Radiation>
+      <VacuumResistance>0.69</VacuumResistance>
+    </equippedStatOffsets>
+    <smeltable>true</smeltable>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <immuneToToxGasExposure>true</immuneToToxGasExposure>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+     <wornGraphicPath>Things/Apparel/Vault/Y-17/Y-17Helmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>SpacerMilitary</li>
+        <li>Vacsuit</li>
+		<li>Radiation</li>
+      </tags>
+      <forceEyesVisibleForRotations>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </forceEyesVisibleForRotations>
+      <defaultOutfitTags>
+        <li>Spacefarer</li>
+      </defaultOutfitTags>
+    </apparel>
+    <tradeTags>
+      <li>HiTechArmor</li>
+      <li>Armor</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>40</Steel>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>OrbitalTech</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <displayPriority>237</displayPriority>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+	
+ 
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Watcher_MedicalFoamPack</defName>
+    <label>T-4 "Hemostat" medical foam pack</label>
+    <description>A pack containing fast-hardening polymer foam. Single-use.</description>
+    
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/DeadlifePack/DeadlifePack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.7,0.7)</drawSize>
+      <color>(200,220,255)</color>
+    </graphicData>
+    
+    <tickerType>Normal</tickerType>
+    <techLevel>Industrial</techLevel>
+    
+    <statBases>
+      <WorkToMake>6500</WorkToMake>
+      <Mass>3</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    
+    <costList>
+      <Plasteel>30</Plasteel>
+      <Stimpak>5</Stimpak>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <researchPrerequisite>Machining</researchPrerequisite>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <displayPriority>40</displayPriority>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+        <Intellectual>4</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    
+    <mergeVerbGizmos>false</mergeVerbGizmos>
+    
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/DeadlifePack/DeadlifePack</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+        <north><offset>(0,-0.15)</offset></north>
+        <south><offset>(0,-0.15)</offset></south>
+        <east>
+          <offset>(-0.35,-0.1)</offset>
+          <thin><offset>(0.05,0)</offset></thin>
+          <hulk><offset>(-0.15,0)</offset></hulk>
+          <fat><offset>(-0.20,0)</offset></fat>
+        </east>
+        <west>
+          <offset>(0.35,-0.1)</offset>
+          <thin><offset>(-0.05,0)</offset></thin>
+          <hulk><offset>(0.15,0)</offset></hulk>
+          <fat><offset>(0.20,0)</offset></fat>
+        </west>
+        <male><scale>(0.6,0.6)</scale></male>
+        <female><scale>(0.6,0.6)</scale></female>
+        <thin><scale>(0.6,0.6)</scale></thin>
+        <hulk><scale>(0.75,0.75)</scale></hulk>
+        <fat><scale>(0.75,0.75)</scale></fat>
+      </wornGraphicData>
+    </apparel>
+    
+    <comps>
+      <li Class="CompProperties_ApparelVerbOwnerCharged">
+        <hotKey>Misc4</hotKey>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <maxCharges>5</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+      </li>
+    </comps>
+    
+    <verbs>
+      <li>
+        <verbClass>Verb_LaunchProjectileStaticOneUse</verbClass>
+        <label>deploy medical foam</label>
+        <defaultProjectile>Watcher_MedicalFoamGrenade</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>10</range>
+        <burstShotCount>1</burstShotCount>
+        <onlyManualCast>true</onlyManualCast>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>true</targetable>
+        <!-- ВАЖНО: для взрывных снарядов нужен forcedMissRadius -->
+        <forcedMissRadius>0.9</forcedMissRadius>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>ThrowGrenade</soundCast>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <canGoWild>false</canGoWild>
+      </li>
+    </verbs>
+    
+    <tradeTags>
+      <li>Clothing</li>
+    </tradeTags>
+    
+    <allowedArchonexusCount>3</allowedArchonexusCount>
+  </ThingDef>
+
+  <!-- ==================== MEDICAL FOAM GRENADE ==================== -->
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>Watcher_MedicalFoamGrenade</defName>
+    <label>medical foam capsule</label>
+    
+    <graphicData>
+      <texPath>Things/Projectile/Grenades/Firefoam</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.4</drawSize>
+    </graphicData>
+    
+    <projectile>
+      <damageDef>Watcher_MedicalFoam</damageDef>  <!-- БЕЗ _CE -->
+      <speed>12</speed>
+      <explosionRadius>3.9</explosionRadius>
+      <damageAmountBase>1</damageAmountBase>
+    </projectile>
+    
+    <modExtensions>
+      <li Class="Watcher.Comps.MedicalFoamExtension">
+        <tendQualityMin>0.8</tendQualityMin>
+        <tendQualityMax>1.0</tendQualityMax>
+        <maxWounds>5</maxWounds>
+        <radius>3.9</radius>
+      </li>
+    </modExtensions>
+    
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Watcher_MedicalFoam</explosiveDamageType>  <!-- БЕЗ _CE -->
+        <wickTicks>0</wickTicks>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+  
+  
+  
+  
+ <ThingDef ParentName="ApparelIndustrialBase">
+    <defName>Watcher_Stimulantbackpack</defName>
+    <label>Stimulant backpack</label>
+    <description>Pre-war development for military personnel who can't even have a snack without a dose of stimulant. A built-in auto-injector in the straps delivers a stimulant at the first sign of the owner passing out.☠️ ABOUT OVERDOSE:
+If the backpack decides you're doing badly twice — get ready to meet your ancestors. Three injections in a row turn a ranger into a trembling pile of meat that still has time to think: "Wait... was the 'cancel' button just for decoration?"</description>
+    <graphicData>
+        <texPath>Things/Apparel/Clothes/DoctorBrocade/Meditux</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.75</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <tickerType>Normal</tickerType>
+    <statBases>
+        <WorkToMake>3500</WorkToMake>
+        <Mass>0.8</Mass>
+        <Bulk>2</Bulk>
+        <WornBulk>1</WornBulk>
+        <EquipDelay>2</EquipDelay>
+        <Flammability>0.4</Flammability>
+    </statBases>
+      <stuffCategories>
+            <li>HF</li>
+            <li>Fabric</li>
+        </stuffCategories>
+        <costStuffCount>65</costStuffCount>
+        <costList>
+            <ComponentIndustrial>7</ComponentIndustrial>
+            <Compaste>18</Compaste>
+            <SyntheticFibers>8</SyntheticFibers>
+            <MedicineUltratech>5</MedicineUltratech>
+        </costList>
+    <comps>
+        <li Class="CompProperties_ApparelReloadable">
+            <maxCharges>5</maxCharges>
+            <ammoDef>Ammo_StimulantCartridge</ammoDef>
+            <ammoCountToRefill>5</ammoCountToRefill>
+            <baseReloadTicks>210</baseReloadTicks>
+            <soundReload>Standard_Reload</soundReload>
+            <hotKey>Misc4</hotKey>
+            <chargeNoun>cartridge</chargeNoun>
+            <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        </li>
+        <li Class="Watcher.Comps.CompProperties_StimulantAutoInjector">
+            <hediffDef>Watcher_StimulantCocktail</hediffDef>
+            <severityPerCharge>0.25</severityPerCharge>
+            <checkIntervalTicks>60</checkIntervalTicks>
+            <maxSafeDoses>2</maxSafeDoses>
+            <overdoseUnconsciousDurationDays>1.0</overdoseUnconsciousDurationDays>
+        </li>
+    </comps>
+    <apparel>
+         <wornGraphicPath>Things/Apparel/Clothes/DoctorBrocade/Meditux</wornGraphicPath>
+        <wornGraphicData>
+            <renderUtilityAsPack>true</renderUtilityAsPack>
+        </wornGraphicData>
+        <countsAsClothingForNudity>false</countsAsClothingForNudity>
+        <bodyPartGroups>
+            <li>Waist</li>
+        </bodyPartGroups>
+        <layers>
+               <li>Shell</li>
+        </layers>
+    </apparel>
+	  <thingCategories>
+            <li>LightUpperArmorCat</li>
+            <li>SetMedical</li>
+        </thingCategories>
+        <recipeMaker>
+            <researchPrerequisite>Apparel_C5</researchPrerequisite>
+        </recipeMaker>
+</ThingDef>
+</Defs>

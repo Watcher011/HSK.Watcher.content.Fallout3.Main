@@ -1,0 +1,55 @@
+﻿
+<Patch>
+	
+	 <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_PlasmaBolt"]/graphicData/texPath</xpath>
+				<value>
+			    <texPath>Things/Ammo/PlasmaCell/RiflePlasma</texPath>
+				</value>
+	</Operation>
+	
+	 <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_ChargedLaser_Stable" or defName="Ammo_ChargedLaser" or defName="Ammo_ChargedLaser_Electromagnetic"]/graphicData/texPath</xpath>
+				<value>
+			    <texPath>Things/Ammo/LaserCell</texPath>
+				</value>
+	</Operation>
+	 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Ammo_ChargedLaser_Stable" or defName="Ammo_ChargedLaser" or defName="Ammo_ChargedLaser_Electromagnetic"]/graphicData</xpath>
+				<value>
+			     <drawSize>(0.5)</drawSize>
+				</value>
+	</Operation>
+<!--	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Storage_HazMatContainer"]/graphicData</xpath>
+				<value>
+			    <shaderType>CutoutComplex</shaderType>
+				</value>
+	</Operation>-->
+	
+	<Operation Class="PatchOperationSequence">
+  <success>Always</success>
+  <operations>
+    <li Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[@defName="ReactorCoreA"]</xpath>
+      <value>
+        <comps>
+          <li Class="SK.CompProperties_ApplyHediffAround">
+            <hediff>RimatomicsRadiation</hediff>
+            <radius>3</radius>
+            <severityToAdd>0.04</severityToAdd>
+          </li>
+        </comps>
+      </value>
+    </li>
+  </operations>
+  </Operation>
+  
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wastepack"]/stackLimit</xpath>
+        <value>
+            <stackLimit>50</stackLimit>
+        </value>
+    </Operation>
+  
+</Patch>

@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_LidMineExplosive</defName>
+    <label>IED Lid Mine</label>
+    <description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy. Can be use like a traps. Animals can sense these when calm.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Bottlecap_mine</texPath>
+	  <drawSize>(0.5)</drawSize>
+    </graphicData>
+    <costList>
+      <Weapon_Grenade_Bottlecap>1</Weapon_Grenade_Bottlecap>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<tradeTags>
+			<li>Vaultec</li>
+	</tradeTags>
+    <designationHotKey>Misc7</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+		<postExplosionSpawnThingDef>Filth_Cap</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <wickTicks>15</wickTicks>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+	  <li Class="CombatExtended.CompProperties_Fragments">
+		<fragments>
+			<Fragment_Bottlecap>70</Fragment_Bottlecap>
+			<Bottlecap>10</Bottlecap>
+		</fragments>
+	  </li>
+    </comps>
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef> 
+  
+  
+  <ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_PigMineExplosive</defName>
+    <label>IED Piggy Bank Mine</label>
+    <description>"Who said piggy banks have to be peaceful? This cute pink pig with a cheerful grin will be the last thing an uninvited guest sees before its belly—packed with bottle caps—explodes in a dazzling firework of metallic shrapnel. Each cap isn’t just a piece of tin—it’s rusted, jagged, and eager to embed itself in anything nearby. After all, this pig doesn’t just save money—it saves death!""Banned in 12 colonies for 'excessive creativity,' but since when should war be boring? Especially when it’s this much fun!".</description>
+    <graphicData>
+      <texPath>Things/Projectile/FatMan/FMP</texPath>
+    </graphicData>
+    <costList>
+      <Ammo_FatManShell_FGM>1</Ammo_FatManShell_FGM>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<tradeTags>
+			<li>Vaultec</li>
+	</tradeTags>
+    <designationHotKey>Misc7</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveDamageType>BombSuper</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+		<postExplosionSpawnThingDef>Filth_Cap</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>0.5</postExplosionSpawnChance>
+        <wickTicks>15</wickTicks>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+	  <li Class="CombatExtended.CompProperties_Fragments">
+		<fragments>
+			<Fragment_Bottlecap>270</Fragment_Bottlecap>
+		    <Fragment_Small>2</Fragment_Small>
+		</fragments>
+	  </li>
+    </comps>
+    <specialDisplayRadius>5.9</specialDisplayRadius>
+  </ThingDef> 
+  
+  	<ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_PlasmaMineExplosive</defName>
+    <label>IED plasma Mine</label>
+    <description>This high-tech piece of politeness from pre-war NUKA engineers awaits exactly those who don't watch their step. The principle is simple: you put it down, forget about it, and then someone else (maybe even you) gets an instant lesson in thermodynamics.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/PlasmaMine</texPath>
+	  <drawSize>(0.5)</drawSize>
+    </graphicData>
+    <costList>
+      <Ammo_PlasmaBolt>1</Ammo_PlasmaBolt>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+	<tradeTags>
+			<li>Vaultec</li>
+	</tradeTags>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>PlasmaCharge</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>15</wickTicks>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+	   <li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+	   </li>
+    </comps>
+	
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef> 
+  
+  
+   	<ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_StanMineExplosive</defName>
+    <label>IED Stan Mine</label>
+    <description>A fragile flask containing a pinkish gas labeled "Vault-Tec Sweet Dreams." When detonated, it releases a cloud of powerful tranquilizer, turning opponents into sleepy zombies. Side effects may include: uncontrollable snoring, spontaneous hugs, and a desire to tell everyone about your childhood. *Do not use on super mutants - may cause sentimental attacks*.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/StanMine</texPath>
+	  <drawSize>(0.5)</drawSize>
+    </graphicData>
+    <costList>
+      <MedicineIndustrial>1</MedicineIndustrial>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+	   <Powder>5</Powder>
+	   <Glass>5</Glass>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+	<tradeTags>
+			<li>Vaultec</li>
+	</tradeTags>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Tranquilizer</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>15</wickTicks>
+		 <postExplosionGasType>BlindSmoke</postExplosionGasType>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+    </comps>
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef> 
+	<!-- =====AI manned turrets===== -->
+
+	<ThingDef ParentName="TurretBase">
+		<defName>Fallout_Turret_Turret</defName>
+		<label>Automated Turret</label>
+		<graphicData>
+			<texPath>Things/Building/Security/AMTurretGun_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/FalloutTurretImprovised_Ico</uiIconPath>
+		<statBases>
+		<Mass>50</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		   <li Class="CompProperties_Refuelable">
+			<fuelLabel>Battery charges</fuelLabel>
+			<fuelGizmoLabel>Charge level</fuelGizmoLabel>
+			<outOfFuelMessage>Can't shoot : Replace battery</outOfFuelMessage>
+			<fuelFilter>
+			     <thingDefs>
+		      	<li>NuclearBattery</li>
+				<li>Hexcell</li>
+			     </thingDefs>
+			</fuelFilter>
+			<fuelCapacity>1</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Bat</fuelIconPath>
+		  </li>
+		  <li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>5</heatPerSecond>
+				<heatPushMaxTemperature>30</heatPushMaxTemperature>
+			</li>
+		</comps>
+		<description>The Automated Turret is a deadly pre-war device, rebuilt and modified for the harsh conditions of a post-apocalyptic world. Its key feature is a micro-nuclear reactor as a power source, allowing for virtually unlimited battery life without the need to recharge. "Recommended for use in fortified positions or transport platforms. Do not leave unattended - thieves or super mutants can drag it off for scrap metal... or cannibalize it for parts for something worse."\nCaliber: 5.56x45mm NATO</description>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<specialDisplayRadius>3</specialDisplayRadius>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_FalloutMiniTurret</turretGunDef>
+			<turretTopDrawSize>1.5</turretTopDrawSize>
+		</building>
+		<designationHotKey>Misc1</designationHotKey>
+		<tradeTags>
+			<li>Vaultec</li>
+		</tradeTags>
+		<minifiedDef>MinifiedTurretGun</minifiedDef>
+		<researchPrerequisites>
+		<li>GunTurrets</li>
+		<!--	<li>Vault-TecProduction</li>-->
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="BaseAutoTurretGun">
+		<defName>Gun_FalloutMiniTurret</defName>
+		<label>Sentry light gun</label>
+		<graphicData>
+			<texPath>Things/Building/Security/FalloutTurretImprovised_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <menuHidden>True</menuHidden> -->
+		<description>Jury-rigged automatic gun attached to a turret.</description>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<tradeability>None</tradeability>
+		<statBases>
+			<SightsEfficiency>1.45</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.80</SwayFactor>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+
+				<recoilAmount>0.41</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<range>35</range>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<soundCast>GunShotA</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>0.001</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>600</magazineSize>
+				<reloadTime>6.00</reloadTime>
+				<ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>3</aimedBurstShotCount>
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>Snapshot</aiAimMode>
+				<noSnapshot>true</noSnapshot>
+				<noSingleShot>true</noSingleShot>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="TurretBase">
+		<defName>Fallout_laser_Turret</defName>
+		<label>Automated laser turret</label>
+		<graphicData>
+			<texPath>Things/Building/Security/TOWLauncherBase</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/FalloutTurretLaser_Ico</uiIconPath>
+		<statBases>
+		<Mass>50</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		   <li Class="CompProperties_Refuelable">
+			<fuelLabel>Battery charges</fuelLabel>
+			<fuelGizmoLabel>Charge level</fuelGizmoLabel>
+			<outOfFuelMessage>Can't shoot : Replace battery</outOfFuelMessage>
+			<fuelFilter>
+			     <thingDefs>
+		      	<li>NuclearBattery</li>
+				<li>Hexcell</li>
+			     </thingDefs>
+			</fuelFilter>
+			<fuelCapacity>1</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Bat</fuelIconPath>
+		  </li>
+		  <li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>5</heatPerSecond>
+				<heatPushMaxTemperature>30</heatPushMaxTemperature>
+			</li>
+		</comps>
+		<description>A homemade wonder weapon assembled from a laser rifle, some tin cans, a couple of broken Protectron sensor modules, and the misplaced belief that "this time it will definitely work."</description>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<Fallout_LaserCarbineML>1</Fallout_LaserCarbineML>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<specialDisplayRadius>3</specialDisplayRadius>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_FalloutlaserTurret</turretGunDef>
+			<turretTopDrawSize>1.5</turretTopDrawSize>
+		</building>
+		<designationHotKey>Misc1</designationHotKey>
+		<tradeTags>
+			<li>Vaultec</li>
+		</tradeTags>
+		<minifiedDef>MinifiedTurretGun</minifiedDef>
+		<researchPrerequisites>
+			<li>Autoturrets_D2</li>
+			<!--<li>Vault-TecProduction</li>-->
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="BaseAutoTurretGun">
+		<defName>Gun_FalloutlaserTurret</defName>
+		<label>Sentry laser gun</label>
+		<graphicData>
+			<texPath>Things/Building/Security/FalloutTurretLaser_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <menuHidden>True</menuHidden> -->
+		<description>Jury-rigged automatic gun attached to a turret.</description>
+		 <soundInteract>InteractPrecision</soundInteract>
+		<tradeability>None</tradeability>
+		<statBases>
+			<SightsEfficiency>1.45</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.80</SwayFactor>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+
+				<recoilAmount>0.41</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+				<warmupTime>0.40</warmupTime>
+				<range>45</range>
+				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>GunShotA</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>0.001</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>400</magazineSize>
+				<reloadTime>6.00</reloadTime>
+				<ammoSet>AmmoSet_ChargedLaser</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>1</aimedBurstShotCount>
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>Snapshot</aiAimMode>
+				<noSnapshot>true</noSnapshot>
+				<noSingleShot>true</noSingleShot>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+<ThingDef ParentName="TurretBase">
+		<defName>Fallout_FlamethrowerLastWarning_Turret</defName>
+		<label>Flamethrower "Pyrometer 3000" turret</label>
+		<graphicData>
+			<texPath>Things/Building/Security/AMTurretGun_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/FalloutFlamethrowerLastWarning_Ico</uiIconPath>
+		<statBases>
+		<Mass>50</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		   <li Class="CompProperties_Refuelable">
+			<fuelLabel>Battery charges</fuelLabel>
+			<fuelGizmoLabel>Charge level</fuelGizmoLabel>
+			<outOfFuelMessage>Can't shoot : Replace battery</outOfFuelMessage>
+			<fuelFilter>
+			     <thingDefs>
+		      	<li>NuclearBattery</li>
+				<li>Hexcell</li>
+			     </thingDefs>
+			</fuelFilter>
+			<fuelCapacity>1</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Bat</fuelIconPath>
+		  </li>
+		  <li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>5</heatPerSecond>
+				<heatPushMaxTemperature>30</heatPushMaxTemperature>
+			</li>
+		</comps>
+		<description>Tired of uninvited guests? Tired of raiders, mutants and postal couriers (yes, those too) roaming around your territory with impunity? The Pyrometer 3000 solves all problems with one click of a switch!</description>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>10</costStuffCount>
+		<costList>
+			<Fallout_Flamethrower>1</Fallout_Flamethrower>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<specialDisplayRadius>3</specialDisplayRadius>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_FlamethrowerLastWarning_Turret</turretGunDef>
+			<turretTopDrawSize>1.3</turretTopDrawSize>
+		</building>
+		<designationHotKey>Misc1</designationHotKey>
+		<tradeTags>
+			<li>Vaultec</li>
+		</tradeTags>
+		<minifiedDef>MinifiedTurretGun</minifiedDef>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="BaseAutoTurretGun">
+		<defName>Gun_FlamethrowerLastWarning_Turret</defName>
+		<label>Flamethrower gun</label>
+		<graphicData>
+			<texPath>Things/Building/Security/FalloutFlamethrowerLastWarning_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <menuHidden>True</menuHidden> -->
+		<description>Flamethrower attached to a turret.</description>
+		 <soundInteract>InteractPrecision</soundInteract>
+		<tradeability>None</tradeability>
+		<statBases>
+			<SightsEfficiency>1.45</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.80</SwayFactor>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+
+				<recoilAmount>0.41</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
+				<warmupTime>0.40</warmupTime>
+				<range>20</range>
+				<minRange>4</minRange>
+				<soundCast>HissFlamethrower</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>0.001</consumeFuelPerShot>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>5</burstShotCount>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>600</magazineSize>
+				<reloadTime>6.00</reloadTime>
+				<ammoSet>AmmoSet_Flamethrower</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>1</aimedBurstShotCount>
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>Snapshot</aiAimMode>
+				<noSnapshot>true</noSnapshot>
+				<noSingleShot>true</noSingleShot>
+			</li>
+		</comps>
+	</ThingDef>
+	
+
+	<ThingDef ParentName="TurretBase">
+		<defName>Fallout_Turret_HeavyTurret</defName>
+		<label>Heavy Automated Turret</label>
+		<graphicData>
+			<texPath>Things/Building/Security/AMTurretGun_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		  <thingClass>CombatExtended.Building_CIWS_CE</thingClass>
+		<uiIconPath>Things/Building/Security/FalloutTurretHeavy_Ico</uiIconPath>
+		<statBases>
+		<Mass>50</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		   <li Class="CompProperties_Refuelable">
+			<fuelLabel>Battery charges</fuelLabel>
+			<fuelGizmoLabel>Charge level</fuelGizmoLabel>
+			<outOfFuelMessage>Can't shoot : Replace battery</outOfFuelMessage>
+			<fuelFilter>
+			     <thingDefs>
+		      	<li>NuclearBattery</li>
+				<li>Hexcell</li>
+			     </thingDefs>
+			</fuelFilter>
+			<fuelCapacity>1</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Bat</fuelIconPath>
+		  </li>
+		  <li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>5</heatPerSecond>
+				<heatPushMaxTemperature>30</heatPushMaxTemperature>
+			</li>
+		</comps>
+		<description>The "Brain-Spitter" Twin Turret is a testament to pre-War paranoia, jury-rigged with post-War pragmatism. This abomination of engineering pairs the apocalyptic firepower of twin 14x114mm heavy machine guns with the "strategic genius" of a salvaged Robobrain wetware CPU."\nCaliber:14.5x114mm</description>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Brain>1</Brain>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<specialDisplayRadius>3</specialDisplayRadius>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_FalloutHeavyTurret</turretGunDef>
+			<turretTopDrawSize>1.5</turretTopDrawSize>
+		</building>
+		<designationHotKey>Misc1</designationHotKey>
+		<tradeTags>
+			<li>Vaultec</li>
+		</tradeTags>
+		<minifiedDef>MinifiedTurretGun</minifiedDef>
+		<researchPrerequisites>
+			<li>Autoturrets_D2</li>
+			<!--<li>Vault-TecProduction</li>-->
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="BaseAutoTurretGun">
+		<defName>Gun_FalloutHeavyTurret</defName>
+		<label>Sentry Heavy gun</label>
+		<graphicData>
+			<texPath>Things/Building/Security/FalloutTurretHeavy_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <menuHidden>True</menuHidden> -->
+		<description>Heavy automatic gun attached to a turret.</description>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<tradeability>None</tradeability>
+		<statBases>
+			<SightsEfficiency>1.45</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.80</SwayFactor>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+
+				<recoilAmount>0.41</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<range>45</range>
+				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>GunShotA</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>0.001</consumeFuelPerShot>
+			</li>
+				<li Class="CombatExtended.VerbProperties_CIWSProjectile">
+				<verbClass>CombatExtended.VerbCIWSProjectile</verbClass>
+				<recoilAmount>1.08</recoilAmount>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>112</range>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<burstShotCount>10</burstShotCount>
+				<soundCast>Shot_ChargeBlaster</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<holdFireLabel>HoldCloseInProjectilesFire</holdFireLabel>
+				<holdFireDesc>HoldCloseInProjectilesFireDesc</holdFireDesc>
+			</li>
+			<li Class="CombatExtended.VerbProperties_CIWSSkyfaller">
+				<verbClass>CombatExtended.VerbCIWSSkyfaller</verbClass>
+				<recoilAmount>1.08</recoilAmount>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
+				<warmupTime>0.8</warmupTime>
+				<range>112</range>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<burstShotCount>10</burstShotCount>
+				<soundCast>Shot_ChargeBlaster</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<holdFireLabel>HoldCloseInSkyfallersFire</holdFireLabel>
+			</li>	
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>300</magazineSize>
+				<reloadTime>6.00</reloadTime>
+				<ammoSet>AmmoSet_145x114mm</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+		</comps>
+		<tools Inherit="False" />
+	</ThingDef>	
+	
+	
+
+<ThingDef ParentName="EmbrasureBase">
+		<defName>ADVANCED_Embrasure</defName>
+		<label>ADVANCED GRAVITY EMBRACE</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<description>"Reinforced embrasure based on recycled space-tech. A Gravi Panel is pressed into the material's structure, creating a composite of incredible strength. Requires no power and provides no active effects — just pure, reliable protection. Can withstand even a direct raid by heavily armed raiders."</description>
+		<replaceTags>
+			<li>Wall</li>
+		</replaceTags>
+		<graphicData>
+			<texPath>Things/Building/MainEmbrasure</texPath>
+		</graphicData>
+		<uiIconPath>Things/Building/MainEmbrasure/MainEmbrasureSmooth_MenuIcon</uiIconPath>
+		<uiIconPathsStuff Inherit="False">
+			<li>
+				<appearance>Bricks</appearance>
+				<iconPath>Things/Building/MainEmbrasure/MainEmbrasureSmooth_MenuIcon</iconPath>
+			</li>
+		</uiIconPathsStuff>
+		<statBases>
+			<WorkToBuild>450</WorkToBuild>
+			<MaxHitPoints>2200</MaxHitPoints>
+			<Flammability>0.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+		<costList>
+			<ReinforcedConcrete>3</ReinforcedConcrete>
+			<GravlitePanel>1</GravlitePanel>
+		</costList>
+		<fillPercent>0.7</fillPercent>
+		<disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
+		<building>
+			<blueprintGraphicData>
+				<texPath>Things/Building/MainEmbrasure/MainEmbrasure_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+			<isStuffableAirtight>false</isStuffableAirtight>
+		</building>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="TurretMannedBase">
+		<defName>Turret_MIVickers</defName>
+		<label>Vickers .303 Mark I</label>
+		<graphicData>
+			<texPath>Things/Building/Security/M240_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/Vickers_ico</uiIconPath>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1200</WorkToBuild>
+			<Mass>33.5</Mass>
+			<Bulk>47</Bulk>
+		</statBases>
+		  <comps>
+      <!-- <li Class="CompProperties_Refuelable">
+			<fuelLabel>blood oath</fuelLabel>
+			<fuelGizmoLabel>Cooling level</fuelGizmoLabel>
+			<outOfFuelMessage>Can't shoot : bloodlust</outOfFuelMessage>
+			<fuelFilter>
+			     <thingDefs>
+		      	<li>HemogenPack</li>
+			     </thingDefs>
+			</fuelFilter>
+			<fuelCapacity>1</fuelCapacity>   
+			<fuelMultiplier>1</fuelMultiplier> 
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Resource/BF</fuelIconPath>
+		  </li>-->
+    </comps>
+		
+		<techLevel>Industrial</techLevel>
+		<description>A manned, mounted Vickers .303 Mark I. It uses .303  Bullets.</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>70</costStuffCount>
+		<costList>
+			<Fallout_AssaultVickers>1</Fallout_AssaultVickers>
+		</costList>
+		<researchPrerequisites>
+			<li>Rifles_C1</li>
+		</researchPrerequisites>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<turretGunDef>Gun_Vickers</turretGunDef>
+			<turretTopDrawSize>2</turretTopDrawSize>
+			<buildingTags>
+				<li>MachineGun</li>
+			</buildingTags>
+		</building>
+		<minifiedDef>MinifiedTurret_Vickers</minifiedDef>
+		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseGun_Turret">
+		<defName>Gun_Vickers</defName>
+		<label>Vickers .303 Mark I MG</label>
+		<description>Vickers .303 Mark I gun attached to a trypod.</description>
+		<!-- <menuHidden>True</menuHidden> -->
+
+		<tradeability>None</tradeability>
+		<graphicData>
+			<texPath>Things/Building/Security/Vickers_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>2500</MarketValue>
+			<SightsEfficiency>1.6</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>0.75</SwayFactor>
+			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<recoilPattern>Mounted</recoilPattern>
+				<recoilAmount>0.95</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				 <defaultProjectile>Bullet_303British_FMJ</defaultProjectile>
+				<warmupTime>1.20</warmupTime>
+				<range>42</range>
+				<minRange>1</minRange>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>15</burstShotCount>
+				<!--<forcedMissRadius>1.9</forcedMissRadius>-->
+				<soundCast>HeavyMG</soundCast>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			<!--	<consumeFuelPerShot>0.01</consumeFuelPerShot>-->
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				  <magazineSize>60</magazineSize>
+                <reloadTime>2.3</reloadTime>
+               <ammoSet>AmmoSet_303British</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>5</aimedBurstShotCount>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="MinifiedTurretBase">
+		<defName>MinifiedTurret_Vickers</defName>
+		<label>Vickers .303 Mark I</label>
+		<statBases>
+			<Mass>33.5</Mass>
+			<Bulk>37</Bulk>
+		</statBases>
+	</ThingDef>
+	
+</Defs>

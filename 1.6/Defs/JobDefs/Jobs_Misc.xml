@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--<JobDef>
+    <defName>MoleRatDig</defName>
+    <driverClass>Watcher.Jobs.JobDriver_MoleRatDig</driverClass>
+    <reportString>Digging tunnel.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+    <checkOverrideOnDamage>true</checkOverrideOnDamage>
+    <alwaysShowWeapon>false</alwaysShowWeapon>
+    <suspendable>true</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+    <collideWithPawns>false</collideWithPawns>
+  </JobDef>-->
+  <JobDef>
+    <defName>CleanRadioactiveFilth</defName>
+    <driverClass>Watcher.Comps.JobDriver_CleanRadioactiveFilth</driverClass>
+    <reportString>cleaning radioactive filth.</reportString>
+    <alwaysShowWeapon>false</alwaysShowWeapon>
+  </JobDef>
+  
+  <JobDef>
+    <defName>ListenToRadio</defName>
+    <driverClass>Watcher.Events.JobDriver_ListenToRadio</driverClass>
+    <reportString>listening to radio.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>4</joyMaxParticipants>
+    <joyGainRate>1.2</joyGainRate>
+    <joyKind>MusicRadioJoy</joyKind>
+  </JobDef>
+ <!--  <JobDef>
+    <defName>RefuelIVDrip</defName>
+    <driverClass>Watcher.Comps.JobDriver_RefuelIVDrip</driverClass>
+    <reportString>refueling IV drip.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>-->
+  
+   <!--  <JobDef>
+        <defName>Watcher_CreateComics</defName>
+        <driverClass>Watcher.JobDriver_CreateComics</driverClass>
+        <reportString>drawing comics.</reportString>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    </JobDef>-->
+</Defs>

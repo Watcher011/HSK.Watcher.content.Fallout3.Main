@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  
+  
+  <ThingDef ParentName="SK_PlantFoodRawBase">
+    <defName>RawMutfruit</defName>
+    <label>raw Mutfruit</label>
+    <description>Raw Mutfruit is a highly mutated fruit that grows in small villages. What kind of fruit that has mutated is unknown. Widely distributed in the Commonwealth, and also because of its abilities. Can be grown in friendly settlements. Used to prepare various dishes.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/MutfruitRAW</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+		<foodType>VegetableOrFruit</foodType>
+		<ingestEffect>EatVegetarian</ingestEffect>
+		 <preferability>MealTerrible</preferability>
+    </ingestible>
+	<thingCategories>
+	        <li>BasicPlantFoodRaw</li>
+	</thingCategories>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+  
+   <ThingDef ParentName="SK_PlantFoodRawBase">
+    <defName>RawPrickeye</defName>
+    <label>raw Prickeye</label>
+    <description>Raw Prickeye is a genetically unstable fruit that proliferates in irradiated urban ruins. Its original botanical lineage has been lost to radiation-induced mutation cycles. Commonly scavenged throughout the Commonwealth due to its rapid growth cycle and resilience to environmental toxins. Can be cultivated in secure settlements with sufficient radiation shielding. Primarily used in brewing and as a base for wasteland survival rations.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/RawPrickeye</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.1</MarketValue>
+    </statBases>
+    <ingestible>
+		<foodType>VegetableOrFruit</foodType>
+		<ingestEffect>EatVegetarian</ingestEffect>
+		 <preferability>MealTerrible</preferability>
+    </ingestible>
+	<thingCategories>
+	        <li>BasicPlantFoodRaw</li>
+	</thingCategories>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>70</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="SK_PlantFoodRawBase">
+    <defName>RawTarberry</defName>
+    <label>raw Tarberry</label>
+    <description>Mutated berry. In addition to direct consumption, resin berries can be used for cooking.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/TarberryRAW</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <ingestible>
+	<foodType>VegetableOrFruit</foodType>
+	<ingestEffect>EatVegetarian</ingestEffect>
+	 <preferability>MealTerrible</preferability>
+    </ingestible>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+	<thingCategories>
+	       <li>ExtraPlantFoodRaw</li>
+	</thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+ 
+  
+   <ThingDef ParentName="SK_PlantFoodRawBase">
+    <defName>RawTato</defName>
+    <label>raw Tato</label>
+    <description>Raw Tato a hybrid of tomato and potato that mutated after the Great War (TOMATO and POTATO).</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/TatoRAW</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+     <foodType>VegetableOrFruit</foodType>
+		<ingestEffect>EatVegetarian</ingestEffect>
+		 <preferability>MealTerrible</preferability>
+    </ingestible>
+	<thingCategories>
+	        <li>BasicPlantFoodRaw</li>
+	</thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="SK_PlantFoodRawBase">
+    <defName>RawIcecap</defName>
+    <label>raw Icecap</label>
+    <description>The harvested "head" resembles a dense, conical blue cabbage, but the leaves are not wavy, but smooth and glossy, as if covered with a thin film of ice. The color is an intense electric blue, with a neon glow in the center and veins, especially noticeable at dusk. When touched, the leaves produce a characteristic high-pitched crunch, comparable to the breaking of layered ice.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/IcecapRAW</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+     <foodType>VegetableOrFruit</foodType>
+		<ingestEffect>EatVegetarian</ingestEffect>
+		 <preferability>MealTerrible</preferability>
+    </ingestible>
+	<thingCategories>
+	        <li>BasicPlantFoodRaw</li>
+	</thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

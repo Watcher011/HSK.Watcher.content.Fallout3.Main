@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="DoorBase">
+		<defName>VaultTecSecureLok</defName>
+		<label>Vault-Tec  SecureLok</label>
+		<description>Your reliable barrier between you and what's left of your neighbors! Includes: one rotary mechanism, one latch and a reminder that personal space is not a right, but a privilege granted by the Manager.</description>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Other/DoorFal_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Other/DoorFal_Icon</uiIconPath>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>55</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ElectronicComponents>2</ElectronicComponents>
+		</costList>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>100</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="SK.CompProperties_LowIdleDraw">
+				<compClass>SK.CompPowerLowIdleDraw</compClass>
+				<idlePowerFactor>0.1</idlePowerFactor>
+				<operationalMode>WhenNear</operationalMode>
+			</li>
+			<li Class="CompProperties_Styleable" />
+		</comps>
+		<designationHotKey>Misc3</designationHotKey>
+		<researchPrerequisites>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+
+<ThingDef ParentName="DoorBase">
+		<defName>BigVaultTecSecureLok</defName>
+		<label>Big Vault-Tec  SecureLok</label>
+		<description>A standard weatherstripping system contracted to Vault-Tec. The rotary mechanism and steel latch convey security, while the sign reminds you that your privacy is a convention that can be overturned at any time by higher-ups. Protects against everything except paranoia.</description>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Other/BigDoorFal_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Other/BigDoorFal_Icon</uiIconPath>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>55</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ElectronicComponents>2</ElectronicComponents>
+		</costList>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>100</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="SK.CompProperties_LowIdleDraw">
+				<compClass>SK.CompPowerLowIdleDraw</compClass>
+				<idlePowerFactor>0.1</idlePowerFactor>
+				<operationalMode>WhenNear</operationalMode>
+			</li>
+			<li Class="CompProperties_Styleable" />
+		</comps>
+		<designationHotKey>Misc3</designationHotKey>
+		<researchPrerequisites>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	 <ThingDef ParentName="DoorBase">
+    <defName>ArmoredDoor</defName>
+    <label>Armored door</label>
+    <description>A heavily reinforced door. It is slow to open and requires electricity, but is very strong. It's a good choice if you want to keep something dangerous out - or in. The door requires walls on either side to function.</description>
+    <thingClass>Building_MultiTileDoor</thingClass>
+    <statBases>
+      <WorkToBuild>6000</WorkToBuild>
+      <MaxHitPoints>2800</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2, 1)</size>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/ArmoredDoor/FDoor2x1_Underlayer_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <!--  no damage marks because they don't move with the door -->
+        <enabled>false</enabled>
+      </damageData>
+      <color>(105,105,105)</color>
+    </graphicData>
+    <uiIconPath>Things/Building/ArmoredDoor/FDoor_MenuIcon_south</uiIconPath>
+    <uiIconColor>(105,105,105)</uiIconColor>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <costList>
+      <Plasteel>90</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <stuffCategories Inherit="False"/>
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <building>
+      <poweredDoorOpenSpeedFactor>4</poweredDoorOpenSpeedFactor>
+      <unpoweredDoorOpenSpeedFactor>2</unpoweredDoorOpenSpeedFactor>
+      <unpoweredDoorCloseSpeedFactor>2</unpoweredDoorCloseSpeedFactor>
+      <blueprintClass>Blueprint_Build</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Things/Building/ArmoredDoor/FDoor_MenuIcon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+        <drawSize>(2.6, 3.1)</drawSize>
+      </blueprintGraphicData>
+      <doorTopGraphic>
+        <texPath>Things/Building/ArmoredDoor/FDoor2x1_Top</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3,2.4)</drawSize>
+        <color>(105,105,105)</color>
+      </doorTopGraphic>
+      <doorSupportGraphic>
+        <texPath>Things/Building/ArmoredDoor/FDoor2x1_Support</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3,2.4)</drawSize>
+        <color>(105,105,105)</color>
+      </doorSupportGraphic>
+      <upperMoverGraphic>
+        <texPath>Things/Building/ArmoredDoor/FDoor2x1_Upper_Mover</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <color>(105,105,105)</color>
+      </upperMoverGraphic>
+      <soundDoorOpenPowered>SecurityDoor_Open</soundDoorOpenPowered>
+      <soundDoorClosePowered>SecurityDoor_BeginClosing</soundDoorClosePowered>
+      <soundDoorOpenManual>SecurityDoor_Open</soundDoorOpenManual>
+      <soundDoorCloseManual>SecurityDoor_BeginClosing</soundDoorCloseManual>
+      <soundDoorCloseEnd>SecurityDoor_EndClosing</soundDoorCloseEnd>
+    </building>
+    <designationHotKey>Misc2</designationHotKey>
+
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_MultiCellDoor</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
+    </comps>
+	<researchPrerequisites>
+				<li>Fortification_C2</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  
+  	 <ThingDef ParentName="DoorBase">
+    <defName>QDoor</defName>
+    <label>Quarantine door</label>
+    <description>The door is equipped with sprayers dispensing a powerful antiseptic solution and foam based on Radiaver, as well as portable UV lamps to kill pathogens. The cleaning cycle takes 30 seconds, accompanied by a sharp hissing sound, flashing warning lights, and a voice alert from a grille speaker. The process cannot be interrupted until three long beeps sound.</description>
+    <thingClass>Building_MultiTileDoor</thingClass>
+    <statBases>
+      <WorkToBuild>6000</WorkToBuild>
+      <MaxHitPoints>2800</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2, 1)</size>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/BioDoor/BDoor2x1_Underlayer_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <!--  no damage marks because they don't move with the door -->
+        <enabled>false</enabled>
+      </damageData>
+      <color>(105,105,105)</color>
+    </graphicData>
+    <uiIconPath>Things/Building/BioDoor/BDoor_MenuIcon_south</uiIconPath>
+    <uiIconColor>(105,105,105)</uiIconColor>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <costList>
+      <Plasteel>90</Plasteel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+	  <Mechanism>2</Mechanism>
+	  <CarbonAlloy>5</CarbonAlloy>
+	  <SyntheticFibers>8</SyntheticFibers>
+	  <Electronics>2</Electronics>
+    </costList>
+    <stuffCategories Inherit="False"/>
+    <useStuffTerrainAffordance>false</useStuffTerrainAffordance>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <building>
+      <poweredDoorOpenSpeedFactor>4</poweredDoorOpenSpeedFactor>
+      <unpoweredDoorOpenSpeedFactor>2</unpoweredDoorOpenSpeedFactor>
+      <unpoweredDoorCloseSpeedFactor>2</unpoweredDoorCloseSpeedFactor>
+      <blueprintClass>Blueprint_Build</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Things/Building/BioDoor/BDoor_MenuIcon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+        <drawSize>(2.6, 3.1)</drawSize>
+      </blueprintGraphicData>
+      <doorTopGraphic>
+        <texPath>Things/Building/BioDoor/BDoor2x1_Top</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3,2.4)</drawSize>
+        <color>(105,105,105)</color>
+      </doorTopGraphic>
+      <doorSupportGraphic>
+        <texPath>Things/Building/BioDoor/BDoor2x1_Support</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3,2.4)</drawSize>
+        <color>(105,105,105)</color>
+      </doorSupportGraphic>
+      <upperMoverGraphic>
+        <texPath>Things/Building/BioDoor/BDoor2x1_Upper_Mover</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <color>(105,105,105)</color>
+      </upperMoverGraphic>
+      <soundDoorOpenPowered>SecurityDoor_Open</soundDoorOpenPowered>
+      <soundDoorClosePowered>SecurityDoor_BeginClosing</soundDoorClosePowered>
+      <soundDoorOpenManual>SecurityDoor_Open</soundDoorOpenManual>
+      <soundDoorCloseManual>SecurityDoor_BeginClosing</soundDoorCloseManual>
+      <soundDoorCloseEnd>SecurityDoor_EndClosing</soundDoorCloseEnd>
+    </building>
+    <designationHotKey>Misc2</designationHotKey>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_MultiCellDoor</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>50</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Styleable"/>
+	   <li Class="Watcher.Comps.CompProperties_ToxicBuildupRemover">
+                <showMessage>false</showMessage>
+                <removalEfficiency>1.0</removalEfficiency>
+        </li>
+		<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
+		</li>
+    </comps>
+	<researchPrerequisites>
+			<li>Autodoors</li>
+			<li>Medicine_A2</li>
+		</researchPrerequisites>
+  </ThingDef>
+
+</Defs>

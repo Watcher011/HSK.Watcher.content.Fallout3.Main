@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <AbilityDef>
+        <defName>Watcher_InjectStimulants</defName>
+        <label>inject stimulants</label>
+        <description>Manually inject stimulant dose.</description>
+        <iconPath>UI/Commands/LaunchReport</iconPath>
+        <cooldownTicksRange>3000</cooldownTicksRange>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>0</range>
+            <warmupTime>0.3</warmupTime>
+            <targetParams>
+                <canTargetSelf>true</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="Watcher.Comps.CompProperties_AbilityInjectStimulants">
+                <hediffDef>Watcher_StimulantCocktail</hediffDef>
+                <severity>0.5</severity>
+                <ammoCost>1</ammoCost>
+            </li>
+        </comps>
+    </AbilityDef>
+	
+	 <AbilityDef ParentName="PsycastBaseSkip">
+    <defName>RadioactivePinhole</defName>
+    <label>Isotopic loop gap</label>
+    <description>Through this pulsating clot of time, the frozen fire of a chain reaction oozes—an explosion lasting a single instant, but stretched out into infinity, bathing the ruins in a deathly green glow, while the chronosphere slowly thins under the weight of reality.</description>
+    <level>1</level>
+    <iconPath>UI/Abilities/SolarPinhole</iconPath>
+    <hotKey>Misc12</hotKey>
+    <canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <statBases>
+      <Ability_PsyfocusCost>0.08</Ability_PsyfocusCost>
+      <Ability_EffectRadius>14.9</Ability_EffectRadius>
+      <Ability_Duration>5000</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <warmupTime>0.2</warmupTime>
+      <range>24.9</range>
+      <targetParams>
+        <canTargetPawns>False</canTargetPawns>
+        <canTargetLocations>True</canTargetLocations>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilitySpawn">
+        <thingDef>RadioactivePinhole</thingDef>
+        <allowOnBuildings>False</allowOnBuildings>
+      </li>
+      <li Class="CompProperties_AbilityEffecterOnTarget">
+        <effecterDef>Skip_Exit</effecterDef>
+        <maintainForTicks>60</maintainForTicks>
+        <scale>0.42</scale>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDefs>
+          <li>PsycastSkipInnerExit</li>
+          <li>PsycastSkipOuterRingExit</li>
+        </fleckDefs>
+        <scale>0.42</scale>
+        <sound>Psycast_Skip_Exit</sound>
+        <preCastTicks>5</preCastTicks>
+      </li>
+    </comps>
+  </AbilityDef>
+</Defs>

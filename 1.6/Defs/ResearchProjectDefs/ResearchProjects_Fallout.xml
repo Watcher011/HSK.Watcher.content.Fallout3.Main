@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchProjectDef ParentName="MedievalBase">
+    <defName>Vault-TecPower</defName>
+    <label>Vault-Tec Power</label>
+    <description>Build Generators Using Vault-Tec Blueprints.</description>
+    <baseCost>500</baseCost>
+    <prerequisites>
+      <li>Electricity</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Machining</li>
+    </hiddenPrerequisites>
+	<techLevel>Medieval</techLevel>
+	<tab>Buildings_SK</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+   <researchViewX>10.00</researchViewX>
+    <researchViewY>18.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vault-Tec Power</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+ <ResearchProjectDef ParentName="MedievalBase">
+    <defName>Vault-TecProduction</defName>
+    <label>Vault-Tec Production</label>
+    <description>Build Workbench Using Vault-Tec Blueprints.</description>
+    <baseCost>800</baseCost>
+    <prerequisites>
+      <li>Vault-TecPower</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Vault-TecPower</li>
+    </hiddenPrerequisites>
+	<techLevel>Industrial</techLevel>
+	
+	<!--  <techprintCount>2</techprintCount>
+    <techprintCommonality>3</techprintCommonality>
+    <techprintMarketValue>3000</techprintMarketValue>-->
+  <!--  <heldByFactionCategoryTags>
+      <li>Empire</li>
+    </heldByFactionCategoryTags>-->
+	
+	<tab>Buildings_SK</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+   <researchViewX>11.00</researchViewX>
+    <researchViewY>18.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vault-Tec Production</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef ParentName="MedievalBase">
+    <defName>Vault-TecProcessing</defName>
+    <label>Vault-Tec chemical processing</label>
+    <description>Build laboratory Using Vault-Tec Blueprints.</description>
+    <baseCost>500</baseCost>
+    <prerequisites>
+      <li>Vault-TecProduction</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>Machining</li>
+    </hiddenPrerequisites>
+	<techLevel>Industrial</techLevel>
+	<tab>Buildings_SK</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+   <researchViewX>12.00</researchViewX>
+    <researchViewY>18.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vault-Tec laboratory</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  
+  
+  <!-- <ResearchProjectDef ParentName="MedievalBase">
+    <defName>Vault-Tec</defName>
+    <label>Vault-Tec  processing</label>
+    <description>Build Vault-Tec Blueprints.</description>
+    <baseCost>500</baseCost>
+    
+    <hiddenPrerequisites>
+      <li>Machining</li>
+    </hiddenPrerequisites>
+	<techLevel>Industrial</techLevel>
+
+ 
+ <tab>Buildings_SK</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+    <researchViewX>9.00</researchViewX>
+    <researchViewY>18.00</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vault-Tec</li>
+      </rulesStrings>
+    </generalRules>
+	<modExtensions>
+      <li Class="WatcherResearchRewards.ResearchRewardExtension">
+        <rewardThingDef>ComponentIndustrial</rewardThingDef>
+        <rewardCount>5</rewardCount>
+      </li>
+    </modExtensions>
+  </ResearchProjectDef>-->
+  
+</Defs>

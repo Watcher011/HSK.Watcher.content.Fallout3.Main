@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignationCategoryDef>
+    <defName>VaultTec</defName>
+    <label>Vault-Tec</label>
+    <description>Things for Vault-Tec production.</description>
+    <order>10</order>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </DesignationCategoryDef>
+ 
+</Defs>

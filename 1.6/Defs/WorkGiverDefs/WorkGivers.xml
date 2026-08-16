@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <WorkGiverDef>
+    <defName>CleanRadioactiveFilth</defName>
+    <label>clean radioactive filth</label>
+    <giverClass>Watcher.Comps.WorkGiver_CleanRadioactiveFilth</giverClass>
+    <workType>Cleaning</workType>
+    <priorityInType>50</priorityInType>
+    <verb>clean</verb>
+    <gerund>cleaning</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  <!-- <WorkGiverDef>
+    <defName>RefuelIVDrip</defName>
+    <label>refuel IV drip</label>
+    <giverClass>Watcher.Comps.WorkGiver_RefuelIVDrip</giverClass>
+    <workType>Hauling</workType>
+    <verb>refuel</verb>
+    <gerund>refueling</gerund>
+    <priorityInType>50</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>-->
+</Defs>

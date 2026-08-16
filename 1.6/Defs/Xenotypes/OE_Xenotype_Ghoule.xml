@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--=============== Ghoul ====================-->
+  <XenotypeDef>
+    <defName>OE_Ghoul</defName>
+    <label>Ghoul</label>
+    <description>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation gave them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</description>
+    <descriptionShort>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation gave them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/RAD</iconPath>
+	<inheritable>true</inheritable>
+    <genes>
+	  <li>Skin_Green</li>
+	  <li>Skin_PaleYellow</li>
+	  <li>OE_Skin_GhoulDarkGreen</li>
+	  <li>OE_Skin_GhoulLightGreen</li>
+	  <li>OE_Skin_GhoulLightBrown</li>
+	  <li>OE_GhoulHead</li>
+	  <li>Beard_NoBeardOnly</li>
+	  <li>Body_Thin</li>
+	  <li>Body_Standard</li>
+	  <li>ToxicEnvironmentResistance_Total</li>
+	  <li>PollutionRush</li>
+	  <li>RADImmunity</li>
+	  <li>MinTemp_SmallIncrease</li>
+	  <li>Pain_Reduced</li>
+	 <li>ToxResist_Total</li>
+	<!--  <li>ChemicalDependency_SavageryHigh</li>-->
+    </genes>
+  </XenotypeDef>
+  
+  
+   <XenotypeDef>
+    <defName>Ghoul</defName>
+    <label>Ghoul</label>
+   <description>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation gave them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</description>
+    <descriptionShort>Ghouls were once humans who failed to get into a protective shelter during a bombing. Irradiation gave them increased resistance to radiation; they also gain a bonus to resistance to poison. Unfortunately, they are too physically weak to use heavy weapons.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/RAD</iconPath>
+    <inheritable>true</inheritable>
+    <nameMaker>NamerPersonDirtmole_Male</nameMaker>
+    <nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Eyes_Gray</li>
+	  <li>OE_GhoulHead</li>
+      <li>Skin_LightGray</li>
+	  <li>OE_Skin_GhoulDarkGreen</li>
+	  <li>OE_Skin_GhoulLightGreen</li>
+	  <li>OE_Skin_GhoulLightBrown</li>
+      <li>Beard_NoBeardOnly</li>
+	  <li>ToxicEnvironmentResistance_Total</li>
+	  <li>PollutionRush</li>
+	  <li>RADImmunity</li>
+	  <li>MinTemp_SmallIncrease</li>
+	  <li>Pain_Reduced</li>
+	 <li>ToxResist_Total</li>
+	<!--  <li>ChemicalDependency_SavageryHigh</li>-->
+    </genes>
+  </XenotypeDef>
+  
+  
+   <XenotypeDef>
+    <defName>Supermutant</defName>
+    <label>Super mutant</label>
+   <description>"Huge, green, and surprisingly uniform, super mutants have become an integral part of the post-apocalyptic landscape. Created in a brilliant (or idiotic?) plan to ‘improve’ humanity, they proved that it’s possible to increase muscle mass at the expense of everything else. Grey matter? Overrated. Culture? For wimps. Big words? Blabbermouth."</description>
+    <iconPath>UI/Icons/Xenotypes/mutant</iconPath>
+    <inheritable>false</inheritable>
+    <nameMaker>NamerPersonDirtmole_Male</nameMaker>
+    <nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+    <chanceToUseNameMaker>0</chanceToUseNameMaker>
+    <genes>
+      <li>Eyes_Red</li>
+	  <li>OE_Skin_GhoulDarkGreen</li>
+	  <li>OE_Skin_GhoulLightGreen</li>
+	  <li>OE_Skin_GhoulLightBrown</li>
+      <li>Beard_NoBeardOnly</li>
+      <li>WoundHealing_Fast</li>
+	  <li>ToxicEnvironmentResistance_Total</li>
+	  <li>Aggression_HyperAggressive</li>
+	  <li>Hair_ShortOnly</li>
+	  <li>Jaw_Heavy</li>
+      <li>Brow_Heavy</li>
+	  <li>Body_Hulk</li>
+	  <li>Learning_Slow</li>
+	  <li>Robust</li>
+	  <li>Superclotting</li>
+	  <li>Pain_Reduced</li>
+	   <li>Inbred</li>
+	   <li>Sterile</li>
+    </genes>
+  </XenotypeDef>
+  
+   <XenotypeDef>
+    <defName>MisterHandy</defName>
+    <label>Mister Handy</label>
+    <description>-/-</description>
+    <descriptionShort>With gray skin.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/MH</iconPath>
+    <inheritable>false</inheritable>
+
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Skin_LightGray</li>
+	   <li>Beard_NoBeardOnly</li>
+	    <li>Hair_BaldOnly</li>
+    </genes>
+  </XenotypeDef>
+  
+  
+   
+</Defs>

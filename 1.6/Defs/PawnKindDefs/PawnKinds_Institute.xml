@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+   <PawnKindDef Abstract="True" Name="InstituteBase">
+    <race>ChjAndroid</race>
+    <defaultFactionType>Institute</defaultFactionType>
+    <backstoryFilters>
+        <li>
+            <categories>
+                <li>Institute</li>
+            </categories>
+        </li>
+    </backstoryFilters>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <isFighter>true</isFighter>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <itemQuality>Normal</itemQuality>
+    <invNutrition>2.5</invNutrition>
+    <invFoodDef>MealFine</invFoodDef>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>50</maxGenerationAge>
+	<apparelColor>(0,255,255)</apparelColor>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <gearHealthRange>
+        <min>0.6</min>
+        <max>1.8</max>
+    </gearHealthRange>
+    <specificApparelRequirements>
+        <li>
+            <bodyPartGroup>Torso</bodyPartGroup>
+            <apparelLayer>Shell</apparelLayer>
+        </li>
+    </specificApparelRequirements>
+    <disallowedTraits>
+        <li>Brawler</li>
+        <li>Pyromaniac</li>
+    </disallowedTraits>
+    <requiredWorkTags>
+        <li>Violent</li>
+    </requiredWorkTags>
+    <techHediffsMoney>
+        <min>8000</min>
+        <max>15000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+        <li>Futuristic</li>
+        <li>Military</li>
+		<li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+	 
+    <techHediffsChance>0.9</techHediffsChance>
+    <techHediffsMaxAmount>8</techHediffsMaxAmount>
+   
+</PawnKindDef>
+
+<!-- Institute Courser -->
+<PawnKindDef Name="InstituteCourserBase" ParentName="InstituteBase" Abstract="True">
+    <label>Institute Courser</label>
+    <combatPower>420</combatPower>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <gearHealthRange>
+        <min>0.6</min>
+        <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+        <min>12000</min>
+        <max>18000</max>
+    </apparelMoney>
+    <apparelRequired>
+		<li>Apparello_PipBoy</li>
+    	<li>Apparello_Vaultjumpsuit</li>
+        <li>Apparel_PowerArmorHelmet</li>
+        <li>Apparel_PowerArmor</li>
+    </apparelRequired>
+    <apparelTags>
+        <li>EnclaveStandard</li>
+        <li>PowerArmor</li>
+    </apparelTags>
+    <weaponMoney>
+        <min>2500</min>
+        <max>4000</max>
+    </weaponMoney>
+    <weaponTags>
+            <li>RF4</li>
+            <li>AdvancedGun</li>
+			<li>IndustrialGunAdvanced</li>
+            <li>TierThreeRifle</li>
+            <li>CE_AI_Rifle</li>
+    </weaponTags>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>6~18</range>
+        </li>
+    </skills>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>15~22</initialResistanceRange>
+    <modExtensions>
+        <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+                <min>5</min>
+                <max>7</max>
+            </primaryMagazineCount>
+            <sidearms>
+                <li>
+                    <generateChance>0.2</generateChance>
+                    <sidearmMoney>
+                        <min>300</min>
+                        <max>500</max>
+                    </sidearmMoney>
+                    <weaponTags>
+                        <li>PlasmaPistol</li>
+                    </weaponTags>
+                    <magazineCount>
+                        <min>2</min>
+                        <max>4</max>
+                    </magazineCount>
+                </li>
+            </sidearms>
+        </li>
+    </modExtensions>
+</PawnKindDef>
+
+<PawnKindDef ParentName="InstituteCourserBase">
+    <defName>Institute_Courser</defName>
+	 <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="InstituteCourserBase">
+    <defName>Institute_Courser_Advanced</defName>
+	 <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+</PawnKindDef>
+
+<!-- Synth Enforcer -->
+<PawnKindDef Name="SynthEnforcerBase" ParentName="InstituteBase" Abstract="True">
+    <label>Synth Enforcer</label>
+    <combatPower>480</combatPower>
+    <gearHealthRange>
+        <min>0.7</min>
+        <max>1.9</max>
+    </gearHealthRange>
+    <apparelMoney>
+        <min>15000</min>
+        <max>22000</max>
+    </apparelMoney>
+    <apparelRequired>
+      <li>Apparel_FlakJacket</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_FlakPants</li>
+    </apparelRequired>
+    <apparelTags>
+	        <li>SyndicateLight</li>
+			<li>SyndicateMedium</li>
+			<li>BroadshieldPack</li>
+    </apparelTags>
+    <weaponMoney>
+        <min>3500</min>
+        <max>5500</max>
+    </weaponMoney>
+    <weaponTags>
+            <li>ADR2</li>
+            <li>AdvancedGun</li>
+			<li>SpacerGun</li>
+            <li>TierTwoNormal</li>
+            <li>Futuristic</li>
+            <li>CE_AI_Rifle</li>
+			 <li>VaultecLaunchers</li>
+    </weaponTags>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>5~16</range>
+        </li>
+    </skills>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>18~25</initialResistanceRange>
+    <modExtensions>
+        <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+                <min>8</min>
+                <max>12</max>
+            </primaryMagazineCount>
+        </li>
+    </modExtensions>
+</PawnKindDef>
+
+<PawnKindDef ParentName="SynthEnforcerBase">
+    <defName>Synth_Enforcer</defName>
+	 <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="SynthEnforcerBase">
+    <defName>Synth_Enforcer_Advanced</defName>
+	 <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+</PawnKindDef>
+
+<!-- Gen-3 Suppressor -->
+<PawnKindDef Name="SuppressorBase" ParentName="InstituteBase" Abstract="True">
+    <label>Gen-3 Suppressor</label>
+    <combatPower>450</combatPower>
+    <gearHealthRange>
+        <min>0.6</min>
+        <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+        <min>13000</min>
+        <max>19000</max>
+    </apparelMoney>
+    <apparelRequired>
+	   <li>Apparel_FlakJacket</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_FlakPants</li>
+    </apparelRequired>
+    <apparelTags>
+        <li>EnclaveScout</li>
+        <li>StealthArmor</li>
+    </apparelTags>
+    <weaponMoney>
+        <min>4000</min>
+        <max>6000</max>
+    </weaponMoney>
+    <weaponTags>
+            <li>ASN2</li>
+            <li>AdvancedGun</li>
+            <li>TierTwoLow</li>
+            <li>Futuristic</li>
+            <li>CE_AI_Rifle</li>
+    </weaponTags>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>8~20</range>
+        </li>
+    </skills>
+    <initialWillRange>4~6</initialWillRange>
+    <initialResistanceRange>16~24</initialResistanceRange>
+    <modExtensions>
+        <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+                <min>4</min>
+                <max>6</max>
+            </primaryMagazineCount>
+            <sidearms>
+                <li>
+                    <generateChance>0.3</generateChance>
+                    <sidearmMoney>
+                        <min>400</min>
+                        <max>600</max>
+                    </sidearmMoney>
+                    <weaponTags>
+                        <li>LaserPistol</li>
+                    </weaponTags>
+                    <magazineCount>
+                        <min>3</min>
+                        <max>5</max>
+                    </magazineCount>
+                </li>
+            </sidearms>
+        </li>
+    </modExtensions>
+   
+</PawnKindDef>
+
+<PawnKindDef ParentName="SuppressorBase">
+    <defName>Suppressor_Sniper</defName>
+	 <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="SuppressorBase">
+    <defName>Suppressor_Sniper_Advanced</defName>
+ <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+  
+</PawnKindDef>
+
+<!-- Division Agent -->
+<PawnKindDef Name="Division_AgentBase" ParentName="InstituteBase" Abstract="True">
+    <label>Division Agent</label>
+    <combatPower>500</combatPower>
+    <itemQuality>Excellent</itemQuality>
+    <gearHealthRange>
+        <min>0.8</min>
+        <max>2.0</max>
+    </gearHealthRange>
+    <apparelMoney>
+        <min>20000</min>
+        <max>30000</max>
+    </apparelMoney>
+    <apparelRequired>
+	     <li>Apparel_PlateArmor</li>
+    </apparelRequired>
+   <!-- <apparelTags>
+         <li>VaultX01A</li>
+        <li>VaultX01H</li>
+    </apparelTags>-->
+    <weaponMoney>
+        <min>3000</min>
+        <max>5000</max>
+    </weaponMoney>
+    <weaponTags>
+           <li>OGR2</li>
+            <li>MG3</li>
+            <li>AdvancedGun</li>
+			<li>GunHeavy</li>
+            <li>TierTwoAdvanced</li>
+			<li>CE_AI_Suppressive</li>
+            <li>Microgun</li>
+			<li>FalloutMinigunPlasma</li>
+			 <li>VaultecLaunchers</li>
+    </weaponTags>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>7~19</range>
+        </li>
+        <li>
+            <skill>Social</skill>
+            <range>5~12</range>
+        </li>
+    </skills>
+    <initialWillRange>5~8</initialWillRange>
+    <initialResistanceRange>20~30</initialResistanceRange>
+    <modExtensions>
+        <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+                <min>6</min>
+                <max>8</max>
+            </primaryMagazineCount>
+            <sidearms>
+                <li>
+                    <generateChance>0.4</generateChance>
+                    <sidearmMoney>
+                        <min>500</min>
+                        <max>800</max>
+                    </sidearmMoney>
+                    <weaponTags>
+                        <li>PlasmaPistol</li>
+                    </weaponTags>
+                    <magazineCount>
+                        <min>4</min>
+                        <max>6</max>
+                    </magazineCount>
+                </li>
+            </sidearms>
+        </li>
+    </modExtensions>
+   
+</PawnKindDef>
+
+<PawnKindDef ParentName="Division_AgentBase">
+    <defName>Division_Agent</defName>
+	<techHediffsRequired>
+			 <li>DeathAcidifier</li>
+		</techHediffsRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="Division_AgentBase">
+    <defName>Division_Agent_Advanced</defName>
+	 <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+    
+</PawnKindDef>
+
+<!-- Molecular Harrier -->
+<PawnKindDef Name="MolecularHarrierBase" ParentName="InstituteBase" Abstract="True">
+    <label>Molecular Harrier</label>
+    <combatPower>380</combatPower>
+    <canBeSapper>true</canBeSapper>
+    <isGoodBreacher>true</isGoodBreacher>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <gearHealthRange>
+        <min>0.6</min>
+        <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+        <min>11000</min>
+        <max>17000</max>
+    </apparelMoney>
+    <apparelRequired>
+	   <li>Apparel_ArmorHelmetCataphract</li>
+      <li>Apparel_ArmorCataphract</li>
+    </apparelRequired>
+    <weaponMoney>
+        <min>2000</min>
+        <max>3500</max>
+    </weaponMoney>
+    <weaponTags>
+           <li>AdvancedGun</li>
+			<li>GunHeavy</li>
+            <li>TierTwoAdvanced</li>
+    </weaponTags>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>4~14</range>
+        </li>
+        <li>
+            <skill>Construction</skill>
+            <range>8~15</range>
+        </li>
+    </skills>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>14~21</initialResistanceRange>
+    <modExtensions>
+        <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+                <min>5</min>
+                <max>7</max>
+            </primaryMagazineCount>
+            <sidearms>
+                <li>
+                    <generateChance>0.5</generateChance>
+                    <sidearmMoney>
+                        <min>200</min>
+                        <max>400</max>
+                    </sidearmMoney>
+                    <weaponTags>
+                        <li>DemolitionCharge</li>
+                    </weaponTags>
+                    <magazineCount>
+                        <min>2</min>
+                        <max>4</max>
+                    </magazineCount>
+                </li>
+            </sidearms>
+        </li>
+    </modExtensions>
+   
+</PawnKindDef>
+
+<PawnKindDef ParentName="MolecularHarrierBase">
+    <defName>Molecular_Harrier</defName>
+</PawnKindDef>
+
+<PawnKindDef ParentName="MolecularHarrierBase">
+    <defName>Molecular_Harrier_Advanced</defName>
+</PawnKindDef>
+
+<!-- Reclamation Strider -->
+<PawnKindDef Name="ReclamationStriderBase" ParentName="InstituteBase" Abstract="True">
+    <label>Reclamation Strider</label>
+    <canBeSapper>true</canBeSapper>
+    <combatPower>600</combatPower>
+    <itemQuality>Legendary</itemQuality>
+    <techHediffsChance>1.0</techHediffsChance>
+    <factionLeader>true</factionLeader>
+    <gearHealthRange>
+        <min>0.9</min>
+        <max>2.2</max>
+    </gearHealthRange>
+    <apparelMoney>
+        <min>25000</min>
+        <max>40000</max>
+    </apparelMoney>
+		<apparelTags>
+			<li>SyndicateMedium</li>
+			<li>SyndicateUnique</li>
+			<li>UniqueSpacer</li>
+		</apparelTags>
+    <weaponMoney>
+        <min>5000</min>
+        <max>8000</max>
+    </weaponMoney>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>10~20</range>
+        </li>
+        <li>
+            <skill>Melee</skill>
+            <range>6~12</range>
+        </li>
+    </skills>
+    <weaponTags>
+            <li>Futuristic</li>
+           <li>VaultecLaunchers</li>
+    </weaponTags>
+    <initialWillRange>6~10</initialWillRange>
+    <initialResistanceRange>25~40</initialResistanceRange>
+    <modExtensions>
+        <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+                <min>8</min>
+                <max>12</max>
+            </primaryMagazineCount>
+            <sidearms>
+                <li>
+                    <generateChance>0.6</generateChance>
+                    <sidearmMoney>
+                        <min>800</min>
+                        <max>1200</max>
+                    </sidearmMoney>
+                    <weaponTags>
+                         <li>VaultecLaunchers</li>
+                    </weaponTags>
+                    <magazineCount>
+                        <min>6</min>
+                        <max>8</max>
+                    </magazineCount>
+                </li>
+            </sidearms>
+        </li>
+    </modExtensions>
+   
+</PawnKindDef>
+
+<PawnKindDef ParentName="ReclamationStriderBase">
+    <defName>Reclamation_Strider</defName>
+	 <techHediffsRequired>
+      <li>DeathAcidifier</li>
+    </techHediffsRequired>
+</PawnKindDef>
+
+
+</Defs>

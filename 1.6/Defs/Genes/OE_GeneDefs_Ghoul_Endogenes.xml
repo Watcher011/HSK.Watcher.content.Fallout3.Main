@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!--=============== TortleHead ====================-->
+  <GeneDef>
+    <defName>OE_GhoulHead</defName>
+   <label>Ghoul Head</label>
+   <description>Carriers of this gene have a Ghoul head.</description>
+    <iconPath>UI/Icons/Genes/OE_Gene_GhoulHead</iconPath>
+	<displayCategory>Cosmetic</displayCategory>
+	<displayOrderInCategory>704</displayOrderInCategory>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+	<biostatCpx>0</biostatCpx>
+    <biostatMet>0</biostatMet>
+    <forcedHeadTypes>
+      <li>Female_GhoulHead_Normal</li>
+	  <li>Male_GhoulHead_Normal</li>
+    </forcedHeadTypes>
+    <exclusionTags>
+      <li>Fur</li>
+    </exclusionTags>
+  </GeneDef>
+
+
+ <GeneDef>
+    <defName>RADImmunity</defName>
+   <label>Radiation Resistance</label>
+<labelShortAdj>Rad Protection</labelShortAdj>
+<description>Radiation Protection</description>
+    <iconPath>UI/Icons/Genes/RAD</iconPath>
+    <displayCategory>ResistanceAndWeakness</displayCategory>
+	 <!-- <geneClass>EBSGFramework.HediffAdder</geneClass>-->
+   
+    <makeImmuneTo>
+      <li>FatalRad</li>
+      <li>RimatomicsRadiation</li>
+      <li>RadiationIncurable</li>
+      <li>RadiationMechanoid</li>
+    </makeImmuneTo>
+	 
+	<statOffsets>
+      <ToxicEnvironmentResistance>2</ToxicEnvironmentResistance>
+    </statOffsets>
+    <biostatCpx>1</biostatCpx>
+    <biostatArc>1</biostatArc>
+	 <biostatMet>6</biostatMet>
+    <exclusionTags>
+      <li>Immunity</li>
+	 
+    </exclusionTags>
+  </GeneDef>
+</Defs>

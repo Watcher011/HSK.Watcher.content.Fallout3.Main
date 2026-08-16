@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <ThingCategoryDef>
+		<defName>AmmoFatManShells</defName>
+		<label>Fat Man's Shells</label>
+		<parent>AmmoShells</parent>
+		<iconPath>UI/Icons/ThingCategories/FatMan</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_FatManShell</defName>
+		<label>Fat Man's Projectile</label>
+		<ammoTypes>
+			<Ammo_FatManShell_NHE>Bullet_FatManShell_NHE</Ammo_FatManShell_NHE>
+			<Ammo_FatManShell_FGM>Bullet_FatManShell_FGM</Ammo_FatManShell_FGM>
+		</ammoTypes>
+		<isMortarAmmoSet>true</isMortarAmmoSet>
+	</CombatExtended.AmmoSetDef>
+
+
+
+
+<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" Name="FatManShellBase" ParentName="HeavyAmmoBase" Abstract="True">
+		<description>Special shells for Fat Man.</description>
+		<stackLimit>5</stackLimit>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<tradeTags>
+			<li>CE_AutoEnableTrade_Sellable</li>
+			<li>CE_AutoEnableCrafting_AdvToolBench</li>
+			<li>VaultecMortarShell</li>
+		</tradeTags>
+		<statBases>
+		   <MarketValue>3050</MarketValue>
+			<MaxHitPoints>2000</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<Mass>15.8</Mass>
+			<Bulk>12.52</Bulk>
+		</statBases>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+		<cookOffSpeed>0.1</cookOffSpeed>
+		<cookOffFlashScale>80</cookOffFlashScale>
+		<cookOffTailSound>ShellCookOff_Ambient</cookOffTailSound>
+		<isMortarAmmo>true</isMortarAmmo>
+	</ThingDef>
+	
+	<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="FatManShellBase">
+		<defName>Ammo_FatManShell_NHE</defName>
+		<label>Nuclear shot</label>
+		<description>This type is characterized by greater destructive power and radiation pollution. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</description>
+		<thingCategories>
+			<li>AmmoFatManShells</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Projectile/FatMan/FM</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<ammoClass>NHE</ammoClass>
+		<techLevel>Spacer</techLevel>
+		<generateAllowChance>0.1</generateAllowChance>
+		<detonateProjectile>Bullet_FatManShell_NHE</detonateProjectile>
+	</ThingDef>
+	
+	<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="FatManShellBase">
+		<defName>Ammo_FatManShell_FGM</defName>
+		<label>Piggy Boomba</label>
+		<description>Saving up can be explosive!Remember: In a world where caps are currency, the safest bank is a pig flying straight into your rivals’ faces!" —Anonymous slaver promoting "financial literacy.</description>
+		<thingCategories>
+			<li>AmmoFatManShells</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Projectile/FatMan/FMP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<ammoClass>GrenadeHE</ammoClass>
+		<techLevel>Spacer</techLevel>
+		<generateAllowChance>0.9</generateAllowChance>
+		<detonateProjectile>Bullet_FatManShell_FGM</detonateProjectile>
+	</ThingDef>
+	
+
+	
+	<ThingDef Name="BaseFatManBullet" ParentName="BaseExplosiveBullet" Abstract="true">
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>0</speed>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<flyOverhead>true</flyOverhead>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_BigShell</casingMoteDefname>
+			<casingFilthDefname>Filth_CannonAmmoCasings</casingFilthDefname>
+			<gravityFactor>5</gravityFactor>
+			<shellingProps>
+				<tilesPerTick>0.12</tilesPerTick>
+				<range>60</range>
+			</shellingProps>
+		</projectile>
+	</ThingDef>
+	
+	 <ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="BaseFatManBullet">
+		<defName>Bullet_FatManShell_NHE</defName>
+		<label>Nuclear shot (NHE)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/FatMan/FM</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>NuclearB</damageDef>
+			<damageAmountBase>18000</damageAmountBase>
+			<armorPenetrationBlunt>18000</armorPenetrationBlunt>
+			<explosionRadius>10</explosionRadius>
+			<explosionChanceToStartFire>0.95</explosionChanceToStartFire>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>nuclearBlastInMap</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+		</projectile>
+	
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosiveRadius>15</explosiveRadius>
+				<explosiveDamageType>EMP</explosiveDamageType>
+				<damageAmountBase>20</damageAmountBase>
+				<postExplosionSpawnThingDef>Filth_NFRAD</postExplosionSpawnThingDef>
+				<postExplosionSpawnChance>0.11</postExplosionSpawnChance>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+
+	 <ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="BaseFatManBullet">
+		<defName>Bullet_FatManShell_FGM</defName>
+		<label>Piggy Boomba (FGM)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/FatMan/FMP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>BombSuper</damageDef>
+			<damageAmountBase>800</damageAmountBase>
+			<explosionRadius>5</explosionRadius>
+			<explosionChanceToStartFire>0.22</explosionChanceToStartFire>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<flyOverhead>true</flyOverhead>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<postExplosionSpawnThingDef>Filth_Cap</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>0.5</postExplosionSpawnChance>
+			<shellingProps>
+				<damage>0.85</damage>
+			</shellingProps>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Bottlecap>270</Fragment_Bottlecap>
+					<Fragment_Small>2</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+	
+</Defs>

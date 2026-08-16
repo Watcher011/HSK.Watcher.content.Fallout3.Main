@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+ <FactionDef ParentName="FactionBase">
+    <defName>Enclave</defName>
+    <label>Enclave</label>
+    <pawnSingular>Enclave soldier</pawnSingular>
+    <pawnsPlural>Enclave soldiers</pawnsPlural>
+    <listOrderPriority>29</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canSiege>true</canSiege>
+    <autoFlee>true</autoFlee>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>President</leaderTitle>
+    <earliestRaidDays>250</earliestRaidDays>
+    <mustStartOneEnemy>true</mustStartOneEnemy>
+	<factionNameMaker>NamerFactionEnclave</factionNameMaker>
+	<settlementNameMaker>NamerSettlementEnclave</settlementNameMaker>
+
+    <colorSpectrum>
+      	<li>(1, 0, 0)</li>
+    </colorSpectrum>
+    <factionIconPath>World/WorldObjects/Expanding/Enclave</factionIconPath>
+   
+    <techLevel>Spacer</techLevel>
+    <naturalEnemy>true</naturalEnemy>
+    <allowedCultures>
+       <li>Corporatocracy</li>
+    </allowedCultures>
+    <disallowedMemes>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Rancher</li>
+    </disallowedMemes>
+    <disallowedPrecepts>
+       <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+    </disallowedPrecepts>
+    <requiredMemes>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Archist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+    </requiredMemes>
+    <structureMemeWeights>
+        <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Archist>
+    </structureMemeWeights>
+    <backstoryFilters>
+        <li>
+            <categories>
+                  <li>Enclave</li>
+            </categories>
+            <commonality>1</commonality>
+        </li>
+    </backstoryFilters>
+    <visitorTraderKinds>
+        <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+        <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-50~50</allowedArrivalTemperatureRange>
+    <raidLootMaker>PirateRaidLootMaker</raidLootMaker>
+	 <raidLootValueFromPointsCurve>
+    <points>
+      <li>(0, 0)</li>
+      <li>(50, 20)</li>
+      <li>(100, 40)</li>
+      <li>(200, 70)</li>
+      <li>(500, 150)</li>
+      <li>(1000, 250)</li>
+      <li>(2000, 400)</li>
+      <li>(5000, 800)</li>
+      <li>(10000, 1400)</li>
+    </points>
+  </raidLootValueFromPointsCurve>
+    <raidCommonalityFromPointsCurve>
+        <points>
+            <li>(0, 0.001)</li>
+            <li>(3000, 0.03)</li>
+            <li>(12000, 0.2)</li>
+            <li>(15000, 1.0)</li>
+            <li>(20000, 1.2)</li>
+            <li>(25000, 1.1)</li>
+        </points>
+    </raidCommonalityFromPointsCurve>
+    <maxPawnCostPerTotalPointsCurve>
+        <points>
+            <li>(0, 450)</li>
+            <li>(12000, 550)</li>
+            <li>(20000, 650)</li>
+            <li>(100000, 12000)</li>
+        </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <apparelStuffFilter>
+        <categories>
+            <li>Metallic</li>
+        </categories>
+        <thingDefs>
+            <li>Plasteel</li>
+            <li>ComponentIndustrial</li>
+            <li>Uranium</li>
+            <li>Synthread</li>
+            <li>Hyperweave</li>
+            <li>Gold</li>
+            <li>Silver</li>
+        </thingDefs>
+    </apparelStuffFilter>
+    <pawnGroupMakers>
+        <li>
+            <kindDef>Combat</kindDef>
+            <commonality>50</commonality>
+            <options>
+                <Enclave_Trooper>35</Enclave_Trooper>
+                <Enclave_Heavy>25</Enclave_Heavy>
+                <Enclave_Sniper>15</Enclave_Sniper>
+                <Enclave_Officer>12</Enclave_Officer>
+                <Enclave_Engineer>8</Enclave_Engineer>
+                <Enclave_Elite>5</Enclave_Elite>
+            </options>
+        </li>
+        <li>
+            <kindDef>Combat</kindDef>
+            <commonality>50</commonality>
+            <options>
+                <Enclave_Trooper_Advanced>30</Enclave_Trooper_Advanced>
+                <Enclave_Heavy_Advanced>22</Enclave_Heavy_Advanced>
+                <Enclave_Sniper_Advanced>18</Enclave_Sniper_Advanced>
+                <Enclave_Officer_Advanced>15</Enclave_Officer_Advanced>
+                <Enclave_Engineer_Advanced>10</Enclave_Engineer_Advanced>
+             
+            </options>
+        </li>
+        <li>
+            <kindDef>Peaceful</kindDef>
+            <options>
+                <Enclave_Trooper>40</Enclave_Trooper>
+                <Enclave_Officer>25</Enclave_Officer>
+                <Enclave_Engineer>20</Enclave_Engineer>
+                <Enclave_Scientist>15</Enclave_Scientist>
+            </options>
+        </li>
+        <li>
+            <kindDef>Settlement</kindDef>
+            <options>
+                <Enclave_Trooper>35</Enclave_Trooper>
+                <Enclave_Heavy>20</Enclave_Heavy>
+                <Enclave_Officer>18</Enclave_Officer>
+                <Enclave_Engineer>15</Enclave_Engineer>
+                <Enclave_Scientist>12</Enclave_Scientist>
+            </options>
+        </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>54</configurationListOrderPriority>
+</FactionDef>
+
+
+<RulePackDef>
+    <defName>NamerFactionEnclave</defName>
+    <rulePack>
+      <rulesStrings>
+       <li>empire->Enclave</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+<RulePackDef>
+    <defName>NamerSettlementEnclave</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>townend->Enclave base</li>
+        <li>townend->Enclave camp</li>
+        <li>townend->Enclave outpost</li>
+        <li>townend->Enclave laboratory</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+ 
+ 
+</Defs>
+

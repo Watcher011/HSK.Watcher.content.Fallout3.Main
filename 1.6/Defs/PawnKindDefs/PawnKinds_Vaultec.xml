@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Vaultec Bases -->
+	<PawnKindDef Abstract="True" Name="VaultecBase">
+		<race>Human</race>
+		<defaultFactionType>Vaultec</defaultFactionType>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Shelter</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<isFighter>true</isFighter>
+		<itemQuality>Poor</itemQuality>
+		<invNutrition>2</invNutrition>
+		<invFoodDef>soylentgreen</invFoodDef>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>42</maxGenerationAge>
+		<apparelColor>(225,225,225)</apparelColor>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+			</li>
+		</specificApparelRequirements>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<techHediffsMoney>
+			<min>6000</min>
+			<max>9000</max>
+		</techHediffsMoney>
+		<apparelRequired>
+<!--			<li>Helmet_Scout</li>-->
+			<li>CE_Apparel_TacVest</li>
+		</apparelRequired>
+			<apparelTags>
+			<li>Vaultjumpsuit</li>
+			<li>IndustrialMilitaryAdvanced</li>
+		</apparelTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>Futuristic</li>
+		</techHediffsTags>
+		<techHediffsChance>0.8</techHediffsChance>
+		<techHediffsMaxAmount>3</techHediffsMaxAmount>
+	</PawnKindDef>	
+
+
+    <PawnKindDef Abstract="True" Name="VaultecBaseHA">
+		<race>Human</race>
+		<defaultFactionType>Vaultec</defaultFactionType>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+					<li>Shelter</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<isFighter>true</isFighter>
+		<itemQuality>Good</itemQuality>
+		<invNutrition>2</invNutrition>
+		<invFoodDef>soylentgreen</invFoodDef>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>42</maxGenerationAge>
+		<apparelColor>(225,225,225)</apparelColor>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+			</li>
+		</specificApparelRequirements>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<techHediffsMoney>
+			<min>6000</min>
+			<max>9000</max>
+		</techHediffsMoney>
+		<!--<apparelRequired>
+			<li>Apparel_VaultT60PowerArmor</li>
+			<li>Apparel_VaultT60ArmorHelmet</li>
+		</apparelRequired>-->
+			<apparelTags>
+			<li>VaultT60A</li>
+			<li>VaultT60H</li>
+			<li>Vaultjumpsuit</li>
+		 <!--  <li>IndustrialMilitaryAdvanced</li>-->
+		</apparelTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>Futuristic</li>
+		</techHediffsTags>
+		<techHediffsChance>0.8</techHediffsChance>
+		<techHediffsMaxAmount>3</techHediffsMaxAmount>
+	</PawnKindDef>	
+
+
+	<!-- Chaser -->
+	<PawnKindDef Name="VaultecScoutBase" ParentName="VaultecBase" Abstract="True">
+		<label>Vaultec Scout</label>
+		<combatPower>390</combatPower>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>12000</max>
+		</apparelMoney>
+		<apparelRequired>
+			<li>Apparel_FlakJacket</li>
+		</apparelRequired>
+		
+		<weaponMoney>
+			<min>1900</min>
+			<max>3150</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>RF4</li>
+			<li>ST3</li>
+			<li>VaultecGun</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>4~8</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>5</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.15</generateChance>
+						<sidearmMoney>
+							<min>250</min>
+							<max>350</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierFour</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+					<li>
+						<generateChance>0.1</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+		<techHediffsRequired>
+			<li>AuxiliaryAI_Commando</li>
+		</techHediffsRequired>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="VaultecScoutBase">
+		<defName>VaultecScout</defName>
+	</PawnKindDef>
+
+
+
+	<PawnKindDef Name="VaultecRangerBase" ParentName="VaultecBase" Abstract="True">
+		<label>Vaultec Ranger</label>
+		<combatPower>390</combatPower>
+		<race>Human</race>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>12000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>2400</min>
+			<max>3300</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>RF4</li>
+			<li>VaultecGun</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>4~8</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>5</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.2</generateChance>
+						<sidearmMoney>
+							<min>250</min>
+							<max>350</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierFour</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+					<li>
+						<generateChance>0.1</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+		<xenotypeSet Inherit="False">
+		  <xenotypeChances>
+			 <OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">999</OE_Ghoul>
+		  </xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="VaultecRangerBase">
+		<defName>VaultecRanger</defName>
+	</PawnKindDef>
+
+
+
+	<PawnKindDef Name="VaultecSheriffHeavyBase" ParentName="VaultecRangerBase" Abstract="True">
+		<weaponTags Inherit="false">
+			<li>FalloutMinigunPlasma</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>3100</min>
+			<max>6600</max>
+		</weaponMoney>
+		<apparelRequired>
+		<!--<li>Apparel_HellPowerArmor</li>
+		<li>Apparel_HellPowerArmorHelmet</li>-->
+			<li>CE_Apparel_Backpack</li>
+		</apparelRequired>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="VaultecSheriffHeavyBase">
+		<defName>VaultecSheriffHeavy</defName>
+	</PawnKindDef>
+
+
+
+	
+	<PawnKindDef Name="VaultecOfficerBase" ParentName="VaultecBaseHA" Abstract="True">
+		<label>Vaultec officer</label>
+		<combatPower>460</combatPower>
+		<itemQuality>Good</itemQuality>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>12000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>2500</min>
+			<max>4700</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>MG2</li>
+			<li>VaultecPlasmaRifel</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>6~10</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>2</min>
+					<max>3</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.2</generateChance>
+						<sidearmMoney>
+							<min>250</min>
+							<max>350</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierFour</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+					<li>
+						<generateChance>0.15</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="VaultecOfficerBase">
+		<defName>VaultecOfficer</defName>
+	</PawnKindDef>
+
+
+
+
+	<PawnKindDef Name="VaultecCorporalBase" ParentName="VaultecBase" Abstract="True">
+		<label>Vaultec Corporal</label>
+		<combatPower>400</combatPower>
+		<race>VaulTecGhoul</race>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>12000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>3300</min>
+			<max>4300</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>SNIP4</li>
+			<li>ADR3</li>
+			<li>VaultecGun</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~16</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~24</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>5</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.25</generateChance>
+						<sidearmMoney>
+							<min>250</min>
+							<max>350</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierFour</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+					<li>
+						<generateChance>0.1</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+		
+		<xenotypeSet Inherit="False">
+		  <xenotypeChances>
+			 <OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">999</OE_Ghoul>
+		  </xenotypeChances>
+		  
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="VaultecCorporalBase">
+		<defName>VaultecCorporal</defName>
+	</PawnKindDef>
+
+
+
+
+	<PawnKindDef Name="VaultecSpyBase" ParentName="VaultecBase" Abstract="True">
+		<label>Vaultec Spy</label>
+		<combatPower>390</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<isGoodBreacher>true</isGoodBreacher>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>12000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>77</min>
+			<max>85</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>GrenadeTierFour</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>4~10</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~25</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>9</min>
+					<max>12</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+		<techHediffsRequired>
+			<li>PowerClaw</li>
+		</techHediffsRequired>
+	</PawnKindDef>	
+
+	<PawnKindDef ParentName="VaultecSpyBase">
+		<defName>VaultecSpy</defName>
+	</PawnKindDef>
+
+
+
+
+
+	<PawnKindDef Name="VaultecInvestigatorBase" ParentName="VaultecBase" Abstract="True">
+		<label>Vaultec Investigator</label>
+		<combatPower>520</combatPower>
+		<factionLeader>true</factionLeader>
+		<race>VaulTecGhoul</race>
+		<itemQuality>Masterwork</itemQuality>
+		<techHediffsChance>0.7</techHediffsChance>
+		<gearHealthRange>
+			<min>0.9</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>14000</min>
+			<max>24000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>4300</min>
+			<max>6200</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>ADR2</li>
+			<li>MG4</li>
+		    <li>VaultecGun</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>6~10</range>
+			</li>
+		</skills>
+		<initialWillRange>3~4</initialWillRange>
+		<initialResistanceRange>26~37</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>6</min>
+					<max>7</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.25</generateChance>
+						<sidearmMoney>
+							<min>250</min>
+							<max>350</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierFour</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+					<li>
+						<generateChance>0.1</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+		
+		<xenotypeSet Inherit="False">
+		  <xenotypeChances>
+			 <OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">999</OE_Ghoul>
+		  </xenotypeChances>
+		  
+		</xenotypeSet>
+	</PawnKindDef>	
+
+	<PawnKindDef ParentName="VaultecInvestigatorBase">
+		<defName>VaultecInvestigator</defName>
+	</PawnKindDef>
+
+
+
+
+
+	<PawnKindDef Name="VaultecLiquidatorBase" ParentName="VaultecBase" Abstract="True">
+		<label>Vaultec liquidator</label>
+		<combatPower>430</combatPower>
+		<canBeSapper>true</canBeSapper>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>12000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>800</min>
+			<max>3000</max>
+		</weaponMoney>
+		<weaponTags>
+	     	<li>MeleeVaultec</li>
+			<li>HitechMelee</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>8~13</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>15~24</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<sidearms>
+					<li>
+						<generateChance>0.4</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+	</PawnKindDef>	
+
+	<PawnKindDef ParentName="VaultecLiquidatorBase">
+		<defName>VaultecLiquidator</defName>
+	</PawnKindDef>
+
+
+
+<PawnKindDef Name="VaultecTraderBase" Abstract="True">
+    <race>Human</race>
+   <defaultFactionType>Vaultec</defaultFactionType>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+  </PawnKindDef>
+
+
+<PawnKindDef ParentName="VaultecTraderBase" Name="TraderBase">
+    <defName>Vaultec_Trader_liquidator</defName>
+    <label>Trader Vaultec</label>
+    <trader>true</trader>
+    <combatPower>45</combatPower>
+    <isFighter>false</isFighter>
+    <gearHealthRange>1~1</gearHealthRange>
+    <itemQuality>Normal</itemQuality>
+    <weaponTags>
+      <li>VaultecGun</li>
+    </weaponTags>
+    <weaponMoney>2600~12000</weaponMoney>
+    <techHediffsChance>0.15</techHediffsChance>
+    <techHediffsMoney>600~1500</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+      <li>Advanced</li>
+      <li>ImplantEmpireCommon</li>
+    </techHediffsTags>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>12~20</initialResistanceRange>
+  </PawnKindDef>
+  
+  
+  <PawnKindDef Name="VaultecRadBase" ParentName="VaultecBaseHA" Abstract="True">
+		<label>Vaultec glowing</label>
+		<combatPower>390</combatPower>
+		<race>GlowingGhoul</race>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>12000</max>
+		</apparelMoney>
+		<weaponMoney>
+			<min>2600</min>
+			<max>3300</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>FalloutMinigunPlasma</li>
+			<li>VaultecGunH</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>4~18</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>5</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.2</generateChance>
+						<sidearmMoney>
+							<min>250</min>
+							<max>350</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierFour</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+					<li>
+						<generateChance>0.1</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+		<xenotypeSet Inherit="False">
+		  <xenotypeChances>
+			 <OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">999</OE_Ghoul>
+		  </xenotypeChances>
+		</xenotypeSet>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="VaultecRadBase">
+		<defName>Vaultecglowing</defName>
+	</PawnKindDef>
+
+	
+  
+  
+ 
+   
+</Defs>

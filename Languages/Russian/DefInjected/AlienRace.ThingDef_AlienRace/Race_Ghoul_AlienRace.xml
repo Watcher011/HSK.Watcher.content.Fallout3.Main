@@ -1,0 +1,23 @@
+<LanguageData>
+<VaulTecGhoul.label>Гуль</VaulTecGhoul.label>
+<VaulTecGhoul.description>Гули Vault-Tec — бывшие сотрудники корпорации, мутировавшие в результате длительного облучения или экспериментов. В отличие от обычных одичавших гулей, они сохранили интеллект, корпоративную дисциплину и доступ к довоенным технологиям. Фанатично преданы идеалам компании и считают себя «избранными», которым суждено контролировать Убежища и их тайны.</VaulTecGhoul.description>
+<VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+<VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>волосы</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+<VaulTecGhoul.tools.0.label>левый кулак</VaulTecGhoul.tools.0.label>
+<VaulTecGhoul.tools.0.labelNoLocation>кулак</VaulTecGhoul.tools.0.labelNoLocation>
+<VaulTecGhoul.tools.1.label>правый кулак</VaulTecGhoul.tools.1.label>
+<VaulTecGhoul.tools.1.labelNoLocation>кулак</VaulTecGhoul.tools.1.labelNoLocation>
+<VaulTecGhoul.tools.2.label>зубы</VaulTecGhoul.tools.2.label>
+<VaulTecGhoul.tools.3.label>голова</VaulTecGhoul.tools.3.label>
+
+<GlowingGhoul.label>Светящийся гуль</GlowingGhoul.label>
+<GlowingGhoul.description>Гули, которые под воздействием огромных доз радиации стали её живыми проводниками. Светящиеся гули испускают излучение, смертельно опасное для людей. Они могут представлять угрозу даже после своей смерти.</GlowingGhoul.description>
+<GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+<GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>волосы</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+<GlowingGhoul.tools.0.label>левый кулак</GlowingGhoul.tools.0.label>
+<GlowingGhoul.tools.0.labelNoLocation>кулак</GlowingGhoul.tools.0.labelNoLocation>
+<GlowingGhoul.tools.1.label>правый кулак</GlowingGhoul.tools.1.label>
+<GlowingGhoul.tools.1.labelNoLocation>кулак</GlowingGhoul.tools.1.labelNoLocation>
+<GlowingGhoul.tools.2.label>зубы</GlowingGhoul.tools.2.label>
+<GlowingGhoul.tools.3.label>голова</GlowingGhoul.tools.3.label>
+</LanguageData>

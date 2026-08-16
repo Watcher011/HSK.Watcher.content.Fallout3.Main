@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<PawnKindDef Abstract="True" Name="DemolitionistsBase">
+	<race>Human</race>
+	<defaultFactionType>Demolitionists</defaultFactionType>
+	<backstoryFilters>
+		<li>
+			<categories>
+				 <li>Demolitionists</li>
+			</categories>
+		</li>
+	</backstoryFilters>
+	<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+	<chemicalAddictionChance>0.05</chemicalAddictionChance>
+	<isFighter>true</isFighter>
+	<itemQuality>Poor</itemQuality>
+	<invNutrition>2</invNutrition>
+	<invFoodDef>soylentgreen</invFoodDef>
+	<minGenerationAge>12</minGenerationAge>
+	<maxGenerationAge>42</maxGenerationAge>
+	<apparelColor>(225,225,225)</apparelColor>
+	<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<gearHealthRange>
+		<min>0.4</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<specificApparelRequirements>
+		<li>
+			<bodyPartGroup>Torso</bodyPartGroup>
+			<apparelLayer>Shell</apparelLayer>
+		</li>
+	</specificApparelRequirements>
+	<disallowedTraits>
+		<li>Brawler</li>
+	</disallowedTraits>
+	<requiredWorkTags>
+		<li>Violent</li>
+	</requiredWorkTags>
+	<techHediffsMoney>
+		<min>6000</min>
+		<max>9000</max>
+	</techHediffsMoney>
+	<apparelRequired>
+	<li>CE_Apparel_TacVest</li>
+	<li>CE_Apparel_Backpack</li>
+	<li>Gloves_Reinforced</li>
+	<li>Boots_Combat</li>
+	<li>Apparello_Prisonjumpsuit</li>
+	</apparelRequired>
+	<techHediffsTags>
+		<li>Advanced</li>
+		<li>Futuristic</li>
+	</techHediffsTags>
+	<techHediffsChance>0.8</techHediffsChance>
+	<techHediffsMaxAmount>3</techHediffsMaxAmount>
+</PawnKindDef>
+
+<PawnKindDef Abstract="True" Name="DemolitionistsBaseHA">
+	<race>Human</race>
+	<defaultFactionType>Demolitionists</defaultFactionType>
+	<backstoryFilters>
+		<li>
+			<categories>
+				<li>Demolitionists</li>
+			</categories>
+		</li>
+	</backstoryFilters>
+	<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+	<chemicalAddictionChance>0.05</chemicalAddictionChance>
+	<isFighter>true</isFighter>
+	<itemQuality>Good</itemQuality>
+	<invNutrition>2</invNutrition>
+	<invFoodDef>soylentgreen</invFoodDef>
+	<minGenerationAge>18</minGenerationAge>
+	<maxGenerationAge>42</maxGenerationAge>
+	<apparelColor>(225,225,225)</apparelColor>
+	<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<gearHealthRange>
+		<min>0.4</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<specificApparelRequirements>
+		<li>
+			<bodyPartGroup>Torso</bodyPartGroup>
+			<apparelLayer>Shell</apparelLayer>
+		</li>
+	</specificApparelRequirements>
+	<disallowedTraits>
+		<li>Brawler</li>
+	</disallowedTraits>
+	<requiredWorkTags>
+		<li>Violent</li>
+	</requiredWorkTags>
+	<techHediffsMoney>
+		<min>6000</min>
+		<max>9000</max>
+	</techHediffsMoney>
+	<apparelTags>
+		<li>Prisonjumpsuit</li>
+	</apparelTags>
+	<techHediffsTags>
+		<li>Advanced</li>
+		<li>Futuristic</li>
+	</techHediffsTags>
+	<techHediffsChance>0.8</techHediffsChance>
+	<techHediffsMaxAmount>3</techHediffsMaxAmount>
+</PawnKindDef>
+
+<!-- Scout -->
+<PawnKindDef Name="DemolitionistsScoutBase" ParentName="DemolitionistsBase" Abstract="True">
+	<label>Demolitionists Scout</label>
+	<combatPower>390</combatPower>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<gearHealthRange>
+		<min>0.4</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<apparelMoney>
+		<min>500</min>
+		<max>2000</max>
+	</apparelMoney>
+	<weaponMoney>
+		<min>1900</min>
+		<max>3150</max>
+	</weaponMoney>
+	<weaponTags>
+			<li>PT1</li>
+		</weaponTags>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>4~8</range>
+		</li>
+	</skills>
+	<initialWillRange>2~4</initialWillRange>
+	<initialResistanceRange>13~20</initialResistanceRange>
+	<modExtensions>
+		<li Class="CombatExtended.LoadoutPropertiesExtension">
+			<primaryMagazineCount>
+				<min>4</min>
+				<max>5</max>
+			</primaryMagazineCount>
+			<sidearms>
+				<li>
+					<generateChance>1</generateChance>
+					<sidearmMoney>
+						<min>250</min>
+						<max>350</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>GrenadeTierZero</li>
+						<li>GrenadeTierOne</li>
+					</weaponTags>
+					<magazineCount>
+						<min>1</min>
+						<max>2</max>
+					</magazineCount>
+				</li>
+			</sidearms>
+		</li>
+	</modExtensions>
+	<techHediffsRequired>
+		<li>AuxiliaryAI_Commando</li>
+	</techHediffsRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DemolitionistsScoutBase">
+	<defName>DemolitionistsScout</defName>
+</PawnKindDef>
+
+<!-- Ranger -->
+<PawnKindDef Name="DemolitionistsRangerBase" ParentName="DemolitionistsBase" Abstract="True">
+	<label>Demolitionists Ranger</label>
+	<combatPower>390</combatPower>
+	<race>Human</race>
+	<gearHealthRange>
+		<min>0.4</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<apparelMoney>
+		<min>500</min>
+		<max>2000</max>
+	</apparelMoney>
+	<weaponMoney>
+		<min>2400</min>
+		<max>3300</max>
+	</weaponMoney>
+	<weaponTags>
+			<li>PT1</li>
+		</weaponTags>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>4~8</range>
+		</li>
+	</skills>
+	<initialWillRange>2~4</initialWillRange>
+	<initialResistanceRange>13~20</initialResistanceRange>
+	<modExtensions>
+		<li Class="CombatExtended.LoadoutPropertiesExtension">
+			<primaryMagazineCount>
+				<min>4</min>
+				<max>5</max>
+			</primaryMagazineCount>
+			<sidearms>
+				<li>
+					<generateChance>1</generateChance>
+					<sidearmMoney>
+						<min>250</min>
+						<max>350</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>GrenadeTierZero</li>
+						<li>GrenadeTierOne</li>
+					</weaponTags>
+					<magazineCount>
+						<min>1</min>
+						<max>2</max>
+					</magazineCount>
+				</li>
+			</sidearms>
+		</li>
+	</modExtensions>
+	<xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">999</OE_Ghoul>
+		</xenotypeChances>
+	</xenotypeSet>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DemolitionistsRangerBase">
+	<defName>DemolitionistsRanger</defName>
+</PawnKindDef>
+
+<!-- Heavy -->
+<PawnKindDef Name="DemolitionistsHeavyBase" ParentName="DemolitionistsRangerBase" Abstract="True">
+	<weaponTags Inherit="false">
+			<li>GrenadeDestructive</li>
+			<li>GrenadeTierFour</li>
+	</weaponTags>
+	<weaponMoney>
+		<min>3100</min>
+		<max>6600</max>
+	</weaponMoney>
+	<initialWillRange>2~4</initialWillRange>
+	<initialResistanceRange>13~20</initialResistanceRange>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DemolitionistsHeavyBase">
+	<defName>DemolitionistsHeavy</defName>
+</PawnKindDef>
+
+<!-- Officer -->
+<PawnKindDef Name="DemolitionistsOfficerBase" ParentName="DemolitionistsBaseHA" Abstract="True">
+	<label>Demolitionists officer</label>
+	<combatPower>460</combatPower>
+	<itemQuality>Good</itemQuality>
+	<gearHealthRange>
+		<min>0.4</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<apparelMoney>
+		<min>500</min>
+		<max>2000</max>
+	</apparelMoney>
+	<weaponMoney>
+		<min>2500</min>
+		<max>4700</max>
+	</weaponMoney>
+	<weaponTags>
+		<li>GrenadeDestructive</li>
+		<li>GrenadeTierFour</li>
+	</weaponTags>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>6~10</range>
+		</li>
+	</skills>
+	<initialWillRange>2~4</initialWillRange>
+	<initialResistanceRange>13~20</initialResistanceRange>
+	<modExtensions>
+		<li Class="CombatExtended.LoadoutPropertiesExtension">
+			<primaryMagazineCount>
+				<min>4</min>
+				<max>5</max>
+			</primaryMagazineCount>
+			<sidearms>
+				<li>
+					<generateChance>1</generateChance>
+					<sidearmMoney>
+						<min>250</min>
+						<max>350</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>GrenadeTierZero</li>
+						<li>GrenadeTierOne</li>
+					</weaponTags>
+					<magazineCount>
+						<min>1</min>
+						<max>2</max>
+					</magazineCount>
+				</li>
+			</sidearms>
+		</li>
+	</modExtensions>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DemolitionistsOfficerBase">
+	<defName>DemolitionistsOfficer</defName>
+</PawnKindDef>
+
+<!-- Corporal -->
+<PawnKindDef Name="DemolitionistsCorporalBase" ParentName="DemolitionistsBase" Abstract="True">
+	<label>Demolitionists Corporal</label>
+	<combatPower>400</combatPower>
+	<gearHealthRange>
+		<min>0.4</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<apparelMoney>
+		<min>500</min>
+		<max>2000</max>
+	</apparelMoney>
+	<weaponMoney>
+		<min>3300</min>
+		<max>4300</max>
+	</weaponMoney>
+	<weaponTags>
+			<li>PT1</li>
+		</weaponTags>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>8~16</range>
+		</li>
+	</skills>
+	<initialWillRange>2~4</initialWillRange>
+	<initialResistanceRange>13~24</initialResistanceRange>
+	<modExtensions>
+		<li Class="CombatExtended.LoadoutPropertiesExtension">
+			<primaryMagazineCount>
+				<min>4</min>
+				<max>5</max>
+			</primaryMagazineCount>
+			<sidearms>
+				<li>
+					<generateChance>1</generateChance>
+					<sidearmMoney>
+						<min>250</min>
+						<max>350</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>GrenadeTierZero</li>
+						<li>GrenadeTierOne</li>
+					</weaponTags>
+					<magazineCount>
+						<min>1</min>
+						<max>2</max>
+					</magazineCount>
+				</li>
+			</sidearms>
+		</li>
+	</modExtensions>
+	<xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">999</OE_Ghoul>
+		</xenotypeChances>
+	</xenotypeSet>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DemolitionistsCorporalBase">
+	<defName>DemolitionistsCorporal</defName>
+</PawnKindDef>
+
+<!-- Spy -->
+<PawnKindDef Name="DemolitionistsSpyBase" ParentName="DemolitionistsBase" Abstract="True">
+	<label>Demolitionists Spy</label>
+	<combatPower>390</combatPower>
+	<canBeSapper>true</canBeSapper>
+	<isGoodBreacher>true</isGoodBreacher>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<gearHealthRange>
+		<min>0.4</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<apparelMoney>
+		<min>500</min>
+		<max>2000</max>
+	</apparelMoney>
+	<weaponMoney>
+		<min>77</min>
+		<max>85</max>
+	</weaponMoney>
+	<weaponTags>
+			<li>PT1</li>
+		</weaponTags>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>4~10</range>
+		</li>
+	</skills>
+	<initialWillRange>2~4</initialWillRange>
+	<initialResistanceRange>13~25</initialResistanceRange>
+	<modExtensions>
+		<li Class="CombatExtended.LoadoutPropertiesExtension">
+			<primaryMagazineCount>
+				<min>9</min>
+				<max>12</max>
+			</primaryMagazineCount>
+		</li>
+	</modExtensions>
+	<techHediffsRequired>
+		<li>PowerClaw</li>
+	</techHediffsRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DemolitionistsSpyBase">
+	<defName>DemolitionistsSpy</defName>
+</PawnKindDef>
+
+<!-- Investigator -->
+<PawnKindDef Name="DemolitionistsInvestigatorBase" ParentName="DemolitionistsBase" Abstract="True">
+	<label>Demolitionists Investigator</label>
+	<combatPower>520</combatPower>
+	<factionLeader>true</factionLeader>
+	<itemQuality>Masterwork</itemQuality>
+	<techHediffsChance>0.7</techHediffsChance>
+	<gearHealthRange>
+		<min>0.9</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<apparelMoney>
+		<min>500</min>
+		<max>2000</max>
+	</apparelMoney>
+	<weaponMoney>
+		<min>4300</min>
+		<max>6200</max>
+	</weaponMoney>
+	<weaponTags>
+			<li>PT1</li>
+		</weaponTags>
+	<skills>
+		<li>
+			<skill>Shooting</skill>
+			<range>6~10</range>
+		</li>
+	</skills>
+	<initialWillRange>3~4</initialWillRange>
+	<initialResistanceRange>26~37</initialResistanceRange>
+	<modExtensions>
+		<li Class="CombatExtended.LoadoutPropertiesExtension">
+			<primaryMagazineCount>
+				<min>4</min>
+				<max>5</max>
+			</primaryMagazineCount>
+			<sidearms>
+				<li>
+					<generateChance>1</generateChance>
+					<sidearmMoney>
+						<min>250</min>
+						<max>350</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>GrenadeTierZero</li>
+						<li>GrenadeTierOne</li>
+					</weaponTags>
+					<magazineCount>
+						<min>1</min>
+						<max>2</max>
+					</magazineCount>
+				</li>
+			</sidearms>
+		</li>
+	</modExtensions>
+	<xenotypeSet Inherit="False">
+		<xenotypeChances>
+			<OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">999</OE_Ghoul>
+		</xenotypeChances>
+	</xenotypeSet>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DemolitionistsInvestigatorBase">
+	<defName>DemolitionistsInvestigator</defName>
+</PawnKindDef>
+
+<!-- Liquidator -->
+<PawnKindDef Name="DemolitionistsLiquidatorBase" ParentName="DemolitionistsBase" Abstract="True">
+	<label>Demolitionists liquidator</label>
+	<combatPower>430</combatPower>
+	<canBeSapper>true</canBeSapper>
+	<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<gearHealthRange>
+		<min>0.4</min>
+		<max>1.6</max>
+	</gearHealthRange>
+	<apparelMoney>
+		<min>500</min>
+		<max>2000</max>
+	</apparelMoney>
+	<weaponMoney>
+		<min>800</min>
+		<max>3000</max>
+	</weaponMoney>
+	<weaponTags>
+			<li>GrenadeDestructive</li>
+			<li>GrenadeTierFour</li>
+	</weaponTags>
+	<skills>
+		<li>
+			<skill>Melee</skill>
+			<range>8~13</range>
+		</li>
+	</skills>
+	<initialWillRange>2~4</initialWillRange>
+	<initialResistanceRange>15~24</initialResistanceRange>
+	<modExtensions>
+		<li Class="CombatExtended.LoadoutPropertiesExtension">
+			<primaryMagazineCount>
+				<min>4</min>
+				<max>5</max>
+			</primaryMagazineCount>
+			<sidearms>
+				<li>
+					<generateChance>1</generateChance>
+					<sidearmMoney>
+						<min>250</min>
+						<max>350</max>
+					</sidearmMoney>
+					<weaponTags>
+						<li>GrenadeTierZero</li>
+						<li>GrenadeTierOne</li>
+					</weaponTags>
+					<magazineCount>
+						<min>1</min>
+						<max>2</max>
+					</magazineCount>
+				</li>
+			</sidearms>
+		</li>
+	</modExtensions>
+</PawnKindDef>
+
+<PawnKindDef ParentName="DemolitionistsLiquidatorBase">
+	<defName>DemolitionistsLiquidator</defName>
+</PawnKindDef>
+
+
+   
+</Defs>

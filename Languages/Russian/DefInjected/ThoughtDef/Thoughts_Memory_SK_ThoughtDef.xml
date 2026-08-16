@@ -1,0 +1,70 @@
+<LanguageData>
+	<HadNukaCola.stages.0.label>Выпил Ядер-Колу</HadNukaCola.stages.0.label>
+<HadNukaCola.stages.0.description>Эта Кола была такой полезной! Теперь я чувствую себя прекрасно.</HadNukaCola.stages.0.description>
+
+<HadColaDark.stages.0.label>Выпил Тёмную Колу</HadColaDark.stages.0.label>
+<HadColaDark.stages.0.description>Эта Кола была такой полезной! Я абсолютно уверен, что смогу победить смерть в рукопашной.</HadColaDark.stages.0.description>
+
+<HadColaQuantum.stages.0.label>Выпил Квантовую Колу</HadColaQuantum.stages.0.label>
+<HadColaQuantum.stages.0.description>Эта Кола была такой полезной! Вкус — как миниатюрная сверхновая, взрывающаяся смесь цитрусового безумия и сладкой радиации. Ваши вкусовые рецепторы кричат то ли от восторга, то ли от боли.</HadColaQuantum.stages.0.description>
+
+<IngestedRadHemogenPack.stages.0.label>Проглотил радиоактивную кровь</IngestedRadHemogenPack.stages.0.label>
+<IngestedRadHemogenPack.stages.0.description>Я проглотил пакет радиоактивной крови. Это может продлить мне жизнь, но цена может оказаться огромной, и на вкус это было абсолютно отвратительно.</IngestedRadHemogenPack.stages.0.description>
+
+<RadFood.stages.0.label>съел пустошную еду</RadFood.stages.0.label>
+<RadFood.stages.0.description>Если я съел это, а не оно меня — значит, я победил.</RadFood.stages.0.description>
+
+<FEV.stages.0.label>съел FEV</FEV.stages.0.label>
+<FEV.stages.0.description>Если я это съем — это будет последний шаг.</FEV.stages.0.description>
+
+<HadScorponade.stages.0.label>Выпил Скорпонаду</HadScorponade.stages.0.label>
+<HadScorponade.stages.0.description>Этот напиток Скорпонада был таким полезным! Чувствую, что моё сердце сейчас остановится.</HadScorponade.stages.0.description>
+
+<DeathclawTunnel_Excited.stages.0.label>Наконец-то веселье!</DeathclawTunnel_Excited.stages.0.label>
+<DeathclawTunnel_Excited.stages.0.description>Монстры из-под земли? Отличный повод для хорошей драки!</DeathclawTunnel_Excited.stages.0.description>
+
+<ThoughtWitnessedReactorExplosion.stages.0.label>Сияние Атома</ThoughtWitnessedReactorExplosion.stages.0.label>
+<ThoughtWitnessedReactorExplosion.stages.0.description>Теперь я понимаю, почему никто не живёт в Сиянии. Хотя, погодите-ка...</ThoughtWitnessedReactorExplosion.stages.0.description>
+
+<ThoughtIrradiated.stages.0.label>Светящийся брат</ThoughtIrradiated.stages.0.label>
+<ThoughtIrradiated.stages.0.description>Доктора говорят, что это «нехорошо». Но они не видели, как красиво я светлюсь в темноте. Может, меня примут в Культ Атома?</ThoughtIrradiated.stages.0.description>
+
+<RadiationLoverHappy.stages.0.label>лёгкое облучение</RadiationLoverHappy.stages.0.label>
+<RadiationLoverHappy.stages.0.description>Я чувствую лёгкое покалывание... это приятно.</RadiationLoverHappy.stages.0.description>
+<RadiationLoverHappy.stages.1.label>лёгкое облучение</RadiationLoverHappy.stages.1.label>
+<RadiationLoverHappy.stages.1.description>Тепло разливается по моему телу. Это... успокаивает.</RadiationLoverHappy.stages.1.description>
+<RadiationLoverHappy.stages.2.label>умеренное облучение</RadiationLoverHappy.stages.2.label>
+<RadiationLoverHappy.stages.2.description>Моя кожа светится! Ну, может, и нет, но я чувствую себя хорошо!</RadiationLoverHappy.stages.2.description>
+<RadiationLoverHappy.stages.3.label>сильное облучение</RadiationLoverHappy.stages.3.label>
+<RadiationLoverHappy.stages.3.description>Я чувствую силу атома внутри себя! Это великолепно!</RadiationLoverHappy.stages.3.description>
+<RadiationLoverHappy.stages.4.label>экстремальное облучение</RadiationLoverHappy.stages.4.label>
+<RadiationLoverHappy.stages.4.description>Я СЛИВАЮСЬ С РАДИАЦИЕЙ! Я — БОГ АТОМА!</RadiationLoverHappy.stages.4.description>
+<RadiationLoverHappy.stages.5.label>критическое облучение</RadiationLoverHappy.stages.5.label>
+<RadiationLoverHappy.stages.5.description>Я... вижу свет... так... красиво...</RadiationLoverHappy.stages.5.description>
+
+<DeadmanFashionHappy.stages.0.label>модный гробовщик</DeadmanFashionHappy.stages.0.label>
+<DeadmanFashionHappy.stages.0.description>Эта куртка пахнет... возможностью. И лёгким разложением. Но в основном возможностью.</DeadmanFashionHappy.stages.0.description>
+<DeadmanFashionHappy.stages.1.label>посмертный коллекционер</DeadmanFashionHappy.stages.1.label>
+<DeadmanFashionHappy.stages.1.description>Две вещи с мертвецов! Я как ходячий мемориал. Или музей. Да, я музей моды. С эксклюзивными экспонатами.</DeadmanFashionHappy.stages.1.description>
+<DeadmanFashionHappy.stages.2.label>посмертный икона стиля</DeadmanFashionHappy.stages.2.label>
+<DeadmanFashionHappy.stages.2.description>Три вещи! Я буквально ношу на себе целое кладбище моды. Живые носят бренды, мёртвые носят меня. Или наоборот. В любом случае, я в выигрыше!</DeadmanFashionHappy.stages.2.description>
+<DeadmanFashionHappy.stages.3.label>повелитель гардероба-лича</DeadmanFashionHappy.stages.3.label>
+<DeadmanFashionHappy.stages.3.description>Четыре или больше! Я — некромант моды! Мои наряды имеют историю. И аромат. В основном аромат. Но кто сказал, что история должна пахнуть розами? Розы тоже были на похоронах.</DeadmanFashionHappy.stages.3.description>
+
+<GreenRain_WeirdFeeling.stages.0.label>странное свечение</GreenRain_WeirdFeeling.stages.0.label>
+<GreenRain_WeirdFeeling.stages.0.description>Я видел, как растения светились зелёным и росли мгновенно. Это было... красиво? Или жутко? Я запутался в своих чувствах. И почему у меня во рту вкус солёных огурцов?</GreenRain_WeirdFeeling.stages.0.description>
+
+<ToxicNearbyBreakdown.stages.0.label>кто-то ломается!</ToxicNearbyBreakdown.stages.0.label>
+<ToxicNearbyBreakdown.stages.0.description>Ха-ха, посмотрите на этого идиота! Это уморительно.</ToxicNearbyBreakdown.stages.0.description>
+
+<MusicRadioListening.stages.0.label>приятная музыка</MusicRadioListening.stages.0.label>
+<MusicRadioListening.stages.0.description>По радио играет приятная мелодия. Она поднимает настроение. Забавно, как несколько нот из сломанного довоенного ящика могут сделать Пустошь почти сносной.</MusicRadioListening.stages.0.description>
+<MusicRadioListening.stages.1.label>божественная музыка!</MusicRadioListening.stages.1.label>
+<MusicRadioListening.stages.1.description>Эта мелодия просто чудесна! {PAWN_nameDef} наслаждается каждой нотой. На короткий миг {PAWN_pronoun} забывает о рейдерах, радиации и о том, что ужин — это двухсотлетние консервированные бобы. Это того стоило.</MusicRadioListening.stages.1.description>
+
+<MusicRadioAnnoying.stages.0.label>раздражающая музыка</MusicRadioAnnoying.stages.0.label>
+<MusicRadioAnnoying.stages.0.description>Этот ужасный скрип из радио сводит {PAWN_objective} с ума. Кто вообще слушает этот мусор? Наверное, те же люди, которые считают радтаракана деликатесом. {PAWN_pronoun} лучше встретится с Когтем Смерти, чем услышит ещё один припев.</MusicRadioAnnoying.stages.0.description>
+
+<ThreeDogBlues.stages.0.label>Хроники Старого Мира</ThreeDogBlues.stages.0.label>
+<ThreeDogBlues.stages.0.description>Голос по радио... он говорил о надежде среди пепла. На мгновение Пустошь перестала казаться такой безрадостной.</ThreeDogBlues.stages.0.description>
+</LanguageData>

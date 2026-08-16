@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>MakeFalloutJet</defName>
+		<label>Make Jet x4</label>
+		<description>Make Jet.</description>
+		<jobString>Make Jet.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fertilizer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			
+		</ingredients>
+		<products>
+			<FalloutJet>4</FalloutJet>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Yayo</li>
+				<li>Fertilizer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		  <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	<RecipeDef>
+		<defName>MakeFalloutJet4x</defName>
+		<label>Make Jet x12</label>
+		<description>Make Jet x12.</description>
+		<jobString>Make Jet.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fertilizer</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			
+		</ingredients>
+		<products>
+			<FalloutJet>12</FalloutJet>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Yayo</li>
+				<li>Fertilizer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		 <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+
+		<RecipeDef>
+		<defName>MakeFalloutUltraJet4x</defName>
+		<label>Make Ultra Jet x4</label>
+		<description>Make Ultra Jet.</description>
+		<jobString>Make Ultra Jet.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fertilizer</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<FalloutUltraJet>4</FalloutUltraJet>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Yayo</li>
+				<li>Fertilizer</li>
+				<li>HemogenPack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		 <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeFalloutUltraJet12x</defName>
+		<label>Make Ultra Jet x12</label>
+		<description>Make Ultra Jet.</description>
+		<jobString>Make Ultra Jet.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Fertilizer</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<FalloutUltraJet>12</FalloutUltraJet>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Yayo</li>
+				<li>Fertilizer</li>
+				<li>HemogenPack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		 <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	<RecipeDef>
+		<defName>MakeStimpak2x</defName>
+		<label>Make Stimpak x2</label>
+		<description>Make Stimpak.</description>
+		<jobString>Make Stimpak.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<Stimpak>2</Stimpak>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>MedicineIndustrial</li>
+				<li>HemogenPack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		 <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeStimpakSuper2x</defName>
+		<label>Make Stimpak Super x2</label>
+		<description>Make Stimpak Super.</description>
+		<jobString>Make Stimpak Super.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineUltratech</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<products>
+			<Stimpak>2</Stimpak>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>MedicineUltratech</li>
+				<li>HemogenPack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		 <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>MakeMed-x2x</defName>
+		<label>Make Med-x x2</label>
+		<description>Make Med-x.</description>
+		<jobString>Make Med-x.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WakeUp</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ActivatedCarbon</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<Med-x>2</Med-x>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>WakeUp</li>
+				<li>ActivatedCarbon</li>
+				<li>HemogenPack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		 <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+
+	
+	
+	
+	<RecipeDef>
+		<defName>MakeAddictol2x</defName>
+		<label>Make Addictol x2</label>
+		<description>Make Addictol.</description>
+		<jobString>Make Addictol.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Methadone</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<Addictol>2</Addictol>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>Methadone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		 <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+   <RecipeDef>
+		<defName>MakeRadAway</defName>
+		<label>Make RadAway x4</label>
+		<description>Make RadAway.</description>
+		<jobString>Make RadAway.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PotassiumIodide</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			
+		</ingredients>
+		<products>
+			<RadAway>4</RadAway>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>PotassiumIodide</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		  <recipeUsers>
+	        <li>meditable</li>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+	</RecipeDef>
+	
+</Defs>

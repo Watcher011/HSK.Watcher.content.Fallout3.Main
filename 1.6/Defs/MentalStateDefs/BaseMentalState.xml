@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--  <MentalStateDef ParentName="BaseMentalState">
+        <defName>Watcher_ComicCreator</defName>
+        <stateClass>Watcher.MentalState_ComicCreator</stateClass>
+        <workerClass>Watcher.MentalStateWorker_ComicCreator</workerClass>
+        <label>comic creator breakdown</label>
+        <category>Misc</category>
+        <minTicksBeforeRecovery>60000</minTicksBeforeRecovery>
+        <maxTicksBeforeRecovery>180000</maxTicksBeforeRecovery>
+        <nameColor>(0.65, 0.9, 0.93)</nameColor>
+        <baseInspectLine>Mental state: Drawing comics</baseInspectLine>
+        <recoverFromSleep>false</recoverFromSleep>
+    </MentalStateDef>
+
+    <!{1}** ==================== Mental Break Def ==================== **{1}>
+    <MentalBreakDef>
+        <defName>Watcher_ComicCreatorBreak</defName>
+        <mentalState>Watcher_ComicCreator</mentalState>
+        <baseCommonality>0.8</baseCommonality>
+        <intensity>Minor</intensity>
+    </MentalBreakDef>-->
+
+</Defs>

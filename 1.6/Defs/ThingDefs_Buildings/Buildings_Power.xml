@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="PowerFueled">
+		<defName>VaultTecPortableGenerator</defName>
+		<label>Vault-Tec Portable "ElectroBuddy" Generator</label>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Power/Generator/VaultTecPortableGenerator/VaultTecPortableGenerator</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.3,1.5)</drawSize>
+			<shadowData>
+				<volume>(0.8, 0.8, 0.8)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.9</fillPercent>
+		<blockWind>true</blockWind>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<WorkToBuild>6500</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-10</Beauty>
+			<Mass>70</Mass>
+		</statBases>
+		 <minifiedDef>MinifiedThing</minifiedDef>
+		<tickerType>Normal</tickerType>
+		<description>"The power of a nuclear reactor in a convenient portable format! (Results may vary)"
+
+This compact power source is the perfect companion for any wastelander! Designed by the geniuses at Vault-Tec as an "emergency" power source, it perfectly fulfills its main function - to remind you that death by electrocution can await you anywhere!
+ Design Features:
+ Lightweight - only 35 kg (not counting the lead protection that was "lost" upon delivery)
+ Comfortable handle - now you get electrocuted with ergonomic comfort!
+ Charge indicator - flashes red at random, creating an atmosphere of suspense!
+ Important note from Vault-Tec:
+"The generator is absolutely safe when used correctly (which is unknown to anyone). Any cases of spontaneous combustion are a feature of the local climate, and not our products."
+(Advice from experienced users: if the generator starts humming and smelling fried - this is a great reason to go for a run! Preferably in the opposite direction.)</description>
+		<size>(1,1)</size>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Mechanism>6</Mechanism>
+		</costList>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>SK.CompPowerPlantFueled</compClass>
+				<basePowerConsumption>-800</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+				<soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>40</heatPerSecond>
+				<heatPushMaxTemperature>75</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+			    <operatingTemp>500</operatingTemp>
+				<drawfirefuel>true</drawfirefuel>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeDrawOffset>(0,0,0.1)</smokeDrawOffset>
+				<smokesize>1.7</smokesize>
+				<smokespeeddelay>100</smokespeeddelay>
+				<fuelCapacity>15</fuelCapacity>
+				<burnFuelMultiplier>90.0</burnFuelMultiplier>
+				<smokeDensity>3</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Chemfuel</li>
+						<li>Prometheum</li>
+						<li>NuclearBattery</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li Class="CompProperties_Stunnable">
+				<useLargeEMPEffecter>true</useLargeEMPEffecter>
+				<affectedDamageDefs>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="SK.Events.AccidentalExplosionExtension">
+			</li>
+		</modExtensions>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+
+	<ThingDef ParentName="PowerFueled">
+		<defName>FalloutTeslaNova</defName>
+		<label>Vault-Tec Tesla Nova generator</label>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>Watcher.Buildings.Building_FalloutTeslaGenerator</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Generator/FalloutTeslaGenerator/FalloutTeslaGenerator</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		 <tickerType>Normal</tickerType>
+		 <rotatable>false</rotatable>
+		 <minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2100</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>100</Mass>
+		</statBases>
+		<description>A scientific breakthrough in a transparent flask!
+A stable (conditionally stable*) clot of high-energy plasma is contained inside a hermetically sealed container made of combat plexiglass, resistant to a muzzle charge from a laser rifle. Our scientists, sacrificing sleep and safety precautions, have achieved quantum synchronization of discharges, creating not only a hypnotizing spectacle, but also a source of constant energy!</description>
+		<size>(1,2)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>150</costStuffCount>
+		<costList>
+			<ReinforcedConcrete>20</ReinforcedConcrete>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Mechanism>5</Mechanism>
+			<Glass>50</Glass>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>SK.CompPowerPlantFueled</compClass>
+				<basePowerConsumption>-1600</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+				<soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(17,12,233,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>3</heatPerSecond>
+				<heatPushMaxTemperature>25</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>500</operatingTemp>
+				<drawfirefuel>true</drawfirefuel>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeDrawOffset>(0,0,0.1)</smokeDrawOffset>
+				<smokesize>1.7</smokesize>
+				<smokespeeddelay>100</smokespeeddelay>
+				<fuelCapacity>40</fuelCapacity>
+				<burnFuelMultiplier>0.9</burnFuelMultiplier>
+				<smokeDensity>3</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>NuclearBattery</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li Class="CompProperties_Stunnable">
+				<useLargeEMPEffecter>true</useLargeEMPEffecter>
+				<affectedDamageDefs>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<researchPrerequisites>
+			<li>Vault-TecPower</li>
+			<li>RimatomicsActivate</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="SK.Events.AccidentalExplosionExtension">
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+
+<ThingDef ParentName="BuildingBase">
+    <defName>VaultBattery</defName>
+    <label>garbage battery</label>
+    <drawerType>MapMeshAndRealTime</drawerType>
+	<thingClass>SK.Building_Battery</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Power/VaultBattery</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2,2)</drawSize>
+        <shadowData>
+            <volume>(0.8, 0.4, 1.8)</volume>
+            <offset>(0,0,0)</offset>
+        </shadowData>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+        <li>BuildingsPower</li>
+    </thingCategories>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.7</fillPercent>
+    <tickerType>Normal</tickerType>
+    <statBases>
+        <MaxHitPoints>180</MaxHitPoints>
+        <WorkToBuild>1450</WorkToBuild>
+        <Flammability>1.0</Flammability>
+        <Beauty>-10</Beauty>
+        <Mass>120</Mass>
+    </statBases>
+    <description>This product contains volatile chemicals that were not certified before the war. Avoid moisture, temperatures above 40°C, and sudden movements. Remember: the bright flash upon rupture is the last ray of light in your desolate existence!. Holds up to 1,020 W.</description>
+    <size>(1,2)</size>
+    <building>
+        <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        <uninstallWork>450</uninstallWork>
+    </building>
+    <stuffCategories>
+        <li>HeavyMetallic</li>
+		<li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+        <ComponentIndustrial>7</ComponentIndustrial>
+        <ElectronicComponents>4</ElectronicComponents>
+    </costList>
+    <comps>
+        <li Class="CompProperties_Battery">
+            <storedEnergyMax>1020</storedEnergyMax>
+            <efficiency>0.7</efficiency>
+            <shortCircuitInRain>true</shortCircuitInRain>
+            <transmitsPower>true</transmitsPower>
+        </li>
+        <li Class="CompProperties_Breakdownable"/>
+        <li Class="CompProperties_Stunnable">
+            <useLargeEMPEffecter>true</useLargeEMPEffecter>
+            <affectedDamageDefs>
+                <li>EMP</li>
+            </affectedDamageDefs>
+        </li>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+        <li>Batteries</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+</ThingDef>
+
+
+
+ <ThingDef ParentName="BuildingBase">
+    <defName>VaultPowerReactor</defName>
+    <label>Nuclear reactor</label>
+    <description>*"Look, dude. See that stinking hunk of metal humming like a drunken deathclaw? That's an old V-B. They used to use them in military bunkers and Vaults. One of those things could power an entire city like Megaton... or wipe it off the face of the earth if some overconfident slacker climbed inside with a crowbar.</description>
+    <graphicData>
+     <texPath>Things/Building/Power/Generator/AncientVaulttechgenerator/AncientVaulttechgenerator</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(4, 3)</drawSize>
+	   <drawOffset>(0,0,0.5)</drawOffset>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <pathCost>42</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <canOverlapZones>false</canOverlapZones>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>150</Mass>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <size>(4,2)</size>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-3000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>3</glowRadius>
+        <glowColor>(227,233,168,0)</glowColor>
+      </li>
+	  <li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>RimatomicsRadiation</hediff>
+				<radius>3</radius>
+				<severityToAdd>0.001</severityToAdd>
+      </li>
+	   <li Class="CompProperties_Explosive">
+				<explosiveRadius>15</explosiveRadius>
+				<explosiveDamageType>NuclearB</explosiveDamageType>
+				<damageAmountBase>18000</damageAmountBase>
+				<postExplosionSpawnThingDef>Filth_NFRAD</postExplosionSpawnThingDef>
+				<postExplosionSpawnChance>0.11</postExplosionSpawnChance>
+				 <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+                <wickTicks>15</wickTicks>
+                <startWickOnDamageTaken>
+                <li>Bullet</li>
+                <li>Arrow</li>
+                <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+	</li>
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticBuilding</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>

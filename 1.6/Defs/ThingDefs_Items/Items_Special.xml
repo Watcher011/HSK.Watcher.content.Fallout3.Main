@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="CoinBase">
+		<defName>BottleCap</defName>
+		<label>Bottle Cap</label>
+		<description>Caps are a water-backed currency controlled and regulated by the NCR caravan trading companies. The caravan houses conspired to reintroduce caps as a primary currency when traders lost faith in NCR money.</description>
+		<graphicData>
+			<texPath>Things/Item/Cap</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>25</MarketValue>
+		</statBases>
+		<possessionCount>2</possessionCount>
+		<useHitPoints>true</useHitPoints>
+	</ThingDef>
+
+		<ThingDef ParentName="ResourceBase">
+		<defName>NuclearBattery</defName>
+		<label>Nuclear Battery</label>
+		<description>Ah, that tiny battery that powers your entire energy arsenal, from laser rifles to plasma cannons! Who would have thought that a miniature nuclear reactor that fits in the palm of your hand was such a great idea? Thank you, pre-war corporations, for cramming atomic fission into a package the size of a soda can. What could possibly go wrong?</description>
+		<graphicData>
+			<texPath>Things/Item/Bat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(1)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Mass>0.025</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+			<MaxBurningTempCelsius>1100</MaxBurningTempCelsius>
+			<BurnDurationHours>1000.0</BurnDurationHours>
+		</statBases>
+		<recipeMaker>
+        	<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<effectWorking>Cook</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<workAmount>800</workAmount>
+			<targetCountAdjustment>5</targetCountAdjustment>
+			<productCount>5</productCount>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ElectronicComponents>2</ElectronicComponents>
+			<Uranium>2</Uranium>
+			<Glass>2</Glass>
+		</costList>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="RelicInertBase">
+    <defName>Brain</defName>
+    <label>Brain</label>
+    <description>A human Brain.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Brain</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.75, 0.75)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <rotatable>false</rotatable>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <statBases>
+      <Mass>1.5</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_HasSources"/>
+      <li>
+        <compClass>CompHarbingerTreeConsumable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+		<defName>RadMeat</defName>
+		<label>Wasteland Monster Meat</label>
+		<description>A gastronomic 'delicacy' of the wasteland, taken from creatures that clearly failed health inspection, this hunk of flesh can be anything from boot-tight brahmin meat to suspiciously slimy mutant steak. When raw, it gives off an eye-watering aroma, but when fried (or soaked in alcohol for a long time) it becomes almost edible. As the locals say, 'If your hair doesn't fall out after eating it, you're lucky!</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RadMeat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		 <thingClass>ThingWithComps</thingClass>
+         <selectable>true</selectable>
+        <category>Item</category>
+       <drawerType>MapMeshOnly</drawerType>
+       <tickerType>Rare</tickerType>
+       <rotatable>false</rotatable>
+       <altitudeLayer>Item</altitudeLayer>
+      <resourceReadoutPriority>Middle</resourceReadoutPriority>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <healthAffectsPrice>false</healthAffectsPrice>
+      <stackLimit>75</stackLimit>
+      <alwaysHaulable>true</alwaysHaulable>
+      <socialPropernessMatters>true</socialPropernessMatters>
+      <tradeability>Sellable</tradeability>
+      <pathCost>14</pathCost>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Beauty>-6</Beauty>
+      <DeteriorationRate>6</DeteriorationRate>
+      <Mass>0.03</Mass>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+      <MarketValue>0.5</MarketValue>
+    </statBases>
+		<ingestible>
+      <preferability>RawBad</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <specialThoughtAsIngredient>RadFood</specialThoughtAsIngredient>
+	  <foodType>Meat</foodType>
+	  <tasteThought>RadFood</tasteThought>
+	  <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>0</daysToRotStart>
+				<rotDestroys>false</rotDestroys>
+			</li>
+		</comps>
+	<thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+	</ThingDef>
+	
+	
+  
+  
+  	<ThingDef ParentName="RelicInertBase">
+    <defName>WaterChip</defName>
+    <label>Aqua-Purification Chip</label>
+    <description>The Aqua-Purification Chip is a patented electronic circuit from Vault-Tec Corporation, critical to the operation of the Water Recycling and Purification System (Waste Ripper). This device is responsible for fine filtration, removing radionuclides and bio-agent cocktails from water, as well as 99.8% of the taste and color of urine, making it suitable for repeated consumption over a 180-year cycle.Without this chip, your Vault faces an unenviable fate: from slow and painful dehydration to a quick and cheerful transformation into a puddle of radioactive slime due to a malfunction in the nuclear reactor's cooling system. Remember: the chip is life! At least, that's what Article 45-b of your Vault's Regulations says.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/WaterChip</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.75, 0.75)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <rotatable>false</rotatable>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+	<tradeTags>
+	<li>Exotic</li>
+	<li>ExoticMisc</li>
+   </tradeTags>
+    <statBases>
+      <Mass>1.5</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>500</MarketValue>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+  </ThingDef>
+  
+ <ThingDef ParentName="ResourceBase" Name="SummonBase" Abstract="True">
+    <description>[CONDITION: 200 YEARS OVERDUE, BUT WHO'S COUNTING?]
+A rusty cylindrical can with a biohazard valve. A quiet scraping sound comes from inside. Or is that your conscience?</description>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>100</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+	<graphicData>
+      <texPath>Things/Item/LIVESURPRISE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>InertRelics</li>
+    </thingCategories>
+    <statBases>
+      <Mass>1.5</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <MarketValue>500</MarketValue>
+    </statBases>
+   
+    <randomStyleChance>1</randomStyleChance>
+    <relicChance>5</relicChance>
+    <comps Inherit="false">
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"></li>
+    </comps>
+  </ThingDef>
+  
+  
+  
+    <ThingDef ParentName="SummonBase">
+    <defName>SummonPulserSewageCreature</defName>
+    <label>LIVE SURPRISE(1)</label>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <relicChance>0.03</relicChance>
+	<graphicData>
+			<color>(200,255,200)</color>
+	</graphicData>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <comps>
+    <li Class="Watcher.Comps.CompProperties_SummonItem">
+        <summonedPawnKind>SewageCreature</summonedPawnKind>
+      </li>
+    </comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="SummonBase">
+    <defName>SummonPulserKirin</defName>
+    <label>LIVE SURPRISE(2)</label>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <relicChance>0.03</relicChance>
+	<graphicData>
+			<color>(120,120,255)</color>
+	</graphicData>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <comps>
+    <li Class="Watcher.Comps.CompProperties_SummonItem">
+        <summonedPawnKind>Kirin</summonedPawnKind>
+      </li>
+    </comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="SummonBase">
+    <defName>SummonPulserRadroach</defName>
+    <label>LIVE SURPRISE(3)</label>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <relicChance>0.03</relicChance>
+	<graphicData>
+			<color>(255,255,255)</color>
+	</graphicData>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <comps>
+    <li Class="Watcher.Comps.CompProperties_SummonItem">
+        <summonedPawnKind>Radroach</summonedPawnKind>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+   <ThingDef ParentName="BodyPartProstheticBase" Name="OmniToolBase" Abstract="True">
+    <label>Exo-Needle "Evolution"</label>
+    <description>Slogan: "Feel like you're missing that spark? Buy an implant and install it yourself! Our device will drill, connect, and stitch it up. Perfect for the wasteland, where every mutant wants to rip your arm off!"</description>
+    <graphicData>
+        <texPath>Things/Item/Evolution</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>0.80</drawSize>
+        <color>(189,169,118)</color>
+    </graphicData>
+	<stackLimit>10</stackLimit>
+	<drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <Mass>1.5</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <MarketValue>500</MarketValue>
+    </statBases>
+	<costList>
+			<ComponentUltra>4</ComponentUltra>
+			<Biomatter>45</Biomatter>
+			<BioMicrochips>1</BioMicrochips>
+			<SyntheticFibers>15</SyntheticFibers>
+			<ArtificialBone>5</ArtificialBone>
+	</costList>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <tradeTags>
+        <li>TechHediff</li>
+    </tradeTags>
+    <techHediffsTags>
+        <li>Advanced</li>
+    </techHediffsTags>
+</ThingDef>
+  
+    <ThingDef ParentName="OmniToolBase">
+    <defName>OmniLeg</defName>
+    <label>Exo-Needle "BionicLeg"</label>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+	<graphicData>
+			<color>(255,255,255)</color>
+	</graphicData>
+    <statBases>
+      <MarketValue>5700</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <comps>
+    <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Install cybernetic bionic Leg</useLabel>
+            </li>
+            <li Class="Watcher.Comps.CompProperties_UseEffectInstallImplantAnesthetic">
+                <hediffDef>GTFoot</hediffDef>
+                <bodyPart>Leg</bodyPart>
+                <canBeUsedByNonColonists>false</canBeUsedByNonColonists>
+                <anestheticSeverity>1.0</anestheticSeverity>
+            </li>
+	</comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="OmniToolBase">
+    <defName>OmniArm</defName>
+    <label>Exo-Needle "BionicArm"</label>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+	<graphicData>
+			<color>(255,255,255)</color>
+	</graphicData>
+    <statBases>
+      <MarketValue>5700</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <comps>
+    <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Install cybernetic bionic Arm</useLabel>
+            </li>
+            <li Class="Watcher.Comps.CompProperties_UseEffectInstallImplantAnesthetic">
+                <hediffDef>BionicArm</hediffDef>
+                <bodyPart>Arm</bodyPart>
+                <canBeUsedByNonColonists>false</canBeUsedByNonColonists>
+                <anestheticSeverity>1.0</anestheticSeverity>
+            </li>
+	</comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="OmniToolBase">
+    <defName>OmniEye</defName>
+    <label>Exo-Needle "BionicEye"</label>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+	<graphicData>
+			<color>(255,255,255)</color>
+	</graphicData>
+    <statBases>
+      <MarketValue>3700</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <comps>
+    <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Install cybernetic bionic Eye</useLabel>
+            </li>
+            <li Class="Watcher.Comps.CompProperties_UseEffectInstallImplantAnesthetic">
+                <hediffDef>BionicEye</hediffDef>
+                <bodyPart>Eye</bodyPart>
+                <canBeUsedByNonColonists>false</canBeUsedByNonColonists>
+                <anestheticSeverity>1.0</anestheticSeverity>
+            </li>
+	</comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="OmniToolBase">
+    <defName>OmniSpine</defName>
+    <label>Exo-Needle "BionicSpine"</label>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+	<graphicData>
+			<color>(255,255,255)</color>
+	</graphicData>
+    <statBases>
+      <MarketValue>5900</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+    </statBases>
+    <comps>
+    <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Install cybernetic bionic Spine</useLabel>
+            </li>
+            <li Class="Watcher.Comps.CompProperties_UseEffectInstallImplantAnesthetic">
+                <hediffDef>BionicSpine</hediffDef>
+                <bodyPart>Spine</bodyPart>
+                <canBeUsedByNonColonists>false</canBeUsedByNonColonists>
+                <anestheticSeverity>1.0</anestheticSeverity>
+            </li>
+	</comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="ResourceBase">
+        <defName>Ammo_StimulantCartridge</defName>
+        <label>stimulant cartridge</label>
+        <description>Disposable cartridge containing chemical stimulant cocktail (caffeine, amphetamines, nutrients).</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Medicine/Medicine</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>0.5</drawSize>
+        </graphicData>
+        <statBases>
+            <Mass>0.05</Mass>
+            <MarketValue>15</MarketValue>
+            <MaxHitPoints>20</MaxHitPoints>
+        </statBases>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <comps>
+            <li Class="CompProperties_Drug">
+                <chemical>Caffeine</chemical>
+                <addictiveness>0.05</addictiveness>
+                <existingAddictionSeverityOffset>0.10</existingAddictionSeverityOffset>
+                <needLevelOffset>1</needLevelOffset>
+                <listOrder>20</listOrder>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <RecipeDef>
+        <defName>MakeAmmo_StimulantCartridge</defName>
+        <label>make stimulant cartridges x5</label>
+        <description>Craft 5 stimulant cartridges.</description>
+        <jobString>Making stimulant cartridges.</jobString>
+        <workAmount>800</workAmount>
+        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <workSkill>Intellectual</workSkill>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PsychoidLeaves</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RawFungus</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Neutroamine</li>
+                <li>PsychoidLeaves</li>
+                <li>RawFungus</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Ammo_StimulantCartridge>5</Ammo_StimulantCartridge>
+        </products>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+        <researchPrerequisite>DrugProduction</researchPrerequisite>
+        <recipeUsers>
+            <li>DrugLab</li>
+        </recipeUsers>
+    </RecipeDef>
+	
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>Plastipod</defName>
+		<label>Plastipod</label>
+		<description>A tuber on a stalk, inside which a sticky black mush matures, the basis for primitive plastic. When squeezed, it bursts with a squelching sound. To obtain the plastic, it must be boiled.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Plastipod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<tickerType>Rare</tickerType>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<StuffPower_Armor_Blunt>0.5</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Sharp>0.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Heat>0.04</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>1.1</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0.5</StuffPower_Insulation_Heat>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>2</Flammability>
+			<Mass>0.05</Mass>
+			<Bulk>0.05</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Chemical</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Plastic</li>
+			</categories>
+			<constructEffect>ConstructMetal</constructEffect>
+			<!--<color>(70,112,80)</color>-->
+			<soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Flammability>1</Flammability>
+				<Beauty>1.3</Beauty>
+				<WorkToMake>1.3</WorkToMake>
+				<WorkToBuild>1.3</WorkToBuild>
+				<DoorOpenSpeed>1.5</DoorOpenSpeed>
+				<MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
+				<MoveSpeed>1.3</MoveSpeed>
+				<MarketValue>0.7</MarketValue>
+				<BedRestEffectiveness>1.35</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+				<WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+				<MeleePenetrationFactor>0.3</MeleePenetrationFactor>
+				<Mass>0.5</Mass>
+			</statFactors>
+		</stuffProps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
+		<stackLimit>300</stackLimit>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,989 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<HediffDef>
+		<defName>DeathIonization</defName>
+		<label>death ionization</label>
+		<labelNoun>a death ionization</labelNoun>
+		<description>An unstable condition.</description>
+		 <hediffClass>HediffWithComps</hediffClass>
+		  <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		  <makesAlert>false</makesAlert>
+          <minSeverity>0.001</minSeverity>
+          <maxSeverity>1</maxSeverity>
+          <initialSeverity>0.5</initialSeverity>
+		<comps>
+			<li Class="HediffCompProperties_DissolveGearOnDeath">
+				<fleck>ActivatorCountdownFlash</fleck>
+				<moteCount>6</moteCount>
+				<moteOffsetRange>0.25~0.75</moteOffsetRange>
+				<filth>Filth_Slime</filth>
+				<sound>DeathAcidifier</sound>
+				<injuryCreatedOnDeath>Burn</injuryCreatedOnDeath>
+				<injuryCount>3~6</injuryCount>
+			</li>
+			  <li Class="HediffCompProperties_Disappears">
+               <disappearsAfterTicks>45000~120000</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+		</comps>
+	</HediffDef>
+   
+   
+   
+ <!--  <HediffDef>
+        <defName>FEV</defName>
+        <label>FEV</label>
+        <description>FEV.</description>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>0.001</initialSeverity>
+        <stages />
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
+                <xenotypes>
+                    <Supermutant>1</Supermutant>
+                </xenotypes>
+                <severities>1~999</severities>
+                <setXenotype>True</setXenotype>
+            </li>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>1</severityPerDay>
+            </li>
+        </comps>
+    </HediffDef>-->
+	
+
+  <HediffDef>
+    <defName>WearingPipBoy</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.00, 0.5, 0)</defaultLabelColor>
+    <isBad>false</isBad>
+   <label>Pip-Boy</label>
+   <description>VATS, or Vault-Tec Assisted Targeting System, is an advanced combat technology whose origins are lost in time…</description>
+    <makesSickThought>false</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>V.A.T.S.</label>
+        <minSeverity>0</minSeverity>
+        <capMods>
+         	         <li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.05</offset>
+					</li>
+             </capMods>
+			<statOffsets>
+					<MoveSpeed>0.05</MoveSpeed>
+					<MeleeHitChance>0.1</MeleeHitChance>
+					<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.04</AimingDelayFactor>
+					<!-- <MeleeWeapon_CooldownMultiplier>0.95</MeleeWeapon_CooldownMultiplier> -->
+					<Suppressability>-0.05</Suppressability>
+				</statOffsets>
+      </li> 
+    </stages>
+	     
+  </HediffDef>
+  
+	
+   <HediffDef>
+        <defName>GhoulLK</defName>
+        <label>Ghoul</label>
+        <description>Ghoul.</description>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>0.001</initialSeverity>
+        <stages />
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
+                <xenotypes>
+                    <Ghoul>1</Ghoul>
+                </xenotypes>
+                <severities>1~999</severities>
+                <setXenotype>True</setXenotype>
+            </li>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>1</severityPerDay>
+            </li>
+        </comps>
+    </HediffDef>
+	
+	
+	
+	<HediffDef>
+        <defName>Charge</defName>
+        <label>Charge</label>
+        <description>Atoms in an unstable state</description>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>0.001</initialSeverity>
+        <stages />
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath">
+                <thingSpawn>Ash</thingSpawn>
+            </li>
+			<li Class="HediffCompProperties_Disappears">
+				 <disappearsAfterTicks>45000~50000</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+			</li>
+        </comps>
+		
+    </HediffDef>
+	
+	
+	
+	<HediffDef>
+		<defName>RadScorpionPoison</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<label>Scorpion Poison buildup</label>
+		<description>Scorpion Poison building up</description>
+		<lethalSeverity>1</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<comps>
+			<li Class="CombatExtended.HediffCompProperties_FleshOnly" />
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>12000</min>
+					<max>21000</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>initial</label>
+				<minSeverity>0.05</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.35</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>HeartAttack</hediff>
+						<allowOnLodgers>false</allowOnLodgers>
+						<allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+						<allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
+						<allowOnBeggars>false</allowOnBeggars>
+						<mtbDays>5</mtbDays>
+						<partsToAffect>
+							<li>Heart</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.15</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.15</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.45</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>HeartAttack</hediff>
+						<allowOnLodgers>false</allowOnLodgers>
+						<allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+						<allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
+						<allowOnBeggars>false</allowOnBeggars>
+						<mtbDays>5</mtbDays>
+						<partsToAffect>
+							<li>Heart</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.4</minSeverity>
+				<vomitMtbDays>2</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.03</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.3</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.55</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>HeartAttack</hediff>
+						<allowOnLodgers>false</allowOnLodgers>
+						<allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+						<allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
+						<allowOnBeggars>false</allowOnBeggars>
+						<mtbDays>5</mtbDays>
+						<partsToAffect>
+							<li>Heart</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>serious</label>
+				<minSeverity>0.6</minSeverity>
+				<vomitMtbDays>1</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.06</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.6</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.65</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>HeartAttack</hediff>
+						<allowOnLodgers>false</allowOnLodgers>
+						<allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+						<allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
+						<allowOnBeggars>false</allowOnBeggars>
+						<mtbDays>5</mtbDays>
+						<partsToAffect>
+							<li>Heart</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.8</minSeverity>
+				<vomitMtbDays>0.5</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<setMax>-0.03</setMax>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<setMax>-0.5</setMax>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.75</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>HeartAttack</hediff>
+						<allowOnLodgers>false</allowOnLodgers>
+						<allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+						<allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
+						<allowOnBeggars>false</allowOnBeggars>
+						<mtbDays>5</mtbDays>
+						<partsToAffect>
+							<li>Heart</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>Scorponade</defName>
+		<label>"Scorponade" Energy Drink</label>
+		<description>Had some "Scorponade" Energy Drink.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>2</initialSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.7</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<label>Scorponade Drink,Phew</label>
+				<painFactor>0.9</painFactor>
+				<capMods>
+
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.15</offset>
+					</li>
+                     <li>
+						<capacity>Moving</capacity>
+						<offset>0.35</offset>
+					</li>
+				</capMods>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>HeartAttack</hediff>
+						<allowOnLodgers>false</allowOnLodgers>
+						<allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+						<allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
+						<allowOnBeggars>false</allowOnBeggars>
+						<mtbDays>15</mtbDays>
+						<partsToAffect>
+							<li>Heart</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+			<li>
+				<minSeverity>0.5</minSeverity>
+				<label>Scorponade Drink, Feeling Better.</label>
+				<painFactor>0.8</painFactor>
+				<capMods>
+
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.20</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.95</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+
+	
+	<!--<HediffDef ParentName="InfectionBase">
+			<defName>BlowflyLarva</defName>
+		<label>Blowfly Larva</label>
+		<labelNoun>Larva</labelNoun>
+		<description>Blowfly Larva</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<makesSickThought>false</makesSickThought>
+		 <scenarioCanAdd>false</scenarioCanAdd>
+		<lethalSeverity>1</lethalSeverity>
+		
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>12</baseTendDurationHours>
+				<severityPerDayTended>-0.35</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
+				<immunityPerDaySick>0.3</immunityPerDaySick>
+				<severityPerDayNotImmune>0.4</severityPerDayNotImmune>
+				<severityPerDayImmune>-0.2</severityPerDayImmune>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SpawnPawnKindOnRemoval">
+                <pawnKind>Duten</pawnKind>
+				<activation>OnDeathOnly</activation>
+				 <validSeverity>0.9</validSeverity>
+                <count>1~2</count>
+                <mentalStateOnSpawn>ManhunterPermanent</mentalStateOnSpawn>
+            </li>
+			<li Class="HediffCompProperties_DissolveGearOnDeath">
+				<fleck>ActivatorCountdownFlash</fleck>
+				<moteCount>6</moteCount>
+				<moteOffsetRange>0.25~0.75</moteOffsetRange>
+				<filth>Filth_Slime</filth>
+				<sound>DeathAcidifier</sound>
+				<injuryCreatedOnDeath>Burn</injuryCreatedOnDeath>
+				<injuryCount>3~6</injuryCount>
+			</li>
+			     <li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath">
+                <thingSpawn>HiveBlowfly</thingSpawn>
+            </li>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+		</comps>
+		<stages>
+			<li>
+			
+				<label>minor-hidden</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<minSeverity>0.10</minSeverity>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.666</minSeverity>
+				<label>major</label>
+				<painOffset>0.15</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.833</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.4</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.3</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.2</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.25</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>-->
+	
+	
+	<HediffGiverSetDef>
+    <defName>ScariaPassiveSet</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>Scaria</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  
+  
+   <HediffDef>
+    <defName>ManhunterPermanentAnimal</defName>
+    <label>Manhunter Permanent</label>
+    <description>-/-.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.9, 1.0, 0.35)</defaultLabelColor>
+    <initialSeverity>0</initialSeverity>
+    <comps>
+       <li Class="HediffCompProperties_Disappears">
+		<disappearsAfterTicks>60000~120000</disappearsAfterTicks>
+	</li>
+      <li Class="HediffCompProperties_CauseMentalState">
+        <animalMentalState>ManhunterPermanent</animalMentalState>
+        <animalMentalStateAlias>Manhunter</animalMentalStateAlias>
+		 <humanMentalState>Berserk</humanMentalState>
+        <letterDef>ThreatSmall</letterDef>
+        <mtbDaysToCauseMentalState>0.5</mtbDaysToCauseMentalState>
+      </li>
+    </comps>
+  </HediffDef>
+ <!-- 
+   <HediffDef>
+    <defName>MysteriousInfection</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <description>Sleeper agent</description>
+    <label>Sleeper agent</label>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="Watcher.Hediffs.HediffCompProperties_MysteriousInfection">
+        <disappearsAfterTicks>
+          <min>120000</min>
+          <max>360000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>-->
+  
+<!--  <HediffDef>
+    <defName>Savagery</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0, 1, 1)</defaultLabelColor>
+    <label>Savagery</label>
+    <description>Feralization is a severe neurodegenerative disease affecting ghouls. It is characterized by progressive loss of cognitive function and memory, culminating in complete personality disintegration. Contrary to previous understanding, the process is reversible in the early and middle stages with aggressive therapy.</description>
+    <lethalSeverity>1</lethalSeverity>
+    <makesSickThought>false</makesSickThought>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+        <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>0.0027</severityPerDay>
+        </li>
+    </comps>
+	<stages>
+			<li>
+				<label>initial</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>Stage 1: "The Mirror Crackles"</label>
+				<minSeverity>0.05</minSeverity>
+				 <regeneration>15</regeneration>
+				<capMods>
+				
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Stage 2: "Fading"</label>
+				<minSeverity>0.7</minSeverity>
+				 <regeneration>25</regeneration>
+				<capMods>
+				
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+					<capacity>Manipulation</capacity>
+						<offset>0.3</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Stage 3: "Cliff"</label>
+				<minSeverity>0.9</minSeverity>
+				<vomitMtbDays>0.5</vomitMtbDays>
+				<painOffset>-0.5</painOffset>
+				 <regeneration>50</regeneration>
+				<capMods>
+				
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.5</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MoveSpeed>+0.7</MoveSpeed>
+					<MeleeHitChance>0.25</MeleeHitChance>
+                  <!{1}**  <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>**{1}>
+					<MeleeWeapon_CooldownMultiplier>-0.25</MeleeWeapon_CooldownMultiplier>
+					<!{1}**<AimingDelayFactor>0.35</AimingDelayFactor>**{1}>
+					<Suppressability>-0.90</Suppressability>
+				</statOffsets>
+				 <mentalStateGivers>
+                 <li>
+                 <mentalState>Berserk</mentalState>
+                 <mtbDays>0.1</mtbDays>
+                 </li>
+                 </mentalStateGivers>
+			</li>
+		</stages>
+  
+</HediffDef>-->
+  
+   <HediffDef>
+        <defName>Watcher_ExplosiveDeath</defName>
+        <label>active_warhead</label>
+        <description>active_warhead_desc</description>
+        <hediffClass>Watcher.Hediffs.Hediff_ExplosiveDeath</hediffClass>
+        <stages>
+            <li>
+                <label>active</label>
+            </li>
+        </stages>
+        <comps>
+            <li Class="Watcher.Hediffs.HediffCompProperties_ExplodeAndSpawnOnDeath">
+                <!-- Взрыв -->
+                <explosionRadius>5.0</explosionRadius>
+                <explosionDamageDef>NuclearB</explosionDamageDef>
+                <damageAmount>100</damageAmount>
+                <armorPenetration>250</armorPenetration>
+                <chanceToStartFire>1.0</chanceToStartFire>
+                <explosionSound>Explosion_Bomb</explosionSound>
+                
+                <!-- Спавн объектов -->
+                <thingToSpawn>Filth_NFRAD</thingToSpawn>
+                <spawnCount>3</spawnCount>
+                
+                <filth>Filth_Fuel</filth>
+                <filthCount>4</filthCount>
+            </li>
+        </comps>
+    </HediffDef>
+	
+	
+    <HediffDef>
+        <defName>Watcher_CoveredInFoam</defName>
+        <label>covered in medical foam</label>
+        <description>Fast-hardening hemostatic foam covering the body. Stops bleeding and promotes healing.</description>
+        <hediffClass>Watcher.Comps.Hediff_CoveredInFoam</hediffClass>
+        <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>
+        <isBad>false</isBad>
+        <initialSeverity>1.0</initialSeverity>
+        <maxSeverity>2.0</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>fresh</label>
+                <becomeVisible>true</becomeVisible>
+            </li>
+        </stages>
+    </HediffDef>
+	
+	
+    <HediffDef>
+        <defName>Watcher_StimulantCocktail</defName>
+        <label>stimulants</label>
+        <description>Chemical cocktail suppressing sleep and hunger needs, boosting consciousness.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(0.6, 0.8, 1.0)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1.0</maxSeverity>
+        <initialSeverity>0.5</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-2.0</severityPerDay>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>weak</label>
+                <minSeverity>0.1</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+                    <RestFallRateFactor>-0.5</RestFallRateFactor>
+                </statOffsets>
+            </li>
+            <li>
+                <label>active</label>
+                <minSeverity>0.4</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.10</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+                    <RestFallRateFactor>-0.8</RestFallRateFactor>
+                </statOffsets>
+            </li>
+            <li>
+                <label>strong</label>
+                <minSeverity>0.7</minSeverity>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.15</offset>
+                    </li>
+                </capMods>
+                <statOffsets>
+                    <RestFallRateFactor>-1.0</RestFallRateFactor>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="DiseaseBase">
+        <defName>Watcher_StimulantOverdose</defName>
+        <label>stimulant overdose</label>
+        <description>Loss of consciousness due to excessive stimulant use.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <defaultLabelColor>(1.0, 0.2, 0.2)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>60000</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>unconscious</label>
+                <becomeVisible>true</becomeVisible>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <setMax>0.01</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+    <defName>Harold</defName>
+    <label>Araraxis</label>
+    <labelNoun>Progressive Phytogenetic Dissonance</labelNoun>
+    <description>This was not an infection in the usual sense. This was a sentence written into every cell of the body from the very moment radiation and the virus met in the blood. Harold's disease was a slow, elusive transformation of a man into something nature never intended. This was not transformation — it was the dissolution of identity into biomass.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.6, 0.8, 0.4)</defaultLabelColor>
+
+    <comps>
+      <!-- Guaranteed progression - no immunity possible -->
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>0.00666</severityPerDay>
+      </li>
+
+      <!-- Kill at severity 0.95 - guaranteed death -->
+      <li Class="Watcher.Hediffs.HediffCompProperties_KillAtSeverity">
+        <severityThreshold>0.95</severityThreshold>
+      </li>
+
+      <!-- Death transformation comp -->
+      <li Class="Watcher.Hediffs.HediffCompProperties_HaroldDeathTransform">
+        <soilTileCount>10</soilTileCount>
+        <soilRadius>3</soilRadius>
+        <treeDefName>Plant_TreeHarold</treeDefName>
+        <sporePlantKindDef>SporePlant</sporePlantKindDef>
+        <sporePlantMinCount>2</sporePlantMinCount>
+        <sporePlantMaxCount>3</sporePlantMaxCount>
+      </li>
+
+      <!-- Melee weapon (flesh blade) -->
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>blade</label>
+            <capacities>
+              <li>Cut</li>
+            </capacities>
+            <armorPenetration>0.6</armorPenetration>
+            <power>20.5</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+
+      <!-- Fleshbeast emerge on surgery attempt -->
+      <li Class="HediffCompProperties_FleshbeastEmerge">
+        <letterLabel>Fleshmass operation</letterLabel>
+        <letterText>Attempting to remove {PAWN_nameDef}'s flesh whip has caused the twisting mass of flesh to attack. The fleshmass has detached from {PAWN_nameDef} and transformed into a fleshbeast!</letterText>
+      </li>
+    </comps>
+
+    <stages>
+      <li>
+        <label>minor</label>
+        <painOffset>0.1</painOffset>
+        <capMods>
+          <li><capacity>Consciousness</capacity><offset>-0.05</offset></li>
+          <li><capacity>Manipulation</capacity><offset>0.05</offset></li>
+        </capMods>
+      </li>
+
+      <li>
+        <minSeverity>0.6</minSeverity>
+        <label>major</label>
+        <painOffset>0.15</painOffset>
+        <capMods>
+          <li><capacity>Consciousness</capacity><offset>-0.2</offset></li>
+          <li><capacity>Manipulation</capacity><offset>0.2</offset></li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>60</mtbDays>
+            <partsToAffect><li>Lung</li><li>Liver</li><li>Kidney</li></partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+
+      <li>
+        <minSeverity>0.8</minSeverity>
+        <label>extreme</label>
+        <painOffset>0.2</painOffset>
+        <capMods>
+          <li><capacity>Consciousness</capacity><offset>-0.3</offset></li>
+          <li><capacity>Manipulation</capacity><offset>0.3</offset></li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>30</mtbDays>
+            <partsToAffect><li>Lung</li><li>Liver</li><li>Kidney</li><li>Heart</li></partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+
+      <li>
+        <minSeverity>0.9</minSeverity>
+        <label>terminal</label>
+        <lifeThreatening>true</lifeThreatening>
+        <painOffset>0.25</painOffset>
+        <capMods>
+          <li><capacity>Consciousness</capacity><offset>-0.7</offset></li>
+          <li><capacity>Manipulation</capacity><offset>-0.7</offset></li>
+          <li><capacity>Breathing</capacity><offset>-0.3</offset></li>
+          <li><capacity>BloodPumping</capacity><offset>-0.2</offset></li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>15</mtbDays>
+            <partsToAffect><li>Heart</li><li>Brain</li><li>Lung</li></partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>20</mtbDays>
+          </li>
+        </hediffGivers>
+        <statOffsets>
+          <ImmunityGainSpeed>-0.5</ImmunityGainSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+
+    <!-- Body overlay - renders ON the pawn, not replacing a body part -->
+    <renderNodeProperties>
+      <li>
+        <debugLabel>Araraxis</debugLabel>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPaths>
+          <li>Things/Pawn/Attachments/Araraxis_A</li>
+        </texPaths>
+        <baseLayer>60</baseLayer>
+        <texSeed>1</texSeed>
+        <drawSize>1.0</drawSize>
+        <colorType>Skin</colorType>
+      </li>
+    </renderNodeProperties>
+  </HediffDef>
+  
+  
+ <!--   <HediffDef>
+    <defName>Frostbite</defName>
+    <label>frostbite</label>
+    <hediffClass>Hediff_Injury</hediffClass>
+    <tendable>true</tendable>
+    <curable>true</curable>
+    <injuryProps>
+      <painPerSeverity>0.1</painPerSeverity>
+      <bleedRate>0.1</bleedRate>
+      <destroyedLabel>dead</destroyedLabel>
+      <destroyedPartLabel>lost</destroyedPartLabel>
+      <destroyedPartMessage>a frostbitten part has been lost</destroyedPartMessage>
+      <destroyedPartInjury>Frostbite</destroyedPartInjury>
+    </injuryProps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>Frostbite_Severe</defName>
+    <label>severe frostbite</label>
+    <hediffClass>Hediff_Injury</hediffClass>
+    <tendable>true</tendable>
+    <curable>true</curable>
+    <injuryProps>
+      <painPerSeverity>0.2</painPerSeverity>
+      <bleedRate>0.05</bleedRate>
+    </injuryProps>
+  </HediffDef>-->
+</Defs>

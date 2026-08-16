@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+
+  <RecipeDef>
+    <defName>CookSuspiciousOmelette</defName>
+    <label>cook Suspicious Omelette</label>
+    <description>Cook a Suspicious Omelette from ingredients.</description>
+    <jobString>Cooking Omelette.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>Campfire</li>
+			<li>TableGrill</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+	</recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+   <ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+					<thingDefs>
+						<li>RadMeat</li>
+					</thingDefs>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>RadMeat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>RadMeat</li>
+			</thingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+    <products>
+      <SuspiciousOmelette>1</SuspiciousOmelette>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>100</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CookSuspiciousOmeletteBulk</defName>
+    <label>cook Suspicious Omelette x4</label>
+    <description>Cook a Suspicious Omelette from ingredients x4</description>
+    <jobString>Cooking Omelette.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>Campfire</li>
+			<li>TableGrill</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+	</recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+					<thingDefs>
+						<li>RadMeat</li>
+					</thingDefs>
+				</filter>
+				<count>2.0</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>RadMeat</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>RadMeat</li>
+			</thingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+    <products>
+      <SuspiciousOmelette>4</SuspiciousOmelette>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+
+
+
+
+  <RecipeDef>
+    <defName>Cookboiledeggs</defName>
+    <label>cook boiled eggs</label>
+    <description>Cook a boiled eggs from ingredients.</description>
+    <jobString>Cooking boiled eggs.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>Campfirewastelands</li>
+	</recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+    <products>
+      <boiledeggs>1</boiledeggs>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>100</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CookCookboiledeggsBulk</defName>
+    <label>cook boil edeggs x4</label>
+    <description>Cook a boiled eggs from ingredients x4</description>
+    <jobString>Cooking boiled eggs.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>Campfirewastelands</li>
+	</recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+     <ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+				</filter>
+				<count>2.0</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+    <products>
+       <boiledeggs>1</boiledeggs>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+
+
+  <RecipeDef>
+    <defName>Cookfriedeggs</defName>
+    <label>cook fried eggs</label>
+    <description>Cook a fried eggs from ingredients.</description>
+    <jobString>Cooking fried eggs.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>Campfirewastelands</li>
+	</recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+				</filter>
+				<count>0.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+    <products>
+      <friedeggs>1</friedeggs>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>100</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CookfriedeggsBulk</defName>
+    <label>cook fried eggs x4</label>
+    <description>Cook a fried eggs from ingredients x4</description>
+    <jobString>Cooking fried eggs.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>Campfirewastelands</li>
+	</recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+				</filter>
+				<count>2.0</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+    <products>
+      <friedeggs>4</friedeggs>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+
+
+
+  <RecipeDef>
+    <defName>CookRaweggsinaglass</defName>
+    <label>cook raw eggs in a glass</label>
+    <description>Cook a raw eggs in a glass.</description>
+    <jobString>Cooking raw eggs in a glass.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>Campfirewastelands</li>
+	</recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	 <ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+				</filter>
+				<count>0.5</count>
+			</li>
+			<li>
+		   <filter>
+			<thingDefs>
+				<li>Salt</li>
+			</thingDefs>
+		   </filter>
+			<count>1</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>Salt</li>
+			</thingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+    <products>
+      <Raweggsinaglass>1</Raweggsinaglass>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>100</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>CookRaweggsinaglassBulk</defName>
+    <label>cook raw eggs in a glass x4</label>
+    <description>Cook a raw eggs in a glass from ingredients x4</description>
+    <jobString>Cooking raw eggs in a glass.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>Campfirewastelands</li>
+	</recipeUsers>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+   <ingredients>
+			<li>
+				<filter>
+					<customSummary>protein</customSummary>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+				</filter>
+				<count>2.0</count>
+			</li>
+			<li>
+		   <filter>
+			<thingDefs>
+				<li>Salt</li>
+			</thingDefs>
+		   </filter>
+			<count>1</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>EggsFertilized</li>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+			<thingDefs>
+				<li>Salt</li>
+			</thingDefs>
+			<disallowedCategories>
+				<li>EggsFertilized</li>
+			</disallowedCategories>
+		</defaultIngredientFilter>
+    <products>
+      <Raweggsinaglass>4</Raweggsinaglass>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+  
+  <RecipeDef>
+		<defName>MakeMashedPotatoes</defName>
+		<label>cook Mashed Potatoes</label>
+		<description>cook Mashed Potatoes. Produces 3.</description>
+		<jobString>Cooking Mashed Potatoes.</jobString>
+		<workAmount>450</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPotatoes</li>
+						<li>RawTato</li>
+						<li>RawToxipotato</li>
+					</thingDefs>
+				</filter>
+				<count>0.4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+				<li>RawTato</li>
+				<li>RawToxipotato</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawPotatoes</li>
+				<li>RawTato</li>
+				<li>RawToxipotato</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<MashedPotatoes>3</MashedPotatoes>
+		</products>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Campfirewastelands</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	 <RecipeDef>
+		<defName>Makeporridge</defName>
+		<label>cook porridge</label>
+		<description>cook porridge. Produces 3.</description>
+		<jobString>Cooking porridge.</jobString>
+		<workAmount>250</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawRice</li>
+						<li>RawTato</li>
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>0.4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawRice</li>
+				<li>RawTato</li>
+				<li>RawCorn</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawRice</li>
+				<li>RawTato</li>
+				<li>RawCorn</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<Porridge>3</Porridge>
+		</products>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Campfirewastelands</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	 <RecipeDef>
+		<defName>MakePrickeyeSalad</defName>
+		<label>cook Prickeye salad</label>
+		<description>cook Prickeye salads. Produces 3.</description>
+		<jobString>Cooking Prickeye salads.</jobString>
+		<workAmount>450</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawPrickeye</li>
+					</thingDefs>
+				</filter>
+				<count>0.4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTato</li>
+					</thingDefs>
+				</filter>
+				<count>0.4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawPrickeye</li>
+				<li>RawTato</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>RawPrickeye</li>
+				<li>RawTato</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+		<products>
+			<PrickeyeSalad>3</PrickeyeSalad>
+		</products>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Campfirewastelands</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	<!--
+	 <RecipeDef>
+    <defName>ExtractTheBrain</defName>
+    <label>Extract the brain</label>
+    <description>Open the skull to remove the brain.</description>
+    <jobString>remove the brain.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+	<recipeUsers>
+			<li>ButcherSpot</li>
+			<li>TableKitchen</li>
+			<li>TableButcher</li>
+	</recipeUsers>
+   <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Skull</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Glass</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+    <products>
+      <Brain>1</Brain>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>100</displayPriority>
+  </RecipeDef>-->
+  
+   <!--<RecipeDef>
+    <defName>CookPlastipodBulk</defName>
+    <label>cook Plastipod</label>
+    <description>Cook a Plastipod</description>
+    <jobString>Cooking Plastipod.A tuber on a stalk, inside which a sticky black mush matures, the basis for primitive plastic. When squeezed, it bursts with a squelching sound. To obtain the plastic, it must be boiled.</jobString>
+    <workAmount>6200</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+	<recipeUsers>
+			<li>TableGrill</li>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+	</recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastipod</li>
+					</thingDefs>
+				</filter>
+				<count>120.0</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plastipod</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<thingDefs>
+				<li>Plastipod</li>
+			</thingDefs>
+		</defaultIngredientFilter>
+    <products>
+       <Plastic>5</Plastic>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>110</displayPriority>
+  </RecipeDef>
+  -->
+  
+</Defs>

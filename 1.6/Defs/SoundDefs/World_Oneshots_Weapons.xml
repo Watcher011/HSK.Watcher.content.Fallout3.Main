@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<SoundDef>
+		<defName>ShotFatMan</defName>  
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>FatMan</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>40</min>        
+					<max>60</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.97</min>        
+					<max>1.03</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>   
+			</li>
+		</subSounds>
+	</SoundDef>
+
+<SoundDef>
+    <defName>GunTail_FatMan</defName>  
+    <context>MapOnly</context> 
+    <maxVoices>2</maxVoices>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>FatManjam</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>24.11765~30</volumeRange>      
+        <pitchRange>0.8852941~1.114706</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  
+  <SoundDef>
+		<defName>ShotMinigunPlasmaFol</defName>  
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ShotMinigunPlasmaFol</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>40</min>        
+					<max>60</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.97</min>        
+					<max>1.03</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>   
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	 <SoundDef>
+		<defName>ShotPlasmaFol</defName>  
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>ShotPlasmaFol</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>40</min>        
+					<max>60</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.97</min>        
+					<max>1.03</max>
+				</pitchRange>      
+				<sustainLoop>False</sustainLoop>   
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
+</Defs>

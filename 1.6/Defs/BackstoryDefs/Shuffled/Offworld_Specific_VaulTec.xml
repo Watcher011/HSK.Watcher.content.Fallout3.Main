@@ -1,0 +1,1705 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== Industrial world ============================-->
+
+  <BackstoryDef>
+    <defName>ShelterRepairman58</defName>
+    <title>Shelter Repairman</title>
+    <titleShort>Repairman</titleShort>
+    <description>[PAWN_nameDef] performed menial, unskilled labor in the shelter. [PAWN_possessive]'s job also required tending to the brahmen that transported goods.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Animals>3</Animals>
+      <Construction>3</Construction>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>Shelter</li>
+    </spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ShelterPsychiatricPatient94</defName>
+    <title>Psycho from Shelter</title>
+    <titleShort>Psycho</titleShort>
+    <description>[PAWN_nameDef] spent most of his [PAWN_possessive] adult life in the vault. [PAWN_possessive]'s vault medic had little understanding of mental illness, and [PAWN_pronoun] was treated more like an animal than a human.\n\nAlthough [PAWN_pronoun] was eventually exiled, [PAWN_possessive]'s experience left many of [PAWN_possessive]'s basic life skills weakened.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+      <li>Violent</li>
+    </workDisables>
+    <skillGains>
+      <Cooking>-2</Cooking>
+      <Crafting>-2</Crafting>
+    </skillGains>
+   <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ShelterComputer83</defName>
+    <title>human computer</title>
+    <titleShort>computer</titleShort>
+    <description>[PAWN_nameDef] proved to have an excellent memory and the ability to perform complex calculations in his head [PAWN_possessive]. The vault overseer decided to hire [PAWN_nameDef] to monitor the vault's finances and expenses [PAWN_possessive].</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Intellectual>7</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ShelterSheriff52</defName>
+    <title>Shelter sheriff</title>
+    <titleShort>sheriff</titleShort>
+    <description>[PAWN_nameDef] was the vault's peace officer. [PAWN_pronoun] handled petty crime, dispute resolution, and the occasional drunken shootout in the mess hall.</description>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+      <Social>4</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <possessions>
+      <Apparel_Duster>1</Apparel_Duster>
+    </possessions>
+  </BackstoryDef>
+
+ 
+
+  <BackstoryDef>
+    <defName>EntrepreneurFromShelter14</defName>
+    <title>Entrepreneur from Shelter</title>
+    <titleShort>entrepreneur</titleShort>
+    <description>The world's resources are the most important concern. But someone has to manage the caravans.\n\n[PAWN_nameDef] has mastered the skills of trade - bribery and technical analysis. [PAWN_pronoun] is a socio-intellectual machine.</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>6</Social>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+     <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+<!-- 1. Enclave Officer -->
+<BackstoryDef>
+    <defName>EnclaveJuniorOfficer</defName>
+    <title>Enclave Junior Officer</title>
+    <titleShort>Enclave Officer</titleShort>
+    <description>[PAWN_nameDef] was a junior officer in the Enclave, the true continuation of the pre-War U.S. government. [PAWN_possessive] was indoctrinated from birth to believe in the purity of the "American Dream" and the need to cleanse the Wasteland. [PAWN_pronoun] served at a remote outpost before [PAWN_possessive] unit was overrun or abandoned following a major defeat.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>PlantWork</li>
+      <li>Mining</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Intellectual</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Intellectual>3</Intellectual>
+      <Crafting>2</Crafting>
+      <Social>-2</Social>
+      <Animals>-2</Animals>
+    </skillGains>
+    <spawnCategories>
+      <li>Enclave</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 2. Enclave Scientist -->
+<BackstoryDef>
+    <defName>EnclaveGeneticist</defName>
+    <title>Enclave Geneticist</title>
+    <titleShort>Enclave Scientist</titleShort>
+    <description>[PAWN_nameDef] worked in the FEV research division, studying the Forced Evolutionary Virus to develop bioweapons against "impure" wasteland populations. [PAWN_pronoun] conducted horrific experiments on captured subjects, believing it was for the "greater good" of pure humanity.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Mining</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Crafting>4</Crafting>
+      <Social>-3</Social>
+      <Animals>-4</Animals>
+      <Melee>-2</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>Outlander</li>
+    </spawnCategories>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+</BackstoryDef>
+
+<!-- 3. Enclave Power Armor Technician -->
+<BackstoryDef>
+    <defName>EnclavePowerArmorTech</defName>
+    <title>Enclave Power Armor Technician</title>
+    <titleShort>PA Technician</titleShort>
+    <description>[PAWN_nameDef] maintained and repaired the advanced T-51b and APA (Advanced Power Armor) suits used by Enclave troops. [PAWN_pronoun] worked in the cramped maintenance bays of the Oil Rig, ensuring every hydraulic actuator and plasma weapon was at peak performance for the "reclamation" of America.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>PlantWork</li>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Intellectual</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Crafting>5</Crafting>
+      <Intellectual>3</Intellectual>
+      <Shooting>2</Shooting>
+      <Construction>3</Construction>
+      <Social>-2</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Enclave</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 4. Enclave Communications Officer -->
+<BackstoryDef>
+    <defName>EnclaveCommsOfficer</defName>
+    <title>Enclave Communications Officer</title>
+    <titleShort>Comms Officer</titleShort>
+    <description>[PAWN_nameDef] monitored radio frequencies in the Enclave's communications hub, listening for signals from other Enclave outposts or attempting to intercept wasteland transmissions. [PAWN_pronoun] was trained in encryption and decoding, and helped maintain the illusion that the Enclave was the legitimate government.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Mining</li>
+      <li>Animals</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Intellectual>5</Intellectual>
+      <Social>3</Social>
+      <Crafting>2</Crafting>
+      <Shooting>1</Shooting>
+      <Plants>-3</Plants>
+      <Melee>-2</Melee>
+    </skillGains>
+     <spawnCategories>
+      <li>Enclave</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 5. Enclave Remnant Soldier -->
+<BackstoryDef>
+    <defName>EnclaveRemnantSoldier</defName>
+    <title>Enclave Remnant Soldier</title>
+    <titleShort>Remnant Soldier</titleShort>
+    <description>After the destruction of the Oil Rig and Raven Rock, [PAWN_nameDef] became one of the scattered remnants of the Enclave. [PAWN_pronoun] survived by scavenging old Enclave caches and using [PAWN_possessive] training to fight for survival, though [PAWN_possessive] fanaticism has tempered into pragmatism—or bitterness.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>3</Melee>
+      <Crafting>2</Crafting>
+      <Construction>2</Construction>
+      <Social>-2</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Enclave</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 6. Enclave Propaganda Specialist -->
+<BackstoryDef>
+    <defName>EnclavePropagandist</defName>
+    <title>Enclave Propaganda Specialist</title>
+    <titleShort>Propagandist</titleShort>
+    <description>[PAWN_nameDef] worked in the Enclave's Public Reclamation Office, creating broadcast materials that portrayed the Enclave as America's saviors and wastelanders as degenerate mutants. [PAWN_pronoun] wrote speeches for officials and designed recruitment posters found in some pre-War ruins.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Mining</li>
+      <li>Animals</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Artistic</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Social>5</Social>
+      <Artistic>4</Artistic>
+      <Intellectual>3</Intellectual>
+      <Shooting>-1</Shooting>
+      <Crafting>-2</Crafting>
+      <Melee>-2</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>Enclave</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 7. Enclave Logistics Officer -->
+<BackstoryDef>
+    <defName>EnclaveQuartermaster</defName>
+    <title>Enclave Quartermaster</title>
+    <titleShort>Quartermaster</titleShort>
+    <description>[PAWN_nameDef] managed supply inventories for an Enclave outpost, allocating everything from energy cells to ration packs. [PAWN_pronoun] developed a bureaucratic mindset and a knack for making limited resources last, though [PAWN_possessive] work kept [PAWN_objective] far from the front lines.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Animals</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Social>3</Social>
+      <Crafting>2</Crafting>
+      <Shooting>1</Shooting>
+      <Melee>-2</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>Enclave</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 8. Enclave Vertibird Pilot -->
+<BackstoryDef>
+    <defName>EnclaveVertibirdPilot</defName>
+    <title>Enclave Vertibird Pilot</title>
+    <titleShort>Vertibird Pilot</titleShort>
+    <description>[PAWN_nameDef] flew VB-02 Vertibirds on reconnaissance, troop deployment, and assault missions. [PAWN_pronoun] witnessed the Wasteland from above, delivering Enclave soldiers to "pacify" settlements and evacuating personnel from doomed facilities.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Mining</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Intellectual</li>
+      <li>Crafting</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Intellectual>4</Intellectual>
+      <Crafting>3</Crafting>
+      <Animals>2</Animals>
+      <Social>-1</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Enclave</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 9. Enclave Recruit (Wastelander) -->
+<BackstoryDef>
+    <defName>EnclaveWastelanderRecruit</defName>
+    <title>Enclave Wastelander Recruit</title>
+    <titleShort>Wastelander Recruit</titleShort>
+    <description>Rare among the Enclave, [PAWN_nameDef] was actually born in the Wasteland but recruited for [PAWN_possessive] unique skills or knowledge. [PAWN_pronoun] faced constant suspicion from "pure" Enclave members and had to work twice as hard to prove [PAWN_possessive] loyalty, often by betraying [PAWN_possessive] old communities.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>3</Melee>
+      <Plants>2</Plants>
+      <Animals>2</Animals>
+      <Social>-3</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Enclave</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 10. Enclave Cryo Survivor -->
+<BackstoryDef>
+    <defName>EnclaveCryoSurvivor</defName>
+    <title>Enclave Cryogenic Survivor</title>
+    <titleShort>Cryo Survivor</titleShort>
+    <description>[PAWN_nameDef] was a pre-War government or military official placed in cryogenic storage by the Enclave's Continuity of Government program. [PAWN_pronoun] was revived decades after the war, disoriented and struggling to adapt to the Enclave's new fanatical ideology and the horrific reality of the Wasteland.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Intellectual>5</Intellectual>
+      <Social>4</Social>
+      <Shooting>2</Shooting>
+      <Crafting>2</Crafting>
+      <Plants>-2</Plants>
+      <Animals>-2</Animals>
+    </skillGains>
+    <spawnCategories>
+      <li>Outlander</li>
+    </spawnCategories>
+</BackstoryDef>
+
+
+<!-- 1. Vault-Tec Sales Executive -->
+<BackstoryDef>
+    <defName>VaultTecSalesExecutive</defName>
+    <title>Vault-Tec Sales Executive</title>
+    <titleShort>VT Sales Exec</titleShort>
+    <description>[PAWN_nameDef] sold Vault spots to wealthy pre-War families, using a combination of charm, fear-mongering about nuclear war, and outright lies about the Vaults' true purposes. [PAWN_pronoun] met quotas by convincing people they were buying salvation, knowing full well many Vaults were deathtraps.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Mining</li>
+      <li>Animals</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Social>6</Social>
+      <Intellectual>3</Intellectual>
+      <Artistic>2</Artistic>
+      <Shooting>-2</Shooting>
+      <Melee>-2</Melee>
+    </skillGains>
+  <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 2. Vault Experiment Overseer -->
+<BackstoryDef>
+    <defName>VaultExperimentOverseer</defName>
+    <title>Vault Experiment Overseer</title>
+    <titleShort>Experiment Overseer</titleShort>
+    <description>[PAWN_nameDef] was trained to manage one of Vault-Tec's socially engineered experiments. [PAWN_pronoun] followed protocols that mandated psychological torture, controlled breeding programs, or drug testing on unsuspecting dwellers, all while maintaining order through manipulation and lies.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Animals</li>
+      <li>Mining</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Intellectual</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Social>5</Social>
+      <Intellectual>4</Intellectual>
+      <Shooting>3</Shooting>
+      <Animals>-3</Animals>
+    </skillGains>
+   <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 3. Vault Engineer -->
+<BackstoryDef>
+    <defName>VaultTecEngineer</defName>
+    <title>Vault-Tec Engineer</title>
+    <titleShort>VT Engineer</titleShort>
+    <description>[PAWN_nameDef] helped design and build Vault life support systems, knowing some features were designed to fail or be sabotaged. [PAWN_pronoun] worked with GECK prototypes and understood Vault architecture better than anyone, but turned a blind eye to the unethical purposes.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Animals</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Crafting</li>
+      <li>Constructing</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Construction>5</Construction>
+      <Crafting>4</Crafting>
+      <Social>-3</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 4. Vault Security Chief -->
+<BackstoryDef>
+    <defName>VaultSecurityChief</defName>
+    <title>Vault Security Chief</title>
+    <titleShort>Vault Security</titleShort>
+    <description>[PAWN_nameDef] commanded the security forces in a Vault, enforcing the Overseer's will—often cruel experiment protocols—with laser rifles and stun batons. [PAWN_pronoun] suppressed revolts, maintained order during psychological experiments, and ensured the "scientific integrity" of the Vault at any cost.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>PlantWork</li>
+      <li>Animals</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>4</Melee>
+      <Social>3</Social>
+      <Construction>2</Construction>
+      <Artistic>-3</Artistic>
+    </skillGains>
+   <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 5. Vault Psychologist -->
+<BackstoryDef>
+    <defName>VaultTecPsychologist</defName>
+    <title>Vault-Tec Psychologist</title>
+    <titleShort>VT Psychologist</titleShort>
+    <description>[PAWN_nameDef] monitored dweller mental health for experiment data, recording breakdowns, paranoia, and social dynamics without intervening. [PAWN_pronoun] administered personality tests that were actually tools for selecting experiment subjects, betraying the trust of those [PAWN_pronoun] was supposed to help.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Mining</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Intellectual>5</Intellectual>
+      <Social>5</Social>
+      <Shooting>-2</Shooting>
+      <Crafting>-2</Crafting>
+    </skillGains>
+   <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 6. Vault Maintenance Technician -->
+<BackstoryDef>
+    <defName>VaultMaintenanceTech</defName>
+    <title>Vault Maintenance Technician</title>
+    <titleShort>Maintenance Tech</titleShort>
+    <description>[PAWN_nameDef] kept the Vault's machinery running—water purifiers, reactors, ventilation—while secretly implementing "planned failures" as part of experiments. [PAWN_pronoun] knew which systems were designed to break but followed orders, making [PAWN_objective] complicit in countless deaths.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Constructing</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Crafting>5</Crafting>
+      <Construction>4</Construction>
+      <Intellectual>3</Intellectual>
+      <Social>-3</Social>
+    </skillGains>
+  <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 7. Vault-Tec Executive -->
+<BackstoryDef>
+    <defName>VaultTecExecutive</defName>
+    <title>Vault-Tec Senior Executive</title>
+    <titleShort>VT Executive</titleShort>
+    <description>[PAWN_nameDef] was high enough in Vault-Tec to know about the secret government contracts and the true purpose of the experiments. [PAWN_pronoun] helped allocate resources to the most sadistic Vault designs and likely had a secured spot in a control Vault that never opened.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>ManualDumb</li>
+      <li>Mining</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Social>6</Social>
+      <Intellectual>5</Intellectual>
+      <Artistic>2</Artistic>
+      <Shooting>1</Shooting>
+      <Crafting>-3</Crafting>
+    </skillGains>
+   <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 8. Vault Archivist -->
+<BackstoryDef>
+    <defName>VaultArchivist</defName>
+    <title>Vault Archivist</title>
+    <titleShort>Archivist</titleShort>
+    <description>[PAWN_nameDef] maintained the Vault's records, including experiment data, dweller genealogies, and pre-War cultural archives. [PAWN_pronoun] had access to information that revealed the Vault's dark purpose but was sworn to secrecy, watching generations suffer while preserving the data for Vault-Tec's unknown clients.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Animals</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Intellectual>6</Intellectual>
+      <Artistic>4</Artistic>
+      <Social>2</Social>
+      <Shooting>-2</Shooting>
+      <Melee>-2</Melee>
+    </skillGains>
+    <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 9. Vault Agricultural Specialist -->
+<BackstoryDef>
+    <defName>VaultAgriSpecialist</defName>
+    <title>Vault Agricultural Specialist</title>
+    <titleShort>Agri Specialist</titleShort>
+    <description>[PAWN_nameDef] managed hydroponics and food production in a Vault, sometimes with genetically modified crops or under experimental conditions like limited light. [PAWN_pronoun] balanced feeding the population with following protocols that sometimes included introducing toxins or nutritional deficiencies as part of tests.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Violent</li>
+      <li>Mining</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Plants>6</Plants>
+      <Intellectual>4</Intellectual>
+      <Cooking>3</Cooking>
+      <Social>-1</Social>
+    </skillGains>
+   <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 10. Vault Escapee -->
+<BackstoryDef>
+    <defName>VaultExperimentEscapee</defName>
+    <title>Vault Experiment Escapee</title>
+    <titleShort>Vault Escapee</titleShort>
+    <description>[PAWN_nameDef] survived a horrific Vault experiment—maybe involving drugs, psychosis, or forced combat—and escaped into the Wasteland. [PAWN_pronoun] carries deep trauma and distrust of authority, but also unique knowledge of Vault systems and the cruel science of Vault-Tec.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Caring</li>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualSkilled</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>3</Melee>
+      <Intellectual>3</Intellectual>
+      <Construction>2</Construction>
+      <Social>-4</Social>
+    </skillGains>
+   <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+</BackstoryDef>
+
+<!-- 1. NCRCF Mining Convict -->
+<BackstoryDef>
+    <defName>NCRCFMiningConvict</defName>
+    <title>NCRCF Mining Convict</title>
+    <titleShort>Mining Convict</titleShort>
+    <description>[PAWN_nameDef] served time in the NCR Correctional Facility, breaking rocks in the quarry under armed guard. [PAWN_pronoun] learned to handle dynamite and geology from bitter experience, developing strong muscles and stronger resentment against the NCR's justice system.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Caring</li>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Mining</li>
+      <li>ManualSkilled</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Mining>6</Mining>
+      <Melee>4</Melee>
+      <Construction>3</Construction>
+      <Intellectual>-3</Intellectual>
+      <Social>-2</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 2. Powder Ganger Saboteur -->
+<BackstoryDef>
+    <defName>PowderGangerSaboteur</defName>
+    <title>Powder Ganger Saboteur</title>
+    <titleShort>Saboteur</titleShort>
+    <description>After the prison break, [PAWN_nameDef] specialized in setting traps and demolishing NCR infrastructure. [PAWN_pronoun] has blown up railroads, bridges, and supply depots, finding a cruel joy in watching things go boom and the chaos that follows.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Animals</li>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Crafting>5</Crafting>
+      <Shooting>3</Shooting>
+      <Construction>4</Construction>
+      <Mining>3</Mining>
+      <Plants>-3</Plants>
+      <Animals>-3</Animals>
+    </skillGains>
+   <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 3. Dynamite Courier -->
+<BackstoryDef>
+    <defName>DynamiteCourier</defName>
+    <title>Powder Ganger Dynamite Courier</title>
+    <titleShort>Dynamite Runner</titleShort>
+    <description>[PAWN_nameDef] transported unstable explosives between Powder Ganger camps, risking [PAWN_possessive] life with every bump in the road. [PAWN_pronoun] developed steady nerves and knowledge of chemistry through sheer survival, and knows which merchants will buy volatile materials no questions asked.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Caring</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Animals</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Animals>4</Animals>
+      <Crafting>4</Crafting>
+      <Shooting>2</Shooting>
+      <Social>1</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 4. Prison Cook Turned Bomber -->
+<BackstoryDef>
+    <defName>PrisonCookBomber</defName>
+    <title>Prison Cook Turned Bomber</title>
+    <titleShort>Cook-Bomber</titleShort>
+    <description>In the NCRCF, [PAWN_nameDef] worked in the kitchen serving slop to inmates. After the revolt, [PAWN_pronoun] discovered that cooking grease, pressure cookers, and scrap metal could be just as deadly as dynamite. Now [PAWN_pronoun] makes improvised explosives instead of meals.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Cooking</li>
+      <li>Crafting</li>
+      <li>ManualSkilled</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Cooking>4</Cooking>
+      <Crafting>5</Crafting>
+      <Shooting>2</Shooting>
+      <Plants>-2</Plants>
+      <Social>-1</Social>
+    </skillGains>
+   <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 5. Quarry Foreman -->
+<BackstoryDef>
+    <defName>QuarryForemanConvict</defName>
+    <title>Quarry Foreman Convict</title>
+    <titleShort>Quarry Foreman</titleShort>
+    <description>Even in prison, [PAWN_nameDef] had a knack for organization. [PAWN_pronoun] managed work crews in the quarry, allocating dynamite and equipment. After the break, [PAWN_pronoun] naturally became a leader among the Powder Gangers, planning raids and managing their stolen explosives stockpiles.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Mining</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Social>4</Social>
+      <Mining>5</Mining>
+      <Shooting>3</Shooting>
+      <Construction>3</Construction>
+    </skillGains>
+    <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 6. Tunnel Rat -->
+<BackstoryDef>
+    <defName>PowderGangerTunnelRat</defName>
+    <title>Powder Ganger Tunnel Rat</title>
+    <titleShort>Tunnel Rat</titleShort>
+    <description>[PAWN_nameDef] specialized in digging tunnels and setting charges in confined spaces, both in the quarry mines and during raids. [PAWN_pronoun] has claustrophobic nightmares but invaluable experience with underground demolition and surprise attacks from below.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Caring</li>
+      <li>Animals</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Mining</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Mining>6</Mining>
+      <Construction>4</Construction>
+      <Melee>3</Melee>
+      <Shooting>2</Shooting>
+      <Social>-4</Social>
+      <Animals>-3</Animals>
+    </skillGains>
+    <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 7. Chem-Mixer -->
+<BackstoryDef>
+    <defName>PowderGangerChemMixer</defName>
+    <title>Powder Ganger Chem-Mixer</title>
+    <titleShort>Chem-Mixer</titleShort>
+    <description>[PAWN_nameDef] learned basic chemistry making prison hooch, then applied it to manufacturing unstable explosives from scavenged materials. [PAWN_possessive] creations are notoriously unpredictable but devastatingly powerful, and [PAWN_pronoun] bears the scars to prove it.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Caring</li>
+      <li>Animals</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Crafting>6</Crafting>
+      <Intellectual>3</Intellectual>
+      <Shooting>2</Shooting>
+      <Social>-3</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 8. Roadside Bomber -->
+<BackstoryDef>
+    <defName>RoadsideBomber</defName>
+    <title>Powder Ganger Roadside Bomber</title>
+    <titleShort>Roadside Bomber</titleShort>
+    <description>[PAWN_nameDef] specializes in ambushes, planting IEDs along trade routes and detonating them when caravans pass by. [PAWN_pronoun] has an eye for terrain and patience to wait for the perfect moment to trigger chaos and scavenge the remains.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Caring</li>
+      <li>Artistic</li>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Plants>4</Plants>
+      <Shooting>3</Shooting>
+      <Crafting>4</Crafting>
+      <Animals>2</Animals>
+      <Social>-3</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 9. Guard Turned Ganger -->
+<BackstoryDef>
+    <defName>GuardTurnedPowderGanger</defName>
+    <title>NCR Guard Turned Powder Ganger</title>
+    <titleShort>Turned Guard</titleShort>
+    <description>[PAWN_nameDef] was an NCR guard at the correctional facility who switched sides during the revolt, either out of greed or because [PAWN_pronoun] was trapped. Now [PAWN_pronoun] uses [PAWN_possessive] knowledge of NCR tactics and procedures against [PAWN_possessive] former comrades.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>PlantWork</li>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+      <li>Social</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Social>3</Social>
+      <Melee>3</Melee>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+
+<!-- 10. Scrap Explosives Specialist -->
+<BackstoryDef>
+    <defName>ScrapExplosivesSpecialist</defName>
+    <title>Scrap Explosives Specialist</title>
+    <titleShort>Scrap Bomber</titleShort>
+    <description>[PAWN_nameDef] can make explosives from almost anything: fertilizer, fuel, old electronics, even cleaning chemicals. [PAWN_possessive] talent for improvisation makes [PAWN_objective] invaluable to the Powder Gangers, though [PAWN_possessive] workshops have a habit of unexpectedly disappearing.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Caring</li>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Crafting>6</Crafting>
+      <Intellectual>4</Intellectual>
+      <Construction>3</Construction>
+      <Shooting>2</Shooting>
+      <Social>-4</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Demolitionists</li>
+    </spawnCategories>
+</BackstoryDef>
+<!-- 10. АНКЛАВ НОВЫЕ ПРЕДИСТОРИИ -->
+
+ <BackstoryDef>
+    <defName>EnclaveChild_VaultBorn</defName>
+    <title>Vault-born</title>
+    <titleShort>Vault kid</titleShort>
+    <baseDesc>[PAWN_nameDef] was born in a sealed Enclave vault, deep beneath the earth. [PAWN_pronoun] never saw the sky until [PAWN_possessive] tenth birthday, when the Overseer showed [PAWN_objective] the surface through reinforced glass. The wasteland looked dead, and [PAWN_pronoun] was taught that everything up there was contaminated.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Officer</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_GeneticallyPure</defName>
+    <title>Genetically pure</title>
+    <titleShort>Pureblood</titleShort>
+    <baseDesc>From birth, [PAWN_nameDef] was told [PAWN_pronoun] was special. The Enclave doctors tested [PAWN_possessive] DNA weekly, celebrating [PAWN_possessive] lack of mutation. Other children with "impurities" disappeared overnight. [PAWN_pronoun] learned early: only the pure deserve to live.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Officer</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>2</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_PropagandaYouth</defName>
+    <title>Propaganda youth</title>
+    <titleShort>True believer</titleShort>
+    <baseDesc>Every morning, [PAWN_nameDef] recited the Enclave Pledge: "America will rise again." [PAWN_possessive] classroom walls showed maps of pre-war glory, and the teacher explained how mutants ruined everything. [PAWN_pronoun] dreamed of cleansing the surface with fire.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_TunnelRat</defName>
+    <title>Tunnel rat</title>
+    <titleShort>Tunneler</titleShort>
+    <baseDesc>The vault's ventilation shafts were [PAWN_nameDef]'s playground. [PAWN_pronoun] knew every maintenance tunnel, every hidden panel. Once, [PAWN_pronoun] found a dead drop from the surface—old world candy and a note in a language [PAWN_pronoun] couldn't read. The Enclave security beat [PAWN_objective] for not reporting it immediately.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>2</Construction>
+      <Mining>2</Mining>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_ExperimentSubject</defName>
+    <title>Experiment subject</title>
+    <titleShort>Test subject</titleShort>
+    <baseDesc>[PAWN_nameDef]'s parents signed [PAWN_objective] up for "advanced education." The scientists were kind enough—gave [PAWN_objective] treats after each injection, praised [PAWN_objective] for solving puzzles faster than the other children. [PAWN_pronoun] doesn't remember what they injected. Sometimes [PAWN_pronoun] wakes up with nosebleeds and strange cravings.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Medicine>1</Medicine>
+    </skillGains>
+    <workDisables>
+      <li>Animals</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_OverseersPet</defName>
+    <title>Overseer's pet</title>
+    <titleShort>Favorite</titleShort>
+    <baseDesc>The Overseer took a liking to [PAWN_nameDef]'s sharp mind. While other children played with toy soldiers, [PAWN_pronoun] sat in on council meetings, learning how the Enclave really worked. [PAWN_pronoun] saw the spreadsheets: population limits, resource calculations, "acceptable losses." [PAWN_pronoun] learned that leadership means making hard choices.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Officer</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_WastelandOrphan</defName>
+    <title>Wasteland orphan</title>
+    <titleShort>Rescued</titleShort>
+    <baseDesc>[PAWN_nameDef] was "liberated" from a raider camp during an Enclave sweep. Too young to remember [PAWN_possessive] real parents, [PAWN_pronoun] grew up grateful to the soldiers who saved [PAWN_objective]. The Enclave is [PAWN_possessive] family now. The surface is hell, and [PAWN_pronoun] is an angel of vengeance.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Melee>2</Melee>
+      <Shooting>1</Shooting>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_TechnicianApprentice</defName>
+    <title>Technician apprentice</title>
+    <titleShort>Grease monkey</titleShort>
+    <baseDesc>While other children studied history, [PAWN_nameDef] disassembled the vault's water purifiers. The maintenance chief caught [PAWN_objective] and, instead of punishment, put [PAWN_objective] to work. By age twelve, [PAWN_pronoun] could repair a power armor servomotor blindfolded.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Scientist</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>3</Crafting>
+      <Construction>1</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_SecurityCadet</defName>
+    <title>Security cadet</title>
+    <titleShort>Cadet</titleShort>
+    <baseDesc>[PAWN_nameDef]'s earliest memory is holding a loaded pistol. The vault security ran drills weekly—live ammunition, real consequences. [PAWN_pronoun] watched a boy bleed out from a negligent discharge. The instructors called it "a lesson in weapon discipline." [PAWN_pronoun] never forgot.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>3</Shooting>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveChild_PresidentialYouth</defName>
+    <title>Presidential youth</title>
+    <titleShort>Elite</titleShort>
+    <baseDesc>[PAWN_nameDef]'s bloodline was traced back to pre-war senators. The Enclave invested heavily in [PAWN_possessive] education: private tutors, advanced combat training, political theory. [PAWN_pronoun] was taught to see the bigger picture. The wasteland isn't just dangerous—it's an opportunity to rebuild America, properly this time.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Officer</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>2</Social>
+      <Shooting>2</Shooting>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <!-- ==================== ADULTHOOD BACKSTORIES (10) ==================== -->
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_VeteranSoldier</defName>
+    <title>Enclave veteran</title>
+    <titleShort>Veteran</titleShort>
+    <baseDesc>[PAWN_nameDef] has killed more "mutants" than [PAWN_pronoun] can count. Raiders, ghouls, super mutants—the Enclave gave [PAWN_objective] targets, and [PAWN_pronoun] gave them death. [PAWN_possessive] power armor is scarred, painted with tally marks. [PAWN_pronoun] sleeps soundly. The dreams stopped years ago.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+      <li>Animals</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_ScienceOfficer</defName>
+    <title>Science officer</title>
+    <titleShort>Researcher</titleShort>
+    <baseDesc>Dr. [PAWN_nameDef] led Project Purity's darker cousin—research into forced evolutionary virus. [PAWN_pronoun] told [PAWN_objective] it was for "population control," but [PAWN_pronoun] saw the test subjects. The screams. Now [PAWN_pronoun] carries a plasma pistol and a guilty conscience. The science must continue. For America.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Medicine>2</Medicine>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_CommunicationsOfficer</defName>
+    <title>Communications officer</title>
+    <titleShort>Comm officer</titleShort>
+    <baseDesc>[PAWN_nameDef] ran the Enclave's propaganda network, broadcasting from an orbital station. [PAWN_pronoun] wrote the scripts: "The Enclave is your friend." "Mutants are subhuman." "America will be pure again." [PAWN_pronoun] believed it all, until [PAWN_pronoun] saw the orbital bombardment footage. Now [PAWN_pronoun] commands ground troops.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Officer</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>4</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_PowerArmorEngineer</defName>
+    <title>Power armor engineer</title>
+    <titleShort>Engineer</titleShort>
+    <baseDesc>[PAWN_nameDef] can strip and rebuild an X-01 suit in forty minutes. [PAWN_pronoun] treats each suit like a patient—diagnosing servo lag, calibrating hydraulics, whispering encouragement to the fusion core. The soldiers call [PAWN_objective] "Doc," but [PAWN_pronoun] knows the truth: the armor is more valuable than the meat inside it.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Scientist</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>4</Crafting>
+      <Construction>2</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_SecretService</defName>
+    <title>Secret service</title>
+    <titleShort>Agent</titleShort>
+    <baseDesc>[PAWN_nameDef] protected the President's life. [PAWN_pronoun] killed a man for coughing wrong during a speech. The Enclave's leadership must survive—no matter the cost. [PAWN_pronoun] carries a silent .22 pistol for "quiet work" and a combat shotgun for everything else. Loyalty is [PAWN_possessive] only virtue.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Officer</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>3</Melee>
+      <Social>1</Social>
+    </skillGains>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_Sniper</defName>
+    <title>Enclave sniper</title>
+    <titleShort>Sniper</titleShort>
+    <baseDesc>[PAWN_nameDef] spent three days in a ghillie suit, waiting for a single shot. The target was a "mutant sympathizer"—a doctor treating ghouls. [PAWN_pronoun] pulled the trigger from 800 meters, watched through the scope as the body fell. [PAWN_pronoun] felt nothing. Distance makes murder easy.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Animals>1</Animals>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_IntelligenceAnalyst</defName>
+    <title>Intelligence analyst</title>
+    <titleShort>Analyst</titleShort>
+    <baseDesc>[PAWN_nameDef] read everyone's mail. Intercepted radio chatter, decrypted holotapes, profiled "subversive elements." [PAWN_pronoun] knew who was cheating on their spouse, who questioned the President, who kept a pre-war book of poetry. Knowledge is power, and [PAWN_pronoun] wielded it like a knife—quiet, precise, fatal.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Officer</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>4</Intellectual>
+      <Social>2</Social>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_ChemicalWarfare</defName>
+    <title>Chemical warfare specialist</title>
+    <titleShort>Chemist</titleShort>
+    <baseDesc>[PAWN_nameDef] cooked the clouds that killed settlements. FEV toxin, modified for atmospheric dispersal. [PAWN_pronoun] wore a sealed suit and watched from the vertibird as people choked. "Non-viable populations," the report called them. [PAWN_pronoun] called it Tuesday. The mask hides [PAWN_possessive] face. Nothing can hide [PAWN_possessive] eyes.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Scientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Medicine>3</Medicine>
+    </skillGains>
+    <workDisables>
+      <li>Animals</li>
+      <li>Artistic</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_VertibirdPilot</defName>
+    <title>Vertibird pilot</title>
+    <titleShort>Pilot</titleShort>
+    <baseDesc>[PAWN_nameDef] flew the thunder. Vertibirds screaming over the wasteland, dropping death on anything that moved. [PAWN_pronoun] loved the altitude—above the radiation, above the filth. Up there, [PAWN_pronoun] was clean. Then a rocket took [PAWN_possessive] tail rotor, and [PAWN_pronoun] learned how the ground tastes. The Enclave rebuilt [PAWN_objective]. [PAWN_pronoun] owes them everything.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Soldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Crafting>2</Crafting>
+      <Construction>2</Construction>
+    </skillGains>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>EnclaveAdult_FieldCommander</defName>
+    <title>Field commander</title>
+    <titleShort>Commander</titleShort>
+    <baseDesc>Colonel [PAWN_nameDef] lost [PAWN_possessive] entire battalion at Adams Air Force Base. [PAWN_pronoun] watched the Lone Wanderer destroy the Enclave's future with a button press. Now [PAWN_pronoun] leads what's left—scraps of the proud machine. [PAWN_pronoun] dreams of revenge, of rebuilding, of pressing buttons of [PAWN_possessive] own. The Enclave will rise. It must.</baseDesc>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Enclave</li>
+      <li>Officer</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Social>3</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+  </BackstoryDef>
+  
+    <!-- ====================Institute (10) ==================== -->
+  <BackstoryDef>
+    <defName>InstituteChild_BornInInstitute</defName>
+    <title>Born in the Institute</title>
+    <titleShort>Institute Kid</titleShort>
+    <baseDesc>[PAWN_nameDef] was born below the Commonwealth, in the sterile white halls of the Institute. [PAWN_pronoun] never saw a natural sky, only the artificial glow of fusion reactors. [PAWN_possessive] toys were holographic projectors, and [PAWN_possessive] bedtime stories were about the wonders of science and the dangers of the surface.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Crafting>1</Crafting>
+    </skillGains>
+    <workDisables>
+      <li>PlantWork</li>
+    </workDisables>
+</BackstoryDef>
+
+
+
+<!-- 3. Подопытный для синтетических экспериментов -->
+<BackstoryDef>
+    <defName>InstituteChild_SynthTestSubject</defName>
+    <title>Synth Test Subject</title>
+    <titleShort>Test Subject</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up in the BioScience division. The doctors were always drawing blood, running scans, testing reactions to new chemical agents. They were kind, but clinical. [PAWN_pronoun] learned to sit still and not ask questions. The Gen-3 synths needed a baseline. [PAWN_pronoun] was that baseline.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Medicine>3</Medicine>
+      <Intellectual>2</Intellectual>
+      <Animals>-3</Animals>
+    </skillGains>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+</BackstoryDef>
+
+<!-- 4. Ребенок из Убежища 111 -->
+<BackstoryDef>
+    <defName>InstituteChild_Vault111Survivor</defName>
+    <title>Vault 111 Survivor</title>
+    <titleShort>Cryo Survivor</titleShort>
+    <baseDesc>[PAWN_nameDef] was frozen in Vault 111. [PAWN_pronoun] watched [PAWN_possessive] family die through the frosted glass of a cryo pod. The Institute thawed [PAWN_objective] out, but they could never thaw [PAWN_possessive] heart. The surface is a graveyard, and [PAWN_pronoun] is a ghost with a grudge.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteSoldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+      <Cooking>1</Cooking>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+</BackstoryDef>
+
+<!-- 5. Механик-вундеркинд -->
+<BackstoryDef>
+    <defName>InstituteChild_RoboticsWizard</defName>
+    <title>Robotics Wizard</title>
+    <titleShort>Robo-Wizard</titleShort>
+    <baseDesc>[PAWN_nameDef] took apart [PAWN_possessive] first Mr. Handy at age seven and put it back together better than before. The Robotics division snatched [PAWN_objective] up immediately. [PAWN_pronoun] prefers synths to people. Synths make sense. People are... unpredictable.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>3</Crafting>
+      <Intellectual>2</Intellectual>
+      <Construction>2</Construction>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+</BackstoryDef>
+
+
+<!-- ==================== ИНСТИТУТ: ВЗРОСЛАЯ ЖИЗНЬ (ADULTHOOD) ==================== -->
+
+<!-- 6. Ученый Отдела Синтеза -->
+<BackstoryDef>
+    <defName>InstituteAdult_SynthProgrammer</defName>
+    <title>Synth Programmer</title>
+    <titleShort>Programmer</titleShort>
+    <description>[PAWN_nameDef] writes the personalities of Gen-3 synths. [PAWN_pronoun] decides who loves, who hates, who fears the dark. [PAWN_pronoun] has created a thousand artificial minds, each one a masterpiece of code. [PAWN_pronoun] insists they are not people. [PAWN_pronoun] has to believe that.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <workDisables>
+      <li>Mining</li>
+      <li>PlantWork</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Intellectual>5</Intellectual>
+      <Crafting>3</Crafting>
+      <Artistic>2</Artistic>
+      <Social>-2</Social>
+    </skillGains>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+</BackstoryDef>
+
+<!-- 7. Ликвидатор (Курьер) -->
+<BackstoryDef>
+    <defName>InstituteAdult_Courser</defName>
+    <title>Institute Courser</title>
+    <titleShort>Courser</titleShort>
+    <description>[PAWN_nameDef] is the Institute's ultimate weapon. A Gen-3 synth trained for zero fault tolerance. [PAWN_pronoun] retrieves escaped synths, eliminates threats, and makes problems disappear. [PAWN_pronoun] does not negotiate. [PAWN_pronoun] does not hesitate. [PAWN_pronoun] is not a person. [PAWN_pronoun] is a tool.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteSoldier</li>
+    </spawnCategories>
+    <workDisables>
+      <li>Cooking</li>
+      <li>Artistic</li>
+      <li>Animals</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>4</Melee>
+      <Intellectual>2</Intellectual>
+      <Social>-4</Social>
+    </skillGains>
+    <bodyTypeGlobal>Hulk</bodyTypeGlobal>
+</BackstoryDef>
+
+<!-- 8. Сотрудник Отдела Продвинутых Систем -->
+<BackstoryDef>
+    <defName>InstituteAdult_AdvancedSystems</defName>
+    <title>Advanced Systems Specialist</title>
+    <titleShort>Systems Specialist</titleShort>
+    <description>[PAWN_nameDef] maintains the Institute's fusion reactors and teleportation array. [PAWN_pronoun] has seen the Relay malfunction. [PAWN_pronoun] has seen what happens to matter that doesn't reintegrate properly. [PAWN_pronoun] is meticulous, paranoid, and absolutely essential.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <workDisables>
+      <li>Animals</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Crafting</li>
+      <li>Constructing</li>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Crafting>4</Crafting>
+      <Construction>4</Construction>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+</BackstoryDef>
+
+<!-- 9. Ученый-биолог -->
+<BackstoryDef>
+    <defName>InstituteAdult_BioScientist</defName>
+    <title>BioScience Researcher</title>
+    <titleShort>Bio-Researcher</titleShort>
+    <description>[PAWN_nameDef] grows the synthetic organs and tissues for Gen-3 synths in sterile vats. [PAWN_pronoun] also develops crops that can survive the irradiated surface. [PAWN_pronoun] sees the body as a machine—complex, but ultimately fixable. Death is just a design flaw.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <workDisables>
+      <li>Violent</li>
+      <li>Mining</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+      <li>Caring</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Medicine>5</Medicine>
+      <Intellectual>4</Intellectual>
+      <Cooking>2</Cooking>
+      <Plants>2</Plants>
+      <Social>-1</Social>
+    </skillGains>
+    <bodyTypeGlobal>Fat</bodyTypeGlobal>
+</BackstoryDef>
+
+<!-- 10. Инфильтратор-Синт -->
+<BackstoryDef>
+    <defName>InstituteAdult_SynthInfiltrator</defName>
+    <title>Synth Infiltrator</title>
+    <titleShort>Infiltrator</titleShort>
+    <description>[PAWN_nameDef] lived as a human for years, spying on the Railroad, the Brotherhood, and the Minutemen. [PAWN_pronoun] ate with them, laughed with them, killed with them. Then [PAWN_pronoun] received the recall code. Now [PAWN_pronoun] is back in the Institute, pretending [PAWN_pronoun] doesn't miss the sun.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteSoldier</li>
+    </spawnCategories>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Social</li>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Social>4</Social>
+      <Shooting>3</Shooting>
+      <Intellectual>2</Intellectual>
+      <Melee>2</Melee>
+    </skillGains>
+</BackstoryDef>
+
+ 
+
+<!-- 2. Гениальный ребенок -->
+<BackstoryDef>
+    <defName>InstituteChild_Prodigy</defName>
+    <title>Institute prodigy</title>
+    <titleShort>Prodigy</titleShort>
+    <baseDesc>[PAWN_nameDef] could solve complex equations before [PAWN_pronoun] could read. The scientists in Advanced Systems noticed [PAWN_possessive] talent early, giving [PAWN_objective] access to restricted terminals and research data. Other children played with toys. [PAWN_nameDef] played with quantum entanglement.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>3</Intellectual>
+      <Medicine>1</Medicine>
+    </skillGains>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+</BackstoryDef>
+
+<!-- 3. Синт-ребенок (экспериментальный) -->
+<BackstoryDef>
+    <defName>InstituteChild_PrototypeSynth</defName>
+    <title>Prototype synth child</title>
+    <titleShort>Prototype</titleShort>
+    <baseDesc>[PAWN_nameDef] was created, not born. An early experiment in child synths, designed to age and learn like a real human. The scientists watched [PAWN_objective] constantly, taking notes, running tests. [PAWN_pronoun] doesn't know if [PAWN_possessive] memories are real or implanted. Does it matter?</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteSoldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Intellectual>2</Intellectual>
+      <Shooting>1</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+</BackstoryDef>
+
+<!-- 4. Дитя биоотдела -->
+<BackstoryDef>
+    <defName>InstituteChild_BioDivisionKid</defName>
+    <title>BioDivision kid</title>
+    <titleShort>Bio kid</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up surrounded by glowing plants and experimental organisms. [PAWN_possessive] parents were both researchers in BioScience. Instead of pets, [PAWN_pronoun] had mutated axolotls and carnivorous vines. [PAWN_pronoun] learned to respect nature—the Institute's version of it, anyway.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Plants>2</Plants>
+      <Medicine>2</Medicine>
+    </skillGains>
+    <workDisables>
+      <li>Mining</li>
+    </workDisables>
+</BackstoryDef>
+
+<!-- 5. Ученик робототехника -->
+<BackstoryDef>
+    <defName>InstituteChild_RoboticsApprentice</defName>
+    <title>Robotics apprentice</title>
+    <titleShort>Robo-apprentice</titleShort>
+    <baseDesc>[PAWN_nameDef] was fascinated by the Gen-1 synths—their jerky movements, their blank faces. [PAWN_pronoun] followed robotics engineers around like a shadow, asking endless questions. One day, a technician let [PAWN_objective] solder a circuit board. [PAWN_pronoun]'s hands never stopped shaking with excitement.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Crafting>3</Crafting>
+      <Construction>1</Construction>
+    </skillGains>
+    <workDisables>
+      <li>Animals</li>
+    </workDisables>
+</BackstoryDef>
+
+<!-- 6. Ребенок из Убежища 111 -->
+<BackstoryDef>
+    <defName>InstituteChild_Vault111Orphan</defName>
+    <title>Vault 111 orphan</title>
+    <titleShort>Cryo orphan</titleShort>
+    <baseDesc>[PAWN_nameDef] was frozen in Vault 111 before the bombs fell. The Institute thawed [PAWN_objective] decades later, the sole survivor of a failed cryo experiment. [PAWN_possessive] family is dust. [PAWN_possessive] world is gone. The Institute gave [PAWN_objective] a second chance. [PAWN_pronoun] owes them everything.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteSoldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+</BackstoryDef>
+
+<!-- 7. Ребенок ликвидатора -->
+<BackstoryDef>
+    <defName>InstituteChild_CourserChild</defName>
+    <title>Courser's child</title>
+    <titleShort>Courser kid</titleShort>
+    <baseDesc>[PAWN_nameDef]'s parent was a Courser—the Institute's elite hunter of escaped synths. [PAWN_pronoun] never knew when [PAWN_possessive] parent would return from a mission. Sometimes they came back different. Sometimes they didn't come back at all. [PAWN_pronoun] learned to be independent. And deadly.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteSoldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+    <workDisables>
+      <li>Cooking</li>
+      <li>Artistic</li>
+    </workDisables>
+</BackstoryDef>
+
+<!-- 8. Сирота с Поверхности -->
+<BackstoryDef>
+    <defName>InstituteChild_SurfaceRefugee</defName>
+    <title>Surface refugee</title>
+    <titleShort>Refugee</titleShort>
+    <baseDesc>[PAWN_nameDef] was found by a synth retrieval team—a filthy, starving child scavenging in the ruins of Boston. The Institute took [PAWN_objective] in, decontaminated [PAWN_objective], educated [PAWN_objective]. [PAWN_pronoun] still dreams of the surface sometimes. The smell of rain. The taste of dirt. [PAWN_pronoun] never wants to go back.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Plants>2</Plants>
+      <Animals>1</Animals>
+      <Cooking>1</Cooking>
+    </skillGains>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+</BackstoryDef>
+
+<!-- 9. Ребенок-администратор -->
+<BackstoryDef>
+    <defName>InstituteChild_DirectorateHeir</defName>
+    <title>Directorate heir</title>
+    <titleShort>Heir</titleShort>
+    <baseDesc>[PAWN_nameDef] was raised to lead. [PAWN_possessive] parents sat on the Directorate, and [PAWN_pronoun] was groomed from birth to take their place. [PAWN_pronoun] attended council meetings instead of birthday parties. [PAWN_pronoun] learned politics instead of games. The Institute is [PAWN_possessive] birthright—and [PAWN_possessive] burden.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteScientist</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+      <Intellectual>2</Intellectual>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+</BackstoryDef>
+
+<!-- 10. Тихоня из отдела обслуживания -->
+<BackstoryDef>
+    <defName>InstituteChild_MaintenanceMouse</defName>
+    <title>Maintenance mouse</title>
+    <titleShort>Mouse</titleShort>
+    <baseDesc>[PAWN_nameDef] was quiet—so quiet that people often forgot [PAWN_pronoun] existed. [PAWN_pronoun] spent hours in the maintenance tunnels, watching the engineers work, learning the secrets of the Institute's infrastructure. [PAWN_pronoun] knows where every vent leads, every pipe connects. Silence is [PAWN_possessive] superpower.</baseDesc>
+    <slot>Childhood</slot>
+    <spawnCategories>
+      <li>Institute</li>
+      <li>InstituteSoldier</li>
+    </spawnCategories>
+    <skillGains>
+      <Construction>2</Construction>
+      <Crafting>2</Crafting>
+      <Mining>1</Mining>
+    </skillGains>
+    <workDisables>
+      <li>Social</li>
+    </workDisables>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+</BackstoryDef>
+</Defs>

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<StorytellerDef ParentName="BaseStoryteller">
+    <defName>GhoulStoryteller</defName>
+    <label>Ghoul the Chronicler</label>
+    <description>The last chronicler of dead eras. He doesn't seek to destroy you, but to witness a worthy story unfold. He'll give you time to build your legacy, then test its foundations with trials from his memories. The greater your prosperity, the more epic the challenges—for only through adversity is history written.</description>
+    <portraitLarge>Things/Storytellers/GhoulChronicler</portraitLarge>
+    <portraitTiny>Things/Storytellers/GhoulChroniclerTiny</portraitTiny>
+    <listOrder>35</listOrder> <!-- Между Кассандрой и Карой -->
+    <comps>
+        <!-- Пролог истории -->
+        <li Class="StorytellerCompProperties_ClassicIntro"/>
+
+        <!-- ГЛАВНЫЕ ИСПЫТАНИЯ: прогрессивно нарастают -->
+        <li Class="StorytellerCompProperties_OnOffCycle">
+            <category>ThreatBig</category>
+            <minDaysPassed>15.0</minDaysPassed> <!-- Позже, даёт время на развитие -->
+            <onDays>5.0</onDays>               <!-- Умеренная фаза испытаний -->
+            <offDays>8.0</offDays>              <!-- Долгое затишье для развития -->
+            <minSpacingDays>2.0</minSpacingDays>
+            <numIncidentsRange>1~1</numIncidentsRange> <!-- Одна большая проблема за раз -->
+            <forceRaidEnemyBeforeDaysPassed>25</forceRaidEnemyBeforeDaysPassed> <!-- Много времени на подготовку -->
+            <disallowedTargetTags>
+                <li>Map_RaidBeacon</li>
+            </disallowedTargetTags>
+        </li>
+
+        <!-- УГРОЗЫ ДЛЯ МАЯКОВ: стандартно -->
+        <li Class="StorytellerCompProperties_ThreatsGenerator">
+            <allowedTargetTags>
+                <li>Map_RaidBeacon</li>
+            </allowedTargetTags>
+            <parms>
+                <allowedThreats>Raids</allowedThreats>
+                <onDays>1.0</onDays>
+                <offDays>0.5</offDays>
+                <minSpacingDays>0.04</minSpacingDays>
+                <numIncidentsRange>1~2</numIncidentsRange>
+                <minThreatPoints>500</minThreatPoints>
+            </parms>
+        </li>
+
+        <!-- МЕЛКИЕ ИСПЫТАНИЯ: как повороты сюжета -->
+        <li Class="StorytellerCompProperties_OnOffCycle">
+            <category>ThreatSmall</category>
+            <minDaysPassed>10.0</minDaysPassed> <!-- Начинаются после начального развития -->
+            <onDays>4.0</onDays>
+            <offDays>6.0</offDays>
+            <numIncidentsRange>0~1</numIncidentsRange> <!-- Обычно 0, иногда 1 проблема -->
+            <acceptPercentFactorPerThreatPointsCurve>
+                <points>
+                    <li>(1000, 1)</li>
+                    <li>(4000, 0.3)</li> <!-- Меньше мелких проблем когда богатство высокое -->
+                    <li>(8000, 0.1)</li>
+                </points>
+            </acceptPercentFactorPerThreatPointsCurve>
+        </li>
+
+        <!-- МИРНЫЕ СОБЫТИЯ: много возможностей для развития сюжета -->
+        <li Class="StorytellerCompProperties_CategoryMTB">
+            <category>Misc</category>
+            <allowedTargetTags>
+                <li>Map_PlayerHome</li>
+            </allowedTargetTags>
+            <minDaysPassed>3.0</minDaysPassed>
+            <mtbDays>2.0</mtbDays> <!-- Частые мирные события -->
+        </li>
+
+        <!-- ОБЛОМКИ КОРАБЛЕЙ: элементы истории -->
+        <li Class="StorytellerCompProperties_ShipChunkDrop"/>
+
+        <!-- БОЛЕЗНИ: как испытания персонажей -->
+        <li Class="StorytellerCompProperties_Disease">
+            <category>DiseaseHuman</category>
+            <minDaysPassed>12</minDaysPassed> <!-- Позже, не мешает началу -->
+        </li>
+        <li Class="StorytellerCompProperties_Disease">
+            <category>DiseaseAnimal</category>
+            <minDaysPassed>12</minDaysPassed>
+        </li>
+
+        <!-- ВЗАИМОДЕЙСТВИЯ: много сюжетных возможностей -->
+        <!-- Помощь союзников в ключевые моменты -->
+        <li Class="StorytellerCompProperties_FactionInteraction">
+            <incident>RaidFriendly</incident>
+            <baseIncidentsPerYear>12</baseIncidentsPerYear>
+            <minSpacingDays>0.5</minSpacingDays>
+            <fullAlliesOnly>true</fullAlliesOnly>
+            <minDanger>High</minDanger>
+        </li>
+
+        <!-- Торговые караваны: стабильное развитие -->
+        <li Class="StorytellerCompProperties_FactionInteraction">
+            <incident>TraderCaravanArrival</incident>
+            <minDaysPassed>5</minDaysPassed>
+            <baseIncidentsPerYear>6</baseIncidentsPerYear>
+            <minSpacingDays>5</minSpacingDays>
+        </li>
+
+        <!-- Посетители: новые персонажи в истории -->
+        <li Class="StorytellerCompProperties_FactionInteraction">
+            <incident>VisitorGroup</incident>
+            <minDaysPassed>3</minDaysPassed>
+            <baseIncidentsPerYear>6</baseIncidentsPerYear> <!-- Чаще для развития сюжета -->
+            <minSpacingDays>4</minSpacingDays>
+        </li>
+
+        <!-- Странники: пополнение отряда -->
+        <li Class="StorytellerCompProperties_FactionInteraction">
+            <incident>TravelerGroup</incident>
+            <minDaysPassed>2</minDaysPassed>
+            <baseIncidentsPerYear>8</baseIncidentsPerYear>
+            <minSpacingDays>2</minSpacingDays>
+        </li>
+
+        <!-- СОБЫТИЯ В ПУТЕШЕСТВИЯХ -->
+        <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+            <category>Misc</category>
+            <allowedTargetTags>
+                <li>Caravan</li>
+                <li>Map_TempIncident</li>
+            </allowedTargetTags>
+        </li>
+        <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+            <category>ThreatSmall</category>
+            <applyCaravanVisibility>true</applyCaravanVisibility>
+            <allowedTargetTags>
+                <li>Caravan</li>
+                <li>Map_TempIncident</li>
+            </allowedTargetTags>
+        </li>
+        <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+            <category>ThreatBig</category>
+            <applyCaravanVisibility>true</applyCaravanVisibility>
+            <allowedTargetTags>
+                <li>Caravan</li>
+                <li>Map_TempIncident</li>
+            </allowedTargetTags>
+        </li>
+
+        <!-- КВЕСТЫ: основа сюжета (без Royalty) -->
+        <li Class="StorytellerCompProperties_RandomQuest">
+            <category>GiveQuest</category>
+            <allowedTargetTags>
+                <li>World</li>
+            </allowedTargetTags>
+            <onDays>8</onDays> <!-- Частые квесты -->
+            <numIncidentsRange>1</numIncidentsRange>
+            <acceptFractionByDaysPassedCurve>
+                <points>
+                    <li>(5, 0.2)</li> <!-- Ранний доступ к квестам -->
+                    <li>(10, 0.8)</li>
+                    <li>(15, 1)</li>
+                </points>
+            </acceptFractionByDaysPassedCurve>
+            <minSpacingDays>3</minSpacingDays>
+            <disableIfAnyModActive>
+                <li>Ludeon.RimWorld.Royalty</li>
+            </disableIfAnyModActive>
+        </li>
+
+        <!-- КВЕСТЫ (с Royalty): ещё больше сюжета -->
+        <li Class="StorytellerCompProperties_RandomQuest">
+            <category>GiveQuest</category>
+            <allowedTargetTags>
+                <li>World</li>
+            </allowedTargetTags>
+            <onDays>10</onDays>
+            <numIncidentsRange>1~2</numIncidentsRange>
+            <acceptFractionByDaysPassedCurve>
+                <points>
+                    <li>(5, 0.2)</li>
+                    <li>(10, 0.8)</li>
+                    <li>(15, 1)</li>
+                </points>
+            </acceptFractionByDaysPassedCurve>
+            <minSpacingDays>3</minSpacingDays>
+            <enableIfAnyModActive>
+                <li>Ludeon.RimWorld.Royalty</li>
+            </enableIfAnyModActive>
+        </li>
+
+        <!-- МИРОВЫЕ СОБЫТИЯ: фоновый сюжет -->
+        <li Class="StorytellerCompProperties_CategoryMTB">
+            <category>Misc</category>
+            <allowedTargetTags>
+                <li>World</li>
+            </allowedTargetTags>
+            <minDaysPassed>8</minDaysPassed>
+            <mtbDays>12</mtbDays>
+        </li>
+
+        <!-- ОРБИТАЛЬНЫЕ ТОРГОВЦЫ: доступ к редким ресурсам -->
+        <li Class="StorytellerCompProperties_OnOffCycle">
+            <incident>OrbitalTraderArrival</incident>
+            <onDays>8</onDays>
+            <offDays>10</offDays>
+            <numIncidentsRange>1</numIncidentsRange>
+        </li>
+
+        <!-- ТРИГГЕРНЫЕ: поворот сюжета при катастрофе -->
+        <li Class="StorytellerCompProperties_Triggered">
+            <incident>StrangerInBlackJoin</incident>
+            <delayTicks>180</delayTicks>
+        </li>
+    </comps>
+</StorytellerDef>
+
+
+<StorytellerDef ParentName="BaseStoryteller">
+    <defName>FeralGhoul</defName>
+    <label>Feral Ghoul</label>
+    <description>A guttural, distorted voice from the deepest vaults. He grants you a brief moment to dig your grave before the nightmare begins. Five days. That's all you get. Use them well, for afterwards comes only struggle, decay, and desperate survival in his chronicle of ruin.</description>
+    <portraitLarge>Things/Storytellers/GhoulChroniclerRad</portraitLarge>
+    <portraitTiny>Things/Storytellers/GhoulChroniclerRadTiny</portraitTiny>
+    <listOrder>36</listOrder>
+    <comps>
+        <!-- 5 ДНЕЙ ФОРЫ НА ПОДГОТОВКУ -->
+        <li Class="StorytellerCompProperties_ClassicIntro"/>
+
+        <!-- ГЛАВНЫЕ УГРОЗЫ: начинаются после 5 дней форы -->
+        <li Class="StorytellerCompProperties_OnOffCycle">
+            <category>ThreatBig</category>
+            <minDaysPassed>10.0</minDaysPassed> <!-- 10 дней = 5 форы + 5 подготовки -->
+            <onDays>4.0</onDays>
+            <offDays>2.5</offDays>              <!-- Короткие перерывы -->
+            <minSpacingDays>1.2</minSpacingDays>
+            <numIncidentsRange>1~2</numIncidentsRange>
+            <forceRaidEnemyBeforeDaysPassed>15</forceRaidEnemyBeforeDaysPassed> <!-- Первый рейд к 15-му дню -->
+            <disallowedTargetTags>
+                <li>Map_RaidBeacon</li>
+            </disallowedTargetTags>
+        </li>
+
+        <!-- УГРОЗЫ ДЛЯ МАЯКОВ -->
+        <li Class="StorytellerCompProperties_ThreatsGenerator">
+            <allowedTargetTags>
+                <li>Map_RaidBeacon</li>
+            </allowedTargetTags>
+            <parms>
+                <allowedThreats>Raids</allowedThreats>
+                <onDays>1.0</onDays>
+                <offDays>0.5</offDays>
+                <minSpacingDays>0.03</minSpacingDays>
+                <numIncidentsRange>1~2</numIncidentsRange>
+                <minThreatPoints>700</minThreatPoints>
+            </parms>
+        </li>
+
+        <!-- МЕЛКИЕ УГРОЗЫ: начинаются через 7 дней (2 дня после форы) -->
+        <li Class="StorytellerCompProperties_OnOffCycle">
+            <category>ThreatSmall</category>
+            <minDaysPassed>7.0</minDaysPassed> <!-- 7 дней = 5 форы + 2 -->
+            <onDays>3.5</onDays>
+            <offDays>2.0</offDays>
+            <numIncidentsRange>1~2</numIncidentsRange>
+            <acceptPercentFactorPerThreatPointsCurve>
+                <points>
+                    <li>(600, 1)</li>
+                    <li>(2500, 0.7)</li>
+                    <li>(5000, 0.5)</li> <!-- Даже при высокой угрозе остаётся 50% шанс -->
+                </points>
+            </acceptPercentFactorPerThreatPointsCurve>
+        </li>
+
+        <!-- МИРНЫЕ СОБЫТИЯ: активны с первых дней -->
+        <li Class="StorytellerCompProperties_CategoryMTB">
+            <category>Misc</category>
+            <allowedTargetTags>
+                <li>Map_PlayerHome</li>
+            </allowedTargetTags>
+            <minDaysPassed>1.0</minDaysPassed> <!-- Можно получить в дни форы -->
+            <mtbDays>3.0</mtbDays>
+        </li>
+
+        <!-- ОБЛОМКИ КОРАБЛЕЙ: могут упасть в дни форы -->
+        <li Class="StorytellerCompProperties_ShipChunkDrop"/>
+
+        <!-- БОЛЕЗНИ: начинаются после 8 дней -->
+        <li Class="StorytellerCompProperties_Disease">
+            <category>DiseaseHuman</category>
+            <minDaysPassed>8</minDaysPassed> <!-- 8 дней = 5 форы + 3 -->
+        </li>
+        <li Class="StorytellerCompProperties_Disease">
+            <category>DiseaseAnimal</category>
+            <minDaysPassed>8</minDaysPassed>
+        </li>
+
+        <!-- ВЗАИМОДЕЙСТВИЯ: редкие, но возможны -->
+        <li Class="StorytellerCompProperties_FactionInteraction">
+            <incident>RaidFriendly</incident>
+            <baseIncidentsPerYear>5</baseIncidentsPerYear>
+            <minSpacingDays>0.8</minSpacingDays>
+            <fullAlliesOnly>true</fullAlliesOnly>
+            <minDanger>High</minDanger>
+        </li>
+
+        <!-- Торговые караваны: могут прийти в дни форы -->
+        <li Class="StorytellerCompProperties_FactionInteraction">
+            <incident>TraderCaravanArrival</incident>
+            <minDaysPassed>3</minDaysPassed> <!-- Может прийти на 3-й день -->
+            <baseIncidentsPerYear>4</baseIncidentsPerYear>
+            <minSpacingDays>8</minSpacingDays>
+        </li>
+
+        <!-- Посетители: могут прийти в дни форы -->
+        <li Class="StorytellerCompProperties_FactionInteraction">
+            <incident>VisitorGroup</incident>
+            <minDaysPassed>3</minDaysPassed>
+            <baseIncidentsPerYear>3</baseIncidentsPerYear>
+            <minSpacingDays>7</minSpacingDays>
+        </li>
+
+        <!-- Странники: частые, особенно важны в начале -->
+        <li Class="StorytellerCompProperties_FactionInteraction">
+            <incident>TravelerGroup</incident>
+            <minDaysPassed>2</minDaysPassed> <!-- Могут прийти на 2-й день -->
+            <baseIncidentsPerYear>8</baseIncidentsPerYear>
+            <minSpacingDays>1.5</minSpacingDays>
+        </li>
+
+        <!-- СОБЫТИЯ В ПУТЕШЕСТВИЯХ -->
+        <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+            <category>Misc</category>
+            <allowedTargetTags>
+                <li>Caravan</li>
+                <li>Map_TempIncident</li>
+            </allowedTargetTags>
+        </li>
+        <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+            <category>ThreatSmall</category>
+            <applyCaravanVisibility>true</applyCaravanVisibility>
+            <allowedTargetTags>
+                <li>Caravan</li>
+                <li>Map_TempIncident</li>
+            </allowedTargetTags>
+        </li>
+        <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+            <category>ThreatBig</category>
+            <applyCaravanVisibility>true</applyCaravanVisibility>
+            <allowedTargetTags>
+                <li>Caravan</li>
+                <li>Map_TempIncident</li>
+            </allowedTargetTags>
+        </li>
+
+        <!-- КВЕСТЫ (без Royalty): доступны после 8 дней -->
+        <li Class="StorytellerCompProperties_RandomQuest">
+            <category>GiveQuest</category>
+            <allowedTargetTags>
+                <li>World</li>
+            </allowedTargetTags>
+            <onDays>12</onDays>
+            <numIncidentsRange>1</numIncidentsRange>
+            <acceptFractionByDaysPassedCurve>
+                <points>
+                    <li>(8, 0.3)</li> <!-- Начинаются после форы -->
+                    <li>(15, 0.8)</li>
+                    <li>(25, 1)</li>
+                </points>
+            </acceptFractionByDaysPassedCurve>
+            <minSpacingDays>4</minSpacingDays>
+            <disableIfAnyModActive>
+                <li>Ludeon.RimWorld.Royalty</li>
+            </disableIfAnyModActive>
+        </li>
+
+        <!-- КВЕСТЫ (с Royalty) -->
+        <li Class="StorytellerCompProperties_RandomQuest">
+            <category>GiveQuest</category>
+            <allowedTargetTags>
+                <li>World</li>
+            </allowedTargetTags>
+            <onDays>10</onDays>
+            <numIncidentsRange>1~2</numIncidentsRange>
+            <acceptFractionByDaysPassedCurve>
+                <points>
+                    <li>(8, 0.3)</li>
+                    <li>(15, 0.8)</li>
+                    <li>(25, 1)</li>
+                </points>
+            </acceptFractionByDaysPassedCurve>
+            <minSpacingDays>3</minSpacingDays>
+            <enableIfAnyModActive>
+                <li>Ludeon.RimWorld.Royalty</li>
+            </enableIfAnyModActive>
+        </li>
+
+        <!-- МИРОВЫЕ СОБЫТИЯ: после 10 дней -->
+        <li Class="StorytellerCompProperties_CategoryMTB">
+            <category>Misc</category>
+            <allowedTargetTags>
+                <li>World</li>
+            </allowedTargetTags>
+            <minDaysPassed>10</minDaysPassed>
+            <mtbDays>10</mtbDays>
+        </li>
+
+        <!-- ОРБИТАЛЬНЫЕ ТОРГОВЦЫ -->
+        <li Class="StorytellerCompProperties_OnOffCycle">
+            <incident>OrbitalTraderArrival</incident>
+            <onDays>9</onDays>
+            <offDays>12</offDays>
+            <numIncidentsRange>0~1</numIncidentsRange>
+        </li>
+
+        <!-- ТРИГГЕРНЫЕ -->
+        <li Class="StorytellerCompProperties_Triggered">
+            <incident>StrangerInBlackJoin</incident>
+            <delayTicks>180</delayTicks>
+        </li>
+    </comps>
+</StorytellerDef>
+</Defs>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--	
+   <Operation Class="PatchOperationAdd">
+		 <xpath>Defs/ThingDef[defName="BaseHumanlikePawn"]/recipes</xpath>
+		<value>
+	    <recipes>
+			<li>TreatmentOfBlowflyLarva</li>
+        </recipes>
+		</value>
+    </Operation>
+  -->
+
+        <Operation Class="PatchOperationAdd">
+            <xpath>/Defs/ThoughtDef[defName="DeadMansApparel"]/nullifyingTraits</xpath>
+            <value>
+                <li>DeadmanFashionLover</li>
+            </value>
+        </Operation>
+
+
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="PrometheumSoaked"]/comps</xpath>
+		<value>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-12</severityPerDay>
+			</li>
+			<li Class="CombatExtended.HediffCompProperties_Prometheum" />
+			<li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath">
+                <thingSpawn>Ash</thingSpawn>
+            </li>
+			</comps>
+		</value>
+  </Operation>
+  
+   <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="RimatomicsRadiation"]/stages/li[4]</xpath>
+    <value>
+     	<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Tentacle</hediff>
+						<mtbDays>50</mtbDays>
+						<canAffectAnyLivePart>true</canAffectAnyLivePart>
+					</li>
+		</hediffGivers>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="RimatomicsRadiation"]/stages/li[5]</xpath>
+    <value>
+     	<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Tentacle</hediff>
+						<mtbDays>17</mtbDays>
+						<canAffectAnyLivePart>true</canAffectAnyLivePart>
+					</li>
+		</hediffGivers>
+    </value>
+  </Operation>
+  
+   <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="RimatomicsRadiation"]/stages/li[5]</xpath>
+    <value>
+     	<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>GhoulLK</hediff>
+						<mtbDays>37</mtbDays>
+					</li>
+		</hediffGivers>
+    </value>
+  </Operation>
+   <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="RimatomicsRadiation"]/stages/li[6]</xpath>
+    <value>
+     	<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>GhoulLK</hediff>
+						<mtbDays>25</mtbDays>
+					</li>
+		</hediffGivers>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{795FDE98-92B4-49F1-9354-77F771A187D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Watcher</RootNamespace>
+    <AssemblyName>Watcher</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PreferNativeArm64>false</PreferNativeArm64>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\Harmony\1.5\Assemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CombatExtended">
+      <HintPath>..\..\..\..\CombatExtended\Assemblies\CombatExtended.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Core_SK">
+      <HintPath>..\..\..\..\Core_SK\Assemblies\Core_SK.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Biome\BiomeWorker_GlowingSea.cs" />
+    <Compile Include="Buildings\Building_MyGECK.cs" />
+    <Compile Include="Buildings\Building_TGenerator.cs" />
+    <Compile Include="Buildings\PrebuiltBase.cs" />
+    <Compile Include="CompMedicalGrenadeExtension.cs" />
+    <Compile Include="CompProperties_MeleeCharge.cs" />
+    <Compile Include="CompProperties_StimulantAutoInjector.cs" />
+    <Compile Include="CompRandomProductExtension.cs" />
+    <Compile Include="Comps\CompLocalFire.cs" />
+    <Compile Include="Comps\CompLocalFirefly.cs" />
+    <Compile Include="Comps\CompNukaColaBottleCaps.cs" />
+    <Compile Include="Comps\CompProperties_AnimatedBuilding.cs" />
+    <Compile Include="Comps\CompProperties_DirectionalExplosive.cs" />
+    <Compile Include="Comps\CompProperties_EarthquakeStabilizer.cs" />
+    <Compile Include="Comps\CompProperties_GlowingPawn.cs" />
+    <Compile Include="Comps\CompProperties_IV_Drip.cs" />
+    <Compile Include="Comps\CompProperties_UseEffectInstallImplant.cs" />
+    <Compile Include="Comps\CompSummonCreature.cs" />
+    <Compile Include="Comps\CompsWithFilth.cs" />
+    <Compile Include="Comps\CompToxicBuildup.Remover.cs" />
+    <Compile Include="Comps\MentalState_ComicCreator.cs" />
+    <Compile Include="DamageEffectDef.cs" />
+    <Compile Include="Events\IncidentWorker_EnclaveRecruitment.cs" />
+    <Compile Include="Events\IncidentWorker_HaroldInfection.cs" />
+    <Compile Include="Events\IncidentWorker_InstantGrow.cs" />
+    <Compile Include="Events\IncidentWorker_OverfertilizedHydroponics.cs" />
+    <Compile Include="Events\IncidentWorker_ReactorCoreDamage.cs" />
+    <Compile Include="Events\IncidentWorker_RedThreatHunterDrones.cs" />
+    <Compile Include="Events\IncidentWorker_WatcherPoopocalypse.cs" />
+    <Compile Include="Events\IncidentWorker_WatcherRain.cs" />
+    <Compile Include="Events\IncidentWorker_ArmyCall.cs" />
+    <Compile Include="Events\IncidentWorker_BringersofDemocracy.cs" />
+    <Compile Include="Events\IncidentWorker_CreatureSpawnNearLatrine.cs" />
+    <Compile Include="Events\IncidentWorker_DeathclawTunnelEvent.cs" />
+    <Compile Include="Events\IncidentWorker_MonsterFromFishing.cs" />
+    <Compile Include="Events\IncidentWorker_QuarryAnimalAttack.cs" />
+    <Compile Include="Events\IncidentWorker_RadNado.cs" />
+    <Compile Include="Events\IncidentWorker_StrangeCall.cs" />
+    <Compile Include="Events\RadioDefOf.cs" />
+    <Compile Include="GameComponents\GameComponent_CorpseWearTracker.cs" />
+    <Compile Include="Hediffs\HediffComp_DutenSpawn.cs" />
+    <Compile Include="Hediffs\HediffComp_HaroldDeathTransform.cs" />
+    <Compile Include="Hediffs\Hediff_ExplodeAndSpawnOnDeath.cs" />
+    <Compile Include="Hediffs\Hediff_RemoveAddictions.cs" />
+    <Compile Include="Pawns\FeralPawn.cs" />
+    <Compile Include="GameComponents\GameComponent_WatcherCheck.cs" />
+    <Compile Include="Pawns\PawnKindDefOfLocal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThoughtWorker.cs" />
+    <Compile Include="Verb_MeleeAttackDamage.cs" />
+    <Compile Include="WatcherDefOf.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.SpriteMaskModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.SpriteShapeModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.StreamingModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.SubstanceModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.SubsystemsModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TerrainModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TerrainPhysicsModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.TilemapModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UIModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityTestProtocolModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VehiclesModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VFXModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VideoModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.VRModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.WindModule.dll" />
+    <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.XRModule.dll" />
+    <Analyzer Include="..\..\..\..\Core_SK\Assemblies\Core_SK.dll" />
+    <Analyzer Include="..\..\..\..\Harmony\1.4\Assemblies\0Harmony.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

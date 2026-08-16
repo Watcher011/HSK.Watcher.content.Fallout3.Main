@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseFilth">
+    <defName>Filth_Cap</defName>
+   <label>Lids</label>
+    <graphicData>
+      <texPath>Things/Filth/Cap</texPath>
+      <shaderType>Transparent</shaderType>
+	  <drawSize>(1,1)</drawSize>
+    </graphicData>
+	<statBases>
+      <Beauty>-40</Beauty>
+      <Cleanliness>-15</Cleanliness>
+    </statBases>
+    <filth>
+      <placementMask>
+        <li>Terrain</li>
+		 <li>Unnatural</li>
+      </placementMask>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>1~2</disappearsInDays>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+  </ThingDef>
+
+
+<!--<ThingDef ParentName="BaseFilth">
+    <defName>Filth_NFRAD</defName>
+    <label>radiation filth</label>
+    <category>Filth</category>
+    <altitudeLayer>Filth</altitudeLayer>
+    <thingClass>Watcher.Comps.FilthWithComps</thingClass>
+    <statBases>
+        <Beauty>-12</Beauty>
+        <Cleanliness>-15</Cleanliness>
+    </statBases>
+    <graphicData>
+        <graphicClass>Graphic_Cluster</graphicClass>
+        <shaderType>Transparent</shaderType>
+        <texPath>Things/Filth/Ash</texPath>
+        <color>(255, 255, 255, 220)</color>
+        <drawSize>3</drawSize>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <!{1}** Компоненты РАБОТАЮТ потому что FilthWithComps наследует ThingWithComps **{1}>
+    <comps>
+        <li Class="CompProperties_Glower">
+            <glowRadius>4.5</glowRadius>
+            <glowColor>(5,30,5,5)</glowColor>
+        </li>
+        <li Class="SK.CompProperties_Radioactive">
+            <strength>0.3</strength>
+            <radius>4.5</radius>
+            <halfLifeInTicks>6000000</halfLifeInTicks>
+        </li>
+    </comps>
+    <!{1}** Блок filth для настройки уборки **{1}>
+    <filth>
+        <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+        <disappearsInDays>10~15</disappearsInDays>
+        <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+        <canFilthAttach>true</canFilthAttach>
+        <cleaningSound>Interact_CleanFilth</cleaningSound>
+    </filth>
+</ThingDef>-->
+     <ThingDef>
+    <defName>Filth_NFRAD</defName>
+    <label>radiation filth</label>
+    <description>Radioactive contamination that glows in the dark. Must be cleaned carefully.</description>
+    
+    <!-- Базовые настройки грязи -->
+    <category>Filth</category>
+    <altitudeLayer>Filth</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <drawerType>MapMeshOnly</drawerType>
+    
+    <!-- Наш класс с поддержкой компонентов -->
+    <thingClass>Watcher.Comps.FilthRadioactive</thingClass>
+    
+    <!-- Статистика -->
+    <statBases>
+      <Beauty>-12</Beauty>
+      <Cleanliness>-15</Cleanliness>
+    </statBases>
+    
+    <!-- Графика -->
+    <graphicData>
+      <graphicClass>Graphic_Cluster</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <texPath>Things/Filth/Ash</texPath>
+      <color>(0, 55, 55, 220)</color>
+      <drawSize>3</drawSize>
+    </graphicData>
+    
+    <!-- Для Tick -->
+    <tickerType>Normal</tickerType>
+    
+    <!-- КОМПОНЕНТЫ -->
+    <comps>
+      <!-- 1. Компонент для уборки (наш) -->
+      <li Class="Watcher.Comps.CompProperties_Cleanable">
+        <workToClean>70</workToClean>
+      </li>
+      
+      <!-- 2. Компонент для свечения -->
+      <li Class="CompProperties_Glower">
+        <glowRadius>4.5</glowRadius>
+        <glowColor>(5,255,5,5)</glowColor>
+      </li>
+      
+      <!-- 3. Компонент для радиации -->
+      <li Class="SK.CompProperties_Radioactive">
+        <strength>0.3</strength>
+        <radius>4.5</radius>
+       <!-- <halfLifeInTicks>6000000</halfLifeInTicks>-->
+      </li>
+    </comps>
+    
+    <!-- Настройки грязи (для автоматического исчезновения) -->
+    <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+      <disappearsInDays>10~15</disappearsInDays>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+</Defs>

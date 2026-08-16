@@ -1,0 +1,809 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\hsk.watcher.content.fallout2\\1.6\\source\\watcher\\buildings\\prebuiltbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\buildings\\prebuiltbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compproperties_animatedbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_animatedbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compproperties_directionalexplosive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_directionalexplosive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compswithfilth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compswithfilth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\comptoxicbuildup.remover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\comptoxicbuildup.remover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\mentalstate_comiccreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\mentalstate_comiccreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\thoughtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\thoughtworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comprandomproductextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comprandomproductextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\compproperties_stimulantautoinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\compproperties_stimulantautoinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\compproperties_meleecharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\compproperties_meleecharge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\compmedicalgrenadeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\compmedicalgrenadeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\pawns\\pawnkinddefoflocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\pawns\\pawnkinddefoflocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\pawns\\feralpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\pawns\\feralpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\gamecomponents\\gamecomponent_watchercheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\gamecomponents\\gamecomponent_watchercheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\gamecomponents\\gamecomponent_corpseweartracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\gamecomponents\\gamecomponent_corpseweartracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_haroldinfection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_haroldinfection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_armycall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_armycall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\hediffs\\hediffcomp_harolddeathtransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\hediffs\\hediffcomp_harolddeathtransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_creaturespawnnearlatrine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_creaturespawnnearlatrine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_deathclawtunnelevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_deathclawtunnelevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compproperties_earthquakestabilizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_earthquakestabilizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_watcherrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_watcherrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\radiodefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\radiodefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\verb_meleeattackdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\verb_meleeattackdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\watcherdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\watcherdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_bringersofdemocracy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_bringersofdemocracy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_enclaverecruitment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_enclaverecruitment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_radnado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_radnado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_quarryanimalattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_quarryanimalattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_reactorcoredamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_reactorcoredamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_redthreathunterdrones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_redthreathunterdrones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_strangecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_strangecall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_watcherpoopocalypse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_watcherpoopocalypse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_monsterfromfishing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_monsterfromfishing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\complocalfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\complocalfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\hediffs\\hediff_explodeandspawnondeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\hediffs\\hediff_explodeandspawnondeath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compproperties_useeffectinstallimplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_useeffectinstallimplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compsummoncreature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compsummoncreature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\hediffs\\hediff_removeaddictions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\hediffs\\hediff_removeaddictions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\hediffs\\hediffcomp_dutenspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\hediffs\\hediffcomp_dutenspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_overfertilizedhydroponics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_overfertilizedhydroponics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\events\\incidentworker_instantgrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\events\\incidentworker_instantgrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compproperties_iv_drip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_iv_drip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compproperties_glowingpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_glowingpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\compnukacolabottlecaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compnukacolabottlecaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\comps\\complocalfirefly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\complocalfirefly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\buildings\\building_tgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\buildings\\building_tgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\biome\\biomeworker_glowingsea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\biome\\biomeworker_glowingsea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\watcher\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 46,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IncidentWorker_HaroldInfection.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_HaroldInfection.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_HaroldInfection.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_HaroldInfection.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_HaroldInfection.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T17:39:01.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PawnKindDefOfLocal.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Pawns\\PawnKindDefOfLocal.cs",
+              "RelativeDocumentMoniker": "Watcher\\Pawns\\PawnKindDefOfLocal.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Pawns\\PawnKindDefOfLocal.cs",
+              "RelativeToolTip": "Watcher\\Pawns\\PawnKindDefOfLocal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-28T19:56:44.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Verb_MeleeAttackDamage.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Verb_MeleeAttackDamage.cs",
+              "RelativeDocumentMoniker": "Watcher\\Verb_MeleeAttackDamage.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Verb_MeleeAttackDamage.cs",
+              "RelativeToolTip": "Watcher\\Verb_MeleeAttackDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T19:10:51.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompProperties_MeleeCharge.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\CompProperties_MeleeCharge.cs",
+              "RelativeDocumentMoniker": "Watcher\\CompProperties_MeleeCharge.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\CompProperties_MeleeCharge.cs",
+              "RelativeToolTip": "Watcher\\CompProperties_MeleeCharge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:59:49.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FeralPawn.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Pawns\\FeralPawn.cs",
+              "RelativeDocumentMoniker": "Watcher\\Pawns\\FeralPawn.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Pawns\\FeralPawn.cs",
+              "RelativeToolTip": "Watcher\\Pawns\\FeralPawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:58:13.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Hediff_RemoveAddictions.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Hediffs\\Hediff_RemoveAddictions.cs",
+              "RelativeDocumentMoniker": "Watcher\\Hediffs\\Hediff_RemoveAddictions.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Hediffs\\Hediff_RemoveAddictions.cs",
+              "RelativeToolTip": "Watcher\\Hediffs\\Hediff_RemoveAddictions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:54:13.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameComponent_WatcherCheck.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\GameComponents\\GameComponent_WatcherCheck.cs",
+              "RelativeDocumentMoniker": "Watcher\\GameComponents\\GameComponent_WatcherCheck.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\GameComponents\\GameComponent_WatcherCheck.cs",
+              "RelativeToolTip": "Watcher\\GameComponents\\GameComponent_WatcherCheck.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:51:56.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IncidentWorker_InstantGrow.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_InstantGrow.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_InstantGrow.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_InstantGrow.cs*",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_InstantGrow.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T18:27:50.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HediffComp_HaroldDeathTransform.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Hediffs\\HediffComp_HaroldDeathTransform.cs",
+              "RelativeDocumentMoniker": "Watcher\\Hediffs\\HediffComp_HaroldDeathTransform.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Hediffs\\HediffComp_HaroldDeathTransform.cs",
+              "RelativeToolTip": "Watcher\\Hediffs\\HediffComp_HaroldDeathTransform.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAADwv9EAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T13:58:52.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IncidentWorker_RedThreatHunterDrones.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_RedThreatHunterDrones.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_RedThreatHunterDrones.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_RedThreatHunterDrones.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_RedThreatHunterDrones.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T15:42:51.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompProperties_AnimatedBuilding.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_AnimatedBuilding.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_AnimatedBuilding.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_AnimatedBuilding.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompProperties_AnimatedBuilding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T08:57:11.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IncidentWorker_EnclaveRecruitment.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_EnclaveRecruitment.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_EnclaveRecruitment.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_EnclaveRecruitment.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_EnclaveRecruitment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T08:54:44.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MentalState_ComicCreator.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\MentalState_ComicCreator.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\MentalState_ComicCreator.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\MentalState_ComicCreator.cs",
+              "RelativeToolTip": "Watcher\\Comps\\MentalState_ComicCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:51:58.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompProperties_StimulantAutoInjector.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\CompProperties_StimulantAutoInjector.cs",
+              "RelativeDocumentMoniker": "Watcher\\CompProperties_StimulantAutoInjector.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\CompProperties_StimulantAutoInjector.cs",
+              "RelativeToolTip": "Watcher\\CompProperties_StimulantAutoInjector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T18:15:06.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompMedicalGrenadeExtension.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\CompMedicalGrenadeExtension.cs",
+              "RelativeDocumentMoniker": "Watcher\\CompMedicalGrenadeExtension.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\CompMedicalGrenadeExtension.cs",
+              "RelativeToolTip": "Watcher\\CompMedicalGrenadeExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T13:32:37.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CompRandomProductExtension.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\CompRandomProductExtension.cs",
+              "RelativeDocumentMoniker": "Watcher\\CompRandomProductExtension.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\CompRandomProductExtension.cs",
+              "RelativeToolTip": "Watcher\\CompRandomProductExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T17:51:17.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WatcherDefOf.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\WatcherDefOf.cs",
+              "RelativeDocumentMoniker": "Watcher\\WatcherDefOf.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\WatcherDefOf.cs",
+              "RelativeToolTip": "Watcher\\WatcherDefOf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T18:51:14.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RadioDefOf.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\RadioDefOf.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\RadioDefOf.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\RadioDefOf.cs",
+              "RelativeToolTip": "Watcher\\Events\\RadioDefOf.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T20:07:22.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HediffComp_DutenSpawn.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Hediffs\\HediffComp_DutenSpawn.cs",
+              "RelativeDocumentMoniker": "Watcher\\Hediffs\\HediffComp_DutenSpawn.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Hediffs\\HediffComp_DutenSpawn.cs",
+              "RelativeToolTip": "Watcher\\Hediffs\\HediffComp_DutenSpawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T14:59:39.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompProperties_DirectionalExplosive.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_DirectionalExplosive.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_DirectionalExplosive.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_DirectionalExplosive.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompProperties_DirectionalExplosive.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwC4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T12:01:30.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CompProperties_IV_Drip.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_IV_Drip.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_IV_Drip.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_IV_Drip.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompProperties_IV_Drip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T11:08:53.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IncidentWorker_OverfertilizedHydroponics.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_OverfertilizedHydroponics.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_OverfertilizedHydroponics.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_OverfertilizedHydroponics.cs*",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_OverfertilizedHydroponics.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T15:16:11.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompProperties_EarthquakeStabilizer.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_EarthquakeStabilizer.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_EarthquakeStabilizer.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_EarthquakeStabilizer.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompProperties_EarthquakeStabilizer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwMMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T20:38:57.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameComponent_CorpseWearTracker.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\GameComponents\\GameComponent_CorpseWearTracker.cs",
+              "RelativeDocumentMoniker": "Watcher\\GameComponents\\GameComponent_CorpseWearTracker.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\GameComponents\\GameComponent_CorpseWearTracker.cs",
+              "RelativeToolTip": "Watcher\\GameComponents\\GameComponent_CorpseWearTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T17:58:24.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CompProperties_UseEffectInstallImplant.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_UseEffectInstallImplant.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_UseEffectInstallImplant.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_UseEffectInstallImplant.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompProperties_UseEffectInstallImplant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T15:25:27.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IncidentWorker_MonsterFromFishing.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_MonsterFromFishing.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_MonsterFromFishing.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_MonsterFromFishing.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_MonsterFromFishing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T18:32:42.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IncidentWorker_WatcherRain.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_WatcherRain.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_WatcherRain.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_WatcherRain.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_WatcherRain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T10:07:17.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThoughtWorker.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\ThoughtWorker.cs",
+              "RelativeDocumentMoniker": "Watcher\\ThoughtWorker.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\ThoughtWorker.cs",
+              "RelativeToolTip": "Watcher\\ThoughtWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T17:49:57.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompsWithFilth.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompsWithFilth.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompsWithFilth.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompsWithFilth.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompsWithFilth.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwEwBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T23:20:44.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CompProperties_GlowingPawn.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_GlowingPawn.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_GlowingPawn.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompProperties_GlowingPawn.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompProperties_GlowingPawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:54:58.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IncidentWorker_WatcherPoopocalypse.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_WatcherPoopocalypse.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_WatcherPoopocalypse.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_WatcherPoopocalypse.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_WatcherPoopocalypse.cs",
+              "ViewState": "AgIAAOcBAAAAAAAAAADwv/cBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T13:53:10.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IncidentWorker_ReactorCoreDamage.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_ReactorCoreDamage.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_ReactorCoreDamage.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_ReactorCoreDamage.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_ReactorCoreDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T09:42:11.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Hediff_ExplodeAndSpawnOnDeath.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Hediffs\\Hediff_ExplodeAndSpawnOnDeath.cs",
+              "RelativeDocumentMoniker": "Watcher\\Hediffs\\Hediff_ExplodeAndSpawnOnDeath.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Hediffs\\Hediff_ExplodeAndSpawnOnDeath.cs",
+              "RelativeToolTip": "Watcher\\Hediffs\\Hediff_ExplodeAndSpawnOnDeath.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAIwBEBAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T18:54:41.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Building_TGenerator.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Buildings\\Building_TGenerator.cs",
+              "RelativeDocumentMoniker": "Watcher\\Buildings\\Building_TGenerator.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Buildings\\Building_TGenerator.cs",
+              "RelativeToolTip": "Watcher\\Buildings\\Building_TGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T17:13:26.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CompSummonCreature.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompSummonCreature.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompSummonCreature.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompSummonCreature.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompSummonCreature.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T19:18:49.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IncidentWorker_DeathclawTunnelEvent.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_DeathclawTunnelEvent.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_DeathclawTunnelEvent.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_DeathclawTunnelEvent.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_DeathclawTunnelEvent.cs",
+              "ViewState": "AgIAAPUBAAAAAAAAAAAUwBcCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T21:53:04.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IncidentWorker_RadNado.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_RadNado.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_RadNado.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_RadNado.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_RadNado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T18:31:23.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IncidentWorker_QuarryAnimalAttack.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_QuarryAnimalAttack.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_QuarryAnimalAttack.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_QuarryAnimalAttack.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_QuarryAnimalAttack.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T18:07:54.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IncidentWorker_StrangeCall.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_StrangeCall.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_StrangeCall.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_StrangeCall.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_StrangeCall.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAgAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T17:52:24.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CompLocalFire.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompLocalFire.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompLocalFire.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompLocalFire.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompLocalFire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T20:52:39.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IncidentWorker_CreatureSpawnNearLatrine.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_CreatureSpawnNearLatrine.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_CreatureSpawnNearLatrine.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_CreatureSpawnNearLatrine.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_CreatureSpawnNearLatrine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T11:05:35.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IncidentWorker_BringersofDemocracy.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_BringersofDemocracy.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_BringersofDemocracy.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_BringersofDemocracy.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_BringersofDemocracy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T10:23:33.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IncidentWorker_ArmyCall.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_ArmyCall.cs",
+              "RelativeDocumentMoniker": "Watcher\\Events\\IncidentWorker_ArmyCall.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Events\\IncidentWorker_ArmyCall.cs",
+              "RelativeToolTip": "Watcher\\Events\\IncidentWorker_ArmyCall.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T09:41:30.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompToxicBuildup.Remover.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompToxicBuildup.Remover.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompToxicBuildup.Remover.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompToxicBuildup.Remover.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompToxicBuildup.Remover.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T20:58:58.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CompNukaColaBottleCaps.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompNukaColaBottleCaps.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompNukaColaBottleCaps.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompNukaColaBottleCaps.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompNukaColaBottleCaps.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwE8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T16:29:39.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrebuiltBase.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Buildings\\PrebuiltBase.cs",
+              "RelativeDocumentMoniker": "Watcher\\Buildings\\PrebuiltBase.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Buildings\\PrebuiltBase.cs",
+              "RelativeToolTip": "Watcher\\Buildings\\PrebuiltBase.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwM0FAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:33:25.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CompLocalFirefly.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompLocalFirefly.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompLocalFirefly.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Comps\\CompLocalFirefly.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompLocalFirefly.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T11:41:48.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Watcher\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Watcher\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T21:28:00.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "BiomeWorker_GlowingSea.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Biome\\BiomeWorker_GlowingSea.cs",
+              "RelativeDocumentMoniker": "Watcher\\Biome\\BiomeWorker_GlowingSea.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout2\\1.6\\Source\\Watcher\\Biome\\BiomeWorker_GlowingSea.cs",
+              "RelativeToolTip": "Watcher\\Biome\\BiomeWorker_GlowingSea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T21:22:14.357Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

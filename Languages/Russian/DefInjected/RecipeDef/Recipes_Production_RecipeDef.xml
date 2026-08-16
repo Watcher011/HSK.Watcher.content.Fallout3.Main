@@ -1,0 +1,117 @@
+<LanguageData>
+<MakeBottlecapGrenades.label>Создать мину из крышек x5</MakeBottlecapGrenades.label>
+<MakeBottlecapGrenades.description>Популярный довоенный обеденный ящик Vault-Tec стал основой для смертельной мины в постапокалиптическом Содружестве. Это самодельное устройство поможет вам справиться с любым врагом. Можно метать как гранату.</MakeBottlecapGrenades.description>
+<MakeBottlecapGrenades.jobString>Создаёт мину из крышек.</MakeBottlecapGrenades.jobString>
+
+<BuildHarpoonGun.label>Создать гарпунное ружьё</BuildHarpoonGun.label>
+<BuildHarpoonGun.description>Нестандартное гарпунное ружьё.</BuildHarpoonGun.description>
+<BuildHarpoonGun.jobString>Создание гарпунного ружья.</BuildHarpoonGun.jobString>
+
+<MakeCupBotel.label>Создать крышки от бутылок x100</MakeCupBotel.label>
+<MakeCupBotel.description>Переплавить крышки от бутылок. 100 шт.</MakeCupBotel.description>
+<MakeCupBotel.jobString>Переплавка.</MakeCupBotel.jobString>
+
+<BuildFalloutPipeGun.label>Создать трубный пистолет</BuildFalloutPipeGun.label>
+<BuildFalloutPipeGun.description>Создаёт трубный пистолет. Слабый и с малым радиусом действия, но работает.\nКалибр: 9x19mm</BuildFalloutPipeGun.description>
+<BuildFalloutPipeGun.jobString>Создание трубного пистолета.</BuildFalloutPipeGun.jobString>
+
+<BuildVagabondRifle.label>Создать винтовку «Бродяга»</BuildVagabondRifle.label>
+<BuildVagabondRifle.description>Создаёт винтовку «Бродяга» для полевых или городских боёв.\nКалибр: 5.56x45mm NATO</BuildVagabondRifle.description>
+<BuildVagabondRifle.jobString>Создание винтовки «Бродяга».</BuildVagabondRifle.jobString>
+
+<BuildPepperShaker.label>Создать «Перцемолку»</BuildPepperShaker.label>
+<BuildPepperShaker.description>Создаёт «Перцемолку». Требуется одна секунда на раскрутку перед автоматическим выстрелом восемью дробовыми патронами. Считается одновременно и дробовиком, и тяжёлым оружием, получая бонусы от соответствующих перков.\nКалибр: 12 калибр</BuildPepperShaker.description>
+<BuildPepperShaker.jobString>Создание «Перцемолки».</BuildPepperShaker.jobString>
+
+<BuildOldRevolver.label>Создать самодельный револьвер «Мусорщик»</BuildOldRevolver.label>
+<BuildOldRevolver.description>Создаёт револьвер «Мусорщик». Слабый и с малым радиусом действия.\nКалибр: .45 ACP</BuildOldRevolver.description>
+<BuildOldRevolver.jobString>Создание самодельного револьвера.</BuildOldRevolver.jobString>
+
+<BuildAN556Order.label>Создать AN556 «Приказ»</BuildAN556Order.label>
+<BuildAN556Order.description>AN556 «Приказ» — улучшенная версия AN550, длинноствольная винтовка. Средний урон и дальность, хорошая скорострельность и точность.\nКалибр: 5.56x45mm NATO</BuildAN556Order.description>
+<BuildAN556Order.jobString>Создание AN556 «Приказ».</BuildAN556Order.jobString>
+
+<BuildAssaultCarbine.label>Создать штурмовую винтовку</BuildAssaultCarbine.label>
+<BuildAssaultCarbine.description>Стандартная штурмовая винтовка предлагает хороший баланс между уроном и точностью, что делает её хорошим выбором для различных боевых ситуаций. Многие доступные модификации сделают это оружие пригодным для автоматического огня. А правильно модифицированная штурмовая винтовка может стать хорошей снайперской винтовкой с большим магазином и относительно высокой скорострельностью.\nКалибр: 5.56x45mm NATO</BuildAssaultCarbine.description>
+<BuildAssaultCarbine.jobString>Создание штурмовой винтовки.</BuildAssaultCarbine.jobString>
+
+<BuildHellBoss.label>Создать пулемёт «Адский босс»</BuildHellBoss.label>
+<BuildHellBoss.description>Пулемёт «Адский босс». В мире, где законы пишутся стволом, а перемирие — лишь пауза для перезарядки, обычные пулемёты для тех, кто всё ещё верит в переговоры. Hell Boss — это не стрельба, это залповая артиллерийская подготовка в компактном формате.\nКалибр: .50мм</BuildHellBoss.description>
+<BuildHellBoss.jobString>Создание «Адского босса».</BuildHellBoss.jobString>
+
+<BuildFlamethrowerLastWarning.label>Создать огнемёт «Последнее предупреждение»</BuildFlamethrowerLastWarning.label>
+<BuildFlamethrowerLastWarning.description>Нестандартный огнемёт «Последнее предупреждение».</BuildFlamethrowerLastWarning.description>
+<BuildFlamethrowerLastWarning.jobString>Создание огнемёта «Последнее предупреждение».</BuildFlamethrowerLastWarning.jobString>
+
+<BuildFatMan.label>Создать «Толстяка»</BuildFatMan.label>
+<BuildFatMan.description>Создаёт «Толстяка».\nКалибр: Ядерный заряд</BuildFatMan.description>
+<BuildFatMan.jobString>Создание «Толстяка».</BuildFatMan.jobString>
+
+<MakeAmmo_FatManShell_NHE.label>Создать ядерный снаряд для «Толстяка» x1</MakeAmmo_FatManShell_NHE.label>
+<MakeAmmo_FatManShell_NHE.description>Ядерный снаряд для «Толстяка» x1.</MakeAmmo_FatManShell_NHE.description>
+<MakeAmmo_FatManShell_NHE.jobString>Создаёт снаряд для «Толстяка».</MakeAmmo_FatManShell_NHE.jobString>
+
+<MakeAmmo_FatManShell_FGM.label>Создать снаряд «Пигги Бумба» для «Толстяка» x1</MakeAmmo_FatManShell_FGM.label>
+<MakeAmmo_FatManShell_FGM.description>Снаряд для «Толстяка» x1.</MakeAmmo_FatManShell_FGM.description>
+<MakeAmmo_FatManShell_FGM.jobString>Создаёт снаряд для «Толстяка».</MakeAmmo_FatManShell_FGM.jobString>
+
+<BuildFalloutPlasmaCarbine.label>Создать плазменный карабин</BuildFalloutPlasmaCarbine.label>
+<BuildFalloutPlasmaCarbine.description>Легкая плазменная винтовка малой дальности.</BuildFalloutPlasmaCarbine.description>
+<BuildFalloutPlasmaCarbine.jobString>Создание плазменного карабина.</BuildFalloutPlasmaCarbine.jobString>
+
+<BuildFallout_PlasmaPistol.label>Создать плазменный пистолет «Клык Иона»</BuildFallout_PlasmaPistol.label>
+<BuildFallout_PlasmaPistol.description>Высокоточный плазменный пистолет «Клык Иона».</BuildFallout_PlasmaPistol.description>
+<BuildFallout_PlasmaPistol.jobString>Создание «Клыка Иона».</BuildFallout_PlasmaPistol.jobString>
+
+<BuildFallout_PlasmaWraith.label>Создать плазменную винтовку «Призрак»</BuildFallout_PlasmaWraith.label>
+<BuildFallout_PlasmaWraith.description>Плазменная снайперская винтовка «Призрак», высокая точность, но низкая скорострельность.</BuildFallout_PlasmaWraith.description>
+<BuildFallout_PlasmaWraith.jobString>Создание «Призрака».</BuildFallout_PlasmaWraith.jobString>
+
+<BuildMinigunPlasma.label>Создать плазменный гатлинг «Раскалённая буря»</BuildMinigunPlasma.label>
+<BuildMinigunPlasma.description>Создаёт плазменный гатлинг «Раскалённая буря». «Когда мир уже сгорел, зачем останавливаться?»</BuildMinigunPlasma.description>
+<BuildMinigunPlasma.jobString>Создание «Раскалённой бури».</BuildMinigunPlasma.jobString>
+
+<BuildLaserCarbineRifle.label>Создать карабин «AER-14»</BuildLaserCarbineRifle.label>
+<BuildLaserCarbineRifle.description>«Чистый срез технологий Старого Мира — бездымный, безопасный и смертоносный».</BuildLaserCarbineRifle.description>
+<BuildLaserCarbineRifle.jobString>Создание AER-14.</BuildLaserCarbineRifle.jobString>
+
+<BuildFallout_LaserPistolML.label>Создать AER-9 «Поцелуй солнца»</BuildFallout_LaserPistolML.label>
+<BuildFallout_LaserPistolML.description>Разработанный General Atomics International в рамках программы «Защити Америку... от самой себя», AER-9 должен был стать оружием будущего — лёгким, точным и смертоносным. Но, как и всё в этом мире, будущее наступило криво, наискосок и с перебоями питания. После Великой войны эти пистолеты широко распространились среди выживших, мутантов и прочих любителей «точечной» дипломатии.</BuildFallout_LaserPistolML.description>
+<BuildFallout_LaserPistolML.jobString>Создание M-6 Mantis.</BuildFallout_LaserPistolML.jobString>
+
+<BuildFallout_LaserPistol.label>Создать лазерный пистолет «Синтез-MK IV»</BuildFallout_LaserPistol.label>
+<BuildFallout_LaserPistol.description>Syntectics Institute™ – Мы не просто создаём технологии. Мы создаём будущее… которое может пережить вас.</BuildFallout_LaserPistol.description>
+<BuildFallout_LaserPistol.jobString>Создание M-6 Mantis.</BuildFallout_LaserPistol.jobString>
+
+<BuildFallout_LaserCarbineML.label>Создать AER-12 «Лазерный шёпот»</BuildFallout_LaserCarbineML.label>
+<BuildFallout_LaserCarbineML.description>«Когда нужно аккуратно испарить врага, а не просто размазать его по стене».</BuildFallout_LaserCarbineML.description>
+<BuildFallout_LaserCarbineML.jobString>Создание AER-14.</BuildFallout_LaserCarbineML.jobString>
+
+<BuildFallout_TeslaCannon.label>Создать переносную тесла-пушку «Громовержец»</BuildFallout_TeslaCannon.label>
+<BuildFallout_TeslaCannon.description>Создаёт плазменный гатлинг «Раскалённая буря». «Когда мир уже сгорел, зачем останавливаться?»</BuildFallout_TeslaCannon.description>
+<BuildFallout_TeslaCannon.jobString>Создание «Раскалённой бури».</BuildFallout_TeslaCannon.jobString>
+
+<MakeWastepack.label>Разобрать токсичные отходы</MakeWastepack.label>
+<MakeWastepack.description>При поиске в токсичных отходах можно найти что-то полезное. Работа с токсичными отходами негативно влияет на здоровье.</MakeWastepack.description>
+<MakeWastepack.jobString>Поиск</MakeWastepack.jobString>
+
+<BuildFalloutSyringerRifle.label>Создать винтовку-шприцемёт</BuildFalloutSyringerRifle.label>
+<BuildFalloutSyringerRifle.description>Создаёт винтовку-шприцемёт. Слабая и с малым радиусом действия, но работает.\nКалибр: Дротик</BuildFalloutSyringerRifle.description>
+<BuildFalloutSyringerRifle.jobString>Создание винтовки-шприцемёта.</BuildFalloutSyringerRifle.jobString>
+
+<BuildFalloutSyringerGun.label>Создать пистолет-шприцемёт</BuildFalloutSyringerGun.label>
+<BuildFalloutSyringerGun.description>Создаёт пистолет-шприцемёт. Слабый и с малым радиусом действия, но работает.\nКалибр: Дротик</BuildFalloutSyringerGun.description>
+<BuildFalloutSyringerGun.jobString>Создание пистолета-шприцемёта.</BuildFalloutSyringerGun.jobString>
+
+<BuildGun_Vickers.label>Создать Vickers .303 Mark I</BuildGun_Vickers.label>
+<BuildGun_Vickers.description>Создаёт Vickers .303 Mark I.\nКалибр: .303 British</BuildGun_Vickers.description>
+<BuildGun_Vickers.jobString>Создание Vickers.</BuildGun_Vickers.jobString>
+
+<BuildGun_Bren.label>Создать Bren .303</BuildGun_Bren.label>
+<BuildGun_Bren.description>Создаёт Bren.\nКалибр: .303 British</BuildGun_Bren.description>
+<BuildGun_Bren.jobString>Создание Bren.</BuildGun_Bren.jobString>
+
+<MakeScrapMetal.label>разобрать металлолом</MakeScrapMetal.label>
+<MakeScrapMetal.description>При поиске в металлоломе можно найти что-то полезное.</MakeScrapMetal.description>
+<MakeScrapMetal.jobString>Поиск</MakeScrapMetal.jobString>
+</LanguageData>

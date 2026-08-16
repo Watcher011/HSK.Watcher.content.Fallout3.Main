@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	
+	<DamageDef ParentName="Bullet">
+		<defName>CapShredded</defName>
+		<label>Lids</label>
+		<deathMessage>{0} stuffed to death.</deathMessage>
+		<hediff>Shredded</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<minDamageToFragment>8</minDamageToFragment>
+		<!-- <buildingDamageFactor>0.125</buildingDamageFactor> -->
+		<buildingDamageFactorImpassable>0.4</buildingDamageFactorImpassable>
+		<buildingDamageFactorPassable>0.125</buildingDamageFactorPassable>
+		<plantDamageFactor>0.125</plantDamageFactor>
+	</DamageDef>
+
+
+  <DamageDef ParentName="Bullet">
+    <defName>ACP</defName>
+    <label>shell</label>
+    <deathMessage>{0} has been shredded to death.</deathMessage>
+    <hediff>Shredded</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <minDamageToFragment>15</minDamageToFragment>
+    <buildingDamageFactor>6</buildingDamageFactor>
+    <plantDamageFactor>14</plantDamageFactor>
+  </DamageDef>
+  
+  <DamageDef Name="ACExp" ParentName="Bomb" Abstract="true">
+    <label>bomb</label>
+    <minDamageToFragment>999</minDamageToFragment>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <defaultArmorPenetration>320</defaultArmorPenetration>
+	<buildingDamageFactor>30</buildingDamageFactor>
+    <plantDamageFactor>8</plantDamageFactor>
+  </DamageDef>
+  
+  <DamageDef ParentName="ACExp">
+    <defName>ACB</defName>
+  </DamageDef>
+  
+  <DamageDef ParentName="ACExp">
+    <defName>NuclearB</defName>
+	<explosionCenterMote>Mote_NukeCloud</explosionCenterMote>
+  </DamageDef>
+  
+ <DamageDef ParentName="Bullet">
+		<defName>Charge</defName>
+		<label>Charge</label>
+		<hediff>Burn</hediff>
+    	 <defaultDamage>800</defaultDamage>
+         <defaultStoppingPower>1.5</defaultStoppingPower>
+         <defaultArmorPenetration>1</defaultArmorPenetration>
+         <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+        <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
+        <plantDamageFactor>2</plantDamageFactor>
+        <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
+       <explosionCellFleck>BlastOptic</explosionCellFleck>
+       <armorCategory>Heat</armorCategory>
+       <minDamageToFragment>15</minDamageToFragment>
+       <makesAnimalsFlee>true</makesAnimalsFlee>
+       <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+      <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+      <soundExplosion>Explosion_Vaporize</soundExplosion>
+      <expolosionPropagationSpeed>0.3</expolosionPropagationSpeed>
+       <hasForcefulImpact>true</hasForcefulImpact>
+      <corpseDamageFactor>0.1</corpseDamageFactor>
+		<additionalHediffs>
+			<li>
+				<hediff>Charge</hediff>
+				<severityPerDamageDealt>0.9</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+	
+	<DamageDef ParentName="Flame">
+		<defName>PlasmaCharge</defName>
+		<label>Plasma Charge</label>
+		 <defaultDamage>800</defaultDamage>
+		 <armorCategory>Heat</armorCategory>
+		<workerClass>DamageWorker_Flame</workerClass>
+		 <explosionCellFleck>BlastPlasma</explosionCellFleck>
+		<buildingDamageFactor>6</buildingDamageFactor>
+		<plantDamageFactor>6</plantDamageFactor>
+		<additionalHediffs>
+			<li>
+				<hediff>Charge</hediff>
+				<severityPerDamageDealt>0.9</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<modExtensions>
+			<li Class="CombatExtended.DamageDefExtensionCE">
+				<worldDamageMultiplier>1.6</worldDamageMultiplier>
+			</li>
+		</modExtensions>
+	</DamageDef>
+
+<!--	<DamageDef ParentName="LocalInjuryBase">
+		<defName>DutenDart</defName>
+       <label>Duten Dart</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death by an arrow.</deathMessage>
+		<hediff>Cut</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<buildingDamageFactor>0.05</buildingDamageFactor>
+		<plantDamageFactor>0.5</plantDamageFactor>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<additionalHediffs>
+			<li>
+				<hediff>BlowflyLarva</hediff>
+				<severityPerDamageDealt>0.12</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef>-->
+	
+	
+	<!--<DamageDef ParentName="Bullet">
+		<defName>DutenDart</defName>
+         <label>Duten Dart</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death by an arrow.</deathMessage>
+		<hediff>Cut</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<buildingDamageFactor>0.05</buildingDamageFactor>
+		<plantDamageFactor>0.5</plantDamageFactor>
+		 
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<additionalHediffs>
+			<li>
+				<hediff>BlowflyLarva</hediff>
+				<severityPerDamageDealt>0.12</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef>-->
+	
+
+   
+   <DamageDef ParentName="Bullet">
+		<defName>HealyFog</defName>
+		<label>Healy Fog</label>
+		<additionalHediffs>
+			<li>
+				<hediff>StimpakSuper</hediff>
+				<severityPerDamageDealt>0.9</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+   <DamageDef Name="Nuclear">
+    <defName>FalloutBomb</defName>
+	<explosionCenterMote>Mote_ArcFlash</explosionCenterMote>
+    <workerClass>DamageWorker_Vaporize</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been vaporized by extreme heat.</deathMessage>
+    <hediff>Burn</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <defaultDamage>800</defaultDamage>
+	 <minDamageToFragment>99999</minDamageToFragment>
+	 <defaultStoppingPower>3.5</defaultStoppingPower>
+     <defaultArmorPenetration>400</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>400</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>200</buildingDamageFactorPassable>
+    <plantDamageFactor>2</plantDamageFactor>
+    <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
+    <explosionCellFleck>Fleck_Vaporize</explosionCellFleck>
+    <armorCategory>Heat</armorCategory>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+    <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+    <soundExplosion>Explosion_Vaporize</soundExplosion>
+    <expolosionPropagationSpeed>0.3</expolosionPropagationSpeed>
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <corpseDamageFactor>0.1</corpseDamageFactor>
+	<additionalHediffs>
+			<li>
+				<hediff>PrometheumSoaked</hediff>
+				<severityPerDamageDealt>0.05</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+  </DamageDef>
+  
+    <DamageDef>
+    <defName>Watcher_MedicalFoam</defName>
+    <label>medical foam</label>
+    <workerClass>Watcher.Comps.DamageWorker_MedicalFoam_CE</workerClass>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <minDamageToFragment>99999</minDamageToFragment>
+    <defaultDamage>1</defaultDamage>
+    <defaultArmorPenetration>0</defaultArmorPenetration>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
+    <explosionCellFleck>BlastDry</explosionCellFleck>
+    <explosionColorCenter>(0.7, 0.9, 1.0)</explosionColorCenter>
+    <explosionColorEdge>(0.5, 0.7, 0.9)</explosionColorEdge>
+    <!-- ДОБАВЛЕНО: звук взрыва -->
+    <soundExplosion>Explosion_Vaporize</soundExplosion>
+  </DamageDef>
+
+</Defs>

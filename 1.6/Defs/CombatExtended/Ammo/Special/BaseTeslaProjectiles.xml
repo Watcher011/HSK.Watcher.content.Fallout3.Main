@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" Name="BaseTeslaBullet" ParentName="BaseBulletCE" Abstract="True">
+		<thingClass>CombatExtended.Lasers.LaserBeamCE</thingClass>
+		<label>Tesla beam</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<beamGraphic>BeamGraphic</beamGraphic>
+		<seam>0</seam>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<isInstant>true</isInstant>
+			<damageDef>Electrical</damageDef>
+		</projectile>
+		<modExtensions>
+			<li Class="ProjectileImpactFX.EffectProjectileExtension">
+			<AutoAssign>false</AutoAssign>
+				<CreateTerrainEffects>false</CreateTerrainEffects>
+				<explosionFleckDef>Fleck_HeatGlow_API</explosionFleckDef>
+				<explosionFleckSize>4</explosionFleckSize>
+				<ImpactGlowFleckDef>ExplosionFlash</ImpactGlowFleckDef>
+				<ImpactGlowFleckSize>5</ImpactGlowFleckSize>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<!-- ================== Base laser with a generic texture ================== -->
+	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" Name="BaseTeslaBulletTextured" ParentName="BaseLaserBullet" Abstract="True">
+		<textures>
+			<li>Things/Projectile/Tesla_CE</li>
+		</textures>
+	</ThingDef>
+
+	<!-- ================== White Laser ================== -->
+	<ThingDef Class="CombatExtended.Lasers.LaserBeamDefCE" Name="TeslaBulletWhite" ParentName="BaseTeslaBulletTextured" Abstract="True">
+		<graphicData>
+			<color>(255,255,255)</color>
+		</graphicData>
+	</ThingDef>
+
+	
+
+</Defs>

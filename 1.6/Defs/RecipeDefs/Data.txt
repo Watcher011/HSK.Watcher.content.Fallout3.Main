@@ -1,0 +1,15 @@
+| Параметр                | Описание                                 | Возможные значения                   |
+| ----------------------- | ---------------------------------------- | ------------------------------------ |
+| `applyHediff`           | Включить hediff для крафтера             | `true` / `false`                     |
+| `onlyHumanCrafters`     | Только люди получают hediff              | `true` / `false`                     |
+| `crafterHediff`         | Тип hediff (токсины, кровопотеря и т.д.) | `ToxicBuildup`, `BloodLoss` и др.    |
+| `crafterHediffSeverity` | Сила hediff (0.0 - 1.0+)                 | `0.1` - `1.0`                        |
+| `crafterBodyPart`       | Часть тела для hediff (опционально)      | `Brain`, `Torso` и др.               |
+| `spawnAsPawn`           | Спавнить как существо                    | `true` / `false`                     |
+| `spawnAsActiveGrenade`  | Спавнить как активную гранату            | `true` / `false`                     |
+| `fuseTicks`             | Задержка взрыва (60 = 1 сек)             | `30`, `60`, `120` и т.д.             |
+| `tameIfAnimal`          | Приручать если животное                  | `true` / `false`                     |
+| `factionType`           | Фракция для существа                     | `Player`, `Enemy`, `Neutral`, `Wild` |
+
+<workerClass>Watcher.Comps.RecipeWorker_RandomProduct</workerClass>
+ <li Class="Watcher.Comps.RandomProductExtension">

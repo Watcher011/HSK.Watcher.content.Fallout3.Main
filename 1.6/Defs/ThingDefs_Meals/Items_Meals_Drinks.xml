@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="NukaColaBeverage" ParentName="MealBeverageIngredientless" Abstract="True">
+		<comps>
+			<li Class="CompProperties_Ingredients">
+				<splitTransferableFoodKind>true</splitTransferableFoodKind>
+			</li>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1100</listOrder>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>Energetics</li>
+		</thingCategories>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>20</stackLimit>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		
+	</ThingDef>
+	
+
+	<ThingDef ParentName="NukaColaBeverage">
+		<defName>NukaCola</defName>
+		<label>Nuka-Cola</label>
+		<description>A popular drink common throughout the United States.</description>
+		<graphicData>
+			<texPath>Things/Item/Cola/NukaCola</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.4,0.4)</drawSize>
+		</graphicData>
+		
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadNukaCola</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodNukaCola</hediffDef>
+					<severity>0.25</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.1</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.04</severity>
+				</li>
+	<li Class="Watcher.Comps.IngestionOutcomeDoer_SpawnItem">
+                <thingDef>BottleCap</thingDef>
+                <count>1</count>
+                <spawnRadius>0.1</spawnRadius>
+                <message>Nuka-Cola cap dropped</message>
+            </li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+
+
+    <ThingDef ParentName="NukaColaBeverage">
+		<defName>NukaColaQuantum</defName>
+		<label>Nuka-Cola Quantum</label>
+		<description>A refreshing, invigorating and slightly radioactive drink of the future! Nuka-Cola Quantum is not just a soda, it is a scientific breakthrough in every blue-blue drop! Thanks to the revolutionary Strontium-90 Delight™ technology, your body will glow with happiness even in the pitch darkness of post-war hell!.</description>
+		<graphicData>
+			<texPath>Things/Item/Cola/NukaColaQuantum</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.4,0.4)</drawSize>
+		</graphicData>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadColaQuantum</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodNukaCola</hediffDef>
+					<severity>0.25</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.1</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.04</severity>
+				</li>
+		<li Class="Watcher.Comps.IngestionOutcomeDoer_SpawnItem">
+                <thingDef>BottleCap</thingDef>
+                <count>1</count>
+                <spawnRadius>0.1</spawnRadius>
+                <message>Nuka-Cola cap dropped</message>
+            </li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(0,10,243)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+    <ThingDef ParentName="NukaColaBeverage">
+		<defName>NukaColaVictoria</defName>
+		<label>Nuka-Cola Victoria</label>
+		<description>Taste the triumph with every sip of this limited edition Nuka-Cola, released in honor of our great and completely bloodless annexation of Canada! Now with an even more patriotic aftertaste of freedom and subtle notes of Canadian tears.</description>
+		<graphicData>
+			<texPath>Things/Item/Cola/NukaColaVictoria</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.4,0.4)</drawSize>
+		</graphicData>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadNukaCola</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodNukaCola</hediffDef>
+					<severity>0.25</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.3</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+		<li Class="Watcher.Comps.IngestionOutcomeDoer_SpawnItem">
+                <thingDef>BottleCap</thingDef>
+                <count>1</count>
+                <spawnRadius>0.1</spawnRadius>
+                <message>Nuka-Cola cap dropped</message>
+            </li>
+			</outcomeDoers>
+		</ingestible>
+		
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="NukaColaBeverage">
+		<defName>NukaColaGrapes</defName>
+		<label>Nuka-Cola Grapes</label>
+		<description>"A refreshing taste of poisonous delight!"When nuclear winter took away the last joys of humanity, the Nuclear-Cola Corporation gave the world "Grapes" - a drink that not only reminds us of grapes, but completely replaces them.</description>
+		<graphicData>
+			<texPath>Things/Item/Cola/NukaColaGrapes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.4,0.4)</drawSize>
+		</graphicData>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadNukaCola</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodNukaCola</hediffDef>
+					<severity>0.25</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.1</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+		<li Class="Watcher.Comps.IngestionOutcomeDoer_SpawnItem">
+                <thingDef>BottleCap</thingDef>
+                <count>1</count>
+                <spawnRadius>0.1</spawnRadius>
+                <message>Nuka-Cola cap dropped</message>
+            </li>
+			</outcomeDoers>
+		</ingestible>
+		
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="NukaColaBeverage">
+		<defName>NukaColaOnslaught</defName>
+		<label>Nuka-Cola Onslaught</label>
+		<description>The official energy drink of the Nation of Steel and the favorite drink of Brotherhood soldiers... well, those who aren't afraid to break the rules. Now with double the caffeine, triple the radiation, and a little something extra for the real heroes of Hell on Earth!</description>
+		<graphicData>
+			<texPath>Things/Item/Cola/NukaColaOnslaught</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.4,0.4)</drawSize>
+		</graphicData>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>0.17</joy>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadNukaCola</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+			<joyKind>Gluttonous</joyKind>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>GoodNukaCola</hediffDef>
+					<severity>0.25</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.1</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RimatomicsRadiation</hediffDef>
+					<severity>0.04</severity>
+				</li>
+		<li Class="Watcher.Comps.IngestionOutcomeDoer_SpawnItem">
+                <thingDef>BottleCap</thingDef>
+                <count>1</count>
+                <spawnRadius>0.1</spawnRadius>
+                <message>Nuka-Cola cap dropped</message>
+            </li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(0,243,10)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="NukaColaBeverage">
+		<defName>NukaColaDark</defName>
+		<label>Nuka-Cola Dark</label>
+		<description>When regular Nuka-Cola isn't enough, and Quantum is too glowy in the dark (and attracts raiders), Dark Nuka-Cola comes to the rescue - a drink for those who want to forget what year the apocalypse happened.</description>
+		<graphicData>
+			<texPath>Things/Item/Cola/NukaColaDark</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.4,0.4)</drawSize>
+		</graphicData>
+		<descriptionHyperlinks>
+        <HediffDef>AlcoholHigh</HediffDef>
+        <HediffDef>AlcoholTolerance</HediffDef>
+        <HediffDef>Hangover</HediffDef>
+        <HediffDef>AlcoholAddiction</HediffDef>
+        <HediffDef>Cirrhosis</HediffDef>
+        <HediffDef>ChemicalDamageModerate</HediffDef>
+       </descriptionHyperlinks>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<joy>1.0</joy>
+			<nurseable>true</nurseable>
+			 <joyKind>Chemical</joyKind>
+			<drugCategory>Social</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>HadColaDark</tasteThought>
+			<chairSearchRadius>25</chairSearchRadius>
+	    <outcomeDoers>
+	    <li Class="IngestionOutcomeDoer_GiveHediff">
+              <hediffDef>AlcoholHigh</hediffDef>
+              <severity>0.15</severity>
+              <toleranceChemical>Alcohol</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+               <hediffDef>AlcoholTolerance</hediffDef>
+               <toleranceChemical>Alcohol</toleranceChemical>
+               <severity>0.016</severity>
+               <divideByBodySize>true</divideByBodySize>
+               <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+        </li>
+		<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.1</offset>
+					<toleranceChemical>Caffeine</toleranceChemical>
+		</li>
+		<li Class="Watcher.Comps.IngestionOutcomeDoer_SpawnItem">
+                <thingDef>BottleCap</thingDef>
+                <count>1</count>
+                <spawnRadius>0.1</spawnRadius>
+                <message>Nuka-Cola cap dropped</message>
+            </li>
+	    </outcomeDoers>
+		</ingestible>
+		<comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Alcohol</chemical>
+        <addictiveness>0.010</addictiveness>
+        <minToleranceToAddict>0.25</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <listOrder>10</listOrder>
+      </li>
+    </comps>
+	</ThingDef>
+</Defs>

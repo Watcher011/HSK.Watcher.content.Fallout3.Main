@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+
+  <ThingDef ParentName="FishBase">
+    <defName>Fish_ThreeCrawler</defName>
+    <label>Three-eyed Crawler</label>
+    <description>In appearance, this mutated catfish or carp resembles a digitally rendered texture error brought to life. Its scaleless body is covered in bumpy, unevenly colored skin with dirty gray, yellow, and pinkish spots, reminiscent of a fungal colony. The most disturbing feature is its three eyes: two normal, bulging ones, and one large, cloudy white one located in the center of its forehead. This third eye doesn't see in the traditional sense, but rather senses changes in pressure, electrical impulses, and possibly the emotional state of nearby creatures, which is reflected in its convulsive rotation.</description>
+    <graphicData>
+      <texPath>Things/Item/Fish/Crawler</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <Mass>1.5</Mass>
+      <MarketValue>22</MarketValue>
+    </statBases>
+	<comps>
+	<li Class="CompProperties_Glower">
+        <glowRadius>4.5</glowRadius>
+        <glowColor>(5,255,5,5)</glowColor>
+      </li>
+	  </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="FishBase" MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>Fish_Radharvester</defName>
+    <label>Saw-nose Radharvester</label>
+    <description>This mutant, once a small freshwater fish, has evolved into a veritable nightmare of radioactive waters. Its most striking feature is the outgrowth of its upper jaw, which has transformed into a serrated bony saw covered in a semi-metallic growth (a result of the bioaccumulation of radiation and minerals). The saw emits a faint greenish glow due to the radioactive isotopes incorporated into its structure.</description>
+    <graphicData>
+      <texPath>Things/Item/Fish/Radharvester</texPath>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+      <MarketValue>1</MarketValue>
+      <Beauty>-5</Beauty>
+      <FoodPoisonChanceFixedHuman>0.04</FoodPoisonChanceFixedHuman>
+    </statBases>
+	 <comps>
+      <!-- 2. Компонент для свечения -->
+      <li Class="CompProperties_Glower">
+        <glowRadius>4.5</glowRadius>
+        <glowColor>(5,255,5,5)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

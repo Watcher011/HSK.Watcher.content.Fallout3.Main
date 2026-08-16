@@ -1,0 +1,509 @@
+﻿<Patch>
+
+   <Operation Class="PatchOperationRemove">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals/Radboar</xpath>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals/RadDeer</xpath>
+        <success>Always</success>
+    </Operation>
+
+    <!-- Radroach -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <Radroach>0.5</Radroach>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+        <value>
+            <Radroach>0.7</Radroach>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+            <Radroach>0.6</Radroach>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+        <value>
+            <Radroach>0.4</Radroach>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- Gecko_green -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+        <value>
+            <Gecko_green>0.3</Gecko_green>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+        <value>
+            <Gecko_green>0.2</Gecko_green>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+        <value>
+            <Gecko_green>0.4</Gecko_green>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- MoleRat -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <MoleRat>0.3</MoleRat>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+        <value>
+            <MoleRat>0.4</MoleRat>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+        <value>
+            <MoleRat>0.25</MoleRat>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- Radboar -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <Radboar>0.2</Radboar>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+        <value>
+            <Radboar>0.15</Radboar>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- RadDeer -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <RadDeer>0.25</RadDeer>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+        <value>
+            <RadDeer>0.2</RadDeer>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- Brahmin -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+        <value>
+            <Brahmin>0.15</Brahmin>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <Brahmin>0.1</Brahmin>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- Mirelurk -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+            <Mirelurk>0.35</Mirelurk>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+        <value>
+            <Mirelurk>0.25</Mirelurk>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- Duten -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+            <Duten>0.3</Duten>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+        <value>
+            <Duten>0.2</Duten>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- RadDeer в Tundra -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+        <value>
+            <RadDeer>0.15</RadDeer>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- Deathclaw -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+        <value>
+            <Deathclaw>0.05</Deathclaw>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+        <value>
+            <Deathclaw>0.04</Deathclaw>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <Deathclaw>0.03</Deathclaw>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- RadScorpion -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Desert"]/wildAnimals</xpath>
+        <value>
+            <RadScorpion>0.15</RadScorpion>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="ExtremeDesert"]/wildAnimals</xpath>
+        <value>
+            <RadScorpion>0.1</RadScorpion>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- HugeBee -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <HugeBee>0.2</HugeBee>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+        <value>
+            <HugeBee>0.25</HugeBee>
+        </value>
+        <success>Always</success>
+    </Operation>
+	
+	 <Operation Class="PatchOperationRemove">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals/GlowingRadroach</xpath>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals/GlowRadDeer</xpath>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals/GlowingRadroach</xpath>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals/GlowingRadroach</xpath>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals/GlowRadDeer</xpath>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals/GlowRadDeer</xpath>
+        <success>Always</success>
+    </Operation>
+
+    <!-- GlowingRadroach -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <GlowingRadroach>0.05</GlowingRadroach>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+            <GlowingRadroach>0.08</GlowingRadroach>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="AridShrubland"]/wildAnimals</xpath>
+        <value>
+            <GlowingRadroach>0.06</GlowingRadroach>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!-- GlowRadDeer -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+            <GlowRadDeer>0.03</GlowRadDeer>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+        <value>
+            <GlowRadDeer>0.04</GlowRadDeer>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+        <value>
+            <GlowRadDeer>0.02</GlowRadDeer>
+        </value>
+        <success>Always</success>
+    </Operation>
+	<!--
+	  <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.002</Plant_Tato>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+        <value>
+            <RadDeer>0.05</RadDeer>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!{1}** SeaIce **{1}>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="SeaIce"]/wildPlants</xpath>
+        <value>
+            <Plant_Tato>0.001</Plant_Tato>
+        </value>
+        <success>Always</success>
+    </Operation>
+    
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+        <value>
+            <Mirelurk>0.1</Mirelurk>
+        </value>
+        <success>Always</success>
+    </Operation>
+
+    <!{1}** Tundra **{1}>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+        <value>
+            <PlantTarberry>0.010</PlantTarberry>
+        </value>
+        <success>Always</success>
+    </Operation>-->
+
+	<!--  <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/FactionDef[@Name="OgreMutants"]/pawnGroupMakers/li[kindDef="Combat"]/options</xpath>
+                    <value>
+                       <OgreDES>90</OgreDES>
+					    <OgreDEV>25</OgreDEV>
+					    <Ogre>25</Ogre>
+						<MutantHound>25</MutantHound>
+                    </value>
+		</Operation>-->
+		  <!-- Патч для Fish_ThreeCrawler - добавляется в обычные водные биомы (озера, реки, болота) -->
+    <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- Лес -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_ThreeCrawler>0.7</Fish_ThreeCrawler>
+        </value>
+      </li>
+      
+      <!-- Тайга/Бореальный лес -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="BorealForest"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_ThreeCrawler>0.5</Fish_ThreeCrawler>
+        </value>
+      </li>
+      
+      <!-- Тропический лес -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_ThreeCrawler>1.0</Fish_ThreeCrawler>
+        </value>
+      </li>
+      
+      <!-- Пустыня (редко, только в оазисах) -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="Desert"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_ThreeCrawler>0.3</Fish_ThreeCrawler>
+        </value>
+      </li>
+      
+      <!-- Аридный кустарник -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="AridShrubland"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_ThreeCrawler>0.6</Fish_ThreeCrawler>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  
+  <!-- 2. Холодные и экстремальные биомы (меньше шанс) -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- Тундра -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="Tundra"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_ThreeCrawler>0.4</Fish_ThreeCrawler>
+        </value>
+      </li>
+      
+      <!-- Ледяной шельф -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="IceSheet"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_ThreeCrawler>0.2</Fish_ThreeCrawler>
+        </value>
+      </li>
+      
+    </operations>
+  </Operation>
+  
+ 
+      
+ 
+  <!-- 2. Также добавляем в некоторые экстремальные биомы (радиационная тематика) -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+
+      
+      <!-- Выжженная земля (радиоактивный фон) -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_Radharvester>0.5</Fish_Radharvester>
+        </value>
+      </li>
+      
+      <!-- Ледяной шельф (редко, в радиоактивных трещинах) -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="IceSheet"]/fishTypes/freshwater_Common</xpath>
+        <value>
+          <Fish_Radharvester>0.3</Fish_Radharvester>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  
+  <!-- 3. Добавляем Radharvester в секцию редких уловов для обычных биомов -->
+  <!-- (чтобы иногда появлялся даже в незагрязнённых водах как мутация) -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- В редкие уловы для холодных биомов -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="BorealForest"]/fishTypes/freshwater_Uncommon</xpath>
+        <value>
+          <Fish_Radharvester>0.1</Fish_Radharvester>
+        </value>
+      </li>
+      
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="Tundra"]/fishTypes/freshwater_Uncommon</xpath>
+        <value>
+          <Fish_Radharvester>0.1</Fish_Radharvester>
+        </value>
+      </li>
+      
+      <!-- В редкие уловы для умеренных биомов -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/fishTypes/freshwater_Uncommon</xpath>
+        <value>
+          <Fish_Radharvester>0.08</Fish_Radharvester>
+        </value>
+      </li>
+      
+      <!-- В редкие уловы для тропиков -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]/fishTypes/freshwater_Uncommon</xpath>
+        <value>
+          <Fish_Radharvester>0.05</Fish_Radharvester>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

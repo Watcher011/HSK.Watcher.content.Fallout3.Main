@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+
+
+	<!--
+	<IncidentDef>
+		<defName>DeepDrillMolerat</defName>
+		<label>Deep Drill Molerat</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_DeepDrillMolerat</workerClass>
+		<baseChance>1.5</baseChance>
+		<category>ThreatSmall</category>
+		<earliestDay>16</earliestDay>
+		<minRefireDays>20</minRefireDays>
+		<pointsScaleable>false</pointsScaleable>
+	</IncidentDef>
+	-->
+	<!--	<IncidentDef>
+		<defName>RadroachEaters</defName>
+		<label>Radroach Eaters</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_RadroachEaters</workerClass>
+		<earliestDay>5</earliestDay>
+		<baseChance>0.4</baseChance>
+		<minRefireDays>30</minRefireDays>
+		<modExtensions>
+			<li Class="SK.ExtendedIncident">
+				<allowedTemperatureRange>-10~999</allowedTemperatureRange>
+				<!{1}** current map temperature**{1}>
+			</li>
+		</modExtensions>
+	</IncidentDef>-->
+	
+<!--<IncidentDef>
+		<defName>GlowRadDeerPasses</defName>
+		<label>Glow Rad-Deer passes</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<category>Misc</category>
+		<workerClass>Watcher.Events.IncidentWorker_RadDeerPasses</workerClass>
+		<baseChance>0.15</baseChance>
+		<earliestDay>95</earliestDay>
+		<minRefireDays>110</minRefireDays>
+		<minThreatPoints>4000</minThreatPoints>
+		<modExtensions>
+			<li Class="SK.ExtendedIncident">
+				<allowedTemperatureRange>10~999</allowedTemperatureRange>
+				<!{1}** current map temperature**{1}>
+				<allowedAverageBiomeTemperature>10~999</allowedAverageBiomeTemperature>
+				<!{1}** Average biome temperature stat **{1}>
+			</li>
+		</modExtensions>
+	</IncidentDef>-->
+	
+   <IncidentDef>
+		<defName>BringersofDemocracy</defName>
+		<label>Bringing democracy</label>
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_BringersofDemocracy</workerClass>
+		<letterLabel>Bringing democracy incoming</letterLabel>
+		<letterText>Bringing democracy near our colony!</letterText>
+		<letterDef>ThreatBig</letterDef>
+		<pointsScaleable>true</pointsScaleable>
+		<tale>Raid</tale>
+		<populationEffect>None</populationEffect>
+	    <baseChance>0.15</baseChance>
+		<earliestDay>0</earliestDay>
+		<minRefireDays>190</minRefireDays>
+	<!--	<minThreatPoints>4500</minThreatPoints>-->
+	</IncidentDef>
+	
+	   
+  <IncidentDef>
+        <defName>StrangeCall</defName>
+        <label>StrangeCall.Titles.EnclaveCall</label>
+        <workerClass>Watcher.Events.IncidentWorker_StrangeCall</workerClass>
+        <letterLabel>StrangeCall.Titles.EnclaveCall</letterLabel>
+        <letterText>Mysterious Challenge</letterText>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<tale>Raid</tale>
+        <letterDef>ThreatBig</letterDef>
+        <category>ThreatBig</category>
+        <minRefireDays>30</minRefireDays>
+        <baseChance>0.5</baseChance>
+        <minPopulation>3</minPopulation>
+    </IncidentDef>
+	
+	   <IncidentDef>
+        <defName>ArmyCall</defName>
+       <label>Army Call</label>
+        <workerClass>Watcher.Events.IncidentWorker_ArmyCall</workerClass>
+         <letterLabel>Army Call</letterLabel>
+        <letterText>A message from Army Command is being received on your comms console. It appears you've been mistaken for a new recruit.</letterText>
+        <letterDef>NeutralEvent</letterDef>
+        <category>Misc</category>
+        <minRefireDays>40</minRefireDays>
+        <baseChance>0.5</baseChance>
+        <minPopulation>2</minPopulation>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+    </IncidentDef>
+	
+	
+	 <IncidentDef>
+    <defName>CreatureCall</defName>
+    <label>Creature Call</label>
+    <workerClass>Watcher.Events.IncidentWorker_SewageCreature</workerClass>
+    <letterLabel>Creature Call</letterLabel>
+    <letterText>We've received disturbing reports of unusual activity near the latrines. The sewage seems to be... moving. Something foul is stirring in the waste pits. Be prepared for potential hostile emergence.</letterText>
+    <letterDef>ThreatSmall</letterDef>
+    <category>Misc</category>
+    <minRefireDays>280</minRefireDays>
+    <baseChance>0.5</baseChance>
+    <minPopulation>2</minPopulation>
+    <targetTags>
+        <li>Map_PlayerHome</li>
+    </targetTags>
+</IncidentDef>
+	
+	<IncidentDef>
+    <defName>MoleRatQuarryAttack</defName>
+    <label>MoleRatQuarryAttack.label</label>
+    <category>Misc</category>
+    <targetTags>
+        <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_QuarryAnimalAttack</workerClass>
+    <baseChance>0.5</baseChance>
+    <minRefireDays>60</minRefireDays>
+    <earliestDay>30</earliestDay>
+    <minPopulation>4</minPopulation>
+    
+    <letterLabel>MoleRatQuarryAttack.letterLabel</letterLabel>
+    <letterText>MoleRatQuarryAttack.letterText</letterText>
+    <letterDef>NegativeEvent</letterDef>
+</IncidentDef>
+<!--
+<IncidentDef>
+  <defName>MutantClanRaidEvent</defName>
+  <label>MutantClanRaid_IncidentLabel</label>
+  <workerClass>Watcher.Events.IncidentWorker_MutantClanRaid</workerClass>
+  <category>ThreatBig</category>
+ <minRefireDays>90</minRefireDays>
+  <baseChance>1.0</baseChance>
+  <letterLabel>MutantClanRaid_LetterLabel</letterLabel>
+  <letterDef>ThreatBig</letterDef>
+   <targetTags>
+            <li>Map_PlayerHome</li>
+    </targetTags>
+</IncidentDef>
+-->
+ <IncidentDef>
+        <defName>RadNadoIncident</defName>
+        <label>RadNadoIncident</label>
+         <workerClass>Watcher.FalloutRimworld.RadNado.IncidentWorker_RadNado</workerClass>
+        <baseChance>0.5</baseChance>
+        <minRefireDays>15</minRefireDays>
+        <letterDef>NegativeEvent</letterDef>
+        <category>Misc</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+    </IncidentDef>
+	
+	  <IncidentDef>
+    <defName>DeathclawTunnel</defName>
+    <label>DeathclawTunnel.label</label>
+    <description>DeathclawTunnel.description</description>
+    <category>ThreatBig</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_DeathclawTunnel</workerClass>
+    <letterLabel>DeathclawTunnel_LetterLabel</letterLabel>
+    <letterText>DeathclawTunnel_LetterText</letterText>
+    <letterDef>ThreatBig</letterDef>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>Raid</tale>
+    <populationEffect>None</populationEffect>
+    <baseChance>0.5</baseChance>
+    <earliestDay>30</earliestDay>
+    <minRefireDays>190</minRefireDays>
+    <minThreatPoints>4500</minThreatPoints>
+  </IncidentDef>
+  
+   <IncidentDef>
+    <defName>WatcherRainEvent</defName>
+    <label>watcher_rain_event_label</label>
+    <description>watcher_rain_event_desc</description>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_WatcherRain</workerClass>
+    <category>Misc</category>
+      <baseChance>0.5</baseChance>
+    <earliestDay>1</earliestDay>
+    <minRefireDays>190</minRefireDays>
+    <pointsScaleable>false</pointsScaleable>
+    <letterLabel>watcher_rain_letter_label</letterLabel>
+    <letterText>watcher_rain_letter_text</letterText>
+    <letterDef>PositiveEvent</letterDef>
+  </IncidentDef>
+  
+    <IncidentDef>
+    <defName>PoopocalypseEvent</defName>
+    <label>poopocalypse_event_label</label>
+    <description>poopocalypse_event_desc</description>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_Poopocalypse</workerClass>
+     <category>Misc</category>
+     <baseChance>0.5</baseChance>
+    <earliestDay>1</earliestDay>
+    <minRefireDays>190</minRefireDays>
+    <pointsScaleable>false</pointsScaleable>
+    <letterLabel>poopocalypse_letter_label</letterLabel>
+    <letterText>poopocalypse_letter_text_1</letterText>
+    <letterDef>ThreatBig</letterDef>
+  </IncidentDef>
+
+    <IncidentDef>
+        <defName>ReactorCoreCriticalDamage</defName>
+        <label>Critical reactor core damage</label>
+        <workerClass>Watcher.Events.IncidentWorker_ReactorCoreDamage</workerClass>
+        <letterLabel>Reactor Meltdown</letterLabel>
+        <letterText>A catastrophic failure has occurred in your Reactor Type A. The safety inspectors you definitely bribed are going to have some explaining to do. The core has sustained critical damage, caught fire, and is now venting radioactive filth across the facility. Remember: in the event of nuclear apocalypse, duck and cover. Or run. Running works too.</letterText>
+        <letterDef>ThreatBig</letterDef>
+        <category>Misc</category>
+        <minRefireDays>180</minRefireDays>
+        <baseChance>0.55</baseChance>
+        <minPopulation>3</minPopulation>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+    </IncidentDef>
+
+     <IncidentDef>
+        <defName>GreenRain</defName>
+        <label>green rain</label>
+        <category>Misc</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>Watcher.Events.IncidentWorker_GreenRain</workerClass>
+        <baseChance>0.55</baseChance>
+        <minRefireDays>20</minRefireDays>
+        <letterDef>GreenRainLetter</letterDef>
+        <letterLabel>Green Rain</letterLabel>
+        <letterText>GreenRain_LetterText</letterText>
+    </IncidentDef>
+	
+	   <IncidentDef>
+        <defName>OverfertilizedHydroponics</defName>
+        <label>overfertilized hydroponics</label>
+        <category>ThreatSmall</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>Watcher.Events.IncidentWorker_OverfertilizedHydroponics</workerClass>
+       <baseChance>0.55</baseChance>
+        <minRefireDays>20</minRefireDays>
+        <earliestDay>10</earliestDay>
+        <minThreatPoints>0</minThreatPoints>
+        <pointsScaleable>false</pointsScaleable>
+        <tale>ManhunterPack</tale>
+		 </IncidentDef>
+		 
+  <IncidentDef>
+    <defName>EnclaveRecruitment</defName>
+    <label>Enclave recruitment</label>
+    <category>ThreatSmall</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_EnclaveRecruitment</workerClass>
+    <baseChance>0.55</baseChance>
+    <minRefireDays>30</minRefireDays>
+    <earliestDay>10</earliestDay>
+  </IncidentDef>
+  
+   <IncidentDef>
+        <defName>RedThreatHunterDrones</defName>
+        <label>Red Menace</label>
+        <category>ThreatSmall</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>Watcher.Events.IncidentWorker_RedThreatHunterDrones</workerClass>
+        <baseChance>0.1</baseChance>
+        <minRefireDays>20</minRefireDays>
+        <earliestDay>15</earliestDay>
+    </IncidentDef>
+ 
+ 
+ 
+   <IncidentDef>
+    <defName>HaroldInfectionEvent</defName>
+    <label>Araraxis emergence</label>
+    <category>ThreatSmall</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_HaroldInfection</workerClass>
+    <baseChance>0.5</baseChance>
+    <minRefireDays>30</minRefireDays>
+    <minThreatPoints>0</minThreatPoints>
+    <pointsScaleable>false</pointsScaleable>
+ 
+  </IncidentDef>
+</Defs>

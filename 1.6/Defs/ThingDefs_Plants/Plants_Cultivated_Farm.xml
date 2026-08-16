@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=========================== Food crops ==============================-->
+
+
+  <ThingDef Name="MutfruitPlant" ParentName="PlantBase">
+    <defName>Plant_Mutfruit</defName>
+    <label>Mutfruit plant</label>
+    <description>It is a highly mutated fruit that grows on a small tree. What kind of fruit that has mutated is unknown. It is widely distributed in the Commonwealth and beyond. It can be grown in friendly settlements. It is used to prepare various dishes.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Mutfruit</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <pollution>Any</pollution>
+	  <dieFromToxicFallout>False</dieFromToxicFallout>
+      <immatureGraphicPath>Things/Plant/Mutfruit_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawMutfruit</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3.8</growDays>
+      <visualSizeRange>0.5~1.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+	   <dieFromToxicFallout>False</dieFromToxicFallout>
+	   <wildBiomes Inherit="False">
+    <BorealForest>0.04</BorealForest>
+    <Tundra>0.03</Tundra>
+    <ColdBog>0.02</ColdBog>
+    <TemperateForest>0.06</TemperateForest>
+    <TemperateSwamp>0.05</TemperateSwamp>
+    <TropicalRainforest>0.06</TropicalRainforest>
+    <TropicalSwamp>0.05</TropicalSwamp>
+    <AridShrubland>0.04</AridShrubland>
+    <BorealArchipelago>0.04</BorealArchipelago>
+    <TundraArchipelago>0.02</TundraArchipelago>
+    <ColdBogArchipelago>0.01</ColdBogArchipelago>
+    <TemperateArchipelago>0.05</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.05</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.05</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.05</TropicalSwampArchipelago>
+</wildBiomes>
+    </plant>
+  </ThingDef>
+
+	<ThingDef ParentName="SK_DeciduousPlantBase">
+		<defName>PlantTarberry</defName>
+		<label>Tarberry plant</label>
+		<description>Mutated berry. In addition to direct consumption, resin berries can be used for cooking.</description>
+		<thingClass>SK.Plant_Algae</thingClass>
+		<selectable>True</selectable>
+		<statBases>
+			<Beauty>3</Beauty>
+			<BeautyOutdoors>3</BeautyOutdoors>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.35</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Tarberry</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			 <drawSize>(0.5)</drawSize>
+		</graphicData>
+		<pathCost>5</pathCost>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Plant</foodType>
+		</ingestible>
+		<plant>
+			<leaflessGraphicPath>Things/Plant/Tarberry_Immature</leaflessGraphicPath>
+			<maxMeshCount>9</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawTarberry</harvestedThingDef>
+			<harvestMinGrowth>0.4</harvestMinGrowth>
+			<harvestFailable>false</harvestFailable>
+			<harvestYield>5</harvestYield>
+			<fertilityMin>0.01</fertilityMin>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>4</growDays>
+			<fertilitySensitivity>0.1</fertilitySensitivity>
+			<visualSizeRange>0.3~1.10</visualSizeRange>
+			 <dieFromToxicFallout>False</dieFromToxicFallout>
+			 <wildBiomes Inherit="False">
+    <BorealForest>0.04</BorealForest>
+    <Tundra>0.03</Tundra>
+    <ColdBog>0.02</ColdBog>
+    <TemperateForest>0.06</TemperateForest>
+    <TemperateSwamp>0.05</TemperateSwamp>
+    <TropicalRainforest>0.06</TropicalRainforest>
+    <TropicalSwamp>0.05</TropicalSwamp>
+    <AridShrubland>0.04</AridShrubland>
+    <BorealArchipelago>0.04</BorealArchipelago>
+    <TundraArchipelago>0.02</TundraArchipelago>
+    <ColdBogArchipelago>0.01</ColdBogArchipelago>
+    <TemperateArchipelago>0.05</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.05</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.05</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.05</TropicalSwampArchipelago>
+</wildBiomes>
+		</plant>
+	</ThingDef>   
+
+ <ThingDef Name="TatoPlant" ParentName="PlantBase">
+    <defName>Plant_Tato</defName>
+    <label>Tato plant</label>
+    <description>A hybrid of tomato and potato that mutated after the Great War (TOMATO and POTATO).</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Tato</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <pollution>Any</pollution>
+	  <dieFromToxicFallout>False</dieFromToxicFallout>
+      <immatureGraphicPath>Things/Plant/Tato_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawTato</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3.8</growDays>
+      <visualSizeRange>0.5~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+	   <dieFromToxicFallout>False</dieFromToxicFallout>
+	   <wildBiomes Inherit="False">
+    <BorealForest>0.04</BorealForest>
+    <Tundra>0.03</Tundra>
+    <ColdBog>0.02</ColdBog>
+    <TemperateForest>0.06</TemperateForest>
+    <TemperateSwamp>0.05</TemperateSwamp>
+    <TropicalRainforest>0.06</TropicalRainforest>
+    <TropicalSwamp>0.05</TropicalSwamp>
+    <AridShrubland>0.04</AridShrubland>
+    <BorealArchipelago>0.04</BorealArchipelago>
+    <TundraArchipelago>0.02</TundraArchipelago>
+    <ColdBogArchipelago>0.01</ColdBogArchipelago>
+    <TemperateArchipelago>0.05</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.05</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.05</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.05</TropicalSwampArchipelago>
+</wildBiomes>
+    </plant>
+  </ThingDef>	
+  
+   <ThingDef Name="PrickeyePlant" ParentName="PlantBase">
+    <defName>Plant_Prickeye</defName>
+    <label>Prickeye plant</label>
+    <description>A plant with a thick, sinuous, brownish-green stem covered in thin spines along its entire length. Its identical fruits are fleshy, elongated, cone-shaped structures of bright orange with pinkish-red tips. They hang downwards, reminiscent of bells or predatory mouths, ready to hunt.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Prickeye</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <pollution>Any</pollution>
+	  <dieFromToxicFallout>False</dieFromToxicFallout>
+      <immatureGraphicPath>Things/Plant/Prickeye_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawPrickeye</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+	  
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3.8</growDays>
+      <visualSizeRange>0.5~1.50</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+	   <dieFromToxicFallout>False</dieFromToxicFallout>
+	   <wildBiomes Inherit="False">
+    <BorealForest>0.04</BorealForest>
+    <Tundra>0.03</Tundra>
+    <ColdBog>0.02</ColdBog>
+    <TemperateForest>0.06</TemperateForest>
+    <TemperateSwamp>0.05</TemperateSwamp>
+    <TropicalRainforest>0.06</TropicalRainforest>
+    <TropicalSwamp>0.05</TropicalSwamp>
+    <AridShrubland>0.04</AridShrubland>
+    <BorealArchipelago>0.04</BorealArchipelago>
+    <TundraArchipelago>0.02</TundraArchipelago>
+    <ColdBogArchipelago>0.01</ColdBogArchipelago>
+    <TemperateArchipelago>0.05</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.05</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.05</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.05</TropicalSwampArchipelago>
+</wildBiomes>
+    </plant>
+	 
+  </ThingDef>
+  
+  <ThingDef Name="Icecap" ParentName="PlantBase">
+    <defName>Plant_Icecap</defName>
+    <label>Icecap plant</label>
+    <description>"A genetically engineered product from Sugar Grow Corporation, developed for automatic hydroponic farms with cryo-control. It boasts a high content of stabilized nitrogen and bioavailable minerals. After the war, seeds scattered from destroyed factories gave rise to feral populations. The plant is a bright blue, almost neon, and crunches like thin ice. The taste is bitter and metallic, with a hint of liquid nitrogen."</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.25</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Icecap</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <pollution>Any</pollution>
+	  <dieFromToxicFallout>False</dieFromToxicFallout>
+      <immatureGraphicPath>Things/Plant/Icecap_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.001</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawIcecap</harvestedThingDef>
+      <harvestYield>11</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>4.8</growDays>
+      <visualSizeRange>0.5~1.50</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+	   <dieFromToxicFallout>False</dieFromToxicFallout>
+	    <minOptimalGrowthTemperature>-15</minOptimalGrowthTemperature>
+      <minGrowthTemperature>-50</minGrowthTemperature>
+	    <maxGrowthTemperature>0</maxGrowthTemperature>
+		 <diesToLight>true</diesToLight>
+	<plantRespawningCommonalityFactor>0.04</plantRespawningCommonalityFactor>
+	<wildBiomes Inherit="False">
+    <BorealForest>0.04</BorealForest>
+    <Tundra>0.03</Tundra>
+    <ColdBog>0.02</ColdBog>
+    <TemperateForest>0.06</TemperateForest>
+    <TemperateSwamp>0.05</TemperateSwamp>
+    <TropicalRainforest>0.06</TropicalRainforest>
+    <TropicalSwamp>0.05</TropicalSwamp>
+    <AridShrubland>0.04</AridShrubland>
+    <BorealArchipelago>0.04</BorealArchipelago>
+    <TundraArchipelago>0.02</TundraArchipelago>
+    <ColdBogArchipelago>0.01</ColdBogArchipelago>
+    <TemperateArchipelago>0.05</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.05</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.05</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.05</TropicalSwampArchipelago>
+</wildBiomes>
+    </plant>
+	 <modExtensions>
+			<li Class="SK.SpecialPlant">
+				  <minGrowthTemperature>-30</minGrowthTemperature>
+                  <minOptimalTemperature>-10</minOptimalTemperature>
+                  <maxOptimalTemperature>5</maxOptimalTemperature>
+                  <maxGrowthTemperature>10</maxGrowthTemperature>
+			</li>
+		</modExtensions>
+  </ThingDef>
+  
+  
+  
+   <ThingDef Name="LichenPlant" ParentName="PlantBase">
+    <defName>Plant_Lichen</defName>
+    <label>Lichen plant</label>
+    <description>A mutated crust that secretes an oily slime. When boiled and pressed, it turns into a brittle, primitive plastic that smells of despair and the gasoline of 2077.</description>
+    <statBases>
+      <MaxHitPoints>15</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Lichen</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <pollution>Any</pollution>
+      <immatureGraphicPath>Things/Plant/Lichen_Immature</immatureGraphicPath>
+      <fertilitySensitivity>0.1</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>Plastipod</harvestedThingDef>
+      <harvestYield>15</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3.8</growDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Misc</purpose>
+      <humanFoodPlant>False</humanFoodPlant>
+	   <dieFromToxicFallout>False</dieFromToxicFallout>
+	   <wildBiomes Inherit="False">
+    <BorealForest>0.04</BorealForest>
+    <Tundra>0.03</Tundra>
+    <ColdBog>0.02</ColdBog>
+    <TemperateForest>0.06</TemperateForest>
+    <TemperateSwamp>0.05</TemperateSwamp>
+    <TropicalRainforest>0.06</TropicalRainforest>
+    <TropicalSwamp>0.05</TropicalSwamp>
+    <AridShrubland>0.04</AridShrubland>
+    <BorealArchipelago>0.04</BorealArchipelago>
+    <TundraArchipelago>0.02</TundraArchipelago>
+    <ColdBogArchipelago>0.01</ColdBogArchipelago>
+    <TemperateArchipelago>0.05</TemperateArchipelago>
+    <TemperateSwampArchipelago>0.05</TemperateSwampArchipelago>
+    <TropicalArchipelago>0.05</TropicalArchipelago>
+    <TropicalSwampArchipelago>0.05</TropicalSwampArchipelago>
+</wildBiomes>
+    </plant>
+	 <comps>
+      <!-- 2. Компонент для свечения -->
+      <li Class="CompProperties_Glower">
+        <glowRadius>1.5</glowRadius>
+        <glowColor>(5,90,5,5)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>	
+  
+  
+   <ThingDef ParentName="TreeBase">
+    <defName>Plant_TreeHarold</defName>
+    <label>Harold tree</label>
+    <description>This tree does not rustle in the wind. It moans.
+The bark has tightened into the shape of a face — mouthless, but with two hollow pits for eyes. From deep inside the trunk comes a wet, gurgling sound. Someone is trying to form a word, but all that escapes is the creaking of branches rubbing against each other.
+The branches tremble unnaturally — not from wind. From despair.
+It hears you. It wants to ask for help. But all it can do is slowly rot standing up, staring into nothing, and remembering what it once was.</description>
+  <!--  <thingClass>HarbingerTree</thingClass>-->
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Plant/TreeHarold</texPath>
+      <shadowData>
+        <volume>(0.4, 0.3, 0.1)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </shadowData>
+    </graphicData>
+    <minifiedDef IsNull="True" />
+    <statBases>
+      <Beauty>-10</Beauty>
+      <BeautyOutdoors>-10</BeautyOutdoors>
+      <Flammability>0</Flammability>
+      <MaxHitPoints>230</MaxHitPoints>
+    </statBases>
+    <ingestible />
+    <neverMultiSelect>false</neverMultiSelect>
+    <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+    <canScatterOver>false</canScatterOver>
+    <plant>
+      <pollution>Any</pollution>
+      <growDays>90</growDays>
+      <visualSizeRange>2.5~3.1</visualSizeRange>
+      <sowMinSkill>0</sowMinSkill>
+      <sowTags Inherit="False"/>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+      <fertilityMin>0.5</fertilityMin>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <wildClusterWeight>0</wildClusterWeight>
+      <sowWork>400</sowWork>
+      <harvestYield>15</harvestYield>
+      <harvestedThingDef>Bioferrite</harvestedThingDef>
+      <treeCategory>Super</treeCategory>
+      <dieIfNoSunlight>false</dieIfNoSunlight>
+      <growMinGlow>0</growMinGlow>
+      <sowResearchPrerequisites Inherit="False" />
+      <dieFromToxicFallout>False</dieFromToxicFallout>
+      <showGrowthInInspectPane>true</showGrowthInInspectPane>
+      <minSpacingBetweenSamePlant>4.9</minSpacingBetweenSamePlant>
+      <harvestWork>1000</harvestWork>
+      <choppedThingDef>ChoppedStump_Harbinger</choppedThingDef>
+      <smashedThingDef>SmashedStump_Harbinger</smashedThingDef>
+    <!--  <snowOverlayGraphicPath>Things/Plant/TreeHarbinger_Snowy</snowOverlayGraphicPath>-->
+    </plant>
+    <comps>
+      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>2000</ticksPerHeal> <!-- 30 hp per day, must be a multiple of 2000, since plants have Long ticker -->
+      </li>
+      <li Class="CompProperties_PlantPreventCutting"/>
+    </comps>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+  </ThingDef>
+</Defs>

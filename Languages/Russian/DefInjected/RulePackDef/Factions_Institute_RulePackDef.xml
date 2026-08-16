@@ -1,0 +1,12 @@
+<LanguageData>
+<NamerFactionInstitute.rulePack.rulesStrings>
+		<li>empire->Институт</li>
+	</NamerFactionInstitute.rulePack.rulesStrings>
+	
+	<NamerSettlementInstitute.rulePack.rulesStrings>
+		<li>townend->База Института</li>
+		<li>townend->Лагерь Института</li>
+		<li>townend->Аванпост Института</li>
+		<li>townend->Лаборатория Института</li>
+	</NamerSettlementInstitute.rulePack.rulesStrings>
+</LanguageData>

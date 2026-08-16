@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GameConditionDef>
+        <defName>RadNado</defName>
+        <label>RadNado.Condition.Label</label>
+        <description>RadNado.Condition.Description</description>
+        <conditionClass>Watcher.FalloutRimworld.RadNado.GameCondition_RadNado</conditionClass>
+        <canBePermanent>false</canBePermanent>
+    </GameConditionDef>
+	
+    <GameConditionDef>
+        <defName>GreenRain_WeatherCondition</defName>
+        <conditionClass>Watcher.Events.GameCondition_GreenRain</conditionClass>
+       <label>Green Rain</label>
+	   <description>Strange green rain washes over the fields, causing plants to grow wildly.</description>
+        <endMessage>The green rain has stopped.</endMessage>
+       <letterText>The sky turned green and it started to rain...</letterText>
+        <letterDef>NeutralEvent</letterDef>
+        <canBePermanent>false</canBePermanent>
+        <allowUnderground>false</allowUnderground>
+    </GameConditionDef>
+</Defs>

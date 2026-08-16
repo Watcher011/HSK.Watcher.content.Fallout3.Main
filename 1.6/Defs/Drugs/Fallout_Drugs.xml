@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef Name="FalloutDrugBase" ParentName="DrugBase" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Vault-TecProcessing</researchPrerequisite>
+     <!-- <recipeUsers>
+        <li>TableFalloutChemicalSynthesis</li>
+      </recipeUsers>-->
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <skillRequirements>
+        <Cooking>5</Cooking>
+      </skillRequirements>
+      <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+      <bulkRecipeCount>4</bulkRecipeCount>
+      <displayPriority>1460</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+  
+  <ThingDef ParentName="FalloutDrugBase">
+    <defName>FalloutJet</defName>
+    <label>Jet</label>
+    <description>The screw causes an altered state of consciousness in which time seems to pass very slowly. This allows you to perform more actions in a short period of time than usual.</description>
+    <descriptionHyperlinks>
+      <HediffDef>JetHigh</HediffDef>
+      <HediffDef>JetTolerance</HediffDef>
+      <HediffDef>JetAddiction</HediffDef>
+      <HediffDef>ChemicalDamageSevere</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Special/Jet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.48</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>400</WorkToMake>
+      <MarketValue>10</MarketValue>
+      <Mass>0.05</Mass>
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <foodType>Fluid, Processed</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.60</joy>
+      <baseIngestTicks>210</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Use {0}</ingestCommandString>
+      <ingestReportString>Useing {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>JetHigh</hediffDef>
+          <severity>0.75</severity>
+          <toleranceChemical>Jet</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.3</offset>
+          <toleranceChemical>Jet</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>JetTolerance</hediffDef>
+          <toleranceChemical>Jet</toleranceChemical>
+          <severity>0.05</severity>
+          <divideByBodySize>true</divideByBodySize>
+          <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Yayo>4</Yayo>
+	  <RawTarberry>1</RawTarberry>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Jet</chemical>
+        <addictiveness>0.02</addictiveness>
+        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <listOrder>110</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="FalloutDrugBase">
+    <defName>FalloutUltraJet</defName>
+    <label>Ultra jet</label>
+    <description>Is an improved version jet causes an altered state of consciousness in which time seems to pass very slowly. This allows you to perform more actions in a short period of time than usual.</description>
+    <descriptionHyperlinks>
+      <HediffDef>JetHigh</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Special/Ultrajet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.48</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>400</WorkToMake>
+      <MarketValue>10</MarketValue>
+      <Mass>0.05</Mass>
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+
+    <ingestible>
+      <foodType>Fluid, Processed</foodType>
+      <joyKind>Chemical</joyKind>
+      <joy>0.80</joy>
+      <baseIngestTicks>210</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Use {0}</ingestCommandString>
+      <ingestReportString>Useing {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>JetHigh</hediffDef>
+          <severity>0.95</severity>
+          <toleranceChemical>Jet</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.6</offset>
+          <toleranceChemical>Jet</toleranceChemical>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Yayo>4</Yayo>
+	  <RawTarberry>1</RawTarberry>
+	  <HemogenPack>1</HemogenPack>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Jet</chemical>
+        <addictiveness>0.02</addictiveness>
+        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+        <needLevelOffset>0.9</needLevelOffset>
+        <listOrder>110</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+  
+  <HediffDef>
+    <defName>JetHigh</defName>
+    <label>high on Jet</label>
+    <labelNoun>a Jet high</labelNoun>
+    <description>Active Jet in the bloodstream. Generates a mild euphoric effect.</description>
+    <hediffClass>Hediff_High</hediffClass>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-3.0</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+      <stages>
+        <li>
+          <painFactor>0.9</painFactor>
+          <statFactors>
+            <RestFallRateFactor>0.8</RestFallRateFactor>
+          </statFactors>
+		   <capMods>
+            <li>
+              <capacity>Moving</capacity>
+              <offset>0.35</offset>
+            </li>
+          </capMods>
+        </li>
+      </stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>JetHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>JetHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>Jet</label>
+        <description>The Jet gives a boost of energy. I love having this energy!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+
+
+
+ <ChemicalDef>
+    <defName>Jet</defName>
+    <label>Jet</label>
+    <addictionHediff>JetAddiction</addictionHediff>
+    <toleranceHediff>JetTolerance</toleranceHediff>
+    <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
+    <onGeneratedAddictedEvents>
+      <li>
+        <hediff>ChemicalDamageSevere</hediff>
+        <chance>0.15</chance>
+        <partsToAffect>
+          <li>Kidney</li>
+          <li>Heart</li>
+          <li>Lung</li>
+        </partsToAffect>
+      </li>
+    </onGeneratedAddictedEvents>
+    <geneToleranceBuildupFactorResist>0.5</geneToleranceBuildupFactorResist>
+    <geneToleranceBuildupFactorImmune>0</geneToleranceBuildupFactorImmune>
+    <geneOverdoseChanceFactorResist>0.5</geneOverdoseChanceFactorResist>
+    <geneOverdoseChanceFactorImmune>0</geneOverdoseChanceFactorImmune>
+  </ChemicalDef>
+  
+
+
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>JetTolerance</defName>
+    <label>Jet tolerance</label>
+    <description>A built-up tolerance to Jet. The more severe this tolerance is, the more psychite-based drugs like yayo or flake it takes to get the same effect.</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>Jet</chemical>
+      </li>
+    </comps>
+    <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>ChemicalDamageSevere</hediff>
+        <severityToMtbDaysCurve>
+          <points>
+            <li>(0.45, 99999)</li>
+            <li>(0.5, 180)</li>
+            <li>(1, 135)</li>
+          </points>
+        </severityToMtbDaysCurve>
+        <partsToAffect>
+           <li>Kidney</li>
+          <li>Heart</li>
+          <li>Lung</li>
+        </partsToAffect>
+      </li>
+    </hediffGivers>
+  </HediffDef>
+  
+  <HediffDef ParentName="AddictionBase">
+    <defName>JetAddiction</defName>
+    <label>Jet addiction</label>
+    <description>A chemical addiction to Jet. Long-term presence of psychite has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.
+\nWithout regular doses of Jet from drugs like flake or yayo, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+   <!-- <causesNeed>Chemical_Jet</causesNeed>-->
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.0333</severityPerDay>
+        <showDaysToRecover>true</showDaysToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <socialFightChanceFactor>3.0</socialFightChanceFactor>
+        <statOffsets>
+          <RestFallRateFactor>0.3</RestFallRateFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.20</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.20</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_DrugExtreme</mentalState>
+            <mtbDays>40</mtbDays>
+          </li>
+          <li>
+            <mentalState>Wander_Psychotic</mentalState>
+            <mtbDays>10</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+ <!-- <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_Jet</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Jet</label>
+    <description>Because of a psychite addiction, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>50</listPriority>
+  </NeedDef>-->
+
+ 
+  <ThingDef ParentName="FalloutDrugBase">
+    <defName>Stimpak</defName>
+        <label>Stimpak</label>
+        <description>A stunning mix of painkillers, stimulants, and something that seems to move… But who pays attention to that when you need to urgently patch up a hole in your chest after an encounter with a coyote?</description>
+    <descriptionHyperlinks>
+      <HediffDef>StimpakBasic</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Special/Stimpak</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+       <drawSize>0.55</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+	<thingClass>Medicine</thingClass>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>53</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+	<thingCategories>
+			<li>Medicine</li>
+	</thingCategories>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+     <outcomeDoers>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+		<hediffDef>StimpakBasic</hediffDef>
+		<severity>1.0</severity>
+		</li>
+	 </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Neutroamine>2</Neutroamine>
+      <MedicineIndustrial>1</MedicineIndustrial>
+	   <Meat_Twisted>1</Meat_Twisted>
+	    <HemogenPack>1</HemogenPack>
+    </costList>
+   <comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>2.00~3.00</overdoseSeverityOffset>
+			</li>
+	</comps>
+  </ThingDef>
+  
+  
+   <ThingDef ParentName="FalloutDrugBase">
+   <defName>StimpakSuper</defName>
+        <label>Stimpak: super</label>
+        <description>Tired of your wounds healing too slowly? Want to feel your muscles fill with strength and your pain disappear faster than the reputation of the head of the Merchant Guild after a bad deal? Super Stimpak™ is a revolution in the world of post-apocalyptic medicine!</description>
+    <descriptionHyperlinks>
+      <HediffDef>StimpakSuper</HediffDef>
+    </descriptionHyperlinks>
+	<thingClass>Medicine</thingClass>
+    <graphicData>
+     <texPath>Things/Item/Special/StimpakSuper</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+         <drawSize>0.55</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>93</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+	<thingCategories>
+			<li>Medicine</li>
+	</thingCategories>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+     <outcomeDoers>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+		<hediffDef>StimpakSuper</hediffDef>
+		<severity>1.0</severity>
+		</li>
+	 </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Neutroamine>4</Neutroamine>
+      <MedicineIndustrial>2</MedicineIndustrial>
+	   <Meat_Twisted>1</Meat_Twisted>
+	    <HemogenPack>1</HemogenPack>
+    </costList>
+   <comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>2.00~3.00</overdoseSeverityOffset>
+			</li>
+	</comps>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="FalloutDrugBase">
+   <defName>Med-x</defName>
+        <label>Med-X</label>
+        <description>A highly effective painkiller based on morphine. It is available as disposable syringes with the drug. When administered, the user gains increased resistance to damage for a period of time. It is a pre-war drug and cannot be manufactured by a Survivor in a lab.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Med-xBasic</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+     	<texPath>Things/Item/Special/Med-x</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+         <drawSize>0.35</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>73</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+     <outcomeDoers>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+		<hediffDef>Med-xBasic</hediffDef>
+		<severity>1.0</severity>
+		</li>
+	 </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Neutroamine>2</Neutroamine>
+	   <WakeUp>1</WakeUp>
+	   <HemogenPack>1</HemogenPack>
+	 <ActivatedCarbon>1</ActivatedCarbon>
+    </costList>
+   <comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>2.00~3.00</overdoseSeverityOffset>
+			</li>
+	</comps>
+  </ThingDef>
+  
+  
+
+ 
+   
+  <ThingDef ParentName="DrugPillBase">
+		<defName>RadAway</defName>
+		<label>Rad Away</label>
+		<description>A drug designed to combat the effects of radioactive contamination and remove radiation from the body by intravenous administration. It absorbs it by less circulation in the blood.</description>
+		<descriptionHyperlinks>
+			<HediffDef>RimatomicsRadiation</HediffDef>
+			<HediffDef>FatalRad</HediffDef>
+			<HediffDef>RadiationIncurable</HediffDef>
+			<HediffDef>RadiationMechanoid</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Resource/RadAway</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>16</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>MedicalDrugs</li>
+		</thingCategories>
+		<costList>
+          <RawTato>1</RawTato>
+          <Neutroamine>2</Neutroamine>
+        </costList>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>RimatomicsRadiation</targetHediff>
+					<subtractValue>0.55</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>FatalRad</targetHediff>
+					<subtractValue>0.20</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>RadiationIncurable</targetHediff>
+					<subtractValue>0.30</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>RadiationMechanoid</targetHediff>
+					<subtractValue>0.30</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RadAwayConsumed</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+<ThingDef ParentName="FalloutDrugBase">
+    <defName>Addictol</defName>
+    <label>Addictol</label>
+    <description>A breakthrough in pharmacology, this cocktail of receptor blockers and nano-self-propelled blood purifiers has managed to literally "rewire" the body, freeing it from physical addictions.</description>
+    <graphicData>
+     <texPath>Things/Item/Special/Addictol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.55</drawSize>
+      <color>(190, 230, 255)</color>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MarketValue>180</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+     <outcomeDoers>
+      
+        <li Class="Watcher.Hediffs.IngestionOutcomeDoer_RemoveAddictions">
+          <addictionsToRemove>
+            <li>AlcoholAddiction</li>
+            <li>SmokeleafAddiction</li>
+            <li>PsychiteAddiction</li>
+            <li>WakeUpAddiction</li>
+            <li>AmbrosiaAddiction</li>
+            <li>MethadoneAddiction</li>
+            <li>SynchronisityAddiction</li>
+            <li>CaffeineAddiction</li>
+            <li>NicotineAddiction</li>
+            <li>JetAddiction</li>
+            <li>GoJuiceAddiction</li>
+          </addictionsToRemove>
+        </li>
+     </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Neutroamine>9</Neutroamine>
+      <Methadone>4</Methadone>
+    </costList>
+   <comps>
+      <li Class="CompProperties_Drug">
+        <addictiveness>0</addictiveness>
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>2.50~3.50</overdoseSeverityOffset>
+      </li>
+    </comps>
+</ThingDef>
+</Defs>
