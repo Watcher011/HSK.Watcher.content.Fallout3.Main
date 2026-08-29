@@ -1,140 +1,145 @@
 <LanguageData>
-<Fallout_PipeGun.tools.0.label>ствол</Fallout_PipeGun.tools.0.label>
-<Fallout_PipeGun.label>Трубный пистолет</Fallout_PipeGun.label>
-<Fallout_PipeGun.description>Грубое, но смертоносное оружие, собранное из водопроводных труб, автомобильных пружин и прочего хлама постапокалиптической Пустоши. Трубный пистолет — оружие для отчаявшихся, у кого нет доступа к заводским пистолетам, но есть желание выжить. Ненадёжен, но прост в изготовлении и ремонте.</Fallout_PipeGun.description>
+	<Fallout_PipeGun.tools.0.label>ствол</Fallout_PipeGun.tools.0.label>
+<Fallout_PipeGun.label>Трубострел</Fallout_PipeGun.label>
+<Fallout_PipeGun.description>Грубое, но смертоносное оружие, собранное из водопроводных труб, автомобильных пружин и прочего хлама послевоенной Пустоши. Трубострел — оружие для отчаявшихся, у кого нет доступа к заводским пистолетам, но кто хочет выжить. Ненадёжен, но прост в изготовлении и ремонте.</Fallout_PipeGun.description>
 <Fallout_PipeGun.verbs.0.label>ㅤ</Fallout_PipeGun.verbs.0.label>
 
 <Fallout_PipeRifle.tools.0.label>ствол</Fallout_PipeRifle.tools.0.label>
-<Fallout_PipeRifle.label>Винтовка «Бродяга»</Fallout_PipeRifle.label>
-<Fallout_PipeRifle.description>Собранная из обломков довоенного оружия, ржавых труб и деталей, найденных в Пустоши, эта винтовка — типичное творение выживальщиков и бродяг. Заряжается вручную патронами 5.56x45mm NATO, а затвор скрипит так, будто вот-вот развалится. Однако в умелых руках она способна пробить дыру даже в броне рейдера.</Fallout_PipeRifle.description>
+<Fallout_PipeRifle.label>Винтовка бродяги</Fallout_PipeRifle.label>
+<Fallout_PipeRifle.description>Собранная из обломков довоенного оружия, ржавых труб и деталей, найденных в Пустоши, эта винтовка — типичное творение выживальщиков и бродяг. Она заряжается вручную патронами 5.56×45 мм НАТО, а затвор скрипит так, будто вот-вот развалится. Однако в умелых руках она способна пробить дыру даже в броне рейдера.</Fallout_PipeRifle.description>
 <Fallout_PipeRifle.verbs.0.label>ㅤ</Fallout_PipeRifle.verbs.0.label>
 
 <Fallout_OldRevolver.tools.0.label>ствол</Fallout_OldRevolver.tools.0.label>
 <Fallout_OldRevolver.label>Самодельный револьвер «Мусорщик»</Fallout_OldRevolver.label>
-<Fallout_OldRevolver.description>Грубый, но смертоносный револьвер, собранный из металлолома, старых труб и деталей довоенного оборудования. Ствол сварен из кусков толстостенной трубы, рама склёпана из фрагментов автомобильных рессор и бронелистов. Рукоятка обмотана обрывками изоленты и кожи, с выгравированным знаком радиации или бандитскими символами. Курок и спусковой крючок выточены из ржавого металла, барабан — переделанный патронный пояс, усиленный болтами.</Fallout_OldRevolver.description>
+<Fallout_OldRevolver.description>Грубый, но смертоносный револьвер, собранный из металлолома, старых труб и деталей довоенного оборудования. Ствол сварен из кусков толстостенной трубы, рамка склёпана из кусков автомобильных рессор и бронеплит. Рукоятка обмотана изолентой и кожей, с гравировкой в виде знака радиации или бандитских символов. Курок и спусковой крючок выточены из ржавого металла, барабан — переделанная обойма, усиленная болтами.</Fallout_OldRevolver.description>
 <Fallout_OldRevolver.verbs.0.label>ㅤ</Fallout_OldRevolver.verbs.0.label>
 
 <Fallout_AN556Order.tools.0.label>ствол</Fallout_AN556Order.tools.0.label>
-<Fallout_AN556Order.label>AN-556 «Приказ»</Fallout_AN556Order.label>
-<Fallout_AN556Order.description>Разработанная инженерами Анклава как эргономичная и надёжная винтовка для спецподразделений, AN-556 «Приказ» сочетает проверенную конструкцию довоенных AR-платформ с модернизированными компонентами, адаптированными к условиям послевоенных пустошей. Отличается высокой точностью и модульностью: оснащена планками Пикатинни для установки коллиматорных прицелов, тактических фонарей и подствольных гранатомётов. Винтовка имеет усиленный ствол и газоотводную систему, что снижает риск заклинивания даже в условиях сильного загрязнения.</Fallout_AN556Order.description>
+<Fallout_AN556Order.label>AN-556 «Порядок»</Fallout_AN556Order.label>
+<Fallout_AN556Order.description>Разработанный инженерами Анклава как эргономичная и надёжная винтовка для сил специального назначения, AN-556 «Порядок» сочетает проверенную конструкцию довоенных AR-платформ с модернизированными компонентами, адаптированными к условиям послевоенных Пустошей. Отличается высокой точностью и модульностью: оснащён планками Пикатинни для установки коллиматорных прицелов, тактических фонарей и подствольных гранатомётов. Винтовка имеет усиленный ствол и газоотводную систему, что снижает риск заклинивания даже в сильно загрязнённых условиях.</Fallout_AN556Order.description>
 <Fallout_AN556Order.verbs.0.label>ㅤ</Fallout_AN556Order.verbs.0.label>
 
 <Fallout_AssaultCarbine.tools.0.label>ствол</Fallout_AssaultCarbine.tools.0.label>
 <Fallout_AssaultCarbine.label>Короткая штурмовая винтовка</Fallout_AssaultCarbine.label>
-<Fallout_AssaultCarbine.description>Стандартная штурмовая винтовка предлагает хороший баланс между уроном и точностью, что делает её хорошим выбором для различных боевых ситуаций. Многие доступные модификации сделают это оружие пригодным для автоматического огня. А правильно модифицированная штурмовая винтовка может стать хорошей снайперской винтовкой с большим магазином и относительно высокой скорострельностью.</Fallout_AssaultCarbine.description>
+<Fallout_AssaultCarbine.description>Стандартная штурмовая винтовка предлагает хороший баланс между уроном и точностью, что делает её хорошим выбором для различных боевых ситуаций. Многие из доступных модификаций сделают это оружие пригодным для автоматического огня. А правильно модифицированная штурмовая винтовка может стать хорошей снайперской винтовкой с большим магазином и относительно высоким темпом стрельбы.</Fallout_AssaultCarbine.description>
 <Fallout_AssaultCarbine.verbs.0.label>ㅤ</Fallout_AssaultCarbine.verbs.0.label>
 
 <Fallout_AssaultVickers.tools.0.label>ствол</Fallout_AssaultVickers.tools.0.label>
 <Fallout_AssaultVickers.label>Vickers .303 Mark I</Fallout_AssaultVickers.label>
-<Fallout_AssaultVickers.description>«Довоенная легенда, которая продолжает стрелять даже спустя долгое время после того, как её владелец превратился в пепел. Единственный недостаток — для охлаждения нужна вода. В Пустоши вода ценнее патронов».</Fallout_AssaultVickers.description>
+<Fallout_AssaultVickers.description>«Довоенная легенда, которая продолжает стрелять даже спустя долгое время после того, как её владелец обратился в пепел. Её единственный недостаток — ей нужна вода, чтобы не расплавиться. В Пустоши вода дороже патронов.»</Fallout_AssaultVickers.description>
 <Fallout_AssaultVickers.verbs.0.label>ㅤ</Fallout_AssaultVickers.verbs.0.label>
 
-<Fallout_BrenGun.label>Пулемёт Bren</Fallout_BrenGun.label>
-<Fallout_BrenGun.description>Bren — ручной пулемёт, разработанный до IV Великой войны. Благодаря надёжной газоотводной системе и магазину с верхним расположением оружие состояло на вооружении более полувека. В Пустоши ценится за точность стрельбы с сошек и возможность установки на транспорт — от рейдерских багги до военных БТР. Редкий, но надёжный экземпляр для тех, кто ценит старую школу.</Fallout_BrenGun.description>
+<Fallout_BrenGun.label>Пулемёт Брен</Fallout_BrenGun.label>
+<Fallout_BrenGun.description>Брен — ручной пулемёт, разработанный до Четвёртой Великой войны. Благодаря надёжной газоотводной системе и верхнему расположению магазина оружие оставалось на вооружении более полувека. В Пустоши ценится за точность с сошек и возможность установки на транспорт — от рейдерских багги до военных БТР. Редкий, но надёжный экземпляр для тех, кто ценит старую школу.</Fallout_BrenGun.description>
 <Fallout_BrenGun.verbs.0.label>ㅤ</Fallout_BrenGun.verbs.0.label>
 
 <Fallout_Fat_Man.tools.0.label>ствол</Fallout_Fat_Man.tools.0.label>
-<Fallout_Fat_Man.label>«Толстяк»</Fallout_Fat_Man.label>
-<Fallout_Fat_Man.description>Тактическая плечевая ядерная катапульта. Оружие стреляет ядерными снарядами, которые при детонации производят ядерный взрыв на небольшой площади, нанося колоссальный урон и выделяя радиацию в течение короткого времени. В идеальном состоянии это оружие может произвести 495 выстрелов до поломки.</Fallout_Fat_Man.description>
+<Fallout_Fat_Man.label>Толстяк</Fallout_Fat_Man.label>
+<Fallout_Fat_Man.description>Тактическая носимя ядерная катапульта. Оружие стреляет ядерными снарядами, которые при детонации создают ядерный взрыв на небольшой площади, нанося огромный урон и выделяя радиацию в течение короткого времени. В идеальном состоянии это оружие может выстрелить 495 раз до поломки.</Fallout_Fat_Man.description>
 <Fallout_Fat_Man.verbs.0.label>ㅤ</Fallout_Fat_Man.verbs.0.label>
 
 <Fallout_PepperShaker.tools.0.label>ствол</Fallout_PepperShaker.tools.0.label>
-<Fallout_PepperShaker.label>«Перцемолка»</Fallout_PepperShaker.label>
-<Fallout_PepperShaker.description>«Перцемолка» требует одну секунду на раскрутку перед автоматическим выстрелом восемью дробовыми патронами. Считается одновременно и дробовиком, и тяжёлым оружием, получая бонусы от соответствующих перков.</Fallout_PepperShaker.description>
+<Fallout_PepperShaker.label>Перечница</Fallout_PepperShaker.label>
+<Fallout_PepperShaker.description>Перечнице требуется одна секунда на раскрутку, после чего она автоматически выпускает восемь дробовых патронов. Она считается одновременно дробовиком и тяжёлым оружием и получает бонусы от любых перков из этих классов оружия.</Fallout_PepperShaker.description>
 <Fallout_PepperShaker.verbs.0.label>ㅤ</Fallout_PepperShaker.verbs.0.label>
 
 <Fallout_HellBoss.tools.0.label>ствол</Fallout_HellBoss.tools.0.label>
 <Fallout_HellBoss.label>Пулемёт «Адский босс»</Fallout_HellBoss.label>
-<Fallout_HellBoss.description>В мире, где законы пишутся стволом, а перемирие — лишь пауза для перезарядки, обычные пулемёты для тех, кто всё ещё верит в переговоры. Hell Boss — это не стрельба, это залповая артиллерийская подготовка в компактном формате.</Fallout_HellBoss.description>
+<Fallout_HellBoss.description>В мире, где законы пишутся стволом, а перемирие — это просто пауза для перезарядки, обычные пулемёты — для тех, кто всё ещё верит в переговоры. «Адский босс» — это не стрельба, это залповая артиллерийская подготовка в компактном формате.</Fallout_HellBoss.description>
 <Fallout_HellBoss.verbs.0.label>ㅤ</Fallout_HellBoss.verbs.0.label>
 
 <Fallout_Flamethrower.label>Огнемёт «Последнее предупреждение»</Fallout_Flamethrower.label>
-<Fallout_Flamethrower.description>«Потому что кто-то должен нести цивилизацию в этот варварский мир. И если варвары не понимают слов, они поймут напалм».
-Этот скромный агрегат превращает ваши проблемы в хрустящие угольки с 2077 года! Враги убегают? Нет проблем — догоните их струёй жидкого солнца! Хотите согреться холодной пустошной ночью? Просто подожгите ближайшую хижину — теперь это ваш личный камин!</Fallout_Flamethrower.description>
+<Fallout_Flamethrower.description>«Потому что кто-то должен нести цивилизацию в этот варварский мир. И если варвары не понимают слов, они поймут напалм.»
+
+Этот скромный агрегат превращает ваши проблемы в хрустящие угольки с 2077 года! Враги в бегах? Не проблема — догоните их струёй жидкого солнца! Хотите согреться холодной пустошной ночью? Просто подожгите ближайшую хижину — теперь это ваш личный камин!</Fallout_Flamethrower.description>
 <Fallout_Flamethrower.verbs.0.label>ㅤ</Fallout_Flamethrower.verbs.0.label>
 
 <Fallout_HarpoonGun.tools.0.label>ствол</Fallout_HarpoonGun.tools.0.label>
-<Fallout_HarpoonGun.label>Гарпунное ружьё</Fallout_HarpoonGun.label>
-<Fallout_HarpoonGun.description>Гарпунная установка, позаимствованная с китобойного судна, надёжная защита Фар-Харбора от мутантов.</Fallout_HarpoonGun.description>
+<Fallout_HarpoonGun.label>Гарпунная пушка</Fallout_HarpoonGun.label>
+<Fallout_HarpoonGun.description>Гарпунная установка, позаимствованная с китобойного судна, — надёжная защита Фар-Харбора от мутантов.</Fallout_HarpoonGun.description>
 <Fallout_HarpoonGun.verbs.0.label>ㅤ</Fallout_HarpoonGun.verbs.0.label>
 
 <Fallout_PlasmaCarbine.tools.0.label>ствол</Fallout_PlasmaCarbine.tools.0.label>
-<Fallout_PlasmaCarbine.label>Плазменный карабин «Сожигатель»</Fallout_PlasmaCarbine.label>
-<Fallout_PlasmaCarbine.description>Когда обычной баллистики недостаточно, на помощь приходит этот высокотехнологичный ужас. Созданный на основе довоенных военных прототипов, «Сожигатель» превращает врагов в дымящиеся кучи пепла одним точным выстрелом. Дорогой в обслуживании, но бесценный в бою, этот карабин ценят те, кто предпочитает качество количеству.</Fallout_PlasmaCarbine.description>
+<Fallout_PlasmaCarbine.label>Плазменная винтовка «Инсинератор»</Fallout_PlasmaCarbine.label>
+<Fallout_PlasmaCarbine.description>Когда обычной баллистики недостаточно, на помощь приходит этот высокотехнологичный ужас. Созданная на основе довоенных военных прототипов, «Инсинератор» превращает врагов в дымящиеся кучи пепла одним точным выстрелом. Дорогая в обслуживании, но бесценная в бою, эта винтовка ценится теми, кто ставит качество выше количества.</Fallout_PlasmaCarbine.description>
 <Fallout_PlasmaCarbine.verbs.0.label>ㅤ</Fallout_PlasmaCarbine.verbs.0.label>
 
 <Fallout_PlasmaPistol.tools.0.label>ствол</Fallout_PlasmaPistol.tools.0.label>
-<Fallout_PlasmaPistol.label>Плазменный пистолет «Клык Иона»</Fallout_PlasmaPistol.label>
-<Fallout_PlasmaPistol.description>Компактный, но смертоносный, этот пистолет доказал, что размер не имеет значения, когда речь идёт о плазме. Разработанный как оружие самообороны для довоенных армейских офицеров, «Клык Иона» за столетия множество раз модифицировался, перепродавался и перестраивался. Но одно оставалось неизменным — способность испарять плоть с костей за долю секунды.</Fallout_PlasmaPistol.description>
+<Fallout_PlasmaPistol.label>Плазменный пистолет «Ионный клык»</Fallout_PlasmaPistol.label>
+<Fallout_PlasmaPistol.description>Компактный, но смертоносный, этот пистолет доказал, что размер не имеет значения, когда дело касается плазмы. Разработанный как оружие самообороны для довоенных армейских офицеров, «Ионный клык» за столетия множество раз модифицировался, перепродавался и перестраивался. Но одно оставалось неизменным — его способность испарять плоть с костей за долю секунды.</Fallout_PlasmaPistol.description>
 <Fallout_PlasmaPistol.verbs.0.label>ㅤ</Fallout_PlasmaPistol.verbs.0.label>
 
 <Fallout_PlasmaWraith.tools.0.label>ствол</Fallout_PlasmaWraith.tools.0.label>
 <Fallout_PlasmaWraith.label>Плазменный призрак</Fallout_PlasmaWraith.label>
-<Fallout_PlasmaWraith.description>Разработан по чертежам Великой Пустоши, где первые образцы собирали из обломков вертолётных лазерных пушек. Легендарный наёмник Койот Слинг использовал её, чтобы убить Президента Столичной Пустоши через стену бункера. «Ты не услышишь выстрела. Только шипение воздуха... и мягкий хлопок, когда голова цели превращается в пар» — инструктор с голограммы Убежища 41.</Fallout_PlasmaWraith.description>
+<Fallout_PlasmaWraith.description>Разработана по чертежам Великой Пустоши, где первые образцы были собраны из обломков вертолётных лазерных пушек. Легендарный наёмник Койот Слинг использовал её, чтобы убить президента Столичной Пустоши через стену бункера.
+
+«Ты не услышишь выстрела. Только шипение воздуха... и мягкий хлопок, когда голова твоей цели превращается в пар.» — Голографический инструктор из Убежища 41.</Fallout_PlasmaWraith.description>
 <Fallout_PlasmaWraith.verbs.0.label>ㅤ</Fallout_PlasmaWraith.verbs.0.label>
 
 <Fallout_MinigunPlasma.tools.0.label>ствол</Fallout_MinigunPlasma.tools.0.label>
-<Fallout_MinigunPlasma.label>Плазменный гатлинг «Раскалённая буря»</Fallout_MinigunPlasma.label>
-<Fallout_MinigunPlasma.description>Разработанный довоенными военными корпорациями в рамках проекта «Сожигатель», этот гатлинг был создан для подавления укреплений и орд мутантов. После войны чертежи нашёл Анклав и модернизировал с использованием технологий Adamantium Corps, но несколько образцов просочились на чёрный рынок. Теперь оружие можно встретить в руках вооружённых до зубов рейдеров, Братства Стали или безумных учёных, рискнувших его починить. «Когда обычной плазмы недостаточно, в дело вступает этот монстр. Шесть стволов, заряженных перегретой плазмой, вращаются с рёвом, превращая всё на своём пути в радиоактивную лужу. Прощай, броня. Прощай, укрытие. Прощай, здравый смысл».</Fallout_MinigunPlasma.description>
+<Fallout_MinigunPlasma.label>Плазменная минигана «Плавильный шторм»</Fallout_MinigunPlasma.label>
+<Fallout_MinigunPlasma.description>Разработана довоенными военными корпорациями в рамках проекта «Инсинератор», эта минигана была создана для подавления укреплений и орд мутантов. После войны чертежи нашёл Анклав и модернизировал с использованием технологий Adamantium Corps, но несколько экземпляров просочились на чёрный рынок. Теперь оружие можно найти в руках хорошо вооружённых рейдеров, Братства Стали или безумных учёных, которые осмеливаются его ремонтировать.
+
+«Когда обычной плазмы недостаточно, в дело вступает этот монстр. Шесть стволов, заряженных перегретой плазмой, вращаются с рёвом, превращая всё на своём пути в радиоактивную лужу. Прощай, броня. Прощай, укрытие. Прощай, здравый смысл.»</Fallout_MinigunPlasma.description>
 <Fallout_MinigunPlasma.verbs.0.label>ㅤ</Fallout_MinigunPlasma.verbs.0.label>
 
 <Fallout_LaserCarbine.tools.0.label>ствол</Fallout_LaserCarbine.tools.0.label>
-<Fallout_LaserCarbine.label>Карабин «AER-14»</Fallout_LaserCarbine.label>
-<Fallout_LaserCarbine.description>Разработанный компанией Aeroquant для армии США до Великой войны, AER-14 стал одним из самых распространённых энергетических образцов в довоенном мире. Его надёжность и простота сделали его популярным среди военных, а позже — и среди выживших Пустоши.</Fallout_LaserCarbine.description>
+<Fallout_LaserCarbine.label>Винтовка «AER-14»</Fallout_LaserCarbine.label>
+<Fallout_LaserCarbine.description>Разработанная компанией Aeroquant для армии США до Великой войны, AER-14 стала одним из самых распространённых энергетических видов оружия в довоенном мире. Её надёжность и простота сделали её популярной среди военных, а позже — и среди выживших в Пустоши.</Fallout_LaserCarbine.description>
 <Fallout_LaserCarbine.verbs.0.label>ㅤ</Fallout_LaserCarbine.verbs.0.label>
 
 <Fallout_GatlingLaser.tools.0.label>ствол</Fallout_GatlingLaser.tools.0.label>
-<Fallout_GatlingLaser.label>Гатлинг-лазер «Солнечный вихрь»</Fallout_GatlingLaser.label>
-<Fallout_GatlingLaser.description>Создан для тех, кто считает, что «избыточная огневая мощь» — это оксюморон. Гатлинг-лазер «Солнечный вихрь» превращает ваших врагов в аккуратные кучки пепла с 1999 года!</Fallout_GatlingLaser.description>
+<Fallout_GatlingLaser.label>Лазерная минигана «Солнечный вихрь»</Fallout_GatlingLaser.label>
+<Fallout_GatlingLaser.description>Разработана для тех, кто считает, что «избыточная огневая мощь» — это оксюморон. Лазерная минигана «Солнечный вихрь» превращает ваших врагов в аккуратные кучки пепла с 1999 года!</Fallout_GatlingLaser.description>
 <Fallout_GatlingLaser.verbs.0.label>ㅤ</Fallout_GatlingLaser.verbs.0.label>
 
 <Fallout_LaserPistolML.tools.0.label>ствол</Fallout_LaserPistolML.tools.0.label>
 <Fallout_LaserPistolML.label>AER-9 «Поцелуй солнца»</Fallout_LaserPistolML.label>
-<Fallout_LaserPistolML.description>Разработанный General Atomics International в рамках программы «Защити Америку... от самой себя», AER-9 должен был стать оружием будущего — лёгким, точным и смертоносным. Но, как и всё в этом мире, будущее наступило криво, наискосок и с перебоями питания. После Великой войны эти пистолеты широко распространились среди выживших, мутантов и прочих любителей «точечной» дипломатии.</Fallout_LaserPistolML.description>
+<Fallout_LaserPistolML.description>Разработанный компанией General Atomics International в рамках программы «Защитим Америку... от самой себя», AER-9 должен был стать оружием будущего — лёгким, точным и смертоносным. Но, как и всё в этом мире, будущее наступило криво, косо и с перебоями в подаче энергии. После Великой войны эти пистолеты широко распространились среди выживших, мутантов и других любителей «точечной» дипломатии.</Fallout_LaserPistolML.description>
 <Fallout_LaserPistolML.verbs.0.label>ㅤ</Fallout_LaserPistolML.verbs.0.label>
 
 <Fallout_LaserPistol.tools.0.label>ствол</Fallout_LaserPistol.tools.0.label>
 <Fallout_LaserPistol.label>Лазерный пистолет «Синтез-MK IV»</Fallout_LaserPistol.label>
-<Fallout_LaserPistol.description>Syntectics Institute™ – Мы не просто создаём технологии. Мы создаём будущее… которое может пережить вас.</Fallout_LaserPistol.description>
+<Fallout_LaserPistol.description>«Корпорация Syntectics™ — Мы не просто создаём технологии. Мы создаём будущее... которое может пережить вас.»</Fallout_LaserPistol.description>
 <Fallout_LaserPistol.verbs.0.label>ㅤ</Fallout_LaserPistol.verbs.0.label>
 
 <Fallout_LaserCarbineML.tools.0.label>ствол</Fallout_LaserCarbineML.tools.0.label>
-<Fallout_LaserCarbineML.label>AER-12 «Лазерный шёпот»</Fallout_LaserCarbineML.label>
-<Fallout_LaserCarbineML.description>«Когда нужно аккуратно испарить врага, а не просто размазать его по стене».</Fallout_LaserCarbineML.description>
+<Fallout_LaserCarbineML.label>AER-12 «Лазерный шепот»</Fallout_LaserCarbineML.label>
+<Fallout_LaserCarbineML.description>«Когда нужно аккуратно испарить врага, а не просто размазать его по стене.»</Fallout_LaserCarbineML.description>
 <Fallout_LaserCarbineML.verbs.0.label>ㅤ</Fallout_LaserCarbineML.verbs.0.label>
 
 <Fallout_TeslaCannon.tools.0.label>ствол</Fallout_TeslaCannon.tools.0.label>
-<Fallout_TeslaCannon.label>Переносная тесла-пушка «Громовержец»</Fallout_TeslaCannon.label>
-<Fallout_TeslaCannon.description>«Для тех случаев, когда нужно превратить перестрелку в световое шоу Николы Теслы (с участием свежеприготовленных трупов)! Довоенные учёные явно пересмотрели слишком много фильмов о Франкенштейне, когда проектировали этот переносной громоотвод для ваших проблем.
+<Fallout_TeslaCannon.label>Переносная пушка Теслы «Громовержец»</Fallout_TeslaCannon.label>
+<Fallout_TeslaCannon.description>«На случай, когда нужно превратить перестрелку в световое шоу Николы Теслы (с участием свежеприготовленных трупов)! Довоенные учёные явно пересмотрели слишком много фильмов о Франкенштейне, когда проектировали этот переносной громоотвод для ваших проблем.
 
-**Почему это гениально:**
+**Почему он гениален:**
  Превращает перестрелки в демонстрацию катушек Теслы (с хорошо прожаренными врагами)
  Заряжается буквально от всего (включая ваши предсмертные крики)
- Гарантирует уважение (или смертельный шок для окрестных рейдеров)
+ Гарантирует уважение (или смертельный шок для близлежащих рейдеров)
  Встроенный «электрошоковый режим» для тех, кто подходит слишком близко
 
 **Особенности эксплуатации:**
-- Ваш новый фирменный аромат: палёная плоть с озоном
+- Ваш новый фирменный запах: озонированная плоть
 - «Волосы дыбом» перестаёт быть метафорой
-- Пип-Бой плавится быстрее ваших целей
+- Пип-бой плавится быстрее, чем ваши цели
 - Соседи пожалуются... ровно один раз
 
 **Предупреждение!**
-Не использовать:
+Не используйте:
 - Во время дождя
 - Рядом с друзьями
 - Если боитесь увидеть собственный скелет
 
-*Одобрено Братством Стали (пока не опробовали на них)*</Fallout_TeslaCannon.description>
+*Одобрено Братством Стали (до полевых испытаний на них)»</Fallout_TeslaCannon.description>
 <Fallout_TeslaCannon.verbs.0.label>ㅤ</Fallout_TeslaCannon.verbs.0.label>
 
 <Fallout_SyringerRifle.tools.0.label>ствол</Fallout_SyringerRifle.tools.0.label>
 <Fallout_SyringerRifle.label>Винтовка-шприцемёт</Fallout_SyringerRifle.label>
-<Fallout_SyringerRifle.description>Собранная из обломков довоенного оружия, ржавых труб и деталей, найденных в Пустоши, эта винтовка — типичное творение выживальщиков и бродяг. Заряжается вручную патронами 5.56x45mm NATO, а затвор скрипит так, будто вот-вот развалится. Однако в умелых руках она способна пробить дыру даже в броне рейдера.</Fallout_SyringerRifle.description>
+<Fallout_SyringerRifle.description>Собранная из обломков довоенного оружия, ржавых труб и деталей, найденных в Пустоши, эта винтовка — типичное творение выживальщиков и бродяг. Она заряжается вручную патронами 5.56×45 мм НАТО, а затвор скрипит так, будто вот-вот развалится. Однако в умелых руках она способна пробить дыру даже в броне рейдера.</Fallout_SyringerRifle.description>
 <Fallout_SyringerRifle.verbs.0.label>ㅤ</Fallout_SyringerRifle.verbs.0.label>
 
 <Fallout_SyringerGun.tools.0.label>ствол</Fallout_SyringerGun.tools.0.label>
-<Fallout_SyringerGun.label>Пистолет-шприцемёт</Fallout_SyringerGun.label>
-<Fallout_SyringerGun.description>Пистолет для дротиков, покрытый грязью, больше похожий на медицинскую катастрофу, чем на оружие. Собран из деталей разграбленных клиник и держится на изоленте и злобе. В патронник вставлена переделанная игла для подкожных инъекций, а в качестве движителя — корродированный баллон с CO₂ — если он не выпустит газ вам в лицо первым. Врачи Пустоши его ненавидят. Рейдеры обожают. Одним точным выстрелом можно доставить всё — от Винта до смертельной дозы Антирадина (что, как ни странно, тоже убивает). Обращайтесь с ним осторожно — или используйте на чьём-нибудь трупе.</Fallout_SyringerGun.description>
+<Fallout_SyringerGun.label>Шприцемёт</Fallout_SyringerGun.label>
+<Fallout_SyringerGun.description>Покрытый грязью пневматический пистолет, который выглядит скорее как медицинская катастрофа, чем как оружие. Собран из деталей разграбленных клиник и держится на изоленте и злобе. В патронник вставлена спасённая игла для подкожных инъекций, а в качестве метательного заряда используется корродированный баллон с CO₂ — если он сначала не выпустит газ вам в лицо. Пустошные доктора его презирают. Рейдеры обожают. Один точный выстрел может доставить всё — от Винта до смертельной дозы Рад-Эйва (что, как ни странно, тоже убивает). Обращайтесь с ним бережно... или обращайтесь с чьим-нибудь трупом.</Fallout_SyringerGun.description>
 <Fallout_SyringerGun.verbs.0.label>ㅤ</Fallout_SyringerGun.verbs.0.label>
 </LanguageData>

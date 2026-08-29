@@ -1,19 +1,19 @@
 <LanguageData>
-<Vault-TecPower.label>Энергоснабжение Vault-Tec</Vault-TecPower.label>
-<Vault-TecPower.description>Строит генераторы по чертежам Vault-Tec.</Vault-TecPower.description>
+<Vault-TecPower.label>Энергетика Волт-Тек</Vault-TecPower.label>
+<Vault-TecPower.description>Строит генераторы по чертежам Волт-Тек.</Vault-TecPower.description>
 <Vault-TecPower.generalRules.rulesStrings>
-	<li>subject->Энергоснабжение Vault-Tec</li>
+	<li>subject->Энергетика Волт-Тек</li>
 </Vault-TecPower.generalRules.rulesStrings>
 
-<Vault-TecProduction.label>Производство Vault-Tec</Vault-TecProduction.label>
-<Vault-TecProduction.description>Строит верстаки по чертежам Vault-Tec.</Vault-TecProduction.description>
+<Vault-TecProduction.label>Производство Волт-Тек</Vault-TecProduction.label>
+<Vault-TecProduction.description>Строит верстаки по чертежам Волт-Тек.</Vault-TecProduction.description>
 <Vault-TecProduction.generalRules.rulesStrings>
-	<li>subject->Производство Vault-Tec</li>
+	<li>subject->Производство Волт-Тек</li>
 </Vault-TecProduction.generalRules.rulesStrings>
 
-<Vault-TecProcessing.label>Химическая переработка Vault-Tec</Vault-TecProcessing.label>
-<Vault-TecProcessing.description>Строит лаборатории по чертежам Vault-Tec.</Vault-TecProcessing.description>
+<Vault-TecProcessing.label>Химическая переработка Волт-Тек</Vault-TecProcessing.label>
+<Vault-TecProcessing.description>Строит лаборатории по чертежам Волт-Тек.</Vault-TecProcessing.description>
 <Vault-TecProcessing.generalRules.rulesStrings>
-	<li>subject->Лаборатория Vault-Tec</li>
+	<li>subject->Лаборатория Волт-Тек</li>
 </Vault-TecProcessing.generalRules.rulesStrings>
 </LanguageData>

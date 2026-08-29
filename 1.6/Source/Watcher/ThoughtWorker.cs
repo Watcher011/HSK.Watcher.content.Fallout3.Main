@@ -4,11 +4,64 @@ using System.Linq;
 using Verse;
 using Verse.AI;
 
-//Этот код добавляет в игру новую черту характера "Токсичный" - персонаж получает вдохновение от страданий других и периодически оскорбляет окружающих.
+// Удобная база для добавления новых черт характера в RimWorld 1.6
+// На базе существующего кода Toxic + RadiationLover
 
 namespace Watcher
 {
-    // Существующий код RadiationLover
+    // ==================== БАЗОВЫЙ КЛАСС ДЛЯ THOUGHTWORKER ====================
+
+    public abstract class ThoughtWorker_TraitBase : ThoughtWorker
+    {
+        protected abstract string TraitDefName { get; }
+
+        protected virtual bool CheckTrait(Pawn p)
+        {
+            if (p?.story?.traits == null) return false;
+            return p.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamedSilentFail(TraitDefName));
+        }
+
+        protected sealed override ThoughtState CurrentStateInternal(Pawn p)
+        {
+            if (!CheckTrait(p))
+                return ThoughtState.Inactive;
+
+            return GetThoughtState(p);
+        }
+
+        protected virtual ThoughtState GetThoughtState(Pawn p)
+        {
+            return ThoughtState.ActiveDefault;
+        }
+    }
+
+    // ==================== УТИЛИТЫ ====================
+
+    public static class HediffHelper
+    {
+        public static bool HasHediff(Pawn p, string hediffDefName)
+        {
+            if (p?.health?.hediffSet == null) return false;
+            var def = HediffDef.Named(hediffDefName);
+            return def != null && p.health.hediffSet.HasHediff(def);
+        }
+
+        public static Hediff GetFirstHediff(Pawn p, string hediffDefName)
+        {
+            if (p?.health?.hediffSet == null) return null;
+            var def = HediffDef.Named(hediffDefName);
+            return def != null ? p.health.hediffSet.GetFirstHediffOfDef(def) : null;
+        }
+
+        public static float GetHediffSeverity(Pawn p, string hediffDefName)
+        {
+            var hediff = GetFirstHediff(p, hediffDefName);
+            return hediff?.Severity ?? 0f;
+        }
+    }
+
+    // ==================== СУЩЕСТВУЮЩИЙ КОД: RADIATION LOVER ====================
+
     public class ThoughtWorker_RadiationLover : ThoughtWorker
     {
         protected override ThoughtState CurrentStateInternal(Pawn p)
@@ -43,10 +96,10 @@ namespace Watcher
         }
     }
 
-    // НОВЫЙ КОД: Черта "Токсичный"
+    // ==================== СУЩЕСТВУЮЩИЙ КОД: TOXIC ====================
+
     public class ThoughtWorker_Toxic : ThoughtWorker
     {
-        // Словари для отслеживания срывов и вдохновения
         private static Dictionary<Pawn, int> mentalBreaksWitnessed = new Dictionary<Pawn, int>();
         private static Dictionary<Pawn, HashSet<Pawn>> witnessedBreaksByPawn = new Dictionary<Pawn, HashSet<Pawn>>();
         private const int BREAKS_FOR_INSPIRATION = 5;
@@ -58,13 +111,11 @@ namespace Watcher
                 return ThoughtState.Inactive;
             }
 
-            // Инициализируем словари если нужно
             if (!mentalBreaksWitnessed.ContainsKey(p))
                 mentalBreaksWitnessed[p] = 0;
             if (!witnessedBreaksByPawn.ContainsKey(p))
                 witnessedBreaksByPawn[p] = new HashSet<Pawn>();
 
-            // Ищем пешек в радиусе 15 клеток с ментальным срывом
             foreach (Pawn nearbyPawn in p.Map.mapPawns.AllPawnsSpawned)
             {
                 if (nearbyPawn == p) continue;
@@ -75,17 +126,12 @@ namespace Watcher
 
                 if (nearbyPawn.InMentalState)
                 {
-                    // Проверяем, не видели ли мы уже этот срыв от этой пешки
                     if (!witnessedBreaksByPawn[p].Contains(nearbyPawn))
                     {
-                        // Новый срыв!
                         witnessedBreaksByPawn[p].Add(nearbyPawn);
                         mentalBreaksWitnessed[p]++;
-
-                        // Проверяем на вдохновение
                         CheckForInspiration(p);
 
-                        // Очищаем если слишком много записей
                         if (witnessedBreaksByPawn[p].Count > 50)
                             witnessedBreaksByPawn[p].RemoveWhere(witnessedPawn => !witnessedPawn.InMentalState);
                     }
@@ -101,16 +147,12 @@ namespace Watcher
         {
             int count = mentalBreaksWitnessed[toxicPawn];
 
-            // Выдаем вдохновение каждые 5 срывов
             if (count % BREAKS_FOR_INSPIRATION == 0 && count > 0)
             {
-                // Пытаемся выдать случайное вдохновение
                 InspirationDef inspirationDef = GetRandomInspirationForToxic();
                 if (inspirationDef != null)
                 {
                     toxicPawn.mindState.inspirationHandler.TryStartInspiration(inspirationDef);
-
-                    // Сообщение в лог
                     Messages.Message($"{toxicPawn.LabelShort} получает вдохновение от страданий других!",
                         toxicPawn, MessageTypeDefOf.PositiveEvent);
                 }
@@ -119,21 +161,19 @@ namespace Watcher
 
         private InspirationDef GetRandomInspirationForToxic()
         {
-            // Получаем все доступные вдохновения через DefDatabase
             List<InspirationDef> possibleInspirations = new List<InspirationDef>();
 
-            // Проверяем все известные вдохновения из базовой игры и DLC
             string[] inspirationNames = new string[]
             {
-                "InspiredArt",           // Вдохновение искусства (базовая игра)
-                "InspiredMining",        // Вдохновение горнодобычи (базовая игра)
-                "InspiredHunting",       // Вдохновение охоты (базовая игра)
-                "InspiredTaming",        // Вдохновение приручения (базовая игра)
-                "InspiredTrade",         // Вдохновение торговли (Royalty)
-                "InspiredRecruitment",   // Вдохновение вербовки (Royalty)
-                "InspiredSurgery",       // Вдохновение хирургии (Royalty)
-                "InspiredCreativity",    // Вдохновение творчества (Ideology)
-                "InspiredResearch",      // Вдохновение исследований (Ideology/Biotech)
+                "InspiredArt",
+                "InspiredMining",
+                "InspiredHunting",
+                "InspiredTaming",
+                "InspiredTrade",
+                "InspiredRecruitment",
+                "InspiredSurgery",
+                "InspiredCreativity",
+                "InspiredResearch",
             };
 
             foreach (string name in inspirationNames)
@@ -143,29 +183,23 @@ namespace Watcher
                     possibleInspirations.Add(def);
             }
 
-            if (possibleInspirations.Count == 0)
-                return null;
-
-            return possibleInspirations.RandomElement();
+            return possibleInspirations.Count == 0 ? null : possibleInspirations.RandomElement();
         }
 
         public static void ResetCounter(Pawn p)
         {
-            if (mentalBreaksWitnessed.ContainsKey(p))
-                mentalBreaksWitnessed.Remove(p);
-            if (witnessedBreaksByPawn.ContainsKey(p))
-                witnessedBreaksByPawn.Remove(p);
+            mentalBreaksWitnessed.Remove(p);
+            witnessedBreaksByPawn.Remove(p);
         }
     }
 
-    // JobGiver с интервалом 5-10 дней
     public class JobGiver_ToxicInsult : ThinkNode_JobGiver
     {
         private static Dictionary<Pawn, int> lastInsultTicks = new Dictionary<Pawn, int>();
         private static Dictionary<Pawn, int> insultIntervals = new Dictionary<Pawn, int>();
 
-        private const int MIN_INTERVAL = 300000; // 5 дней
-        private const int MAX_INTERVAL = 600000; // 10 дней
+        private const int MIN_INTERVAL = 300000;
+        private const int MAX_INTERVAL = 600000;
 
         protected override Job TryGiveJob(Pawn pawn)
         {
@@ -227,6 +261,94 @@ namespace Watcher
             }
 
             return bestTarget;
+        }
+    }
+
+    // ==================== НОВАЯ ЧЕРТА: СОЛНЕЧНАЯ БАТАРЕЙКА ====================
+
+    public class ThoughtWorker_SolarBattery : ThoughtWorker_TraitBase
+    {
+        protected override string TraitDefName => "SolarBattery";
+
+        private const string HEDIFF_BRIGHT = "Enlighten_Bright";
+        private const string HEDIFF_CHARGED = "SolarBattery_Charged";
+
+        protected override ThoughtState GetThoughtState(Pawn p)
+        {
+            bool hasBright = HediffHelper.HasHediff(p, HEDIFF_BRIGHT);
+
+            // Добавляем/убираем хедифф скорости
+            Hediff chargedHediff = HediffHelper.GetFirstHediff(p, HEDIFF_CHARGED);
+
+            if (hasBright && chargedHediff == null)
+            {
+                // Выдаём бонусный хедифф
+                HediffDef chargedDef = HediffDef.Named(HEDIFF_CHARGED);
+                if (chargedDef != null)
+                {
+                    p.health.AddHediff(chargedDef);
+                }
+            }
+            else if (!hasBright && chargedHediff != null)
+            {
+                // Убираем бонусный хедифф
+                p.health.RemoveHediff(chargedHediff);
+            }
+
+            if (!hasBright)
+                return ThoughtState.Inactive;
+
+            return ThoughtState.ActiveDefault;
+        }
+    }
+
+    // ==================== НОВАЯ ЧЕРТА: КРЕПКИЙ ХРЕБЕТ ====================
+
+    public class ThoughtWorker_StrongSpine : ThoughtWorker_TraitBase
+    {
+        protected override string TraitDefName => "StrongSpine";
+
+        private const string HEDIFF_DEF_NAME = "StrongSpine_Hediff";
+
+        protected override ThoughtState GetThoughtState(Pawn p)
+        {
+            // Выдаём хедифф если его нет
+            Hediff hediff = HediffHelper.GetFirstHediff(p, HEDIFF_DEF_NAME);
+            if (hediff == null)
+            {
+                HediffDef def = HediffDef.Named(HEDIFF_DEF_NAME);
+                if (def != null)
+                {
+                    p.health.AddHediff(def);
+                }
+            }
+
+            return ThoughtState.ActiveDefault;
+        }
+    }
+
+
+    // ==================== НОВАЯ ЧЕРТА:  ЗАРЯД БОДРОСТИ ====================
+
+    public class ThoughtWorker_VigorCharge : ThoughtWorker_TraitBase
+    {
+        protected override string TraitDefName => "VigorCharge";
+
+        private const string HEDIFF_DEF_NAME = "VigorCharge_Hediff";
+
+        protected override ThoughtState GetThoughtState(Pawn p)
+        {
+            Hediff hediff = HediffHelper.GetFirstHediff(p, HEDIFF_DEF_NAME);
+            if (hediff == null)
+            {
+                HediffDef def = HediffDef.Named(HEDIFF_DEF_NAME);
+                if (def != null)
+                {
+                    p.health.AddHediff(def);
+                }
+            }
+
+            return ThoughtState.ActiveDefault;
         }
     }
 }

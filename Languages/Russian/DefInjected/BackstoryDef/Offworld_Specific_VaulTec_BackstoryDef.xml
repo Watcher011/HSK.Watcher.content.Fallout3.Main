@@ -1,472 +1,473 @@
 <LanguageData>
-	<ShelterRepairman58.title>Ремонтник Убежища</ShelterRepairman58.title>
-<ShelterRepairman58.titleFemale>Ремонтница Убежища</ShelterRepairman58.titleFemale>
+	<ShelterRepairman58.title>Ремонтник из убежища</ShelterRepairman58.title>
+<ShelterRepairman58.titleFemale>Ремонтница из убежища</ShelterRepairman58.titleFemale>
 <ShelterRepairman58.titleShort>Ремонтник</ShelterRepairman58.titleShort>
 <ShelterRepairman58.titleShortFemale>Ремонтница</ShelterRepairman58.titleShortFemale>
-<ShelterRepairman58.description>[PAWN_nameDef] выполнял чёрную работу в Убежище. В обязанности также входил уход за браминами, перевозившими грузы.</ShelterRepairman58.description>
+<ShelterRepairman58.description>[PAWN_nameDef] выполнял черную работу в убежище. В его обязанности также входил уход за браминами, которые перевозили грузы.</ShelterRepairman58.description>
 
-<ShelterPsychiatricPatient94.title>Психушка из Убежища</ShelterPsychiatricPatient94.title>
-<ShelterPsychiatricPatient94.titleFemale>Психушка из Убежища</ShelterPsychiatricPatient94.titleFemale>
-<ShelterPsychiatricPatient94.titleShort>Психушка</ShelterPsychiatricPatient94.titleShort>
-<ShelterPsychiatricPatient94.titleShortFemale>Психушка</ShelterPsychiatricPatient94.titleShortFemale>
-<ShelterPsychiatricPatient94.description>Большую часть взрослой жизни [PAWN_nameDef] провёл в Убежище. Тамошний медик мало что смыслил в психических болезнях, и с [PAWN_possessive] обращались хуже, чем с животным.\n\nХотя [PAWN_pronoun] в итоге изгнали, пережитое подорвало многие базовые навыки выживания.</ShelterPsychiatricPatient94.description>
+<ShelterPsychiatricPatient94.title>Псих из убежища</ShelterPsychiatricPatient94.title>
+<ShelterPsychiatricPatient94.titleFemale>Псих из убежища</ShelterPsychiatricPatient94.titleFemale>
+<ShelterPsychiatricPatient94.titleShort>Псих</ShelterPsychiatricPatient94.titleShort>
+<ShelterPsychiatricPatient94.titleShortFemale>Псих</ShelterPsychiatricPatient94.titleShortFemale>
+<ShelterPsychiatricPatient94.description>[PAWN_nameDef] провел большую часть своей взрослой жизни в убежище. Тамошний врач-медик мало что понимал в душевных болезнях, и к [PAWN_objective] относились скорее как к животному, чем как к человеку.\n\nХотя в конце концов [PAWN_pronoun] был изгнан, этот опыт лишил [PAWN_objective] многих базовых жизненных навыков.</ShelterPsychiatricPatient94.description>
 
-<ShelterComputer83.title>живой компьютер</ShelterComputer83.title>
-<ShelterComputer83.titleFemale>живой компьютер</ShelterComputer83.titleFemale>
-<ShelterComputer83.titleShort>компьютер</ShelterComputer83.titleShort>
-<ShelterComputer83.titleShortFemale>компьютер</ShelterComputer83.titleShortFemale>
-<ShelterComputer83.description>[PAWN_nameDef] обладал феноменальной памятью и способностью производить сложные расчёты в уме. Смотритель Убежища решил нанять [PAWN_nameDef] для контроля над финансами и расходами Убежища.</ShelterComputer83.description>
+<ShelterComputer83.title>Человек-компьютер</ShelterComputer83.title>
+<ShelterComputer83.titleFemale>Человек-компьютер</ShelterComputer83.titleFemale>
+<ShelterComputer83.titleShort>Компьютер</ShelterComputer83.titleShort>
+<ShelterComputer83.titleShortFemale>Компьютер</ShelterComputer83.titleShortFemale>
+<ShelterComputer83.description>[PAWN_nameDef] обладал превосходной памятью и способностью выполнять сложные вычисления в уме. Надзиратель убежища решил нанять [PAWN_objective] для наблюдения за финансами и расходами убежища.</ShelterComputer83.description>
 
-<ShelterSheriff52.title>Шериф Убежища</ShelterSheriff52.title>
-<ShelterSheriff52.titleFemale>Шериф Убежища</ShelterSheriff52.titleFemale>
-<ShelterSheriff52.titleShort>шериф</ShelterSheriff52.titleShort>
-<ShelterSheriff52.titleShortFemale>шериф</ShelterSheriff52.titleShortFemale>
-<ShelterSheriff52.description>[PAWN_nameDef] был блюстителем порядка в Убежище. [PAWN_pronoun] занимался мелкими преступлениями, разрешал споры и иногда разнимал пьяные перестрелки в столовой.</ShelterSheriff52.description>
+<ShelterSheriff52.title>Шериф убежища</ShelterSheriff52.title>
+<ShelterSheriff52.titleFemale>Шериф убежища</ShelterSheriff52.titleFemale>
+<ShelterSheriff52.titleShort>Шериф</ShelterSheriff52.titleShort>
+<ShelterSheriff52.titleShortFemale>Шериф</ShelterSheriff52.titleShortFemale>
+<ShelterSheriff52.description>[PAWN_nameDef] был миротворцем в убежище. Он разбирал мелкие преступления, разрешал споры и иногда усмирял пьяные перестрелки в столовой.</ShelterSheriff52.description>
 
-<EntrepreneurFromShelter14.title>Предприниматель из Убежища</EntrepreneurFromShelter14.title>
-<EntrepreneurFromShelter14.titleFemale>Предпринимательница из Убежища</EntrepreneurFromShelter14.titleFemale>
-<EntrepreneurFromShelter14.titleShort>предприниматель</EntrepreneurFromShelter14.titleShort>
-<EntrepreneurFromShelter14.titleShortFemale>предпринимательница</EntrepreneurFromShelter14.titleShortFemale>
-<EntrepreneurFromShelter14.description>Ресурсы Пустоши — вот что действительно важно. Но кто-то же должен управлять караванами.\n\n[PAWN_nameDef] овладел искусством торговли — от взяток до технического анализа. [PAWN_pronoun] — социо-интеллектуальная машина.</EntrepreneurFromShelter14.description>
+<EntrepreneurFromShelter14.title>Предприниматель из убежища</EntrepreneurFromShelter14.title>
+<EntrepreneurFromShelter14.titleFemale>Предпринимательница из убежища</EntrepreneurFromShelter14.titleFemale>
+<EntrepreneurFromShelter14.titleShort>Предприниматель</EntrepreneurFromShelter14.titleShort>
+<EntrepreneurFromShelter14.titleShortFemale>Предпринимательница</EntrepreneurFromShelter14.titleShortFemale>
+<EntrepreneurFromShelter14.description>Ресурсы мира — вот что важнее всего. Но кто-то должен управлять караванами.\n\n[PAWN_nameDef] в совершенстве овладел искусством торговли — от взяток до технического анализа. Он — социо-интеллектуальная машина.</EntrepreneurFromShelter14.description>
 
 <EnclaveJuniorOfficer.title>Младший офицер Анклава</EnclaveJuniorOfficer.title>
 <EnclaveJuniorOfficer.titleFemale>Младший офицер Анклава</EnclaveJuniorOfficer.titleFemale>
 <EnclaveJuniorOfficer.titleShort>Офицер Анклава</EnclaveJuniorOfficer.titleShort>
 <EnclaveJuniorOfficer.titleShortFemale>Офицер Анклава</EnclaveJuniorOfficer.titleShortFemale>
-<EnclaveJuniorOfficer.description>[PAWN_nameDef] был младшим офицером Анклава — истинного продолжателя довоенного правительства США. С рождения [PAWN_possessive] пичкали догматами о чистоте «Американской мечты» и необходимости зачистить Пустошь. [PAWN_pronoun] нёс службу на отдалённом аванпосте, пока его часть не разгромили или не бросили после крупного поражения.</EnclaveJuniorOfficer.description>
+<EnclaveJuniorOfficer.description>[PAWN_nameDef] был младшим офицером Анклава, истинного продолжения довоенного правительства США. С самого рождения ему внушали веру в чистоту «Американской мечты» и необходимость очищения Пустошей. Он служил на отдаленном аванпосте, пока его подразделение не было уничтожено или не брошено на произвол судьбы после крупного поражения.</EnclaveJuniorOfficer.description>
 
 <EnclaveGeneticist.title>Генетик Анклава</EnclaveGeneticist.title>
 <EnclaveGeneticist.titleFemale>Генетик Анклава</EnclaveGeneticist.titleFemale>
-<EnclaveGeneticist.titleShort>Учёный Анклава</EnclaveGeneticist.titleShort>
-<EnclaveGeneticist.titleShortFemale>Учёный Анклава</EnclaveGeneticist.titleShortFemale>
-<EnclaveGeneticist.description>[PAWN_nameDef] работал в отделе исследований FEV, изучая Вирус Принудительной Эволюции для создания биологического оружия против «нечистого» населения Пустоши. [PAWN_pronoun] проводил чудовищные эксперименты на пленных, веря, что это во имя «высшего блага» чистой человеческой расы.</EnclaveGeneticist.description>
+<EnclaveGeneticist.titleShort>Ученый Анклава</EnclaveGeneticist.titleShort>
+<EnclaveGeneticist.titleShortFemale>Ученый Анклава</EnclaveGeneticist.titleShortFemale>
+<EnclaveGeneticist.description>[PAWN_nameDef] работал в исследовательском отделе СВЧ, изучая вирус принудительной эволюции для создания биологического оружия против «нечистого» населения Пустошей. Он проводил чудовищные эксперименты над пленными, веря, что это во имя «высшего блага» чистого человечества.</EnclaveGeneticist.description>
 
-<EnclavePowerArmorTech.title>Техник силовой брони Анклава</EnclavePowerArmorTech.title>
-<EnclavePowerArmorTech.titleFemale>Техник силовой брони Анклава</EnclavePowerArmorTech.titleFemale>
+<EnclavePowerArmorTech.title>Техник по силовой броне Анклава</EnclavePowerArmorTech.title>
+<EnclavePowerArmorTech.titleFemale>Техник по силовой броне Анклава</EnclavePowerArmorTech.titleFemale>
 <EnclavePowerArmorTech.titleShort>Техник СБ</EnclavePowerArmorTech.titleShort>
 <EnclavePowerArmorTech.titleShortFemale>Техник СБ</EnclavePowerArmorTech.titleShortFemale>
-<EnclavePowerArmorTech.description>[PAWN_nameDef] обслуживал и ремонтировал передовые костюмы T-51b и APA (усовершенствованную силовую броню), используемые войсками Анклава. [PAWN_pronoun] работал в тесных отсеках техобслуживания на Нефтяной вышке, следя, чтобы каждый гидравлический привод и плазменное оружие работали безупречно ради «возрождения» Америки.</EnclavePowerArmorTech.description>
+<EnclavePowerArmorTech.description>[PAWN_nameDef] обслуживал и ремонтировал передовые костюмы силовой брони Т-51b и УБС, используемые войсками Анклава. Он работал в тесных отсеках технического обслуживания на Нефтяной платформе, следя за тем, чтобы каждый гидравлический привод и плазменное оружие были в идеальном состоянии для «возрождения» Америки.</EnclavePowerArmorTech.description>
 
 <EnclaveCommsOfficer.title>Офицер связи Анклава</EnclaveCommsOfficer.title>
 <EnclaveCommsOfficer.titleFemale>Офицер связи Анклава</EnclaveCommsOfficer.titleFemale>
 <EnclaveCommsOfficer.titleShort>Офицер связи</EnclaveCommsOfficer.titleShort>
 <EnclaveCommsOfficer.titleShortFemale>Офицер связи</EnclaveCommsOfficer.titleShortFemale>
-<EnclaveCommsOfficer.description>[PAWN_nameDef] следил за радиочастотами в узле связи Анклава, прослушивая сигналы с других аванпостов или перехватывая передачи Пустоши. [PAWN_pronoun] владел шифрованием и дешифровкой, помогая поддерживать иллюзию, что Анклав — законное правительство.</EnclaveCommsOfficer.description>
+<EnclaveCommsOfficer.description>[PAWN_nameDef] следил за радиочастотами в центре связи Анклава, прослушивая сигналы с других аванпостов Анклава или пытаясь перехватывать передачи Пустошей. Он был обучен шифрованию и дешифровке и помогал поддерживать иллюзию того, что Анклав является законным правительством.</EnclaveCommsOfficer.description>
 
 <EnclaveRemnantSoldier.title>Солдат-остаток Анклава</EnclaveRemnantSoldier.title>
 <EnclaveRemnantSoldier.titleFemale>Солдат-остаток Анклава</EnclaveRemnantSoldier.titleFemale>
-<EnclaveRemnantSoldier.titleShort>Остаток</EnclaveRemnantSoldier.titleShort>
-<EnclaveRemnantSoldier.titleShortFemale>Остаток</EnclaveRemnantSoldier.titleShortFemale>
-<EnclaveRemnantSoldier.description>После уничтожения Нефтяной вышки и Рэйвен-Рок [PAWN_nameDef] стал одним из рассеянных остатков Анклава. [PAWN_pronoun] выживал, раскапывая старые схроны и используя навыки для борьбы за жизнь, хотя фанатизм уступил место прагматизму — или озлобленности.</EnclaveRemnantSoldier.description>
+<EnclaveRemnantSoldier.titleShort>Солдат-остаток</EnclaveRemnantSoldier.titleShort>
+<EnclaveRemnantSoldier.titleShortFemale>Солдат-остаток</EnclaveRemnantSoldier.titleShortFemale>
+<EnclaveRemnantSoldier.description>После уничтожения Нефтяной платформы и Рэйвен-Рока [PAWN_nameDef] стал одним из разрозненных остатков Анклава. Он выживал, обшаривая старые схроны Анклава и используя свою подготовку, чтобы бороться за выживание, хотя его фанатизм сменился прагматизмом... или горечью.</EnclaveRemnantSoldier.description>
 
 <EnclavePropagandist.title>Специалист по пропаганде Анклава</EnclavePropagandist.title>
 <EnclavePropagandist.titleFemale>Специалист по пропаганде Анклава</EnclavePropagandist.titleFemale>
 <EnclavePropagandist.titleShort>Пропагандист</EnclavePropagandist.titleShort>
 <EnclavePropagandist.titleShortFemale>Пропагандист</EnclavePropagandist.titleShortFemale>
-<EnclavePropagandist.description>[PAWN_nameDef] работал в Бюро общественного возрождения Анклава, создавая материалы, представляющие Анклав спасителями Америки, а обитателей Пустоши — дегенеративными мутантами. [PAWN_pronoun] писал речи для чиновников и разрабатывал плакаты, которые до сих пор можно найти в довоенных руинах.</EnclavePropagandist.description>
+<EnclavePropagandist.description>[PAWN_nameDef] работал в Управлении общественного возрождения Анклава, создавая материалы для вещания, которые изображали Анклав как спасителей Америки, а обитателей Пустошей как дегенеративных мутантов. Он писал речи для официальных лиц и разрабатывал плакаты по набору добровольцев, которые можно найти в некоторых довоенных руинах.</EnclavePropagandist.description>
 
 <EnclaveQuartermaster.title>Квартирмейстер Анклава</EnclaveQuartermaster.title>
 <EnclaveQuartermaster.titleFemale>Квартирмейстер Анклава</EnclaveQuartermaster.titleFemale>
 <EnclaveQuartermaster.titleShort>Квартирмейстер</EnclaveQuartermaster.titleShort>
 <EnclaveQuartermaster.titleShortFemale>Квартирмейстер</EnclaveQuartermaster.titleShortFemale>
-<EnclaveQuartermaster.description>[PAWN_nameDef] управлял запасами на аванпосте Анклава, распределяя всё — от энергоячеек до пайков. [PAWN_pronoun] выработал бюрократический склад ума и умение растягивать скудные ресурсы, хотя работа держала [PAWN_possessive] далеко от линии фронта.</EnclaveQuartermaster.description>
+<EnclaveQuartermaster.description>[PAWN_nameDef] управлял запасами на аванпосте Анклава, распределяя всё — от энергоячеек до пайков. Он выработал бюрократический склад ума и умение растягивать ограниченные ресурсы, хотя его работа держала его далеко от передовой.</EnclaveQuartermaster.description>
 
-<EnclaveVertibirdPilot.title>Пилот Вертибёрда Анклава</EnclaveVertibirdPilot.title>
-<EnclaveVertibirdPilot.titleFemale>Пилот Вертибёрда Анклава</EnclaveVertibirdPilot.titleFemale>
-<EnclaveVertibirdPilot.titleShort>Пилот Вертибёрда</EnclaveVertibirdPilot.titleShort>
-<EnclaveVertibirdPilot.titleShortFemale>Пилот Вертибёрда</EnclaveVertibirdPilot.titleShortFemale>
-<EnclaveVertibirdPilot.description>[PAWN_nameDef] управлял VB-02 Вертибёрдами в разведывательных, десантных и штурмовых миссиях. [PAWN_pronoun] видел Пустошь с высоты, доставляя солдат Анклава на «усмирение» поселений и эвакуируя персонал из обречённых объектов.</EnclaveVertibirdPilot.description>
+<EnclaveVertibirdPilot.title>Пилот Вертиберда Анклава</EnclaveVertibirdPilot.title>
+<EnclaveVertibirdPilot.titleFemale>Пилот Вертиберда Анклава</EnclaveVertibirdPilot.titleFemale>
+<EnclaveVertibirdPilot.titleShort>Пилот Вертиберда</EnclaveVertibirdPilot.titleShort>
+<EnclaveVertibirdPilot.titleShortFemale>Пилот Вертиберда</EnclaveVertibirdPilot.titleShortFemale>
+<EnclaveVertibirdPilot.description>[PAWN_nameDef] управлял Вертибердами VB-02 в разведывательных, десантных и штурмовых миссиях. Он видел Пустошь с высоты, доставляя солдат Анклава для «умиротворения» поселений и эвакуируя персонал с обреченных объектов.</EnclaveVertibirdPilot.description>
 
-<EnclaveWastelanderRecruit.title>Новобранец Пустоши в Анклаве</EnclaveWastelanderRecruit.title>
-<EnclaveWastelanderRecruit.titleFemale>Новобранец Пустоши в Анклаве</EnclaveWastelanderRecruit.titleFemale>
-<EnclaveWastelanderRecruit.titleShort>Новобранец Пустоши</EnclaveWastelanderRecruit.titleShort>
-<EnclaveWastelanderRecruit.titleShortFemale>Новобранец Пустоши</EnclaveWastelanderRecruit.titleShortFemale>
-<EnclaveWastelanderRecruit.description>Редкость для Анклава — [PAWN_nameDef] родился на Пустоши, но был завербован за уникальные навыки или знания. [PAWN_pronoun] постоянно сталкивался с подозрением со стороны «чистых» членов Анклава и должен был работать вдвое усерднее, чтобы доказать лояльность, часто предавая свои старые общины.</EnclaveWastelanderRecruit.description>
+<EnclaveWastelanderRecruit.title>Новобранец Анклава из Пустошей</EnclaveWastelanderRecruit.title>
+<EnclaveWastelanderRecruit.titleFemale>Новобранец Анклава из Пустошей</EnclaveWastelanderRecruit.titleFemale>
+<EnclaveWastelanderRecruit.titleShort>Новобранец из Пустошей</EnclaveWastelanderRecruit.titleShort>
+<EnclaveWastelanderRecruit.titleShortFemale>Новобранец из Пустошей</EnclaveWastelanderRecruit.titleShortFemale>
+<EnclaveWastelanderRecruit.description>Редкость среди Анклава — [PAWN_nameDef] на самом деле родился в Пустошах, но был завербован из-за его уникальных навыков или знаний. Он постоянно сталкивался с подозрениями со стороны «чистых» членов Анклава и должен был работать вдвое усерднее, чтобы доказать свою лояльность, часто предавая свои старые общины.</EnclaveWastelanderRecruit.description>
 
 <EnclaveCryoSurvivor.title>Криовыживший Анклава</EnclaveCryoSurvivor.title>
-<EnclaveCryoSurvivor.titleFemale>Криовыжившая Анклава</EnclaveCryoSurvivor.titleFemale>
+<EnclaveCryoSurvivor.titleFemale>Криовыживший Анклава</EnclaveCryoSurvivor.titleFemale>
 <EnclaveCryoSurvivor.titleShort>Криовыживший</EnclaveCryoSurvivor.titleShort>
-<EnclaveCryoSurvivor.titleShortFemale>Криовыжившая</EnclaveCryoSurvivor.titleShortFemale>
-<EnclaveCryoSurvivor.description>[PAWN_nameDef] был довоенным правительственным или военным чиновником, помещённым в криогенное хранилище в рамках программы преемственности правительства Анклава. [PAWN_pronoun] ожили спустя десятилетия после войны, дезориентированного и пытающегося адаптироваться к новой фанатичной идеологии Анклава и ужасающей реальности Пустоши.</EnclaveCryoSurvivor.description>
+<EnclaveCryoSurvivor.titleShortFemale>Криовыживший</EnclaveCryoSurvivor.titleShortFemale>
+<EnclaveCryoSurvivor.description>[PAWN_nameDef] был довоенным правительственным или военным чиновником, помещенным в криогенное хранилище в рамках программы преемственности правительства Анклава. Он был разморожен десятилетия спустя после войны, дезориентированный и пытающийся адаптироваться к новой фанатичной идеологии Анклава и ужасающей реальности Пустошей.</EnclaveCryoSurvivor.description>
 
 <VaultTecSalesExecutive.title>Торговый представитель Vault-Tec</VaultTecSalesExecutive.title>
 <VaultTecSalesExecutive.titleFemale>Торговый представитель Vault-Tec</VaultTecSalesExecutive.titleFemale>
-<VaultTecSalesExecutive.titleShort>Торгпред VT</VaultTecSalesExecutive.titleShort>
-<VaultTecSalesExecutive.titleShortFemale>Торгпред VT</VaultTecSalesExecutive.titleShortFemale>
-<VaultTecSalesExecutive.description>[PAWN_nameDef] продавал места в Убежищах довоенным богатым семьям, используя обаяние, страх перед ядерной войной и откровенную ложь об истинной цели Убежищ. [PAWN_pronoun] выполнял планы, убеждая людей, что покупают спасение, отлично зная, что многие Убежища — смертельные ловушки.</VaultTecSalesExecutive.description>
+<VaultTecSalesExecutive.titleShort>Торгпред Vault-Tec</VaultTecSalesExecutive.titleShort>
+<VaultTecSalesExecutive.titleShortFemale>Торгпред Vault-Tec</VaultTecSalesExecutive.titleShortFemale>
+<VaultTecSalesExecutive.description>[PAWN_nameDef] продавал места в убежищах богатым довоенным семьям, используя сочетание обаяния, запугивания ядерной войной и откровенной лжи об истинных целях убежищ. Он выполнял планы, убеждая людей в том, что они покупают спасение, прекрасно зная, что многие убежища были смертельными ловушками.</VaultTecSalesExecutive.description>
 
-<VaultExperimentOverseer.title>Смотритель экспериментального Убежища</VaultExperimentOverseer.title>
-<VaultExperimentOverseer.titleFemale>Смотрительница экспериментального Убежища</VaultExperimentOverseer.titleFemale>
-<VaultExperimentOverseer.titleShort>Смотритель эксперимента</VaultExperimentOverseer.titleShort>
-<VaultExperimentOverseer.titleShortFemale>Смотрительница эксперимента</VaultExperimentOverseer.titleShortFemale>
-<VaultExperimentOverseer.description>[PAWN_nameDef] был обучен управлять одним из социально-инженерных экспериментов Vault-Tec. [PAWN_pronoun] следовал протоколам, предписывающим психологические пытки, контролируемые программы размножения или тестирование наркотиков на ничего не подозревающих обитателях, поддерживая порядок через манипуляции и ложь.</VaultExperimentOverseer.description>
+<VaultExperimentOverseer.title>Надзиратель экспериментов Vault-Tec</VaultExperimentOverseer.title>
+<VaultExperimentOverseer.titleFemale>Надзиратель экспериментов Vault-Tec</VaultExperimentOverseer.titleFemale>
+<VaultExperimentOverseer.titleShort>Надзиратель экспериментов</VaultExperimentOverseer.titleShort>
+<VaultExperimentOverseer.titleShortFemale>Надзиратель экспериментов</VaultExperimentOverseer.titleShortFemale>
+<VaultExperimentOverseer.description>[PAWN_nameDef] был обучен управлять одним из социальных экспериментов Vault-Tec. Он следовал протоколам, которые предписывали психологические пытки, контролируемые программы размножения или испытания наркотиков на ничего не подозревающих жителях убежища, сохраняя порядок с помощью манипуляций и лжи.</VaultExperimentOverseer.description>
 
 <VaultTecEngineer.title>Инженер Vault-Tec</VaultTecEngineer.title>
 <VaultTecEngineer.titleFemale>Инженер Vault-Tec</VaultTecEngineer.titleFemale>
-<VaultTecEngineer.titleShort>Инженер VT</VaultTecEngineer.titleShort>
-<VaultTecEngineer.titleShortFemale>Инженер VT</VaultTecEngineer.titleShortFemale>
-<VaultTecEngineer.description>[PAWN_nameDef] помогал проектировать и строить системы жизнеобеспечения Убежищ, зная, что некоторые функции были созданы для отказа или саботажа. [PAWN_pronoun] работал с прототипами GECK и знал архитектуру Убежищ лучше всех, но закрывал глаза на неэтичные цели.</VaultTecEngineer.description>
+<VaultTecEngineer.titleShort>Инженер Vault-Tec</VaultTecEngineer.titleShort>
+<VaultTecEngineer.titleShortFemale>Инженер Vault-Tec</VaultTecEngineer.titleShortFemale>
+<VaultTecEngineer.description>[PAWN_nameDef] помогал проектировать и строить системы жизнеобеспечения убежищ, зная, что некоторые функции были спроектированы так, чтобы выходить из строя или быть саботированными. Он работал с прототипами GECK и понимал архитектуру убежищ лучше, чем кто-либо, но закрывал глаза на неэтичные цели.</VaultTecEngineer.description>
 
-<VaultSecurityChief.title>Начальник охраны Убежища</VaultSecurityChief.title>
-<VaultSecurityChief.titleFemale>Начальница охраны Убежища</VaultSecurityChief.titleFemale>
-<VaultSecurityChief.titleShort>Охрана Убежища</VaultSecurityChief.titleShort>
-<VaultSecurityChief.titleShortFemale>Охрана Убежища</VaultSecurityChief.titleShortFemale>
-<VaultSecurityChief.description>[PAWN_nameDef] командовал силами безопасности в Убежище, обеспечивая волю Смотрителя — часто жестокие протоколы экспериментов — с помощью лазерных винтовок и шоковых дубинок. [PAWN_pronoun] подавлял бунты, поддерживал порядок во время психологических экспериментов и гарантировал «научную целостность» Убежища любой ценой.</VaultSecurityChief.description>
+<VaultSecurityChief.title>Начальник службы безопасности убежища</VaultSecurityChief.title>
+<VaultSecurityChief.titleFemale>Начальник службы безопасности убежища</VaultSecurityChief.titleFemale>
+<VaultSecurityChief.titleShort>Служба безопасности</VaultSecurityChief.titleShort>
+<VaultSecurityChief.titleShortFemale>Служба безопасности</VaultSecurityChief.titleShortFemale>
+<VaultSecurityChief.description>[PAWN_nameDef] командовал силами безопасности в убежище, обеспечивая волю Надзирателя — часто жестокие протоколы экспериментов — с помощью лазерных винтовок и шоковых дубинок. Он подавлял восстания, поддерживал порядок во время психологических экспериментов и обеспечивал «научную целостность» убежища любой ценой.</VaultSecurityChief.description>
 
 <VaultTecPsychologist.title>Психолог Vault-Tec</VaultTecPsychologist.title>
 <VaultTecPsychologist.titleFemale>Психолог Vault-Tec</VaultTecPsychologist.titleFemale>
-<VaultTecPsychologist.titleShort>Психолог VT</VaultTecPsychologist.titleShort>
-<VaultTecPsychologist.titleShortFemale>Психолог VT</VaultTecPsychologist.titleShortFemale>
-<VaultTecPsychologist.description>[PAWN_nameDef] отслеживал психическое здоровье обитателей для сбора экспериментальных данных, фиксируя срывы, паранойю и социальную динамику без вмешательства. [PAWN_pronoun] проводил тесты личности, которые на самом деле были инструментами отбора испытуемых для экспериментов, предавая доверие тех, кому должен был помогать.</VaultTecPsychologist.description>
+<VaultTecPsychologist.titleShort>Психолог Vault-Tec</VaultTecPsychologist.titleShort>
+<VaultTecPsychologist.titleShortFemale>Психолог Vault-Tec</VaultTecPsychologist.titleShortFemale>
+<VaultTecPsychologist.description>[PAWN_nameDef] отслеживал психическое здоровье жителей для получения экспериментальных данных, фиксируя срывы, паранойю и социальную динамику без вмешательства. Он проводил личностные тесты, которые на самом деле были инструментами для отбора испытуемых, предавая доверие тех, кому должен был помогать.</VaultTecPsychologist.description>
 
-<VaultMaintenanceTech.title>Техник обслуживания Убежища</VaultMaintenanceTech.title>
-<VaultMaintenanceTech.titleFemale>Техник обслуживания Убежища</VaultMaintenanceTech.titleFemale>
-<VaultMaintenanceTech.titleShort>Техник ТО</VaultMaintenanceTech.titleShort>
-<VaultMaintenanceTech.titleShortFemale>Техник ТО</VaultMaintenanceTech.titleShortFemale>
-<VaultMaintenanceTech.description>[PAWN_nameDef] поддерживал работу машин Убежища — очистителей воды, реакторов, вентиляции — тайно внедряя «запланированные отказы» как часть экспериментов. [PAWN_pronoun] знал, какие системы обречены на поломку, но выполнял приказы, становясь соучастником бесчисленных смертей.</VaultMaintenanceTech.description>
+<VaultMaintenanceTech.title>Техник по обслуживанию убежища</VaultMaintenanceTech.title>
+<VaultMaintenanceTech.titleFemale>Техник по обслуживанию убежища</VaultMaintenanceTech.titleFemale>
+<VaultMaintenanceTech.titleShort>Техник обслуживания</VaultMaintenanceTech.titleShort>
+<VaultMaintenanceTech.titleShortFemale>Техник обслуживания</VaultMaintenanceTech.titleShortFemale>
+<VaultMaintenanceTech.description>[PAWN_nameDef] поддерживал работу машин убежища — очистителей воды, реакторов, вентиляции — при этом тайно внедряя «запланированные отказы» в рамках экспериментов. Он знал, какие системы были спроектированы так, чтобы ломаться, но следовал приказам, делая себя соучастником бесчисленных смертей.</VaultMaintenanceTech.description>
 
 <VaultTecExecutive.title>Старший руководитель Vault-Tec</VaultTecExecutive.title>
 <VaultTecExecutive.titleFemale>Старший руководитель Vault-Tec</VaultTecExecutive.titleFemale>
-<VaultTecExecutive.titleShort>Руководитель VT</VaultTecExecutive.titleShort>
-<VaultTecExecutive.titleShortFemale>Руководитель VT</VaultTecExecutive.titleShortFemale>
-<VaultTecExecutive.description>[PAWN_nameDef] был достаточно высоко в Vault-Tec, чтобы знать о секретных правительственных контрактах и истинной цели экспериментов. [PAWN_pronoun] помогал распределять ресурсы на самые садистские проекты Убежищ и, вероятно, имел зарезервированное место в контрольном Убежище, которое так и не открылось.</VaultTecExecutive.description>
+<VaultTecExecutive.titleShort>Руководитель Vault-Tec</VaultTecExecutive.titleShort>
+<VaultTecExecutive.titleShortFemale>Руководитель Vault-Tec</VaultTecExecutive.titleShortFemale>
+<VaultTecExecutive.description>[PAWN_nameDef] был достаточно высокопоставленным в Vault-Tec, чтобы знать о секретных правительственных контрактах и истинной цели экспериментов. Он помогал распределять ресурсы на самые жестокие проекты убежищ и, вероятно, имел зарезервированное место в контрольном убежище, которое так и не открылось.</VaultTecExecutive.description>
 
-<VaultArchivist.title>Архивариус Убежища</VaultArchivist.title>
-<VaultArchivist.titleFemale>Архивариус Убежища</VaultArchivist.titleFemale>
+<VaultArchivist.title>Архивариус убежища</VaultArchivist.title>
+<VaultArchivist.titleFemale>Архивариус убежища</VaultArchivist.titleFemale>
 <VaultArchivist.titleShort>Архивариус</VaultArchivist.titleShort>
 <VaultArchivist.titleShortFemale>Архивариус</VaultArchivist.titleShortFemale>
-<VaultArchivist.description>[PAWN_nameDef] вёл записи Убежища, включая данные экспериментов, родословные обитателей и довоенные культурные архивы. [PAWN_pronoun] имел доступ к информации, раскрывающей тёмную цель Убежища, но был связан клятвой молчания, наблюдая за страданиями поколений, сохраняя данные для неизвестных клиентов Vault-Tec.</VaultArchivist.description>
+<VaultArchivist.description>[PAWN_nameDef] вел записи убежища, включая данные экспериментов, генеалогии жителей и довоенные культурные архивы. Он имел доступ к информации, раскрывающей темную цель убежища, но был связан клятвой молчания, наблюдая, как поколения страдают, сохраняя данные для неизвестных клиентов Vault-Tec.</VaultArchivist.description>
 
-<VaultAgriSpecialist.title>Специалист по сельскому хозяйству Убежища</VaultAgriSpecialist.title>
-<VaultAgriSpecialist.titleFemale>Специалист по сельскому хозяйству Убежища</VaultAgriSpecialist.titleFemale>
-<VaultAgriSpecialist.titleShort>Агроспециалист</VaultAgriSpecialist.titleShort>
-<VaultAgriSpecialist.titleShortFemale>Агроспециалист</VaultAgriSpecialist.titleShortFemale>
-<VaultAgriSpecialist.description>[PAWN_nameDef] управлял гидропоникой и производством пищи в Убежище, иногда используя генетически модифицированные культуры или в экспериментальных условиях, например, при ограниченном освещении. [PAWN_pronoun] балансировал между кормлением населения и выполнением протоколов, иногда включающих введение токсинов или дефицит питательных веществ как часть тестов.</VaultAgriSpecialist.description>
+<VaultAgriSpecialist.title>Специалист по сельскому хозяйству убежища</VaultAgriSpecialist.title>
+<VaultAgriSpecialist.titleFemale>Специалист по сельскому хозяйству убежища</VaultAgriSpecialist.titleFemale>
+<VaultAgriSpecialist.titleShort>Агроном</VaultAgriSpecialist.titleShort>
+<VaultAgriSpecialist.titleShortFemale>Агроном</VaultAgriSpecialist.titleShortFemale>
+<VaultAgriSpecialist.description>[PAWN_nameDef] управлял гидропоникой и производством продуктов питания в убежище, иногда используя генетически модифицированные культуры или в экспериментальных условиях, таких как ограниченное освещение. Он балансировал между кормлением населения и соблюдением протоколов, которые иногда включали введение токсинов или вызывание дефицита питательных веществ в рамках тестов.</VaultAgriSpecialist.description>
 
-<VaultExperimentEscapee.title>Беглец из экспериментального Убежища</VaultExperimentEscapee.title>
-<VaultExperimentEscapee.titleFemale>Беглец из экспериментального Убежища</VaultExperimentEscapee.titleFemale>
-<VaultExperimentEscapee.titleShort>Беглец из Убежища</VaultExperimentEscapee.titleShort>
-<VaultExperimentEscapee.titleShortFemale>Беглец из Убежища</VaultExperimentEscapee.titleShortFemale>
-<VaultExperimentEscapee.description>[PAWN_nameDef] пережил ужасный эксперимент в Убежище — возможно, с наркотиками, психозом или принудительными боями — и сбежал в Пустошь. [PAWN_pronoun] несёт глубокую травму и недоверие к властям, но обладает уникальным знанием систем Убежищ и жестокой науки Vault-Tec.</VaultExperimentEscapee.description>
+<VaultExperimentEscapee.title>Беглец из экспериментального убежища</VaultExperimentEscapee.title>
+<VaultExperimentEscapee.titleFemale>Беглец из экспериментального убежища</VaultExperimentEscapee.titleFemale>
+<VaultExperimentEscapee.titleShort>Беглец из убежища</VaultExperimentEscapee.titleShort>
+<VaultExperimentEscapee.titleShortFemale>Беглец из убежища</VaultExperimentEscapee.titleShortFemale>
+<VaultExperimentEscapee.description>[PAWN_nameDef] пережил ужасный эксперимент в убежище — возможно, с наркотиками, психозом или принудительными боями — и сбежал в Пустошь. Он носит в себе глубокую травму и недоверие к авторитетам, но также уникальные знания о системах убежищ и жестокой науке Vault-Tec.</VaultExperimentEscapee.description>
 
-<NCRCFMiningConvict.title>Заключённый-шахтёр NCRCF</NCRCFMiningConvict.title>
-<NCRCFMiningConvict.titleFemale>Заключённая-шахтёр NCRCF</NCRCFMiningConvict.titleFemale>
-<NCRCFMiningConvict.titleShort>Заключённый-шахтёр</NCRCFMiningConvict.titleShort>
-<NCRCFMiningConvict.titleShortFemale>Заключённая-шахтёр</NCRCFMiningConvict.titleShortFemale>
-<NCRCFMiningConvict.description>[PAWN_nameDef] отбывал срок в Исправительной колонии NCR, дробя камни в карьере под охраной. [PAWN_pronoun] на собственном горьком опыте научился обращаться с динамитом и геологией, нарастив крепкие мышцы и ещё более крепкую ненависть к судебной системе NCR.</NCRCFMiningConvict.description>
+<NCRCFMiningConvict.title>Заключенный-шахтер NCRCF</NCRCFMiningConvict.title>
+<NCRCFMiningConvict.titleFemale>Заключенная-шахтер NCRCF</NCRCFMiningConvict.titleFemale>
+<NCRCFMiningConvict.titleShort>Заключенный-шахтер</NCRCFMiningConvict.titleShort>
+<NCRCFMiningConvict.titleShortFemale>Заключенная-шахтер</NCRCFMiningConvict.titleShortFemale>
+<NCRCFMiningConvict.description>[PAWN_nameDef] отбывал срок в Исправительном учреждении НКР, дробя камни в карьере под охраной. Он научился обращаться с динамитом и геологией на горьком опыте, обретя крепкие мышцы и сильную обиду на правовую систему НКР.</NCRCFMiningConvict.description>
 
-<PowderGangerSaboteur.title>Диверсант Пороховой банды</PowderGangerSaboteur.title>
-<PowderGangerSaboteur.titleFemale>Диверсантка Пороховой банды</PowderGangerSaboteur.titleFemale>
+<PowderGangerSaboteur.title>Диверсант Пороховых банд</PowderGangerSaboteur.title>
+<PowderGangerSaboteur.titleFemale>Диверсант Пороховых банд</PowderGangerSaboteur.titleFemale>
 <PowderGangerSaboteur.titleShort>Диверсант</PowderGangerSaboteur.titleShort>
-<PowderGangerSaboteur.titleShortFemale>Диверсантка</PowderGangerSaboteur.titleShortFemale>
-<PowderGangerSaboteur.description>После побега из тюрьмы [PAWN_nameDef] специализировался на установке ловушек и разрушении инфраструктуры NCR. [PAWN_pronoun] взорвал железные дороги, мосты и склады снабжения, находя жестокое удовольствие в зрелище взрывов и хаосе, за ними следующем.</PowderGangerSaboteur.description>
+<PowderGangerSaboteur.titleShortFemale>Диверсант</PowderGangerSaboteur.titleShortFemale>
+<PowderGangerSaboteur.description>После побега из тюрьмы [PAWN_nameDef] специализировался на установке ловушек и разрушении инфраструктуры НКР. Он взрывал железные дороги, мосты и склады снабжения, находя жестокую радость в том, чтобы наблюдать за взрывами и хаосом, который за ними следует.</PowderGangerSaboteur.description>
 
-<DynamiteCourier.title>Курьер динамита Пороховой банды</DynamiteCourier.title>
-<DynamiteCourier.titleFemale>Курьер динамита Пороховой банды</DynamiteCourier.titleFemale>
-<DynamiteCourier.titleShort>Курьер</DynamiteCourier.titleShort>
-<DynamiteCourier.titleShortFemale>Курьер</DynamiteCourier.titleShortFemale>
-<DynamiteCourier.description>[PAWN_nameDef] перевозил нестабильную взрывчатку между лагерями Пороховой банды, рискуя жизнью на каждой кочке. [PAWN_pronoun] обрёл стальные нервы и знание химии через выживание — и знает, какие торговцы купят взрывчатые материалы без лишних вопросов.</DynamiteCourier.description>
+<DynamiteCourier.title>Курьер с динамитом Пороховых банд</DynamiteCourier.title>
+<DynamiteCourier.titleFemale>Курьер с динамитом Пороховых банд</DynamiteCourier.titleFemale>
+<DynamiteCourier.titleShort>Динамитчик-бегун</DynamiteCourier.titleShort>
+<DynamiteCourier.titleShortFemale>Динамитчица-бегунья</DynamiteCourier.titleShortFemale>
+<DynamiteCourier.description>[PAWN_nameDef] перевозил нестабильные взрывчатые вещества между лагерями Пороховых банд, рискуя жизнью на каждой кочке. Он развил стальные нервы и знание химии благодаря чистому выживанию и знает, какие торговцы покупают летучие материалы без лишних вопросов.</DynamiteCourier.description>
 
-<PrisonCookBomber.title>Тюремный повар-подрывник</PrisonCookBomber.title>
-<PrisonCookBomber.titleFemale>Тюремный повар-подрывник</PrisonCookBomber.titleFemale>
-<PrisonCookBomber.titleShort>Повар-подрывник</PrisonCookBomber.titleShort>
-<PrisonCookBomber.titleShortFemale>Повар-подрывник</PrisonCookBomber.titleShortFemale>
-<PrisonCookBomber.description>В NCRCF [PAWN_nameDef] работал на кухне, разливая баланду заключённым. После бунта [PAWN_pronoun] обнаружил, что кулинарный жир, скороварки и металлолом могут быть не менее смертоносны, чем динамит. Теперь [PAWN_pronoun] делает самодельные взрывчатки вместо еды.</PrisonCookBomber.description>
+<PrisonCookBomber.title>Повар-бомбист из тюрьмы</PrisonCookBomber.title>
+<PrisonCookBomber.titleFemale>Повар-бомбист из тюрьмы</PrisonCookBomber.titleFemale>
+<PrisonCookBomber.titleShort>Повар-бомбист</PrisonCookBomber.titleShort>
+<PrisonCookBomber.titleShortFemale>Повар-бомбист</PrisonCookBomber.titleShortFemale>
+<PrisonCookBomber.description>В NCRCF [PAWN_nameDef] работал на кухне, разливая баланду заключенным. После бунта он обнаружил, что кулинарный жир, скороварки и металлолом могут быть не менее смертоносны, чем динамит. Теперь он делает самодельные взрывчатые вещества вместо еды.</PrisonCookBomber.description>
 
-<QuarryForemanConvict.title>Заключённый-бригадир карьера</QuarryForemanConvict.title>
-<QuarryForemanConvict.titleFemale>Заключённая-бригадир карьера</QuarryForemanConvict.titleFemale>
+<QuarryForemanConvict.title>Заключенный-бригадир карьера</QuarryForemanConvict.title>
+<QuarryForemanConvict.titleFemale>Заключенная-бригадир карьера</QuarryForemanConvict.titleFemale>
 <QuarryForemanConvict.titleShort>Бригадир карьера</QuarryForemanConvict.titleShort>
 <QuarryForemanConvict.titleShortFemale>Бригадир карьера</QuarryForemanConvict.titleShortFemale>
-<QuarryForemanConvict.description>Даже в тюрьме [PAWN_nameDef] имел талант к организации. [PAWN_pronoun] управлял бригадами в карьере, распределяя динамит и оборудование. После побега [PAWN_pronoun] естественным образом стал лидером среди Пороховой банды, планируя рейды и управляя запасами взрывчатки.</QuarryForemanConvict.description>
+<QuarryForemanConvict.description>Даже в тюрьме у [PAWN_nameDef] был талант к организации. Он управлял рабочими бригадами в карьере, распределяя динамит и оборудование. После побега он естественным образом стал лидером среди Пороховых банд, планируя налеты и управляя запасами взрывчатки.</QuarryForemanConvict.description>
 
-<PowderGangerTunnelRat.title>Крыса-туннельщик Пороховой банды</PowderGangerTunnelRat.title>
-<PowderGangerTunnelRat.titleFemale>Крыса-туннельщик Пороховой банды</PowderGangerTunnelRat.titleFemale>
-<PowderGangerTunnelRat.titleShort>Туннельщик</PowderGangerTunnelRat.titleShort>
-<PowderGangerTunnelRat.titleShortFemale>Туннельщик</PowderGangerTunnelRat.titleShortFemale>
-<PowderGangerTunnelRat.description>[PAWN_nameDef] специализировался на рытье туннелей и установке зарядов в тесных пространствах — как в шахтах карьера, так и во время рейдов. [PAWN_pronoun] страдает от клаустрофобии в кошмарах, но обладает бесценным опытом подземных взрывов и внезапных атак снизу.</PowderGangerTunnelRat.description>
+<PowderGangerTunnelRat.title>Крыса-туннельщик Пороховых банд</PowderGangerTunnelRat.title>
+<PowderGangerTunnelRat.titleFemale>Крыса-туннельщик Пороховых банд</PowderGangerTunnelRat.titleFemale>
+<PowderGangerTunnelRat.titleShort>Крыса-туннельщик</PowderGangerTunnelRat.titleShort>
+<PowderGangerTunnelRat.titleShortFemale>Крыса-туннельщик</PowderGangerTunnelRat.titleShortFemale>
+<PowderGangerTunnelRat.description>[PAWN_nameDef] специализировался на рытье туннелей и установке зарядов в тесных пространствах, как в карьерных шахтах, так и во время налетов. Он страдает от клаустрофобических кошмаров, но имеет бесценный опыт подземных взрывов и внезапных атак снизу.</PowderGangerTunnelRat.description>
 
-<PowderGangerChemMixer.title>Химик-смеситель Пороховой банды</PowderGangerChemMixer.title>
-<PowderGangerChemMixer.titleFemale>Химик-смеситель Пороховой банды</PowderGangerChemMixer.titleFemale>
-<PowderGangerChemMixer.titleShort>Химик</PowderGangerChemMixer.titleShort>
-<PowderGangerChemMixer.titleShortFemale>Химик</PowderGangerChemMixer.titleShortFemale>
-<PowderGangerChemMixer.description>[PAWN_nameDef] освоил основы химии, варя тюремную самогонку, а затем применил их для производства нестабильной взрывчатки из подручных материалов. Творения [PAWN_possessive] печально известны своей непредсказуемостью, но разрушительной мощью, и [PAWN_pronoun] носит шрамы в доказательство.</PowderGangerChemMixer.description>
+<PowderGangerChemMixer.title>Химик-смеситель Пороховых банд</PowderGangerChemMixer.title>
+<PowderGangerChemMixer.titleFemale>Химик-смеситель Пороховых банд</PowderGangerChemMixer.titleFemale>
+<PowderGangerChemMixer.titleShort>Химик-смеситель</PowderGangerChemMixer.titleShort>
+<PowderGangerChemMixer.titleShortFemale>Химик-смеситель</PowderGangerChemMixer.titleShortFemale>
+<PowderGangerChemMixer.description>[PAWN_nameDef] выучил основы химии, делая тюремный самогон, а затем применил эти знания для создания нестабильных взрывчатых веществ из утиля. Его творения печально известны своей непредсказуемостью, но разрушительной мощью, и на его теле есть шрамы, которые это подтверждают.</PowderGangerChemMixer.description>
 
-<RoadsideBomber.title>Придорожный подрывник Пороховой банды</RoadsideBomber.title>
-<RoadsideBomber.titleFemale>Придорожный подрывник Пороховой банды</RoadsideBomber.titleFemale>
-<RoadsideBomber.titleShort>Подрывник</RoadsideBomber.titleShort>
-<RoadsideBomber.titleShortFemale>Подрывник</RoadsideBomber.titleShortFemale>
-<RoadsideBomber.description>[PAWN_nameDef] специализируется на засадах, закладывая СВУ вдоль торговых путей и взрывая их, когда караваны проходят мимо. [PAWN_pronoun] обладает чутьём на местность и терпением ждать идеального момента, чтобы устроить хаос и поживиться останками.</RoadsideBomber.description>
+<RoadsideBomber.title>Придорожный бомбист Пороховых банд</RoadsideBomber.title>
+<RoadsideBomber.titleFemale>Придорожный бомбист Пороховых банд</RoadsideBomber.titleFemale>
+<RoadsideBomber.titleShort>Придорожный бомбист</RoadsideBomber.titleShort>
+<RoadsideBomber.titleShortFemale>Придорожный бомбист</RoadsideBomber.titleShortFemale>
+<RoadsideBomber.description>[PAWN_nameDef] специализируется на засадах, закладывая СВУ (самодельные взрывные устройства) вдоль торговых путей и взрывая их, когда караваны проезжают мимо. Он обладает глазомером на местность и терпением ждать идеального момента, чтобы устроить хаос и поживиться останками.</RoadsideBomber.description>
 
-<GuardTurnedPowderGanger.title>Охранник NCR, ставший пороховым бандитом</GuardTurnedPowderGanger.title>
-<GuardTurnedPowderGanger.titleFemale>Охранник NCR, ставший пороховым бандитом</GuardTurnedPowderGanger.titleFemale>
-<GuardTurnedPowderGanger.titleShort>Перебежчик</GuardTurnedPowderGanger.titleShort>
-<GuardTurnedPowderGanger.titleShortFemale>Перебежчик</GuardTurnedPowderGanger.titleShortFemale>
-<GuardTurnedPowderGanger.description>[PAWN_nameDef] был охранником NCR в исправительной колонии, но перешёл на сторону во время бунта — то ли из жадности, то ли потому что оказался в ловушке. Теперь [PAWN_pronoun] использует знание тактики и процедур NCR против бывших товарищей.</GuardTurnedPowderGanger.description>
+<GuardTurnedPowderGanger.title>Охранник НКР, ставший Пороховым бандитом</GuardTurnedPowderGanger.title>
+<GuardTurnedPowderGanger.titleFemale>Охранник НКР, ставший Пороховым бандитом</GuardTurnedPowderGanger.titleFemale>
+<GuardTurnedPowderGanger.titleShort>Перебежчик-охранник</GuardTurnedPowderGanger.titleShort>
+<GuardTurnedPowderGanger.titleShortFemale>Перебежчик-охранник</GuardTurnedPowderGanger.titleShortFemale>
+<GuardTurnedPowderGanger.description>[PAWN_nameDef] был охранником НКР в исправительном учреждении, но перешел на сторону во время бунта — то ли из жадности, то ли потому, что оказался в ловушке. Теперь он использует свои знания тактики и процедур НКР против своих бывших товарищей.</GuardTurnedPowderGanger.description>
 
-<ScrapExplosivesSpecialist.title>Специалист по взрывчатке из хлама</ScrapExplosivesSpecialist.title>
-<ScrapExplosivesSpecialist.titleFemale>Специалист по взрывчатке из хлама</ScrapExplosivesSpecialist.titleFemale>
-<ScrapExplosivesSpecialist.titleShort>Подрывник-самодельщик</ScrapExplosivesSpecialist.titleShort>
-<ScrapExplosivesSpecialist.titleShortFemale>Подрывник-самодельщик</ScrapExplosivesSpecialist.titleShortFemale>
-<ScrapExplosivesSpecialist.description>[PAWN_nameDef] умеет делать взрывчатку почти из чего угодно: удобрений, топлива, старой электроники, даже чистящих химикатов. Талант [PAWN_possessive] к импровизации делает [PAWN_possessive] бесценным для Пороховой банды, хотя мастерские [PAWN_possessive] имеют привычку неожиданно исчезать.</ScrapExplosivesSpecialist.description>
+<ScrapExplosivesSpecialist.title>Специалист по взрывчатке из утиля</ScrapExplosivesSpecialist.title>
+<ScrapExplosivesSpecialist.titleFemale>Специалист по взрывчатке из утиля</ScrapExplosivesSpecialist.titleFemale>
+<ScrapExplosivesSpecialist.titleShort>Бомбист-утилизатор</ScrapExplosivesSpecialist.titleShort>
+<ScrapExplosivesSpecialist.titleShortFemale>Бомбист-утилизатор</ScrapExplosivesSpecialist.titleShortFemale>
+<ScrapExplosivesSpecialist.description>[PAWN_nameDef] может сделать взрывчатку практически из чего угодно: удобрений, топлива, старой электроники и даже чистящих средств. Его талант к импровизации делает его незаменимым для Пороховых банд, хотя его мастерские имеют привычку неожиданно исчезать.</ScrapExplosivesSpecialist.description>
 
-<EnclaveChild_VaultBorn.title>Рождённый в Убежище</EnclaveChild_VaultBorn.title>
-<EnclaveChild_VaultBorn.titleFemale>Рождённая в Убежище</EnclaveChild_VaultBorn.titleFemale>
-<EnclaveChild_VaultBorn.titleShort>Ребёнок Убежища</EnclaveChild_VaultBorn.titleShort>
-<EnclaveChild_VaultBorn.titleShortFemale>Ребёнок Убежища</EnclaveChild_VaultBorn.titleShortFemale>
-<EnclaveChild_VaultBorn.baseDesc>[PAWN_nameDef] родился в герметичном убежище Анклава, глубоко под землёй. [PAWN_pronoun] никогда не видел неба до своего десятого дня рождения, когда Смотритель показал [PAWN_objective] поверхность через армированное стекло. Пустошь выглядела мёртвой, и [PAWN_possessive] учили, что всё там — заражено.</EnclaveChild_VaultBorn.baseDesc>
-<EnclaveChild_VaultBorn.description>[PAWN_nameDef] родился в герметичном убежище Анклава, глубоко под землёй. [PAWN_pronoun] никогда не видел неба до своего десятого дня рождения, когда Смотритель показал [PAWN_objective] поверхность через армированное стекло. Пустошь выглядела мёртвой, и [PAWN_possessive] учили, что всё там — заражено.</EnclaveChild_VaultBorn.description>
+<EnclaveChild_VaultBorn.title>Рожденный в убежище</EnclaveChild_VaultBorn.title>
+<EnclaveChild_VaultBorn.titleFemale>Рожденная в убежище</EnclaveChild_VaultBorn.titleFemale>
+<EnclaveChild_VaultBorn.titleShort>Ребенок убежища</EnclaveChild_VaultBorn.titleShort>
+<EnclaveChild_VaultBorn.titleShortFemale>Ребенок убежища</EnclaveChild_VaultBorn.titleShortFemale>
+<EnclaveChild_VaultBorn.baseDesc>[PAWN_nameDef] родился в запечатанном убежище Анклава, глубоко под землей. Он никогда не видел неба до своего десятого дня рождения, когда Надзиратель показал ему поверхность через армированное стекло. Пустошь выглядела мертвой, и его учили, что всё там вверху заражено.</EnclaveChild_VaultBorn.baseDesc>
+<EnclaveChild_VaultBorn.description>[PAWN_nameDef] родился в запечатанном убежище Анклава, глубоко под землей. Он никогда не видел неба до своего десятого дня рождения, когда Надзиратель показал ему поверхность через армированное стекло. Пустошь выглядела мертвой, и его учили, что всё там вверху заражено.</EnclaveChild_VaultBorn.description>
 
 <EnclaveChild_GeneticallyPure.title>Генетически чистый</EnclaveChild_GeneticallyPure.title>
 <EnclaveChild_GeneticallyPure.titleFemale>Генетически чистая</EnclaveChild_GeneticallyPure.titleFemale>
 <EnclaveChild_GeneticallyPure.titleShort>Чистокровный</EnclaveChild_GeneticallyPure.titleShort>
 <EnclaveChild_GeneticallyPure.titleShortFemale>Чистокровная</EnclaveChild_GeneticallyPure.titleShortFemale>
-<EnclaveChild_GeneticallyPure.baseDesc>С рождения [PAWN_nameDef] говорили, что [PAWN_pronoun] особенный. Доктора Анклава еженедельно проверяли [PAWN_possessive] ДНК, празднуя отсутствие мутаций. Другие дети с «примесями» исчезали за ночь. [PAWN_pronoun] рано усвоил: только чистые заслуживают жизни.</EnclaveChild_GeneticallyPure.baseDesc>
-<EnclaveChild_GeneticallyPure.description>С рождения [PAWN_nameDef] говорили, что [PAWN_pronoun] особенный. Доктора Анклава еженедельно проверяли [PAWN_possessive] ДНК, празднуя отсутствие мутаций. Другие дети с «примесями» исчезали за ночь. [PAWN_pronoun] рано усвоил: только чистые заслуживают жизни.</EnclaveChild_GeneticallyPure.description>
+<EnclaveChild_GeneticallyPure.baseDesc>С рождения [PAWN_nameDef] говорили, что он особенный. Врачи Анклава еженедельно тестировали его ДНК, празднуя отсутствие мутаций. Другие дети с «нечистотами» исчезали в одночасье. Он рано усвоил: только чистые достойны жить.</EnclaveChild_GeneticallyPure.baseDesc>
+<EnclaveChild_GeneticallyPure.description>С рождения [PAWN_nameDef] говорили, что он особенный. Врачи Анклава еженедельно тестировали его ДНК, празднуя отсутствие мутаций. Другие дети с «нечистотами» исчезали в одночасье. Он рано усвоил: только чистые достойны жить.</EnclaveChild_GeneticallyPure.description>
 
-<EnclaveChild_PropagandaYouth.title>Пропагандистская молодёжь</EnclaveChild_PropagandaYouth.title>
-<EnclaveChild_PropagandaYouth.titleFemale>Пропагандистская молодёжь</EnclaveChild_PropagandaYouth.titleFemale>
+<EnclaveChild_PropagandaYouth.title>Пропагандистская молодежь</EnclaveChild_PropagandaYouth.title>
+<EnclaveChild_PropagandaYouth.titleFemale>Пропагандистская молодежь</EnclaveChild_PropagandaYouth.titleFemale>
 <EnclaveChild_PropagandaYouth.titleShort>Истинно верующий</EnclaveChild_PropagandaYouth.titleShort>
 <EnclaveChild_PropagandaYouth.titleShortFemale>Истинно верующая</EnclaveChild_PropagandaYouth.titleShortFemale>
-<EnclaveChild_PropagandaYouth.baseDesc>Каждое утро [PAWN_nameDef] повторял Клятву Анклава: «Америка восстанет вновь». На стенах класса висели карты довоенного величия, а учитель объяснял, как мутанты всё разрушили. [PAWN_pronoun] мечтал очистить поверхность огнём.</EnclaveChild_PropagandaYouth.baseDesc>
-<EnclaveChild_PropagandaYouth.description>Каждое утро [PAWN_nameDef] повторял Клятву Анклава: «Америка восстанет вновь». На стенах класса висели карты довоенного величия, а учитель объяснял, как мутанты всё разрушили. [PAWN_pronoun] мечтал очистить поверхность огнём.</EnclaveChild_PropagandaYouth.description>
+<EnclaveChild_PropagandaYouth.baseDesc>Каждое утро [PAWN_nameDef] произносил клятву Анклава: «Америка возродится». На стенах его класса висели карты довоенной славы, и учитель объяснял, как мутанты всё разрушили. Он мечтал очистить поверхность огнем.</EnclaveChild_PropagandaYouth.baseDesc>
+<EnclaveChild_PropagandaYouth.description>Каждое утро [PAWN_nameDef] произносил клятву Анклава: «Америка возродится». На стенах его класса висели карты довоенной славы, и учитель объяснял, как мутанты всё разрушили. Он мечтал очистить поверхность огнем.</EnclaveChild_PropagandaYouth.description>
 
-<EnclaveChild_TunnelRat.title>Крыса-туннельщик</EnclaveChild_TunnelRat.title>
-<EnclaveChild_TunnelRat.titleFemale>Крыса-туннельщик</EnclaveChild_TunnelRat.titleFemale>
+<EnclaveChild_TunnelRat.title>Туннельная крыса</EnclaveChild_TunnelRat.title>
+<EnclaveChild_TunnelRat.titleFemale>Туннельная крыса</EnclaveChild_TunnelRat.titleFemale>
 <EnclaveChild_TunnelRat.titleShort>Туннельщик</EnclaveChild_TunnelRat.titleShort>
-<EnclaveChild_TunnelRat.titleShortFemale>Туннельщик</EnclaveChild_TunnelRat.titleShortFemale>
-<EnclaveChild_TunnelRat.baseDesc>Вентиляционные шахты Убежища были игровой площадкой [PAWN_nameDef]. [PAWN_pronoun] знал каждый технический туннель, каждую скрытую панель. Однажды [PAWN_pronoun] нашёл тайник с поверхности — старые довоенные конфеты и записку на языке, которого [PAWN_pronoun] не знал. Охрана Анклава избила [PAWN_possessive] за то, что не доложил сразу.</EnclaveChild_TunnelRat.baseDesc>
-<EnclaveChild_TunnelRat.description>Вентиляционные шахты Убежища были игровой площадкой [PAWN_nameDef]. [PAWN_pronoun] знал каждый технический туннель, каждую скрытую панель. Однажды [PAWN_pronoun] нашёл тайник с поверхности — старые довоенные конфеты и записку на языке, которого [PAWN_pronoun] не знал. Охрана Анклава избила [PAWN_possessive] за то, что не доложил сразу.</EnclaveChild_TunnelRat.description>
+<EnclaveChild_TunnelRat.titleShortFemale>Туннельщица</EnclaveChild_TunnelRat.titleShortFemale>
+<EnclaveChild_TunnelRat.baseDesc>Вентиляционные шахты убежища были игровой площадкой [PAWN_nameDef]. Он знал каждый технический туннель, каждую скрытую панель. Однажды он нашел тайник с поверхности — довоенные конфеты и записку на языке, который он не мог прочитать. Служба безопасности Анклава избила его за то, что он не доложил об этом немедленно.</EnclaveChild_TunnelRat.baseDesc>
+<EnclaveChild_TunnelRat.description>Вентиляционные шахты убежища были игровой площадкой [PAWN_nameDef]. Он знал каждый технический туннель, каждую скрытую панель. Однажды он нашел тайник с поверхности — довоенные конфеты и записку на языке, который он не мог прочитать. Служба безопасности Анклава избила его за то, что он не доложил об этом немедленно.</EnclaveChild_TunnelRat.description>
 
 <EnclaveChild_ExperimentSubject.title>Подопытный</EnclaveChild_ExperimentSubject.title>
 <EnclaveChild_ExperimentSubject.titleFemale>Подопытная</EnclaveChild_ExperimentSubject.titleFemale>
 <EnclaveChild_ExperimentSubject.titleShort>Подопытный</EnclaveChild_ExperimentSubject.titleShort>
 <EnclaveChild_ExperimentSubject.titleShortFemale>Подопытная</EnclaveChild_ExperimentSubject.titleShortFemale>
-<EnclaveChild_ExperimentSubject.baseDesc>Родители [PAWN_nameDef] записали [PAWN_possessive] на «углублённое образование». Учёные были достаточно добры — давали [PAWN_objective] угощения после каждой инъекции, хвалили за решение головоломок быстрее других детей. [PAWN_pronoun] не помнит, что им кололи. Иногда [PAWN_pronoun] просыпается с кровотечением из носа и странными пристрастиями.</EnclaveChild_ExperimentSubject.baseDesc>
-<EnclaveChild_ExperimentSubject.description>Родители [PAWN_nameDef] записали [PAWN_possessive] на «углублённое образование». Учёные были достаточно добры — давали [PAWN_objective] угощения после каждой инъекции, хвалили за решение головоломок быстрее других детей. [PAWN_pronoun] не помнит, что им кололи. Иногда [PAWN_pronoun] просыпается с кровотечением из носа и странными пристрастиями.</EnclaveChild_ExperimentSubject.description>
+<EnclaveChild_ExperimentSubject.baseDesc>Родители [PAWN_nameDef] записали его на «углубленное обучение». Ученые были достаточно добры — давали ему угощения после каждой инъекции, хвалили за то, что он решал головоломки быстрее других детей. Он не помнит, что они вводили. Иногда он просыпается с кровотечением из носа и странными желаниями.</EnclaveChild_ExperimentSubject.baseDesc>
+<EnclaveChild_ExperimentSubject.description>Родители [PAWN_nameDef] записали его на «углубленное обучение». Ученые были достаточно добры — давали ему угощения после каждой инъекции, хвалили за то, что он решал головоломки быстрее других детей. Он не помнит, что они вводили. Иногда он просыпается с кровотечением из носа и странными желаниями.</EnclaveChild_ExperimentSubject.description>
 
-<EnclaveChild_OverseersPet.title>Любимчик Смотрителя</EnclaveChild_OverseersPet.title>
-<EnclaveChild_OverseersPet.titleFemale>Любимица Смотрителя</EnclaveChild_OverseersPet.titleFemale>
+<EnclaveChild_OverseersPet.title>Любимец Надзирателя</EnclaveChild_OverseersPet.title>
+<EnclaveChild_OverseersPet.titleFemale>Любимица Надзирателя</EnclaveChild_OverseersPet.titleFemale>
 <EnclaveChild_OverseersPet.titleShort>Любимчик</EnclaveChild_OverseersPet.titleShort>
 <EnclaveChild_OverseersPet.titleShortFemale>Любимица</EnclaveChild_OverseersPet.titleShortFemale>
-<EnclaveChild_OverseersPet.baseDesc>Смотрителю понравился острый ум [PAWN_nameDef]. Пока другие дети играли в игрушечных солдатиков, [PAWN_pronoun] сидел на советах, узнавая, как на самом деле работает Анклав. [PAWN_pronoun] видел таблицы: лимиты населения, расчёты ресурсов, «приемлемые потери». [PAWN_pronoun] усвоил: лидерство означает принятие трудных решений.</EnclaveChild_OverseersPet.baseDesc>
-<EnclaveChild_OverseersPet.description>Смотрителю понравился острый ум [PAWN_nameDef]. Пока другие дети играли в игрушечных солдатиков, [PAWN_pronoun] сидел на советах, узнавая, как на самом деле работает Анклав. [PAWN_pronoun] видел таблицы: лимиты населения, расчёты ресурсов, «приемлемые потери». [PAWN_pronoun] усвоил: лидерство означает принятие трудных решений.</EnclaveChild_OverseersPet.description>
+<EnclaveChild_OverseersPet.baseDesc>Надзирателю понравился острый ум [PAWN_nameDef]. Пока другие дети играли в игрушечных солдатиков, он сидел на советах, узнавая, как на самом деле работает Анклав. Он видел таблицы: лимиты населения, расчеты ресурсов, «допустимые потери». Он усвоил: лидерство означает принятие трудных решений.</EnclaveChild_OverseersPet.baseDesc>
+<EnclaveChild_OverseersPet.description>Надзирателю понравился острый ум [PAWN_nameDef]. Пока другие дети играли в игрушечных солдатиков, он сидел на советах, узнавая, как на самом деле работает Анклав. Он видел таблицы: лимиты населения, расчеты ресурсов, «допустимые потери». Он усвоил: лидерство означает принятие трудных решений.</EnclaveChild_OverseersPet.description>
 
-<EnclaveChild_WastelandOrphan.title>Сирота Пустоши</EnclaveChild_WastelandOrphan.title>
-<EnclaveChild_WastelandOrphan.titleFemale>Сирота Пустоши</EnclaveChild_WastelandOrphan.titleFemale>
-<EnclaveChild_WastelandOrphan.titleShort>Спасённый</EnclaveChild_WastelandOrphan.titleShort>
-<EnclaveChild_WastelandOrphan.titleShortFemale>Спасённая</EnclaveChild_WastelandOrphan.titleShortFemale>
-<EnclaveChild_WastelandOrphan.baseDesc>[PAWN_nameDef] был «освобождён» из лагеря рейдеров во время зачистки Анклава. Слишком мал, чтобы помнить настоящих родителей, [PAWN_pronoun] вырос благодарным солдатам, спасшим [PAWN_possessive]. Анклав теперь — [PAWN_possessive] семья. Поверхность — ад, а [PAWN_pronoun] — ангел мести.</EnclaveChild_WastelandOrphan.baseDesc>
-<EnclaveChild_WastelandOrphan.description>[PAWN_nameDef] был «освобождён» из лагеря рейдеров во время зачистки Анклава. Слишком мал, чтобы помнить настоящих родителей, [PAWN_pronoun] вырос благодарным солдатам, спасшим [PAWN_possessive]. Анклав теперь — [PAWN_possessive] семья. Поверхность — ад, а [PAWN_pronoun] — ангел мести.</EnclaveChild_WastelandOrphan.description>
+<EnclaveChild_WastelandOrphan.title>Сирота Пустошей</EnclaveChild_WastelandOrphan.title>
+<EnclaveChild_WastelandOrphan.titleFemale>Сирота Пустошей</EnclaveChild_WastelandOrphan.titleFemale>
+<EnclaveChild_WastelandOrphan.titleShort>Спасенный</EnclaveChild_WastelandOrphan.titleShort>
+<EnclaveChild_WastelandOrphan.titleShortFemale>Спасенная</EnclaveChild_WastelandOrphan.titleShortFemale>
+<EnclaveChild_WastelandOrphan.baseDesc>[PAWN_nameDef] был «освобожден» из лагеря рейдеров во время зачистки Анклава. Слишком юный, чтобы помнить своих настоящих родителей, он вырос благодарным солдатам, которые спасли его. Анклав — теперь его семья. Поверхность — это ад, а он — ангел мести.</EnclaveChild_WastelandOrphan.baseDesc>
+<EnclaveChild_WastelandOrphan.description>[PAWN_nameDef] был «освобожден» из лагеря рейдеров во время зачистки Анклава. Слишком юный, чтобы помнить своих настоящих родителей, он вырос благодарным солдатам, которые спасли его. Анклав — теперь его семья. Поверхность — это ад, а он — ангел мести.</EnclaveChild_WastelandOrphan.description>
 
 <EnclaveChild_TechnicianApprentice.title>Ученик техника</EnclaveChild_TechnicianApprentice.title>
 <EnclaveChild_TechnicianApprentice.titleFemale>Ученица техника</EnclaveChild_TechnicianApprentice.titleFemale>
 <EnclaveChild_TechnicianApprentice.titleShort>Механик-самоучка</EnclaveChild_TechnicianApprentice.titleShort>
 <EnclaveChild_TechnicianApprentice.titleShortFemale>Механик-самоучка</EnclaveChild_TechnicianApprentice.titleShortFemale>
-<EnclaveChild_TechnicianApprentice.baseDesc>Пока другие дети учили историю, [PAWN_nameDef] разбирал очистители воды в Убежище. Начальник техобслуживания поймал [PAWN_possessive] и вместо наказания взял на работу. К двенадцати годам [PAWN_pronoun] мог починить серводвигатель силовой брони с завязанными глазами.</EnclaveChild_TechnicianApprentice.baseDesc>
-<EnclaveChild_TechnicianApprentice.description>Пока другие дети учили историю, [PAWN_nameDef] разбирал очистители воды в Убежище. Начальник техобслуживания поймал [PAWN_possessive] и вместо наказания взял на работу. К двенадцати годам [PAWN_pronoun] мог починить серводвигатель силовой брони с завязанными глазами.</EnclaveChild_TechnicianApprentice.description>
+<EnclaveChild_TechnicianApprentice.baseDesc>Пока другие дети изучали историю, [PAWN_nameDef] разбирал очистители воды в убежище. Начальник техобслуживания поймал его и вместо наказания поставил на работу. К двенадцати годам он мог отремонтировать сервопривод силовой брони с завязанными глазами.</EnclaveChild_TechnicianApprentice.baseDesc>
+<EnclaveChild_TechnicianApprentice.description>Пока другие дети изучали историю, [PAWN_nameDef] разбирал очистители воды в убежище. Начальник техобслуживания поймал его и вместо наказания поставил на работу. К двенадцати годам он мог отремонтировать сервопривод силовой брони с завязанными глазами.</EnclaveChild_TechnicianApprentice.description>
 
-<EnclaveChild_SecurityCadet.title>Кадет охраны</EnclaveChild_SecurityCadet.title>
-<EnclaveChild_SecurityCadet.titleFemale>Кадет охраны</EnclaveChild_SecurityCadet.titleFemale>
+<EnclaveChild_SecurityCadet.title>Кадет службы безопасности</EnclaveChild_SecurityCadet.title>
+<EnclaveChild_SecurityCadet.titleFemale>Кадет службы безопасности</EnclaveChild_SecurityCadet.titleFemale>
 <EnclaveChild_SecurityCadet.titleShort>Кадет</EnclaveChild_SecurityCadet.titleShort>
 <EnclaveChild_SecurityCadet.titleShortFemale>Кадет</EnclaveChild_SecurityCadet.titleShortFemale>
-<EnclaveChild_SecurityCadet.baseDesc>Самое раннее воспоминание [PAWN_nameDef] — держать заряженный пистолет. Охрана Убежища проводила учения еженедельно — боевыми патронами, с реальными последствиями. [PAWN_pronoun] видел, как парень истёк кровью от случайного выстрела. Инструкторы назвали это «уроком оружейной дисциплины». [PAWN_pronoun] никогда этого не забыл.</EnclaveChild_SecurityCadet.baseDesc>
-<EnclaveChild_SecurityCadet.description>Самое раннее воспоминание [PAWN_nameDef] — держать заряженный пистолет. Охрана Убежища проводила учения еженедельно — боевыми патронами, с реальными последствиями. [PAWN_pronoun] видел, как парень истёк кровью от случайного выстрела. Инструкторы назвали это «уроком оружейной дисциплины». [PAWN_pronoun] никогда этого не забыл.</EnclaveChild_SecurityCadet.description>
+<EnclaveChild_SecurityCadet.baseDesc>Самое раннее воспоминание [PAWN_nameDef] — это заряженный пистолет в руках. Служба безопасности убежища проводила еженедельные учения — боевыми патронами, с реальными последствиями. Он видел, как мальчик истек кровью из-за неосторожного обращения с оружием. Инструкторы назвали это «уроком дисциплины обращения с оружием». Он никогда этого не забывал.</EnclaveChild_SecurityCadet.baseDesc>
+<EnclaveChild_SecurityCadet.description>Самое раннее воспоминание [PAWN_nameDef] — это заряженный пистолет в руках. Служба безопасности убежища проводила еженедельные учения — боевыми патронами, с реальными последствиями. Он видел, как мальчик истек кровью из-за неосторожного обращения с оружием. Инструкторы назвали это «уроком дисциплины обращения с оружием». Он никогда этого не забывал.</EnclaveChild_SecurityCadet.description>
 
-<EnclaveChild_PresidentialYouth.title>Президентская молодёжь</EnclaveChild_PresidentialYouth.title>
-<EnclaveChild_PresidentialYouth.titleFemale>Президентская молодёжь</EnclaveChild_PresidentialYouth.titleFemale>
+<EnclaveChild_PresidentialYouth.title>Президентская молодежь</EnclaveChild_PresidentialYouth.title>
+<EnclaveChild_PresidentialYouth.titleFemale>Президентская молодежь</EnclaveChild_PresidentialYouth.titleFemale>
 <EnclaveChild_PresidentialYouth.titleShort>Элита</EnclaveChild_PresidentialYouth.titleShort>
 <EnclaveChild_PresidentialYouth.titleShortFemale>Элита</EnclaveChild_PresidentialYouth.titleShortFemale>
-<EnclaveChild_PresidentialYouth.baseDesc>Родословная [PAWN_nameDef] восходила к довоенным сенаторам. Анклав вложил много средств в образование [PAWN_possessive]: частные репетиторы, продвинутая боевая подготовка, политическая теория. [PAWN_pronoun] учили видеть общую картину. Пустошь не просто опасна — это возможность отстроить Америку заново, на этот раз правильно.</EnclaveChild_PresidentialYouth.baseDesc>
-<EnclaveChild_PresidentialYouth.description>Родословная [PAWN_nameDef] восходила к довоенным сенаторам. Анклав вложил много средств в образование [PAWN_possessive]: частные репетиторы, продвинутая боевая подготовка, политическая теория. [PAWN_pronoun] учили видеть общую картину. Пустошь не просто опасна — это возможность отстроить Америку заново, на этот раз правильно.</EnclaveChild_PresidentialYouth.description>
+<EnclaveChild_PresidentialYouth.baseDesc>Родословная [PAWN_nameDef] восходила к довоенным сенаторам. Анклав вложил большие средства в его образование: частные репетиторы, продвинутая боевая подготовка, политическая теория. Его учили видеть общую картину. Пустошь не просто опасна — это возможность отстроить Америку заново, на этот раз правильно.</EnclaveChild_PresidentialYouth.baseDesc>
+<EnclaveChild_PresidentialYouth.description>Родословная [PAWN_nameDef] восходила к довоенным сенаторам. Анклав вложил большие средства в его образование: частные репетиторы, продвинутая боевая подготовка, политическая теория. Его учили видеть общую картину. Пустошь не просто опасна — это возможность отстроить Америку заново, на этот раз правильно.</EnclaveChild_PresidentialYouth.description>
 
 <EnclaveAdult_VeteranSoldier.title>Ветеран Анклава</EnclaveAdult_VeteranSoldier.title>
 <EnclaveAdult_VeteranSoldier.titleFemale>Ветеран Анклава</EnclaveAdult_VeteranSoldier.titleFemale>
 <EnclaveAdult_VeteranSoldier.titleShort>Ветеран</EnclaveAdult_VeteranSoldier.titleShort>
 <EnclaveAdult_VeteranSoldier.titleShortFemale>Ветеран</EnclaveAdult_VeteranSoldier.titleShortFemale>
-<EnclaveAdult_VeteranSoldier.baseDesc>[PAWN_nameDef] убил больше «мутантов», чем может сосчитать. Рейдеры, гули, супермутанты — Анклав давал [PAWN_objective] цели, а [PAWN_pronoun] дарил им смерть. [PAWN_possessive] силовая броня покрыта шрамами и зарубками. [PAWN_pronoun] спит крепко. Сны прекратились много лет назад.</EnclaveAdult_VeteranSoldier.baseDesc>
-<EnclaveAdult_VeteranSoldier.description>[PAWN_nameDef] убил больше «мутантов», чем может сосчитать. Рейдеры, гули, супермутанты — Анклав давал [PAWN_objective] цели, а [PAWN_pronoun] дарил им смерть. [PAWN_possessive] силовая броня покрыта шрамами и зарубками. [PAWN_pronoun] спит крепко. Сны прекратились много лет назад.</EnclaveAdult_VeteranSoldier.description>
+<EnclaveAdult_VeteranSoldier.baseDesc>[PAWN_nameDef] убил больше «мутантов», чем может сосчитать. Рейдеры, гули, супермутанты — Анклав давал ему цели, а он давал им смерть. Его силовая броня покрыта шрамами, с нанесенными зарубками. Он спит спокойно. Сны прекратились много лет назад.</EnclaveAdult_VeteranSoldier.baseDesc>
+<EnclaveAdult_VeteranSoldier.description>[PAWN_nameDef] убил больше «мутантов», чем может сосчитать. Рейдеры, гули, супермутанты — Анклав давал ему цели, а он давал им смерть. Его силовая броня покрыта шрамами, с нанесенными зарубками. Он спит спокойно. Сны прекратились много лет назад.</EnclaveAdult_VeteranSoldier.description>
 
-<EnclaveAdult_ScienceOfficer.title>Научный офицер</EnclaveAdult_ScienceOfficer.title>
-<EnclaveAdult_ScienceOfficer.titleFemale>Научный офицер</EnclaveAdult_ScienceOfficer.titleFemale>
+<EnclaveAdult_ScienceOfficer.title>Офицер науки</EnclaveAdult_ScienceOfficer.title>
+<EnclaveAdult_ScienceOfficer.titleFemale>Офицер науки</EnclaveAdult_ScienceOfficer.titleFemale>
 <EnclaveAdult_ScienceOfficer.titleShort>Исследователь</EnclaveAdult_ScienceOfficer.titleShort>
 <EnclaveAdult_ScienceOfficer.titleShortFemale>Исследовательница</EnclaveAdult_ScienceOfficer.titleShortFemale>
-<EnclaveAdult_ScienceOfficer.baseDesc>Доктор [PAWN_nameDef] руководил тёмным близнецом Проекта Чистота — исследованиями вируса принудительной эволюции. [PAWN_pronoun] говорил себе, что это для «контроля популяции», но [PAWN_pronoun] видел подопытных. Крики. Теперь [PAWN_pronoun] носит плазменный пистолет и груз вины. Наука должна продолжаться. Ради Америки.</EnclaveAdult_ScienceOfficer.baseDesc>
-<EnclaveAdult_ScienceOfficer.description>Доктор [PAWN_nameDef] руководил тёмным близнецом Проекта Чистота — исследованиями вируса принудительной эволюции. [PAWN_pronoun] говорил себе, что это для «контроля популяции», но [PAWN_pronoun] видел подопытных. Крики. Теперь [PAWN_pronoun] носит плазменный пистолет и груз вины. Наука должна продолжаться. Ради Америки.</EnclaveAdult_ScienceOfficer.description>
+<EnclaveAdult_ScienceOfficer.baseDesc>Д-р [PAWN_nameDef] руководил темным родственником проекта «Чистота» — исследованиями вируса принудительной эволюции. Он говорил себе, что это для «контроля населения», но он видел подопытных. Крики. Теперь он носит плазменный пистолет и груз вины. Наука должна продолжаться. Ради Америки.</EnclaveAdult_ScienceOfficer.baseDesc>
+<EnclaveAdult_ScienceOfficer.description>Д-р [PAWN_nameDef] руководил темным родственником проекта «Чистота» — исследованиями вируса принудительной эволюции. Он говорил себе, что это для «контроля населения», но он видел подопытных. Крики. Теперь он носит плазменный пистолет и груз вины. Наука должна продолжаться. Ради Америки.</EnclaveAdult_ScienceOfficer.description>
 
 <EnclaveAdult_CommunicationsOfficer.title>Офицер связи</EnclaveAdult_CommunicationsOfficer.title>
 <EnclaveAdult_CommunicationsOfficer.titleFemale>Офицер связи</EnclaveAdult_CommunicationsOfficer.titleFemale>
 <EnclaveAdult_CommunicationsOfficer.titleShort>Офицер связи</EnclaveAdult_CommunicationsOfficer.titleShort>
 <EnclaveAdult_CommunicationsOfficer.titleShortFemale>Офицер связи</EnclaveAdult_CommunicationsOfficer.titleShortFemale>
-<EnclaveAdult_CommunicationsOfficer.baseDesc>[PAWN_nameDef] управлял пропагандистской сетью Анклава, вещая с орбитальной станции. [PAWN_pronoun] писал сценарии: «Анклав — ваш друг». «Мутанты — недочеловеки». «Америка станет чистой вновь». [PAWN_pronoun] верил во всё это, пока не увидел кадры орбитальной бомбардировки. Теперь [PAWN_pronoun] командует наземными войсками.</EnclaveAdult_CommunicationsOfficer.baseDesc>
-<EnclaveAdult_CommunicationsOfficer.description>[PAWN_nameDef] управлял пропагандистской сетью Анклава, вещая с орбитальной станции. [PAWN_pronoun] писал сценарии: «Анклав — ваш друг». «Мутанты — недочеловеки». «Америка станет чистой вновь». [PAWN_pronoun] верил во всё это, пока не увидел кадры орбитальной бомбардировки. Теперь [PAWN_pronoun] командует наземными войсками.</EnclaveAdult_CommunicationsOfficer.description>
+<EnclaveAdult_CommunicationsOfficer.baseDesc>[PAWN_nameDef] управлял пропагандистской сетью Анклава, вещая с орбитальной станции. Он писал сценарии: «Анклав — ваш друг», «Мутанты — недочеловеки», «Америка снова станет чистой». Он верил во всё это, пока не увидел кадры орбитальной бомбардировки. Теперь он командует наземными войсками.</EnclaveAdult_CommunicationsOfficer.baseDesc>
+<EnclaveAdult_CommunicationsOfficer.description>[PAWN_nameDef] управлял пропагандистской сетью Анклава, вещая с орбитальной станции. Он писал сценарии: «Анклав — ваш друг», «Мутанты — недочеловеки», «Америка снова станет чистой». Он верил во всё это, пока не увидел кадры орбитальной бомбардировки. Теперь он командует наземными войсками.</EnclaveAdult_CommunicationsOfficer.description>
 
 <EnclaveAdult_PowerArmorEngineer.title>Инженер силовой брони</EnclaveAdult_PowerArmorEngineer.title>
 <EnclaveAdult_PowerArmorEngineer.titleFemale>Инженер силовой брони</EnclaveAdult_PowerArmorEngineer.titleFemale>
 <EnclaveAdult_PowerArmorEngineer.titleShort>Инженер</EnclaveAdult_PowerArmorEngineer.titleShort>
 <EnclaveAdult_PowerArmorEngineer.titleShortFemale>Инженер</EnclaveAdult_PowerArmorEngineer.titleShortFemale>
-<EnclaveAdult_PowerArmorEngineer.baseDesc>[PAWN_nameDef] может разобрать и собрать костюм X-01 за сорок минут. [PAWN_pronoun] относится к каждому костюму как к пациенту — диагностирует задержки сервоприводов, калибрует гидравлику, шепчет ободрения термоядерному реактору. Солдаты зовут [PAWN_possessive] «Док», но [PAWN_pronoun] знает правду: броня ценнее мяса внутри.</EnclaveAdult_PowerArmorEngineer.baseDesc>
-<EnclaveAdult_PowerArmorEngineer.description>[PAWN_nameDef] может разобрать и собрать костюм X-01 за сорок минут. [PAWN_pronoun] относится к каждому костюму как к пациенту — диагностирует задержки сервоприводов, калибрует гидравлику, шепчет ободрения термоядерному реактору. Солдаты зовут [PAWN_possessive] «Док», но [PAWN_pronoun] знает правду: броня ценнее мяса внутри.</EnclaveAdult_PowerArmorEngineer.description>
+<EnclaveAdult_PowerArmorEngineer.baseDesc>[PAWN_nameDef] может разобрать и собрать костюм X-01 за сорок минут. Он относится к каждому костюму как к пациенту — диагностируя задержки сервоприводов, калибруя гидравлику, шепча ободрения термоядерному реактору. Солдаты называют его «Док», но он знает правду: броня ценнее, чем мясо внутри.</EnclaveAdult_PowerArmorEngineer.baseDesc>
+<EnclaveAdult_PowerArmorEngineer.description>[PAWN_nameDef] может разобрать и собрать костюм X-01 за сорок минут. Он относится к каждому костюму как к пациенту — диагностируя задержки сервоприводов, калибруя гидравлику, шепча ободрения термоядерному реактору. Солдаты называют его «Док», но он знает правду: броня ценнее, чем мясо внутри.</EnclaveAdult_PowerArmorEngineer.description>
 
 <EnclaveAdult_SecretService.title>Секретная служба</EnclaveAdult_SecretService.title>
 <EnclaveAdult_SecretService.titleFemale>Секретная служба</EnclaveAdult_SecretService.titleFemale>
 <EnclaveAdult_SecretService.titleShort>Агент</EnclaveAdult_SecretService.titleShort>
 <EnclaveAdult_SecretService.titleShortFemale>Агент</EnclaveAdult_SecretService.titleShortFemale>
-<EnclaveAdult_SecretService.baseDesc>[PAWN_nameDef] защищал жизнь Президента. [PAWN_pronoun] убил человека за неправильный кашель во время речи. Руководство Анклава должно выжить — любой ценой. [PAWN_pronoun] носит бесшумный пистолет .22 для «тихой работы» и боевой дробовик для всего остального. Лояльность — единственная добродетель [PAWN_possessive].</EnclaveAdult_SecretService.baseDesc>
-<EnclaveAdult_SecretService.description>[PAWN_nameDef] защищал жизнь Президента. [PAWN_pronoun] убил человека за неправильный кашель во время речи. Руководство Анклава должно выжить — любой ценой. [PAWN_pronoun] носит бесшумный пистолет .22 для «тихой работы» и боевой дробовик для всего остального. Лояльность — единственная добродетель [PAWN_possessive].</EnclaveAdult_SecretService.description>
+<EnclaveAdult_SecretService.baseDesc>[PAWN_nameDef] охранял жизнь Президента. Он убил человека за неправильный кашель во время речи. Руководство Анклава должно выжить — любой ценой. Он носит бесшумный пистолет калибра .22 для «тихой работы» и боевой дробовик для всего остального. Лояльность — его единственная добродетель.</EnclaveAdult_SecretService.baseDesc>
+<EnclaveAdult_SecretService.description>[PAWN_nameDef] охранял жизнь Президента. Он убил человека за неправильный кашель во время речи. Руководство Анклава должно выжить — любой ценой. Он носит бесшумный пистолет калибра .22 для «тихой работы» и боевой дробовик для всего остального. Лояльность — его единственная добродетель.</EnclaveAdult_SecretService.description>
 
 <EnclaveAdult_Sniper.title>Снайпер Анклава</EnclaveAdult_Sniper.title>
 <EnclaveAdult_Sniper.titleFemale>Снайпер Анклава</EnclaveAdult_Sniper.titleFemale>
 <EnclaveAdult_Sniper.titleShort>Снайпер</EnclaveAdult_Sniper.titleShort>
 <EnclaveAdult_Sniper.titleShortFemale>Снайпер</EnclaveAdult_Sniper.titleShortFemale>
-<EnclaveAdult_Sniper.baseDesc>[PAWN_nameDef] провёл три дня в маскировочном костюме, ожидая одного выстрела. Целью был «симпатизирующий мутантам» — врач, лечивший гулей. [PAWN_pronoun] нажал на спуск с 800 метров, наблюдая в прицел, как падает тело. [PAWN_pronoun] ничего не почувствовал. Расстояние делает убийство лёгким.</EnclaveAdult_Sniper.baseDesc>
-<EnclaveAdult_Sniper.description>[PAWN_nameDef] провёл три дня в маскировочном костюме, ожидая одного выстрела. Целью был «симпатизирующий мутантам» — врач, лечивший гулей. [PAWN_pronoun] нажал на спуск с 800 метров, наблюдая в прицел, как падает тело. [PAWN_pronoun] ничего не почувствовал. Расстояние делает убийство лёгким.</EnclaveAdult_Sniper.description>
+<EnclaveAdult_Sniper.baseDesc>[PAWN_nameDef] провел три дня в маскировочном костюме, ожидая одного выстрела. Целью был «симпатизирующий мутантам» — врач, лечивший гулей. Он нажал на спуск с 800 метров, наблюдая в прицел, как тело падает. Он ничего не почувствовал. Расстояние делает убийство легким.</EnclaveAdult_Sniper.baseDesc>
+<EnclaveAdult_Sniper.description>[PAWN_nameDef] провел три дня в маскировочном костюме, ожидая одного выстрела. Целью был «симпатизирующий мутантам» — врач, лечивший гулей. Он нажал на спуск с 800 метров, наблюдая в прицел, как тело падает. Он ничего не почувствовал. Расстояние делает убийство легким.</EnclaveAdult_Sniper.description>
 
 <EnclaveAdult_IntelligenceAnalyst.title>Аналитик разведки</EnclaveAdult_IntelligenceAnalyst.title>
 <EnclaveAdult_IntelligenceAnalyst.titleFemale>Аналитик разведки</EnclaveAdult_IntelligenceAnalyst.titleFemale>
 <EnclaveAdult_IntelligenceAnalyst.titleShort>Аналитик</EnclaveAdult_IntelligenceAnalyst.titleShort>
 <EnclaveAdult_IntelligenceAnalyst.titleShortFemale>Аналитик</EnclaveAdult_IntelligenceAnalyst.titleShortFemale>
-<EnclaveAdult_IntelligenceAnalyst.baseDesc>[PAWN_nameDef] читал чужие письма. Перехватывал радиообмен, расшифровывал гололенты, составлял досье на «подрывные элементы». [PAWN_pronoun] знал, кто изменяет супругу, кто сомневается в Президенте, кто хранит довоенный сборник стихов. Знание — сила, и [PAWN_pronoun] владел ею как ножом — тихо, точно, смертоносно.</EnclaveAdult_IntelligenceAnalyst.baseDesc>
-<EnclaveAdult_IntelligenceAnalyst.description>[PAWN_nameDef] читал чужие письма. Перехватывал радиообмен, расшифровывал гололенты, составлял досье на «подрывные элементы». [PAWN_pronoun] знал, кто изменяет супругу, кто сомневается в Президенте, кто хранит довоенный сборник стихов. Знание — сила, и [PAWN_pronoun] владел им как ножом — тихо, точно, смертоносно.</EnclaveAdult_IntelligenceAnalyst.description>
+<EnclaveAdult_IntelligenceAnalyst.baseDesc>[PAWN_nameDef] читал всю почту. Перехватывал радиопереговоры, расшифровывал голодиски, составлял профили «подрывных элементов». Он знал, кто изменяет супругу, кто ставит под сомнение решения Президента, кто хранит довоенный сборник стихов. Знание — сила, и он владел ею, как ножом — тихо, точно, смертельно.</EnclaveAdult_IntelligenceAnalyst.baseDesc>
+<EnclaveAdult_IntelligenceAnalyst.description>[PAWN_nameDef] читал всю почту. Перехватывал радиопереговоры, расшифровывал голодиски, составлял профили «подрывных элементов». Он знал, кто изменяет супругу, кто ставит под сомнение решения Президента, кто хранит довоенный сборник стихов. Знание — сила, и он владел ею, как ножом — тихо, точно, смертельно.</EnclaveAdult_IntelligenceAnalyst.description>
 
 <EnclaveAdult_ChemicalWarfare.title>Специалист по химическому оружию</EnclaveAdult_ChemicalWarfare.title>
 <EnclaveAdult_ChemicalWarfare.titleFemale>Специалист по химическому оружию</EnclaveAdult_ChemicalWarfare.titleFemale>
 <EnclaveAdult_ChemicalWarfare.titleShort>Химик</EnclaveAdult_ChemicalWarfare.titleShort>
 <EnclaveAdult_ChemicalWarfare.titleShortFemale>Химик</EnclaveAdult_ChemicalWarfare.titleShortFemale>
-<EnclaveAdult_ChemicalWarfare.baseDesc>[PAWN_nameDef] варил облака, убивавшие поселения. Токсин FEV, модифицированный для атмосферного распыления. [PAWN_pronoun] носил герметичный костюм и наблюдал с Вертибёрда, как люди задыхаются. «Нежизнеспособные популяции» — так их называли в отчётах. [PAWN_pronoun] называл это вторником. Маска скрывает лицо. Ничто не скроет глаза.</EnclaveAdult_ChemicalWarfare.baseDesc>
-<EnclaveAdult_ChemicalWarfare.description>[PAWN_nameDef] варил облака, убивавшие поселения. Токсин FEV, модифицированный для атмосферного распыления. [PAWN_pronoun] носил герметичный костюм и наблюдал с Вертибёрда, как люди задыхаются. «Нежизнеспособные популяции» — так их называли в отчётах. [PAWN_pronoun] называл это вторником. Маска скрывает лицо. Ничто не скроет глаза.</EnclaveAdult_ChemicalWarfare.description>
+<EnclaveAdult_ChemicalWarfare.baseDesc>[PAWN_nameDef] готовил облака, убивавшие поселения. Токсин СВЧ, модифицированный для атмосферного распыления. Он носил герметичный костюм и наблюдал с Вертиберда, как люди задыхались. «Нежизнеспособные популяции», — говорилось в отчете. Он называл это вторником. Маска скрывает его лицо. Ничто не может скрыть его глаза.</EnclaveAdult_ChemicalWarfare.baseDesc>
+<EnclaveAdult_ChemicalWarfare.description>[PAWN_nameDef] готовил облака, убивавшие поселения. Токсин СВЧ, модифицированный для атмосферного распыления. Он носил герметичный костюм и наблюдал с Вертиберда, как люди задыхались. «Нежизнеспособные популяции», — говорилось в отчете. Он называл это вторником. Маска скрывает его лицо. Ничто не может скрыть его глаза.</EnclaveAdult_ChemicalWarfare.description>
 
-<EnclaveAdult_VertibirdPilot.title>Пилот Вертибёрда</EnclaveAdult_VertibirdPilot.title>
-<EnclaveAdult_VertibirdPilot.titleFemale>Пилот Вертибёрда</EnclaveAdult_VertibirdPilot.titleFemale>
+<EnclaveAdult_VertibirdPilot.title>Пилот Вертиберда</EnclaveAdult_VertibirdPilot.title>
+<EnclaveAdult_VertibirdPilot.titleFemale>Пилот Вертиберда</EnclaveAdult_VertibirdPilot.titleFemale>
 <EnclaveAdult_VertibirdPilot.titleShort>Пилот</EnclaveAdult_VertibirdPilot.titleShort>
 <EnclaveAdult_VertibirdPilot.titleShortFemale>Пилот</EnclaveAdult_VertibirdPilot.titleShortFemale>
-<EnclaveAdult_VertibirdPilot.baseDesc>[PAWN_nameDef] летал на громе. Вертибёрды с рёвом проносились над Пустошью, обрушивая смерть на всё, что движется. [PAWN_pronoun] любил высоту — над радиацией, над грязью. Там, наверху, [PAWN_pronoun] был чист. Но ракета оторвала хвостовой винт, и [PAWN_pronoun] узнал, какова земля на вкус. Анклав восстановил [PAWN_possessive]. [PAWN_pronoun] обязан им всем.</EnclaveAdult_VertibirdPilot.baseDesc>
-<EnclaveAdult_VertibirdPilot.description>[PAWN_nameDef] летал на громе. Вертибёрды с рёвом проносились над Пустошью, обрушивая смерть на всё, что движется. [PAWN_pronoun] любил высоту — над радиацией, над грязью. Там, наверху, [PAWN_pronoun] был чист. Но ракета оторвала хвостовой винт, и [PAWN_pronoun] узнал, какова земля на вкус. Анклав восстановил [PAWN_possessive]. [PAWN_pronoun] обязан им всем.</EnclaveAdult_VertibirdPilot.description>
+<EnclaveAdult_VertibirdPilot.baseDesc>[PAWN_nameDef] летал на громе. Вертиберды, ревущие над Пустошью, несущие смерть всему, что движется. Он любил высоту — над радиацией, над грязью. Там, наверху, он был чист. Затем ракета снесла его хвостовой винт, и он узнал, каков на вкус грунт. Анклав восстановил его. Он обязан им всем.</EnclaveAdult_VertibirdPilot.baseDesc>
+<EnclaveAdult_VertibirdPilot.description>[PAWN_nameDef] летал на громе. Вертиберды, ревущие над Пустошью, несущие смерть всему, что движется. Он любил высоту — над радиацией, над грязью. Там, наверху, он был чист. Затем ракета снесла его хвостовой винт, и он узнал, каков на вкус грунт. Анклав восстановил его. Он обязан им всем.</EnclaveAdult_VertibirdPilot.description>
 
 <EnclaveAdult_FieldCommander.title>Полевой командир</EnclaveAdult_FieldCommander.title>
 <EnclaveAdult_FieldCommander.titleFemale>Полевой командир</EnclaveAdult_FieldCommander.titleFemale>
 <EnclaveAdult_FieldCommander.titleShort>Командир</EnclaveAdult_FieldCommander.titleShort>
 <EnclaveAdult_FieldCommander.titleShortFemale>Командир</EnclaveAdult_FieldCommander.titleShortFemale>
-<EnclaveAdult_FieldCommander.baseDesc>Полковник [PAWN_nameDef] потерял весь батальон на авиабазе Адамс. [PAWN_pronoun] видел, как Одинокий Странник нажатием кнопки уничтожил будущее Анклава. Теперь [PAWN_pronoun] ведёт остатки — обломки гордой машины. [PAWN_pronoun] мечтает о мести, о возрождении, о том, чтобы нажимать свои собственные кнопки. Анклав восстанет. Он должен.</EnclaveAdult_FieldCommander.baseDesc>
-<EnclaveAdult_FieldCommander.description>Полковник [PAWN_nameDef] потерял весь батальон на авиабазе Адамс. [PAWN_pronoun] видел, как Одинокий Странник нажатием кнопки уничтожил будущее Анклава. Теперь [PAWN_pronoun] ведёт остатки — обломки гордой машины. [PAWN_pronoun] мечтает о мести, о возрождении, о том, чтобы нажимать свои собственные кнопки. Анклав восстанет. Он должен.</EnclaveAdult_FieldCommander.description>
+<EnclaveAdult_FieldCommander.baseDesc>Полковник [PAWN_nameDef] потерял весь свой батальон на авиабазе Адамс. Он видел, как Одинокий Странник одним нажатием кнопки уничтожил будущее Анклава. Теперь он ведет то, что осталось — обломки гордой машины. Он мечтает о мести, о возрождении, о том, чтобы самому нажимать кнопки. Анклав восстанет. Он должен.</EnclaveAdult_FieldCommander.baseDesc>
+<EnclaveAdult_FieldCommander.description>Полковник [PAWN_nameDef] потерял весь свой батальон на авиабазе Адамс. Он видел, как Одинокий Странник одним нажатием кнопки уничтожил будущее Анклава. Теперь он ведет то, что осталось — обломки гордой машины. Он мечтает о мести, о возрождении, о том, чтобы самому нажимать кнопки. Анклав восстанет. Он должен.</EnclaveAdult_FieldCommander.description>
 
-<InstituteChild_BornInInstitute.title>Рождённый в Институте</InstituteChild_BornInInstitute.title>
-<InstituteChild_BornInInstitute.titleFemale>Рождённая в Институте</InstituteChild_BornInInstitute.titleFemale>
-<InstituteChild_BornInInstitute.titleShort>Ребёнок Института</InstituteChild_BornInInstitute.titleShort>
-<InstituteChild_BornInInstitute.titleShortFemale>Ребёнок Института</InstituteChild_BornInInstitute.titleShortFemale>
-<InstituteChild_BornInInstitute.baseDesc>[PAWN_nameDef] родился под Содружеством, в стерильных белых залах Института. [PAWN_pronoun] никогда не видел настоящего неба, только искусственное свечение термоядерных реакторов. [PAWN_possessive] игрушками были голографические проекторы, а на ночь ему рассказывали о чудесах науки и опасностях поверхности.</InstituteChild_BornInInstitute.baseDesc>
-<InstituteChild_BornInInstitute.description>[PAWN_nameDef] родился под Содружеством, в стерильных белых залах Института. [PAWN_pronoun] никогда не видел настоящего неба, только искусственное свечение термоядерных реакторов. [PAWN_possessive] игрушками были голографические проекторы, а на ночь ему рассказывали о чудесах науки и опасностях поверхности.</InstituteChild_BornInInstitute.description>
+<InstituteChild_BornInInstitute.title>Рожденный в Институте</InstituteChild_BornInInstitute.title>
+<InstituteChild_BornInInstitute.titleFemale>Рожденная в Институте</InstituteChild_BornInInstitute.titleFemale>
+<InstituteChild_BornInInstitute.titleShort>Ребенок Института</InstituteChild_BornInInstitute.titleShort>
+<InstituteChild_BornInInstitute.titleShortFemale>Ребенок Института</InstituteChild_BornInInstitute.titleShortFemale>
+<InstituteChild_BornInInstitute.baseDesc>[PAWN_nameDef] родился под Содружеством, в стерильных белых залах Института. Он никогда не видел настоящего неба, только искусственное свечение термоядерных реакторов. Его игрушками были голографические проекторы, а колыбельными — рассказы о чудесах науки и опасностях поверхности.</InstituteChild_BornInInstitute.baseDesc>
+<InstituteChild_BornInInstitute.description>[PAWN_nameDef] родился под Содружеством, в стерильных белых залах Института. Он никогда не видел настоящего неба, только искусственное свечение термоядерных реакторов. Его игрушками были голографические проекторы, а колыбельными — рассказы о чудесах науки и опасностях поверхности.</InstituteChild_BornInInstitute.description>
 
 <InstituteChild_SynthTestSubject.title>Подопытный для синтов</InstituteChild_SynthTestSubject.title>
 <InstituteChild_SynthTestSubject.titleFemale>Подопытная для синтов</InstituteChild_SynthTestSubject.titleFemale>
 <InstituteChild_SynthTestSubject.titleShort>Подопытный</InstituteChild_SynthTestSubject.titleShort>
 <InstituteChild_SynthTestSubject.titleShortFemale>Подопытная</InstituteChild_SynthTestSubject.titleShortFemale>
-<InstituteChild_SynthTestSubject.baseDesc>[PAWN_nameDef] вырос в отделе Бионауки. Доктора постоянно брали кровь, проводили сканирования, проверяли реакции на новые химические агенты. Они были добры, но клиничны. [PAWN_pronoun] научился сидеть смирно и не задавать вопросов. Для синтов Gen-3 нужен был эталон. [PAWN_pronoun] был этим эталоном.</InstituteChild_SynthTestSubject.baseDesc>
-<InstituteChild_SynthTestSubject.description>[PAWN_nameDef] вырос в отделе Бионауки. Доктора постоянно брали кровь, проводили сканирования, проверяли реакции на новые химические агенты. Они были добры, но клиничны. [PAWN_pronoun] научился сидеть смирно и не задавать вопросов. Для синтов Gen-3 нужен был эталон. [PAWN_pronoun] был этим эталоном.</InstituteChild_SynthTestSubject.description>
+<InstituteChild_SynthTestSubject.baseDesc>[PAWN_nameDef] вырос в отделе Бионауки. Врачи постоянно брали кровь, проводили сканирования, тестировали реакцию на новые химикаты. Они были добры, но клинически холодны. Он научился сидеть смирно и не задавать вопросов. Синтам Gen-3 нужен был базовый уровень. Он был этим базовым уровнем.</InstituteChild_SynthTestSubject.baseDesc>
+<InstituteChild_SynthTestSubject.description>[PAWN_nameDef] вырос в отделе Бионауки. Врачи постоянно брали кровь, проводили сканирования, тестировали реакцию на новые химикаты. Они были добры, но клинически холодны. Он научился сидеть смирно и не задавать вопросов. Синтам Gen-3 нужен был базовый уровень. Он был этим базовым уровнем.</InstituteChild_SynthTestSubject.description>
 
 <InstituteChild_Vault111Survivor.title>Выживший из Убежища 111</InstituteChild_Vault111Survivor.title>
 <InstituteChild_Vault111Survivor.titleFemale>Выжившая из Убежища 111</InstituteChild_Vault111Survivor.titleFemale>
 <InstituteChild_Vault111Survivor.titleShort>Криовыживший</InstituteChild_Vault111Survivor.titleShort>
 <InstituteChild_Vault111Survivor.titleShortFemale>Криовыжившая</InstituteChild_Vault111Survivor.titleShortFemale>
-<InstituteChild_Vault111Survivor.baseDesc>[PAWN_nameDef] был заморожен в Убежище 111. [PAWN_pronoun] видел, как умирает семья, через замерзшее стекло криоподы. Институт разморозил [PAWN_possessive], но сердце отогреть не смог. Поверхность — кладбище, а [PAWN_pronoun] — призрак с обидой.</InstituteChild_Vault111Survivor.baseDesc>
-<InstituteChild_Vault111Survivor.description>[PAWN_nameDef] был заморожен в Убежище 111. [PAWN_pronoun] видел, как умирает семья, через замерзшее стекло криоподы. Институт разморозил [PAWN_possessive], но сердце отогреть не смог. Поверхность — кладбище, а [PAWN_pronoun] — призрак с обидой.</InstituteChild_Vault111Survivor.description>
+<InstituteChild_Vault111Survivor.baseDesc>[PAWN_nameDef] был заморожен в Убежище 111. Он видел, как его семья умирала через замерзшее стекло криокамеры. Институт разморозил его, но они не могли разморозить его сердце. Поверхность — это кладбище, а он — призрак с обидой.</InstituteChild_Vault111Survivor.baseDesc>
+<InstituteChild_Vault111Survivor.description>[PAWN_nameDef] был заморожен в Убежище 111. Он видел, как его семья умирала через замерзшее стекло криокамеры. Институт разморозил его, но они не могли разморозить его сердце. Поверхность — это кладбище, а он — призрак с обидой.</InstituteChild_Vault111Survivor.description>
 
-<InstituteChild_RoboticsWizard.title>Робототехнический вундеркинд</InstituteChild_RoboticsWizard.title>
-<InstituteChild_RoboticsWizard.titleFemale>Робототехнический вундеркинд</InstituteChild_RoboticsWizard.titleFemale>
-<InstituteChild_RoboticsWizard.titleShort>Робо-вундеркинд</InstituteChild_RoboticsWizard.titleShort>
-<InstituteChild_RoboticsWizard.titleShortFemale>Робо-вундеркинд</InstituteChild_RoboticsWizard.titleShortFemale>
-<InstituteChild_RoboticsWizard.baseDesc>[PAWN_nameDef] разобрал первого Мистера Сластёну в семь лет и собрал обратно лучше прежнего. Отдел робототехники тут же забрал [PAWN_possessive]. [PAWN_pronoun] предпочитает синтов людям. Синты логичны. Люди... непредсказуемы.</InstituteChild_RoboticsWizard.baseDesc>
-<InstituteChild_RoboticsWizard.description>[PAWN_nameDef] разобрал первого Мистера Сластёну в семь лет и собрал обратно лучше прежнего. Отдел робототехники тут же забрал [PAWN_possessive]. [PAWN_pronoun] предпочитает синтов людям. Синты логичны. Люди... непредсказуемы.</InstituteChild_RoboticsWizard.description>
+<InstituteChild_RoboticsWizard.title>Волшебник робототехники</InstituteChild_RoboticsWizard.title>
+<InstituteChild_RoboticsWizard.titleFemale>Волшебница робототехники</InstituteChild_RoboticsWizard.titleFemale>
+<InstituteChild_RoboticsWizard.titleShort>Робо-волшебник</InstituteChild_RoboticsWizard.titleShort>
+<InstituteChild_RoboticsWizard.titleShortFemale>Робо-волшебница</InstituteChild_RoboticsWizard.titleShortFemale>
+<InstituteChild_RoboticsWizard.baseDesc>[PAWN_nameDef] разобрал своего первого Мистера Хэнди в семь лет и собрал его лучше прежнего. Отдел робототехники сразу же забрал его к себе. Он предпочитает синтов людям. Синты имеют смысл. Люди... непредсказуемы.</InstituteChild_RoboticsWizard.baseDesc>
+<InstituteChild_RoboticsWizard.description>[PAWN_nameDef] разобрал своего первого Мистера Хэнди в семь лет и собрал его лучше прежнего. Отдел робототехники сразу же забрал его к себе. Он предпочитает синтов людям. Синты имеют смысл. Люди... непредсказуемы.</InstituteChild_RoboticsWizard.description>
 
 <InstituteAdult_SynthProgrammer.title>Программист синтов</InstituteAdult_SynthProgrammer.title>
 <InstituteAdult_SynthProgrammer.titleFemale>Программист синтов</InstituteAdult_SynthProgrammer.titleFemale>
 <InstituteAdult_SynthProgrammer.titleShort>Программист</InstituteAdult_SynthProgrammer.titleShort>
 <InstituteAdult_SynthProgrammer.titleShortFemale>Программист</InstituteAdult_SynthProgrammer.titleShortFemale>
-<InstituteAdult_SynthProgrammer.description>[PAWN_nameDef] пишет личности для синтов Gen-3. [PAWN_pronoun] решает, кто будет любить, кто ненавидеть, кто бояться темноты. [PAWN_pronoun] создал тысячи искусственных разумов, каждый — шедевр кода. [PAWN_pronoun] настаивает, что они не люди. [PAWN_pronoun] должен в это верить.</InstituteAdult_SynthProgrammer.description>
+<InstituteAdult_SynthProgrammer.description>[PAWN_nameDef] пишет личности для синтов Gen-3. Он решает, кто любит, кто ненавидит, кто боится темноты. Он создал тысячи искусственных разумов, каждый из которых — шедевр кода. Он настаивает, что они не люди. Он должен в это верить.</InstituteAdult_SynthProgrammer.description>
 
 <InstituteAdult_Courser.title>Курсор Института</InstituteAdult_Courser.title>
 <InstituteAdult_Courser.titleFemale>Курсор Института</InstituteAdult_Courser.titleFemale>
 <InstituteAdult_Courser.titleShort>Курсор</InstituteAdult_Courser.titleShort>
 <InstituteAdult_Courser.titleShortFemale>Курсор</InstituteAdult_Courser.titleShortFemale>
-<InstituteAdult_Courser.description>[PAWN_nameDef] — высшее оружие Института. Синт Gen-3, обученный с нулевой толерантностью к ошибкам. [PAWN_pronoun] возвращает сбежавших синтов, устраняет угрозы и заставляет проблемы исчезать. [PAWN_pronoun] не ведёт переговоров. [PAWN_pronoun] не колеблется. [PAWN_pronoun] не человек. [PAWN_pronoun] — инструмент.</InstituteAdult_Courser.description>
+<InstituteAdult_Courser.description>[PAWN_nameDef] — главное оружие Института. Синт Gen-3, обученный абсолютной безотказности. Он возвращает сбежавших синтов, устраняет угрозы и заставляет проблемы исчезать. Он не ведет переговоров. Он не колеблется. Он не человек. Он — инструмент.</InstituteAdult_Courser.description>
 
 <InstituteAdult_AdvancedSystems.title>Специалист по передовым системам</InstituteAdult_AdvancedSystems.title>
 <InstituteAdult_AdvancedSystems.titleFemale>Специалист по передовым системам</InstituteAdult_AdvancedSystems.titleFemale>
 <InstituteAdult_AdvancedSystems.titleShort>Специалист по системам</InstituteAdult_AdvancedSystems.titleShort>
 <InstituteAdult_AdvancedSystems.titleShortFemale>Специалист по системам</InstituteAdult_AdvancedSystems.titleShortFemale>
-<InstituteAdult_AdvancedSystems.description>[PAWN_nameDef] обслуживает термоядерные реакторы Института и телепортационную установку. [PAWN_pronoun] видел, как происходит сбой Реле. [PAWN_pronoun] видел, что случается с материей, которая неправильно реинтегрируется. [PAWN_pronoun] дотошен, параноидален и абсолютно незаменим.</InstituteAdult_AdvancedSystems.description>
+<InstituteAdult_AdvancedSystems.description>[PAWN_nameDef] обслуживает термоядерные реакторы и телепортационную установку Института. Он видел, как работает Передатчик. Он видел, что происходит с материей, которая не интегрируется правильно. Он педантичен, параноидален и абсолютно незаменим.</InstituteAdult_AdvancedSystems.description>
 
 <InstituteAdult_BioScientist.title>Исследователь Бионауки</InstituteAdult_BioScientist.title>
 <InstituteAdult_BioScientist.titleFemale>Исследователь Бионауки</InstituteAdult_BioScientist.titleFemale>
-<InstituteAdult_BioScientist.titleShort>Биоисследователь</InstituteAdult_BioScientist.titleShort>
-<InstituteAdult_BioScientist.titleShortFemale>Биоисследователь</InstituteAdult_BioScientist.titleShortFemale>
-<InstituteAdult_BioScientist.description>[PAWN_nameDef] выращивает синтетические органы и ткани для синтов Gen-3 в стерильных чанах. [PAWN_pronoun] также разрабатывает культуры, способные выжить на облучённой поверхности. [PAWN_pronoun] видит тело как машину — сложную, но в конечном счёте ремонтопригодную. Смерть — просто конструктивный недостаток.</InstituteAdult_BioScientist.description>
+<InstituteAdult_BioScientist.titleShort>Био-исследователь</InstituteAdult_BioScientist.titleShort>
+<InstituteAdult_BioScientist.titleShortFemale>Био-исследователь</InstituteAdult_BioScientist.titleShortFemale>
+<InstituteAdult_BioScientist.description>[PAWN_nameDef] выращивает синтетические органы и ткани для синтов Gen-3 в стерильных чанах. Он также разрабатывает культуры, способные выживать на облученной поверхности. Он видит тело как машину — сложную, но в конечном счете ремонтопригодную. Смерть — просто конструктивный недостаток.</InstituteAdult_BioScientist.description>
 
 <InstituteAdult_SynthInfiltrator.title>Синт-инфильтратор</InstituteAdult_SynthInfiltrator.title>
 <InstituteAdult_SynthInfiltrator.titleFemale>Синт-инфильтратор</InstituteAdult_SynthInfiltrator.titleFemale>
 <InstituteAdult_SynthInfiltrator.titleShort>Инфильтратор</InstituteAdult_SynthInfiltrator.titleShort>
 <InstituteAdult_SynthInfiltrator.titleShortFemale>Инфильтратор</InstituteAdult_SynthInfiltrator.titleShortFemale>
-<InstituteAdult_SynthInfiltrator.description>[PAWN_nameDef] жил как человек годами, шпионя за Железной дорогой, Братством и Минитменами. [PAWN_pronoun] ел с ними, смеялся с ними, убивал с ними. Затем пришёл код отзыва. Теперь [PAWN_pronoun] снова в Институте, притворяясь, что не скучает по солнцу.</InstituteAdult_SynthInfiltrator.description>
+<InstituteAdult_SynthInfiltrator.description>[PAWN_nameDef] жил как человек годами, шпионя за Железной дорогой, Братством Стали и Ополченцами. Он ел с ними, смеялся с ними, убивал с ними. Затем он получил код возврата. Теперь он снова в Институте, притворяясь, что не скучает по солнцу.</InstituteAdult_SynthInfiltrator.description>
 
 <InstituteChild_Prodigy.title>Вундеркинд Института</InstituteChild_Prodigy.title>
 <InstituteChild_Prodigy.titleFemale>Вундеркинд Института</InstituteChild_Prodigy.titleFemale>
 <InstituteChild_Prodigy.titleShort>Вундеркинд</InstituteChild_Prodigy.titleShort>
 <InstituteChild_Prodigy.titleShortFemale>Вундеркинд</InstituteChild_Prodigy.titleShortFemale>
-<InstituteChild_Prodigy.baseDesc>[PAWN_nameDef] мог решать сложные уравнения раньше, чем научился читать. Учёные из отдела передовых систем заметили талант [PAWN_possessive] рано, дав доступ к закрытым терминалам и исследовательским данным. Другие дети играли в игрушки. [PAWN_nameDef] играл с квантовой запутанностью.</InstituteChild_Prodigy.baseDesc>
-<InstituteChild_Prodigy.description>[PAWN_nameDef] мог решать сложные уравнения раньше, чем научился читать. Учёные из отдела передовых систем заметили талант [PAWN_possessive] рано, дав доступ к закрытым терминалам и исследовательским данным. Другие дети играли в игрушки. [PAWN_nameDef] играл с квантовой запутанностью.</InstituteChild_Prodigy.description>
+<InstituteChild_Prodigy.baseDesc>[PAWN_nameDef] мог решать сложные уравнения раньше, чем научился читать. Ученые из отдела передовых систем заметили его талант рано, дав ему доступ к закрытым терминалам и исследовательским данным. Другие дети играли в игрушки. [PAWN_nameDef] играл с квантовой запутанностью.</InstituteChild_Prodigy.baseDesc>
+<InstituteChild_Prodigy.description>[PAWN_nameDef] мог решать сложные уравнения раньше, чем научился читать. Ученые из отдела передовых систем заметили его талант рано, дав ему доступ к закрытым терминалам и исследовательским данным. Другие дети играли в игрушки. [PAWN_nameDef] играл с квантовой запутанностью.</InstituteChild_Prodigy.description>
 
-<InstituteChild_PrototypeSynth.title>Ребёнок-прототип синта</InstituteChild_PrototypeSynth.title>
-<InstituteChild_PrototypeSynth.titleFemale>Ребёнок-прототип синта</InstituteChild_PrototypeSynth.titleFemale>
+<InstituteChild_PrototypeSynth.title>Прототип синта-ребенка</InstituteChild_PrototypeSynth.title>
+<InstituteChild_PrototypeSynth.titleFemale>Прототип синта-ребенка</InstituteChild_PrototypeSynth.titleFemale>
 <InstituteChild_PrototypeSynth.titleShort>Прототип</InstituteChild_PrototypeSynth.titleShort>
 <InstituteChild_PrototypeSynth.titleShortFemale>Прототип</InstituteChild_PrototypeSynth.titleShortFemale>
-<InstituteChild_PrototypeSynth.baseDesc>[PAWN_nameDef] был создан, а не рождён. Ранний эксперимент с детьми-синтами, созданными, чтобы взрослеть и учиться как настоящие люди. Учёные постоянно наблюдали за [PAWN_objective], делали записи, проводили тесты. [PAWN_pronoun] не знает, настоящие ли воспоминания или имплантированные. Какая разница?</InstituteChild_PrototypeSynth.baseDesc>
-<InstituteChild_PrototypeSynth.description>[PAWN_nameDef] был создан, а не рождён. Ранний эксперимент с детьми-синтами, созданными, чтобы взрослеть и учиться как настоящие люди. Учёные постоянно наблюдали за [PAWN_objective], делали записи, проводили тесты. [PAWN_pronoun] не знает, настоящие ли воспоминания или имплантированные. Какая разница?</InstituteChild_PrototypeSynth.description>
+<InstituteChild_PrototypeSynth.baseDesc>[PAWN_nameDef] был создан, а не рожден. Ранний эксперимент по созданию синтов-детей, способных взрослеть и учиться как настоящий человек. Ученые постоянно следили за ним, делая записи, проводя тесты. Он не знает, настоящие ли его воспоминания или вживленные. Да и имеет ли это значение?</InstituteChild_PrototypeSynth.baseDesc>
+<InstituteChild_PrototypeSynth.description>[PAWN_nameDef] был создан, а не рожден. Ранний эксперимент по созданию синтов-детей, способных взрослеть и учиться как настоящий человек. Ученые постоянно следили за ним, делая записи, проводя тесты. Он не знает, настоящие ли его воспоминания или вживленные. Да и имеет ли это значение?</InstituteChild_PrototypeSynth.description>
 
-<InstituteChild_BioDivisionKid.title>Ребёнок из Биоотдела</InstituteChild_BioDivisionKid.title>
-<InstituteChild_BioDivisionKid.titleFemale>Ребёнок из Биоотдела</InstituteChild_BioDivisionKid.titleFemale>
-<InstituteChild_BioDivisionKid.titleShort>Био-ребёнок</InstituteChild_BioDivisionKid.titleShort>
-<InstituteChild_BioDivisionKid.titleShortFemale>Био-ребёнок</InstituteChild_BioDivisionKid.titleShortFemale>
-<InstituteChild_BioDivisionKid.baseDesc>[PAWN_nameDef] вырос среди светящихся растений и экспериментальных организмов. Оба родителя были исследователями в Бионауке. Вместо питомцев у [PAWN_possessive] были мутировавшие аксолотли и плотоядные лианы. [PAWN_pronoun] научился уважать природу — институтскую версию, по крайней мере.</InstituteChild_BioDivisionKid.baseDesc>
-<InstituteChild_BioDivisionKid.description>[PAWN_nameDef] вырос среди светящихся растений и экспериментальных организмов. Оба родителя были исследователями в Бионауке. Вместо питомцев у [PAWN_possessive] были мутировавшие аксолотли и плотоядные лианы. [PAWN_pronoun] научился уважать природу — институтскую версию, по крайней мере.</InstituteChild_BioDivisionKid.description>
+<InstituteChild_BioDivisionKid.title>Ребенок из Биоотдела</InstituteChild_BioDivisionKid.title>
+<InstituteChild_BioDivisionKid.titleFemale>Ребенок из Биоотдела</InstituteChild_BioDivisionKid.titleFemale>
+<InstituteChild_BioDivisionKid.titleShort>Био-ребенок</InstituteChild_BioDivisionKid.titleShort>
+<InstituteChild_BioDivisionKid.titleShortFemale>Био-ребенок</InstituteChild_BioDivisionKid.titleShortFemale>
+<InstituteChild_BioDivisionKid.baseDesc>[PAWN_nameDef] вырос в окружении светящихся растений и экспериментальных организмов. Его родители были исследователями в Бионауке. Вместо домашних питомцев у него были мутировавшие аксолотли и плотоядные лианы. Он научился уважать природу — версию природы Института, по крайней мере.</InstituteChild_BioDivisionKid.baseDesc>
+<InstituteChild_BioDivisionKid.description>[PAWN_nameDef] вырос в окружении светящихся растений и экспериментальных организмов. Его родители были исследователями в Бионауке. Вместо домашних питомцев у него были мутировавшие аксолотли и плотоядные лианы. Он научился уважать природу — версию природы Института, по крайней мере.</InstituteChild_BioDivisionKid.description>
 
-<InstituteChild_RoboticsApprentice.title>Ученик робототехники</InstituteChild_RoboticsApprentice.title>
-<InstituteChild_RoboticsApprentice.titleFemale>Ученица робототехники</InstituteChild_RoboticsApprentice.titleFemale>
-<InstituteChild_RoboticsApprentice.titleShort>Робо-ученик</InstituteChild_RoboticsApprentice.titleShort>
-<InstituteChild_RoboticsApprentice.titleShortFemale>Робо-ученица</InstituteChild_RoboticsApprentice.titleShortFemale>
-<InstituteChild_RoboticsApprentice.baseDesc>[PAWN_nameDef] был очарован синтами Gen-1 — их дергаными движениями, пустыми лицами. [PAWN_pronoun] ходил за инженерами-робототехниками как тень, задавая бесконечные вопросы. Однажды техник позволил [PAWN_objective] припаять плату. Руки [PAWN_possessive] тряслись от возбуждения.</InstituteChild_RoboticsApprentice.baseDesc>
-<InstituteChild_RoboticsApprentice.description>[PAWN_nameDef] был очарован синтами Gen-1 — их дергаными движениями, пустыми лицами. [PAWN_pronoun] ходил за инженерами-робототехниками как тень, задавая бесконечные вопросы. Однажды техник позволил [PAWN_objective] припаять плату. Руки [PAWN_possessive] тряслись от возбуждения.</InstituteChild_RoboticsApprentice.description>
+<InstituteChild_RoboticsApprentice.title>Ученик робототехника</InstituteChild_RoboticsApprentice.title>
+<InstituteChild_RoboticsApprentice.titleFemale>Ученица робототехника</InstituteChild_RoboticsApprentice.titleFemale>
+<InstituteChild_RoboticsApprentice.titleShort>Ученик-робототехник</InstituteChild_RoboticsApprentice.titleShort>
+<InstituteChild_RoboticsApprentice.titleShortFemale>Ученица-робототехник</InstituteChild_RoboticsApprentice.titleShortFemale>
+<InstituteChild_RoboticsApprentice.baseDesc>[PAWN_nameDef] был очарован синтами Gen-1 — их дергаными движениями, их пустыми лицами. Он ходил за инженерами-робототехниками как тень, задавая бесконечные вопросы. Однажды техник позволил ему припаять плату. Его руки никогда не переставали трястись от волнения.</InstituteChild_RoboticsApprentice.baseDesc>
+<InstituteChild_RoboticsApprentice.description>[PAWN_nameDef] был очарован синтами Gen-1 — их дергаными движениями, их пустыми лицами. Он ходил за инженерами-робототехниками как тень, задавая бесконечные вопросы. Однажды техник позволил ему припаять плату. Его руки никогда не переставали трястись от волнения.</InstituteChild_RoboticsApprentice.description>
 
 <InstituteChild_Vault111Orphan.title>Сирота из Убежища 111</InstituteChild_Vault111Orphan.title>
 <InstituteChild_Vault111Orphan.titleFemale>Сирота из Убежища 111</InstituteChild_Vault111Orphan.titleFemale>
-<InstituteChild_Vault111Orphan.titleShort>Криосирота</InstituteChild_Vault111Orphan.titleShort>
-<InstituteChild_Vault111Orphan.titleShortFemale>Криосирота</InstituteChild_Vault111Orphan.titleShortFemale>
-<InstituteChild_Vault111Orphan.baseDesc>[PAWN_nameDef] был заморожен в Убежище 111 до того, как упали бомбы. Институт разморозил [PAWN_possessive] десятилетия спустя — единственного выжившего в провальном криоэксперименте. Семья — прах. Мир исчез. Институт дал [PAWN_objective] второй шанс. [PAWN_pronoun] обязан им всем.</InstituteChild_Vault111Orphan.baseDesc>
-<InstituteChild_Vault111Orphan.description>[PAWN_nameDef] был заморожен в Убежище 111 до того, как упали бомбы. Институт разморозил [PAWN_possessive] десятилетия спустя — единственного выжившего в провальном криоэксперименте. Семья — прах. Мир исчез. Институт дал [PAWN_objective] второй шанс. [PAWN_pronoun] обязан им всем.</InstituteChild_Vault111Orphan.description>
+<InstituteChild_Vault111Orphan.titleShort>Крио-сирота</InstituteChild_Vault111Orphan.titleShort>
+<InstituteChild_Vault111Orphan.titleShortFemale>Крио-сирота</InstituteChild_Vault111Orphan.titleShortFemale>
+<InstituteChild_Vault111Orphan.baseDesc>[PAWN_nameDef] был заморожен в Убежище 111 еще до того, как упали бомбы. Институт разморозил его десятилетия спустя — единственного выжившего из неудачного криоэксперимента. Его семья — прах. Его мир исчез. Институт дал ему второй шанс. Он обязан им всем.</InstituteChild_Vault111Orphan.baseDesc>
+<InstituteChild_Vault111Orphan.description>[PAWN_nameDef] был заморожен в Убежище 111 еще до того, как упали бомбы. Институт разморозил его десятилетия спустя — единственного выжившего из неудачного криоэксперимента. Его семья — прах. Его мир исчез. Институт дал ему второй шанс. Он обязан им всем.</InstituteChild_Vault111Orphan.description>
 
-<InstituteChild_CourserChild.title>Ребёнок Курсора</InstituteChild_CourserChild.title>
-<InstituteChild_CourserChild.titleFemale>Ребёнок Курсора</InstituteChild_CourserChild.titleFemale>
-<InstituteChild_CourserChild.titleShort>Ребёнок Курсора</InstituteChild_CourserChild.titleShort>
-<InstituteChild_CourserChild.titleShortFemale>Ребёнок Курсора</InstituteChild_CourserChild.titleShortFemale>
-<InstituteChild_CourserChild.baseDesc>Родитель [PAWN_nameDef] был Курсором — элитным охотником Института за сбежавшими синтами. [PAWN_pronoun] никогда не знал, когда родитель вернётся с миссии. Иногда они возвращались другими. Иногда не возвращались вовсе. [PAWN_pronoun] научился быть самостоятельным. И смертоносным.</InstituteChild_CourserChild.baseDesc>
-<InstituteChild_CourserChild.description>Родитель [PAWN_nameDef] был Курсором — элитным охотником Института за сбежавшими синтами. [PAWN_pronoun] никогда не знал, когда родитель вернётся с миссии. Иногда они возвращались другими. Иногда не возвращались вовсе. [PAWN_pronoun] научился быть самостоятельным. И смертоносным.</InstituteChild_CourserChild.description>
+<InstituteChild_CourserChild.title>Ребенок Курсора</InstituteChild_CourserChild.title>
+<InstituteChild_CourserChild.titleFemale>Ребенок Курсора</InstituteChild_CourserChild.titleFemale>
+<InstituteChild_CourserChild.titleShort>Ребенок Курсора</InstituteChild_CourserChild.titleShort>
+<InstituteChild_CourserChild.titleShortFemale>Ребенок Курсора</InstituteChild_CourserChild.titleShortFemale>
+<InstituteChild_CourserChild.baseDesc>Родитель [PAWN_nameDef] был Курсором — элитным охотником Института на сбежавших синтов. Он никогда не знал, когда его родитель вернется с миссии. Иногда они возвращались другими. Иногда не возвращались вовсе. Он научился быть независимым. И смертоносным.</InstituteChild_CourserChild.baseDesc>
+<InstituteChild_CourserChild.description>Родитель [PAWN_nameDef] был Курсором — элитным охотником Института на сбежавших синтов. Он никогда не знал, когда его родитель вернется с миссии. Иногда они возвращались другими. Иногда не возвращались вовсе. Он научился быть независимым. И смертоносным.</InstituteChild_CourserChild.description>
 
 <InstituteChild_SurfaceRefugee.title>Беженец с поверхности</InstituteChild_SurfaceRefugee.title>
 <InstituteChild_SurfaceRefugee.titleFemale>Беженка с поверхности</InstituteChild_SurfaceRefugee.titleFemale>
 <InstituteChild_SurfaceRefugee.titleShort>Беженец</InstituteChild_SurfaceRefugee.titleShort>
 <InstituteChild_SurfaceRefugee.titleShortFemale>Беженка</InstituteChild_SurfaceRefugee.titleShortFemale>
-<InstituteChild_SurfaceRefugee.baseDesc>[PAWN_nameDef] нашла команда по изъятию синтов — грязного, голодного ребёнка, копающегося в руинах Бостона. Институт взял [PAWN_possessive], дезактивировал, обучил. [PAWN_pronoun] до сих пор иногда видит во сне поверхность. Запах дождя. Вкус земли. [PAWN_pronoun] никогда не хочет возвращаться.</InstituteChild_SurfaceRefugee.baseDesc>
-<InstituteChild_SurfaceRefugee.description>[PAWN_nameDef] нашла команда по изъятию синтов — грязного, голодного ребёнка, копающегося в руинах Бостона. Институт взял [PAWN_possessive], дезактивировал, обучил. [PAWN_pronoun] до сих пор иногда видит во сне поверхность. Запах дождя. Вкус земли. [PAWN_pronoun] никогда не хочет возвращаться.</InstituteChild_SurfaceRefugee.description>
+<InstituteChild_SurfaceRefugee.baseDesc>[PAWN_nameDef] была найдена командой по возврату синтов — грязный, голодный ребенок, рыскающий по руинам Бостона. Институт взял ее к себе, провел дезактивацию, обучил. Ей до сих пор снятся сны о поверхности. Запах дождя. Вкус земли. Она никогда не хочет возвращаться.</InstituteChild_SurfaceRefugee.baseDesc>
+<InstituteChild_SurfaceRefugee.description>[PAWN_nameDef] была найдена командой по возврату синтов — грязный, голодный ребенок, рыскающий по руинам Бостона. Институт взял ее к себе, провел дезактивацию, обучил. Ей до сих пор снятся сны о поверхности. Запах дождя. Вкус земли. Она никогда не хочет возвращаться.</InstituteChild_SurfaceRefugee.description>
 
-<InstituteChild_DirectorateHeir.title>Наследник Директората</InstituteChild_DirectorateHeir.title>
-<InstituteChild_DirectorateHeir.titleFemale>Наследница Директората</InstituteChild_DirectorateHeir.titleFemale>
+<InstituteChild_DirectorateHeir.title>Наследник Директории</InstituteChild_DirectorateHeir.title>
+<InstituteChild_DirectorateHeir.titleFemale>Наследница Директории</InstituteChild_DirectorateHeir.titleFemale>
 <InstituteChild_DirectorateHeir.titleShort>Наследник</InstituteChild_DirectorateHeir.titleShort>
 <InstituteChild_DirectorateHeir.titleShortFemale>Наследница</InstituteChild_DirectorateHeir.titleShortFemale>
-<InstituteChild_DirectorateHeir.baseDesc>[PAWN_nameDef] был выращен, чтобы вести за собой. Родители заседали в Директорате, и [PAWN_possessive] готовили с рождения занять их место. [PAWN_pronoun] посещал заседания совета вместо дней рождения. [PAWN_pronoun] учил политику вместо игр. Институт — [PAWN_possessive] право по рождению. И [PAWN_possessive] бремя.</InstituteChild_DirectorateHeir.baseDesc>
-<InstituteChild_DirectorateHeir.description>[PAWN_nameDef] был выращен, чтобы вести за собой. Родители заседали в Директорате, и [PAWN_possessive] готовили с рождения занять их место. [PAWN_pronoun] посещал заседания совета вместо дней рождения. [PAWN_pronoun] учил политику вместо игр. Институт — [PAWN_possessive] право по рождению. И [PAWN_possessive] бремя.</InstituteChild_DirectorateHeir.description>
+<InstituteChild_DirectorateHeir.baseDesc>[PAWN_nameDef] был воспитан, чтобы вести за собой. Его родители заседали в Директории, и его с рождения готовили занять их место. Он посещал заседания совета вместо дней рождения. Он изучал политику вместо игр. Институт — его право по рождению. И его бремя.</InstituteChild_DirectorateHeir.baseDesc>
+<InstituteChild_DirectorateHeir.description>[PAWN_nameDef] был воспитан, чтобы вести за собой. Его родители заседали в Директории, и его с рождения готовили занять их место. Он посещал заседания совета вместо дней рождения. Он изучал политику вместо игр. Институт — его право по рождению. И его бремя.</InstituteChild_DirectorateHeir.description>
 
 <InstituteChild_MaintenanceMouse.title>Техническая мышь</InstituteChild_MaintenanceMouse.title>
 <InstituteChild_MaintenanceMouse.titleFemale>Техническая мышь</InstituteChild_MaintenanceMouse.titleFemale>
 <InstituteChild_MaintenanceMouse.titleShort>Мышь</InstituteChild_MaintenanceMouse.titleShort>
 <InstituteChild_MaintenanceMouse.titleShortFemale>Мышь</InstituteChild_MaintenanceMouse.titleShortFemale>
-<InstituteChild_MaintenanceMouse.baseDesc>[PAWN_nameDef] был тихим — таким тихим, что люди часто забывали о [PAWN_possessive] существовании. [PAWN_pronoun] проводил часы в технических туннелях, наблюдая за работой инженеров, изучая секреты инфраструктуры Института. [PAWN_pronoun] знает, куда ведёт каждая вентиляция, каждая труба. Тишина — [PAWN_possessive] сверхспособность.</InstituteChild_MaintenanceMouse.baseDesc>
-<InstituteChild_MaintenanceMouse.description>[PAWN_nameDef] был тихим — таким тихим, что люди часто забывали о [PAWN_possessive] существовании. [PAWN_pronoun] проводил часы в технических туннелях, наблюдая за работой инженеров, изучая секреты инфраструктуры Института. [PAWN_pronoun] знает, куда ведёт каждая вентиляция, каждая труба. Тишина — [PAWN_possessive] сверхспособность.</InstituteChild_MaintenanceMouse.description>
+<InstituteChild_MaintenanceMouse.baseDesc>[PAWN_nameDef] был тихим — настолько тихим, что люди часто забывали о его существовании. Он проводил часы в технических тоннелях, наблюдая за работой инженеров, узнавая секреты инфраструктуры Института. Он знает, куда ведет каждая вентиляция, каждая труба. Тишина — его суперсила.</InstituteChild_MaintenanceMouse.baseDesc>
+<InstituteChild_MaintenanceMouse.description>[PAWN_nameDef] был тихим — настолько тихим, что люди часто забывали о его существовании. Он проводил часы в технических тоннелях, наблюдая за работой инженеров, узнавая секреты инфраструктуры Института. Он знает, куда ведет каждая вентиляция, каждая труба. Тишина — его суперсила.</InstituteChild_MaintenanceMouse.description>
+
 </LanguageData>

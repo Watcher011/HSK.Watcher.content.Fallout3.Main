@@ -14,3 +14,9 @@ D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\
 D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\obj\Debug\Watcher.pdb
 D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\bin\Debug\Watcher.dll
 D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout2\1.6\Source\Watcher\bin\Debug\Watcher.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout3.Main\1.6\Source\Watcher\obj\Debug\Watcher.csproj.AssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout3.Main\1.6\Source\Watcher\obj\Debug\Watcher.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout3.Main\1.6\Source\Watcher\obj\Debug\Watcher.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout3.Main\1.6\Source\Watcher\obj\Debug\Watcher.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout3.Main\1.6\Source\Watcher\bin\Debug\Watcher.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\HSK.Watcher.content.Fallout3.Main\1.6\Source\Watcher\bin\Debug\Watcher.pdb

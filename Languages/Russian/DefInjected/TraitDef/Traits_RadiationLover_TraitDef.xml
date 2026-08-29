@@ -1,23 +1,41 @@
 <LanguageData>
 <RadiationLover.degreeDatas.0.label>Радиолюбитель</RadiationLover.degreeDatas.0.label>
-<RadiationLover.degreeDatas.0.description>{PAWN_nameDef} испытывает странное чувство покоя под воздействием радиации. Возможно, {PAWN_pronoun} видит в ней что-то прекрасное... или просто сломан.</RadiationLover.degreeDatas.0.description>
+<RadiationLover.degreeDatas.0.description>{PAWN_nameDef} ощущает странный покой, находясь под воздействием радиации. Возможно, {PAWN_pronoun} видит в этом нечто прекрасное... а может, просто сломался.</RadiationLover.degreeDatas.0.description>
 <RadiationLover.degreeDatas.0.labelFemale>Радиолюбительница</RadiationLover.degreeDatas.0.labelFemale>
 
-<DeadmanFashionLover.degreeDatas.0.label>Кладбищенский модник</DeadmanFashionLover.degreeDatas.0.label>
-<DeadmanFashionLover.degreeDatas.0.description>[PAWN_nameDef] считает, что лучшие наряды — те, что уже похоронили кого-то. Зачем тратить ресурсы на новую куртку, если какой-то бедолага уже проделал всю грязную работу по её обнашиванию? В конце концов, мёртвые не рассказывают модных историй. Да и вообще никаких. Они мертвы.</DeadmanFashionLover.degreeDatas.0.description>
-<DeadmanFashionLover.degreeDatas.0.labelFemale>Кладбищенская модница</DeadmanFashionLover.degreeDatas.0.labelFemale>
+<DeadmanFashionLover.degreeDatas.0.label>Модник с кладбища</DeadmanFashionLover.degreeDatas.0.label>
+<DeadmanFashionLover.degreeDatas.0.description>{PAWN_nameDef} считает, что лучшая одежда — та, что уже успела похоронить своего владельца. Зачем тратить ресурсы на новую куртку, если какой-то бедолага уже проделал всю грязную работу, разносив её? В конце концов, мёртвые не рассказывают о моде. Да и вообще не рассказывают. Они же мёртвые.</DeadmanFashionLover.degreeDatas.0.description>
+<DeadmanFashionLover.degreeDatas.0.labelFemale>Модница с кладбища</DeadmanFashionLover.degreeDatas.0.labelFemale>
 
 <Toxic.label>Токсичный</Toxic.label>
-<Toxic.description>Этот персонаж наслаждается страданиями других и никогда не упускает возможности кого-нибудь оскорбить.</Toxic.description>
+<Toxic.description>Этот персонаж получает удовольствие от страданий других и никогда не упускает возможности кого-нибудь оскорбить.</Toxic.description>
 <Toxic.degreeDatas.0.label>Токсичный</Toxic.degreeDatas.0.label>
-<Toxic.degreeDatas.0.description>{PAWN_nameDef} периодически ходит и оскорбляет других. Когда кто-то рядом срывается, {PAWN_nameDef} испытывает странное удовлетворение.</Toxic.degreeDatas.0.description>
+<Toxic.degreeDatas.0.description>{PAWN_nameDef} то и дело расхаживает и оскорбляет окружающих. Когда кто-то рядом впадает в нервный срыв, {PAWN_nameDef} испытывает странное удовлетворение.</Toxic.degreeDatas.0.description>
 <Toxic.degreeDatas.0.labelFemale>Токсичная</Toxic.degreeDatas.0.labelFemale>
 
-<MusicLover.degreeDatas.0.label>Меломан</MusicLover.degreeDatas.0.label>
-<MusicLover.degreeDatas.0.description>{PAWN_nameDef} любит музыку. Звуки мелодий глубоко затрагивают {PAWN_possessive} душу, вдвое усиливая {PAWN_possible} настроение. Говорят, в довоенные времена таких людей называли ценителями прекрасного. Теперь это просто способ не сойти с ума от тишины Пустоши и собственных мыслей.</MusicLover.degreeDatas.0.description>
-<MusicLover.degreeDatas.0.labelFemale>Меломанка</MusicLover.degreeDatas.0.labelFemale>
+<MusicLover.degreeDatas.0.label>Ценитель музыки</MusicLover.degreeDatas.0.label>
+<MusicLover.degreeDatas.0.description>{PAWN_nameDef} обожает музыку. Звуки мелодий глубоко трогают {PAWN_possessive} душу, вдвое поднимая {PAWN_possible} настроение. Говорят, в довоенные времена таких людей называли ценителями прекрасного. Теперь это просто способ не сойти с ума от тишины пустоши и собственных мыслей.</MusicLover.degreeDatas.0.description>
+<MusicLover.degreeDatas.0.labelFemale>Ценительница музыки</MusicLover.degreeDatas.0.labelFemale>
 
 <MusicHater.degreeDatas.0.label>Мизофон</MusicHater.degreeDatas.0.label>
-<MusicHater.degreeDatas.0.description>{PAWN_nameDef} ненавидит музыку. Любые мелодии раздражают {PAWN_objective}, вызывая головную боль и дискомфорт. В Пустоши большинство людей убило бы за работающее радио. {PAWN_possessive} же просто хочет, чтобы кто-нибудь наконец избавил этот древний хлам от страданий — и желательно до следующего припева.</MusicHater.degreeDatas.0.description>
+<MusicHater.degreeDatas.0.description>{PAWN_nameDef} ненавидит музыку. Любые мелодии раздражают {PAWN_objective}, вызывая головную боль и дискомфорт. В Пустоши большинство людей убило бы за работающее радио. {PAWN_possessive} же только мечтает, чтобы кто-нибудь наконец прикончил этот древний хлам — и желательно до следующего припева.</MusicHater.degreeDatas.0.description>
 <MusicHater.degreeDatas.0.labelFemale>Мизофонка</MusicHater.degreeDatas.0.labelFemale>
+
+<SolarBattery.label>Солнечная батарея</SolarBattery.label>
+<SolarBattery.description>Персонаж, заряжающийся энергией солнца. Наличие состояния «Яркий свет» даёт ему бонус к скорости передвижения и настроению.</SolarBattery.description>
+<SolarBattery.degreeDatas.0.label>Солнечная батарея</SolarBattery.degreeDatas.0.label>
+<SolarBattery.degreeDatas.0.description>Получает бонусы к скорости и настроению, когда активно состояние «Яркий свет».</SolarBattery.degreeDatas.0.description>
+<SolarBattery.degreeDatas.0.labelFemale>Солнечная батарея</SolarBattery.degreeDatas.0.labelFemale>
+
+<StrongSpine.label>Крепкий позвоночник</StrongSpine.label>
+<StrongSpine.description>У этого персонажа исключительно крепкая спина. Он носит больше груза и чувствует меньше боли.</StrongSpine.description>
+<StrongSpine.degreeDatas.0.label>Крепкий позвоночник</StrongSpine.degreeDatas.0.label>
+<StrongSpine.degreeDatas.0.description>Снижение боли и увеличение грузоподъёмности.</StrongSpine.degreeDatas.0.description>
+<StrongSpine.degreeDatas.0.labelFemale>Крепкий позвоночник</StrongSpine.degreeDatas.0.labelFemale>
+
+<VigorCharge.label>Заряд бодрости</VigorCharge.label>
+<VigorCharge.description>У этого персонажа природный запас энергии. Ему нужно меньше сна, чем другим.</VigorCharge.description>
+<VigorCharge.degreeDatas.0.label>Заряд бодрости</VigorCharge.degreeDatas.0.label>
+<VigorCharge.degreeDatas.0.description>Снижение потребности во сне.</VigorCharge.degreeDatas.0.description>
+<VigorCharge.degreeDatas.0.labelFemale>Заряд бодрости</VigorCharge.degreeDatas.0.labelFemale>
 </LanguageData>

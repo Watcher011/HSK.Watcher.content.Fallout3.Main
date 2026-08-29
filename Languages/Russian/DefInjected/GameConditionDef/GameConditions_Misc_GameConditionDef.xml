@@ -1,9 +1,9 @@
 <LanguageData>
 <RadNado.label>Радиоактивное торнадо</RadNado.label>
-<RadNado.description>Условие погоды: радиоактивное торнадо.</RadNado.description>
+<RadNado.description>Мощный вихрь, насыщенный радиоактивной пылью. Опасен для всего живого.</RadNado.description>
 
 <GreenRain_WeatherCondition.label>Зелёный дождь</GreenRain_WeatherCondition.label>
-<GreenRain_WeatherCondition.description>Странный зелёный дождь омывает поля, заставляя растения буйно расти.</GreenRain_WeatherCondition.description>
+<GreenRain_WeatherCondition.description>Странный зелёный дождь орошает поля, заставляя растения бешено расти.</GreenRain_WeatherCondition.description>
 <GreenRain_WeatherCondition.endMessage>Зелёный дождь прекратился.</GreenRain_WeatherCondition.endMessage>
 <GreenRain_WeatherCondition.letterText>Небо позеленело, и начался дождь...</GreenRain_WeatherCondition.letterText>
 </LanguageData>

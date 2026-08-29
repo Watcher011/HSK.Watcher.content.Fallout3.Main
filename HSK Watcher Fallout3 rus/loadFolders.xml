@@ -1,0 +1,14 @@
+<loadFolders>
+	
+	<v1.5>
+		<li>/</li>
+		<li>From_patches/No mods required</li>
+		<li IfModActive="notfood.SeedsPlease">From_patches/notfood_SeedsPlease</li>
+	</v1.5>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li>From_patches/No mods required</li>
+		<li IfModActive="notfood.SeedsPlease">From_patches/notfood_SeedsPlease</li>
+	</v1.6>
+</loadFolders>

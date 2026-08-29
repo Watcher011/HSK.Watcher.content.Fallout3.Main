@@ -1,9 +1,9 @@
 <LanguageData>
-<DeathIonization.label>ионизационная смерть</DeathIonization.label>
+	<DeathIonization.label>Ионизационная смерть</DeathIonization.label>
 <DeathIonization.labelNoun>ионизационная смерть</DeathIonization.labelNoun>
 <DeathIonization.description>Нестабильное состояние.</DeathIonization.description>
 
-<WearingPipBoy.label>Пип-Бой</WearingPipBoy.label>
+<WearingPipBoy.label>Пип-бой</WearingPipBoy.label>
 <WearingPipBoy.description>VATS, или Система Прицеливания Vault-Tec, — это передовая боевая технология, чьё происхождение затерялось во времени…</WearingPipBoy.description>
 <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
 
@@ -17,45 +17,54 @@
 <RadScorpionPoison.description>Накопление яда радскорпиона</RadScorpionPoison.description>
 <RadScorpionPoison.stages.0.label>начальная</RadScorpionPoison.stages.0.label>
 <RadScorpionPoison.stages.1.label>начальная</RadScorpionPoison.stages.1.label>
-<RadScorpionPoison.stages.2.label>лёгкая</RadScorpionPoison.stages.2.label>
+<RadScorpionPoison.stages.2.label>слабая</RadScorpionPoison.stages.2.label>
 <RadScorpionPoison.stages.3.label>умеренная</RadScorpionPoison.stages.3.label>
 <RadScorpionPoison.stages.4.label>серьёзная</RadScorpionPoison.stages.4.label>
 <RadScorpionPoison.stages.5.label>критическая</RadScorpionPoison.stages.5.label>
 
-<Scorponade.label>Энергетик «Скорпонада»</Scorponade.label>
+<Scorponade.label>Энергетический напиток «Скорпонада»</Scorponade.label>
 <Scorponade.description>Выпил энергетик «Скорпонада».</Scorponade.description>
-<Scorponade.stages.0.label>Выпил Скорпонаду, фух</Scorponade.stages.0.label>
-<Scorponade.stages.1.label>Выпил Скорпонаду, чувствуешь себя лучше.</Scorponade.stages.1.label>
+<Scorponade.stages.0.label>Напиток Скорпонада, фух</Scorponade.stages.0.label>
+<Scorponade.stages.1.label>Напиток Скорпонада, чувствую себя лучше.</Scorponade.stages.1.label>
 
-<ManhunterPermanentAnimal.label>Постоянная охота</ManhunterPermanentAnimal.label>
+<ManhunterPermanentAnimal.label>Постоянный зверь-охотник</ManhunterPermanentAnimal.label>
 
 <Watcher_ExplosiveDeath.label>активная боеголовка</Watcher_ExplosiveDeath.label>
-<Watcher_ExplosiveDeath.description>Описание активной боеголовки</Watcher_ExplosiveDeath.description>
+<Watcher_ExplosiveDeath.description>Активная боеголовка</Watcher_ExplosiveDeath.description>
 <Watcher_ExplosiveDeath.stages.0.label>активна</Watcher_ExplosiveDeath.stages.0.label>
 
 <Watcher_CoveredInFoam.label>покрыт медицинской пеной</Watcher_CoveredInFoam.label>
-<Watcher_CoveredInFoam.description>Быстротвердеющая гемостатическая пена, покрывающая тело. Останавливает кровотечение и способствует заживлению.</Watcher_CoveredInFoam.description>
+<Watcher_CoveredInFoam.description>Быстротвердеющая гемостатическая пена покрывает тело. Останавливает кровотечение и ускоряет заживление.</Watcher_CoveredInFoam.description>
 <Watcher_CoveredInFoam.stages.0.label>свежая</Watcher_CoveredInFoam.stages.0.label>
 
 <Watcher_StimulantCocktail.label>стимуляторы</Watcher_StimulantCocktail.label>
-<Watcher_StimulantCocktail.description>Химический коктейль, подавляющий потребность во сне и еде, повышающий сознательность.</Watcher_StimulantCocktail.description>
-<Watcher_StimulantCocktail.stages.0.label>слабый</Watcher_StimulantCocktail.stages.0.label>
-<Watcher_StimulantCocktail.stages.1.label>активный</Watcher_StimulantCocktail.stages.1.label>
-<Watcher_StimulantCocktail.stages.2.label>сильный</Watcher_StimulantCocktail.stages.2.label>
+<Watcher_StimulantCocktail.description>Химический коктейль, подавляющий потребность во сне и голоде, повышающий ясность сознания.</Watcher_StimulantCocktail.description>
+<Watcher_StimulantCocktail.stages.0.label>слабая</Watcher_StimulantCocktail.stages.0.label>
+<Watcher_StimulantCocktail.stages.1.label>активная</Watcher_StimulantCocktail.stages.1.label>
+<Watcher_StimulantCocktail.stages.2.label>сильная</Watcher_StimulantCocktail.stages.2.label>
 
-<Watcher_StimulantOverdose.label>передозировка стимуляторами</Watcher_StimulantOverdose.label>
+<Watcher_StimulantOverdose.label>передозировка стимуляторов</Watcher_StimulantOverdose.label>
 <Watcher_StimulantOverdose.description>Потеря сознания из-за чрезмерного употребления стимуляторов.</Watcher_StimulantOverdose.description>
 <Watcher_StimulantOverdose.stages.0.label>без сознания</Watcher_StimulantOverdose.stages.0.label>
 
 <Harold.label>Арараксис</Harold.label>
 <Harold.labelNoun>Прогрессирующий фитогенетический диссонанс</Harold.labelNoun>
-<Harold.description>Это была не инфекция в обычном смысле. Это был приговор, вписанный в каждую клетку тела с того самого момента, как радиация и вирус встретились в крови. Болезнь Харольда была медленной, неуловимой трансформацией человека во что-то, что природа никогда не задумывала. Это было не превращение — это было растворение личности в биомассе.</Harold.description>
+<Harold.description>Это была не инфекция в привычном смысле. Это был приговор, вписанный в каждую клетку тела с того самого момента, как радиация и вирус встретились в крови. Болезнь Харольда была медленным, неуловимым превращением человека в нечто, чего природа никогда не задумывала. Это было не преобразование — это было растворение личности в биомассе.</Harold.description>
 <Harold.comps.3.tools.0.label>лезвие</Harold.comps.3.tools.0.label>
-<Harold.comps.4.letterLabel>Операция по удалению плоти</Harold.comps.4.letterLabel>
-<Harold.comps.4.letterText>Попытка удалить плеть плоти {PAWN_nameDef} заставила скрученную массу плоти атаковать. Плоть отделилась от {PAWN_nameDef} и превратилась в плотоядного зверя!</Harold.comps.4.letterText>
+<Harold.comps.4.letterLabel>Операция над плотью</Harold.comps.4.letterLabel>
+<Harold.comps.4.letterText>Попытка удалить плоть-плеть {PAWN_nameDef} привела к тому, что скрученная масса плоти атаковала. Плоть отделилась от {PAWN_nameDef} и превратилась в плотоядного зверя!</Harold.comps.4.letterText>
 <Harold.stages.0.label>лёгкая</Harold.stages.0.label>
 <Harold.stages.1.label>выраженная</Harold.stages.1.label>
 <Harold.stages.2.label>критическая</Harold.stages.2.label>
 <Harold.stages.3.label>терминальная</Harold.stages.3.label>
 <Harold.renderNodeProperties.0.debugLabel>Арараксис</Harold.renderNodeProperties.0.debugLabel>
+
+<SolarBattery_Charged.label>солнечная батарейка</SolarBattery_Charged.label>
+<SolarBattery_Charged.description>Заряжен ярким светом.</SolarBattery_Charged.description>
+
+<StrongSpine_Hediff.label>крепкий хребет</StrongSpine_Hediff.label>
+<StrongSpine_Hediff.description>Устойчивая осанка и выносливость.</StrongSpine_Hediff.description>
+
+<VigorCharge_Hediff.label>заряд бодрости</VigorCharge_Hediff.label>
+<VigorCharge_Hediff.description>Природная жизненная сила снижает потребность во сне.</VigorCharge_Hediff.description>
 </LanguageData>

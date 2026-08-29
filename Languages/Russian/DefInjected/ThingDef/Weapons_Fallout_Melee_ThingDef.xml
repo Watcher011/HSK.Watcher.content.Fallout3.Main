@@ -1,45 +1,49 @@
 <LanguageData>
-<Fallout_Weapon_Ripper.label>Потрошитель</Fallout_Weapon_Ripper.label>
-<Fallout_Weapon_Ripper.description>Потрошитель — довольно хорошее оружие ближнего боя, уступающее по эффективности только суперкувалде. Благодаря повышенной бронепробиваемости с Потрошителем не составляет труда «разделать» врага даже в улучшенной силовой броне. Идеален для боя в замкнутых пространствах и коридорах.</Fallout_Weapon_Ripper.description>
+	<Fallout_Weapon_Ripper.label>Потрошитель</Fallout_Weapon_Ripper.label>
+<Fallout_Weapon_Ripper.description>Потрошитель — довольно хорошее оружие ближнего боя, уступающее по эффективности только суперкувалде. Благодаря повышенной бронепробиваемости с Потрошителем не составит труда «вскрыть» врага даже в улучшенной силовой броне. Идеален для боя в замкнутых пространствах и коридорах.</Fallout_Weapon_Ripper.description>
 <Fallout_Weapon_Ripper.tools.0.label>зубья</Fallout_Weapon_Ripper.tools.0.label>
 <Fallout_Weapon_Ripper.tools.1.label>лезвие</Fallout_Weapon_Ripper.tools.1.label>
 
-<Fallout_Weapon_Shishkebab.label>Шишкебаб</Fallout_Weapon_Shishkebab.label>
-<Fallout_Weapon_Shishkebab.description>Этот меч — не просто оружие, это кулинарный эксперимент в руках психопата! Когда-то один сумасшедший повар-рейдер решил, что лучший способ приготовить мясо — прямо на месте. Теперь его наследие живёт в ваших руках, и каждый удар — шаг к гастрономическому апокалипсису.</Fallout_Weapon_Shishkebab.description>
+<Fallout_Weapon_Shishkebab.label>Шиш-кебаб</Fallout_Weapon_Shishkebab.label>
+<Fallout_Weapon_Shishkebab.description>Этот меч — не просто оружие, это кулинарный эксперимент в руках психопата! Когда-то один безумный повар-рейдер решил, что лучший способ приготовить мясо — прямо на месте. Теперь его наследие живёт в ваших руках, и каждый удар — это шаг к гастрономическому апокалипсису.</Fallout_Weapon_Shishkebab.description>
 <Fallout_Weapon_Shishkebab.tools.0.label>рукоять</Fallout_Weapon_Shishkebab.tools.0.label>
 <Fallout_Weapon_Shishkebab.tools.1.label>остриё</Fallout_Weapon_Shishkebab.tools.1.label>
 <Fallout_Weapon_Shishkebab.tools.2.label>кромка</Fallout_Weapon_Shishkebab.tools.2.label>
 
 <MeleeWeapon_AtomsJudgement.label>Суд Атома</MeleeWeapon_AtomsJudgement.label>
 <MeleeWeapon_AtomsJudgement.description>«Когда нужно не просто разбить проблему, а стереть её с лица земли вместе с тремя соседними кварталами!»
+
 Этот революционный инструмент сочетает в себе:
-Изящество хирургического инструмента (если хирург — супермутант с ПМС)
-Экологичность (радиоактивное заражение — это просто бесплатный способ стерилизовать местность!)
-Экономичность (каждый удар экономит ваши патроны... и потенциально — будущие счета за отопление!)
+- Тонкость хирургического инструмента (если хирург — супермутант с ПМС)
+- Экологичность (радиоактивное заражение — просто бесплатный способ стерилизации местности!)
+- Экономичность (каждый удар экономит ваши боеприпасы... и, возможно, будущие счета за отопление!)
+
 Особенности конструкции:
-Молот из 12 повреждённых ядерных батарей Fusion Core
-Свинцовая рукоять (поглощает 0.0001% радиации)
-Встроенный счётчик Гейгера (показывает «ОЙ» вместо чисел)
+- Молот из 12 повреждённых ядерных батарей Fusion Core
+- Свинцовая рукоять (поглощает 0,0001% радиации)
+- Встроенный счётчик Гейгера (показывает «ОЙ» вместо цифр)
+
 ВАЖНО:
 После 10+ ударов подряд молот автоматически активирует:
-Режим «Ядерный молот» (дополнительный урон + светящаяся кожа на 2 недели)
-Протокол «Безумный Макс» (активируются все автомобильные сигнализации в радиусе мили)
-Функцию «Последний аргумент» (превращает пользователя в кратер)
-Vault-Tec не несёт ответственности за:
-Внезапное озеленение местности (тёмно-синее)
-Непреднамеренное создание новых видов фауны
-Исчезновение небольших городов в радиусе 5 км
-Проконсультируйтесь с радиологом перед использованием!</MeleeWeapon_AtomsJudgement.description>
+- Режим «Ядерный Молот» (дополнительный урон + светящаяся кожа на 2 недели)
+- Протокол «Безумный Макс» (все автомобильные сигнализации в радиусе мили активируются)
+- Функция «Последний Аргумент» (превращает пользователя в кратер)
+
+«Vault-Tec не несёт ответственности за:
+- Внезапное озеленение местности (тёмно-синее)
+- Непреднамеренное создание новых видов фауны
+- Исчезновение небольших городов в радиусе 5 км
+Проконсультируйтесь с вашим радиологом перед использованием!»</MeleeWeapon_AtomsJudgement.description>
 <MeleeWeapon_AtomsJudgement.tools.0.label>рукоять</MeleeWeapon_AtomsJudgement.tools.0.label>
-<MeleeWeapon_AtomsJudgement.tools.1.label>головка</MeleeWeapon_AtomsJudgement.tools.1.label>
+<MeleeWeapon_AtomsJudgement.tools.1.label>голова</MeleeWeapon_AtomsJudgement.tools.1.label>
 
 <MeleeWeapon_Supersledge.label>Суперкувалда</MeleeWeapon_Supersledge.label>
-<MeleeWeapon_Supersledge.description>Молот с прикреплённым миниатюрным реактивным двигателем, который создаёт дополнительное ускорение при ударе, позволяя наносить сокрушительный урон. Судя по тому, что двигатель не требует дозаправки, он работает на атомной энергии.</MeleeWeapon_Supersledge.description>
+<MeleeWeapon_Supersledge.description>Кувалда с прикреплённым миниатюрным реактивным двигателем, который создаёт дополнительное ускорение при ударе, позволяя наносить сокрушительный урон. Судя по тому, что двигатель не требует дозаправки, он работает на атомной энергии.</MeleeWeapon_Supersledge.description>
 <MeleeWeapon_Supersledge.tools.0.label>рукоять</MeleeWeapon_Supersledge.tools.0.label>
-<MeleeWeapon_Supersledge.tools.1.label>головка</MeleeWeapon_Supersledge.tools.1.label>
+<MeleeWeapon_Supersledge.tools.1.label>голова</MeleeWeapon_Supersledge.tools.1.label>
 
 <NuclearLandmine.label>Ядерная мина</NuclearLandmine.label>
 <NuclearLandmine.description>Активный снаряд «Толстяка»</NuclearLandmine.description>
-<NuclearLandmine.tools.0.label>корпус</NuclearLandmine.tools.0.label>
+<NuclearLandmine.tools.0.label>голова</NuclearLandmine.tools.0.label>
 <NuclearLandmine.tools.1.label>кромка</NuclearLandmine.tools.1.label>
 </LanguageData>

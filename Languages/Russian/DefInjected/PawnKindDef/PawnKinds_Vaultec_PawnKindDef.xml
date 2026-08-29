@@ -1,12 +1,12 @@
 <LanguageData>
-<VaultecScout.label>Разведчик Vault-Tec</VaultecScout.label>
-<VaultecRanger.label>Рейнджер Vault-Tec</VaultecRanger.label>
-<VaultecSheriffHeavy.label>Тяжеловооружённый шериф Vault-Tec</VaultecSheriffHeavy.label>
-<VaultecOfficer.label>Офицер Vault-Tec</VaultecOfficer.label>
-<VaultecCorporal.label>Капрал Vault-Tec</VaultecCorporal.label>
-<VaultecSpy.label>Шпион Vault-Tec</VaultecSpy.label>
-<VaultecInvestigator.label>Следователь Vault-Tec</VaultecInvestigator.label>
-<VaultecLiquidator.label>Ликвидатор Vault-Tec</VaultecLiquidator.label>
-<Vaultec_Trader_liquidator.label>Торговец-ликвидатор Vault-Tec</Vaultec_Trader_liquidator.label>
-<Vaultecglowing.label>Светящийся Vault-Tec</Vaultecglowing.label>
+	<VaultecScout.label>Разведчик Волт-Тек</VaultecScout.label>
+<VaultecRanger.label>Рейнджер Волт-Тек</VaultecRanger.label>
+<VaultecSheriffHeavy.label>Тяжеловооружённый рейнджер Волт-Тек</VaultecSheriffHeavy.label>
+<VaultecOfficer.label>Офицер Волт-Тек</VaultecOfficer.label>
+<VaultecCorporal.label>Капрал Волт-Тек</VaultecCorporal.label>
+<VaultecSpy.label>Шпион Волт-Тек</VaultecSpy.label>
+<VaultecInvestigator.label>Следователь Волт-Тек</VaultecInvestigator.label>
+<VaultecLiquidator.label>Ликвидатор Волт-Тек</VaultecLiquidator.label>
+<Vaultec_Trader_liquidator.label>Торговец Волт-Тек</Vaultec_Trader_liquidator.label>
+<Vaultecglowing.label>Светящийся Волт-Тек</Vaultecglowing.label>
 </LanguageData>

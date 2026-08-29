@@ -1,34 +1,36 @@
 <LanguageData>
-<FalloutJet.label>Винт</FalloutJet.label>
-<FalloutJet.description>Винт вызывает изменённое состояние сознания, при котором время кажется текущим очень медленно. Это позволяет совершить больше действий за короткий промежуток времени, чем обычно.</FalloutJet.description>
-<FalloutJet.ingestible.ingestCommandString>Использовать {0}</FalloutJet.ingestible.ingestCommandString>
-<FalloutJet.ingestible.ingestReportString>Использование {0}.</FalloutJet.ingestible.ingestReportString>
+	<FalloutJet.label>Винт</FalloutJet.label>
+<FalloutJet.description>Винт вызывает изменённое состояние сознания, при котором время словно замедляется. Это позволяет совершить больше действий за короткий промежуток времени, чем обычно.</FalloutJet.description>
+<FalloutJet.ingestible.ingestCommandString>Употребить {0}</FalloutJet.ingestible.ingestCommandString>
+<FalloutJet.ingestible.ingestReportString>Употребление {0}.</FalloutJet.ingestible.ingestReportString>
 
-<FalloutUltraJet.label>Ультра-винт</FalloutUltraJet.label>
-<FalloutUltraJet.description>Улучшенная версия винта, вызывающая изменённое состояние сознания, при котором время кажется текущим очень медленно. Это позволяет совершить больше действий за короткий промежуток времени, чем обычно.</FalloutUltraJet.description>
-<FalloutUltraJet.ingestible.ingestCommandString>Использовать {0}</FalloutUltraJet.ingestible.ingestCommandString>
-<FalloutUltraJet.ingestible.ingestReportString>Использование {0}.</FalloutUltraJet.ingestible.ingestReportString>
+<FalloutUltraJet.label>Ультравинт</FalloutUltraJet.label>
+<FalloutUltraJet.description>Улучшенная версия Винта, вызывающая изменённое состояние сознания, при котором время словно замедляется. Это позволяет совершить больше действий за короткий промежуток времени, чем обычно.</FalloutUltraJet.description>
+<FalloutUltraJet.ingestible.ingestCommandString>Употребить {0}</FalloutUltraJet.ingestible.ingestCommandString>
+<FalloutUltraJet.ingestible.ingestReportString>Употребление {0}.</FalloutUltraJet.ingestible.ingestReportString>
 
 <Stimpak.label>Стимулятор</Stimpak.label>
-<Stimpak.description>Потрясающая смесь болеутоляющих, стимуляторов и чего-то, что, кажется, движется… Но кому до этого есть дело, когда нужно срочно залатать дыру в груди после встречи с койотом?</Stimpak.description>
+<Stimpak.description>Ошеломляющая смесь обезболивающих, стимуляторов и чего-то, что, кажется, движется... Но кому есть до этого дело, когда нужно срочно залатать дыру в груди после встречи с койотом?</Stimpak.description>
 <Stimpak.ingestible.ingestCommandString>Ввести {0}</Stimpak.ingestible.ingestCommandString>
 <Stimpak.ingestible.ingestReportString>Введение {0}.</Stimpak.ingestible.ingestReportString>
 
-<StimpakSuper.label>Супер-стимулятор</StimpakSuper.label>
-<StimpakSuper.description>Устали от того, что ваши раны заживают слишком медленно? Хотите почувствовать, как ваши мышцы наполняются силой, а боль исчезает быстрее, чем репутация главы Гильдии Торговцев после неудачной сделки? Супер-стимулятор™ — это революция в мире постапокалиптической медицины!</StimpakSuper.description>
+<StimpakSuper.label>Суперстимулятор</StimpakSuper.label>
+<StimpakSuper.description>Устали от того, что ваши раны заживают слишком медленно? Хотите почувствовать, как мышцы наполняются силой, а боль исчезает быстрее, чем репутация главы Торговой гильдии после неудачной сделки? Суперстимулятор™ — революция в мире постапокалиптической медицины!</StimpakSuper.description>
 <StimpakSuper.ingestible.ingestCommandString>Ввести {0}</StimpakSuper.ingestible.ingestCommandString>
 <StimpakSuper.ingestible.ingestReportString>Введение {0}.</StimpakSuper.ingestible.ingestReportString>
 
 <Med-x.label>Мед-Икс</Med-x.label>
-<Med-x.description>Высокоэффективное болеутоляющее на основе морфина. Доступен в виде одноразовых шприцев с препаратом. При введении пользователь получает повышенную устойчивость к урону на некоторое время. Это довоенный препарат, и Выживший не может изготовить его в лаборатории.</Med-x.description>
+<Med-x.description>Высокоэффективное обезболивающее на основе морфина. Выпускается в виде одноразовых шприцев с препаратом. При введении пользователь получает повышенную устойчивость к повреждениям на некоторое время. Это довоенный препарат и не может быть изготовлен Выжившим в лаборатории.</Med-x.description>
 <Med-x.ingestible.ingestCommandString>Ввести {0}</Med-x.ingestible.ingestCommandString>
 <Med-x.ingestible.ingestReportString>Введение {0}.</Med-x.ingestible.ingestReportString>
 
-<RadAway.label>Антирадин</RadAway.label>
-<RadAway.description>Препарат, предназначенный для борьбы с последствиями радиоактивного заражения и выведения радиации из организма путём внутривенного введения. Он поглощает её, уменьшая циркуляцию в крови.</RadAway.description>
+<RadAway.label>Антирад</RadAway.label>
+<RadAway.description>Препарат, предназначенный для борьбы с последствиями радиоактивного заражения и выведения радиации из организма путём внутривенного введения. Он абсорбирует радиацию, снижая её концентрацию в крови.</RadAway.description>
+<RadAway.ingestible.ingestCommandString>Ввести {0}</RadAway.ingestible.ingestCommandString>
+<RadAway.ingestible.ingestReportString>Введение {0}.</RadAway.ingestible.ingestReportString>
 
 <Addictol.label>Аддиктол</Addictol.label>
-<Addictol.description>Прорыв в фармакологии — этот коктейль из блокаторов рецепторов и нано-самоходных очистителей крови смог буквально «перепрограммировать» тело, освободив его от физических зависимостей.</Addictol.description>
+<Addictol.description>Прорыв в фармакологии — этот коктейль из блокаторов рецепторов и нано-самоходных очистителей крови сумел буквально «перепрошить» организм, освободив его от физической зависимости.</Addictol.description>
 <Addictol.ingestible.ingestCommandString>Ввести {0}</Addictol.ingestible.ingestCommandString>
 <Addictol.ingestible.ingestReportString>Введение {0}.</Addictol.ingestible.ingestReportString>
 </LanguageData>

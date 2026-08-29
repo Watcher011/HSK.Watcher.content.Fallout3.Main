@@ -1,8 +1,10 @@
 <LanguageData>
-<Ammo_FatManShell_NHE.description>Этот тип отличается повышенной разрушительной силой и радиационным заражением. Увеличенный урон достигается ценой сниженной дальности, что может плохо кончиться для плохо защищённого стрелка.</Ammo_FatManShell_NHE.description>
 <Ammo_FatManShell_NHE.label>Ядерный заряд</Ammo_FatManShell_NHE.label>
-<Ammo_FatManShell_FGM.description>Экономия может быть взрывоопасной! Помните: в мире, где крышки — валюта, самый безопасный банк — это свинья, летящая прямо в лица ваших врагов!» — Анонимный работорговец, пропагандирующий «финансовую грамотность».</Ammo_FatManShell_FGM.description>
-<Ammo_FatManShell_FGM.label>Пигги Бумба</Ammo_FatManShell_FGM.label>
+<Ammo_FatManShell_NHE.description>Этот тип боеприпаса отличается большей разрушительной силой и радиоактивным загрязнением. Повышенный урон достигается ценой уменьшенной дальности, что может плохо сказаться на плохо защищённом стрелке.</Ammo_FatManShell_NHE.description>
+
+<Ammo_FatManShell_FGM.label>Свинобум</Ammo_FatManShell_FGM.label>
+<Ammo_FatManShell_FGM.description>Экономия может быть взрывоопасной! Помните: в мире, где крышки — это валюта, самое надёжное хранилище — это свинья, летящая прямо в лица ваших соперников!» — Анонимный работорговец, пропагандирующий «финансовую грамотность».</Ammo_FatManShell_FGM.description>
+
 <Bullet_FatManShell_NHE.label>Ядерный заряд (NHE)</Bullet_FatManShell_NHE.label>
-<Bullet_FatManShell_FGM.label>Пигги Бумба (FGM)</Bullet_FatManShell_FGM.label>
+<Bullet_FatManShell_FGM.label>Свинобум (FGM)</Bullet_FatManShell_FGM.label>
 </LanguageData>

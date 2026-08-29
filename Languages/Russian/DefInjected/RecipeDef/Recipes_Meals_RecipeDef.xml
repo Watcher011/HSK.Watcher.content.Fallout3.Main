@@ -1,5 +1,5 @@
 <LanguageData>
-<CookSuspiciousOmelette.label>Приготовить подозрительный омлет</CookSuspiciousOmelette.label>
+	<CookSuspiciousOmelette.label>Приготовить подозрительный омлет</CookSuspiciousOmelette.label>
 <CookSuspiciousOmelette.description>Приготовить подозрительный омлет из ингредиентов.</CookSuspiciousOmelette.description>
 <CookSuspiciousOmelette.jobString>Приготовление омлета.</CookSuspiciousOmelette.jobString>
 
@@ -39,7 +39,7 @@
 <Makeporridge.description>Приготовить кашу. Выход: 3.</Makeporridge.description>
 <Makeporridge.jobString>Приготовление каши.</Makeporridge.jobString>
 
-<MakePrickeyeSalad.label>Приготовить салат из колючек</MakePrickeyeSalad.label>
-<MakePrickeyeSalad.description>Приготовить салаты из колючек. Выход: 3.</MakePrickeyeSalad.description>
-<MakePrickeyeSalad.jobString>Приготовление салатов из колючек.</MakePrickeyeSalad.jobString>
+<MakePrickeyeSalad.label>Приготовить салат из колючеглаза</MakePrickeyeSalad.label>
+<MakePrickeyeSalad.description>Приготовить салат из колючеглаза. Выход: 3.</MakePrickeyeSalad.description>
+<MakePrickeyeSalad.jobString>Приготовление салата из колючеглаза.</MakePrickeyeSalad.jobString>
 </LanguageData>

@@ -35,8 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\Harmony\1.5\Assemblies\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2009463077\1.5\Assemblies\0Harmony.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -153,7 +154,6 @@
     <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.WindModule.dll" />
     <Analyzer Include="..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.XRModule.dll" />
     <Analyzer Include="..\..\..\..\Core_SK\Assemblies\Core_SK.dll" />
-    <Analyzer Include="..\..\..\..\Harmony\1.4\Assemblies\0Harmony.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

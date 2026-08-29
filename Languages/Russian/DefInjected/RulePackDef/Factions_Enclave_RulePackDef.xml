@@ -1,4 +1,5 @@
 <LanguageData>
+	
 <NamerFactionEnclave.rulePack.rulesStrings>
 		<li>empire->Анклав</li>
 	</NamerFactionEnclave.rulePack.rulesStrings>
@@ -6,7 +7,7 @@
 	<NamerSettlementEnclave.rulePack.rulesStrings>
 		<li>townend->База Анклава</li>
 		<li>townend->Лагерь Анклава</li>
-		<li>townend->Аванпост Анклава</li>
+		<li>townend->Форпост Анклава</li>
 		<li>townend->Лаборатория Анклава</li>
 	</NamerSettlementEnclave.rulePack.rulesStrings>
 </LanguageData>

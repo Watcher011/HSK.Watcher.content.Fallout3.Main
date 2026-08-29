@@ -7,21 +7,21 @@
 <MakeFalloutJet4x.description>Создать Винт x12.</MakeFalloutJet4x.description>
 <MakeFalloutJet4x.jobString>Создание Винта.</MakeFalloutJet4x.jobString>
 
-<MakeFalloutUltraJet4x.label>Создать Ультра-Винт x4</MakeFalloutUltraJet4x.label>
-<MakeFalloutUltraJet4x.description>Создать Ультра-Винт.</MakeFalloutUltraJet4x.description>
-<MakeFalloutUltraJet4x.jobString>Создание Ультра-Винта.</MakeFalloutUltraJet4x.jobString>
+<MakeFalloutUltraJet4x.label>Создать Ультравинт x4</MakeFalloutUltraJet4x.label>
+<MakeFalloutUltraJet4x.description>Создать Ультравинт.</MakeFalloutUltraJet4x.description>
+<MakeFalloutUltraJet4x.jobString>Создание Ультравинта.</MakeFalloutUltraJet4x.jobString>
 
-<MakeFalloutUltraJet12x.label>Создать Ультра-Винт x12</MakeFalloutUltraJet12x.label>
-<MakeFalloutUltraJet12x.description>Создать Ультра-Винт.</MakeFalloutUltraJet12x.description>
-<MakeFalloutUltraJet12x.jobString>Создание Ультра-Винта.</MakeFalloutUltraJet12x.jobString>
+<MakeFalloutUltraJet12x.label>Создать Ультравинт x12</MakeFalloutUltraJet12x.label>
+<MakeFalloutUltraJet12x.description>Создать Ультравинт x12.</MakeFalloutUltraJet12x.description>
+<MakeFalloutUltraJet12x.jobString>Создание Ультравинта.</MakeFalloutUltraJet12x.jobString>
 
-<MakeStimpak2x.label>Создать Стимулятор x2</MakeStimpak2x.label>
-<MakeStimpak2x.description>Создать Стимулятор.</MakeStimpak2x.description>
-<MakeStimpak2x.jobString>Создание Стимулятора.</MakeStimpak2x.jobString>
+<MakeStimpak2x.label>Создать стимулятор x2</MakeStimpak2x.label>
+<MakeStimpak2x.description>Создать стимулятор.</MakeStimpak2x.description>
+<MakeStimpak2x.jobString>Создание стимулятора.</MakeStimpak2x.jobString>
 
-<MakeStimpakSuper2x.label>Создать Супер-стимулятор x2</MakeStimpakSuper2x.label>
-<MakeStimpakSuper2x.description>Создать Супер-стимулятор.</MakeStimpakSuper2x.description>
-<MakeStimpakSuper2x.jobString>Создание Супер-стимулятора.</MakeStimpakSuper2x.jobString>
+<MakeStimpakSuper2x.label>Создать суперстимулятор x2</MakeStimpakSuper2x.label>
+<MakeStimpakSuper2x.description>Создать суперстимулятор.</MakeStimpakSuper2x.description>
+<MakeStimpakSuper2x.jobString>Создание суперстимулятора.</MakeStimpakSuper2x.jobString>
 
 <MakeMed-x2x.label>Создать Мед-Икс x2</MakeMed-x2x.label>
 <MakeMed-x2x.description>Создать Мед-Икс.</MakeMed-x2x.description>
@@ -31,7 +31,7 @@
 <MakeAddictol2x.description>Создать Аддиктол.</MakeAddictol2x.description>
 <MakeAddictol2x.jobString>Создание Аддиктола.</MakeAddictol2x.jobString>
 
-<MakeRadAway.label>Создать Антирадин x4</MakeRadAway.label>
-<MakeRadAway.description>Создать Антирадин.</MakeRadAway.description>
-<MakeRadAway.jobString>Создание Антирадина.</MakeRadAway.jobString>
+<MakeRadAway.label>Создать Антирад x4</MakeRadAway.label>
+<MakeRadAway.description>Создать Антирад.</MakeRadAway.description>
+<MakeRadAway.jobString>Создание Антирад.</MakeRadAway.jobString>
 </LanguageData>

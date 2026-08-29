@@ -1,30 +1,30 @@
 <LanguageData>
 	
 <Glutton.label>Обжора</Glutton.label>
-<Glutton.corePart.parts.left_lung.customLabel>левое лёгкое</Glutton.corePart.parts.left_lung.customLabel>
-<Glutton.corePart.parts.right_lung.customLabel>правое лёгкое</Glutton.corePart.parts.right_lung.customLabel>
-<Glutton.corePart.parts.left_kidney.customLabel>левая почка</Glutton.corePart.parts.left_kidney.customLabel>
-<Glutton.corePart.parts.right_kidney.customLabel>правая почка</Glutton.corePart.parts.right_kidney.customLabel>
-<Glutton.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>левый глаз</Glutton.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
-<Glutton.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>правый глаз</Glutton.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
-<Glutton.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>левое ухо</Glutton.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
-<Glutton.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>правое ухо</Glutton.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
-<Glutton.corePart.parts.left_fin.customLabel>левый плавник</Glutton.corePart.parts.left_fin.customLabel>
-<Glutton.corePart.parts.right_fin.customLabel>правый плавник</Glutton.corePart.parts.right_fin.customLabel>
+<Glutton.corePart.parts.left_lung.customLabel>Левое лёгкое</Glutton.corePart.parts.left_lung.customLabel>
+<Glutton.corePart.parts.right_lung.customLabel>Правое лёгкое</Glutton.corePart.parts.right_lung.customLabel>
+<Glutton.corePart.parts.left_kidney.customLabel>Левая почка</Glutton.corePart.parts.left_kidney.customLabel>
+<Glutton.corePart.parts.right_kidney.customLabel>Правая почка</Glutton.corePart.parts.right_kidney.customLabel>
+<Glutton.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>Левый глаз</Glutton.corePart.parts.Neck.parts.Head.parts.left_eye.customLabel>
+<Glutton.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>Правый глаз</Glutton.corePart.parts.Neck.parts.Head.parts.right_eye.customLabel>
+<Glutton.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>Левое ухо</Glutton.corePart.parts.Neck.parts.Head.parts.left_ear.customLabel>
+<Glutton.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>Правое ухо</Glutton.corePart.parts.Neck.parts.Head.parts.right_ear.customLabel>
+<Glutton.corePart.parts.left_fin.customLabel>Левый плавник</Glutton.corePart.parts.left_fin.customLabel>
+<Glutton.corePart.parts.right_fin.customLabel>Правый плавник</Glutton.corePart.parts.right_fin.customLabel>
 
 <SporePlant.label>Споровое растение</SporePlant.label>
-<SporePlant.corePart.parts.core_bulb.customLabel>базальная луковица</SporePlant.corePart.parts.core_bulb.customLabel>
-<SporePlant.corePart.parts.pulsating_core.customLabel>пульсирующее ядро</SporePlant.corePart.parts.pulsating_core.customLabel>
-<SporePlant.corePart.parts.cranial_bulb.customLabel>краниальная луковица</SporePlant.corePart.parts.cranial_bulb.customLabel>
-<SporePlant.corePart.parts.cranial_bulb.parts.SporeMaw.parts.sensory_tendril.customLabel>сенсорный усик</SporePlant.corePart.parts.cranial_bulb.parts.SporeMaw.parts.sensory_tendril.customLabel>
-<SporePlant.corePart.parts.cranial_bulb.parts.primary_ocular_node.customLabel>первичный глазной узел</SporePlant.corePart.parts.cranial_bulb.parts.primary_ocular_node.customLabel>
-<SporePlant.corePart.parts.cranial_bulb.parts.secondary_ocular_node.customLabel>вторичный глазной узел</SporePlant.corePart.parts.cranial_bulb.parts.secondary_ocular_node.customLabel>
-<SporePlant.corePart.parts.cranial_bulb.parts.vibrational_sensor.customLabel>вибрационный сенсор</SporePlant.corePart.parts.cranial_bulb.parts.vibrational_sensor.customLabel>
-<SporePlant.corePart.parts.anterior_tendril.customLabel>передний усик</SporePlant.corePart.parts.anterior_tendril.customLabel>
-<SporePlant.corePart.parts.posterior_tendril.customLabel>задний усик</SporePlant.corePart.parts.posterior_tendril.customLabel>
-<SporePlant.corePart.parts.lateral_tendril_left.customLabel>левый боковой усик</SporePlant.corePart.parts.lateral_tendril_left.customLabel>
-<SporePlant.corePart.parts.lateral_tendril_right.customLabel>правый боковой усик</SporePlant.corePart.parts.lateral_tendril_right.customLabel>
-<SporePlant.corePart.parts.primary_anchor_root.customLabel>первичный якорный корень</SporePlant.corePart.parts.primary_anchor_root.customLabel>
-<SporePlant.corePart.parts.secondary_feeder_root.customLabel>вторичный питающий корень</SporePlant.corePart.parts.secondary_feeder_root.customLabel>
-<SporePlant.corePart.parts.tertiary_stabilizing_root.customLabel>третичный стабилизирующий корень</SporePlant.corePart.parts.tertiary_stabilizing_root.customLabel>
+<SporePlant.corePart.parts.core_bulb.customLabel>Луковица-ядро</SporePlant.corePart.parts.core_bulb.customLabel>
+<SporePlant.corePart.parts.pulsating_core.customLabel>Пульсирующее ядро</SporePlant.corePart.parts.pulsating_core.customLabel>
+<SporePlant.corePart.parts.cranial_bulb.customLabel>Черепная луковица</SporePlant.corePart.parts.cranial_bulb.customLabel>
+<SporePlant.corePart.parts.cranial_bulb.parts.SporeMaw.parts.sensory_tendril.customLabel>Сенсорный усик</SporePlant.corePart.parts.cranial_bulb.parts.SporeMaw.parts.sensory_tendril.customLabel>
+<SporePlant.corePart.parts.cranial_bulb.parts.primary_ocular_node.customLabel>Первичный глазной узел</SporePlant.corePart.parts.cranial_bulb.parts.primary_ocular_node.customLabel>
+<SporePlant.corePart.parts.cranial_bulb.parts.secondary_ocular_node.customLabel>Вторичный глазной узел</SporePlant.corePart.parts.cranial_bulb.parts.secondary_ocular_node.customLabel>
+<SporePlant.corePart.parts.cranial_bulb.parts.vibrational_sensor.customLabel>Вибрационный сенсор</SporePlant.corePart.parts.cranial_bulb.parts.vibrational_sensor.customLabel>
+<SporePlant.corePart.parts.anterior_tendril.customLabel>Передний усик</SporePlant.corePart.parts.anterior_tendril.customLabel>
+<SporePlant.corePart.parts.posterior_tendril.customLabel>Задний усик</SporePlant.corePart.parts.posterior_tendril.customLabel>
+<SporePlant.corePart.parts.lateral_tendril_left.customLabel>Боковой усик левый</SporePlant.corePart.parts.lateral_tendril_left.customLabel>
+<SporePlant.corePart.parts.lateral_tendril_right.customLabel>Боковой усик правый</SporePlant.corePart.parts.lateral_tendril_right.customLabel>
+<SporePlant.corePart.parts.primary_anchor_root.customLabel>Первичный якорный корень</SporePlant.corePart.parts.primary_anchor_root.customLabel>
+<SporePlant.corePart.parts.secondary_feeder_root.customLabel>Вторичный питающий корень</SporePlant.corePart.parts.secondary_feeder_root.customLabel>
+<SporePlant.corePart.parts.tertiary_stabilizing_root.customLabel>Третичный стабилизирующий корень</SporePlant.corePart.parts.tertiary_stabilizing_root.customLabel>
 </LanguageData>

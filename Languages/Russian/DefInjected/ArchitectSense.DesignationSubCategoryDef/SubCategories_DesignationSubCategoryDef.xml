@@ -1,22 +1,22 @@
 <LanguageData>
 <SubCategory_LampsVaultec.label>Светильники Vault-Tec</SubCategory_LampsVaultec.label>
-<SubCategory_LampsVaultec.description>Набор осветительных приборов.</SubCategory_LampsVaultec.description>
+<SubCategory_LampsVaultec.description>Набор светильников.</SubCategory_LampsVaultec.description>
 
 <SubCategory_PowerVaultec.label>Генераторы Vault-Tec</SubCategory_PowerVaultec.label>
 <SubCategory_PowerVaultec.description>Набор электрогенераторов.</SubCategory_PowerVaultec.description>
 
 <SubCategory_RugVaultec.label>Ковры Vault-Tec</SubCategory_RugVaultec.label>
-<SubCategory_RugVaultec.description>Набор напольных покрытий.</SubCategory_RugVaultec.description>
+<SubCategory_RugVaultec.description>Набор ковров.</SubCategory_RugVaultec.description>
 
 <SubCategory_VaultecWeapon.label>Оборона Vault-Tec</SubCategory_VaultecWeapon.label>
-<SubCategory_VaultecWeapon.description>Средства обороны корпорации Vault-Tec.</SubCategory_VaultecWeapon.description>
+<SubCategory_VaultecWeapon.description>Средства обороны Vault-Tec.</SubCategory_VaultecWeapon.description>
 
-<SubCategory_VaultecFood.label>Питание Vault-Tec</SubCategory_VaultecFood.label>
-<SubCategory_VaultecFood.description>Рационы питания Vault-Tec.</SubCategory_VaultecFood.description>
+<SubCategory_VaultecFood.label>Еда Vault-Tec</SubCategory_VaultecFood.label>
+<SubCategory_VaultecFood.description>Продукты питания Vault-Tec.</SubCategory_VaultecFood.description>
 
 <SubCategory_VaultecSign.label>Вывески Vault-Tec</SubCategory_VaultecSign.label>
-<SubCategory_VaultecSign.description>Корпоративные вывески Vault-Tec.</SubCategory_VaultecSign.description>
+<SubCategory_VaultecSign.description>Вывески Vault-Tec.</SubCategory_VaultecSign.description>
 
 <SubCategory_VaultecDoors.label>Двери Vault-Tec</SubCategory_VaultecDoors.label>
-<SubCategory_VaultecDoors.description>Герметичные двери Vault-Tec.</SubCategory_VaultecDoors.description>
+<SubCategory_VaultecDoors.description>Двери Vault-Tec.</SubCategory_VaultecDoors.description>
 </LanguageData>

@@ -1,27 +1,27 @@
 <LanguageData>
 <CapShredded.label>Крышки</CapShredded.label>
-<CapShredded.deathMessage>{0} был забит до смерти крышками.</CapShredded.deathMessage>
+<CapShredded.deathMessage>{0} забит до смерти.</CapShredded.deathMessage>
 
-<ACP.label>снаряд</ACP.label>
-<ACP.deathMessage>{0} был искромсан до смерти.</ACP.deathMessage>
+<ACP.label>Снаряд</ACP.label>
+<ACP.deathMessage>{0} разорван в клочья.</ACP.deathMessage>
 
-<ACB.label>бомба</ACB.label>
+<ACB.label>Бомба</ACB.label>
 <ACB.deathMessage>{0} был убит.</ACB.deathMessage>
 
-<NuclearB.label>бомба</NuclearB.label>
+<NuclearB.label>Бомба</NuclearB.label>
 <NuclearB.deathMessage>{0} был убит.</NuclearB.deathMessage>
 
 <Charge.label>Заряд</Charge.label>
 <Charge.deathMessage>{0} был убит.</Charge.deathMessage>
 
 <PlasmaCharge.label>Плазменный заряд</PlasmaCharge.label>
-<PlasmaCharge.deathMessage>{0} был сожжён до смерти.</PlasmaCharge.deathMessage>
+<PlasmaCharge.deathMessage>{0} сожжён заживо.</PlasmaCharge.deathMessage>
 
-<HealyFog.label>Лечебный туман</HealyFog.label>
+<HealyFog.label>Целебный туман</HealyFog.label>
 <HealyFog.deathMessage>{0} был убит.</HealyFog.deathMessage>
 
-<FalloutBomb.deathMessage>{0} был испарён экстремальным жаром.</FalloutBomb.deathMessage>
+<FalloutBomb.deathMessage>{0} испарён экстремальным жаром.</FalloutBomb.deathMessage>
 
-<Watcher_MedicalFoam.label>медицинская пена</Watcher_MedicalFoam.label>
+<Watcher_MedicalFoam.label>Медицинская пена</Watcher_MedicalFoam.label>
 <Watcher_MedicalFoam.deathMessage>{0} был убит.</Watcher_MedicalFoam.deathMessage>
 </LanguageData>

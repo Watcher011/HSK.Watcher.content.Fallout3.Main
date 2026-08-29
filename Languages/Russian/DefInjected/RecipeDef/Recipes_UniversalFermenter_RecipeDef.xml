@@ -1,31 +1,31 @@
 <LanguageData>
-<Make_NukaCola.label>Сделать Ядер-Колу x3</Make_NukaCola.label>
+<Make_NukaCola.label>Создать Ядер-Колу x3</Make_NukaCola.label>
 <Make_NukaCola.description>Ядер-Кола x3.</Make_NukaCola.description>
-<Make_NukaCola.jobString>Создаёт Ядер-Колу.</Make_NukaCola.jobString>
+<Make_NukaCola.jobString>Создание Ядер-Колы.</Make_NukaCola.jobString>
 
-<Make_NukaColaQuantum.label>Сделать Квантовую Ядер-Колу x3</Make_NukaColaQuantum.label>
-<Make_NukaColaQuantum.description>Квантовая Ядер-Кола x3.</Make_NukaColaQuantum.description>
-<Make_NukaColaQuantum.jobString>Создаёт Квантовую Ядер-Колу.</Make_NukaColaQuantum.jobString>
+<Make_NukaColaQuantum.label>Создать Ядер-Колу Квант x3</Make_NukaColaQuantum.label>
+<Make_NukaColaQuantum.description>Ядер-Кола Квант x3.</Make_NukaColaQuantum.description>
+<Make_NukaColaQuantum.jobString>Создание Ядер-Колы Квант.</Make_NukaColaQuantum.jobString>
 
-<Make_NukaColaVictoria.label>Сделать Ядер-Колу Виктория x3</Make_NukaColaVictoria.label>
+<Make_NukaColaVictoria.label>Создать Ядер-Колу Виктория x3</Make_NukaColaVictoria.label>
 <Make_NukaColaVictoria.description>Ядер-Кола Виктория x3.</Make_NukaColaVictoria.description>
-<Make_NukaColaVictoria.jobString>Создаёт Ядер-Колу Виктория.</Make_NukaColaVictoria.jobString>
+<Make_NukaColaVictoria.jobString>Создание Ядер-Колы Виктория.</Make_NukaColaVictoria.jobString>
 
-<Make_NukaColaGrapes.label>Сделать Ядер-Колу Виноградную x3</Make_NukaColaGrapes.label>
+<Make_NukaColaGrapes.label>Создать Ядер-Колу Виноградная x3</Make_NukaColaGrapes.label>
 <Make_NukaColaGrapes.description>Ядер-Кола Виноградная x3.</Make_NukaColaGrapes.description>
-<Make_NukaColaGrapes.jobString>Создаёт Ядер-Колу Виноградную.</Make_NukaColaGrapes.jobString>
+<Make_NukaColaGrapes.jobString>Создание Ядер-Колы Виноградной.</Make_NukaColaGrapes.jobString>
 
-<Make_NukaColaOnslaught.label>Сделать Ядер-Колу Штурмовую x3</Make_NukaColaOnslaught.label>
-<Make_NukaColaOnslaught.description>Ядер-Кола Штурмовая x3.</Make_NukaColaOnslaught.description>
-<Make_NukaColaOnslaught.jobString>Создаёт Ядер-Колу Штурмовую.</Make_NukaColaOnslaught.jobString>
+<Make_NukaColaOnslaught.label>Создать Ядер-Колу Натиск x3</Make_NukaColaOnslaught.label>
+<Make_NukaColaOnslaught.description>Ядер-Кола Натиск x3.</Make_NukaColaOnslaught.description>
+<Make_NukaColaOnslaught.jobString>Создание Ядер-Колы Натиск.</Make_NukaColaOnslaught.jobString>
 
-<Make_NukaColaDark.label>Сделать Тёмную Ядер-Колу x3</Make_NukaColaDark.label>
-<Make_NukaColaDark.description>Тёмная Ядер-Кола x3.</Make_NukaColaDark.description>
-<Make_NukaColaDark.jobString>Создаёт Тёмную Ядер-Колу.</Make_NukaColaDark.jobString>
+<Make_NukaColaDark.label>Создать Ядер-Колу Тёмная x3</Make_NukaColaDark.label>
+<Make_NukaColaDark.description>Ядер-Кола Тёмная x3.</Make_NukaColaDark.description>
+<Make_NukaColaDark.jobString>Создание Ядер-Колы Тёмной.</Make_NukaColaDark.jobString>
 
-<PlastipodBulk.label>создать пластипод</PlastipodBulk.label>
-<PlastipodBulk.description>Создать пластипод. Занимает 2.8 дня.</PlastipodBulk.description>
+<PlastipodBulk.label>Создать пластипод</PlastipodBulk.label>
+<PlastipodBulk.description>Создать пластипод. Время изготовления: 2,8 дня.</PlastipodBulk.description>
 
-<PlastipodBulk_x5.label>создать пластипод x5</PlastipodBulk_x5.label>
-<PlastipodBulk_x5.description>Создать пластипод x5. Занимает 2.8 дня.</PlastipodBulk_x5.description>
+<PlastipodBulk_x5.label>Создать пластипод x5</PlastipodBulk_x5.label>
+<PlastipodBulk_x5.description>Создать пластипод x5. Время изготовления: 2,8 дня.</PlastipodBulk_x5.description>
 </LanguageData>

@@ -1,84 +1,115 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
- <TraitDef>
-    <defName>RadiationLover</defName>
-    <commonality>0.5</commonality>
-    <degreeDatas>
-      <li>
-       <label>Radio Amateur</label>
-<description>{PAWN_nameDef} feels a strange sense of peace when exposed to radiation. Perhaps {PAWN_pronoun} sees something beautiful in it... or is simply broken.</description>
-        <degree>0</degree>
-      </li>
-    </degreeDatas>
-    <conflictingTraits>
-      <!-- При желании можно добавить конфликтующие черты -->
-    </conflictingTraits>
-  </TraitDef>
-
-     <TraitDef>
-        <defName>DeadmanFashionLover</defName>
-        <commonality>0.15</commonality>
-        <degreeDatas>
-            <li>
-                <label>graveyard fashionista</label>
-                <description>[PAWN_nameDef] believes the best outfits are the ones that have already buried someone. Why waste resources on a new jacket when some poor sap already did all the dirty work breaking it in? After all, dead men tell no fashion tales. Or any tales. They're dead.</description>
-                <degree>0</degree>
-                <statOffsets>
-                    <SocialImpact>-0.05</SocialImpact>
-                </statOffsets>
-            </li>
-        </degreeDatas>
-        <conflictingTraits>
-            <li>BodyPurist</li>
-        </conflictingTraits>
-    </TraitDef>
-
-    <TraitDef>
-        <defName>Toxic</defName>
-        <label>toxic</label>
-        <description>This character enjoys the suffering of others and never misses an opportunity to insult someone.</description>
-        <degreeDatas>
-            <li>
-                <label>toxic</label>
-                <description>{PAWN_nameDef} periodically walks around and insults others. When someone nearby has a mental break, {PAWN_nameDef} feels a strange satisfaction.</description>
-            </li>
-        </degreeDatas>
-        <conflictingTraits>
-            <li>Kind</li>
-        </conflictingTraits>
-        <commonality>0.15</commonality>
-    </TraitDef>
-	
+	<TraitDef>
+		<defName>RadiationLover</defName>
+		<commonality>0.5</commonality>
+		<degreeDatas>
+			<li>
+				<label>Radio Amateur</label>
+				<description>{PAWN_nameDef} feels a strange sense of peace when exposed to radiation. Perhaps {PAWN_pronoun} sees something beautiful in it... or is simply broken.</description>
+				<degree>0</degree>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<!-- При желании можно добавить конфликтующие черты -->
+		</conflictingTraits>
+	</TraitDef>
+	<TraitDef>
+		<defName>DeadmanFashionLover</defName>
+		<commonality>0.15</commonality>
+		<degreeDatas>
+			<li>
+				<label>graveyard fashionista</label>
+				<description>[PAWN_nameDef] believes the best outfits are the ones that have already buried someone. Why waste resources on a new jacket when some poor sap already did all the dirty work breaking it in? After all, dead men tell no fashion tales. Or any tales. They're dead.</description>
+				<degree>0</degree>
+				<statOffsets>
+					<SocialImpact>-0.05</SocialImpact>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>BodyPurist</li>
+		</conflictingTraits>
+	</TraitDef>
+	<TraitDef>
+		<defName>Toxic</defName>
+		<label>toxic</label>
+		<description>This character enjoys the suffering of others and never misses an opportunity to insult someone.</description>
+		<degreeDatas>
+			<li>
+				<label>toxic</label>
+				<description>{PAWN_nameDef} periodically walks around and insults others. When someone nearby has a mental break, {PAWN_nameDef} feels a strange satisfaction.</description>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Kind</li>
+		</conflictingTraits>
+		<commonality>0.15</commonality>
+	</TraitDef>
+	<TraitDef>
+		<defName>MusicLover</defName>
+		<commonality>0.15</commonality>
+		<degreeDatas>
+			<li>
+				<label>music enthusiast</label>
+				<description>{PAWN_nameDef} loves music. The sounds of melodies deeply touch {PAWN_possessive} soul, doubling {PAWN_possible} mood. They say back in pre-war days, such people were called connoisseurs of the beautiful. Now it's just a way not to lose {PAWN_possessive} mind to the silence of the wasteland and {PAWN_possessive} own thoughts.</description>
+				<statOffsets>
+					<JoyGainFactor>0.2</JoyGainFactor>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>MusicHater</li>
+		</conflictingTraits>
+	</TraitDef>
+	<TraitDef>
+		<defName>MusicHater</defName>
+		<commonality>0.08</commonality>
+		<degreeDatas>
+			<li>
+				<label>misophone</label>
+				<description>{PAWN_nameDef} hates music. Any melodies irritate {PAWN_objective}, causing headaches and discomfort. In the wasteland, most people would kill for a working radio. {PAWN_possessive} just wishes someone would finally put that ancient piece of junk out of its misery — and preferably before the next chorus.</description>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>MusicLover</li>
+		</conflictingTraits>
+	</TraitDef>
+	<TraitDef>
+		<defName>SolarBattery</defName>
+		<label>solar battery</label>
+		<description>A character charged by the sun's energy. Having the Enlighten_Bright hediff gives them a boost to movement speed and mood.</description>
+		<degreeDatas>
+			<li>
+				<label>solar battery</label>
+				<description>Gains movement and mood bonuses when Enlighten_Bright is active.</description>
+				<statOffsets>
+					<MoveSpeed>0.15</MoveSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<TraitDef>
+		<defName>StrongSpine</defName>
+		<label>strong spine</label>
+		<description>This character has an exceptionally strong back. They carry more and feel less pain.</description>
+		<degreeDatas>
+			<li>
+				<label>strong spine</label>
+				<description>Reduced pain and increased carrying capacity.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 	
 	<TraitDef>
-    <defName>MusicLover</defName>
-    <commonality>0.15</commonality>
+    <defName>VigorCharge</defName>
+    <label>vigor charge</label>
+    <description>This character has a natural reserve of energy. They need less sleep than others.</description>
     <degreeDatas>
         <li>
-           <label>music enthusiast</label>
-           <description>{PAWN_nameDef} loves music. The sounds of melodies deeply touch {PAWN_possessive} soul, doubling {PAWN_possible} mood. They say back in pre-war days, such people were called connoisseurs of the beautiful. Now it's just a way not to lose {PAWN_possessive} mind to the silence of the wasteland and {PAWN_possessive} own thoughts.</description>
-            <statOffsets>
-                <JoyGainFactor>0.2</JoyGainFactor>
-            </statOffsets>
+            <label>vigor charge</label>
+            <description>Reduced sleep need.</description>
         </li>
     </degreeDatas>
-    <conflictingTraits>
-        <li>MusicHater</li>
-    </conflictingTraits>
 </TraitDef>
-
-<TraitDef>
-    <defName>MusicHater</defName>
-    <commonality>0.08</commonality>
-    <degreeDatas>
-        <li>
-            <label>misophone</label>
-            <description>{PAWN_nameDef} hates music. Any melodies irritate {PAWN_objective}, causing headaches and discomfort. In the wasteland, most people would kill for a working radio. {PAWN_possessive} just wishes someone would finally put that ancient piece of junk out of its misery — and preferably before the next chorus.</description>
-        </li>
-    </degreeDatas>
-    <conflictingTraits>
-        <li>MusicLover</li>
-    </conflictingTraits>
-</TraitDef>
-   
 </Defs>
