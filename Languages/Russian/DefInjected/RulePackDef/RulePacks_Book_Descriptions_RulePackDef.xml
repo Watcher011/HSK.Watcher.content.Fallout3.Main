@@ -2,7 +2,7 @@
 	<Description_Comics.rulePack.rulesStrings>
 	<li>desc->[inThisBook], [author] [experiencesWithHeroes]. [specificComicStory] [writingQualitySentence].</li>
 	<li>desc->[inThisBook], [author] [tellsAStoryOf] [heroName]'s [storySource]. [writingQualitySentence].</li>
-	<li>desc->[inThisBook], [author] [detailsAdventure] on [worldname]. [writingQualitySentence].</li>
+	<li>desc->[inThisBook], [author] [detailsAdventure] на [worldname]. [writingQualitySentence].</li>
 	<li>inThisBook->В этом [writingQualityAdjective] [bookTypeSingle]</li>
 	<li>inThisBook->В этих [writingQualityAdjective] [bookTypePlural]</li>
 	<li>bookTypeSingle->комиксе</li>

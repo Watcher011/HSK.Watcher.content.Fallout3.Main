@@ -27,17 +27,5 @@
     <joyGainRate>1.2</joyGainRate>
     <joyKind>MusicRadioJoy</joyKind>
   </JobDef>
- <!--  <JobDef>
-    <defName>RefuelIVDrip</defName>
-    <driverClass>Watcher.Comps.JobDriver_RefuelIVDrip</driverClass>
-    <reportString>refueling IV drip.</reportString>
-    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-  </JobDef>-->
-  
-   <!--  <JobDef>
-        <defName>Watcher_CreateComics</defName>
-        <driverClass>Watcher.JobDriver_CreateComics</driverClass>
-        <reportString>drawing comics.</reportString>
-        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
-    </JobDef>-->
+
 </Defs>

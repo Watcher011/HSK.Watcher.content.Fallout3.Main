@@ -19,4 +19,7 @@
         <canBePermanent>false</canBePermanent>
         <allowUnderground>false</allowUnderground>
     </GameConditionDef>
+	
+
+  
 </Defs>

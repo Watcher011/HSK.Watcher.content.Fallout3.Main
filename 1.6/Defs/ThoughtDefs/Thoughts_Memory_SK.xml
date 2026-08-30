@@ -317,5 +317,33 @@
     </stages>
 </ThoughtDef>
 
+  <ThoughtDef>
+    <defName>ComicsFan_TraitThought</defName>
+    <workerClass>Watcher.ThoughtWorker_ComicsFan</workerClass>
+    <requiredTraits>
+      <li>ComicsFan</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>I am a comic fan</label>
+        <description>Comics are art! I love them!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+    <validWhileDespawned>true</validWhileDespawned>
+  </ThoughtDef>
 
+  <ThoughtDef>
+    <defName>ComicsFan_CreatedComics</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>1</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>drew a comic</label>
+        <description>I just created a new issue! That was fun!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

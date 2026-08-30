@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<BiomeDef>
+	<defName>NuclearWasteland</defName>
+	<label>Nuclear Wasteland</label>
+	<description>A land scorched by ancient fire, poisoned by radiation, and shrouded in a perpetual, sickly haze. The soil is dead, the water is toxic, and life has twisted into horrific forms. Survival here is a constant battle against decay, mutation, and the lingering hatred of the old world.</description>
+	<settleWarning>The Nuclear Wasteland is highly irradiated. Water is toxic, the soil is dead, and dangerous mutants roam the ruins. Survival here requires advanced protective gear.</settleWarning>
+	<!{1}** ===== НАСТРОЙКИ ДЛЯ КАРАВАНОВ И ПОСЕЛЕНИЙ ===== **{1}>
+	<workerClass>Watcher.GlowingSeaBiome.BiomeWorker_GlowingSea</workerClass>
+	<passability>Passable</passability>
+	<hostility>None</hostility>
+	<settlement>true</settlement>
+	<settlementSelectionWeight>0.5</settlementSelectionWeight>
+	<movementDifficulty>1</movementDifficulty>
+	<!{1}** ===== ОСНОВНЫЕ ПАРАМЕТРЫ ===== **{1}>
+	<animalDensity>1.0</animalDensity>
+	<plantDensity>0.4</plantDensity>
+	<wildAnimalScariaChance>0.5</wildAnimalScariaChance>
+	<pollutionOffset>0.05</pollutionOffset>
+	<maxFishPopulation>0</maxFishPopulation>
+	<forageability>0.25</forageability>
+	<foragedFood>RawBerries</foragedFood>
+	<wildPlantRegrowDays>20</wildPlantRegrowDays>
+	<diseaseMtbDays>50</diseaseMtbDays>
+	<texture>World/Biomes/GlowingSea</texture>
+	<!{1}** ===== ТЕКСТУРЫ ВОДЫ ===== **{1}>
+	<lakeBeachTerrain>Gravel</lakeBeachTerrain>
+	<mudTerrain>MarshyTerrain</mudTerrain>
+	<riverbankTerrain>MarshyTerrain</riverbankTerrain>
+	<riverbankSizeRange>6~8</riverbankSizeRange>
+	<waterShallowTerrain>ToxicWaterShallow</waterShallowTerrain>
+	<waterDeepTerrain>ToxicWaterDeep</waterDeepTerrain>
+	<oceanShallowTerrain>ToxicWaterOceanShallow</oceanShallowTerrain>
+	<oceanDeepTerrain>ToxicWaterOceanDeep</oceanDeepTerrain>
+	<waterMovingShallowTerrain>ToxicWaterMovingShallow</waterMovingShallowTerrain>
+	<waterMovingChestDeepTerrain>ToxicWaterMovingChestDeep</waterMovingChestDeepTerrain>
+	<!{1}** ===== ЗВУКИ ===== **{1}>
+	<soundsAmbient>
+		<li>Ambient_NightInsects_Standard</li>
+	</soundsAmbient>
+	<!{1}** ===== БОЛЕЗНИ ===== **{1}>
+	<diseases>
+		<li>
+			<diseaseInc>Disease_Flu</diseaseInc>
+			<commonality>100</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_Plague</diseaseInc>
+			<commonality>100</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_Malaria</diseaseInc>
+			<commonality>100</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_GutWorms</diseaseInc>
+			<commonality>50</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_FibrousMechanites</diseaseInc>
+			<commonality>30</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_SensoryMechanites</diseaseInc>
+			<commonality>30</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_MuscleParasites</diseaseInc>
+			<commonality>50</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_AnimalFlu</diseaseInc>
+			<commonality>100</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_AnimalPlague</diseaseInc>
+			<commonality>100</commonality>
+		</li>
+		<li>
+			<diseaseInc>Disease_OrganDecay</diseaseInc>
+			<commonality>10</commonality>
+		</li>
+	</diseases>
+	<!{1}** ===== ТИПЫ ПОЧВ ===== **{1}>
+	<terrainsByFertility>
+		<li>
+			<terrain>AncientMegastructure</terrain>
+			<min>-999</min>
+			<max>0.7</max>
+		</li>
+		<li>
+			<terrain>Gravel</terrain>
+			<min>0.7</min>
+			<max>999</max>
+		</li>
+	</terrainsByFertility>
+	<!{1}** ===== ВОДНЫЕ ПАТЧИ ===== **{1}>
+	<terrainPatchMakers>
+		<li>
+			<perlinFrequency>0.015</perlinFrequency>
+			<isPond>true</isPond>
+			<thresholds>
+				<li>
+					<terrain>ToxicWaterShallow</terrain>
+					<min>0.93</min>
+					<max>1.06</max>
+				</li>
+				<li>
+					<terrain>ToxicWaterDeep</terrain>
+					<min>1.06</min>
+					<max>999</max>
+				</li>
+			</thresholds>
+		</li>
+	</terrainPatchMakers>
+	<!{1}** ===== ПОГОДА ===== **{1}>
+	<baseWeatherCommonalities>
+		<Clear>12</Clear>
+		<Fog>1</Fog>
+		<Rain>2</Rain>
+		<DryThunderstorm>1</DryThunderstorm>
+		<RainyThunderstorm>1</RainyThunderstorm>
+		<FoggyRain>2</FoggyRain>
+		<SnowGentle>2</SnowGentle>
+		<SnowHard>2</SnowHard>
+		<GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+		<ToxRain>1</ToxRain>
+		<Overcast>6</Overcast>
+	</baseWeatherCommonalities>
+	<!{1}** ===== РАСТЕНИЯ ===== **{1}>
+	<wildPlants>
+		<Plant_Grass>0.5</Plant_Grass>
+		<Plant_TallGrass>0.2</Plant_TallGrass>
+		<Plant_ShrubLow>0.3</Plant_ShrubLow>
+		<Plant_Mutfruit>0.1</Plant_Mutfruit>
+		<PlantTarberry>0.05</PlantTarberry>
+		<Plant_Tato>0.02</Plant_Tato>
+		<Plant_PebbleCactus>0.3</Plant_PebbleCactus>
+		<Plant_TreeGrayPine>0.3</Plant_TreeGrayPine>
+		<Plant_RatPalm>0.3</Plant_RatPalm>
+		<Plant_YellowGrass>2.0</Plant_YellowGrass>
+		<Plant_Thornvine>8.0</Plant_Thornvine>
+		<Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">2</Plant_GrayGrass>
+		<Plant_Brambles_Leafless>1.0</Plant_Brambles_Leafless>
+		<Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">0.8</Plant_Ripthorn>
+		<Plant_Dandelion>0.5</Plant_Dandelion>
+		<Plant_Bush_Leafless>0.6</Plant_Bush_Leafless>
+		<Plant_TreeSnagroot>0.4</Plant_TreeSnagroot>
+		<Plant_Berry_Leafless>0.02</Plant_Berry_Leafless>
+		<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">0.5</Plant_Witchwood>
+	</wildPlants>
+	<!{1}** ===== ЖИВОТНЫЕ ===== **{1}>
+	<wildAnimals>
+		<Rat>1.00</Rat>
+		<Raccoon>0.5</Raccoon>
+		<Boomalope>0.4</Boomalope>
+		<Boomrat>0.4</Boomrat>
+		<Panther>0.07</Panther>
+		<BogHound>0.5</BogHound>
+		<MonitorLizard>0.5</MonitorLizard>
+		<Crow>0.5</Crow>
+		<GlowingRadroach>0.2</GlowingRadroach>
+		<Radroach>0.2</Radroach>
+		<RadScorpion>0.2</RadScorpion>
+		<HugeBee>0.2</HugeBee>
+		<SporePlant>0.2</SporePlant>
+		<Gecko_green>0.2</Gecko_green>
+		<Brahmin>0.4</Brahmin>
+		<GlowRadDeer>0.1</GlowRadDeer>
+		<MoleRat>0.2</MoleRat>
+		<Radboar>0.2</Radboar>
+		<Duten>0.2</Duten>
+		<Glutton>0.1</Glutton>
+		<StrangeDuten>0.1</StrangeDuten>
+		<Mirelurk>0.2</Mirelurk>
+		<RadDeer>0.4</RadDeer>
+		<Deathclaw>0.1</Deathclaw>
+		<MoleRat>0.3</MoleRat>
+	</wildAnimals>
+	<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
+		<Toxalope MayRequire="Ludeon.RimWorld.Biotech">0.4</Toxalope>
+		<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
+		<Rat>1</Rat>
+		<Raccoon>0.5</Raccoon>
+		<Boomrat>0.4</Boomrat>
+		<Boomalope>0.1</Boomalope>
+		<Warg>0.05</Warg>
+		<MonitorLizard>0.5</MonitorLizard>
+		<GlowingRadroach>0.2</GlowingRadroach>
+		<Radroach>0.2</Radroach>
+		<RadScorpion>0.2</RadScorpion>
+		<HugeBee>0.2</HugeBee>
+		<SporePlant>0.2</SporePlant>
+		<Gecko_green>0.2</Gecko_green>
+		<Brahmin>0.4</Brahmin>
+		<GlowRadDeer>0.1</GlowRadDeer>
+		<MoleRat>0.2</MoleRat>
+		<Radboar>0.2</Radboar>
+		<Duten>0.2</Duten>
+		<Glutton>0.1</Glutton>
+		<StrangeDuten>0.1</StrangeDuten>
+		<Mirelurk>0.2</Mirelurk>
+		<RadDeer>0.4</RadDeer>
+		<Deathclaw>0.1</Deathclaw>
+		<MoleRat>0.3</MoleRat>
+	</pollutionWildAnimals>
+	<!{1}** ===== ВЬЮЧНЫЕ ЖИВОТНЫЕ ===== **{1}>
+	<allowedPackAnimals>
+		<li>Muffalo</li>
+		<li>Alpaca</li>
+	</allowedPackAnimals>
+	<!{1}** ========================================== **{1}>
+	<!{1}** ===== ГЕНЕРАЦИЯ РУИН (GenStep'ы Odyssey) ===== **{1}>
+	<!{1}** ========================================== **{1}>
+	<extraGenSteps>
+		<li>AncientRuins_Scarlands</li>
+		<li>ScarlandsJunkClusters</li>
+		<li>ScarlandsJunkPrefabs</li>
+		<li>CratersLarge</li>
+		<li>CratersMedium</li>
+		<li>CratersSmall</li>
+	</extraGenSteps>
+</BiomeDef>-->
+<Defs>
+    <BiomeDef>
+        <defName>NuclearWasteland</defName>
+        <label>Nuclear Wasteland</label>
+        <description>A land scorched by ancient fire, poisoned by radiation, and shrouded in a perpetual, sickly haze. The soil is dead, the water is toxic, and life has twisted into horrific forms. Survival here is a constant battle against decay, mutation, and the lingering hatred of the old world.</description>
+        <workerClass>Watcher.GlowingSeaBiome.BiomeWorker_GlowingSea</workerClass>
+        
+        <!-- ===== ОСНОВНЫЕ ПАРАМЕТРЫ (как в Scarlands) ===== -->
+        <animalDensity>1.0</animalDensity>
+        <plantDensity>0.4</plantDensity>
+        <settlementSelectionWeight>0.5</settlementSelectionWeight>
+        <movementDifficulty>1</movementDifficulty>
+        <forageability>0.25</forageability>
+        <foragedFood>RawBerries</foragedFood>
+        <wildPlantRegrowDays>20</wildPlantRegrowDays>
+        <diseaseMtbDays>50</diseaseMtbDays>
+        <texture>World/Biomes/GlowingSea</texture>
+        
+        <!-- ===== ТИПЫ ВОДЫ (как в Scarlands) ===== -->
+        <lakeBeachTerrain>Gravel</lakeBeachTerrain>
+        <mudTerrain>MarshyTerrain</mudTerrain>
+        <riverbankTerrain>MarshyTerrain</riverbankTerrain>
+        <riverbankSizeRange>6~8</riverbankSizeRange>
+        <waterShallowTerrain>ToxicWaterShallow</waterShallowTerrain>
+        <waterDeepTerrain>ToxicWaterDeep</waterDeepTerrain>
+        <oceanShallowTerrain>ToxicWaterOceanShallow</oceanShallowTerrain>
+        <oceanDeepTerrain>ToxicWaterOceanDeep</oceanDeepTerrain>
+        <waterMovingShallowTerrain>ToxicWaterMovingShallow</waterMovingShallowTerrain>
+        <waterMovingChestDeepTerrain>ToxicWaterMovingChestDeep</waterMovingChestDeepTerrain>
+        
+        <!-- ===== ЗВУКИ (как в Scarlands) ===== -->
+        <soundsAmbient>
+            <li>Ambient_NightInsects_Standard</li>
+        </soundsAmbient>
+        
+        <!-- ===== БОЛЕЗНИ (как в Scarlands) ===== -->
+        <diseases>
+            <li>
+                <diseaseInc>Disease_Flu</diseaseInc>
+                <commonality>100</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_Plague</diseaseInc>
+                <commonality>100</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_Malaria</diseaseInc>
+                <commonality>100</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_GutWorms</diseaseInc>
+                <commonality>50</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_FibrousMechanites</diseaseInc>
+                <commonality>30</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_SensoryMechanites</diseaseInc>
+                <commonality>30</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_MuscleParasites</diseaseInc>
+                <commonality>50</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_AnimalFlu</diseaseInc>
+                <commonality>100</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_AnimalPlague</diseaseInc>
+                <commonality>100</commonality>
+            </li>
+            <li>
+                <diseaseInc>Disease_OrganDecay</diseaseInc>
+                <commonality>10</commonality>
+            </li>
+        </diseases>
+        
+        <!-- ===== ТИПЫ ПОЧВ (как в Scarlands) ===== -->
+        <terrainsByFertility>
+            <li>
+                <terrain>AncientMegastructure</terrain>
+                <min>-999</min>
+                <max>0.7</max>
+            </li>
+            <li>
+                <terrain>Soil</terrain>
+                <min>0.7</min>
+                <max>999</max>
+            </li>
+        </terrainsByFertility>
+        
+        <!-- ===== ВОДНЫЕ ПАТЧИ (как в Scarlands) ===== -->
+        <terrainPatchMakers>
+            <li>
+                <perlinFrequency>0.015</perlinFrequency>
+                <isPond>true</isPond>
+                <thresholds>
+                    <li>
+                        <terrain>ToxicWaterShallow</terrain>
+                        <min>0.93</min>
+                        <max>1.06</max>
+                    </li>
+                    <li>
+                        <terrain>ToxicWaterDeep</terrain>
+                        <min>1.06</min>
+                        <max>999</max>
+                    </li>
+                </thresholds>
+            </li>
+        </terrainPatchMakers>
+        
+        <!-- ===== ПОГОДА (как в Scarlands) ===== -->
+        <baseWeatherCommonalities>
+            <Clear>12</Clear>
+            <Fog>1</Fog>
+            <Rain>2</Rain>
+            <DryThunderstorm>1</DryThunderstorm>
+            <RainyThunderstorm>1</RainyThunderstorm>
+            <FoggyRain>2</FoggyRain>
+            <SnowGentle>2</SnowGentle>
+            <SnowHard>2</SnowHard>
+            <Overcast>6</Overcast>
+        </baseWeatherCommonalities>
+        
+        <!-- ===== РАСТЕНИЯ (как в Scarlands + ваши) ===== -->
+        <wildPlants>
+            <Plant_YellowGrass>2.0</Plant_YellowGrass>
+            <Plant_Thornvine>8.0</Plant_Thornvine>
+            <Plant_Brambles_Leafless>1.0</Plant_Brambles_Leafless>
+            <Plant_Dandelion>0.5</Plant_Dandelion>
+            <Plant_Bush_Leafless>0.6</Plant_Bush_Leafless>
+            <Plant_TreeSnagroot>0.4</Plant_TreeSnagroot>
+            <Plant_Berry_Leafless>0.02</Plant_Berry_Leafless>
+            <Plant_Grass>0.5</Plant_Grass>
+            <Plant_TallGrass>0.2</Plant_TallGrass>
+            <Plant_ShrubLow>0.3</Plant_ShrubLow>
+            <Plant_TreeGrayPine>0.3</Plant_TreeGrayPine>
+            <Plant_RatPalm>0.3</Plant_RatPalm>
+            <Plant_Mutfruit>0.1</Plant_Mutfruit>
+            <PlantTarberry>0.05</PlantTarberry>
+            <Plant_Tato>0.02</Plant_Tato>
+            <Plant_PebbleCactus>0.3</Plant_PebbleCactus>
+        </wildPlants>
+        
+        <!-- ===== ЖИВОТНЫЕ (ваши) ===== -->
+      <wildAnimals>
+            <Rat>1.00</Rat>
+            <Raccoon>0.5</Raccoon>
+            <Boomalope>0.4</Boomalope>
+            <Boomrat>0.4</Boomrat>
+            <Panther>0.07</Panther>
+            <BogHound>0.5</BogHound>
+            <MonitorLizard>0.5</MonitorLizard>
+            <Crow>0.5</Crow>
+            <GlowingRadroach>0.2</GlowingRadroach>
+            <Radroach>0.2</Radroach>
+            <RadScorpion>0.2</RadScorpion>
+            <HugeBee>0.2</HugeBee>
+            <SporePlant>0.2</SporePlant>
+            <Gecko_green>0.2</Gecko_green>
+            <Brahmin>0.4</Brahmin>
+            <GlowRadDeer>0.1</GlowRadDeer>
+            <MoleRat>0.3</MoleRat>
+            <Radboar>0.2</Radboar>
+            <Duten>0.2</Duten>
+            <Glutton>0.1</Glutton>
+            <StrangeDuten>0.1</StrangeDuten>
+            <Mirelurk>0.2</Mirelurk>
+            <RadDeer>0.4</RadDeer>
+            <Deathclaw>0.1</Deathclaw>
+        </wildAnimals>
+        
+        <!-- ===== ЖИВОТНЫЕ В ЗОНАХ ЗАГРЯЗНЕНИЯ ===== -->
+        <pollutionWildAnimals>
+            <Toxalope>0.4</Toxalope>
+            <WasteRat>0.1</WasteRat>
+            <Rat>1</Rat>
+            <Raccoon>0.5</Raccoon>
+            <Boomrat>0.4</Boomrat>
+            <Boomalope>0.1</Boomalope>
+            <Warg>0.05</Warg>
+            <MonitorLizard>0.5</MonitorLizard>
+            <GlowingRadroach>0.2</GlowingRadroach>
+            <Radroach>0.2</Radroach>
+            <RadScorpion>0.2</RadScorpion>
+            <HugeBee>0.2</HugeBee>
+            <SporePlant>0.2</SporePlant>
+            <Gecko_green>0.2</Gecko_green>
+            <Brahmin>0.4</Brahmin>
+            <GlowRadDeer>0.1</GlowRadDeer>
+            <MoleRat>0.3</MoleRat>
+            <Radboar>0.2</Radboar>
+            <Duten>0.2</Duten>
+            <Glutton>0.1</Glutton>
+            <StrangeDuten>0.1</StrangeDuten>
+            <Mirelurk>0.2</Mirelurk>
+            <RadDeer>0.4</RadDeer>
+            <Deathclaw>0.1</Deathclaw>
+        </pollutionWildAnimals>
+        
+        <!-- ===== ВЬЮЧНЫЕ ЖИВОТНЫЕ (как в Scarlands) ===== -->
+        <allowedPackAnimals>
+            <li>Muffalo</li>
+            <li>Alpaca</li>
+        </allowedPackAnimals>
+        
+        <!-- ===== ГЕНЕРАЦИЯ РУИН (как в Scarlands) ===== -->
+        <extraGenSteps>
+            <li>AncientRuins_Scarlands</li>
+            <li>CratersLarge</li>
+            <li>CratersMedium</li>
+            <li>CratersSmall</li>
+            <li>ScarlandsJunkClusters</li>
+            <li>ScarlandsJunkPrefabs</li>
+			<!--<li>NuclearWastelandDirt</li>-->
+			<li>NuclearWastelandHotspots</li>
+			<li>RadiationHotspots</li>
+        </extraGenSteps>
+    </BiomeDef>
+</Defs>

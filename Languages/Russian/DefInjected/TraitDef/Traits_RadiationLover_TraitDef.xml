@@ -14,7 +14,7 @@
 <Toxic.degreeDatas.0.labelFemale>Токсичная</Toxic.degreeDatas.0.labelFemale>
 
 <MusicLover.degreeDatas.0.label>Ценитель музыки</MusicLover.degreeDatas.0.label>
-<MusicLover.degreeDatas.0.description>{PAWN_nameDef} обожает музыку. Звуки мелодий глубоко трогают {PAWN_possessive} душу, вдвое поднимая {PAWN_possible} настроение. Говорят, в довоенные времена таких людей называли ценителями прекрасного. Теперь это просто способ не сойти с ума от тишины пустоши и собственных мыслей.</MusicLover.degreeDatas.0.description>
+<MusicLover.degreeDatas.0.description>{PAWN_nameDef} обожает музыку. Звуки мелодий глубоко трогают {PAWN_possessive} душу, вдвое поднимая настроение. Говорят, в довоенные времена таких людей называли ценителями прекрасного. Теперь это просто способ не сойти с ума от тишины пустоши и собственных мыслей.</MusicLover.degreeDatas.0.description>
 <MusicLover.degreeDatas.0.labelFemale>Ценительница музыки</MusicLover.degreeDatas.0.labelFemale>
 
 <MusicHater.degreeDatas.0.label>Мизофон</MusicHater.degreeDatas.0.label>
@@ -38,4 +38,8 @@
 <VigorCharge.degreeDatas.0.label>Заряд бодрости</VigorCharge.degreeDatas.0.label>
 <VigorCharge.degreeDatas.0.description>Снижение потребности во сне.</VigorCharge.degreeDatas.0.description>
 <VigorCharge.degreeDatas.0.labelFemale>Заряд бодрости</VigorCharge.degreeDatas.0.labelFemale>
+
+<ComicsFan.degreeDatas.0.label>фанат комиксов</ComicsFan.degreeDatas.0.label>
+<ComicsFan.degreeDatas.0.description>{PAWN_nameDef} обожает комиксы и время от времени рисует собственные выпуски. Это приносит радость {PAWN_objective} и окружающим {PAWN_objective}.</ComicsFan.degreeDatas.0.description>
+<ComicsFan.degreeDatas.0.labelFemale>фанатка комиксов</ComicsFan.degreeDatas.0.labelFemale>
 </LanguageData>

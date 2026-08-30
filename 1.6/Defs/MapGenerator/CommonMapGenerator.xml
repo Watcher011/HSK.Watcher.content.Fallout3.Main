@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Простой разброс грязи по карте -->
+   <!-- <GenStepDef>
+        <defName>NuclearWastelandDirt</defName>
+        <order>956</order>
+        <genStep Class="GenStep_ScatterThings">
+            <thingDef>Filth_NFRAD</thingDef>
+            <countPer10kCellsRange>5~12</countPer10kCellsRange>
+            <warnOnFail>false</warnOnFail>
+        </genStep>
+    </GenStepDef>-->
+    
+    <!-- Более плотное заражение в радиусе -->
+    <GenStepDef>
+        <defName>NuclearWastelandHotspots</defName>
+        <order>957</order>
+        <genStep Class="GenStep_ScatterThings">
+            <thingDef>Filth_NFRAD</thingDef>
+            <countPer10kCellsRange>5~6</countPer10kCellsRange>
+            <warnOnFail>false</warnOnFail>
+        </genStep>
+    </GenStepDef>
+	
+	
+    <GenStepDef>
+        <defName>RadiationHotspots</defName>
+        <order>955</order>
+        <genStep Class="GenStep_ScatterGroupPrefabs">
+            <allowInWaterBiome>false</allowInWaterBiome>
+            <isJunk>true</isJunk>
+            <minSpacing>85</minSpacing>
+            <countPer10kCellsRange>0.4~0.6</countPer10kCellsRange>
+            <spotMustBeStandable>true</spotMustBeStandable>
+            <allowRoofed>false</allowRoofed>
+            <groups>
+           
+                <Exterior_CrashedCrane>
+                    <weight>0.5</weight>
+                    <indoorRuin>false</indoorRuin>
+                    <filthDef>Filth_Cap</filthDef>
+                    <filthExpandBy>1</filthExpandBy>
+                    <filthChance>0.4</filthChance>
+                    <max>1</max>
+                </Exterior_CrashedCrane>
+               
+                <Exterior_MilitaryBlockade>
+                    <weight>1.0</weight>
+                    <indoorRuin>false</indoorRuin>
+                    <filthDef>Filth_Slime</filthDef>
+                    <filthExpandBy>1</filthExpandBy>
+                    <filthChance>0.4</filthChance>
+                    <max>4</max>
+                </Exterior_MilitaryBlockade>
+                <Exterior_ContainerSite>
+                    <weight>1.0</weight>
+                    <indoorRuin>false</indoorRuin>
+                    <filthDef>Filth_Cap</filthDef>
+                    <filthExpandBy>1</filthExpandBy>
+                    <filthChance>0.4</filthChance>
+                    <max>1</max>
+                </Exterior_ContainerSite>
+                
+                <Exterior_AncientRoad_Long>
+                    <weight>2.0</weight>
+                    <indoorRuin>false</indoorRuin>
+                    <filthDef>Filth_Cap</filthDef>
+                    <filthExpandBy>1</filthExpandBy>
+                    <filthChance>0.4</filthChance>
+                    <max>1</max>
+                </Exterior_AncientRoad_Long>
+            </groups>
+        </genStep>
+    </GenStepDef>
+</Defs>

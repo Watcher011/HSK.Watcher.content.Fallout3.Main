@@ -3,13 +3,13 @@
 		<li>title->[titleBasic]</li>
 		<li>title->[titleAdjective] [titleSubject]</li>
 		<li>title->[titleSubject]: [titleSubtitle]</li>
-		<li>title->The [titleAdjective] [titleSubject]</li>
+		<li>title->[titleAdjective] [titleSubject]</li>
 		<li>title->[titleNumber]: [titleSubtitle]</li>
 		<li>titleBasic(p=6)->[randAdjective]</li>
 		<li>titleBasic->[heroName] и [titleSubtitle]</li>
 		<li>titleBasic->[heroName] в [titleSubtitle]</li>
 		<li>titleBasic->[heroName] против [villainName]</li>
-		<li>titleBasic->The [titleAdjective] [titleSubject]</li>
+		<li>titleBasic->[titleAdjective] [titleSubject]</li>
 		<li>heroName->Грогнак-варвар</li>
 		<li>heroName->Капитан Фотон</li>
 		<li>heroName->Звёздный рейнджер</li>

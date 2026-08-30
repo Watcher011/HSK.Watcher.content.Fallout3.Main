@@ -112,4 +112,17 @@
         </li>
     </degreeDatas>
 </TraitDef>
+  <TraitDef>
+    <defName>ComicsFan</defName>
+    <commonality>0.5</commonality>
+    <degreeDatas>
+      <li>
+        <label>comic fan</label>
+        <description>{PAWN_nameDef} loves comics and occasionally draws their own issues. This brings joy to {PAWN_objective} and those around {PAWN_objective}.</description>
+        <statOffsets>
+          <SocialImpact>0.05</SocialImpact>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
 </Defs>

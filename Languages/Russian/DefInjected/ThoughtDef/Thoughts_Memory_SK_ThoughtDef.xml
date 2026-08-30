@@ -57,4 +57,8 @@
 	<Thought_StrongSpine.stages.0.description>Моя спина чувствуется прочной и надёжной.</Thought_StrongSpine.stages.0.description>
 	<Thought_VigorCharge.stages.0.label>заряд бодрости</Thought_VigorCharge.stages.0.label>
 	<Thought_VigorCharge.stages.0.description>Я чувствую прилив сил и готов к действию!</Thought_VigorCharge.stages.0.description>
+	<ComicsFan_TraitThought.stages.0.label>я комиксоман</ComicsFan_TraitThought.stages.0.label>
+<ComicsFan_TraitThought.stages.0.description>Комиксы — это искусство! Я их обожаю!</ComicsFan_TraitThought.stages.0.description>
+<ComicsFan_CreatedComics.stages.0.label>нарисовал(а) комикс</ComicsFan_CreatedComics.stages.0.label>
+<ComicsFan_CreatedComics.stages.0.description>Я только что создал(а) новый выпуск! Это было здорово!</ComicsFan_CreatedComics.stages.0.description>
 </LanguageData>

@@ -1,6 +1,8 @@
 ﻿using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using Verse;
 using Verse.AI;
 
@@ -348,6 +350,137 @@ namespace Watcher
                 }
             }
 
+            return ThoughtState.ActiveDefault;
+        }
+    }
+
+    // ==================== НОВАЯ ЧЕРТА: КОМИКСОМАН ====================
+    public class MapComponent_ComicsFan : MapComponent
+    {
+        private int checkInterval = 250;
+        private int nextCheckTick = 0;
+        private Dictionary<Pawn, int> lastDrawTicks = new Dictionary<Pawn, int>();
+        private Dictionary<Pawn, int> nextIntervalTicks = new Dictionary<Pawn, int>();
+
+        private const int MIN_INTERVAL_TICKS = 25000;   // ~10 часов
+        private const int MAX_INTERVAL_TICKS = 1250000;  // ~2 дня
+
+        public MapComponent_ComicsFan(Map map) : base(map) { }
+
+        public override void MapComponentTick()
+        {
+            base.MapComponentTick();
+            int currentTick = Find.TickManager.TicksGame;
+            if (currentTick < nextCheckTick) return;
+            nextCheckTick = currentTick + checkInterval;
+
+            foreach (Pawn pawn in map.mapPawns.AllPawnsSpawned)
+            {
+                if (!IsValidComicsFan(pawn)) continue;
+                TryTriggerComicsCreation(pawn, currentTick);
+            }
+        }
+
+        private bool IsValidComicsFan(Pawn pawn)
+        {
+            if (pawn?.story?.traits == null) return false;
+            if (!pawn.story.traits.HasTrait(TraitDef.Named("ComicsFan"))) return false;
+            if (pawn.Downed || pawn.Dead || pawn.InMentalState) return false;
+
+            if (pawn.CurJob != null)
+            {
+                if (pawn.CurJob.def == JobDefOf.LayDown ||
+                    pawn.CurJob.def == JobDefOf.Ingest ||
+                    pawn.CurJob.def == JobDefOf.FleeAndCower ||
+                    pawn.CurJob.def == JobDefOf.Vomit)
+                    return false;
+            }
+            return true;
+        }
+
+        private void TryTriggerComicsCreation(Pawn pawn, int currentTick)
+        {
+            if (!nextIntervalTicks.ContainsKey(pawn))
+            {
+                nextIntervalTicks[pawn] = Rand.Range(MIN_INTERVAL_TICKS, MAX_INTERVAL_TICKS + 1);
+                lastDrawTicks[pawn] = currentTick;
+                return;
+            }
+
+            if (currentTick - lastDrawTicks[pawn] < nextIntervalTicks[pawn])
+                return;
+
+            CreateComics(pawn);
+            lastDrawTicks[pawn] = currentTick;
+            nextIntervalTicks[pawn] = Rand.Range(MIN_INTERVAL_TICKS, MAX_INTERVAL_TICKS + 1);
+        }
+
+        private void CreateComics(Pawn pawn)
+        {
+            if (pawn?.Map == null) return;
+
+            ThingDef comicsDef = ThingDef.Named("ComicsBook");
+            if (comicsDef == null)
+            {
+                Log.Warning("[ComicsFan] ComicsBook ThingDef not found!");
+                return;
+            }
+
+            Thing comics = ThingMaker.MakeThing(comicsDef);
+            if (comics == null)
+            {
+                Log.Warning("[ComicsFan] Failed to create ComicsBook thing!");
+                return;
+            }
+
+            // Генерируем книгу через ванильный метод
+            Book book = comics as Book;
+            if (book != null)
+            {
+                book.GenerateBook(pawn, null);
+            }
+            else
+            {
+                Log.Warning("[ComicsFan] ComicsBook is not a Book type!");
+            }
+
+            GenPlace.TryPlaceThing(comics, pawn.Position, pawn.Map, ThingPlaceMode.Near);
+
+            Messages.Message(
+                $"{pawn.LabelShort} drew a new issue of \"{book?.Title ?? "Grognak"}\"!",
+                comics,
+                MessageTypeDefOf.PositiveEvent
+            );
+
+            pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(
+                ThoughtDef.Named("ComicsFan_CreatedComics")
+            );
+
+            Log.Message($"[ComicsFan] {pawn.LabelShort} created: {book?.Title ?? "Unknown"}");
+        }
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Collections.Look(ref lastDrawTicks, "lastDrawTicks", LookMode.Reference, LookMode.Value);
+            Scribe_Collections.Look(ref nextIntervalTicks, "nextIntervalTicks", LookMode.Reference, LookMode.Value);
+        }
+    }
+
+    public class ThoughtWorker_ComicsFan : ThoughtWorker
+    {
+        protected override ThoughtState CurrentStateInternal(Pawn p)
+        {
+            if (p?.story?.traits == null) return ThoughtState.Inactive;
+            if (!p.story.traits.HasTrait(TraitDef.Named("ComicsFan"))) return ThoughtState.Inactive;
+            return ThoughtState.ActiveDefault;
+        }
+    }
+
+    public class ThoughtWorker_ComicsFanCreated : ThoughtWorker
+    {
+        protected override ThoughtState CurrentStateInternal(Pawn p)
+        {
             return ThoughtState.ActiveDefault;
         }
     }
