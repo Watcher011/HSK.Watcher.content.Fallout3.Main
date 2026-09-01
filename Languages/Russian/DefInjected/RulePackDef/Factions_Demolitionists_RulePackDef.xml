@@ -1,12 +1,13 @@
 <LanguageData>
+	
 <NamerFactionDemolitionists.rulePack.rulesStrings>
 		<li>empire->Подрывники</li>
 	</NamerFactionDemolitionists.rulePack.rulesStrings>
 	
 	<NamerSettlementDemolitionists.rulePack.rulesStrings>
-		<li>townend->Лагерь подрывников (Восток)</li>
-		<li>townend->Лагерь подрывников (Север)</li>
-		<li>townend->Лагерь подрывников (Юг)</li>
-		<li>townend->Лагерь подрывников (Запад)</li>
+		<li>townend->Лагерь подрывников «Восток»</li>
+		<li>townend->Лагерь подрывников «Север»</li>
+		<li>townend->Лагерь подрывников «Юг»</li>
+		<li>townend->Лагерь подрывников «Запад»</li>
 	</NamerSettlementDemolitionists.rulePack.rulesStrings>
 </LanguageData>

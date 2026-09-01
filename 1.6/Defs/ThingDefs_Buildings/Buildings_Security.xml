@@ -31,14 +31,17 @@
           <li>ArrowHighVelocity</li>
         </startWickOnDamageTaken>
       </li>
-	  <li Class="CombatExtended.CompProperties_Fragments">
+	 <!-- <li Class="CombatExtended.CompProperties_Fragments">
 		<fragments>
 			<Fragment_Bottlecap>70</Fragment_Bottlecap>
 			<Bottlecap>10</Bottlecap>
 		</fragments>
-	  </li>
+	  </li>-->
     </comps>
     <specialDisplayRadius>3.9</specialDisplayRadius>
+	<researchPrerequisites>
+		<li>Vault-TecIED</li>
+	</researchPrerequisites>
   </ThingDef> 
   
   
@@ -71,14 +74,17 @@
           <li>ArrowHighVelocity</li>
         </startWickOnDamageTaken>
       </li>
-	  <li Class="CombatExtended.CompProperties_Fragments">
+	 <!-- <li Class="CombatExtended.CompProperties_Fragments">
 		<fragments>
 			<Fragment_Bottlecap>270</Fragment_Bottlecap>
 		    <Fragment_Small>2</Fragment_Small>
 		</fragments>
-	  </li>
+	  </li>-->
     </comps>
     <specialDisplayRadius>5.9</specialDisplayRadius>
+	<researchPrerequisites>
+		<li>Vault-TecIED</li>
+	</researchPrerequisites>
   </ThingDef> 
   
   	<ThingDef ParentName="TrapIEDBase">
@@ -114,7 +120,9 @@
 				<glowColor>(217,112,33,0)</glowColor>
 	   </li>
     </comps>
-	
+	<researchPrerequisites>
+		<li>Vault-TecIED</li>
+	</researchPrerequisites>
     <specialDisplayRadius>3.9</specialDisplayRadius>
   </ThingDef> 
   
@@ -151,6 +159,9 @@
         </startWickOnDamageTaken>
       </li>
     </comps>
+	<researchPrerequisites>
+		<li>Vault-TecIED</li>
+	</researchPrerequisites>
     <specialDisplayRadius>3.9</specialDisplayRadius>
   </ThingDef> 
 	<!-- =====AI manned turrets===== -->
@@ -234,7 +245,7 @@
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
 		<li>GunTurrets</li>
-		<!--	<li>Vault-TecProduction</li>-->
+		<li>Vault-TecProtection</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
@@ -373,7 +384,7 @@
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
 			<li>Autoturrets_D2</li>
-			<!--<li>Vault-TecProduction</li>-->
+			<li>Vault-TecProtection</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
@@ -511,6 +522,7 @@
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
 			<li>GunTurrets</li>
+			<li>Vault-TecProtection</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
@@ -651,7 +663,7 @@
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
 			<li>Autoturrets_D2</li>
-			<!--<li>Vault-TecProduction</li>-->
+			<li>Vault-TecProtection</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>

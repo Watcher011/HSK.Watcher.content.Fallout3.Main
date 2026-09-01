@@ -1,45 +1,45 @@
 <LanguageData>
-	<BringersofDemocracy.label>Несущие демократию</BringersofDemocracy.label>
-<BringersofDemocracy.letterLabel>Прибытие несущих демократию</BringersofDemocracy.letterLabel>
-<BringersofDemocracy.letterText>Несущие демократию приближаются к нашей колонии!</BringersofDemocracy.letterText>
+<BringersofDemocracy.label>Несём демократию</BringersofDemocracy.label>
+<BringersofDemocracy.letterLabel>Прибытие «Несущих демократию»</BringersofDemocracy.letterLabel>
+<BringersofDemocracy.letterText>«Несущие демократию» приближаются к нашей колонии!</BringersofDemocracy.letterText>
 
 <StrangeCall.label>Странный вызов</StrangeCall.label>
-<StrangeCall.letterLabel>Странный вызов</StrangeCall.letterLabel>
+<StrangeCall.letterLabel>Вызов Анклава</StrangeCall.letterLabel>
 <StrangeCall.letterText>Таинственный вызов</StrangeCall.letterText>
 
-<ArmyCall.label>Вызов армии</ArmyCall.label>
-<ArmyCall.letterLabel>Вызов армии</ArmyCall.letterLabel>
-<ArmyCall.letterText>На вашем коммуникационном терминале принимается сообщение от командования армии. Похоже, вас приняли за новобранца.</ArmyCall.letterText>
+<ArmyCall.label>Армейский вызов</ArmyCall.label>
+<ArmyCall.letterLabel>Армейский вызов</ArmyCall.letterLabel>
+<ArmyCall.letterText>На вашем коммуникационном терминале принимается сообщение от армейского командования. Похоже, вас приняли за новобранца.</ArmyCall.letterText>
 
 <CreatureCall.label>Зов твари</CreatureCall.label>
 <CreatureCall.letterLabel>Зов твари</CreatureCall.letterLabel>
-<CreatureCall.letterText>Мы получили тревожные сообщения о необычной активности возле выгребных ям. Канализация, кажется... движется. Нечто мерзкое пробуждается в отстойниках. Будьте готовы к появлению потенциального врага.</CreatureCall.letterText>
+<CreatureCall.letterText>Мы получили тревожные сообщения о необычной активности возле выгребных ям. Канализация словно... шевелится. Нечто мерзкое ворочается в отстойниках. Будьте готовы к возможному появлению враждебных существ.</CreatureCall.letterText>
 
-<MoleRatQuarryAttack.label>Атака крысокротов в карьере</MoleRatQuarryAttack.label>
-<MoleRatQuarryAttack.letterLabel>Атака крысокротов в карьере</MoleRatQuarryAttack.letterLabel>
-<MoleRatQuarryAttack.letterText>Атака крысокротов в карьере</MoleRatQuarryAttack.letterText>
+<MoleRatQuarryAttack.label>Атака кротокрысов из карьера</MoleRatQuarryAttack.label>
+<MoleRatQuarryAttack.letterLabel>Атака кротокрысов из карьера</MoleRatQuarryAttack.letterLabel>
+<MoleRatQuarryAttack.letterText>Атака кротокрысов из карьера</MoleRatQuarryAttack.letterText>
 
-<RadNadoIncident.label>Радиационное торнадо</RadNadoIncident.label>
+<RadNadoIncident.label>Радиоактивный торнадо</RadNadoIncident.label>
 
-<DeathclawTunnel.label>Туннель когтя смерти</DeathclawTunnel.label>
-<DeathclawTunnel.description>Из туннеля доносится угрожающий рёв. Там явно кто-то есть.</DeathclawTunnel.description>
-<DeathclawTunnel.letterText>Из глубокого туннеля неподалёку от колонии доносится низкий рёв. Когти смерти роют ходы под землёй — и один из них вышел прямо у вашего порога.</DeathclawTunnel.letterText>
+<DeathclawTunnel.label>Туннель смертокогтей</DeathclawTunnel.label>
+<DeathclawTunnel.description>Описание туннеля смертокогтей</DeathclawTunnel.description>
+<DeathclawTunnel.letterText>Текст письма о туннеле смертокогтей</DeathclawTunnel.letterText>
 
 <WatcherRainEvent.label>Дождь Наблюдателя</WatcherRainEvent.label>
-<WatcherRainEvent.description>С неба падает нечто, похожее на дождь, но капли слишком тяжёлые и липкие. Небо пульсирует зеленоватым свечением.</WatcherRainEvent.description>
-<WatcherRainEvent.letterText>Небо начинает мерцать неестественным зелёным светом. Сверху падают тяжёлые липкие капли. Это не просто дождь — это предвестник чего-то большего. Колония в опасности.</WatcherRainEvent.letterText>
+<WatcherRainEvent.description>Описание дождя Наблюдателя</WatcherRainEvent.description>
+<WatcherRainEvent.letterText>Текст письма о дожде Наблюдателя</WatcherRainEvent.letterText>
 
-<PoopocalypseEvent.label>Фекалипсис</PoopocalypseEvent.label>
-<PoopocalypseEvent.description>Канализация вышла из-под контроля. Фекальные массы обрели форму и движутся к вам.</PoopocalypseEvent.description>
-<PoopocalypseEvent.letterText>ВНИМАНИЕ! Зафиксирован аномальный рост активности в канализационной системе. Отходы обрели волю и движутся к поверхности. Готовьтесь к обороне от фекальных монстров. Повторяю: фекальные монстры реальны, и они идут к вам.</PoopocalypseEvent.letterText>
+<PoopocalypseEvent.label>Говногедон</PoopocalypseEvent.label>
+<PoopocalypseEvent.description>Описание катастрофы фекалий</PoopocalypseEvent.description>
+<PoopocalypseEvent.letterText>Текст письма о катастрофе фекалий</PoopocalypseEvent.letterText>
 
-<ReactorCoreCriticalDamage.label>Критическое повреждение ядра реактора</ReactorCoreCriticalDamage.label>
+<ReactorCoreCriticalDamage.label>Критическое повреждение реакторного ядра</ReactorCoreCriticalDamage.label>
 <ReactorCoreCriticalDamage.letterLabel>Расплавление реактора</ReactorCoreCriticalDamage.letterLabel>
-<ReactorCoreCriticalDamage.letterText>В вашем реакторе типа А произошла катастрофическая неисправность. Инспекторам по технике безопасности, которых вы определённо подкупили, придётся многое объяснять. Ядро получило критические повреждения, загорелось и теперь выбрасывает радиоактивную грязь по всему объекту. Помните: в случае ядерного апокалипсиса — падайте и укрывайтесь. Или бегите. Бег тоже работает.</ReactorCoreCriticalDamage.letterText>
+<ReactorCoreCriticalDamage.letterText>Произошла катастрофическая неисправность в вашем реакторе типа А. Инспекторам по безопасности, которых вы, несомненно, подкупили, придётся многое объяснять. Ядро получило критические повреждения, загорелось и теперь выбрасывает радиоактивную дрянь по всему объекту. Помните: в случае ядерного апокалипсиса — пригнитесь и укройтесь. Или бегите. Бег тоже работает.</ReactorCoreCriticalDamage.letterText>
 
 <GreenRain.label>Зелёный дождь</GreenRain.label>
 <GreenRain.letterLabel>Зелёный дождь</GreenRain.letterLabel>
-<GreenRain.letterText>С неба начал падать зелёный дождь. Растения стремительно растут и мутируют. Это не предвещает ничего хорошего.</GreenRain.letterText>
+<GreenRain.letterText>Текст письма о зелёном дожде</GreenRain.letterText>
 
 <OverfertilizedHydroponics.label>Переудобренная гидропоника</OverfertilizedHydroponics.label>
 
@@ -47,5 +47,5 @@
 
 <RedThreatHunterDrones.label>Красная угроза</RedThreatHunterDrones.label>
 
-<HaroldInfectionEvent.label>Появление Араракса</HaroldInfectionEvent.label>
+<HaroldInfectionEvent.label>Появление Арараксиса</HaroldInfectionEvent.label>
 </LanguageData>

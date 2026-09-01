@@ -1,14 +1,14 @@
 <LanguageData>
 <ListenedToRadio.label>слушал радио</ListenedToRadio.label>
 <ListenedToRadio.rulePack.rulesStrings>
-	<li>tale_noun->[PAWN_nameDef] слушает радио</li>
-	<li>tale_noun->[PAWN_nameDef] наслаждается музыкой по радио</li>
-	<li>image->[PAWN_nameFull] сидит у радио [circumstance_group]</li>
-	<li>image->[PAWN_nameFull] отдыхает у радио [circumstance_group]</li>
-	<li>circumstance_phrase->с довольным видом</li>
-	<li>circumstance_phrase->напевая в такт</li>
-	<li>circumstance_phrase->с умиротворённым выражением лица</li>
-	<li>desc_sentence->[PAWN_pronoun] полностью поглощён музыкой.</li>
-	<li>desc_sentence->Мелодия наполняет комнату теплом.</li>
-</ListenedToRadio.rulePack.rulesStrings>
+		<li>tale_noun->[PAWN_nameDef] слушает радио</li>
+		<li>tale_noun->[PAWN_nameDef] наслаждается музыкой из радиоприёмника</li>
+		<li>image->[PAWN_nameFull] сидит возле радиоприёмника [circumstance_group]</li>
+		<li>image->[PAWN_nameFull] отдыхает у радиоприёмника [circumstance_group]</li>
+		<li>circumstance_phrase->с довольным видом</li>
+		<li>circumstance_phrase->напевая в такт</li>
+		<li>circumstance_phrase->с умиротворённым выражением лица</li>
+		<li>desc_sentence->[PAWN_pronoun] кажется полностью поглощённым музыкой.</li>
+		<li>desc_sentence->Мелодия наполняет комнату теплом.</li>
+	</ListenedToRadio.rulePack.rulesStrings>
 </LanguageData>

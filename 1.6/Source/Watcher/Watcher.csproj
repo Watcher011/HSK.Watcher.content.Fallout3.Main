@@ -90,6 +90,7 @@
     <Compile Include="Comps\CompLocalFirefly.cs" />
     <Compile Include="Comps\CompNukaColaBottleCaps.cs" />
     <Compile Include="Comps\CompProperties_AnimatedBuilding.cs" />
+    <Compile Include="Comps\CompProperties_CompAnalyzableUnlockResearch.cs" />
     <Compile Include="Comps\CompProperties_DirectionalExplosive.cs" />
     <Compile Include="Comps\CompProperties_EarthquakeStabilizer.cs" />
     <Compile Include="Comps\CompProperties_GlowingPawn.cs" />

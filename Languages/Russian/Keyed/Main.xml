@@ -884,5 +884,21 @@ WorkGiver
 
   <HaroldInfectionLabel>Арараксис</HaroldInfectionLabel>
   <HaroldInfectionText>{0} закашлялся пылью, которая не была пылью. Кожа пошла трещинами, обнажая твёрдые наросты. Радиация не убила — она вспомнила, что им нужно тело погорячее. Старый вирус встряхнулся, потянулся и решил, что {0} — отличный дом для начала. Трансформация пошла не по плану эволюции. Или как раз по плану. Чёрт его знает.</HaroldInfectionText>
+  
+   <Watcher_AnalyzeInspect>Может быть проанализирован колонистом. Открывает: {0}</Watcher_AnalyzeInspect>
+    
+    <!-- Для сообщения о требовании механитора -->
+    <Watcher_RequiresMechanitor>Требуется механитор</Watcher_RequiresMechanitor>
+    
+    <!-- Для статуса "уже проанализирован" -->
+    <Watcher_AlreadyAnalyzed>Уже проанализирован</Watcher_AlreadyAnalyzed>
+    
+    <!-- Заголовок письма о завершении анализа -->
+    <Watcher_AnalyzeComplete>Голодиск изучен: {RESEARCH} открыто</Watcher_AnalyzeComplete>
+    
+    <!-- Текст письма о завершении анализа -->
+    <Watcher_AnalyzeCompleteDesc>Расшифровав данные с голодиска, {PAWN_labelShort} получил критически важное понимание, необходимое для исследовательского(их) проекта(ов) {RESEARCH}.
+
+Ваши исследователи теперь могут использовать верстаки для начала внедрения этих довоенных технологий в производство.</Watcher_AnalyzeCompleteDesc>
 
 </LanguageData>

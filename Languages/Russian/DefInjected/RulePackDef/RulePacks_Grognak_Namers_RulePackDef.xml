@@ -10,28 +10,28 @@
 		<li>titleBasic->[heroName] в [titleSubtitle]</li>
 		<li>titleBasic->[heroName] против [villainName]</li>
 		<li>titleBasic->[titleAdjective] [titleSubject]</li>
-		<li>heroName->Грогнак-варвар</li>
+		<li>heroName->Грогнак-Варвар</li>
 		<li>heroName->Капитан Фотон</li>
-		<li>heroName->Звёздный рейнджер</li>
-		<li>heroName->Меха-Мен</li>
-		<li>heroName->Квантовый парень</li>
-		<li>heroName->Астро-путешественник</li>
-		<li>heroName->Ракетная девушка</li>
-		<li>heroName->Космический крестоносец</li>
-		<li>heroName->Неоновый рыцарь</li>
-		<li>heroName->Звёздный сержант</li>
-		<li>villainName->Доктор Дум</li>
-		<li>villainName->Багровый коготь</li>
-		<li>villainName->Лорд Вайл</li>
-		<li>villainName->Королева Мэлайс</li>
-		<li>villainName->Король теней</li>
-		<li>villainName->Меха-монстр</li>
-		<li>villainName->Галактический гуль</li>
+		<li>heroName->Звёздный Рейнджер</li>
+		<li>heroName->Меха-Человек</li>
+		<li>heroName->Квантовый Малыш</li>
+		<li>heroName->Астро-Искатель</li>
+		<li>heroName->Ракетная Девушка</li>
+		<li>heroName->Космический Крестоносец</li>
+		<li>heroName->Неоновый Рыцарь</li>
+		<li>heroName->Звёздный Сержант</li>
+		<li>villainName->Доктор Рок</li>
+		<li>villainName->Багровая Клешня</li>
+		<li>villainName->Лорд Мерзость</li>
+		<li>villainName->Королева Злоба</li>
+		<li>villainName->Теневой Король</li>
+		<li>villainName->Меха-Монстр</li>
+		<li>villainName->Галактический Гуль</li>
 		<li>villainName->Профессор Хаос</li>
-		<li>titleAdjective->Удивительное</li>
+		<li>titleAdjective->Изумительное</li>
 		<li>titleAdjective->Невероятное</li>
 		<li>titleAdjective->Фантастическое</li>
-		<li>titleAdjective->Могучее</li>
+		<li>titleAdjective->Могучие</li>
 		<li>titleAdjective->Тайное</li>
 		<li>titleAdjective->Тёмное</li>
 		<li>titleAdjective->Будущее</li>
@@ -51,7 +51,7 @@
 		<li>titleSubtitle->[subtitleBeginning] [subtitleEnd]</li>
 		<li>titleSubtitle->[subtitleLocation] [subtitleThreat]</li>
 		<li>titleSubtitle->[subtitleAction] [subtitleTarget]</li>
-		<li>subtitleBeginning->Возвращение к</li>
+		<li>subtitleBeginning->Возвращение</li>
 		<li>subtitleBeginning->Атака</li>
 		<li>subtitleBeginning->Месть</li>
 		<li>subtitleBeginning->Восстание</li>
@@ -59,52 +59,52 @@
 		<li>subtitleBeginning->Тайна</li>
 		<li>subtitleBeginning->Проклятие</li>
 		<li>subtitleBeginning->Наследие</li>
-		<li>subtitleEnd->Затерянной планеты</li>
-		<li>subtitleEnd->Космических пиратов</li>
-		<li>subtitleEnd->Хрустального королевства</li>
-		<li>subtitleEnd->Машины Судного дня</li>
-		<li>subtitleEnd->Временных рейдеров</li>
-		<li>subtitleEnd->Космического куба</li>
-		<li>subtitleEnd->Порождений пустоты</li>
-		<li>subtitleEnd->Роботизированной армии</li>
-		<li>subtitleLocation->В</li>
-		<li>subtitleLocation->За</li>
-		<li>subtitleLocation->Под</li>
-		<li>subtitleLocation->Над</li>
-		<li>subtitleThreat->Джунглями страха</li>
-		<li>subtitleThreat->Городом гибели</li>
-		<li>subtitleThreat->Крепостью зла</li>
-		<li>subtitleThreat->Пещерами ужаса</li>
-		<li>subtitleThreat->Океаном монстров</li>
-		<li>subtitleThreat->Горами безумия</li>
+		<li>subtitleEnd->Затерянной Планеты</li>
+		<li>subtitleEnd->Космических Пиратов</li>
+		<li>subtitleEnd->Кристального Королевства</li>
+		<li>subtitleEnd->Машины Судного Дня</li>
+		<li>subtitleEnd->Похитителей Времени</li>
+		<li>subtitleEnd->Космического Куба</li>
+		<li>subtitleEnd->Порождений Бездны</li>
+		<li>subtitleEnd->Армии Роботов</li>
+		<li>subtitleLocation->В лабиринте</li>
+		<li>subtitleLocation->За гранью</li>
+		<li>subtitleLocation->В недрах</li>
+		<li>subtitleLocation->Над пропастью</li>
+		<li>subtitleThreat->Джунглей Страха</li>
+		<li>subtitleThreat->Города Рока</li>
+		<li>subtitleThreat->Цитадели Зла</li>
+		<li>subtitleThreat->Пещер Ужаса</li>
+		<li>subtitleThreat->Океана Чудовищ</li>
+		<li>subtitleThreat->Гор Безумия</li>
 		<li>subtitleAction->Битва за</li>
 		<li>subtitleAction->Гонка к</li>
 		<li>subtitleAction->Побег из</li>
 		<li>subtitleAction->Поиск</li>
-		<li>subtitleAction->Защита</li>
-		<li>subtitleTarget->Космической крепости</li>
-		<li>subtitleTarget->Скрытого города</li>
-		<li>subtitleTarget->Утерянного сокровища</li>
-		<li>subtitleTarget->Секретной базы</li>
-		<li>subtitleTarget->Устройства Судного дня</li>
-		<li>titleNumber->Выпуск №1</li>
-		<li>titleNumber->Выпуск №2</li>
-		<li>titleNumber->Выпуск №3</li>
-		<li>titleNumber->Выпуск №4</li>
-		<li>titleNumber->Выпуск №5</li>
+		<li>subtitleAction->Оборона</li>
+		<li>subtitleTarget->Космической Крепости</li>
+		<li>subtitleTarget->Скрытого Города</li>
+		<li>subtitleTarget->Утерянного Сокровища</li>
+		<li>subtitleTarget->Секретной Базы</li>
+		<li>subtitleTarget->Устройства Судного Дня</li>
+		<li>titleNumber->Выпуск #1</li>
+		<li>titleNumber->Выпуск #2</li>
+		<li>titleNumber->Выпуск #3</li>
+		<li>titleNumber->Выпуск #4</li>
+		<li>titleNumber->Выпуск #5</li>
 		<li>titleNumber->Специальный выпуск</li>
-		<li>titleNumber->Ежегодный выпуск</li>
+		<li>titleNumber->Юбилейный выпуск</li>
 		<li>titleNumber->Коллекционное издание</li>
-		<li>randAdjective->Грогнак-варвар и Кровь на арфе</li>
-		<li>randAdjective->Грогнак-варвар и Появление плута</li>
-		<li>randAdjective->Грогнак-варвар и Летучие джунгли</li>
-		<li>randAdjective->Грогнак-варвар и В объятиях корсара-королевы</li>
-		<li>randAdjective->Грогнак-варвар и Рабы демонов, Пески демонов</li>
-		<li>randAdjective->Грогнак-варвар и Появление Маулы: Воительницы Марса</li>
-		<li>randAdjective->Грогнак-варвар и Вонючее безотцовщина</li>
-		<li>randAdjective->Грогнак-варвар и Потерянный в снегах похоти</li>
-		<li>randAdjective->Грогнак-варвар и В логове Пожирателя девственниц!</li>
-		<li>randAdjective->Грогнак-варвар и Что это за колдовство?</li>
-		<li>randAdjective->Грогнак-варвар и Тяжела дубовая корона!</li>
+		<li>randAdjective->Грогнак-Варвар и Кровь на Арфе</li>
+		<li>randAdjective->Грогнак-Варвар и Явление Бродяги</li>
+		<li>randAdjective->Грогнак-Варвар и Летучие Джунгли</li>
+		<li>randAdjective->Грогнак-Варвар и В Объятиях Королевы Корсаров</li>
+		<li>randAdjective->Грогнак-Варвар и Рабы Демонов, Пески Демонов</li>
+		<li>randAdjective->Грогнак-Варвар и Явление Маулы: Дева Войны с Марса</li>
+		<li>randAdjective->Грогнак-Варвар и Зловонное Безотцовщина</li>
+		<li>randAdjective->Грогнак-Варвар и Потерянный в Снегах Страсти</li>
+		<li>randAdjective->Грогнак-Варвар и В Логове Пожирателя Девственниц!</li>
+		<li>randAdjective->Грогнак-Варвар и Что за Колдовство?</li>
+		<li>randAdjective->Грогнак-Варвар и Тяжела Дубовая Корона!</li>
 	</Namer_ComicsBook.rulePack.rulesStrings>
 </LanguageData>

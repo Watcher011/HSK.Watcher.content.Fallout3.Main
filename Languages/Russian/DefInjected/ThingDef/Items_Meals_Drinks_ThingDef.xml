@@ -1,36 +1,36 @@
 <LanguageData>
 	<NukaCola.label>Ядер-Кола</NukaCola.label>
-<NukaCola.description>Популярный напиток, распространённый по всему Соединённым Штатам.</NukaCola.description>
+<NukaCola.description>Популярный напиток, распространённый по всей территории Соединённых Штатов.</NukaCola.description>
 <NukaCola.ingestible.ingestCommandString>Выпить {0}</NukaCola.ingestible.ingestCommandString>
 <NukaCola.ingestible.ingestReportString>Пьёт {0}.</NukaCola.ingestible.ingestReportString>
 <NukaCola.ingestible.outcomeDoers.3.message>Крышка от Ядер-Колы выпала</NukaCola.ingestible.outcomeDoers.3.message>
 
 <NukaColaQuantum.label>Ядер-Кола Квант</NukaColaQuantum.label>
-<NukaColaQuantum.description>Освежающий, бодрящий и слегка радиоактивный напиток будущего! Ядер-Кола Квант — это не просто газировка, это научный прорыв в каждой сине-голубой капле! Благодаря революционной технологии стронций-90 Delight™ ваше тело будет светиться от счастья даже в кромешной тьме послевоенного ада!</NukaColaQuantum.description>
+<NukaColaQuantum.description>Освежающий, бодрящий и слегка радиоактивный напиток будущего! Ядер-Кола Квант — это не просто газировка, это научный прорыв в каждой сине-голубой капле! Благодаря революционной технологии Strontium-90 Delight™ ваше тело будет светиться от счастья даже в кромешной тьме послевоенного ада!</NukaColaQuantum.description>
 <NukaColaQuantum.ingestible.ingestCommandString>Выпить {0}</NukaColaQuantum.ingestible.ingestCommandString>
 <NukaColaQuantum.ingestible.ingestReportString>Пьёт {0}.</NukaColaQuantum.ingestible.ingestReportString>
 <NukaColaQuantum.ingestible.outcomeDoers.3.message>Крышка от Ядер-Колы выпала</NukaColaQuantum.ingestible.outcomeDoers.3.message>
 
 <NukaColaVictoria.label>Ядер-Кола Виктория</NukaColaVictoria.label>
-<NukaColaVictoria.description>Почувствуйте вкус триумфа с каждым глотком этой лимитированной серии Ядер-Колы, выпущенной в честь нашего великого и совершенно бескровного присоединения Канады! Теперь с ещё более патриотичным послевкусием свободы и тонкими нотками канадских слёз.</NukaColaVictoria.description>
+<NukaColaVictoria.description>Вкусите триумф с каждым глотком этого лимитированного издания Ядер-Колы, выпущенного в честь нашего великого и совершенно бескровного присоединения Канады! Теперь с ещё более патриотичным послевкусием свободы и тонкими нотками канадских слёз.</NukaColaVictoria.description>
 <NukaColaVictoria.ingestible.ingestCommandString>Выпить {0}</NukaColaVictoria.ingestible.ingestCommandString>
 <NukaColaVictoria.ingestible.ingestReportString>Пьёт {0}.</NukaColaVictoria.ingestible.ingestReportString>
 <NukaColaVictoria.ingestible.outcomeDoers.2.message>Крышка от Ядер-Колы выпала</NukaColaVictoria.ingestible.outcomeDoers.2.message>
 
-<NukaColaGrapes.label>Ядер-Кола Виноградная</NukaColaGrapes.label>
-<NukaColaGrapes.description>«Освежающий вкус ядовитого наслаждения!» Когда ядерная зима отняла у человечества последние радости, Корпорация Ядер-Кола подарила миру «Виноградную» — напиток, который не просто напоминает о винограде, а полностью его заменяет.</NukaColaGrapes.description>
+<NukaColaGrapes.label>Ядер-Кола Виноград</NukaColaGrapes.label>
+<NukaColaGrapes.description>«Освежающий вкус ядовитого наслаждения!» Когда ядерная зима отняла у человечества последние радости, корпорация «Ядер-Кола» подарила миру «Виноград» — напиток, который не просто напоминает о винограде, а полностью заменяет его.</NukaColaGrapes.description>
 <NukaColaGrapes.ingestible.ingestCommandString>Выпить {0}</NukaColaGrapes.ingestible.ingestCommandString>
 <NukaColaGrapes.ingestible.ingestReportString>Пьёт {0}.</NukaColaGrapes.ingestible.ingestReportString>
 <NukaColaGrapes.ingestible.outcomeDoers.2.message>Крышка от Ядер-Колы выпала</NukaColaGrapes.ingestible.outcomeDoers.2.message>
 
 <NukaColaOnslaught.label>Ядер-Кола Натиск</NukaColaOnslaught.label>
-<NukaColaOnslaught.description>Официальный энергетический напиток Нации Стали и любимый напиток солдат Братства... ну, тех, кто не боится нарушать правила. Теперь с двойной дозой кофеина, тройной порцией радиации и кое-чем особенным для настоящих героев Ада на Земле!</NukaColaOnslaught.description>
+<NukaColaOnslaught.description>Официальный энергетик Нации Стали и любимый напиток солдат Братства... ну, тех, кто не боится нарушать правила. Теперь с двойной дозой кофеина, тройной дозой радиации и кое-чем особенным для настоящих героев Ада на Земле!</NukaColaOnslaught.description>
 <NukaColaOnslaught.ingestible.ingestCommandString>Выпить {0}</NukaColaOnslaught.ingestible.ingestCommandString>
 <NukaColaOnslaught.ingestible.ingestReportString>Пьёт {0}.</NukaColaOnslaught.ingestible.ingestReportString>
 <NukaColaOnslaught.ingestible.outcomeDoers.3.message>Крышка от Ядер-Колы выпала</NukaColaOnslaught.ingestible.outcomeDoers.3.message>
 
 <NukaColaDark.label>Ядер-Кола Тёмная</NukaColaDark.label>
-<NukaColaDark.description>Когда обычной Ядер-Колы недостаточно, а Квант слишком ярко светится в темноте (и привлекает рейдеров), на помощь приходит Тёмная Ядер-Кола — напиток для тех, кто хочет забыть, в каком году случился апокалипсис.</NukaColaDark.description>
+<NukaColaDark.description>Когда обычной Ядер-Колы недостаточно, а Квант слишком светится в темноте (и привлекает рейдеров), на помощь приходит Тёмная Ядер-Кола — напиток для тех, кто хочет забыть, в каком году случился апокалипсис.</NukaColaDark.description>
 <NukaColaDark.ingestible.ingestCommandString>Выпить {0}</NukaColaDark.ingestible.ingestCommandString>
 <NukaColaDark.ingestible.ingestReportString>Пьёт {0}.</NukaColaDark.ingestible.ingestReportString>
 <NukaColaDark.ingestible.outcomeDoers.3.message>Крышка от Ядер-Колы выпала</NukaColaDark.ingestible.outcomeDoers.3.message>

@@ -1,45 +1,45 @@
 <LanguageData>
-	<CookSuspiciousOmelette.label>Приготовить подозрительный омлет</CookSuspiciousOmelette.label>
+<CookSuspiciousOmelette.label>Приготовить подозрительный омлет</CookSuspiciousOmelette.label>
 <CookSuspiciousOmelette.description>Приготовить подозрительный омлет из ингредиентов.</CookSuspiciousOmelette.description>
-<CookSuspiciousOmelette.jobString>Приготовление омлета.</CookSuspiciousOmelette.jobString>
+<CookSuspiciousOmelette.jobString>Готовит омлет.</CookSuspiciousOmelette.jobString>
 
 <CookSuspiciousOmeletteBulk.label>Приготовить подозрительный омлет x4</CookSuspiciousOmeletteBulk.label>
-<CookSuspiciousOmeletteBulk.description>Приготовить подозрительный омлет из ингредиентов x4.</CookSuspiciousOmeletteBulk.description>
-<CookSuspiciousOmeletteBulk.jobString>Приготовление омлета.</CookSuspiciousOmeletteBulk.jobString>
+<CookSuspiciousOmeletteBulk.description>Приготовить подозрительный омлет из ингредиентов x4</CookSuspiciousOmeletteBulk.description>
+<CookSuspiciousOmeletteBulk.jobString>Готовит омлет.</CookSuspiciousOmeletteBulk.jobString>
 
 <Cookboiledeggs.label>Приготовить варёные яйца</Cookboiledeggs.label>
 <Cookboiledeggs.description>Приготовить варёные яйца из ингредиентов.</Cookboiledeggs.description>
-<Cookboiledeggs.jobString>Приготовление варёных яиц.</Cookboiledeggs.jobString>
+<Cookboiledeggs.jobString>Готовит варёные яйца.</Cookboiledeggs.jobString>
 
 <CookCookboiledeggsBulk.label>Приготовить варёные яйца x4</CookCookboiledeggsBulk.label>
-<CookCookboiledeggsBulk.description>Приготовить варёные яйца из ингредиентов x4.</CookCookboiledeggsBulk.description>
-<CookCookboiledeggsBulk.jobString>Приготовление варёных яиц.</CookCookboiledeggsBulk.jobString>
+<CookCookboiledeggsBulk.description>Приготовить варёные яйца из ингредиентов x4</CookCookboiledeggsBulk.description>
+<CookCookboiledeggsBulk.jobString>Готовит варёные яйца.</CookCookboiledeggsBulk.jobString>
 
 <Cookfriedeggs.label>Приготовить яичницу</Cookfriedeggs.label>
 <Cookfriedeggs.description>Приготовить яичницу из ингредиентов.</Cookfriedeggs.description>
-<Cookfriedeggs.jobString>Приготовление яичницы.</Cookfriedeggs.jobString>
+<Cookfriedeggs.jobString>Готовит яичницу.</Cookfriedeggs.jobString>
 
 <CookfriedeggsBulk.label>Приготовить яичницу x4</CookfriedeggsBulk.label>
-<CookfriedeggsBulk.description>Приготовить яичницу из ингредиентов x4.</CookfriedeggsBulk.description>
-<CookfriedeggsBulk.jobString>Приготовление яичницы.</CookfriedeggsBulk.jobString>
+<CookfriedeggsBulk.description>Приготовить яичницу из ингредиентов x4</CookfriedeggsBulk.description>
+<CookfriedeggsBulk.jobString>Готовит яичницу.</CookfriedeggsBulk.jobString>
 
 <CookRaweggsinaglass.label>Приготовить сырые яйца в стакане</CookRaweggsinaglass.label>
 <CookRaweggsinaglass.description>Приготовить сырые яйца в стакане.</CookRaweggsinaglass.description>
-<CookRaweggsinaglass.jobString>Приготовление сырых яиц в стакане.</CookRaweggsinaglass.jobString>
+<CookRaweggsinaglass.jobString>Готовит сырые яйца в стакане.</CookRaweggsinaglass.jobString>
 
 <CookRaweggsinaglassBulk.label>Приготовить сырые яйца в стакане x4</CookRaweggsinaglassBulk.label>
-<CookRaweggsinaglassBulk.description>Приготовить сырые яйца в стакане из ингредиентов x4.</CookRaweggsinaglassBulk.description>
-<CookRaweggsinaglassBulk.jobString>Приготовление сырых яиц в стакане.</CookRaweggsinaglassBulk.jobString>
+<CookRaweggsinaglassBulk.description>Приготовить сырые яйца в стакане из ингредиентов x4</CookRaweggsinaglassBulk.description>
+<CookRaweggsinaglassBulk.jobString>Готовит сырые яйца в стакане.</CookRaweggsinaglassBulk.jobString>
 
 <MakeMashedPotatoes.label>Приготовить картофельное пюре</MakeMashedPotatoes.label>
 <MakeMashedPotatoes.description>Приготовить картофельное пюре. Выход: 3.</MakeMashedPotatoes.description>
-<MakeMashedPotatoes.jobString>Приготовление картофельного пюре.</MakeMashedPotatoes.jobString>
+<MakeMashedPotatoes.jobString>Готовит картофельное пюре.</MakeMashedPotatoes.jobString>
 
 <Makeporridge.label>Приготовить кашу</Makeporridge.label>
 <Makeporridge.description>Приготовить кашу. Выход: 3.</Makeporridge.description>
-<Makeporridge.jobString>Приготовление каши.</Makeporridge.jobString>
+<Makeporridge.jobString>Готовит кашу.</Makeporridge.jobString>
 
-<MakePrickeyeSalad.label>Приготовить салат из колючеглаза</MakePrickeyeSalad.label>
-<MakePrickeyeSalad.description>Приготовить салат из колючеглаза. Выход: 3.</MakePrickeyeSalad.description>
-<MakePrickeyeSalad.jobString>Приготовление салата из колючеглаза.</MakePrickeyeSalad.jobString>
+<MakePrickeyeSalad.label>Приготовить салат из колючего глаза</MakePrickeyeSalad.label>
+<MakePrickeyeSalad.description>Приготовить салат из колючего глаза. Выход: 3.</MakePrickeyeSalad.description>
+<MakePrickeyeSalad.jobString>Готовит салат из колючего глаза.</MakePrickeyeSalad.jobString>
 </LanguageData>

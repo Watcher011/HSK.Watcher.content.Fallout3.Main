@@ -1,9 +1,9 @@
 <LanguageData>
-	<Proj_GrenadeBottlecap.label>Крышка от мины</Proj_GrenadeBottlecap.label>
+	<Proj_GrenadeBottlecap.label>Крышечная мина</Proj_GrenadeBottlecap.label>
 
 <Weapon_Grenade_Bottlecap.label>Крышечная мина</Weapon_Grenade_Bottlecap.label>
 <Weapon_Grenade_Bottlecap.description>Популярный довоенный ланч-бокс Vault-Tec стал основой для смертоносной мины в постапокалиптическом Содружестве. Это самодельное устройство поможет вам справиться с любым врагом.</Weapon_Grenade_Bottlecap.description>
 <Weapon_Grenade_Bottlecap.tools.0.label>корпус</Weapon_Grenade_Bottlecap.tools.0.label>
-<Weapon_Grenade_Bottlecap.verbs.0.label>Бросает крышечную мину</Weapon_Grenade_Bottlecap.verbs.0.label>
+<Weapon_Grenade_Bottlecap.verbs.0.label>Бросить крышечную мину</Weapon_Grenade_Bottlecap.verbs.0.label>
 <Weapon_Grenade_Bottlecap.verbs.CombatExtended.Verb_ShootCEOneUse.label>ㅤ</Weapon_Grenade_Bottlecap.verbs.CombatExtended.Verb_ShootCEOneUse.label>
 </LanguageData>

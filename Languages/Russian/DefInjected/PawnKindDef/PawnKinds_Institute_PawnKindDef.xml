@@ -1,13 +1,13 @@
 <LanguageData>
 <Institute_Courser.label>Курьер Института</Institute_Courser.label>
-<Institute_Courser_Advanced.label>Курьер Института (продвинутый)</Institute_Courser_Advanced.label>
-<Synth_Enforcer.label>Синт-силовик</Synth_Enforcer.label>
-<Synth_Enforcer_Advanced.label>Синт-силовик (продвинутый)</Synth_Enforcer_Advanced.label>
+<Institute_Courser_Advanced.label>Продвинутый курьер Института</Institute_Courser_Advanced.label>
+<Synth_Enforcer.label>Синт-каратель</Synth_Enforcer.label>
+<Synth_Enforcer_Advanced.label>Продвинутый синт-каратель</Synth_Enforcer_Advanced.label>
 <Suppressor_Sniper.label>Ген-3 Подавитель</Suppressor_Sniper.label>
-<Suppressor_Sniper_Advanced.label>Ген-3 Подавитель (продвинутый)</Suppressor_Sniper_Advanced.label>
-<Division_Agent.label>Агент Дивизиона</Division_Agent.label>
-<Division_Agent_Advanced.label>Агент Дивизиона (продвинутый)</Division_Agent_Advanced.label>
-<Molecular_Harrier.label>Молекулярный охотник</Molecular_Harrier.label>
-<Molecular_Harrier_Advanced.label>Молекулярный охотник (продвинутый)</Molecular_Harrier_Advanced.label>
-<Reclamation_Strider.label>Странник возрождения</Reclamation_Strider.label>
+<Suppressor_Sniper_Advanced.label>Продвинутый Ген-3 Подавитель</Suppressor_Sniper_Advanced.label>
+<Division_Agent.label>Агент дивизиона</Division_Agent.label>
+<Division_Agent_Advanced.label>Продвинутый агент дивизиона</Division_Agent_Advanced.label>
+<Molecular_Harrier.label>Молекулярный загонщик</Molecular_Harrier.label>
+<Molecular_Harrier_Advanced.label>Продвинутый молекулярный загонщик</Molecular_Harrier_Advanced.label>
+<Reclamation_Strider.label>Поступь возрождения</Reclamation_Strider.label>
 </LanguageData>

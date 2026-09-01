@@ -1,51 +1,100 @@
 <LanguageData>
 	<BottleCap.label>Крышка от бутылки</BottleCap.label>
-<BottleCap.description>Крышки — это валюта, обеспеченная водой и контролируемая караванными торговыми компаниями НКР. Караванные дома сговорились вернуть крышки в качестве основной валюты, когда торговцы потеряли доверие к деньгам НКР.</BottleCap.description>
+<BottleCap.description>Крышки — это обеспеченная водой валюта, контролируемая и регулируемая торговыми компаниями караванов НКР. Торговые дома вступили в сговор, чтобы вновь ввести крышки в качестве основной валюты, когда торговцы потеряли доверие к деньгам НКР.</BottleCap.description>
 
 <NuclearBattery.label>Ядерная батарея</NuclearBattery.label>
-<NuclearBattery.description>Ах, эта крошечная батарейка, которая питает весь ваш энергетический арсенал — от лазерных винтовок до плазменных пушек! Кто бы мог подумать, что миниатюрный ядерный реактор, помещающийся на ладони, — такая отличная идея? Спасибо, довоенные корпорации, за то, что впихнули атомное деление в упаковку размером с банку газировки. Что могло пойти не так?</NuclearBattery.description>
+<NuclearBattery.description>Ах, эта крошечная батарейка, которая питает весь ваш энергетический арсенал — от лазерных винтовок до плазменных пушек! Кто бы мог подумать, что миниатюрный ядерный реактор, помещающийся на ладони, — такая отличная идея? Спасибо довоенным корпорациям за то, что упаковали ядерное деление в размер банки из-под газировки. Что могло пойти не так?</NuclearBattery.description>
 
 <Brain.label>Мозг</Brain.label>
 <Brain.description>Человеческий мозг.</Brain.description>
 
 <RadMeat.label>Мясо пустошного монстра</RadMeat.label>
-<RadMeat.description>Гастрономический «деликатес» Пустоши, добытый у существ, которые явно не прошли санитарный контроль. Этот кусок плоти может быть чем угодно — от жёсткого, как подошва, мяса брамина до подозрительно склизкого мутантского стейка. В сыром виде источает запах, от которого слезятся глаза, но после жарки (или длительного вымачивания в алкоголе) становится почти съедобным. Как говорят местные: «Если после еды у тебя не выпали волосы — тебе повезло!»</RadMeat.description>
+<RadMeat.description>Гастрономический «деликатес» Пустоши, добытый у существ, которые явно не прошли санитарный контроль. Этот кусок плоти может быть чем угодно — от жёсткого как подошва мяса брамина до подозрительно склизкого мутантного стейка. В сыром виде оно источает запах, от которого слезятся глаза, но после обжарки (или длительного вымачивания в спирте) становится почти съедобным. Как говорят местные: «Если после еды у тебя не выпали волосы — считай, повезло!»</RadMeat.description>
 
 <WaterChip.label>Чип очистки воды</WaterChip.label>
-<WaterChip.description>Чип очистки воды — это запатентованная электронная схема корпорации Vault-Tec, критически важная для работы системы переработки и очистки воды. Это устройство отвечает за тонкую фильтрацию, удаляя из воды радионуклиды, коктейли из биологических агентов, а также 99,8% вкуса и цвета мочи, делая её пригодной для повторного употребления в течение 180-летнего цикла. Без этого чипа ваше Убежище ждёт незавидная участь: от медленного и мучительного обезвоживания до быстрого и весёлого превращения в лужу радиоактивной слизи из-за неисправности системы охлаждения ядерного реактора. Помните: чип — это жизнь! По крайней мере, так гласит статья 45-б регламента вашего Убежища.</WaterChip.description>
+<WaterChip.description>Чип очистки воды — это запатентованная электронная схема корпорации Vault-Tec, критически важная для работы системы переработки и очистки воды («Пожирателя отходов»). Это устройство отвечает за тонкую фильтрацию, удаление радионуклидов и коктейлей биоагентов из воды, а также за 99,8% удаление вкуса и цвета мочи, что делает воду пригодной для повторного употребления в течение 180-летнего цикла. Без этого чипа ваше Убежище ждёт незавидная участь: от медленного и мучительного обезвоживания до быстрого и весёлого превращения в лужу радиоактивной слизи из-за неисправности системы охлаждения ядерного реактора. Помните: чип — это жизнь! По крайней мере, так гласит Статья 45-б Устава вашего Убежища.</WaterChip.description>
 
 <SummonPulserSewageCreature.description>[СОСТОЯНИЕ: ПРОСРОЧЕНО НА 200 ЛЕТ, НО КТО ЖЕ СЧИТАЕТ?]
-Ржавая цилиндрическая банка с клапаном биологической опасности. Изнутри доносится тихий скрежещущий звук. Или это ваша совесть?</SummonPulserSewageCreature.description>
+Ржавая цилиндрическая банка с клапаном биологической опасности. Изнутри доносится тихий скребущий звук. Или это ваша совесть?</SummonPulserSewageCreature.description>
 <SummonPulserSewageCreature.label>ЖИВОЙ СЮРПРИЗ (1)</SummonPulserSewageCreature.label>
 
 <SummonPulserKirin.description>[СОСТОЯНИЕ: ПРОСРОЧЕНО НА 200 ЛЕТ, НО КТО ЖЕ СЧИТАЕТ?]
-Ржавая цилиндрическая банка с клапаном биологической опасности. Изнутри доносится тихий скрежещущий звук. Или это ваша совесть?</SummonPulserKirin.description>
+Ржавая цилиндрическая банка с клапаном биологической опасности. Изнутри доносится тихий скребущий звук. Или это ваша совесть?</SummonPulserKirin.description>
 <SummonPulserKirin.label>ЖИВОЙ СЮРПРИЗ (2)</SummonPulserKirin.label>
 
 <SummonPulserRadroach.description>[СОСТОЯНИЕ: ПРОСРОЧЕНО НА 200 ЛЕТ, НО КТО ЖЕ СЧИТАЕТ?]
-Ржавая цилиндрическая банка с клапаном биологической опасности. Изнутри доносится тихий скрежещущий звук. Или это ваша совесть?</SummonPulserRadroach.description>
+Ржавая цилиндрическая банка с клапаном биологической опасности. Изнутри доносится тихий скребущий звук. Или это ваша совесть?</SummonPulserRadroach.description>
 <SummonPulserRadroach.label>ЖИВОЙ СЮРПРИЗ (3)</SummonPulserRadroach.label>
 
-<OmniLeg.label>Эксо-игла «Бионическая нога»</OmniLeg.label>
-<OmniLeg.description>Слоган: «Чувствуете, что вам не хватает искры? Купите имплант и установите его самостоятельно! Наше устройство просверлит, подсоединит и зашьёт. Идеально подходит для Пустоши, где каждый мутант хочет оторвать вам руку!»</OmniLeg.description>
+<OmniLeg.label>Экс-игла «Бионическая нога»</OmniLeg.label>
+<OmniLeg.description>Слоган: «Чувствуете, что вам не хватает искры? Купите имплант и установите его сами! Наше устройство просверлит, подключит и зашьёт. Идеально подходит для Пустоши, где каждый мутант хочет оторвать вам руку!»</OmniLeg.description>
 <OmniLeg.comps.0.useLabel>Установить кибернетическую бионическую ногу</OmniLeg.comps.0.useLabel>
 
-<OmniArm.label>Эксо-игла «Бионическая рука»</OmniArm.label>
-<OmniArm.description>Слоган: «Чувствуете, что вам не хватает искры? Купите имплант и установите его самостоятельно! Наше устройство просверлит, подсоединит и зашьёт. Идеально подходит для Пустоши, где каждый мутант хочет оторвать вам руку!»</OmniArm.description>
+<OmniArm.label>Экс-игла «Бионическая рука»</OmniArm.label>
+<OmniArm.description>Слоган: «Чувствуете, что вам не хватает искры? Купите имплант и установите его сами! Наше устройство просверлит, подключит и зашьёт. Идеально подходит для Пустоши, где каждый мутант хочет оторвать вам руку!»</OmniArm.description>
 <OmniArm.comps.0.useLabel>Установить кибернетическую бионическую руку</OmniArm.comps.0.useLabel>
 
-<OmniEye.label>Эксо-игла «Бионический глаз»</OmniEye.label>
-<OmniEye.description>Слоган: «Чувствуете, что вам не хватает искры? Купите имплант и установите его самостоятельно! Наше устройство просверлит, подсоединит и зашьёт. Идеально подходит для Пустоши, где каждый мутант хочет оторвать вам руку!»</OmniEye.description>
+<OmniEye.label>Экс-игла «Бионический глаз»</OmniEye.label>
+<OmniEye.description>Слоган: «Чувствуете, что вам не хватает искры? Купите имплант и установите его сами! Наше устройство просверлит, подключит и зашьёт. Идеально подходит для Пустоши, где каждый мутант хочет оторвать вам руку!»</OmniEye.description>
 <OmniEye.comps.0.useLabel>Установить кибернетический бионический глаз</OmniEye.comps.0.useLabel>
 
-<OmniSpine.label>Эксо-игла «Бионический позвоночник»</OmniSpine.label>
-<OmniSpine.description>Слоган: «Чувствуете, что вам не хватает искры? Купите имплант и установите его самостоятельно! Наше устройство просверлит, подсоединит и зашьёт. Идеально подходит для Пустоши, где каждый мутант хочет оторвать вам руку!»</OmniSpine.description>
+<OmniSpine.label>Экс-игла «Бионический позвоночник»</OmniSpine.label>
+<OmniSpine.description>Слоган: «Чувствуете, что вам не хватает искры? Купите имплант и установите его сами! Наше устройство просверлит, подключит и зашьёт. Идеально подходит для Пустоши, где каждый мутант хочет оторвать вам руку!»</OmniSpine.description>
 <OmniSpine.comps.0.useLabel>Установить кибернетический бионический позвоночник</OmniSpine.comps.0.useLabel>
 
-<Ammo_StimulantCartridge.label>Картридж со стимулятором</Ammo_StimulantCartridge.label>
-<Ammo_StimulantCartridge.description>Одноразовый картридж, содержащий химический коктейль-стимулятор (кофеин, амфетамины, питательные вещества).</Ammo_StimulantCartridge.description>
+<Ammo_StimulantCartridge.label>Стимулирующий патрон</Ammo_StimulantCartridge.label>
+<Ammo_StimulantCartridge.description>Одноразовый патрон, содержащий коктейль химических стимуляторов (кофеин, амфетамины, питательные вещества).</Ammo_StimulantCartridge.description>
 
 <Plastipod.label>Пластипод</Plastipod.label>
-<Plastipod.description>Клубень на стебле, внутри которого созревает липкая чёрная масса — основа для примитивного пластика. При сжатии лопается с хлюпающим звуком. Для получения пластика его необходимо сварить.</Plastipod.description>
+<Plastipod.description>Клубень на стебле, внутри которого созревает липкая чёрная кашица — основа для примитивного пластика. При сдавливании лопается с чавкающим звуком. Для получения пластика его необходимо проварить.</Plastipod.description>
 <Plastipod.stuffProps.stuffAdjective>Пластиподовый</Plastipod.stuffProps.stuffAdjective>
+
+<HolodiskPowerI.label>Голодиск «Энергетика I»</HolodiskPowerI.label>
+<HolodiskPowerI.description>Довоенный носитель данных, содержащий зашифрованные чертежи и протоколы. Изучение позволит расшифровать утерянные технологии и открыть доступ к продвинутым модификациям оружия и брони.</HolodiskPowerI.description>
+<HolodiskPowerI.comps.0.activateLabelString>Анализировать...</HolodiskPowerI.comps.0.activateLabelString>
+<HolodiskPowerI.comps.0.activateDescString>Проанализировать голодиск.</HolodiskPowerI.comps.0.activateDescString>
+<HolodiskPowerI.comps.0.jobString>Анализирует голодиск</HolodiskPowerI.comps.0.jobString>
+<HolodiskPowerI.comps.0.guiLabelString>Выберите, кто должен это проанализировать</HolodiskPowerI.comps.0.guiLabelString>
+
+<HolodiskPowerII.label>Голодиск «Энергетика II»</HolodiskPowerII.label>
+<HolodiskPowerII.description>Довоенный носитель данных, содержащий зашифрованные чертежи и протоколы. Изучение позволит расшифровать утерянные технологии и открыть доступ к продвинутым модификациям оружия и брони.</HolodiskPowerII.description>
+<HolodiskPowerII.comps.0.activateLabelString>Анализировать...</HolodiskPowerII.comps.0.activateLabelString>
+<HolodiskPowerII.comps.0.activateDescString>Проанализировать голодиск.</HolodiskPowerII.comps.0.activateDescString>
+<HolodiskPowerII.comps.0.jobString>Анализирует голодиск</HolodiskPowerII.comps.0.jobString>
+<HolodiskPowerII.comps.0.guiLabelString>Выберите, кто должен это проанализировать</HolodiskPowerII.comps.0.guiLabelString>
+
+<HolodiskProtection.label>Голодиск «Защита»</HolodiskProtection.label>
+<HolodiskProtection.description>Довоенный носитель данных, содержащий зашифрованные чертежи и протоколы. Изучение позволит расшифровать утерянные технологии и открыть доступ к продвинутым модификациям оружия и брони.</HolodiskProtection.description>
+<HolodiskProtection.comps.0.activateLabelString>Анализировать...</HolodiskProtection.comps.0.activateLabelString>
+<HolodiskProtection.comps.0.activateDescString>Проанализировать голодиск.</HolodiskProtection.comps.0.activateDescString>
+<HolodiskProtection.comps.0.jobString>Анализирует голодиск</HolodiskProtection.comps.0.jobString>
+<HolodiskProtection.comps.0.guiLabelString>Выберите, кто должен это проанализировать</HolodiskProtection.comps.0.guiLabelString>
+
+<HolodiskIED.label>Голодиск «СВУ»</HolodiskIED.label>
+<HolodiskIED.description>Довоенный носитель данных, содержащий зашифрованные чертежи и протоколы. Изучение позволит расшифровать утерянные технологии и открыть доступ к продвинутым модификациям оружия и брони.</HolodiskIED.description>
+<HolodiskIED.comps.0.activateLabelString>Анализировать...</HolodiskIED.comps.0.activateLabelString>
+<HolodiskIED.comps.0.activateDescString>Проанализировать голодиск.</HolodiskIED.comps.0.activateDescString>
+<HolodiskIED.comps.0.jobString>Анализирует голодиск</HolodiskIED.comps.0.jobString>
+<HolodiskIED.comps.0.guiLabelString>Выберите, кто должен это проанализировать</HolodiskIED.comps.0.guiLabelString>
+
+<HolodiskDrug.label>Голодиск «Химия»</HolodiskDrug.label>
+<HolodiskDrug.description>Довоенный носитель данных, содержащий зашифрованные чертежи и протоколы. Изучение позволит расшифровать утерянные технологии и открыть доступ к продвинутым модификациям оружия и брони.</HolodiskDrug.description>
+<HolodiskDrug.comps.0.activateLabelString>Анализировать...</HolodiskDrug.comps.0.activateLabelString>
+<HolodiskDrug.comps.0.activateDescString>Проанализировать голодиск.</HolodiskDrug.comps.0.activateDescString>
+<HolodiskDrug.comps.0.jobString>Анализирует голодиск</HolodiskDrug.comps.0.jobString>
+<HolodiskDrug.comps.0.guiLabelString>Выберите, кто должен это проанализировать</HolodiskDrug.comps.0.guiLabelString>
+
+<HolodiskHW.label>Голодиск «Тяжёлое оружие»</HolodiskHW.label>
+<HolodiskHW.description>Довоенный носитель данных, содержащий зашифрованные чертежи и протоколы. Изучение позволит расшифровать утерянные технологии и открыть доступ к продвинутым модификациям оружия и брони.</HolodiskHW.description>
+<HolodiskHW.comps.0.activateLabelString>Анализировать...</HolodiskHW.comps.0.activateLabelString>
+<HolodiskHW.comps.0.activateDescString>Проанализировать голодиск.</HolodiskHW.comps.0.activateDescString>
+<HolodiskHW.comps.0.jobString>Анализирует голодиск</HolodiskHW.comps.0.jobString>
+<HolodiskHW.comps.0.guiLabelString>Выберите, кто должен это проанализировать</HolodiskHW.comps.0.guiLabelString>
+
+<HolodiskEW.label>Голодиск «Энергооружие»</HolodiskEW.label>
+<HolodiskEW.description>Довоенный носитель данных, содержащий зашифрованные чертежи и протоколы. Изучение позволит расшифровать утерянные технологии и открыть доступ к продвинутым модификациям оружия и брони.</HolodiskEW.description>
+<HolodiskEW.comps.0.activateLabelString>Анализировать...</HolodiskEW.comps.0.activateLabelString>
+<HolodiskEW.comps.0.activateDescString>Проанализировать голодиск.</HolodiskEW.comps.0.activateDescString>
+<HolodiskEW.comps.0.jobString>Анализирует голодиск</HolodiskEW.comps.0.jobString>
+<HolodiskEW.comps.0.guiLabelString>Выберите, кто должен это проанализировать</HolodiskEW.comps.0.guiLabelString>
 </LanguageData>

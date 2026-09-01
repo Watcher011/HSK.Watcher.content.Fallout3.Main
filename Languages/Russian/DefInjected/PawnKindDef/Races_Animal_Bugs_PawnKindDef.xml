@@ -1,5 +1,5 @@
 <LanguageData>
-<Radroach.label>Рад-таракан</Radroach.label>
+	<Radroach.label>Рад-таракан</Radroach.label>
 <Radroach.lifeStages.0.labelPlural>Рад-тараканы</Radroach.lifeStages.0.labelPlural>
 
 <GlowingRadroach.label>Светящийся рад-таракан</GlowingRadroach.label>
@@ -17,8 +17,8 @@
 <HugeBee.label>Гигантская пчела</HugeBee.label>
 <HugeBee.lifeStages.2.labelPlural>Гигантские пчёлы</HugeBee.lifeStages.2.labelPlural>
 
-<SewageCreature.label>Фекальный монстр</SewageCreature.label>
-<SewageCreature.lifeStages.2.labelPlural>Фекальные монстры</SewageCreature.lifeStages.2.labelPlural>
+<SewageCreature.label>Тварь из канализации</SewageCreature.label>
+<SewageCreature.lifeStages.2.labelPlural>Твари из канализации</SewageCreature.lifeStages.2.labelPlural>
 
 <SporePlant.label>Споровое растение</SporePlant.label>
 <SporePlant.lifeStages.0.labelPlural>Споровые растения</SporePlant.lifeStages.0.labelPlural>

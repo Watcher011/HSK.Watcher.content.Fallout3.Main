@@ -1,5 +1,5 @@
 <LanguageData>
-<MakeAmmo_Dart_Syringer.label>Создать дротик для шприцемёта x10</MakeAmmo_Dart_Syringer.label>
-<MakeAmmo_Dart_Syringer.description>Создать 10 дротиков для шприцемёта.</MakeAmmo_Dart_Syringer.description>
-<MakeAmmo_Dart_Syringer.jobString>Создание дротиков для шприцемёта.</MakeAmmo_Dart_Syringer.jobString>
+<MakeAmmo_Dart_Syringer.label>Сделать дротики для инжектора x10</MakeAmmo_Dart_Syringer.label>
+<MakeAmmo_Dart_Syringer.description>Создать 10 дротиков для инжектора для использования с духовыми трубками.</MakeAmmo_Dart_Syringer.description>
+<MakeAmmo_Dart_Syringer.jobString>Создаёт дротики для инжектора.</MakeAmmo_Dart_Syringer.jobString>
 </LanguageData>

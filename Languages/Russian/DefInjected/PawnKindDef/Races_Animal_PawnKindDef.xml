@@ -1,17 +1,17 @@
 <LanguageData>
-<Gecko_green.label>Зелёный геккон</Gecko_green.label>
-<Gecko_green.lifeStages.2.labelPlural>Зелёные гекконы</Gecko_green.lifeStages.2.labelPlural>
+<Gecko_green.label>Зелёный гекко</Gecko_green.label>
+<Gecko_green.lifeStages.2.labelPlural>Зелёные гекко</Gecko_green.lifeStages.2.labelPlural>
 
-<Deathclaw.label>Коготь смерти</Deathclaw.label>
-<Deathclaw.lifeStages.2.labelPlural>Когти смерти</Deathclaw.lifeStages.2.labelPlural>
+<Deathclaw.label>Смертокоготь</Deathclaw.label>
+<Deathclaw.lifeStages.2.labelPlural>Смертокогти</Deathclaw.lifeStages.2.labelPlural>
 
 <Cyberdog.label>Киберпёс</Cyberdog.label>
 <Cyberdog.lifeStages.0.label>Щенок киберпса</Cyberdog.lifeStages.0.label>
-<Cyberdog.lifeStages.0.labelPlural>Щенки киберпсов</Cyberdog.lifeStages.0.labelPlural>
+<Cyberdog.lifeStages.0.labelPlural>Щенки киберпса</Cyberdog.lifeStages.0.labelPlural>
 <Cyberdog.lifeStages.2.labelPlural>Киберпсы</Cyberdog.lifeStages.2.labelPlural>
 
-<Mirelurk.label>Топяход</Mirelurk.label>
-<Mirelurk.lifeStages.2.labelPlural>Топяходы</Mirelurk.lifeStages.2.labelPlural>
+<Mirelurk.label>Болотник</Mirelurk.label>
+<Mirelurk.lifeStages.2.labelPlural>Болотники</Mirelurk.lifeStages.2.labelPlural>
 
 <Brahmin.label>Брамин</Brahmin.label>
 <Brahmin.labelMale>Брамин</Brahmin.labelMale>
@@ -19,30 +19,30 @@
 <Brahmin.lifeStages.0.labelPlural>Телята</Brahmin.lifeStages.0.labelPlural>
 <Brahmin.lifeStages.2.labelPlural>Брамины</Brahmin.lifeStages.2.labelPlural>
 
-<RadDeer.label>Радиоолень</RadDeer.label>
-<RadDeer.labelPlural>Радиоолени</RadDeer.labelPlural>
-<RadDeer.labelMale>Радиоолень-самец</RadDeer.labelMale>
-<RadDeer.labelFemale>Радиоолень-самка</RadDeer.labelFemale>
-<RadDeer.lifeStages.2.labelPlural>Радиоолени</RadDeer.lifeStages.2.labelPlural>
+<RadDeer.label>Рад-олень</RadDeer.label>
+<RadDeer.labelPlural>Рад-олени</RadDeer.labelPlural>
+<RadDeer.labelMale>Рад-самец</RadDeer.labelMale>
+<RadDeer.labelFemale>Рад-самка</RadDeer.labelFemale>
+<RadDeer.lifeStages.2.labelPlural>Рад-олени</RadDeer.lifeStages.2.labelPlural>
 
-<GlowRadDeer.label>Светящийся радиоолень</GlowRadDeer.label>
-<GlowRadDeer.labelPlural>Светящиеся радиоолени</GlowRadDeer.labelPlural>
-<GlowRadDeer.labelMale>Светящийся радиоолень-самец</GlowRadDeer.labelMale>
-<GlowRadDeer.labelFemale>Светящийся радиоолень-самка</GlowRadDeer.labelFemale>
-<GlowRadDeer.lifeStages.2.labelPlural>Светящиеся радиоолени</GlowRadDeer.lifeStages.2.labelPlural>
+<GlowRadDeer.label>Светящийся рад-олень</GlowRadDeer.label>
+<GlowRadDeer.labelPlural>Светящиеся рад-олени</GlowRadDeer.labelPlural>
+<GlowRadDeer.labelMale>Светящийся рад-самец</GlowRadDeer.labelMale>
+<GlowRadDeer.labelFemale>Светящаяся рад-самка</GlowRadDeer.labelFemale>
+<GlowRadDeer.lifeStages.2.labelPlural>Светящиеся рад-олени</GlowRadDeer.lifeStages.2.labelPlural>
 
-<MoleRat.label>Крысокрот</MoleRat.label>
-<MoleRat.lifeStages.2.labelPlural>Крысокроты</MoleRat.lifeStages.2.labelPlural>
+<MoleRat.label>Кротокрыс</MoleRat.label>
+<MoleRat.lifeStages.2.labelPlural>Кротокрысы</MoleRat.lifeStages.2.labelPlural>
 
-<MutantHound.label>Пёс-мутант</MutantHound.label>
-<MutantHound.labelPlural>Псы-мутанты</MutantHound.labelPlural>
-<MutantHound.lifeStages.0.label>Щенок пса-мутанта</MutantHound.lifeStages.0.label>
-<MutantHound.lifeStages.0.labelPlural>Щенки псов-мутантов</MutantHound.lifeStages.0.labelPlural>
-<MutantHound.lifeStages.2.labelPlural>Псы-мутанты</MutantHound.lifeStages.2.labelPlural>
+<MutantHound.label>Мутант-гончая</MutantHound.label>
+<MutantHound.labelPlural>Мутант-гончие</MutantHound.labelPlural>
+<MutantHound.lifeStages.0.label>Щенок мутант-гончей</MutantHound.lifeStages.0.label>
+<MutantHound.lifeStages.0.labelPlural>Щенки мутант-гончей</MutantHound.lifeStages.0.labelPlural>
+<MutantHound.lifeStages.2.labelPlural>Мутант-гончие</MutantHound.lifeStages.2.labelPlural>
 
-<Radboar.label>Радиовепри</Radboar.label>
-<Radboar.lifeStages.2.labelPlural>Радиовепри</Radboar.lifeStages.2.labelPlural>
+<Radboar.label>Рад-вепрь</Radboar.label>
+<Radboar.lifeStages.2.labelPlural>Рад-вепри</Radboar.lifeStages.2.labelPlural>
 
-<Glutton.label>Обжора</Glutton.label>
-<Glutton.lifeStages.0.labelPlural>Обжоры</Glutton.lifeStages.0.labelPlural>
+<Glutton.label>Заглот</Glutton.label>
+<Glutton.lifeStages.0.labelPlural>Заглоты</Glutton.lifeStages.0.labelPlural>
 </LanguageData>

@@ -1,75 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ResearchProjectDef ParentName="MedievalBase">
-    <defName>Vault-TecPower</defName>
-    <label>Vault-Tec Power</label>
+  <ResearchProjectDef ParentName="IndustrialBase">
+    <defName>Vault-TecPowerA</defName>
+    <label>Vault-Tec Power I</label>
     <description>Build Generators Using Vault-Tec Blueprints.</description>
     <baseCost>500</baseCost>
     <prerequisites>
       <li>Electricity</li>
+	   <li>Machining</li>
     </prerequisites>
-    <hiddenPrerequisites>
-      <li>Machining</li>
-    </hiddenPrerequisites>
-	<techLevel>Medieval</techLevel>
+	<techLevel>Industrial</techLevel>
 	<tab>Buildings_SK</tab>
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
    <researchViewX>10.00</researchViewX>
-    <researchViewY>18.00</researchViewY>
+    <researchViewY>75.00</researchViewY>
+	<requiredAnalyzed>
+        <li>HolodiskPowerI</li>  <!-- defName предмета, который нужно проанализировать -->
+    </requiredAnalyzed>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec Power</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
-
- <ResearchProjectDef ParentName="MedievalBase">
-    <defName>Vault-TecProduction</defName>
-    <label>Vault-Tec Production</label>
-    <description>Build Workbench Using Vault-Tec Blueprints.</description>
-    <baseCost>800</baseCost>
+  
+   <ResearchProjectDef ParentName="IndustrialBase">
+    <defName>Vault-TecPowerB</defName>
+    <label>Vault-Tec Power II</label>
+    <description>Build Generators Using Vault-Tec Blueprints.</description>
+    <baseCost>500</baseCost>
     <prerequisites>
-      <li>Vault-TecPower</li>
+      <li>Vault-TecPowerA</li>
     </prerequisites>
-    <hiddenPrerequisites>
-      <li>Vault-TecPower</li>
-    </hiddenPrerequisites>
 	<techLevel>Industrial</techLevel>
-	
-	<!--  <techprintCount>2</techprintCount>
-    <techprintCommonality>3</techprintCommonality>
-    <techprintMarketValue>3000</techprintMarketValue>-->
-  <!--  <heldByFactionCategoryTags>
-      <li>Empire</li>
-    </heldByFactionCategoryTags>-->
-	
 	<tab>Buildings_SK</tab>
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
    <researchViewX>11.00</researchViewX>
-    <researchViewY>18.00</researchViewY>
+    <researchViewY>75.00</researchViewY>
+	<requiredAnalyzed>
+        <li>HolodiskPowerII</li>  <!-- defName предмета, который нужно проанализировать -->
+    </requiredAnalyzed>
     <generalRules>
       <rulesStrings>
-        <li>subject->Vault-Tec Production</li>
+        <li>subject->Vault-Tec Power</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
   
-   <ResearchProjectDef ParentName="MedievalBase">
-    <defName>Vault-TecProcessing</defName>
-    <label>Vault-Tec chemical processing</label>
-    <description>Build laboratory Using Vault-Tec Blueprints.</description>
-    <baseCost>500</baseCost>
+  
+  
+  
+  
+
+ <ResearchProjectDef ParentName="IndustrialBase">
+    <defName>Vault-TecProtection</defName>
+    <label>Vault-Tec Protection</label>
+    <description>Build Protection Using Vault-Tec Blueprints.</description>
+    <baseCost>1200</baseCost>
     <prerequisites>
-      <li>Vault-TecProduction</li>
+      <li>Electricity</li>
+	   <li>Machining</li>
     </prerequisites>
-    <hiddenPrerequisites>
-      <li>Machining</li>
-    </hiddenPrerequisites>
 	<techLevel>Industrial</techLevel>
 	<tab>Buildings_SK</tab>
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
-   <researchViewX>12.00</researchViewX>
-    <researchViewY>18.00</researchViewY>
+   <researchViewX>9.00</researchViewX> 
+    <researchViewY>76.00</researchViewY>
+	<requiredAnalyzed>
+        <li>HolodiskProtection</li>  <!-- defName предмета, который нужно проанализировать -->
+    </requiredAnalyzed>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vault-Tec Protection</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+   <ResearchProjectDef ParentName="IndustrialBase">
+    <defName>Vault-TecIED</defName>
+    <label>Vault-Tec improvised explosive device</label>
+    <description>Build Protection Using Vault-Tec Blueprints.</description>
+    <baseCost>500</baseCost>
+    <prerequisites>
+     	<li>IEDs</li>
+	   <li>Machining</li>
+    </prerequisites>
+	<techLevel>Industrial</techLevel>
+	<tab>Buildings_SK</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+  <researchViewX>9.00</researchViewX> 
+    <researchViewY>74.00</researchViewY>
+	<requiredAnalyzed>
+        <li>HolodiskIED</li>  <!-- defName предмета, который нужно проанализировать -->
+    </requiredAnalyzed>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vault-Tec improvised explosive device</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+  
+  
+  
+   <ResearchProjectDef ParentName="IndustrialBase">
+    <defName>Vault-TecProcessing</defName>
+    <label>Vault-Tec chemical processing</label>
+    <description>Build laboratory Using Vault-Tec Blueprints.</description>
+    <baseCost>800</baseCost>
+	<techLevel>Industrial</techLevel>
+	<tab>Buildings_SK</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+   <researchViewX>9.00</researchViewX> 
+    <researchViewY>72.00</researchViewY>
+	<requiredAnalyzed>
+        <li>HolodiskDrug</li>  <!-- defName предмета, который нужно проанализировать -->
+    </requiredAnalyzed>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec laboratory</li>
@@ -77,7 +122,45 @@
     </generalRules>
   </ResearchProjectDef>
   
+   <ResearchProjectDef ParentName="IndustrialBase">
+    <defName>Vault-TecHW</defName>
+    <label>Vault-Tec heavy weapons</label>
+    <description>Build heavy weapons Using Vault-Tec Blueprints.</description>
+    <baseCost>1500</baseCost>
+	<techLevel>Industrial</techLevel>
+	<tab>Buildings_SK</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+   <researchViewX>10.00</researchViewX> 
+    <researchViewY>72.00</researchViewY>
+	<requiredAnalyzed>
+        <li>HolodiskHW</li>  <!-- defName предмета, который нужно проанализировать -->
+    </requiredAnalyzed>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vault-Tec heavy weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
   
+  <ResearchProjectDef ParentName="IndustrialBase">
+    <defName>Vault-TecEW</defName>
+    <label>Vault-Tec energy weapons</label>
+    <description>Build energy weapons Using Vault-Tec Blueprints.</description>
+    <baseCost>1500</baseCost>
+	<techLevel>Industrial</techLevel>
+	<tab>Buildings_SK</tab>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+   <researchViewX>11.00</researchViewX> 
+    <researchViewY>72.00</researchViewY>
+	<requiredAnalyzed>
+        <li>HolodiskEW</li>  <!-- defName предмета, который нужно проанализировать -->
+    </requiredAnalyzed>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->Vault-Tec energy weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
   
   <!-- <ResearchProjectDef ParentName="MedievalBase">
     <defName>Vault-Tec</defName>
@@ -107,5 +190,6 @@
       </li>
     </modExtensions>
   </ResearchProjectDef>-->
+  
   
 </Defs>

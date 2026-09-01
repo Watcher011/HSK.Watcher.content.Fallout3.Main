@@ -1,19 +1,43 @@
 <LanguageData>
-<Vault-TecPower.label>Энергетика Волт-Тек</Vault-TecPower.label>
-<Vault-TecPower.description>Строит генераторы по чертежам Волт-Тек.</Vault-TecPower.description>
-<Vault-TecPower.generalRules.rulesStrings>
-	<li>subject->Энергетика Волт-Тек</li>
-</Vault-TecPower.generalRules.rulesStrings>
+<Vault-TecPowerA.label>Энергетика Волт-Тек I</Vault-TecPowerA.label>
+<Vault-TecPowerA.description>Строить генераторы по чертежам Волт-Тек.</Vault-TecPowerA.description>
+<Vault-TecPowerA.generalRules.rulesStrings>
+		<li>subject->Энергетика Волт-Тек</li>
+</Vault-TecPowerA.generalRules.rulesStrings>
 
-<Vault-TecProduction.label>Производство Волт-Тек</Vault-TecProduction.label>
-<Vault-TecProduction.description>Строит верстаки по чертежам Волт-Тек.</Vault-TecProduction.description>
-<Vault-TecProduction.generalRules.rulesStrings>
-	<li>subject->Производство Волт-Тек</li>
-</Vault-TecProduction.generalRules.rulesStrings>
+<Vault-TecPowerB.label>Энергетика Волт-Тек II</Vault-TecPowerB.label>
+<Vault-TecPowerB.description>Строить генераторы по чертежам Волт-Тек.</Vault-TecPowerB.description>
+<Vault-TecPowerB.generalRules.rulesStrings>
+		<li>subject->Энергетика Волт-Тек</li>
+</Vault-TecPowerB.generalRules.rulesStrings>
 
-<Vault-TecProcessing.label>Химическая переработка Волт-Тек</Vault-TecProcessing.label>
-<Vault-TecProcessing.description>Строит лаборатории по чертежам Волт-Тек.</Vault-TecProcessing.description>
+<Vault-TecProtection.label>Защита Волт-Тек</Vault-TecProtection.label>
+<Vault-TecProtection.description>Строить средства защиты по чертежам Волт-Тек.</Vault-TecProtection.description>
+<Vault-TecProtection.generalRules.rulesStrings>
+		<li>subject->Защита Волт-Тек</li>
+</Vault-TecProtection.generalRules.rulesStrings>
+
+<Vault-TecIED.label>Самодельное взрывное устройство Волт-Тек</Vault-TecIED.label>
+<Vault-TecIED.description>Строить средства защиты по чертежам Волт-Тек.</Vault-TecIED.description>
+<Vault-TecIED.generalRules.rulesStrings>
+		<li>subject->Самодельное взрывное устройство Волт-Тек</li>
+</Vault-TecIED.generalRules.rulesStrings>
+
+<Vault-TecProcessing.label>Химическая обработка Волт-Тек</Vault-TecProcessing.label>
+<Vault-TecProcessing.description>Строить лабораторию по чертежам Волт-Тек.</Vault-TecProcessing.description>
 <Vault-TecProcessing.generalRules.rulesStrings>
-	<li>subject->Лаборатория Волт-Тек</li>
+		<li>subject->Лаборатория Волт-Тек</li>
 </Vault-TecProcessing.generalRules.rulesStrings>
+
+<Vault-TecHW.label>Тяжёлое вооружение Волт-Тек</Vault-TecHW.label>
+<Vault-TecHW.description>Строить тяжёлое вооружение по чертежам Волт-Тек.</Vault-TecHW.description>
+<Vault-TecHW.generalRules.rulesStrings>
+		<li>subject->Тяжёлое вооружение Волт-Тек</li>
+</Vault-TecHW.generalRules.rulesStrings>
+
+<Vault-TecEW.label>Энергетическое вооружение Волт-Тек</Vault-TecEW.label>
+<Vault-TecEW.description>Строить энергетическое вооружение по чертежам Волт-Тек.</Vault-TecEW.description>
+<Vault-TecEW.generalRules.rulesStrings>
+		<li>subject->Энергетическое вооружение Волт-Тек</li>
+</Vault-TecEW.generalRules.rulesStrings>
 </LanguageData>

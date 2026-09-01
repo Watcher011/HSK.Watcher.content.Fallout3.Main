@@ -1,65 +1,65 @@
 <LanguageData>
 	<TrapIED_LidMineExplosive.label>Самодельная крышечная мина</TrapIED_LidMineExplosive.label>
-<TrapIED_LidMineExplosive.description>Популярный довоенный ланч-бокс Vault-Tec стал основой для смертоносной мины в постапокалиптическом Содружестве. Это самодельное устройство поможет вам справиться с любым врагом. Может использоваться как ловушка. Животные чувствуют их, когда спокойны.</TrapIED_LidMineExplosive.description>
+<TrapIED_LidMineExplosive.description>Популярный довоенный ланч-бокс Vault-Tec стал основой для смертоносной мины в постапокалиптическом Содружестве. Это самодельное устройство поможет вам справиться с любым врагом. Можно использовать как ловушку. Животные чувствуют их, когда спокойны.</TrapIED_LidMineExplosive.description>
 
-<TrapIED_PigMineExplosive.label>Самодельная мина «Копилка»</TrapIED_PigMineExplosive.label>
-<TrapIED_PigMineExplosive.description>«Кто сказал, что копилки должны быть мирными? Этот милый розовый поросёнок с весёлой ухмылкой станет последним, что увидит незваный гость, прежде чем его брюшко, начинённое крышками от бутылок, взорвётся ослепительным фейерверком из металлических осколков. Каждая крышка — это не просто кусок жести, это ржавый, зазубренный снаряд, стремящийся вонзиться во всё, что окажется рядом. В конце концов, эта свинья не просто копит деньги — она копит смерть!» «Запрещено в 12 колониях за "чрезмерную креативность", но с каких пор война должна быть скучной? Особенно когда это так весело!»</TrapIED_PigMineExplosive.description>
+<TrapIED_PigMineExplosive.label>Самодельная мина-копилка</TrapIED_PigMineExplosive.label>
+<TrapIED_PigMineExplosive.description>«Кто сказал, что копилки должны быть мирными? Этот милый розовый поросёнок с весёлой ухмылкой станет последним, что увидит незваный гость, прежде чем его брюхо, набитое крышками, взорвётся ослепительным фейерверком металлических осколков. Каждая крышка — это не просто кусок жести, а ржавый, зазубренный осколок, жаждущий вонзиться во всё, что окажется рядом. Ведь этот поросёнок не просто копит деньги — он копит смерть!» «Запрещён в 12 колониях за "чрезмерную креативность", но с каких пор война должна быть скучной? Особенно когда это так весело!»</TrapIED_PigMineExplosive.description>
 
 <TrapIED_PlasmaMineExplosive.label>Самодельная плазменная мина</TrapIED_PlasmaMineExplosive.label>
-<TrapIED_PlasmaMineExplosive.description>Этот высокотехнологичный образчик вежливости от довоенных инженеров NUKA ждёт именно тех, кто не смотрит под ноги. Принцип прост: вы ставите её, забываете о ней, а затем кто-то другой (возможно, даже вы) получает мгновенный урок термодинамики.</TrapIED_PlasmaMineExplosive.description>
+<TrapIED_PlasmaMineExplosive.description>Этот высокотехнологичный образец вежливости от довоенных инженеров NUKA ждёт именно тех, кто не смотрит под ноги. Принцип прост: вы ставите, забываете, а потом кто-то другой (возможно, даже вы) получает мгновенный урок термодинамики.</TrapIED_PlasmaMineExplosive.description>
 
 <TrapIED_StanMineExplosive.label>Самодельная усыпляющая мина</TrapIED_StanMineExplosive.label>
-<TrapIED_StanMineExplosive.description>Хрупкая колба с розоватым газом, помеченная как «Vault-Tec Сладкие сны». При подрыве выпускает облако мощного транквилизатора, превращая противников в сонных зомби. Побочные эффекты могут включать: неконтролируемый храп, спонтанные объятия и желание рассказать всем о своём детстве. *Не использовать на супермутантах — может вызвать приступы сентиментальности*.</TrapIED_StanMineExplosive.description>
+<TrapIED_StanMineExplosive.description>Хрупкая колба, содержащая розоватый газ с пометкой «Vault-Tec Сладкие Сны». При детонации выпускает облако мощного транквилизатора, превращая врагов в сонных зомби. Побочные эффекты могут включать: неконтролируемый храп, спонтанные объятия и желание рассказать всем о своём детстве. *Не использовать на супермутантах — может вызвать приступы сентиментальности*.</TrapIED_StanMineExplosive.description>
 
-<Fallout_Turret_Turret.comps.4.fuelLabel>Заряды батарей</Fallout_Turret_Turret.comps.4.fuelLabel>
+<Fallout_Turret_Turret.comps.4.fuelLabel>Заряды батареи</Fallout_Turret_Turret.comps.4.fuelLabel>
 <Fallout_Turret_Turret.comps.4.fuelGizmoLabel>Уровень заряда</Fallout_Turret_Turret.comps.4.fuelGizmoLabel>
-<Fallout_Turret_Turret.comps.4.outOfFuelMessage>Не могу стрелять : Замените батарею</Fallout_Turret_Turret.comps.4.outOfFuelMessage>
+<Fallout_Turret_Turret.comps.4.outOfFuelMessage>Не могу стрелять: замените батарею</Fallout_Turret_Turret.comps.4.outOfFuelMessage>
 <Fallout_Turret_Turret.label>Автоматическая турель</Fallout_Turret_Turret.label>
-<Fallout_Turret_Turret.description>Автоматическая турель — это смертоносное довоенное устройство, перестроенное и модифицированное для суровых условий постапокалиптического мира. Её ключевая особенность — микро-ядерный реактор в качестве источника питания, обеспечивающий практически неограниченный срок службы батареи без необходимости подзарядки. «Рекомендуется для использования в укреплённых позициях или на транспортных платформах. Не оставляйте без присмотра — воры или супермутанты могут утащить её на металлолом... или растащить на запчасти для чего-то похуже.»\nКалибр: 5.56×45 мм НАТО</Fallout_Turret_Turret.description>
+<Fallout_Turret_Turret.description>Автоматическая турель — это смертоносное довоенное устройство, перестроенное и модифицированное для суровых условий постапокалиптического мира. Её ключевая особенность — микроядерный реактор в качестве источника питания, обеспечивающий практически бесконечное время работы без необходимости подзарядки. «Рекомендуется к использованию в укреплённых позициях или на транспортных платформах. Не оставляйте без присмотра — воры или супермутанты могут утащить её на металлолом... или разобрать на запчасти для чего-то похуже». Калибр: 5.56×45mm NATO</Fallout_Turret_Turret.description>
 
-<Gun_FalloutMiniTurret.label>Лёгкая турельная пушка</Gun_FalloutMiniTurret.label>
-<Gun_FalloutMiniTurret.description>Самодельная автоматическая пушка, установленная на турель.</Gun_FalloutMiniTurret.description>
+<Gun_FalloutMiniTurret.label>Лёгкий пулемёт турели</Gun_FalloutMiniTurret.label>
+<Gun_FalloutMiniTurret.description>Кустарный автоматический пулемёт, установленный на турель.</Gun_FalloutMiniTurret.description>
 <Gun_FalloutMiniTurret.verbs.0.label>ㅤ</Gun_FalloutMiniTurret.verbs.0.label>
 
-<Fallout_laser_Turret.comps.4.fuelLabel>Заряды батарей</Fallout_laser_Turret.comps.4.fuelLabel>
+<Fallout_laser_Turret.comps.4.fuelLabel>Заряды батареи</Fallout_laser_Turret.comps.4.fuelLabel>
 <Fallout_laser_Turret.comps.4.fuelGizmoLabel>Уровень заряда</Fallout_laser_Turret.comps.4.fuelGizmoLabel>
-<Fallout_laser_Turret.comps.4.outOfFuelMessage>Не могу стрелять : Замените батарею</Fallout_laser_Turret.comps.4.outOfFuelMessage>
+<Fallout_laser_Turret.comps.4.outOfFuelMessage>Не могу стрелять: замените батарею</Fallout_laser_Turret.comps.4.outOfFuelMessage>
 <Fallout_laser_Turret.label>Автоматическая лазерная турель</Fallout_laser_Turret.label>
-<Fallout_laser_Turret.description>Чудо-оружие собранное из лазерной винтовки, нескольких консервных банок, пары сломанных сенсорных модулей Протектрона и необоснованной веры в то, что «в этот раз точно сработает».</Fallout_laser_Turret.description>
+<Fallout_laser_Turret.description>Кустарное чудо-оружие, собранное из лазерной винтовки, консервных банок, пары сенсорных модулей от сломанного Протектрона и ошибочной веры в то, что «в этот раз точно сработает».</Fallout_laser_Turret.description>
 
-<Gun_FalloutlaserTurret.label>Лазерная турельная пушка</Gun_FalloutlaserTurret.label>
-<Gun_FalloutlaserTurret.description>Самодельная автоматическая пушка, установленная на турель.</Gun_FalloutlaserTurret.description>
+<Gun_FalloutlaserTurret.label>Лазерный пулемёт турели</Gun_FalloutlaserTurret.label>
+<Gun_FalloutlaserTurret.description>Кустарный автоматический лазер, установленный на турель.</Gun_FalloutlaserTurret.description>
 <Gun_FalloutlaserTurret.verbs.0.label>ㅤ</Gun_FalloutlaserTurret.verbs.0.label>
 
-<Fallout_FlamethrowerLastWarning_Turret.comps.4.fuelLabel>Заряды батарей</Fallout_FlamethrowerLastWarning_Turret.comps.4.fuelLabel>
+<Fallout_FlamethrowerLastWarning_Turret.comps.4.fuelLabel>Заряды батареи</Fallout_FlamethrowerLastWarning_Turret.comps.4.fuelLabel>
 <Fallout_FlamethrowerLastWarning_Turret.comps.4.fuelGizmoLabel>Уровень заряда</Fallout_FlamethrowerLastWarning_Turret.comps.4.fuelGizmoLabel>
-<Fallout_FlamethrowerLastWarning_Turret.comps.4.outOfFuelMessage>Не могу стрелять : Замените батарею</Fallout_FlamethrowerLastWarning_Turret.comps.4.outOfFuelMessage>
-<Fallout_FlamethrowerLastWarning_Turret.label>Турель-огнемёт «Пирометр 3000»</Fallout_FlamethrowerLastWarning_Turret.label>
-<Fallout_FlamethrowerLastWarning_Turret.description>Устали от незваных гостей? Устали от рейдеров, мутантов и почтовых курьеров (да, и они тоже), безнаказанно разгуливающих по вашей территории? «Пирометр 3000» решает все проблемы одним нажатием переключателя!</Fallout_FlamethrowerLastWarning_Turret.description>
+<Fallout_FlamethrowerLastWarning_Turret.comps.4.outOfFuelMessage>Не могу стрелять: замените батарею</Fallout_FlamethrowerLastWarning_Turret.comps.4.outOfFuelMessage>
+<Fallout_FlamethrowerLastWarning_Turret.label>Огнемётная турель «Пирометр 3000»</Fallout_FlamethrowerLastWarning_Turret.label>
+<Fallout_FlamethrowerLastWarning_Turret.description>Надоели незваные гости? Устали от того, что рейдеры, мутанты и почтальоны (да, они тоже) безнаказанно разгуливают по вашей территории? «Пирометр 3000» решает все проблемы одним нажатием переключателя!</Fallout_FlamethrowerLastWarning_Turret.description>
 
-<Gun_FlamethrowerLastWarning_Turret.label>Огнемётная турельная пушка</Gun_FlamethrowerLastWarning_Turret.label>
+<Gun_FlamethrowerLastWarning_Turret.label>Огнемёт турели</Gun_FlamethrowerLastWarning_Turret.label>
 <Gun_FlamethrowerLastWarning_Turret.description>Огнемёт, установленный на турель.</Gun_FlamethrowerLastWarning_Turret.description>
 <Gun_FlamethrowerLastWarning_Turret.verbs.0.label>ㅤ</Gun_FlamethrowerLastWarning_Turret.verbs.0.label>
 
-<Fallout_Turret_HeavyTurret.comps.4.fuelLabel>Заряды батарей</Fallout_Turret_HeavyTurret.comps.4.fuelLabel>
+<Fallout_Turret_HeavyTurret.comps.4.fuelLabel>Заряды батареи</Fallout_Turret_HeavyTurret.comps.4.fuelLabel>
 <Fallout_Turret_HeavyTurret.comps.4.fuelGizmoLabel>Уровень заряда</Fallout_Turret_HeavyTurret.comps.4.fuelGizmoLabel>
-<Fallout_Turret_HeavyTurret.comps.4.outOfFuelMessage>Не могу стрелять : Замените батарею</Fallout_Turret_HeavyTurret.comps.4.outOfFuelMessage>
+<Fallout_Turret_HeavyTurret.comps.4.outOfFuelMessage>Не могу стрелять: замените батарею</Fallout_Turret_HeavyTurret.comps.4.outOfFuelMessage>
 <Fallout_Turret_HeavyTurret.label>Тяжёлая автоматическая турель</Fallout_Turret_HeavyTurret.label>
-<Fallout_Turret_HeavyTurret.description>Сдвоенная турель «Мозгоплюй» — памятник довоенной паранойе, собранный на скорую руку с послевоенной прагматичностью. Это инженерное чудовище сочетает апокалиптическую огневую мощь сдвоенных тяжёлых пулемётов калибра 14,5×114 мм с «стратегическим гением» спасённого мозгового процессора Робомозга.\nКалибр: 14,5×114 мм</Fallout_Turret_HeavyTurret.description>
+<Fallout_Turret_HeavyTurret.description>Сдвоенная турель «Мозгоплёт» — памятник довоенной паранойе, собранный на скорую руку с послевоенным прагматизмом. Эта инженерная мерзость сочетает апокалиптическую огневую мощь сдвоенных крупнокалиберных пулемётов 14×114 мм с «стратегическим гением» извлечённого процессора Робомозга. Калибр: 14.5×114 мм</Fallout_Turret_HeavyTurret.description>
 
-<Gun_FalloutHeavyTurret.label>Тяжёлая турельная пушка</Gun_FalloutHeavyTurret.label>
-<Gun_FalloutHeavyTurret.description>Тяжёлая автоматическая пушка, установленная на турель.</Gun_FalloutHeavyTurret.description>
+<Gun_FalloutHeavyTurret.label>Тяжёлый пулемёт турели</Gun_FalloutHeavyTurret.label>
+<Gun_FalloutHeavyTurret.description>Тяжёлый автоматический пулемёт, установленный на турель.</Gun_FalloutHeavyTurret.description>
 <Gun_FalloutHeavyTurret.verbs.0.label>ㅤ</Gun_FalloutHeavyTurret.verbs.0.label>
-<Gun_FalloutHeavyTurret.verbs.1.holdFireLabel>Удерживать огонь ближних снарядов</Gun_FalloutHeavyTurret.verbs.1.holdFireLabel>
+<Gun_FalloutHeavyTurret.verbs.1.holdFireLabel>Удерживать огонь по ближним</Gun_FalloutHeavyTurret.verbs.1.holdFireLabel>
 <Gun_FalloutHeavyTurret.verbs.1.label>ㅤ</Gun_FalloutHeavyTurret.verbs.1.label>
-<Gun_FalloutHeavyTurret.verbs.2.holdFireLabel>Удерживать огонь падающих снарядов</Gun_FalloutHeavyTurret.verbs.2.holdFireLabel>
+<Gun_FalloutHeavyTurret.verbs.2.holdFireLabel>Удерживать огонь по воздушным</Gun_FalloutHeavyTurret.verbs.2.holdFireLabel>
 <Gun_FalloutHeavyTurret.verbs.2.label>ㅤ</Gun_FalloutHeavyTurret.verbs.2.label>
 
-<ADVANCED_Embrasure.label>УСОВЕРШЕНСТВОВАННАЯ ГРАВИТАЦИОННАЯ АМБРАЗУРА</ADVANCED_Embrasure.label>
-<ADVANCED_Embrasure.description>«Усиленная амбразура на основе переработанных космических технологий. Гравитационная панель впрессована в структуру материала, создавая композит невероятной прочности. Не требует питания и не даёт активных эффектов — просто чистая, надёжная защита. Выдерживает даже прямую атаку хорошо вооружённых рейдеров.»</ADVANCED_Embrasure.description>
+<ADVANCED_Embrasure.label>ПЕРЕДОВАЯ ГРАВИТАЦИОННАЯ АМБРАЗУРА</ADVANCED_Embrasure.label>
+<ADVANCED_Embrasure.description>«Усиленная амбразура на основе переработанных космических технологий. Гравитационная панель впрессована в структуру материала, создавая композит невероятной прочности. Не требует питания и не даёт активных эффектов — просто чистая, надёжная защита. Выдерживает даже прямую атаку хорошо вооружённых рейдеров».</ADVANCED_Embrasure.description>
 
 <Turret_MIVickers.label>Vickers .303 Mark I</Turret_MIVickers.label>
-<Turret_MIVickers.description>Управляемая стационарная установка Vickers .303 Mark I. Использует пули калибра .303.</Turret_MIVickers.description>
+<Turret_MIVickers.description>Управляемый пулемёт Vickers .303 Mark I на станке. Использует патроны .303.</Turret_MIVickers.description>
 
 <Gun_Vickers.label>Пулемёт Vickers .303 Mark I</Gun_Vickers.label>
 <Gun_Vickers.description>Пулемёт Vickers .303 Mark I, установленный на треногу.</Gun_Vickers.description>

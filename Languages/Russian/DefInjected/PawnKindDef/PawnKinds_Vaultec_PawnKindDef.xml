@@ -1,5 +1,5 @@
 <LanguageData>
-	<VaultecScout.label>Разведчик Волт-Тек</VaultecScout.label>
+<VaultecScout.label>Разведчик Волт-Тек</VaultecScout.label>
 <VaultecRanger.label>Рейнджер Волт-Тек</VaultecRanger.label>
 <VaultecSheriffHeavy.label>Тяжеловооружённый рейнджер Волт-Тек</VaultecSheriffHeavy.label>
 <VaultecOfficer.label>Офицер Волт-Тек</VaultecOfficer.label>
@@ -7,6 +7,6 @@
 <VaultecSpy.label>Шпион Волт-Тек</VaultecSpy.label>
 <VaultecInvestigator.label>Следователь Волт-Тек</VaultecInvestigator.label>
 <VaultecLiquidator.label>Ликвидатор Волт-Тек</VaultecLiquidator.label>
-<Vaultec_Trader_liquidator.label>Торговец Волт-Тек</Vaultec_Trader_liquidator.label>
+<Vaultec_Trader_liquidator.label>Ликвидатор-торговец Волт-Тек</Vaultec_Trader_liquidator.label>
 <Vaultecglowing.label>Светящийся Волт-Тек</Vaultecglowing.label>
 </LanguageData>

@@ -1,37 +1,37 @@
 <LanguageData>
-<MakeFalloutJet.label>Создать Винт x4</MakeFalloutJet.label>
-<MakeFalloutJet.description>Создать Винт.</MakeFalloutJet.description>
-<MakeFalloutJet.jobString>Создание Винта.</MakeFalloutJet.jobString>
+<MakeFalloutJet.label>Сделать Винт x4</MakeFalloutJet.label>
+<MakeFalloutJet.description>Сделать Винт.</MakeFalloutJet.description>
+<MakeFalloutJet.jobString>Делает Винт.</MakeFalloutJet.jobString>
 
-<MakeFalloutJet4x.label>Создать Винт x12</MakeFalloutJet4x.label>
-<MakeFalloutJet4x.description>Создать Винт x12.</MakeFalloutJet4x.description>
-<MakeFalloutJet4x.jobString>Создание Винта.</MakeFalloutJet4x.jobString>
+<MakeFalloutJet4x.label>Сделать Винт x12</MakeFalloutJet4x.label>
+<MakeFalloutJet4x.description>Сделать Винт x12.</MakeFalloutJet4x.description>
+<MakeFalloutJet4x.jobString>Делает Винт.</MakeFalloutJet4x.jobString>
 
-<MakeFalloutUltraJet4x.label>Создать Ультравинт x4</MakeFalloutUltraJet4x.label>
-<MakeFalloutUltraJet4x.description>Создать Ультравинт.</MakeFalloutUltraJet4x.description>
-<MakeFalloutUltraJet4x.jobString>Создание Ультравинта.</MakeFalloutUltraJet4x.jobString>
+<MakeFalloutUltraJet4x.label>Сделать Ультравинт x4</MakeFalloutUltraJet4x.label>
+<MakeFalloutUltraJet4x.description>Сделать Ультравинт.</MakeFalloutUltraJet4x.description>
+<MakeFalloutUltraJet4x.jobString>Делает Ультравинт.</MakeFalloutUltraJet4x.jobString>
 
-<MakeFalloutUltraJet12x.label>Создать Ультравинт x12</MakeFalloutUltraJet12x.label>
-<MakeFalloutUltraJet12x.description>Создать Ультравинт x12.</MakeFalloutUltraJet12x.description>
-<MakeFalloutUltraJet12x.jobString>Создание Ультравинта.</MakeFalloutUltraJet12x.jobString>
+<MakeFalloutUltraJet12x.label>Сделать Ультравинт x12</MakeFalloutUltraJet12x.label>
+<MakeFalloutUltraJet12x.description>Сделать Ультравинт.</MakeFalloutUltraJet12x.description>
+<MakeFalloutUltraJet12x.jobString>Делает Ультравинт.</MakeFalloutUltraJet12x.jobString>
 
-<MakeStimpak2x.label>Создать стимулятор x2</MakeStimpak2x.label>
-<MakeStimpak2x.description>Создать стимулятор.</MakeStimpak2x.description>
-<MakeStimpak2x.jobString>Создание стимулятора.</MakeStimpak2x.jobString>
+<MakeStimpak2x.label>Сделать Стимулятор x2</MakeStimpak2x.label>
+<MakeStimpak2x.description>Сделать Стимулятор.</MakeStimpak2x.description>
+<MakeStimpak2x.jobString>Делает Стимулятор.</MakeStimpak2x.jobString>
 
-<MakeStimpakSuper2x.label>Создать суперстимулятор x2</MakeStimpakSuper2x.label>
-<MakeStimpakSuper2x.description>Создать суперстимулятор.</MakeStimpakSuper2x.description>
-<MakeStimpakSuper2x.jobString>Создание суперстимулятора.</MakeStimpakSuper2x.jobString>
+<MakeStimpakSuper2x.label>Сделать Суперстимулятор x2</MakeStimpakSuper2x.label>
+<MakeStimpakSuper2x.description>Сделать Суперстимулятор.</MakeStimpakSuper2x.description>
+<MakeStimpakSuper2x.jobString>Делает Суперстимулятор.</MakeStimpakSuper2x.jobString>
 
-<MakeMed-x2x.label>Создать Мед-Икс x2</MakeMed-x2x.label>
-<MakeMed-x2x.description>Создать Мед-Икс.</MakeMed-x2x.description>
-<MakeMed-x2x.jobString>Создание Мед-Икса.</MakeMed-x2x.jobString>
+<MakeMed-x2x.label>Сделать Мед-Икс x2</MakeMed-x2x.label>
+<MakeMed-x2x.description>Сделать Мед-Икс.</MakeMed-x2x.description>
+<MakeMed-x2x.jobString>Делает Мед-Икс.</MakeMed-x2x.jobString>
 
-<MakeAddictol2x.label>Создать Аддиктол x2</MakeAddictol2x.label>
-<MakeAddictol2x.description>Создать Аддиктол.</MakeAddictol2x.description>
-<MakeAddictol2x.jobString>Создание Аддиктола.</MakeAddictol2x.jobString>
+<MakeAddictol2x.label>Сделать Аддиктол x2</MakeAddictol2x.label>
+<MakeAddictol2x.description>Сделать Аддиктол.</MakeAddictol2x.description>
+<MakeAddictol2x.jobString>Делает Аддиктол.</MakeAddictol2x.jobString>
 
-<MakeRadAway.label>Создать Антирад x4</MakeRadAway.label>
-<MakeRadAway.description>Создать Антирад.</MakeRadAway.description>
-<MakeRadAway.jobString>Создание Антирад.</MakeRadAway.jobString>
+<MakeRadAway.label>Сделать Антирад x4</MakeRadAway.label>
+<MakeRadAway.description>Сделать Антирад.</MakeRadAway.description>
+<MakeRadAway.jobString>Делает Антирад.</MakeRadAway.jobString>
 </LanguageData>

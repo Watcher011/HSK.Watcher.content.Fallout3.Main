@@ -9,10 +9,10 @@
 <SubCategory_RugVaultec.description>Набор ковров.</SubCategory_RugVaultec.description>
 
 <SubCategory_VaultecWeapon.label>Оборона Vault-Tec</SubCategory_VaultecWeapon.label>
-<SubCategory_VaultecWeapon.description>Средства обороны Vault-Tec.</SubCategory_VaultecWeapon.description>
+<SubCategory_VaultecWeapon.description>Оборудование обороны Vault-Tec.</SubCategory_VaultecWeapon.description>
 
-<SubCategory_VaultecFood.label>Еда Vault-Tec</SubCategory_VaultecFood.label>
-<SubCategory_VaultecFood.description>Продукты питания Vault-Tec.</SubCategory_VaultecFood.description>
+<SubCategory_VaultecFood.label>Питание Vault-Tec</SubCategory_VaultecFood.label>
+<SubCategory_VaultecFood.description>Продукты Vault-Tec.</SubCategory_VaultecFood.description>
 
 <SubCategory_VaultecSign.label>Вывески Vault-Tec</SubCategory_VaultecSign.label>
 <SubCategory_VaultecSign.description>Вывески Vault-Tec.</SubCategory_VaultecSign.description>

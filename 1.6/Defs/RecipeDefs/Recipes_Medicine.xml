@@ -460,7 +460,7 @@
 	        <li>meditable</li>
 			<li>DrugLab</li>
 		</recipeUsers>
-		<researchPrerequisite>Medicine_B2</researchPrerequisite>
+		  <researchPrerequisite>Vault-TecProcessing</researchPrerequisite>
 	</RecipeDef>
 	
 </Defs>

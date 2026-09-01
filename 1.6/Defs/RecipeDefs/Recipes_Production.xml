@@ -6,7 +6,7 @@
        <label>Create a Lid Mine x5</label>
        <description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy. Can be thrown like a grenade.</description>
        <jobString>Creates a Lid Mine.</jobString>
-       <researchPrerequisite>Machining</researchPrerequisite>
+       <researchPrerequisite>Vault-TecIED</researchPrerequisite>
 		<workAmount>3600</workAmount>
         <soundWorking>Recipe_Machining</soundWorking>
         <skillRequirements>
@@ -373,7 +373,7 @@
 		<recipeUsers>
 			<li>WeaponCraftingWorkTable</li>
 		</recipeUsers>
-	    <researchPrerequisite>Shotgun_C2</researchPrerequisite>
+	    <researchPrerequisite>Vault-TecHW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
@@ -688,7 +688,7 @@
 		<recipeUsers>
 			<li>AdvWeaponCraftingWorkTable</li>
 		</recipeUsers>
-	    <researchPrerequisite>Rifles_C3</researchPrerequisite>
+	    <researchPrerequisite>Vault-TecHW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
@@ -760,6 +760,7 @@
 		<recipeUsers>
 			<li>WeaponCraftingWorkTable</li>
 		</recipeUsers>
+		 <researchPrerequisite>Vault-TecHW</researchPrerequisite>
 	</RecipeDef>  
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
@@ -840,7 +841,7 @@
 		<recipeUsers>
 			<li>AdvWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Rockets_C2</researchPrerequisite>
+		 <researchPrerequisite>Vault-TecHW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef>
@@ -907,7 +908,7 @@
 		<recipeUsers>
 			<li>TableHeavyAmmunition</li>
 		</recipeUsers>
-		<researchPrerequisite>Rockets_C2</researchPrerequisite>
+		 <researchPrerequisite>Vault-TecHW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef>
@@ -915,9 +916,7 @@
 		<label>Make Piggy Boomba for Fat Man x1</label>
 		<description>Shell for Fat Man x1.</description>
 		<jobString>Creates a projectile for the fat man.</jobString>
-		<researchPrerequisites>
-			<li>Mortars</li>
-		</researchPrerequisites>
+		 <researchPrerequisite>Vault-TecHW</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -1048,7 +1047,7 @@
 		<recipeUsers>
 			<li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Plasma_weapons_D</researchPrerequisite>
+<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
@@ -1128,7 +1127,7 @@
 		<recipeUsers>
 				<li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Plasma_weapons_D</researchPrerequisite>
+		<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
@@ -1208,7 +1207,7 @@
 		<recipeUsers>
 	    <li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Plasma_weapons_E</researchPrerequisite>
+		<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	
@@ -1300,7 +1299,7 @@
 		<recipeUsers>
 		       <li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-	<researchPrerequisite>Plasma_weapons_E</researchPrerequisite>
+	<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
@@ -1380,7 +1379,7 @@
 		<recipeUsers>
 			    <li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Laser_weapons_D</researchPrerequisite>
+		<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	
@@ -1452,7 +1451,7 @@
 		<recipeUsers>
 			<li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Laser_weapons_D</researchPrerequisite>
+		<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
@@ -1523,7 +1522,7 @@
 		<recipeUsers>
 			<li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Laser_weapons_D</researchPrerequisite>
+		<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
@@ -1603,7 +1602,7 @@
 		<recipeUsers>
 			    <li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-		<researchPrerequisite>Laser_weapons_D</researchPrerequisite>
+		<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	
@@ -1685,7 +1684,7 @@
 		<recipeUsers>
 		       <li>MechWeaponCraftingWorkTable</li>
 		</recipeUsers>
-	<researchPrerequisite>Plasma_weapons_E</researchPrerequisite>
+	<researchPrerequisite>Vault-TecEW</researchPrerequisite>
 	</RecipeDef>
 	
 	

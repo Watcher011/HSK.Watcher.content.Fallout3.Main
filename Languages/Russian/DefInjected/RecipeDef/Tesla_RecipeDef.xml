@@ -1,5 +1,5 @@
 <LanguageData>
-<MakeAmmo_ChargedTesla.label>Создать электронный патрон x40</MakeAmmo_ChargedTesla.label>
-<MakeAmmo_ChargedTesla.description>Создать 40 электронных патронов.</MakeAmmo_ChargedTesla.description>
-<MakeAmmo_ChargedTesla.jobString>Создание электронных патронов.</MakeAmmo_ChargedTesla.jobString>
+<MakeAmmo_ChargedTesla.label>Сделать тесла-патроны x40</MakeAmmo_ChargedTesla.label>
+<MakeAmmo_ChargedTesla.description>Создать 40 тесла-патронов.</MakeAmmo_ChargedTesla.description>
+<MakeAmmo_ChargedTesla.jobString>Создаёт тесла-патроны.</MakeAmmo_ChargedTesla.jobString>
 </LanguageData>

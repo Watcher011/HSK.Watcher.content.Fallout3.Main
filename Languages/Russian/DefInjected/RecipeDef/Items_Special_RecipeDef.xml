@@ -1,6 +1,6 @@
 <LanguageData>
 	
-<MakeAmmo_StimulantCartridge.label>Создать картридж со стимулятором x5</MakeAmmo_StimulantCartridge.label>
-<MakeAmmo_StimulantCartridge.description>Создать 5 картриджей со стимулятором.</MakeAmmo_StimulantCartridge.description>
-<MakeAmmo_StimulantCartridge.jobString>Создание картриджей со стимулятором.</MakeAmmo_StimulantCartridge.jobString>
+<MakeAmmo_StimulantCartridge.label>Сделать стимулирующие патроны x5</MakeAmmo_StimulantCartridge.label>
+<MakeAmmo_StimulantCartridge.description>Создать 5 стимулирующих патронов.</MakeAmmo_StimulantCartridge.description>
+<MakeAmmo_StimulantCartridge.jobString>Создаёт стимулирующие патроны.</MakeAmmo_StimulantCartridge.jobString>
 </LanguageData>

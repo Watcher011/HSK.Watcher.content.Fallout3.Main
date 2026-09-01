@@ -94,6 +94,9 @@ This compact power source is the perfect companion for any wastelander! Designed
 				</affectedDamageDefs>
 			</li>
 		</comps>
+		<researchPrerequisites>
+			<li>Vault-TecPowerA</li>
+		</researchPrerequisites>
 		<modExtensions>
 			<li Class="SK.Events.AccidentalExplosionExtension">
 			</li>
@@ -189,7 +192,7 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<researchPrerequisites>
-			<li>Vault-TecPower</li>
+			<li>Vault-TecPowerB</li>
 			<li>RimatomicsActivate</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
