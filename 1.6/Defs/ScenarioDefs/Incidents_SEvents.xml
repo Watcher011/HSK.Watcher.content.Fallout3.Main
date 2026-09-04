@@ -322,4 +322,20 @@
     <pointsScaleable>false</pointsScaleable>
  
   </IncidentDef>
+  
+   <IncidentDef>
+    <defName>RustyDevilsRaid</defName>
+    <label>Rusty Devils attack</label>
+    <category>ThreatBig</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_RustyDevilsRaid</workerClass>
+    <baseChance>0.8</baseChance>
+    <minRefireDays>35</minRefireDays>
+    <earliestDay>45</earliestDay>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>Raid</tale>
+  </IncidentDef>
+  
 </Defs>

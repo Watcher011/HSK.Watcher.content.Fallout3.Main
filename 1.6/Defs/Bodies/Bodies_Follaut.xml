@@ -384,4 +384,184 @@
       </parts>
     </corePart>
   </BodyDef>
+  
+<BodyDef>
+  <defName>Mech_SentryBot_Body</defName>
+  <label>sentry bot body</label>
+  <corePart>
+    <def>MechanicalThoraxCanManipulate</def>
+    <height>Middle</height>
+    <depth>Outside</depth>
+    <groups>
+      <li>Torso</li>
+    </groups>
+    <parts>
+      <!-- Голова -->
+      <li>
+        <def>MechanicalNeck</def>
+        <coverage>0.10</coverage>
+        <height>Top</height>
+        <parts>
+          <li>
+            <def>MechanicalHead</def>
+            <coverage>0.15</coverage>
+            <groups>
+              <li>HeadAttackTool</li>
+            </groups>
+            <parts>
+              <li>
+                <def>ArtificialBrain</def>
+                <coverage>0.25</coverage>
+                <depth>Inside</depth>
+              </li>
+              <li>
+                <def>SightSensor</def>
+                <customLabel>left sight sensor</customLabel>
+                <coverage>0.30</coverage>
+              </li>
+              <li>
+                <def>SightSensor</def>
+                <customLabel>right sight sensor</customLabel>
+                <coverage>0.30</coverage>
+              </li>
+              <li>
+                <def>HearingSensor</def>
+                <customLabel>left hearing sensor</customLabel>
+                <coverage>0.20</coverage>
+              </li>
+              <li>
+                <def>HearingSensor</def>
+                <customLabel>right hearing sensor</customLabel>
+                <coverage>0.20</coverage>
+              </li>
+            </parts>
+          </li>
+        </parts>
+      </li>
+      
+      <!-- Левая рука -->
+      <li>
+        <def>MechanicalArm</def>
+        <customLabel>left arm</customLabel>
+        <coverage>0.14</coverage>
+        <height>Middle</height>
+        <parts>
+          <li>
+            <def>MechanicalHand</def>
+            <customLabel>left hand</customLabel>
+            <coverage>0.35</coverage>
+          </li>
+        </parts>
+      </li>
+      
+      <!-- Правая рука -->
+      <li>
+        <def>MechanicalArm</def>
+        <customLabel>right arm</customLabel>
+        <coverage>0.14</coverage>
+        <height>Middle</height>
+        <parts>
+          <li>
+            <def>MechanicalHand</def>
+            <customLabel>right hand</customLabel>
+            <coverage>0.35</coverage>
+          </li>
+        </parts>
+      </li>
+      
+      <!-- Левая передняя нога -->
+      <li>
+        <def>MechanicalLeg</def>
+        <customLabel>front left leg</customLabel>
+        <coverage>0.08</coverage>
+        <height>Bottom</height>
+        <parts>
+          <li>
+            <def>MechanicalFoot</def>
+            <customLabel>front left foot</customLabel>
+            <coverage>0.40</coverage>
+          </li>
+        </parts>
+      </li>
+      
+      <!-- Правая передняя нога -->
+      <li>
+        <def>MechanicalLeg</def>
+        <customLabel>front right leg</customLabel>
+        <coverage>0.08</coverage>
+        <height>Bottom</height>
+        <parts>
+          <li>
+            <def>MechanicalFoot</def>
+            <customLabel>front right foot</customLabel>
+            <coverage>0.40</coverage>
+          </li>
+        </parts>
+      </li>
+      
+      <!-- Левая задняя нога -->
+      <li>
+        <def>MechanicalLeg</def>
+        <customLabel>rear left leg</customLabel>
+        <coverage>0.08</coverage>
+        <height>Bottom</height>
+        <parts>
+          <li>
+            <def>MechanicalFoot</def>
+            <customLabel>rear left foot</customLabel>
+            <coverage>0.40</coverage>
+          </li>
+        </parts>
+      </li>
+      
+      <!-- Правая задняя нога -->
+      <li>
+        <def>MechanicalLeg</def>
+        <customLabel>rear right leg</customLabel>
+        <coverage>0.08</coverage>
+        <height>Bottom</height>
+        <parts>
+          <li>
+            <def>MechanicalFoot</def>
+            <customLabel>rear right foot</customLabel>
+            <coverage>0.40</coverage>
+          </li>
+        </parts>
+      </li>
+      
+      <!-- Реактор (ядро) -->
+      <li>
+        <def>Reactor</def>
+        <coverage>0.06</coverage>
+        <depth>Inside</depth>
+      </li>
+      
+      <!-- Система охлаждения -->
+      <li>
+        <def>FluidReprocessor</def>
+        <customLabel>cooling system</customLabel>
+        <coverage>0.04</coverage>
+        <depth>Inside</depth>
+      </li>
+      
+      <!-- Дополнительный процессор -->
+      <li>
+        <def>FluidReprocessor</def>
+        <customLabel>secondary processor</customLabel>
+        <coverage>0.04</coverage>
+        <depth>Inside</depth>
+      </li>
+      
+      <!-- Встроенная турель -->
+      <li>
+        <def>BulbTurret</def>
+        <customLabel>shoulder turret</customLabel>
+        <coverage>0.05</coverage>
+        <groups>
+          <li>BulbTurret</li>
+        </groups>
+      </li>
+    </parts>
+  </corePart>
+</BodyDef>
 </Defs>

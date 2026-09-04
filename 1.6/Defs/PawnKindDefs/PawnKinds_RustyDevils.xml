@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+   <PawnKindDef Abstract="True" Name="RustyDevilsBase">
+    <race>Human</race>
+    <defaultFactionType>RustyDevils</defaultFactionType>
+    <backstoryFilters>
+        <li>
+            <categories>
+			  <li>Offworld</li>
+            <li>Outsider</li>
+            <li>Raider</li>
+             <li>Enclave</li>
+            </categories>
+        </li>
+    </backstoryFilters>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <isFighter>true</isFighter>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <itemQuality>Normal</itemQuality>
+    <invNutrition>2.5</invNutrition>
+    <invFoodDef>MealFine</invFoodDef>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>50</maxGenerationAge>
+	<apparelColor>(100,100,100)</apparelColor>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <gearHealthRange>
+        <min>0.6</min>
+        <max>1.8</max>
+    </gearHealthRange>
+    <specificApparelRequirements>
+        <li>
+            <bodyPartGroup>Torso</bodyPartGroup>
+            <apparelLayer>Shell</apparelLayer>
+        </li>
+    </specificApparelRequirements>
+    <disallowedTraits>
+        <li>Brawler</li>
+        <li>Pyromaniac</li>
+    </disallowedTraits>
+    <requiredWorkTags>
+        <li>Violent</li>
+    </requiredWorkTags>
+    <techHediffsMoney>
+        <min>8000</min>
+        <max>15000</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+        <li>Advanced</li>
+        <li>Futuristic</li>
+        <li>Military</li>
+    </techHediffsTags>
+    <techHediffsChance>0.9</techHediffsChance>
+    <techHediffsMaxAmount>8</techHediffsMaxAmount>
+   
+</PawnKindDef>
+
+<!-- Enclave Trooper -->
+<PawnKindDef Name="RustyDevilsTrooperBase" ParentName="RustyDevilsBase" Abstract="True">
+    <label>Rusty mechanic</label>
+    <combatPower>420</combatPower>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <gearHealthRange>
+        <min>0.6</min>
+        <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+        <min>12000</min>
+        <max>18000</max>
+    </apparelMoney>
+    <apparelRequired>
+		<li>Apparello_PipBoy</li>
+        <li>Helmet_Welding</li>
+    </apparelRequired>
+    <apparelTags>
+       <li>BanditsLight</li>
+			<li>WoodenShield</li>
+    </apparelTags>
+    <weaponMoney>
+        <min>2500</min>
+        <max>4000</max>
+    </weaponMoney>
+    <weaponTags>
+          <li>RF2</li>
+    </weaponTags>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>6~18</range>
+        </li>
+    </skills>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>15~22</initialResistanceRange>
+    <modExtensions>
+        <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+                <min>5</min>
+                <max>7</max>
+            </primaryMagazineCount>
+            <sidearms>
+                <li>
+                    <generateChance>0.2</generateChance>
+                    <sidearmMoney>
+                        <min>300</min>
+                        <max>500</max>
+                    </sidearmMoney>
+                    <weaponTags>
+                        <li>PlasmaPistol</li>
+                    </weaponTags>
+                    <magazineCount>
+                        <min>2</min>
+                        <max>4</max>
+                    </magazineCount>
+                </li>
+            </sidearms>
+        </li>
+    </modExtensions>
+</PawnKindDef>
+
+<PawnKindDef ParentName="RustyDevilsTrooperBase">
+    <defName>Rusty_mechanic</defName>
+	<techHediffsRequired>
+			<li>DeathAcidifier</li>
+		</techHediffsRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="RustyDevilsTrooperBase">
+    <defName>Rusty_mechanic_Advanced</defName>
+	<techHediffsRequired>
+			<li>DeathAcidifier</li>
+		</techHediffsRequired>
+</PawnKindDef>
+
+<!-- Enclave Heavy -->
+<PawnKindDef Name="RustyDevilsHeavyBase" ParentName="RustyDevilsBase" Abstract="True">
+    <label>Rusty Heavy technician</label>
+    <combatPower>480</combatPower>
+    <gearHealthRange>
+        <min>0.7</min>
+        <max>1.9</max>
+    </gearHealthRange>
+    <apparelMoney>
+        <min>15000</min>
+        <max>22000</max>
+    </apparelMoney>
+    <apparelRequired>
+    	<li>Helmet_Welding</li>
+       <li>Apparel_Jumpsuit</li>
+    </apparelRequired>
+    <apparelTags>
+	        <li>SyndicateLight</li>
+			<li>SyndicateMedium</li>
+			<li>BroadshieldPack</li>
+    </apparelTags>
+    <weaponMoney>
+        <min>3500</min>
+        <max>5500</max>
+    </weaponMoney>
+    <weaponTags>
+          <li>RF2</li>
+    </weaponTags>
+    <skills>
+        <li>
+            <skill>Shooting</skill>
+            <range>5~16</range>
+        </li>
+    </skills>
+    <initialWillRange>3~5</initialWillRange>
+    <initialResistanceRange>18~25</initialResistanceRange>
+    <modExtensions>
+        <li Class="CombatExtended.LoadoutPropertiesExtension">
+            <primaryMagazineCount>
+                <min>8</min>
+                <max>12</max>
+            </primaryMagazineCount>
+        </li>
+    </modExtensions>
+</PawnKindDef>
+
+<PawnKindDef ParentName="RustyDevilsHeavyBase">
+    <defName>Rusty_technician</defName>
+	<techHediffsRequired>
+			<li>DeathAcidifier</li>
+		</techHediffsRequired>
+</PawnKindDef>
+
+<PawnKindDef ParentName="RustyDevilsHeavyBase">
+    <defName>Rusty_technician_Advanced</defName>
+	<techHediffsRequired>
+			<li>DeathAcidifier</li>
+		</techHediffsRequired>
+</PawnKindDef>
+
+
+</Defs>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="MechSentryBot" ParentName="SuperHeavyMechanoid">
+		<defName>Mech_SentryBot</defName>
+		<label>Sentry Bot</label>
+		<description>The Sentry Bot is an elite combat vehicle of the pre-war United States, designed for maximum firepower and the protection of important facilities.</description>
+		<statBases>
+			<MoveSpeed>3.6</MoveSpeed>
+			<EnergyShieldRechargeRate>0.5</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
+			<MeleeDoorDamageFactor>1.5</MeleeDoorDamageFactor>
+			<ArmorRating_Sharp>23.96</ArmorRating_Sharp>
+			<ArmorRating_Blunt>31.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.09</ArmorRating_Heat>
+			<CarryWeight>50</CarryWeight>
+			<CarryBulk>50</CarryBulk>
+			<AimingAccuracy>1.0</AimingAccuracy>
+			<ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+			<MeleeDodgeChance>0.02</MeleeDodgeChance>
+			<MeleeCritChance>0.20</MeleeCritChance>
+			<MeleeParryChance>0.57</MeleeParryChance>
+			<MaxHitPoints>550</MaxHitPoints>
+		</statBases>
+		<race>
+			<deathAction>
+				<workerClass>DeathActionWorker_BigExplosion</workerClass>
+			</deathAction>
+			<body>Mech_SentryBot_Body</body>
+			<baseBodySize>3.6</baseBodySize>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Mech_Centurion_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centurion_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centurion_Call</soundCall>
+				</li>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>100</minAge>
+					<soundWounded>Pawn_Mech_Centurion_Wounded</soundWounded>
+					<soundDeath>Pawn_Mech_Centurion_Death</soundDeath>
+					<soundCall>Pawn_Mech_Centurion_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<baseHealthScale>3</baseHealthScale>
+			<detritusLeavings>
+				<li>
+					<def>ChunkMechanoidSlag</def>
+					<texOverrideIndex>0</texOverrideIndex>
+					<spawnChance>0.75</spawnChance>
+				</li>
+				<li>
+					<def>ChunkMechanoidSlag</def>
+					<texOverrideIndex>8</texOverrideIndex>
+					<spawnChance>0.75</spawnChance>
+				</li>
+				<li>
+					<def>ChunkMechanoidSlag</def>
+					<texOverrideIndex>3</texOverrideIndex>
+					<spawnChance>0.75</spawnChance>
+				</li>
+			</detritusLeavings>
+		</race>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>5000</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>1250</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<Repairable>true</Repairable>
+				<RepairIngredients>
+					<Steel>5</Steel>
+					<Plasteel>5</Plasteel>
+				</RepairIngredients>
+				<RepairTime>300</RepairTime>
+				<RepairValue>200</RepairValue>
+				<MinArmorPct>0.5</MinArmorPct>
+			</li>
+		</comps>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>head butt</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>36</power>
+				<cooldownTime>3.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<armorPenetrationBlunt>16</armorPenetrationBlunt>
+				<chanceFactor>0.3</chanceFactor>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>heavy strike</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Demolish</li>
+				</capacities>
+				<power>35</power>
+				<cooldownTime>3.0</cooldownTime>
+				<armorPenetrationBlunt>15</armorPenetrationBlunt>
+				<chanceFactor>0.8</chanceFactor>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>power strike</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Demolish</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>4.5</cooldownTime>
+				<armorPenetrationBlunt>22</armorPenetrationBlunt>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+	<PawnKindDef Name="MechSentryBotKind" ParentName="HeavyMechanoidKind">
+		<defName>Mech_SentryBot</defName>
+		<label>SentryBot</label>
+		<race>Mech_SentryBot</race>
+		<combatPower>90</combatPower>
+		<maxPerGroup>1</maxPerGroup>
+		<defaultFactionDef>RustyDevils</defaultFactionDef>
+		<aiAvoidCover>true</aiAvoidCover>
+		<canStrip>false</canStrip>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<gearHealthRange>1~1</gearHealthRange>
+		<weaponMoney>1450~1500</weaponMoney>
+		<allowInMechClusters>false</allowInMechClusters>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/SentryBot/SentryBot</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.5</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Mechanoid/SentryBot/SentryBot</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3.5</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponTags>
+			<li>CE_AI_Launcher</li>
+		</weaponTags>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>24</min>
+					<max>35</max>
+				</primaryMagazineCount>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+</Defs>

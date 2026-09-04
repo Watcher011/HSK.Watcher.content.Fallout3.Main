@@ -1,0 +1,13 @@
+<LanguageData>
+	
+<NamerFactionRustyDevils.rulePack.rulesStrings>
+	<li>empire->Ржавые дьяволы</li>
+</NamerFactionRustyDevils.rulePack.rulesStrings>
+
+<NamerSettlementRustyDevils.rulePack.rulesStrings>
+	<li>townend->Свалка Ржавых дьяволов (Восток)</li>
+	<li>townend->Свалка Ржавых дьяволов (Север)</li>
+	<li>townend->Свалка Ржавых дьяволов (Юг)</li>
+	<li>townend->Свалка Ржавых дьяволов (Запад)</li>
+</NamerSettlementRustyDevils.rulePack.rulesStrings>
+</LanguageData>

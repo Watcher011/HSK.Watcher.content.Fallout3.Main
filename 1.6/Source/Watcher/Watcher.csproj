@@ -107,6 +107,7 @@
     <Compile Include="Events\IncidentWorker_OverfertilizedHydroponics.cs" />
     <Compile Include="Events\IncidentWorker_ReactorCoreDamage.cs" />
     <Compile Include="Events\IncidentWorker_RedThreatHunterDrones.cs" />
+    <Compile Include="Events\IncidentWorker_RustyDevilsRaid.cs" />
     <Compile Include="Events\IncidentWorker_WatcherPoopocalypse.cs" />
     <Compile Include="Events\IncidentWorker_WatcherRain.cs" />
     <Compile Include="Events\IncidentWorker_ArmyCall.cs" />
