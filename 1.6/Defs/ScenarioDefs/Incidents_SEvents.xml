@@ -331,7 +331,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>Watcher.Events.IncidentWorker_RustyDevilsRaid</workerClass>
-    <baseChance>0.8</baseChance>
+    <baseChance>0.2</baseChance>
     <minRefireDays>35</minRefireDays>
     <earliestDay>45</earliestDay>
     <pointsScaleable>true</pointsScaleable>
