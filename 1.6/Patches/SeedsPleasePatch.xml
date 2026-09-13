@@ -193,7 +193,7 @@
 								<li>Plant_Mutfruit</li>
 							</sources>
 							<graphicData>
-								<texPath>Things/Plant/Mutfruitbag</texPath>
+								<texPath>Things/Plant/Seed</texPath>
 								<drawSize>(1)</drawSize>
 							</graphicData>
 							 <statBases>
@@ -233,7 +233,7 @@
 								<li>Plant_Tato</li>
 							</sources>
 							<graphicData>
-								<texPath>Things/Plant/Tatobag</texPath>
+								<texPath>Things/Plant/Seed</texPath>
 								<drawSize>(1)</drawSize>
 							</graphicData>
 							 <statBases>
@@ -262,6 +262,46 @@
 							</fixedIngredientFilter>
 							<products>
 								<Tato_seeds>3</Tato_seeds>
+							</products>
+						</RecipeDef>
+						
+						
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Prickeye_seeds</defName>
+							<label>Prickeye seeds</label>
+							<sources>
+								<li>Plant_Prickeye</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Plant/Seed</texPath>
+								<drawSize>(1)</drawSize>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+				
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractPrickeye</defName>
+							<label>Extraction of Prickeye seeds</label>
+							<description>Extraction of Prickeye seeds</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawPrickeye</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawPrickeye</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Prickeye_seeds>3</Prickeye_seeds>
 							</products>
 						</RecipeDef>
 					</value>

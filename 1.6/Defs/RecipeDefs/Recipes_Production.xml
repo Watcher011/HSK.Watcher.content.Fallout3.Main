@@ -1688,7 +1688,7 @@
 	</RecipeDef>
 	
 	
-	<RecipeDef>
+<!--	<RecipeDef>
 		<defName>MakeWastepack</defName>
 		<label>Sort out the trash</label>
 		<description>Searching through toxic waste can yield something useful. Working with toxic waste negatively affects health.</description>
@@ -1725,7 +1725,7 @@
               <crafterHediffSeverity>0.03</crafterHediffSeverity>
 			    
                 <randomProducts>
-                    <!-- Предметы -->
+                    <!{1}** Предметы **{1}>
                     <li>
                         <thingDef>Rubber</thingDef>
                         <count>5</count>
@@ -1804,7 +1804,7 @@
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>
-	
+	-->
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildFalloutSyringerRifle</defName>
@@ -2079,7 +2079,7 @@
 	    <researchPrerequisite>Rifles_C1</researchPrerequisite>
 	</RecipeDef>
 	
-	<RecipeDef>
+	<!--<RecipeDef>
 		<defName>MakeScrapMetal</defName>
 		<label>dismantle scrap metal</label>
 		<description>Searching through scrap metal can yield something useful.</description>
@@ -2114,11 +2114,11 @@
             <li Class="Watcher.Comps.RandomProductExtension">
 			  <applyHediff>false</applyHediff>
               <onlyHumanCrafters>true</onlyHumanCrafters>
-             <!-- <crafterHediff>ToxicBuildup</crafterHediff>
-              <crafterHediffSeverity>0.03</crafterHediffSeverity>-->
+             <!{1}** <crafterHediff>ToxicBuildup</crafterHediff>
+              <crafterHediffSeverity>0.03</crafterHediffSeverity>**{1}>
 			    
                 <randomProducts>
-                    <!-- Предметы -->
+                    <!{1}** Предметы **{1}>
                     <li>
                         <thingDef>Rubber</thingDef>
                         <count>5</count>
@@ -2176,5 +2176,5 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
-	</RecipeDef>
+	</RecipeDef>-->
 </Defs>

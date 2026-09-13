@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--
+=====================================================================================
+  МЕХАНИКА "СЛУЧАЙНЫЙ РЕЗУЛЬТАТ КРАФТА" (RecipeWorker_RandomProduct)
+=====================================================================================
+
+  КАК ЭТО РАБОТАЕТ ПО ШАГАМ (что происходит в коде на каждой итерации крафта):
+
+  1. Пешка (billDoer) выполняет рецепт с workerClass = Watcher.Comps.RecipeWorker_RandomProduct.
+  2. По завершении КАЖДОЙ итерации крафта (Notify_IterationCompleted) код:
+       a) если applyHediff = true и крафтер - человек (или onlyHumanCrafters = false) -
+          накладывает/усиливает Hediff (например, токсическое отравление);
+       b) считывает уровень навыка relevantSkill у крафтера (0-20, как в игре);
+       c) отфильтровывает из randomProducts только те варианты, у которых
+          minSkillLevel <= текущий уровень навыка крафтера;
+       d) для каждого оставшегося варианта считает "эффективный вес" - вес,
+          линейно интерполированный между weightAtSkill0 и weightAtSkill20
+          в зависимости от текущего уровня навыка;
+       e) делает взвешенный случайный выбор (чем больше эффективный вес - тем чаще
+          выпадает этот вариант) и создаёт результат: обычный предмет, активную
+          гранату или живого пешку (дружественного/враждебного/дикого).
+
+  СМЫСЛ СИСТЕМЫ НАВЫКОВ:
+  Чем выше нужный навык у крафтера, тем больше шанс получить "ценные" результаты
+  и меньше шанс получить "мусор" - без единого отрицательного числа в настройках.
+  Всё задаётся двумя интуитивными полями на каждый предмет: "вес на 0 навыке" и
+  "вес на 20 навыке" (20 - максимальный уровень навыка в RimWorld).
+
+=====================================================================================
+  НАСТРОЙКИ УРОВНЯ ВСЕГО РЕЦЕПТА (RandomProductExtension)
+=====================================================================================
+
+  <relevantSkill>          Какой навык проверяем у крафтера. Определяет, ОТ ЧЕГО
+                            зависят шансы. Подставьте сюда любой SkillDef игры:
+                              Crafting      - Мастерство      (крафт, инженерия)
+                              Medicine      - Медицина        (лечение, операции)
+                              Intellectual  - Интеллект       (наука, исследования)
+                              Construction  - Строительство   (стройка, разбор)
+                              Artistic      - Artistic        (искусство)
+                              Cooking       - Cooking          (готовка)
+                              Plants        - Plants           (ботаника)
+                              Mining        - Mining           (горное дело)
+                              Animals       - Animals          (животноводство)
+                              Social        - Social           (переговоры)
+                              Melee/Shooting - боевые навыки
+                            Если тег вообще убрать/оставить пустым - навык не
+                            проверяется, и все веса считаются как на уровне
+                            fallbackSkillLevel.
+
+  <fallbackSkillLevel>      Уровень навыка "по умолчанию", который используется,
+                            если у крафтера почему-то нет нужного навыка (например
+                            крафтит немех-пешка без skills, или relevantSkill не
+                            задан). По умолчанию 0 (то есть без бонусов).
+
+  <applyHediff>             true/false - накладывать ли на крафтера Hediff
+                            (например токсическое отравление) за саму работу с
+                            опасным материалом. Не связано с системой весов -
+                            это просто "профвредность" рецепта.
+
+  <onlyHumanCrafters>       true  - Hediff накладывается только на людей
+                                    (не на механоидов/животных).
+                            false - Hediff накладывается на любого крафтера.
+
+  <crafterHediff>           defName хеддифа, который накладывается на крафтера
+                            (например ToxicBuildup - токсическое отравление).
+
+  <crafterHediffSeverity>   На сколько увеличивается тяжесть хеддифа за одну
+                            итерацию крафта (например 0.03 = +3% тяжести).
+
+  <crafterBodyPart>         (необязательно) На какую часть тела накладывать
+                            хеддиф. Если не указано - хеддиф общий (whole body).
+
+=====================================================================================
+  НАСТРОЙКИ КАЖДОГО ВАРИАНТА РЕЗУЛЬТАТА (RandomProductOption, внутри <randomProducts>)
+=====================================================================================
+
+  <thingDef>                defName предмета/существа, которое может быть создано
+                            (например Rubber, Gun_Revolver, Cockroach).
+
+  <count>                   Сколько единиц/голов создаётся за один "выпад" этого
+                            варианта.
+
+  СИСТЕМА ВЕСОВ (шкала навыка 0-20, как в игре)
+
+  <weightAtSkill0>          Вес этого варианта, КОГДА У КРАФТЕРА НАВЫК = 0.
+                            Чем больше число - тем чаще вариант выпадает
+                            относительно других вариантов на этом уровне навыка.
+
+  <weightAtSkill20>         Вес этого варианта, КОГДА У КРАФТЕРА НАВЫК = 20
+                            (максимум). Работает так же, как weightAtSkill0,
+                            но для максимального навыка.
+
+                            Между уровнями 0 и 20 вес меняется ПЛАВНО (линейно).
+                            Например weightAtSkill0=10, weightAtSkill20=2 значит:
+                              навык 0  -> вес 10 (часто)
+                              навык 10 -> вес 6  (среднее значение)
+                              навык 20 -> вес 2  (редко)
+
+                            Правила выбора значений:
+                              - Хотите, чтобы предмет был ЧАСТЫМ "мусором",
+                                который встречается реже у опытных мастеров:
+                                weightAtSkill0 БОЛЬШЕ, чем weightAtSkill20.
+                                Пример: 10 -> 2
+
+                              - Хотите, чтобы предмет был РЕДКИМ и становился
+                                более частым наградой за высокий навык:
+                                weightAtSkill0 МЕНЬШЕ, чем weightAtSkill20.
+                                Пример: 1 -> 8
+
+                              - Хотите, чтобы навык вообще не влиял на шанс
+                                этого конкретного варианта (например, случайная
+                                опасность не должна зависеть от мастерства):
+                                weightAtSkill0 = weightAtSkill20 (любое одинаковое
+                                число, например 1 -> 1).
+
+                            ВАЖНО: веса всех ДОСТУПНЫХ вариантов (прошедших фильтр
+                            minSkillLevel) на текущем уровне навыка суммируются,
+                            и шанс каждого варианта = его_вес / сумма_всех_весов.
+                            То есть это не "проценты", а именно относительные веса -
+                            можно использовать любые удобные числа.
+
+  <minSkillLevel>           Минимальный уровень навыка, при котором вариант вообще
+                            участвует в розыгрыше (в общий пул). Если у крафтера
+                            навык ниже этого значения - вариант полностью
+                            исключается, как будто его нет в списке.
+                            Полезно, чтобы редкие/ценные/опасные предметы (оружие,
+                            запчасти роботов) не могли выпасть у новичка совсем,
+                            а не просто становились маловероятными.
+                            По умолчанию 0 - доступен всегда.
+
+  КАЧЕСТВО РЕЗУЛЬТАТА (только для предметов, у которых вообще бывает качество -
+      оружие, броня, мебель и т.п.; на еду/ресурсы/существ эти теги не действуют) 
+
+  <fixedQuality>             Если указать - у предмета будет СТРОГО это качество,
+                            игровая генерация по навыку вообще не используется.
+                            Допустимые значения (по возрастанию ценности):
+                              Awful, Poor, Normal, Good, Excellent, Masterwork, Legendary
+                            Пример: <fixedQuality>Normal</fixedQuality>
+                            Если тег не указывать вовсе - качество считается как в
+                            ванильной игре (см. minQuality/maxQuality ниже).
+
+  <minQuality>               Работают, только если fixedQuality НЕ указано.
+  <maxQuality>               Качество сначала считается стандартным игровым способом
+                            (зависит от workSkill рецепта - для этого рецепта это
+                            Crafting - и от вдохновения пешки), а затем результат
+                            "зажимается" в диапазон [minQuality; maxQuality].
+                            Например, если игра насчитала Legendary, а maxQuality =
+                            Good - предмет всё равно будет не выше Good.
+                            По умолчанию minQuality = Awful, maxQuality = Legendary -
+                            то есть диапазон ничего не ограничивает (как в ванили).
+                            Удобно, чтобы "мусорные" находки никогда не были выше
+                            Normal, а ценные трофеи - никогда не были ниже Good.
+
+ КУДА СПАВНИТЬ РЕЗУЛЬТАТ 
+
+  <spawnAsPawn>              true  - результат создаётся как ЖИВОЕ существо/пешка
+                                     (использует PawnKindDef с тем же defName,
+                                     что и thingDef).
+                             false - результат создаётся как обычный предмет
+                                     (Thing), кладётся на карту рядом с крафтером.
+
+  <tameIfAnimal>              Работает только если spawnAsPawn = true и результат -
+                             животное. true = существо сразу считается прирученным
+                             (если оно не враждебной фракции).
+
+  <spawnAsActiveGrenade>      true = результат создаётся как предмет и СРАЗУ
+                             активируется (взводится взрыватель/таймер), как будто
+                             кто-то его поджёг. Используется для гранат-ловушек.
+                             Также автоматически включается для любых предметов
+                             с def.projectile != null (снаряды).
+
+  <fuseTicks>                 Через сколько игровых тиков взорвётся активная
+                             граната (используется только вместе со
+                             spawnAsActiveGrenade = true). 60 тиков = 1 секунда
+                             игрового времени.
+
+  <factionType>                Работает только при spawnAsPawn = true. Определяет,
+                             какой фракции будет принадлежать заспавненная пешка:
+                               Player  - вступает в колонию игрока сразу
+                               Enemy / Hostile - случайная враждебная фракция
+                                         (или Faction.OfAncientsHostile, если
+                                         таких фракций на карте нет)
+                               Neutral - случайная нейтральная фракция
+                                         (или Faction.OfAncients как запасной вариант)
+                               Wild / Null - без фракции (дикое животное/существо)
+
+=====================================================================================
+  ПРИМЕР ЛОГИКИ НИЖЕ:
+  Навык - Crafting. У пешки с Crafting 0 в основном выпадает "мусор" (Rubber,
+  Plastic, Polymers, RottedMush - вес 10 против 2 у ценных вещей). У пешки с
+  Crafting 20 мусор становится редким (вес 2), а ценные вещи (Gun_Revolver,
+  RobotParts) становятся значительно вероятнее. При этом Gun_Revolver и
+  RobotParts вообще не могут выпасть у пешки с навыком ниже 4 и 6 соответственно
+  (minSkillLevel). Граната-ловушка и таракан-враг не зависят от навыка вообще
+  (weightAtSkill0 = weightAtSkill20 = 1). Если выпадает Gun_Revolver - его
+  качество считается обычной игровой генерацией, но принудительно не может
+  быть ниже Normal и выше Excellent (minQuality/maxQuality).
+=====================================================================================
+-->
+	<RecipeDef>
+		<defName>MakeWastepack</defName>
+		<label>Sort out the trash</label>
+		<description>Searching through toxic waste can yield something useful. Working with toxic waste negatively affects health.</description>
+		<workerClass>Watcher.Comps.RecipeWorker_RandomProduct</workerClass>
+		<jobString>Search</jobString>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<researchPrerequisite>Machining</researchPrerequisite>
+		<workAmount>3600</workAmount>
+		<recipeUsers>
+			<li>FabricationBench</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Wastepack</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Wastepack</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<modExtensions>
+			<li Class="Watcher.Comps.RandomProductExtension">
+				<applyHediff>true</applyHediff>
+				<onlyHumanCrafters>true</onlyHumanCrafters>
+				<crafterHediff>ToxicBuildup</crafterHediff>
+				<crafterHediffSeverity>0.03</crafterHediffSeverity>
+				<!-- Навык, от которого зависят шансы. См. список допустимых значений в шапке файла. -->
+				<relevantSkill>Crafting</relevantSkill>
+				<!-- Уровень навыка "по умолчанию", если у крафтера нет нужного навыка. -->
+				<fallbackSkillLevel>0</fallbackSkillLevel>
+				<randomProducts>
+					<!--
+                        ОБЫЧНЫЙ МУСОР.
+                        На навыке 0 вес = 10 (часто), на навыке 20 вес = 2 (редко).
+                        Чем выше мастерство крафтера - тем меньше шанс достать это.
+                    -->
+					<li>
+						<thingDef>Rubber</thingDef>
+						<count>5</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>2</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>Plastic</thingDef>
+						<count>5</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>2</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>Polymers</thingDef>
+						<count>5</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>2</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>RottedMush</thingDef>
+						<count>5</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>2</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<!--
+					    СРЕДНЕ-ЦЕННЫЕ ПРЕДМЕТЫ.
+					    Вес растёт (SyntheticSkin: 1->4) либо падает не так резко,
+					    как у чистого мусора (Chemfuel/Compaste: 10->6).
+					-->
+					<li>
+						<thingDef>SyntheticSkin</thingDef>
+						<count>5</count>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>4</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>Chemfuel</thingDef>
+						<count>5</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>6</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>Compaste</thingDef>
+						<count>5</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>6</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<!--
+					    ЦЕННЫЕ ПРЕДМЕТЫ.
+					    minSkillLevel "запирает" их для новичков: Gun_Revolver
+					    недоступен до навыка 4, RobotParts - до навыка 6.
+					    После открытия их вес быстро растёт с навыком (1->8, 1->10).
+
+					    У Gun_Revolver есть качество (оружие) - здесь оно не фиксируется
+					    жёстко, а лишь ограничивается снизу: не хуже Normal, но при этом
+					    не выше Excellent (даже если обычная игровая генерация посчитала
+					    бы Masterwork/Legendary). Если бы нужно было качество СТРОГО
+					    заданным - использовали бы <fixedQuality>Normal</fixedQuality>
+					    вместо minQuality/maxQuality.
+					-->
+					<li>
+						<thingDef>Gun_Revolver</thingDef>
+						<count>1</count>
+						<minSkillLevel>4</minSkillLevel>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>8</weightAtSkill20>
+						<minQuality>Normal</minQuality>
+						<maxQuality>Excellent</maxQuality>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>RobotParts</thingDef>
+						<count>10</count>
+						<minSkillLevel>6</minSkillLevel>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>10</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<!--
+					    ОПАСНЫЕ/СЛУЧАЙНЫЕ РЕЗУЛЬТАТЫ - НЕ ЗАВИСЯТ ОТ НАВЫКА.
+					    weightAtSkill0 = weightAtSkill20, поэтому их шанс всегда
+					    одинаковый независимо от мастерства крафтера.
+					-->
+					<li>
+						<thingDef>CE_Weapon_GrenadeSmoke</thingDef>
+						<count>1</count>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>1</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+						<spawnAsActiveGrenade>true</spawnAsActiveGrenade>
+						<fuseTicks>60</fuseTicks>
+					</li>
+					<li>
+						<thingDef>Cockroach</thingDef>
+						<count>3</count>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>1</weightAtSkill20>
+						<spawnAsPawn>true</spawnAsPawn>
+						<factionType>Enemy</factionType>
+					</li>
+				</randomProducts>
+			</li>
+		</modExtensions>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>MakeGun</defName>
+		<label>Try to assemble a weapon from junk</label>
+		<description>try to assemble a weapon from junk.</description>
+		<workerClass>Watcher.Comps.RecipeWorker_RandomProduct</workerClass>
+		<jobString>assemble</jobString>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<researchPrerequisite>Machining</researchPrerequisite>
+		<workAmount>3600</workAmount>
+		<recipeUsers>
+			<li>WeaponCraftingWorkTable</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<modExtensions>
+			<li Class="Watcher.Comps.RandomProductExtension">
+				<applyHediff>false</applyHediff>
+				<onlyHumanCrafters>true</onlyHumanCrafters>
+				<crafterHediff>ToxicBuildup</crafterHediff>
+				<crafterHediffSeverity>0.03</crafterHediffSeverity>
+				<!-- Навык, от которого зависят шансы. См. список допустимых значений в шапке файла. -->
+				<relevantSkill>Crafting</relevantSkill>
+				<!-- Уровень навыка "по умолчанию", если у крафтера нет нужного навыка. -->
+				<fallbackSkillLevel>0</fallbackSkillLevel>
+				<randomProducts>
+					<!--
+                        ОБЫЧНЫЙ МУСОР.
+                        На навыке 0 вес = 10 (часто), на навыке 20 вес = 2 (редко).
+                        Чем выше мастерство крафтера - тем меньше шанс достать это.
+                    -->
+					<li>
+						<thingDef>Weapon_Parts</thingDef>
+						<count>2</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>2</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>ComponentIndustrial</thingDef>
+						<count>2</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>2</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>Shotgun_Component</thingDef>
+						<count>1</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>2</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<li>
+						<thingDef>Plastic</thingDef>
+						<count>1</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>2</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+					</li>
+					<!--
+					    СРЕДНЕ-ЦЕННЫЕ ПРЕДМЕТЫ.
+					    Вес растёт (SyntheticSkin: 1->4) либо падает не так резко,
+					    как у чистого мусора (Chemfuel/Compaste: 10->6).
+					-->
+					<li>
+						<thingDef>Fallout_PipeGun</thingDef>
+						<count>1</count>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>4</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+						<maxQuality>Excellent</maxQuality>
+					</li>
+					<li>
+						<thingDef>Fallout_PipeRifle</thingDef>
+						<count>1</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>6</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+						<maxQuality>Excellent</maxQuality>
+					</li>
+					<li>
+						<thingDef>Fallout_OldRevolver</thingDef>
+						<count>1</count>
+						<weightAtSkill0>10</weightAtSkill0>
+						<weightAtSkill20>6</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+						<maxQuality>Excellent</maxQuality>
+					</li>
+					<!--
+					    ЦЕННЫЕ ПРЕДМЕТЫ.
+					    minSkillLevel "запирает" их для новичков: Gun_Revolver
+					    недоступен до навыка 4, RobotParts - до навыка 6.
+					    После открытия их вес быстро растёт с навыком (1->8, 1->10).
+					-->
+					<li>
+						<thingDef>Gun_MachinePistol</thingDef>
+						<count>1</count>
+						<minSkillLevel>4</minSkillLevel>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>8</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+						<maxQuality>Poor</maxQuality>
+					</li>
+					<li>
+						<thingDef>Gun_HeavySMG</thingDef>
+						<count>10</count>
+						<minSkillLevel>6</minSkillLevel>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>10</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+						<maxQuality>Poor</maxQuality>
+					</li>
+					<!--
+					    ОПАСНЫЕ/СЛУЧАЙНЫЕ РЕЗУЛЬТАТЫ - НЕ ЗАВИСЯТ ОТ НАВЫКА.
+					    weightAtSkill0 = weightAtSkill20, поэтому их шанс всегда
+					    одинаковый независимо от мастерства крафтера.
+					-->
+					<li>
+						<thingDef>CE_Weapon_GrenadeSmoke</thingDef>
+						<count>1</count>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>1</weightAtSkill20>
+						<spawnAsPawn>false</spawnAsPawn>
+						<spawnAsActiveGrenade>true</spawnAsActiveGrenade>
+						<fuseTicks>60</fuseTicks>
+					</li>
+					<li>
+						<thingDef>Cockroach</thingDef>
+						<count>3</count>
+						<weightAtSkill0>1</weightAtSkill0>
+						<weightAtSkill20>1</weightAtSkill20>
+						<spawnAsPawn>true</spawnAsPawn>
+						<factionType>Enemy</factionType>
+					</li>
+				</randomProducts>
+			</li>
+		</modExtensions>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.8</workSkillLearnFactor>
+	</RecipeDef>
+</Defs>
