@@ -925,4 +925,16 @@ WorkGiver
 
 Ржавые Дьяволы используют передовые технологии взлома, чтобы подчинить ваши машины. Вы должны уничтожить их, прежде чем они нанесут ещё больший урон!</RustyDevils.MechBetrayal.Letter.Text>
 
+
+  <Watcher_ReactorDestabilizingLabel>Реактор дестабилизируется</Watcher_ReactorDestabilizingLabel>
+  <Watcher_ReactorDestabilizing>Реактор {0} дестабилизируется! Требуется срочная замена активной зоны, иначе произойдёт расплавление.</Watcher_ReactorDestabilizing>
+  <Watcher_ReactorStabilized>Реактор {0} успешно стабилизирован.</Watcher_ReactorStabilized>
+  <Watcher_ReactorMeltdown>КРИТИЧЕСКИЙ ОТКАЗ: реактор {0} расплавился!</Watcher_ReactorMeltdown>
+ 
+  <Watcher_ReactorState_Offline>Выключен</Watcher_ReactorState_Offline>
+  <Watcher_ReactorState_RampingUp>Разгон: {0}%</Watcher_ReactorState_RampingUp>
+  <Watcher_ReactorState_Working>Работает на полной мощности</Watcher_ReactorState_Working>
+  <Watcher_ReactorState_RampingDown>Остановка: {0}%</Watcher_ReactorState_RampingDown>
+  <Watcher_ReactorState_Destabilizing>ДЕСТАБИЛИЗАЦИЯ! До расплавления: {0} ч.</Watcher_ReactorState_Destabilizing>
+  <Watcher_ReactorState_Meltdown>РАСПЛАВЛЕНО</Watcher_ReactorState_Meltdown>
 </LanguageData>

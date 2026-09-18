@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Зацикленный тревожный сустейнер, играет пока реактор в состоянии Destabilizing.
+       Файл должен лежать в Sounds/Reactor/ReactorAlarmLoop.wav (или .ogg). -->
+  <SoundDef>
+    <defName>Reactor_Destabilizing</defName>
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Reactor/ReactorAlarmLoop</clipPath>
+          </li>
+        </grains>
+        <volumeRange>90~100</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+
+  <!-- Разовый звук при TriggerMeltdown().
+       Файл должен лежать в Sounds/Reactor/ReactorMeltdown.wav (или .ogg). -->
+  <SoundDef>
+    <defName>Reactor_Meltdown</defName>
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Reactor/ReactorMeltdown</clipPath>
+          </li>
+        </grains>
+        <volumeRange>80~90</volumeRange>
+        <distRange>10~60</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

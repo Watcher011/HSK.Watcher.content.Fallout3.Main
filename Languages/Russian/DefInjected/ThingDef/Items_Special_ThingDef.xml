@@ -97,4 +97,7 @@
 <HolodiskEW.comps.0.activateDescString>Проанализировать голодиск.</HolodiskEW.comps.0.activateDescString>
 <HolodiskEW.comps.0.jobString>Анализирует голодиск</HolodiskEW.comps.0.jobString>
 <HolodiskEW.comps.0.guiLabelString>Выберите, кто должен это проанализировать</HolodiskEW.comps.0.guiLabelString>
+<ReactorCoreComponent.label>блок стабилизации зоны реактора</ReactorCoreComponent.label>
+<ReactorCoreComponent.description>Экспериментальный стабилизатор Vault-Tec для экстренного предотвращения расплавления активной зоны реактора.
+Выглядит как тяжелая желтая колба с зеленым изотопом и символом радиационной опасности.</ReactorCoreComponent.description>
 </LanguageData>

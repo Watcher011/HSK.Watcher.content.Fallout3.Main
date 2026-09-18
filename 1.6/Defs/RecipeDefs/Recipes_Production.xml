@@ -2079,6 +2079,70 @@
 	    <researchPrerequisite>Rifles_C1</researchPrerequisite>
 	</RecipeDef>
 	
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+        <defName>MakeRCor</defName>
+       <label>Create a Core stabilizer</label>
+       <description>An experimental Vault-Tec stabilizer for the emergency suppression of a reactor core meltdown.
+It looks like a heavy yellow flask containing a green isotope and a radiation symbol.</description>
+       <jobString>Creates a Lid Mine.</jobString>
+       <researchPrerequisite>Vault-TecPowerB</researchPrerequisite>
+		<workAmount>3600</workAmount>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+        <ingredients>
+           <li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Uranium</li>
+                    </thingDefs>
+                </filter>
+                <count>10</count>
+            </li>
+			<li>
+                <filter>
+                    <thingDefs>
+                        <li>NickelBar</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>ComponentIndustrial</li>
+                <li>Uranium</li>
+				<li>NickelBar</li>
+            </thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+        </fixedIngredientFilter>
+        <products>
+            <ReactorCoreComponent>1</ReactorCoreComponent>
+        </products>
+        <recipeUsers>
+	        <li>FabricationBench</li>
+		</recipeUsers>
+    </RecipeDef>
 	<!--<RecipeDef>
 		<defName>MakeScrapMetal</defName>
 		<label>dismantle scrap metal</label>
@@ -2177,4 +2241,6 @@
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
 	</RecipeDef>-->
+	
+	
 </Defs>

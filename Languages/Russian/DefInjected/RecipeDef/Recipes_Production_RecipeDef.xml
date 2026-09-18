@@ -114,4 +114,9 @@
 <MakeScrapMetal.label>Разобрать металлолом</MakeScrapMetal.label>
 <MakeScrapMetal.description>Поиск в металлоломе может дать что-то полезное.</MakeScrapMetal.description>
 <MakeScrapMetal.jobString>Поиск</MakeScrapMetal.jobString>
+
+<MakeRCor.label>Создать стабилизатор активной зоны</MakeRCor.label>
+<MakeRCor.description>Экспериментальный стабилизатор от Vault-Tec, предназначенный для экстренного предотвращения расплавления активной зоны реактора.
+Выглядит как тяжелая желтая колба с зеленым изотопом и символом радиации.</MakeRCor.description>
+<MakeRCor.jobString>Создает стабилизатор.</MakeRCor.jobString>
 </LanguageData>

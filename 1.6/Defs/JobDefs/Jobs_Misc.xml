@@ -27,5 +27,10 @@
     <joyGainRate>1.2</joyGainRate>
     <joyKind>MusicRadioJoy</joyKind>
   </JobDef>
-
+  
+ <JobDef>
+    <defName>Watcher_RepairReactorCore</defName>
+    <driverClass>Watcher.Buildings.JobDriver_RepairReactorCore</driverClass>
+    <reportString>repairing reactor core.</reportString>
+  </JobDef>
 </Defs>

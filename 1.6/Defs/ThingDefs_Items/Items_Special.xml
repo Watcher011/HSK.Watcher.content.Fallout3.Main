@@ -748,8 +748,6 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 			<DeteriorationRate>1</DeteriorationRate>
 		</statBases>
 	</ThingDef>
-	
-	
 	<ThingDef ParentName="RelicInertBase">
 		<defName>HolodiskDrug</defName>
 		<label>Holodisk Drug</label>
@@ -803,7 +801,6 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 			<DeteriorationRate>1</DeteriorationRate>
 		</statBases>
 	</ThingDef>
-	
 	<ThingDef ParentName="RelicInertBase">
 		<defName>HolodiskHW</defName>
 		<label>Holodisk Heavy Weapons</label>
@@ -857,7 +854,6 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 			<DeteriorationRate>1</DeteriorationRate>
 		</statBases>
 	</ThingDef>
-	
 	<ThingDef ParentName="RelicInertBase">
 		<defName>HolodiskEW</defName>
 		<label>Holodisk Energy Weapons</label>
@@ -910,5 +906,34 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 			<MarketValue>900</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
 		</statBases>
+	</ThingDef>
+	<ThingDef ParentName="ResourceBase">
+		<defName>ReactorCoreComponent</defName>
+		<label>reactor core assembly</label>
+		<description>An experimental Vault-Tec stabilizer for the emergency suppression of a reactor core meltdown.
+It looks like a heavy yellow flask containing a green isotope and a radiation symbol.</description>
+		<graphicData>
+			<texPath>Things/Item/RCor</texPath>
+			<!-- TODO: своя текстура -->
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>10</stackLimit>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>800</MarketValue>
+			<Mass>4</Mass>
+			<Flammability>0</Flammability>
+			<WorkToMake>4000</WorkToMake>
+		</statBases>
+		<thingCategories>
+			<li>ItemsMisc</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<techLevel>Industrial</techLevel>
 	</ThingDef>
 </Defs>

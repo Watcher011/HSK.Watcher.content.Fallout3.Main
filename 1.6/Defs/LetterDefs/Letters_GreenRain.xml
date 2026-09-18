@@ -23,4 +23,11 @@
         <flashColor>(150, 255, 150)</flashColor>
         <flashInterval>5</flashInterval>
     </LetterDef>
+	
+	<!-- <LetterDef>
+    <defName>Reactor_Destabilizing</defName>
+    <color>(1, 0.65, 0.14, 1)</color>
+    <iconPath>UI/Letters/ThreatBig</iconPath>
+    <flashColor>(1, 0.1, 0.1, 1)</flashColor>
+  </LetterDef>-->
 </Defs>

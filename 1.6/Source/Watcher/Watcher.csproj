@@ -81,6 +81,7 @@
     <Compile Include="Biome\BiomeWorker_GlowingSea.cs" />
     <Compile Include="Buildings\Building_MyGECK.cs" />
     <Compile Include="Buildings\Building_TGenerator.cs" />
+    <Compile Include="Buildings\NuclearReactor.cs" />
     <Compile Include="Buildings\PrebuiltBase.cs" />
     <Compile Include="CompMedicalGrenadeExtension.cs" />
     <Compile Include="CompProperties_MeleeCharge.cs" />

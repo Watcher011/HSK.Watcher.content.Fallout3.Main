@@ -25,4 +25,18 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>-->
+  
+  <WorkGiverDef>
+    <defName>Watcher_RepairReactorCore</defName>
+    <label>repair reactor core</label>
+    <giverClass>Watcher.Buildings.WorkGiver_RepairReactorCore</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>80</priorityInType>
+    <verb>repairing</verb>
+    <gerund>repairing reactor core</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <emergency>true</emergency>
+  </WorkGiverDef>
 </Defs>

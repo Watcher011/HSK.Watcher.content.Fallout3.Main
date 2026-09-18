@@ -279,7 +279,7 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 		<graphicData>
 			<texPath>Things/Building/Power/Generator/AncientVaulttechgenerator/AncientVaulttechgenerator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(4, 3)</drawSize>
+			<drawSize>(5, 4)</drawSize>
 			<drawOffset>(0,0,0.5)</drawOffset>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
@@ -308,39 +308,68 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 			<Mass>150</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
-		<size>(4,2)</size>
+		<size>(5,2)</size>
 		<costList>
 			<Steel>100</Steel>
 			<ComponentSpacer>6</ComponentSpacer>
 		</costList>
 		<comps>
+			<!-- Мощность. compClass = CompPowerPlant, но basePowerConsumption = 0:
+           реальную мощность каждый тик выставляет CompNuclearReactor через PowerOutput. -->
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerPlant</compClass>
-				<basePowerConsumption>-3000</basePowerConsumption>
+				<basePowerConsumption>0</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<!-- Топливо. CompNuclearReactor.HasFuel читает именно этот комп.
+           Замените thingDefs на реальный defName вашего ядерного топлива. -->
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.6</fuelConsumptionRate>
+				<fuelCapacity>2</fuelCapacity>
+				<fuelIconPath>Things/Item/Bat</fuelIconPath>
+				<initialFuelPercent>0</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelFilter>
+					<thingDefs>
+						<li>NuclearBattery</li>
+						<!-- TODO: заменить на реальный defName ядерного топлива -->
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<!-- Основная логика реактора: разгон, дестабилизация, коллапс -->
+			<li Class="Watcher.Buildings.CompProperties_NuclearReactor">
+				<workingPowerOutput>-10000</workingPowerOutput>
+				<rampUpDurationTicks>60000</rampUpDurationTicks>
+				<rampDownDurationTicks>15000</rampDownDurationTicks>
+				<destabilizationHealthThreshold>0.5</destabilizationHealthThreshold>
+				<destabilizationChancePerTickWhenDamaged>0.00003</destabilizationChancePerTickWhenDamaged>
+				<spontaneousDestabilizationMtbDays>400</spontaneousDestabilizationMtbDays>
+				<radiationHediff>RimatomicsRadiation</radiationHediff>
+				<radiationRadius>8</radiationRadius>
+				<radiationSeverityPerTick>0.0001</radiationSeverityPerTick>
+				<wasteItemDef>Filth_NFRAD</wasteItemDef>
+				<wasteSpawnRadius>6</wasteSpawnRadius>
+				<wasteSpawnMtbTicksPerCell>12000</wasteSpawnMtbTicksPerCell>
+				<soundDestabilizing>Reactor_Destabilizing</soundDestabilizing>
+				<soundMeltdown>Reactor_Meltdown</soundMeltdown>
+				<coreComponentDef>ReactorCoreComponent</coreComponentDef>
+				<coreComponentWorkTicks>4000</coreComponentWorkTicks>
+				<meltdownIsIrreversible>true</meltdownIsIrreversible>
+				<destroyBuildingOnMeltdown>true</destroyBuildingOnMeltdown>
+				<meltdownCraterWasteCount>12</meltdownCraterWasteCount>
+				<meltdownCraterRadius>4</meltdownCraterRadius>
+				<meltdownExplosionDamageDef>NuclearB</meltdownExplosionDamageDef>
+				<meltdownExplosionRadius>4.9</meltdownExplosionRadius>
+				<meltdownExplosionDamage>250</meltdownExplosionDamage>
+				<meltdownExplosionChanceToStartFire>0.4</meltdownExplosionChanceToStartFire>
+				<ticksUntilMeltdown>30000</ticksUntilMeltdown>
 			</li>
 			<li Class="CompProperties_Glower">
-				<glowRadius>3</glowRadius>
+				<glowRadius>5</glowRadius>
 				<glowColor>(227,233,168,0)</glowColor>
-			</li>
-			<li Class="SK.CompProperties_ApplyHediffAround">
-				<hediff>RimatomicsRadiation</hediff>
-				<radius>3</radius>
-				<severityToAdd>0.001</severityToAdd>
-			</li>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>15</explosiveRadius>
-				<explosiveDamageType>NuclearB</explosiveDamageType>
-				<damageAmountBase>18000</damageAmountBase>
-				<postExplosionSpawnThingDef>Filth_NFRAD</postExplosionSpawnThingDef>
-				<postExplosionSpawnChance>0.11</postExplosionSpawnChance>
-				<startWickHitPointsPercent>0.2</startWickHitPointsPercent>
-				<wickTicks>15</wickTicks>
-				<startWickOnDamageTaken>
-					<li>Bullet</li>
-					<li>Arrow</li>
-					<li>ArrowHighVelocity</li>
-				</startWickOnDamageTaken>
 			</li>
 		</comps>
 		<thingSetMakerTags>
