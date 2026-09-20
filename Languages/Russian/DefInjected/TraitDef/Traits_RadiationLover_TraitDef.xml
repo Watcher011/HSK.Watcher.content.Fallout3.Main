@@ -42,4 +42,9 @@
 <ComicsFan.degreeDatas.0.label>Фанат комиксов</ComicsFan.degreeDatas.0.label>
 <ComicsFan.degreeDatas.0.description>{PAWN_nameDef} обожает комиксы и иногда рисует свои собственные выпуски. Это приносит радость {PAWN_objective} и окружающим.</ComicsFan.degreeDatas.0.description>
 <ComicsFan.degreeDatas.0.labelFemale>Фанатка комиксов</ComicsFan.degreeDatas.0.labelFemale>
+
+<Insectophobe.degreeDatas.0.label>инсектофоб</Insectophobe.degreeDatas.0.label>
+<Insectophobe.degreeDatas.0.description>{PAWN_nameDef} испытывает глубинный, иррациональный ужас перед насекомыми — будь то радтараканы, дутни, гигантские муравьи или кто-либо еще. Однако страх быстро сменяется яростью: стоит {PAWN_objective} убить одну из этих мерзких тварей, как адреналин ударяет {PAWN_objective} в кровь, и до конца дня {PAWN_pronoun} двигается, атакует и уклоняется так, словно это совершенно другой человек.</Insectophobe.degreeDatas.0.description>
+<Insectophobe.degreeDatas.0.labelFemale>инсектофобка</Insectophobe.degreeDatas.0.labelFemale>
+
 </LanguageData>

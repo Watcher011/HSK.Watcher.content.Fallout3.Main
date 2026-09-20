@@ -249,15 +249,24 @@
 								<li>
 									<filter>
 										<thingDefs>
-											<li>RawTato</li>
+											<li>RawPotatoes</li>
 										</thingDefs>
 									</filter>
-									<count>4</count>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawTomatoes</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
 								</li>
 							</ingredients>
 							<fixedIngredientFilter>
 								<thingDefs>
-									<li>RawTato</li>
+									<li>RawPotatoes</li>
+									<li>RawTomatoes</li>
 								</thingDefs>
 							</fixedIngredientFilter>
 							<products>

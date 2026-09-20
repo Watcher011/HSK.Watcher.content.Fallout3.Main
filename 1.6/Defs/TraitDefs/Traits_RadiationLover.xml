@@ -125,4 +125,15 @@
       </li>
     </degreeDatas>
   </TraitDef>
+  
+  <TraitDef>
+		<defName>Insectophobe</defName>
+		<commonality>7</commonality>
+		<degreeDatas>
+			<li>
+				<label>insectophobe</label>
+				<description>{PAWN_nameDef} has a bone-deep, irrational terror of bugs — radroaches, bloatflies, giant ants, all of it. But fear curdles into fury fast: the instant {PAWN_pronoun} kills one of the vile things, adrenaline floods {PAWN_possessive} veins, and {PAWN_pronoun} moves, hits, and dodges like a completely different person for the rest of the day.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
 </Defs>

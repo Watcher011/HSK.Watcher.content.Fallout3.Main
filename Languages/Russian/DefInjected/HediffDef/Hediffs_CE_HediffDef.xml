@@ -67,4 +67,14 @@
 
 <VigorCharge_Hediff.label>Заряд бодрости</VigorCharge_Hediff.label>
 <VigorCharge_Hediff.description>Природная жизненная сила снижает потребность во сне.</VigorCharge_Hediff.description>
+
+<Insectophobe_HunterInstinct.label>инстинкт охотника</Insectophobe_HunterInstinct.label>
+<Insectophobe_HunterInstinct.labelNoun>инстинкт охотника</Insectophobe_HunterInstinct.labelNoun>
+<Insectophobe_HunterInstinct.description>Адреналин от убийства ненавистных насекомых всё ещё бурлит в крови. Чем больше их гибнет, тем острее становятся рефлексы.</Insectophobe_HunterInstinct.description>
+<Insectophobe_HunterInstinct.stages.0.label>пробуждение</Insectophobe_HunterInstinct.stages.0.label>
+<Insectophobe_HunterInstinct.stages.1.label>нарастание</Insectophobe_HunterInstinct.stages.1.label>
+<Insectophobe_HunterInstinct.stages.2.label>подъем</Insectophobe_HunterInstinct.stages.2.label>
+<Insectophobe_HunterInstinct.stages.3.label>неистовство</Insectophobe_HunterInstinct.stages.3.label>
+<Insectophobe_HunterInstinct.stages.4.label>жажда убийства</Insectophobe_HunterInstinct.stages.4.label>
+<Insectophobe_HunterInstinct.stages.5.label>кровавая бойня</Insectophobe_HunterInstinct.stages.5.label>
 </LanguageData>

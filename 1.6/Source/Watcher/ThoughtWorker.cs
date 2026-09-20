@@ -1,4 +1,6 @@
-﻿using RimWorld;
+﻿using HarmonyLib;
+using LudeonTK;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -455,8 +457,6 @@ namespace Watcher
             pawn.needs?.mood?.thoughts?.memories?.TryGainMemory(
                 ThoughtDef.Named("ComicsFan_CreatedComics")
             );
-
-            Log.Message($"[ComicsFan] {pawn.LabelShort} created: {book?.Title ?? "Unknown"}");
         }
 
         public override void ExposeData()
@@ -481,6 +481,215 @@ namespace Watcher
     {
         protected override ThoughtState CurrentStateInternal(Pawn p)
         {
+            return ThoughtState.ActiveDefault;
+        }
+    }
+
+    // ==================== НОВАЯ ЧЕРТА: ИНСЕКТОФОБ ====================
+    // Каждое убийство жука колонистом с чертой Insectophobe немедленно
+    // накладывает (или продлевает до суток) хедифф охотничьего азарта —
+    // он уже задаёт бонусы к характеристикам через свои statOffsets в XML.
+    //
+    // Отследить "момент убийства" через ThoughtWorker нельзя — он видит
+    // только текущее состояние, а не события. Поэтому используем
+    // Harmony-патч на Pawn.Kill.
+    //
+    // ТРЕБУЕМЫЕ XML-дефы (не входят в этот файл, см. Insectophobe_Defs.xml):
+    //   <TraitDef Defs="Insectophobe">                  — сама черта
+    //   <HediffDef Defs="Insectophobe_HunterInstinct">  — хедифф со
+    //       statOffsets и HediffCompProperties_Disappears
+
+    public class GameComponent_Insectophobe : GameComponent
+    {
+        private const string TRAIT_DEF_NAME = "Insectophobe";
+        private const string HUNTER_HEDIFF_DEF_NAME = "Insectophobe_HunterInstinct";
+
+        // Насколько растёт severity за одно убийство жука и потолок значения.
+        // При 0.2 за килл максимум (1.0) достигается на 5-м убийстве подряд.
+        private const float SEVERITY_PER_KILL = 0.2f;
+        private const float MAX_SEVERITY = 1.0f;
+
+        public GameComponent_Insectophobe(Game game) { }
+
+        public static GameComponent_Insectophobe Instance =>
+            Current.Game?.GetComponent<GameComponent_Insectophobe>();
+
+        public void RegisterBugKill(Pawn killer)
+        {
+            if (killer?.story?.traits == null)
+            {
+                return;
+            }
+
+            bool hasTrait = killer.story.traits.HasTrait(TraitDef.Named(TRAIT_DEF_NAME));
+
+            if (!hasTrait) return;
+            if (killer.Dead || killer.health?.hediffSet == null) return;
+
+            HediffDef hediffDef = DefDatabase<HediffDef>.GetNamedSilentFail(HUNTER_HEDIFF_DEF_NAME);
+            if (hediffDef == null)
+            {
+                Log.Warning($"[Insectophobe] HediffDef '{HUNTER_HEDIFF_DEF_NAME}' не найден!");
+                return;
+            }
+
+            Hediff existing = killer.health.hediffSet.GetFirstHediffOfDef(hediffDef);
+            float newSeverity;
+
+            if (existing != null)
+            {
+                // Каждое новое убийство поднимает степень (бонус растёт), капаясь на максимуме
+                newSeverity = existing.Severity + SEVERITY_PER_KILL;
+                if (newSeverity > MAX_SEVERITY)
+                    newSeverity = MAX_SEVERITY;
+                existing.Severity = newSeverity;
+
+                // И продлеваем сутки заново — таймер отсчитывается от последнего килла
+                HediffComp_Disappears disappears = existing.TryGetComp<HediffComp_Disappears>();
+                if (disappears != null)
+                    disappears.ticksToDisappear = GenDate.TicksPerDay;
+            }
+            else
+            {
+                newSeverity = SEVERITY_PER_KILL;
+
+                Hediff hediff = HediffMaker.MakeHediff(hediffDef, killer);
+                hediff.Severity = newSeverity;
+
+                HediffComp_Disappears disappears = hediff.TryGetComp<HediffComp_Disappears>();
+                if (disappears != null)
+                    disappears.ticksToDisappear = GenDate.TicksPerDay;
+
+                killer.health.AddHediff(hediff);
+            }
+
+            Messages.Message(
+                $"{killer.LabelShort} убил жука — охотничий азарт нарастает ({newSeverity / MAX_SEVERITY:P0})!",
+                killer, MessageTypeDefOf.PositiveEvent);
+        }
+    }
+
+    // Патч на Pawn.Kill: ловим момент убийства жука.
+    // __instance в Pawn.Kill — это ЖЕРТВА, а не тот, кто атакует.
+    //
+    // Самостоятельный модуль — по образцу DeadmanFashionHarmony: сам себя
+    // регистрирует через [StaticConstructorOnStartup] + собственный
+    // Harmony-инстанс в статическом конструкторе. Ничего вызывать извне
+    // не нужно — достаточно того, что этот класс есть в сборке мода.
+    [StaticConstructorOnStartup]
+    public static class InsectophobeHarmony
+    {
+        static InsectophobeHarmony()
+        {
+            var harmony = new Harmony("Watcher.Insectophobe");
+            PatchInsectophobeKill(harmony);
+        }
+
+        static void PatchInsectophobeKill(Harmony harmony)
+        {
+            try
+            {
+                var method = typeof(Pawn).GetMethod("Kill",
+                    BindingFlags.Instance | BindingFlags.Public);
+
+                if (method != null)
+                {
+                    var postfix = typeof(InsectophobeHarmony).GetMethod("KillPostfix",
+                        BindingFlags.Static | BindingFlags.NonPublic);
+                    harmony.Patch(method, postfix: new HarmonyMethod(postfix));
+                }
+                else
+                {
+                    Log.Error("[Insectophobe] PatchInsectophobeKill: метод Pawn.Kill не найден рефлексией!");
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error($"[Insectophobe] PatchInsectophobeKill: ошибка при патче Pawn.Kill: {ex}");
+            }
+        }
+
+        // Фракции, чьи пешки считаются "жуками" даже если у их расы
+        // FleshType не выставлен в Insectoid (кастомные твари вроде
+        // Antis / Venetis / Gnawler из фракции Insectoid).
+        private static readonly HashSet<string> BugFactionDefNames = new HashSet<string>
+        {
+            "Insect",     // ванильная фракция жуков (Spelopede, Megascarab, Megaspider, Locust)
+            "Insectoid",  // кастомная фракция улья (Antis, Venetis, Gnawler)
+        };
+
+        private static bool IsBug(Pawn pawn)
+        {
+            if (pawn?.RaceProps == null) return false;
+
+            // Основной способ — по FleshType (работает для ванильных жуков
+            // и любых кастомных рас, где fleshType честно проставлен)
+            if (pawn.RaceProps.FleshType == FleshTypeDefOf.Insectoid)
+                return true;
+
+            // Резервный способ — по принадлежности к "жучиной" фракции,
+            // на случай если у кастомной расы FleshType не Insectoid
+            if (pawn.Faction != null && BugFactionDefNames.Contains(pawn.Faction.def.defName))
+                return true;
+
+            return false;
+        }
+
+        // Сигнатура постфикса для Pawn.Kill(DamageInfo? dinfo, Hediff exactCulprit = null).
+        // private static — как ButcherPostfix/DeadMansApparelPrefix у вас в проекте,
+        // достаётся рефлексией через GetMethod(..., BindingFlags.NonPublic) выше.
+        private static void KillPostfix(Pawn __instance, DamageInfo? dinfo)
+        {
+            if (!IsBug(__instance))
+            {
+                return;
+            }
+
+            Pawn killer = dinfo?.Instigator as Pawn;
+            if (killer == null)
+            {
+                return;
+            }
+
+            GameComponent_Insectophobe.Instance?.RegisterBugKill(killer);
+        }
+    }
+
+    // ==================== ОТЛАДКА ====================
+
+    // Debug Action (меню отладки, Dev Mode) — вручную вызывает
+    // RegisterBugKill на выделенных пешках, минуя Harmony-патч и поиск
+    // жука. Если через эту кнопку трейт/хедифф работают, а от реального
+    // убийства жука — нет, значит проблема именно в перехвате Pawn.Kill,
+    // а не в логике черты.
+    public static class Insectophobe_DebugActions
+    {
+        [DebugAction("Watcher / Insectophobe", "Force bug kill (selected pawn)",
+            allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        private static void DebugForceBugKill()
+        {
+            List<Pawn> selected = Find.Selector.SelectedPawns;
+            if (selected.Count == 0)
+            {
+                Log.Warning("[Insectophobe] Debug Action: не выбрано ни одной пешки.");
+                return;
+            }
+
+            foreach (Pawn pawn in selected)
+            {
+                Log.Message($"[Insectophobe] Debug Action: принудительный RegisterBugKill для {pawn.LabelShort}");
+                GameComponent_Insectophobe.Instance?.RegisterBugKill(pawn);
+            }
+        }
+    }
+
+    // Пассивная мысль о наличии черты (опционально, для описания в UI/логах)
+    public class ThoughtWorker_Insectophobe : ThoughtWorker
+    {
+        protected override ThoughtState CurrentStateInternal(Pawn p)
+        {
+            if (p?.story?.traits == null) return ThoughtState.Inactive;
+            if (!p.story.traits.HasTrait(TraitDef.Named("Insectophobe"))) return ThoughtState.Inactive;
             return ThoughtState.ActiveDefault;
         }
     }

@@ -7,43 +7,100 @@ namespace Watcher.Comps
 {
     public class CompProperties_IV_Drip : CompProperties
     {
-        public float radius;
         public int requiredTicksNear;
         public List<HediffDef> hediffsToTreat;
         public float fuelConsumedPerTreatment;
 
+        // Хедиф, который капельница накладывает и постоянно поддерживает на целевом
+        // уровне severity, пока пациент лежит в привязанной кровати, а машина
+        // включена/запитана/с топливом. Никак не связан с hediffsToTreat — работает
+        // всегда, независимо от того, есть ли что лечить (например, StimpakBasic).
+        public HediffDef maintainedHediff;
+
+        // Целевая severity, которую капельница поддерживает. -1 (по умолчанию)
+        // означает "взять initialSeverity из самого HediffDef", чтобы не дублировать
+        // это значение в двух местах (XML хедифа и XML капельницы).
+        public float maintainedHediffSeverity = -1f;
+
+        // Необязательный расход топлива за каждый интервал поддержки (по умолчанию 0 —
+        // поддержка бесплатна). Если > 0, при нехватке топлива поддержка на этом
+        // интервале просто пропускается (хедиф спокойно начнёт угасать сам).
+        public float fuelConsumedPerMaintainTick;
+
         public CompProperties_IV_Drip()
         {
             compClass = typeof(CompIV_Drip);
-            radius = 2f;
             requiredTicksNear = 250;
             fuelConsumedPerTreatment = 1f;
         }
     }
 
+    /// <summary>
+    /// Капельница-стойка для кровати. Лечит только тех, кто в данный момент лежит
+    /// в кровати рядом (в радиусе CompProperties_Facility.maxDistance) — не любых
+    /// пешек поблизости. Радиус поиска кровати задаётся тем же maxDistance, что и
+    /// у facility-бонуса (MedicalTendQualityOffset и т.д.), чтобы не расходиться
+    /// с визуальной "подключённостью", которую показывает PlaceWorker.
+    ///
+    /// Помимо лечения hediffsToTreat (например, снятие BloodLoss после
+    /// requiredTicksNear тиков), параллельно поддерживает maintainedHediff
+    /// (например, StimpakBasic) на целевой severity всё время, пока пациент
+    /// подключён — независимо от прогресса лечения кровотечения.
+    /// </summary>
     public class CompIV_Drip : ThingComp
     {
         private CompRefuelable refuelable;
         private CompPowerTrader power;
         private CompFlickable flickable;
+        private CompProperties_Facility facilityProps;
 
+        // Сколько тиков подряд пациент непрерывно лежит в привязанной кровати
+        // с невылеченным состоянием.
         private Dictionary<Pawn, int> pawnsNearTicks = new Dictionary<Pawn, int>();
-        private Dictionary<Pawn, IntVec3> lastPositions = new Dictionary<Pawn, IntVec3>();
 
         public CompProperties_IV_Drip Props => (CompProperties_IV_Drip)props;
 
-        public override void PostPostMake()
+        public override void PostSpawnSetup(bool respawningAfterLoad)
         {
-            base.PostPostMake();
+            base.PostSpawnSetup(respawningAfterLoad);
+
             refuelable = parent.GetComp<CompRefuelable>();
             power = parent.GetComp<CompPowerTrader>();
             flickable = parent.GetComp<CompFlickable>();
+            // Берём maxDistance прямо из деф-данных (не из рантайм-компонента) —
+            // CompProperties_Facility.maxDistance это обычное поле в XML, доступное
+            // через GetCompProperties, без зависимости от внутреннего API CompFacility,
+            // которое отличается между версиями игры.
+            facilityProps = parent.def.GetCompProperties<CompProperties_Facility>();
         }
 
         public override void PostExposeData()
         {
             base.PostExposeData();
             Scribe_Collections.Look(ref pawnsNearTicks, "pawnsNearTicks", LookMode.Reference, LookMode.Value);
+
+            if (Scribe.mode == LoadSaveMode.PostLoadInit)
+            {
+                if (pawnsNearTicks == null)
+                {
+                    pawnsNearTicks = new Dictionary<Pawn, int>();
+                }
+
+                List<Pawn> badKeys = pawnsNearTicks.Keys
+                    .Where(p => p == null || p.Dead || p.Destroyed)
+                    .ToList();
+
+                foreach (Pawn badKey in badKeys)
+                {
+                    pawnsNearTicks.Remove(badKey);
+                }
+            }
+        }
+
+        public override void PostDeSpawn(Map map, DestroyMode mode = DestroyMode.Vanish)
+        {
+            base.PostDeSpawn(map, mode);
+            pawnsNearTicks.Clear();
         }
 
         public override void CompTick()
@@ -55,64 +112,83 @@ namespace Watcher.Comps
 
             if (flickable != null && !flickable.SwitchIsOn)
             {
-                ClearTracking();
+                pawnsNearTicks.Clear();
                 return;
             }
 
             if (power != null && !power.PowerOn)
             {
-                ClearTracking();
+                pawnsNearTicks.Clear();
                 return;
             }
 
             if (refuelable != null && !refuelable.HasFuel)
             {
-                ClearTracking();
+                pawnsNearTicks.Clear();
                 return;
             }
 
-            ProcessNearbyPawns();
+            ProcessBedOccupants();
         }
 
-        private void ClearTracking()
+        /// <summary>
+        /// Собирает пациентов из кроватей рядом с капельницей. Ищет клетки в радиусе
+        /// CompProperties_Facility.maxDistance (fallback 2, если facility-компонента
+        /// почему-то нет в def), находит на них Building_Bed через GetEdifice и
+        /// возвращает текущих обитателей каждой найденной кровати.
+        /// </summary>
+        private IEnumerable<Pawn> GetLinkedBedOccupants()
         {
-            pawnsNearTicks.Clear();
-            lastPositions.Clear();
-        }
+            if (parent.Map == null) yield break;
 
-        private void ProcessNearbyPawns()
-        {
-            if (parent.Map == null) return;
+            float maxDistance = facilityProps != null ? facilityProps.maxDistance : 2f;
 
-            var pawnsInRadius = parent.Map.mapPawns.AllPawnsSpawned
-                .Where(p => p != null && !p.Dead && p.RaceProps?.IsFlesh == true
-                    && p.Position.DistanceTo(parent.Position) <= Props.radius)
-                .ToList();
+            HashSet<Building_Bed> bedsFound = new HashSet<Building_Bed>();
 
-            var gonePawns = pawnsNearTicks.Keys.Where(p => !pawnsInRadius.Contains(p)).ToList();
-            foreach (var pawn in gonePawns)
+            foreach (IntVec3 cell in GenRadial.RadialCellsAround(parent.Position, maxDistance, true))
             {
-                pawnsNearTicks.Remove(pawn);
-                lastPositions.Remove(pawn);
+                if (!cell.InBounds(parent.Map)) continue;
+
+                if (cell.GetEdifice(parent.Map) is Building_Bed bed)
+                {
+                    bedsFound.Add(bed);
+                }
             }
 
-            foreach (Pawn pawn in pawnsInRadius)
+            foreach (Building_Bed bed in bedsFound)
             {
+                foreach (Pawn occupant in bed.CurOccupants)
+                {
+                    yield return occupant;
+                }
+            }
+        }
+
+        private void ProcessBedOccupants()
+        {
+            List<Pawn> occupants = GetLinkedBedOccupants()
+                .Where(p => p != null && !p.Dead && p.RaceProps?.IsFlesh == true)
+                .ToList();
+
+            // Пациент встал/увезён/сменил кровать — сбрасываем накопленный прогресс.
+            List<Pawn> gonePawns = pawnsNearTicks.Keys.Where(p => !occupants.Contains(p)).ToList();
+            foreach (Pawn pawn in gonePawns)
+            {
+                pawnsNearTicks.Remove(pawn);
+            }
+
+            foreach (Pawn pawn in occupants)
+            {
+                // Поддержка StimpakBasic (или любого другого настроенного хедифа) —
+                // безусловно, пока пациент подключён. Не зависит от наличия
+                // кровотечения: работает как отдельный, параллельный эффект.
+                MaintainSupportHediff(pawn);
+
                 if (!HasTreatableCondition(pawn))
                 {
-                    if (pawnsNearTicks.ContainsKey(pawn))
-                    {
-                        pawnsNearTicks.Remove(pawn);
-                        lastPositions.Remove(pawn);
-                    }
+                    pawnsNearTicks.Remove(pawn);
                     continue;
                 }
-
-                if (lastPositions.ContainsKey(pawn) && lastPositions[pawn] != pawn.Position)
-                {
-                    pawnsNearTicks[pawn] = 0;
-                }
-                lastPositions[pawn] = pawn.Position;
 
                 if (!pawnsNearTicks.ContainsKey(pawn))
                     pawnsNearTicks[pawn] = 0;
@@ -123,6 +199,43 @@ namespace Watcher.Comps
                 {
                     TreatPawn(pawn);
                 }
+            }
+        }
+
+        /// <summary>
+        /// Накладывает Props.maintainedHediff, если его ещё нет, и подтягивает severity
+        /// вверх до целевого значения, если она успела просесть (из-за встроенного
+        /// в сам HediffDef severityPerDay). Никогда не понижает severity сама —
+        /// если у хедифа уже выше целевого уровня (например, от других источников),
+        /// капельница это не трогает.
+        /// </summary>
+        private void MaintainSupportHediff(Pawn pawn)
+        {
+            if (Props.maintainedHediff == null) return;
+            if (pawn?.health?.hediffSet == null) return;
+
+            if (Props.fuelConsumedPerMaintainTick > 0f)
+            {
+                if (refuelable != null && refuelable.Fuel < Props.fuelConsumedPerMaintainTick)
+                    return;
+
+                refuelable?.ConsumeFuel(Props.fuelConsumedPerMaintainTick);
+            }
+
+            float targetSeverity = Props.maintainedHediffSeverity >= 0f
+                ? Props.maintainedHediffSeverity
+                : Props.maintainedHediff.initialSeverity;
+
+            Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(Props.maintainedHediff);
+            if (hediff == null)
+            {
+                hediff = HediffMaker.MakeHediff(Props.maintainedHediff, pawn);
+                hediff.Severity = targetSeverity;
+                pawn.health.AddHediff(hediff);
+            }
+            else if (hediff.Severity < targetSeverity)
+            {
+                hediff.Severity = targetSeverity;
             }
         }
 
@@ -148,6 +261,9 @@ namespace Watcher.Comps
         {
             if (pawn?.health?.hediffSet == null) return;
 
+            if (refuelable != null && refuelable.Fuel < Props.fuelConsumedPerTreatment)
+                return;
+
             bool treated = false;
 
             if (Props.hediffsToTreat != null)
@@ -172,7 +288,6 @@ namespace Watcher.Comps
                 }
 
                 pawnsNearTicks.Remove(pawn);
-                lastPositions.Remove(pawn);
 
                 FleckMaker.ThrowMetaIcon(parent.Position, parent.Map, FleckDefOf.HealingCross);
             }

@@ -1,0 +1,9 @@
+<LanguageData>
+	<MakeWastepack.label>Разобрать отходы</MakeWastepack.label>
+<MakeWastepack.description>В токсичных отходах можно найти что-то полезное. Работа с токсичными отходами вредит здоровью.</MakeWastepack.description>
+<MakeWastepack.jobString>Поиск</MakeWastepack.jobString>
+
+<MakeGun.label>Попытаться собрать оружие из хлама</MakeGun.label>
+<MakeGun.description>Попытаться собрать оружие из хлама.</MakeGun.description>
+<MakeGun.jobString>Сборка</MakeGun.jobString>
+</LanguageData>

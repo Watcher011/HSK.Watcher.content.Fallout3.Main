@@ -999,4 +999,90 @@
     </stages>
 </HediffDef>
 
+
+<HediffDef>
+		<defName>Insectophobe_HunterInstinct</defName>
+		<label>hunter's instinct</label>
+		<labelNoun>a hunter's instinct</labelNoun>
+		<description>Adrenaline from killing feared bugs is still burning through the bloodstream. The more of them die, the sharper the reflexes get.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.9, 0.55, 0.15)</defaultLabelColor>
+		<isBad>false</isBad>
+		<minSeverity>0.001</minSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>60000</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>stirring</label>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<MoveSpeed>0.05</MoveSpeed>
+					<MeleeHitChance>0.02</MeleeHitChance>
+					<MeleeDodgeChance>0.02</MeleeDodgeChance>
+					<ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.01</AimingDelayFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>rising</label>
+				<minSeverity>0.2</minSeverity>
+				<statOffsets>
+					<MoveSpeed>0.1</MoveSpeed>
+					<MeleeHitChance>0.04</MeleeHitChance>
+					<MeleeDodgeChance>0.04</MeleeDodgeChance>
+					<ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.02</AimingDelayFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>surging</label>
+				<minSeverity>0.4</minSeverity>
+				<statOffsets>
+					<MoveSpeed>0.15</MoveSpeed>
+					<MeleeHitChance>0.05</MeleeHitChance>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+					<ShootingAccuracyPawn>0.06</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.03</AimingDelayFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>frenzied</label>
+				<minSeverity>0.6</minSeverity>
+				<statOffsets>
+					<MoveSpeed>0.2</MoveSpeed>
+					<MeleeHitChance>0.06</MeleeHitChance>
+					<MeleeDodgeChance>0.06</MeleeDodgeChance>
+					<ShootingAccuracyPawn>0.08</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.04</AimingDelayFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>ravenous</label>
+				<minSeverity>0.8</minSeverity>
+				<statOffsets>
+					<MoveSpeed>0.25</MoveSpeed>
+					<MeleeHitChance>0.07</MeleeHitChance>
+					<MeleeDodgeChance>0.07</MeleeDodgeChance>
+					<ShootingAccuracyPawn>0.09</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.045</AimingDelayFactor>
+				</statOffsets>
+			</li>
+			<li>
+				<label>killing spree</label>
+				<minSeverity>1.0</minSeverity>
+				<statOffsets>
+					<MoveSpeed>0.3</MoveSpeed>
+					<MeleeHitChance>0.08</MeleeHitChance>
+					<MeleeDodgeChance>0.08</MeleeDodgeChance>
+					<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.05</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>

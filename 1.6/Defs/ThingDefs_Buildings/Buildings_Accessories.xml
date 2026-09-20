@@ -930,7 +930,7 @@ RobCo Corporation is not responsible for turning you into a sieve. You came here
             <MedicalTendQualityOffset>0.05</MedicalTendQualityOffset>
             <ImmunityGainSpeedFactor>0.02</ImmunityGainSpeedFactor>
         </statOffsets>
-        <maxDistance>6</maxDistance>
+        <maxDistance>2</maxDistance>
     </li>
     <li Class="CompProperties_Flickable"/>
     <!-- Стандартный Refuelable -->
@@ -946,12 +946,13 @@ RobCo Corporation is not responsible for turning you into a sieve. You came here
         <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
     </li>
     <li Class="Watcher.Comps.CompProperties_IV_Drip">
-        <radius>2</radius>
         <requiredTicksNear>250</requiredTicksNear>
 		<fuelConsumedPerTreatment>1</fuelConsumedPerTreatment> 
         <hediffsToTreat>
             <li>BloodLoss</li>
         </hediffsToTreat>
+	<maintainedHediff>StimpakBasic</maintainedHediff>
+    <maintainedHediffSeverity>0.9</maintainedHediffSeverity>
     </li>
 </comps>
     <placeWorkers>
