@@ -611,7 +611,6 @@ RobCo Corporation is not responsible for turning you into a sieve. You came here
 		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
 		<placeWorkers>
 			<li>PlaceWorker_Heater</li>
-			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<comps>

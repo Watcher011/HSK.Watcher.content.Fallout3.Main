@@ -44,11 +44,11 @@
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1~2</eggCountRange>
       </li>
-	   <li Class="CompProperties_SpreadSludge">
+	  <!-- <li Class="CompProperties_SpreadSludge">
         <mtbTicks>15000</mtbTicks>
         <abilityDef>SludgeSpew</abilityDef>
         <tryAvoidSludge>true</tryAvoidSludge>
-      </li>
+      </li>-->
     </comps>
     <race>
       <body>QuadrupedAnimalWithClawsTailAndJowl</body>

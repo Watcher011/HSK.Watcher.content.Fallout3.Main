@@ -13,7 +13,7 @@
 		<description>Lamps Set.</description>
 		<defNames>
 		    <li>VaultLamp</li>
-			<li>Constructionlamp</li>
+		<!--	<li>Constructionlamp</li>-->
 			<li>VaultLampFirefly</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>
