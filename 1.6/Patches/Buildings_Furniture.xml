@@ -4,93 +4,83 @@
 	<Operation Class="PatchOperationSequence">
 		<success>Normal</success>
 		<operations>
+ 
+			<!-- Research benches -->
 			<li Class="PatchOperationAdd">
+				<success>Always</success>
 				<xpath>Defs/ThingDef[defName="SimpleResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 				<value>
 					<li>SubBrain</li>
 					<li>VaultTecBobbleheadScience</li>
 				</value>
 			</li>
-			
+ 
 			<li Class="PatchOperationAdd">
+				<success>Always</success>
 				<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 				<value>
 					<li>SubBrain</li>
 					<li>VaultTecBobbleheadScience</li>
 				</value>
 			</li>
-			
-		<li Class="PatchOperationAdd">
-         <xpath>Defs/ThingDef[@Name="BedWithQualityBase"]/comps</xpath>
-         <value>
-        <li Class="CompProperties_AffectedByFacilities">
-            <linkableFacilities>
-                <li>industrial_IV_stand</li>
-				<li>VaultTecBobbleheadMedicine</li>
-            </linkableFacilities>
-        </li>
-      </value>
-         </li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[@Name="BedWithQualityBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
-				<value>
-					<li>industrial_IV_stand</li>
-					<li>VaultTecBobbleheadMedicine</li>
-				</value>
+ 
+			<!-- Beds: add to the EXISTING comp wherever vanilla defines it; create a new one only if there is none.
+			     Never end up with two CompProperties_AffectedByFacilities on one bed. -->
+			<li Class="PatchOperationConditional">
+				<success>Always</success>
+				<xpath>Defs/ThingDef[@Name="BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]</xpath>
+				<match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[@Name="BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+					<value>
+						<li>industrial_IV_stand</li>
+						<li>VaultTecBobbleheadMedicine</li>
+					</value>
+				</match>
+				<nomatch Class="PatchOperationConditional">
+					<xpath>Defs/ThingDef[@Name="BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]</xpath>
+					<match Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[@Name="BasicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+						<value>
+							<li>industrial_IV_stand</li>
+							<li>VaultTecBobbleheadMedicine</li>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[@Name="BedWithQualityBase"]/comps</xpath>
+						<value>
+							<li Class="CompProperties_AffectedByFacilities">
+								<linkableFacilities>
+									<li>industrial_IV_stand</li>
+									<li>VaultTecBobbleheadMedicine</li>
+								</linkableFacilities>
+							</li>
+						</value>
+					</nomatch>
+				</nomatch>
 			</li>
-			
-			
-				<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[ defName="DrugLab" or 
-    defName="TableCoffee" or 
-    defName="TableSawmillHand" or 
-    defName="TableFurnace" or 
-    defName="Kiln" or 
-    defName="GlassworkTable" or 
-    defName="LeatherworkerTable" or 
-    defName="HandTailoringBench" or 
-    defName="ElectricTailoringBench" or 
-    defName="TableLoom" or 
-    defName="HandMendingWorkbench" or 
-    defName="TableMending" or 
-    defName="FabricationBench" or 
-    defName="FueledSmithy" or 
-    defName="TableStonecutterNeolithic" or 
-    defName="TableStonecutter" or 
-    defName="TableSculpting" or 
-    defName="ConcreteMixer" or 
-    defName="CompostBarrel" or 
-    defName="CraftingSpot" or 
-    defName="WeaponCraftingWorkTable" or 
-    defName="AdvWeaponCraftingWorkTable" or 
-    defName="HeavyArmsBench" or 
-    defName="TablePrimitiveProsthetic" or 
-    defName="TableBasicProsthetic" or 
-    defName="VG_SaltMine" or 
-    defName="TableSawmillElectric" or 
-    defName="ElectricSmelter" or 
-    defName="TableMachining" or 
-    defName="TableElectronics" or 
-    defName="HyperTailoringBench" or 
-    defName="MatterConverter" or 
-    defName="AdvToolBench" or 
-    defName="ElectricSmithy" or 
-    defName="EAF" or 
-    defName="EConcreteMixer" or 
-    defName="meditable" or 
-    defName="TableChemlab" or 
-    defName="MechWeaponCraftingWorkTable" or 
-    defName="TableSynthetics" or 
-    defName="TableBionics" or 
-    defName="UpgradingStation" or 
-     
-    defName="Campfirewastelands"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+ 
+			<!-- Workbenches -->
+			<li Class="PatchOperationAdd">
+				<success>Always</success>
+				<xpath>Defs/ThingDef[
+					defName="DrugLab" or defName="TableCoffee" or defName="TableSawmillHand" or defName="TableFurnace" or
+					defName="Kiln" or defName="GlassworkTable" or defName="LeatherworkerTable" or defName="HandTailoringBench" or
+					defName="ElectricTailoringBench" or defName="TableLoom" or defName="HandMendingWorkbench" or defName="TableMending" or
+					defName="FabricationBench" or defName="FueledSmithy" or defName="TableStonecutterNeolithic" or defName="TableStonecutter" or
+					defName="TableSculpting" or defName="ConcreteMixer" or defName="CompostBarrel" or defName="CraftingSpot" or
+					defName="WeaponCraftingWorkTable" or defName="AdvWeaponCraftingWorkTable" or defName="HeavyArmsBench" or
+					defName="TablePrimitiveProsthetic" or defName="TableBasicProsthetic" or defName="VG_SaltMine" or
+					defName="TableSawmillElectric" or defName="ElectricSmelter" or defName="TableMachining" or defName="TableElectronics" or
+					defName="HyperTailoringBench" or defName="MatterConverter" or defName="AdvToolBench" or defName="ElectricSmithy" or
+					defName="EAF" or defName="EConcreteMixer" or defName="meditable" or defName="TableChemlab" or
+					defName="MechWeaponCraftingWorkTable" or defName="TableSynthetics" or defName="TableBionics" or
+					defName="UpgradingStation" or defName="Campfirewastelands"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 				<value>
 					<li>VaultTecBobbleheadMechanic</li>
 				</value>
 			</li>
+ 
 		</operations>
-		
 	</Operation>
 	
 		<Operation Class="PatchOperationReplace">
