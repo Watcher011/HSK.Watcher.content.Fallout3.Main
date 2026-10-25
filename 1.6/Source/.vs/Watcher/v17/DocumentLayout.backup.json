@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\watcher\\comps\\compproperties_companalyzableunlockresearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_companalyzableunlockresearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\watcher\\comps\\complocalfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\complocalfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|d:\\steamlibrary\\steamapps\\common\\rimworld\\mods\\hsk.watcher.content.fallout3.main\\1.6\\source\\watcher\\comps\\complocalfirefly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\complocalfirefly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,20 +91,12 @@
       "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_directionalexplosive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\watcher\\comps\\compproperties_companalyzableunlockresearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_companalyzableunlockresearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\watcher\\comps\\compproperties_animatedbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compproperties_animatedbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\watcher\\comps\\compnukacolabottlecaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\compnukacolabottlecaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\watcher\\comps\\complocalfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|solutionrelative:watcher\\comps\\complocalfire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{795FDE98-92B4-49F1-9354-77F771A187D3}|Watcher\\Watcher.csproj|D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\watcher\\events\\incidentworker_rustydevilsraid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -218,7 +218,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -226,31 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CompsWithFilth.cs",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompsWithFilth.cs",
-              "RelativeDocumentMoniker": "Watcher\\Comps\\CompsWithFilth.cs",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompsWithFilth.cs",
-              "RelativeToolTip": "Watcher\\Comps\\CompsWithFilth.cs",
-              "ViewState": "AgIAACgBAAAAAAAAAAAAAEwBAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T23:20:44.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CompSummonCreature.cs",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompSummonCreature.cs",
-              "RelativeDocumentMoniker": "Watcher\\Comps\\CompSummonCreature.cs",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompSummonCreature.cs",
-              "RelativeToolTip": "Watcher\\Comps\\CompSummonCreature.cs",
-              "ViewState": "AgIAACgBAAAAAAAAAAAowFAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T19:18:49.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ThoughtWorker.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\ThoughtWorker.cs",
               "RelativeDocumentMoniker": "Watcher\\ThoughtWorker.cs",
@@ -262,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GameComponent_CorpseWearTracker.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\GameComponents\\GameComponent_CorpseWearTracker.cs",
               "RelativeDocumentMoniker": "Watcher\\GameComponents\\GameComponent_CorpseWearTracker.cs",
@@ -274,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FeralPawn.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Pawns\\FeralPawn.cs",
               "RelativeDocumentMoniker": "Watcher\\Pawns\\FeralPawn.cs",
@@ -286,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CompProperties_IV_Drip.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_IV_Drip.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_IV_Drip.cs",
@@ -298,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CompLocalFirefly.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompLocalFirefly.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompLocalFirefly.cs",
@@ -311,7 +287,57 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompProperties_CompAnalyzableUnlockResearch.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_CompAnalyzableUnlockResearch.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_CompAnalyzableUnlockResearch.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_CompAnalyzableUnlockResearch.cs*",
+              "RelativeToolTip": "Watcher\\Comps\\CompProperties_CompAnalyzableUnlockResearch.cs*",
+              "ViewState": "AgIAADcCAAAAAAAAAAAQwLMCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:22:36.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompLocalFire.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompLocalFire.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompLocalFire.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompLocalFire.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompLocalFire.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T20:52:39.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "CompSummonCreature.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompSummonCreature.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompSummonCreature.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompSummonCreature.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompSummonCreature.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAowFAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T19:18:49.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompsWithFilth.cs",
+              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompsWithFilth.cs",
+              "RelativeDocumentMoniker": "Watcher\\Comps\\CompsWithFilth.cs",
+              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompsWithFilth.cs",
+              "RelativeToolTip": "Watcher\\Comps\\CompsWithFilth.cs",
+              "ViewState": "AgIAACgBAAAAAAAAAAAAAEwBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T23:20:44.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CompToxicBuildup.Remover.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompToxicBuildup.Remover.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompToxicBuildup.Remover.cs",
@@ -323,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MentalState_ComicCreator.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\MentalState_ComicCreator.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\MentalState_ComicCreator.cs",
@@ -335,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CompMedicalGrenadeExtension.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\CompMedicalGrenadeExtension.cs",
               "RelativeDocumentMoniker": "Watcher\\CompMedicalGrenadeExtension.cs",
@@ -347,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CompProperties_MeleeCharge.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\CompProperties_MeleeCharge.cs",
               "RelativeDocumentMoniker": "Watcher\\CompProperties_MeleeCharge.cs",
@@ -359,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CompProperties_StimulantAutoInjector.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\CompProperties_StimulantAutoInjector.cs",
               "RelativeDocumentMoniker": "Watcher\\CompProperties_StimulantAutoInjector.cs",
@@ -371,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "CompRandomProductExtension.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\CompRandomProductExtension.cs",
               "RelativeDocumentMoniker": "Watcher\\CompRandomProductExtension.cs",
@@ -383,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CompProperties_UseEffectInstallImplant.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_UseEffectInstallImplant.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_UseEffectInstallImplant.cs",
@@ -395,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PawnKindDefOfLocal.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Pawns\\PawnKindDefOfLocal.cs",
               "RelativeDocumentMoniker": "Watcher\\Pawns\\PawnKindDefOfLocal.cs",
@@ -407,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "NuclearReactor.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Buildings\\NuclearReactor.cs",
               "RelativeDocumentMoniker": "Watcher\\Buildings\\NuclearReactor.cs",
@@ -419,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "PrebuiltBase.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Buildings\\PrebuiltBase.cs",
               "RelativeDocumentMoniker": "Watcher\\Buildings\\PrebuiltBase.cs",
@@ -431,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "CompProperties_GlowingPawn.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_GlowingPawn.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_GlowingPawn.cs",
@@ -443,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "CompProperties_EarthquakeStabilizer.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_EarthquakeStabilizer.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_EarthquakeStabilizer.cs",
@@ -455,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "CompProperties_DirectionalExplosive.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_DirectionalExplosive.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_DirectionalExplosive.cs",
@@ -467,19 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CompProperties_CompAnalyzableUnlockResearch.cs",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_CompAnalyzableUnlockResearch.cs",
-              "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_CompAnalyzableUnlockResearch.cs",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_CompAnalyzableUnlockResearch.cs",
-              "RelativeToolTip": "Watcher\\Comps\\CompProperties_CompAnalyzableUnlockResearch.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAuwLsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T12:22:36.377Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CompProperties_AnimatedBuilding.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompProperties_AnimatedBuilding.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompProperties_AnimatedBuilding.cs",
@@ -491,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CompNukaColaBottleCaps.cs",
               "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompNukaColaBottleCaps.cs",
               "RelativeDocumentMoniker": "Watcher\\Comps\\CompNukaColaBottleCaps.cs",
@@ -500,18 +514,6 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwE8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T16:29:39.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CompLocalFire.cs",
-              "DocumentMoniker": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompLocalFire.cs",
-              "RelativeDocumentMoniker": "Watcher\\Comps\\CompLocalFire.cs",
-              "ToolTip": "D:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\HSK.Watcher.content.Fallout3.Main\\1.6\\Source\\Watcher\\Comps\\CompLocalFire.cs",
-              "RelativeToolTip": "Watcher\\Comps\\CompLocalFire.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T20:52:39.39Z"
             },
             {
               "$type": "Document",

@@ -536,7 +536,7 @@ A rusty cylindrical can with a biohazard valve. A quiet scraping sound comes fro
 		</comps>
 		<stackLimit>300</stackLimit>
 	</ThingDef>
-	<ThingDef ParentName="RelicInertBase">
+	<!--<ThingDef ParentName="RelicInertBase">
 		<defName>HolodiskPowerI</defName>
 		<label>Holodisk Power I</label>
 		<description>A pre-war data carrier containing encrypted blueprints and protocols.
@@ -564,6 +564,7 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 				<researchDefNames>
 					<li>Vault-TecPowerA</li>
 				</researchDefNames>
+				 <analysisID>91700001</analysisID>
 				<requiresMechanitor>false</requiresMechanitor>
 				<analysisDurationHours>0.5</analysisDurationHours>
 				<destroyedOnAnalyzed>true</destroyedOnAnalyzed>
@@ -617,6 +618,7 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 				<researchDefNames>
 					<li>Vault-TecPowerB</li>
 				</researchDefNames>
+				 <analysisID>91700002</analysisID>
 				<requiresMechanitor>false</requiresMechanitor>
 				<analysisDurationHours>0.5</analysisDurationHours>
 				<destroyedOnAnalyzed>true</destroyedOnAnalyzed>
@@ -670,6 +672,7 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 				<researchDefNames>
 					<li>Vault-TecProtection</li>
 				</researchDefNames>
+				 <analysisID>91700003</analysisID>
 				<requiresMechanitor>false</requiresMechanitor>
 				<analysisDurationHours>0.5</analysisDurationHours>
 				<destroyedOnAnalyzed>true</destroyedOnAnalyzed>
@@ -723,6 +726,7 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 				<researchDefNames>
 					<li>Vault-TecIED</li>
 				</researchDefNames>
+				 <analysisID>91700004</analysisID>
 				<requiresMechanitor>false</requiresMechanitor>
 				<analysisDurationHours>0.5</analysisDurationHours>
 				<destroyedOnAnalyzed>true</destroyedOnAnalyzed>
@@ -776,6 +780,7 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 				<researchDefNames>
 					<li>Vault-TecProcessing</li>
 				</researchDefNames>
+				 <analysisID>91700005</analysisID>
 				<requiresMechanitor>false</requiresMechanitor>
 				<analysisDurationHours>0.5</analysisDurationHours>
 				<destroyedOnAnalyzed>true</destroyedOnAnalyzed>
@@ -829,6 +834,7 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 				<researchDefNames>
 					<li>Vault-TecHW</li>
 				</researchDefNames>
+				 <analysisID>91700006</analysisID>
 				<requiresMechanitor>false</requiresMechanitor>
 				<analysisDurationHours>0.5</analysisDurationHours>
 				<destroyedOnAnalyzed>true</destroyedOnAnalyzed>
@@ -882,6 +888,7 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 				<researchDefNames>
 					<li>Vault-TecEW</li>
 				</researchDefNames>
+				 <analysisID>91700007</analysisID>
 				<requiresMechanitor>false</requiresMechanitor>
 				<analysisDurationHours>0.5</analysisDurationHours>
 				<destroyedOnAnalyzed>true</destroyedOnAnalyzed>
@@ -906,7 +913,7 @@ Studying it will allow decoding lost technologies and unlocking access to advanc
 			<MarketValue>900</MarketValue>
 			<DeteriorationRate>1</DeteriorationRate>
 		</statBases>
-	</ThingDef>
+	</ThingDef>-->
 	<ThingDef ParentName="ResourceBase">
 		<defName>ReactorCoreComponent</defName>
 		<label>reactor core assembly</label>

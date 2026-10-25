@@ -14,9 +14,14 @@
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
    <researchViewX>10.00</researchViewX>
     <researchViewY>75.00</researchViewY>
-	<requiredAnalyzed>
-        <li>HolodiskPowerI</li>  <!-- defName предмета, который нужно проанализировать -->
-    </requiredAnalyzed>
+	<techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Institute</li>
+      <li>Enclave</li>
+	   <li>Vaultec</li>
+    </heldByFactionCategoryTags>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec Power</li>
@@ -37,9 +42,14 @@
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
    <researchViewX>11.00</researchViewX>
     <researchViewY>75.00</researchViewY>
-	<requiredAnalyzed>
-        <li>HolodiskPowerII</li>  <!-- defName предмета, который нужно проанализировать -->
-    </requiredAnalyzed>
+	<techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Institute</li>
+      <li>Enclave</li>
+	   <li>Vaultec</li>
+    </heldByFactionCategoryTags>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec Power</li>
@@ -66,9 +76,14 @@
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
    <researchViewX>9.00</researchViewX> 
     <researchViewY>76.00</researchViewY>
-	<requiredAnalyzed>
-        <li>HolodiskProtection</li>  <!-- defName предмета, который нужно проанализировать -->
-    </requiredAnalyzed>
+	<techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Institute</li>
+      <li>Enclave</li>
+	   <li>Vaultec</li>
+    </heldByFactionCategoryTags>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec Protection</li>
@@ -90,9 +105,14 @@
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
   <researchViewX>9.00</researchViewX> 
     <researchViewY>74.00</researchViewY>
-	<requiredAnalyzed>
-        <li>HolodiskIED</li>  <!-- defName предмета, который нужно проанализировать -->
-    </requiredAnalyzed>
+	<techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Institute</li>
+      <li>Enclave</li>
+	   <li>Vaultec</li>
+    </heldByFactionCategoryTags>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec improvised explosive device</li>
@@ -112,9 +132,14 @@
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
    <researchViewX>9.00</researchViewX> 
     <researchViewY>72.00</researchViewY>
-	<requiredAnalyzed>
-        <li>HolodiskDrug</li>  <!-- defName предмета, который нужно проанализировать -->
-    </requiredAnalyzed>
+	<techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Institute</li>
+      <li>Enclave</li>
+	   <li>Vaultec</li>
+    </heldByFactionCategoryTags>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec laboratory</li>
@@ -132,9 +157,14 @@
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
    <researchViewX>10.00</researchViewX> 
     <researchViewY>72.00</researchViewY>
-	<requiredAnalyzed>
-        <li>HolodiskHW</li>  <!-- defName предмета, который нужно проанализировать -->
-    </requiredAnalyzed>
+	<techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Institute</li>
+      <li>Enclave</li>
+	   <li>Vaultec</li>
+    </heldByFactionCategoryTags>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec heavy weapons</li>
@@ -152,9 +182,14 @@
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
    <researchViewX>11.00</researchViewX> 
     <researchViewY>72.00</researchViewY>
-	<requiredAnalyzed>
-        <li>HolodiskEW</li>  <!-- defName предмета, который нужно проанализировать -->
-    </requiredAnalyzed>
+	<techprintCount>1</techprintCount>
+    <techprintCommonality>2</techprintCommonality>
+    <techprintMarketValue>2000</techprintMarketValue>
+    <heldByFactionCategoryTags>
+      <li>Institute</li>
+      <li>Enclave</li>
+	   <li>Vaultec</li>
+    </heldByFactionCategoryTags>
     <generalRules>
       <rulesStrings>
         <li>subject->Vault-Tec energy weapons</li>
