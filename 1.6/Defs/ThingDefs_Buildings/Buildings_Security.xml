@@ -1,6 +1,165 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<ThingDef ParentName="TrapIEDBase">
+    <defName>Claymore</defName>
+    <label>Directional Claymore Mine</label>
+    <description>A directional fragmentation mine for perimeter defense. It uses a laser trigger to detect targets. When triggered, it detonates the main charge of plastic explosive, firing a fan of 700 steel balls in a 60° arc. Effective against enemy personnel at ranges of up to 25 meters. It has a short arming delay (0.2 seconds) after activation of the motion sensor.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Furniture/Claymore/Claymore</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(1.0,2.0)</drawSize>
+        <drawRotated>true</drawRotated>
+        <allowFlip>true</allowFlip>
+    </graphicData>
+    <uiIconPath>Things/Building/Furniture/Claymore/Claymore_ui</uiIconPath>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <fillPercent>0.15</fillPercent>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <statBases>
+        <Beauty>9</Beauty>
+        <WorkToBuild>310</WorkToBuild>
+        <Bulk>12</Bulk>
+        <Mass>4</Mass>
+        <Cleanliness>0</Cleanliness>
+        <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <size>(1,1)</size>
+    <stuffCategories>
+        <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <costList>
+        <Powder>10</Powder>
+        <ElectronicComponents>3</ElectronicComponents>
+        <Mechanism>2</Mechanism>
+    </costList>
+    <surfaceType>Item</surfaceType>
+    <placeWorkers>
+        <li>SK.PlaceWorker_NotOnWall</li>
+        <li>SK.PlaceWorker_WallAttachment</li>
+        <li>Watcher.Comps.PlaceWorker_DirectionalMine</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <building>
+        <uninstallWork>150</uninstallWork>
+        <isEdifice>true</isEdifice>
+        <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+    </building>
+    <rotatable>True</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <comps>
+        <li Class="Watcher.Comps.CompProperties_DirectionalExplosive">
+            <explosiveRadius>5</explosiveRadius>
+            <damageAmountBase>120</damageAmountBase>
+            <damageDef>Fragment</damageDef>
+            <armorPenetrationSharp>15</armorPenetrationSharp>
+            <armorPenetrationBlunt>80</armorPenetrationBlunt>
+            <angle>120</angle>
+            <wickTicks>30</wickTicks>
+            <startWickOnDamageTaken>
+                <li>Flame</li>
+                <li>Bomb</li>
+            </startWickOnDamageTaken>
+            <hasMotionSensor>true</hasMotionSensor>
+            <sensorRange>4</sensorRange>
+            <sensorScanInterval>30</sensorScanInterval>
+            <sensorOnlyHostile>true</sensorOnlyHostile>
+            <sensorOnlyPawns>true</sensorOnlyPawns>
+        </li>
+        <li Class="CompProperties_Flickable"/>
+    </comps>
+    <researchPrerequisites>
+        <li>IED_C1</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+</ThingDef>
+
+<ThingDef ParentName="TrapIEDBase">
+    <defName>ClaymoreNonLethal</defName>
+    <label>Claymore non-lethal</label>
+    <description>A directional device for non-flying perimeter control. It uses tranquilizer capsules as the striking element. When a laser trigger is activated, the main charge initiates the release of 700 gelatin capsules containing a fast-acting sedative at a constant 120° angle. It provides instantaneous immobilization of firepower at a range of up to 25 meters. It has a short response delay (0.2 seconds) after activation of the motion sensor for operator safety.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Furniture/Claymore/ClaymoreNonLethal</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(1.0,2.0)</drawSize>
+        <drawRotated>true</drawRotated>
+        <allowFlip>true</allowFlip>
+    </graphicData>
+    <uiIconPath>Things/Building/Furniture/Claymore/ClaymoreNonLethal_ui</uiIconPath>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <fillPercent>0.15</fillPercent>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <statBases>
+        <Beauty>9</Beauty>
+        <WorkToBuild>310</WorkToBuild>
+        <Bulk>12</Bulk>
+        <Mass>4</Mass>
+        <Cleanliness>0</Cleanliness>
+        <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
+    </statBases>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+    <size>(1,1)</size>
+    <stuffCategories>
+        <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>35</costStuffCount>
+    <costList>
+        <Powder>10</Powder>
+        <ElectronicComponents>3</ElectronicComponents>
+        <Med-x>2</Med-x>
+    </costList>
+    <surfaceType>Item</surfaceType>
+    <placeWorkers>
+        <li>SK.PlaceWorker_NotOnWall</li>
+        <li>SK.PlaceWorker_WallAttachment</li>
+        <li>Watcher.Comps.PlaceWorker_DirectionalMine</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <building>
+        <uninstallWork>150</uninstallWork>
+        <isEdifice>true</isEdifice>
+        <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+    </building>
+    <rotatable>True</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+    <comps>
+        <li Class="Watcher.Comps.CompProperties_DirectionalExplosive">
+            <explosiveRadius>5</explosiveRadius>
+            <damageAmountBase>12</damageAmountBase>
+            <damageDef>Tranquilizer</damageDef>
+            <armorPenetrationSharp>0.5</armorPenetrationSharp>
+            <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+            <angle>120</angle>
+            <wickTicks>30</wickTicks>
+            <startWickOnDamageTaken>
+                <li>Flame</li>
+                <li>Bomb</li>
+            </startWickOnDamageTaken>
+            <hasMotionSensor>true</hasMotionSensor>
+            <sensorRange>4</sensorRange>
+            <sensorScanInterval>30</sensorScanInterval>
+            <sensorOnlyHostile>true</sensorOnlyHostile>
+            <sensorOnlyPawns>true</sensorOnlyPawns>
+        </li>
+        <li Class="CompProperties_Flickable"/>
+    </comps>
+    <researchPrerequisites>
+        <li>IED_C1</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+</ThingDef>
 	<ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_LidMineExplosive</defName>
     <label>IED Lid Mine</label>

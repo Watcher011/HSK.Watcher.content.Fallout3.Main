@@ -244,9 +244,19 @@ namespace Watcher.GameComponents
             if (__result == null) return;
 
             var innerPawn = __instance.InnerPawn;
-            if (innerPawn == null) return;
+            // Одежда бывает только у гуманоидов: животных и прочих не трогаем вообще,
+            // чтобы патч не влиял на их разделку (сердце, органы и т.д.).
+            if (innerPawn == null || !innerPawn.RaceProps.Humanlike) return;
 
-            foreach (Thing thing in __result.ToList())
+            // ВАЖНО: Corpse.ButcherProducts — итератор (yield). Если перечислить его здесь
+            // и не подменить __result, игра перечислит его ВТОРОЙ раз с нуля, а побочные
+            // эффекты (удаление части тела -> сердце/орган, кровь, мысли) к тому моменту уже
+            // сработали в первом проходе. Поэтому материализуем список ОДИН раз
+            // и возвращаем его же как результат.
+            var products = __result.ToList();
+            __result = products;
+
+            foreach (Thing thing in products)
             {
                 if (thing is Apparel apparel)
                 {

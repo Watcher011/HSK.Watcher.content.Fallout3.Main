@@ -32,10 +32,10 @@
         <thingDef>Raweggsinaglass</thingDef>
         <countRange>1~20</countRange>
       </li>
-	   <li Class="StockGenerator_SingleDef">
+	  <!-- <li Class="StockGenerator_SingleDef">
         <thingDef>MashedPotatoes</thingDef>
         <countRange>1~20</countRange>
-      </li>
+      </li>-->
 	   <li Class="StockGenerator_SingleDef">
         <thingDef>Porridge</thingDef>
         <countRange>1~20</countRange>
@@ -494,10 +494,10 @@
         <thingDef>Raweggsinaglass</thingDef>
         <countRange>1~20</countRange>
       </li>
-	   <li Class="StockGenerator_SingleDef">
+	   <!--<li Class="StockGenerator_SingleDef">
         <thingDef>MashedPotatoes</thingDef>
         <countRange>1~20</countRange>
-      </li>
+      </li>-->
 	   <li Class="StockGenerator_SingleDef">
         <thingDef>Porridge</thingDef>
         <countRange>1~20</countRange>

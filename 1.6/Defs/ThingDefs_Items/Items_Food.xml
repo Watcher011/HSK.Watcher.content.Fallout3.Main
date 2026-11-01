@@ -158,13 +158,13 @@
 		</comps>
   </ThingDef>
   
-  
+<!--  
 <ThingDef ParentName="MealBase">
     <defName>MashedPotatoes</defName>
     <label>Mashed Potatoes</label>
     <description>As smooth as wasteland sand and as rich as a radiation storm, this mashed potato is the result of years of survivors experimenting to recreate something resembling pre-war food. The main ingredient is something that was once a potato (or at least didn't scream when dug out of the ground). Whipped with a generous helping of radioactive water, synthetic Tipa-Top 'oil', and the nostalgic tears of those who still remember what it must have looked like.</description>
     <graphicData>
-    <texPath>Things/Item/Meal/Scramble</texPath>
+    <texPath>Things/Item/Meal/ScrambledEggs</texPath>
 	<graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
@@ -189,7 +189,7 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-  </ThingDef>
+  </ThingDef>-->
   
   
   

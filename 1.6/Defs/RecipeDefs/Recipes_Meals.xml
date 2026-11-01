@@ -443,7 +443,7 @@
     <displayPriority>110</displayPriority>
   </RecipeDef>
   
-  <RecipeDef>
+  <!--<RecipeDef>
 		<defName>MakeMashedPotatoes</defName>
 		<label>cook Mashed Potatoes</label>
 		<description>cook Mashed Potatoes. Produces 3.</description>
@@ -484,7 +484,7 @@
 		<recipeUsers>
 			<li>Campfirewastelands</li>
 		</recipeUsers>
-	</RecipeDef>
+	</RecipeDef>-->
 	
 	 <RecipeDef>
 		<defName>Makeporridge</defName>
