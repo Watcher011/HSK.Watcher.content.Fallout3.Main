@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SuspiciousOmelette.label>Подозрительный омлет</SuspiciousOmelette.label>
+  <SuspiciousOmelette.description>Подозрительный омлет из мяса и яиц огромной ящерицы. Любимая еда в Пустошах.</SuspiciousOmelette.description>
+
+  <boiledeggs.label>Варёные яйца</boiledeggs.label>
+  <boiledeggs.description>Классический пример послевоенного кулинарного минимализма — эти яйца сварили (или, возможно, просто оставили в горячем радиоактивном тумане достаточно надолго).</boiledeggs.description>
+
+  <friedeggs.label>Яичница</friedeggs.label>
+  <friedeggs.description>Ах, яичница — классика послевоенной кухни! Эти аппетитные круглые штуки когда-то были символом домашнего уюта, но теперь стали символом отчаяния и кулинарного компромисса. Их готовят из чего угодно — от яиц болотных червей (если повезёт найти не мутировавших) до яиц рад-тараканов (если не повезёт). Их часто жарят на ржавом куске металла, потому что сковородки теперь либо коллекционная ценность, либо переплавлены на пули. Подаются с щедрой порцией радиации и ностальгией по временам, когда еда не светилась в темноте.</friedeggs.description>
+
+  <Raweggsinaglass.label>Сырые яйца в стакане</Raweggsinaglass.label>
+  <Raweggsinaglass.description>Этот мутный стакан с парой липких полупрозрачных яиц — либо кулинарный эксперимент безумного выживальщика, либо злая шутка батрака с фермы Глэдстоун. Судя по зеленоватому оттенку, яйца, вероятно, отложены болотным бродягой, пасущимся где-то возле ядерного кратера. Запах напоминает смесь серы и отчаяния. Но если вы осмелитесь выпить это — получите прилив энергии (и, возможно, мутацию).</Raweggsinaglass.description>
+
+
+  <!-- <ThingDef ParentName="MealBase">
+    <defName>MashedPotatoes</defName>
+    <label>Mashed Potatoes</label>
+    <description>As smooth as wasteland sand and as rich as a radiation storm, this mashed potato is the result of years of survivors experimenting to recreate something resembling pre-war food. The main ingredient is something that was once a potato (or at least didn't scream when dug out of the ground). Whipped with a generous helping of radioactive water, synthetic Tipa-Top 'oil', and the nostalgic tears of those who still remember what it must have looked like.</description>
+    <graphicData>
+    <texPath>Things/Item/Meal/ScrambledEggs</texPath>
+	<graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>14</MarketValue>
+      <Mass>0.3</Mass>
+      <WorkToMake>450</WorkToMake>
+      <Nutrition>0.7</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-3</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-11</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>RadFood</tasteThought>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+	<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+  </ThingDef> -->
+
+  <Porridge.label>Каша</Porridge.label>
+  <Porridge.description>Величайшее кулинарное достижение послевоенной эпохи! Зачем тратить время, силы и драгоценные ингредиенты на сложные рецепты, если можно просто бросить в кипяток... ну, скажем, один единственный ингредиент? Критики называют это «гастрономическим минимализмом», выжившие — «грустным рагу», а ваш желудок — «преступлением против человечества». Но какая экономия!</Porridge.description>
+
+  <PrickeyeSalad.label>Салат из колючего глаза</PrickeyeSalad.label>
+  <PrickeyeSalad.description>Этот простой салат состоит из базовых ингредиентов, таких как колючий глаз и тошка. Он утоляет умеренный голод, но значительно повышает вашу дозу радиации.</PrickeyeSalad.description>
+
+
+</LanguageData>

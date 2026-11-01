@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Filth_Cap.label>Крышки</Filth_Cap.label>
+
+
+  <!-- <ThingDef ParentName="BaseFilth">
+    <defName>Filth_NFRAD</defName>
+    <label>radiation filth</label>
+    <category>Filth</category>
+    <altitudeLayer>Filth</altitudeLayer>
+    <thingClass>Watcher.Comps.FilthWithComps</thingClass>
+    <statBases>
+        <Beauty>-12</Beauty>
+        <Cleanliness>-15</Cleanliness>
+    </statBases>
+    <graphicData>
+        <graphicClass>Graphic_Cluster</graphicClass>
+        <shaderType>Transparent</shaderType>
+        <texPath>Things/Filth/Ash</texPath>
+        <color>(255, 255, 255, 220)</color>
+        <drawSize>3</drawSize>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <!{1}** Компоненты РАБОТАЮТ потому что FilthWithComps наследует ThingWithComps **{1}>
+    <comps>
+        <li Class="CompProperties_Glower">
+            <glowRadius>4.5</glowRadius>
+            <glowColor>(5,30,5,5)</glowColor>
+        </li>
+        <li Class="SK.CompProperties_Radioactive">
+            <strength>0.3</strength>
+            <radius>4.5</radius>
+            <halfLifeInTicks>6000000</halfLifeInTicks>
+        </li>
+    </comps>
+    <!{1}** Блок filth для настройки уборки **{1}>
+    <filth>
+        <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
+        <disappearsInDays>10~15</disappearsInDays>
+        <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+        <canFilthAttach>true</canFilthAttach>
+        <cleaningSound>Interact_CleanFilth</cleaningSound>
+    </filth>
+</ThingDef> -->
+
+  <Filth_NFRAD.label>Радиоактивная грязь</Filth_NFRAD.label>
+  <Filth_NFRAD.description>Радиоактивное загрязнение, светящееся в темноте. Требует тщательной очистки.</Filth_NFRAD.description>
+
+
+</LanguageData>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Enclave Trooper -->
+
+  <Enclave_Trooper.label>Солдат Анклава</Enclave_Trooper.label>
+  <Enclave_Trooper.labelPlural>Enclave Troopers</Enclave_Trooper.labelPlural>
+
+  <Enclave_Trooper_Advanced.label>Продвинутый солдат Анклава</Enclave_Trooper_Advanced.label>
+  <Enclave_Trooper_Advanced.labelPlural>Enclave Troopers</Enclave_Trooper_Advanced.labelPlural>
+
+
+  <!-- Enclave Heavy -->
+
+  <Enclave_Heavy.label>Тяжеловооружённый солдат Анклава</Enclave_Heavy.label>
+  <Enclave_Heavy.labelPlural>Enclave Heavy Troopers</Enclave_Heavy.labelPlural>
+
+  <Enclave_Heavy_Advanced.label>Продвинутый тяжеловооружённый солдат Анклава</Enclave_Heavy_Advanced.label>
+  <Enclave_Heavy_Advanced.labelPlural>Enclave Heavy Troopers</Enclave_Heavy_Advanced.labelPlural>
+
+
+  <!-- Enclave Sniper -->
+
+  <Enclave_Sniper.label>Снайпер Анклава</Enclave_Sniper.label>
+  <Enclave_Sniper.labelPlural>Enclave Snipers</Enclave_Sniper.labelPlural>
+
+  <Enclave_Sniper_Advanced.label>Продвинутый снайпер Анклава</Enclave_Sniper_Advanced.label>
+  <Enclave_Sniper_Advanced.labelPlural>Enclave Snipers</Enclave_Sniper_Advanced.labelPlural>
+
+
+  <!-- Enclave Officer -->
+
+  <Enclave_Officer.label>Офицер Анклава</Enclave_Officer.label>
+  <Enclave_Officer.labelPlural>Enclave Officers</Enclave_Officer.labelPlural>
+
+  <Enclave_Officer_Advanced.label>Продвинутый офицер Анклава</Enclave_Officer_Advanced.label>
+  <Enclave_Officer_Advanced.labelPlural>Enclave Officers</Enclave_Officer_Advanced.labelPlural>
+
+
+  <!-- Enclave Engineer -->
+
+  <Enclave_Engineer.label>Инженер Анклава</Enclave_Engineer.label>
+  <Enclave_Engineer.labelPlural>Enclave Engineers</Enclave_Engineer.labelPlural>
+
+  <Enclave_Engineer_Advanced.label>Продвинутый инженер Анклава</Enclave_Engineer_Advanced.label>
+  <Enclave_Engineer_Advanced.labelPlural>Enclave Engineers</Enclave_Engineer_Advanced.labelPlural>
+
+
+  <!-- Enclave Elite -->
+
+  <Enclave_Elite.label>Элитный солдат Анклава</Enclave_Elite.label>
+  <Enclave_Elite.labelPlural>Enclave Elites</Enclave_Elite.labelPlural>
+
+
+  <!-- Enclave Scientist -->
+
+  <Enclave_Scientist.label>Учёный Анклава</Enclave_Scientist.label>
+  <Enclave_Scientist.labelPlural>Enclave Scientists</Enclave_Scientist.labelPlural>
+
+
+</LanguageData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gecko -->
+
+  <EggGeckoFertilized.label>Яйцо гекко (опл.)</EggGeckoFertilized.label>
+  <EggGeckoFertilized.description>Оплодотворённое яйцо гекко. Если всё пойдёт хорошо, из него вылупится детёныш гекко. Можно есть сырым, но в приготовленном виде оно гораздо вкуснее.</EggGeckoFertilized.description>
+
+  <EggGeckoUnfertilized.label>Яйцо гекко (неопл.)</EggGeckoUnfertilized.label>
+  <EggGeckoUnfertilized.description>Неоплодотворённое яйцо гекко. Можно есть сырым, но в приготовленном виде оно гораздо вкуснее.</EggGeckoUnfertilized.description>
+
+
+  <!-- Deathclaw -->
+
+  <EggDeathclawFertilized.label>Яйцо смертокогтя (опл.)</EggDeathclawFertilized.label>
+  <EggDeathclawFertilized.description>Оплодотворённое яйцо смертокогтя. Если всё пойдёт хорошо, из него вылупится детёныш смертокогтя. Можно есть сырым, но в приготовленном виде оно гораздо вкуснее.</EggDeathclawFertilized.description>
+
+  <EggDeathclawUnfertilized.label>Яйцо смертокогтя (неопл.)</EggDeathclawUnfertilized.label>
+  <EggDeathclawUnfertilized.description>Неоплодотворённое яйцо смертокогтя. Можно есть сырым, но в приготовленном виде оно гораздо вкуснее.</EggDeathclawUnfertilized.description>
+
+  <EggMirelurkFertilized.label>Яйцо болотника (опл.)</EggMirelurkFertilized.label>
+  <EggMirelurkFertilized.description>Оплодотворённое яйцо болотника. Если всё пойдёт хорошо, из него вылупится детёныш болотника. Можно есть сырым, но в приготовленном виде оно гораздо вкуснее.</EggMirelurkFertilized.description>
+
+  <EggMirelurkUnfertilized.label>Яйцо болотника (неопл.)</EggMirelurkUnfertilized.label>
+  <EggMirelurkUnfertilized.description>Неоплодотворённое яйцо болотника. Можно есть сырым, но в приготовленном виде оно гораздо вкуснее.</EggMirelurkUnfertilized.description>
+
+
+  <!-- RadScorpion -->
+
+  <EggRadScorpionFertilized.label>Яйцо радскорпиона (опл.)</EggRadScorpionFertilized.label>
+  <EggRadScorpionFertilized.description>Оплодотворённое яйцо радскорпиона. Если всё пойдёт хорошо, из него вылупится детёныш радскорпиона. Можно есть сырым, но в приготовленном виде оно гораздо вкуснее.</EggRadScorpionFertilized.description>
+
+  <EggRadScorpionUnfertilized.label>Яйцо радскорпиона (неопл.)</EggRadScorpionUnfertilized.label>
+  <EggRadScorpionUnfertilized.description>Неоплодотворённое яйцо радскорпиона. Можно есть сырым, но в приготовленном виде оно гораздо вкуснее.</EggRadScorpionUnfertilized.description>
+
+  <Leather_Glutton.label>Кожа заглота</Leather_Glutton.label>
+  <Leather_Glutton.description>«Биоматериал, добытый у чрезвычайно устойчивого хищника. Клетки кожи проявляют гиперактивный иммунный ответ, производя коктейль из антител и адаптогенов. При интеграции в систему хозяина (будь то родная плоть или кибернетика) они действуют как постоянный "тренировочный полигон" для иммунной системы, подвергая её умеренному стрессу и заставляя эволюционировать с беспрецедентной скоростью».</Leather_Glutton.description>
+
+
+</LanguageData>

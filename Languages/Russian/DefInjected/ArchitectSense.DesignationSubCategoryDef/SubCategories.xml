@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Power -->
+
+  <SubCategory_LampsVaultec.label>Светильники Vault-Tec</SubCategory_LampsVaultec.label>
+  <SubCategory_LampsVaultec.description>Набор светильников.</SubCategory_LampsVaultec.description>
+
+  <SubCategory_PowerVaultec.label>Генераторы Vault-Tec</SubCategory_PowerVaultec.label>
+  <SubCategory_PowerVaultec.description>Набор электрогенераторов.</SubCategory_PowerVaultec.description>
+
+  <SubCategory_RugVaultec.label>Ковры Vault-Tec</SubCategory_RugVaultec.label>
+  <SubCategory_RugVaultec.description>Набор ковров.</SubCategory_RugVaultec.description>
+
+
+  <!-- <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecTable</defName>
+		<label>Vault-Tec Workbenches</label>
+		<description>Vault-Tec Workbenches.</description>
+		<defNames>
+		   <!{1}** <li>TableFalloutCOINMACHINE</li>**{1}>
+			<li>TableFalloutElectronics</li>
+			<li>TableFalloutPrinter</li>
+			<li>TableFalloutChemicalSynthesis</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef> -->
+
+  <SubCategory_VaultecWeapon.label>Оборона Vault-Tec</SubCategory_VaultecWeapon.label>
+  <SubCategory_VaultecWeapon.description>Оборудование обороны Vault-Tec.</SubCategory_VaultecWeapon.description>
+
+  <SubCategory_VaultecFood.label>Питание Vault-Tec</SubCategory_VaultecFood.label>
+  <SubCategory_VaultecFood.description>Продукты Vault-Tec.</SubCategory_VaultecFood.description>
+
+  <SubCategory_VaultecSign.label>Вывески Vault-Tec</SubCategory_VaultecSign.label>
+  <SubCategory_VaultecSign.description>Вывески Vault-Tec.</SubCategory_VaultecSign.description>
+
+  <SubCategory_VaultecDoors.label>Двери Vault-Tec</SubCategory_VaultecDoors.label>
+  <SubCategory_VaultecDoors.description>Двери Vault-Tec.</SubCategory_VaultecDoors.description>
+
+
+</LanguageData>

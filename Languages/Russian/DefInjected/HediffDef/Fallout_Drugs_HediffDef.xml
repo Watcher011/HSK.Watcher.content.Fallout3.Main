@@ -1,14 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-<JetHigh.label>Под кайфом от Винта</JetHigh.label>
-<JetHigh.labelNoun>Кайф от Винта</JetHigh.labelNoun>
-<JetHigh.description>Активный Винт в кровотоке. Вызывает лёгкий эйфорический эффект.</JetHigh.description>
 
-<JetTolerance.label>Толерантность к Винту</JetTolerance.label>
-<JetTolerance.description>Выработанная толерантность к Винту. Чем серьёзнее эта толерантность, тем больше психотических наркотиков, таких как Яйо или Хлопья, требуется для достижения того же эффекта.</JetTolerance.description>
+  <JetHigh.label>Под кайфом от Винта</JetHigh.label>
+  <JetHigh.labelNoun>Кайф от Винта</JetHigh.labelNoun>
+  <JetHigh.description>Активный Винт в кровотоке. Вызывает лёгкий эйфорический эффект.</JetHigh.description>
 
-<JetAddiction.label>Зависимость от Винта</JetAddiction.label>
-<JetAddiction.description>Химическая зависимость от Винта. Длительное присутствие психотика вызвало неврологические изменения на клеточном уровне, поэтому мозг больше не может нормально функционировать без наркотика.
+  <JetTolerance.label>Толерантность к Винту</JetTolerance.label>
+  <JetTolerance.description>Выработанная толерантность к Винту. Чем серьёзнее эта толерантность, тем больше психотических наркотиков, таких как Яйо или Хлопья, требуется для достижения того же эффекта.</JetTolerance.description>
+
+  <JetAddiction.label>Зависимость от Винта</JetAddiction.label>
+  <JetAddiction.description>Химическая зависимость от Винта. Длительное присутствие психотика вызвало неврологические изменения на клеточном уровне, поэтому мозг больше не может нормально функционировать без наркотика.
 \nБез регулярных доз Винта — из таких наркотиков, как Хлопья или Яйо — начнутся симптомы ломки. Однако длительное воздержание заставит мозг адаптироваться обратно к нормальному состоянию, что приведёт к излечению от зависимости.</JetAddiction.description>
-<JetAddiction.stages.1.label>Ломка</JetAddiction.stages.1.label>
+  <JetAddiction.stages.1.label>Ломка</JetAddiction.stages.1.label>
+
 </LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- TortleHead -->
+
+  <OE_GhoulHead.label>Голова Гуля</OE_GhoulHead.label>
+  <OE_GhoulHead.description>Носители этого гена обладают головой гуля.</OE_GhoulHead.description>
+
+  <RADImmunity.label>Радиационная стойкость</RADImmunity.label>
+  <RADImmunity.description>Защита от радиации</RADImmunity.description>
+
+
+</LanguageData>

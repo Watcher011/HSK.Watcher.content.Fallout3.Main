@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Gecko_green.label>Зелёный гекко</Gecko_green.label>
+  <Gecko_green.labelPlural>Зелёные гекко</Gecko_green.labelPlural>
+  <Gecko_green.lifeStages.0.label>Зелёный гекко</Gecko_green.lifeStages.0.label>
+  <Gecko_green.lifeStages.0.labelPlural>Зелёные гекко</Gecko_green.lifeStages.0.labelPlural>
+  <Gecko_green.lifeStages.0.labelMale>Зелёный гекко мужского пола</Gecko_green.lifeStages.0.labelMale>
+  <Gecko_green.lifeStages.0.labelMalePlural>Зелёные гекко мужского пола</Gecko_green.lifeStages.0.labelMalePlural>
+  <Gecko_green.lifeStages.0.labelFemale>Зелёный гекко женского пола</Gecko_green.lifeStages.0.labelFemale>
+  <Gecko_green.lifeStages.0.labelFemalePlural>Зелёные гекко женского пола</Gecko_green.lifeStages.0.labelFemalePlural>
+  <Gecko_green.lifeStages.1.label>Зелёный гекко</Gecko_green.lifeStages.1.label>
+  <Gecko_green.lifeStages.1.labelPlural>Зелёные гекко</Gecko_green.lifeStages.1.labelPlural>
+  <Gecko_green.lifeStages.1.labelMale>Зелёный гекко мужского пола</Gecko_green.lifeStages.1.labelMale>
+  <Gecko_green.lifeStages.1.labelMalePlural>Зелёные гекко мужского пола</Gecko_green.lifeStages.1.labelMalePlural>
+  <Gecko_green.lifeStages.1.labelFemale>Зелёный гекко женского пола</Gecko_green.lifeStages.1.labelFemale>
+  <Gecko_green.lifeStages.1.labelFemalePlural>Зелёные гекко женского пола</Gecko_green.lifeStages.1.labelFemalePlural>
+  <Gecko_green.lifeStages.2.label>Зелёный гекко</Gecko_green.lifeStages.2.label>
+  <Gecko_green.lifeStages.2.labelPlural>Зелёные гекко</Gecko_green.lifeStages.2.labelPlural>
+  <Gecko_green.lifeStages.2.labelMale>Зелёный гекко мужского пола</Gecko_green.lifeStages.2.labelMale>
+  <Gecko_green.lifeStages.2.labelMalePlural>Зелёные гекко мужского пола</Gecko_green.lifeStages.2.labelMalePlural>
+  <Gecko_green.lifeStages.2.labelFemale>Зелёный гекко женского пола</Gecko_green.lifeStages.2.labelFemale>
+  <Gecko_green.lifeStages.2.labelFemalePlural>Зелёные гекко женского пола</Gecko_green.lifeStages.2.labelFemalePlural>
+  <Gecko_green.labelMale>Зелёный гекко мужского пола</Gecko_green.labelMale>
+  <Gecko_green.labelMalePlural>Зелёные гекко мужского пола</Gecko_green.labelMalePlural>
+  <Gecko_green.labelFemale>Зелёный гекко женского пола</Gecko_green.labelFemale>
+  <Gecko_green.labelFemalePlural>Зелёные гекко женского пола</Gecko_green.labelFemalePlural>
+
+  <Deathclaw.label>Коготь смерти</Deathclaw.label>
+  <Deathclaw.labelPlural>Когти смерти</Deathclaw.labelPlural>
+  <Deathclaw.lifeStages.0.label>Коготь смерти</Deathclaw.lifeStages.0.label>
+  <Deathclaw.lifeStages.0.labelPlural>Когти смерти</Deathclaw.lifeStages.0.labelPlural>
+  <Deathclaw.lifeStages.0.labelMale>Коготь смерти мужского пола</Deathclaw.lifeStages.0.labelMale>
+  <Deathclaw.lifeStages.0.labelMalePlural>Когти смерти мужского пола</Deathclaw.lifeStages.0.labelMalePlural>
+  <Deathclaw.lifeStages.0.labelFemale>Коготь смерти женского пола</Deathclaw.lifeStages.0.labelFemale>
+  <Deathclaw.lifeStages.0.labelFemalePlural>Когти смерти женского пола</Deathclaw.lifeStages.0.labelFemalePlural>
+  <Deathclaw.lifeStages.1.label>Коготь смерти</Deathclaw.lifeStages.1.label>
+  <Deathclaw.lifeStages.1.labelPlural>Когти смерти</Deathclaw.lifeStages.1.labelPlural>
+  <Deathclaw.lifeStages.1.labelMale>Коготь смерти мужского пола</Deathclaw.lifeStages.1.labelMale>
+  <Deathclaw.lifeStages.1.labelMalePlural>Когти смерти мужского пола</Deathclaw.lifeStages.1.labelMalePlural>
+  <Deathclaw.lifeStages.1.labelFemale>Коготь смерти женского пола</Deathclaw.lifeStages.1.labelFemale>
+  <Deathclaw.lifeStages.1.labelFemalePlural>Когти смерти женского пола</Deathclaw.lifeStages.1.labelFemalePlural>
+  <Deathclaw.lifeStages.2.label>Коготь смерти</Deathclaw.lifeStages.2.label>
+  <Deathclaw.lifeStages.2.labelPlural>Когти смерти</Deathclaw.lifeStages.2.labelPlural>
+  <Deathclaw.lifeStages.2.labelMale>Коготь смерти мужского пола</Deathclaw.lifeStages.2.labelMale>
+  <Deathclaw.lifeStages.2.labelMalePlural>Когти смерти мужского пола</Deathclaw.lifeStages.2.labelMalePlural>
+  <Deathclaw.lifeStages.2.labelFemale>Коготь смерти женского пола</Deathclaw.lifeStages.2.labelFemale>
+  <Deathclaw.lifeStages.2.labelFemalePlural>Когти смерти женского пола</Deathclaw.lifeStages.2.labelFemalePlural>
+  <Deathclaw.labelMale>Коготь смерти мужского пола</Deathclaw.labelMale>
+  <Deathclaw.labelMalePlural>Когти смерти мужского пола</Deathclaw.labelMalePlural>
+  <Deathclaw.labelFemale>Коготь смерти женского пола</Deathclaw.labelFemale>
+  <Deathclaw.labelFemalePlural>Когти смерти женского пола</Deathclaw.labelFemalePlural>
+
+  <Cyberdog.label>Киберпёс</Cyberdog.label>
+  <Cyberdog.labelPlural>Киберпсы</Cyberdog.labelPlural>
+  <Cyberdog.lifeStages.0.label>Щенок киберпса</Cyberdog.lifeStages.0.label>
+  <Cyberdog.lifeStages.0.labelPlural>Щенки киберпса</Cyberdog.lifeStages.0.labelPlural>
+  <Cyberdog.lifeStages.0.labelMale>Щенок киберпса мужского пола</Cyberdog.lifeStages.0.labelMale>
+  <Cyberdog.lifeStages.0.labelMalePlural>Щенки киберпса мужского пола</Cyberdog.lifeStages.0.labelMalePlural>
+  <Cyberdog.lifeStages.0.labelFemale>Щенок киберпса женского пола</Cyberdog.lifeStages.0.labelFemale>
+  <Cyberdog.lifeStages.0.labelFemalePlural>Щенки киберпса женского пола</Cyberdog.lifeStages.0.labelFemalePlural>
+  <Cyberdog.lifeStages.1.label>Киберпёс</Cyberdog.lifeStages.1.label>
+  <Cyberdog.lifeStages.1.labelPlural>Киберпсы</Cyberdog.lifeStages.1.labelPlural>
+  <Cyberdog.lifeStages.1.labelMale>Киберпёс мужского пола</Cyberdog.lifeStages.1.labelMale>
+  <Cyberdog.lifeStages.1.labelMalePlural>Киберпсы мужского пола</Cyberdog.lifeStages.1.labelMalePlural>
+  <Cyberdog.lifeStages.1.labelFemale>Киберпёс женского пола</Cyberdog.lifeStages.1.labelFemale>
+  <Cyberdog.lifeStages.1.labelFemalePlural>Киберпсы женского пола</Cyberdog.lifeStages.1.labelFemalePlural>
+  <Cyberdog.lifeStages.2.label>Киберпёс</Cyberdog.lifeStages.2.label>
+  <Cyberdog.lifeStages.2.labelPlural>Киберпсы</Cyberdog.lifeStages.2.labelPlural>
+  <Cyberdog.lifeStages.2.labelMale>Киберпёс мужского пола</Cyberdog.lifeStages.2.labelMale>
+  <Cyberdog.lifeStages.2.labelMalePlural>Киберпсы мужского пола</Cyberdog.lifeStages.2.labelMalePlural>
+  <Cyberdog.lifeStages.2.labelFemale>Киберпёс женского пола</Cyberdog.lifeStages.2.labelFemale>
+  <Cyberdog.lifeStages.2.labelFemalePlural>Киберпсы женского пола</Cyberdog.lifeStages.2.labelFemalePlural>
+  <Cyberdog.labelMale>Киберпёс мужского пола</Cyberdog.labelMale>
+  <Cyberdog.labelMalePlural>Киберпсы мужского пола</Cyberdog.labelMalePlural>
+  <Cyberdog.labelFemale>Киберпёс женского пола</Cyberdog.labelFemale>
+  <Cyberdog.labelFemalePlural>Киберпсы женского пола</Cyberdog.labelFemalePlural>
+
+  <Mirelurk.label>Болотник</Mirelurk.label>
+  <Mirelurk.labelPlural>Болотники</Mirelurk.labelPlural>
+  <Mirelurk.lifeStages.0.label>Болотник</Mirelurk.lifeStages.0.label>
+  <Mirelurk.lifeStages.0.labelPlural>Болотники</Mirelurk.lifeStages.0.labelPlural>
+  <Mirelurk.lifeStages.0.labelMale>Болотник мужского пола</Mirelurk.lifeStages.0.labelMale>
+  <Mirelurk.lifeStages.0.labelMalePlural>Болотники мужского пола</Mirelurk.lifeStages.0.labelMalePlural>
+  <Mirelurk.lifeStages.0.labelFemale>Болотник женского пола</Mirelurk.lifeStages.0.labelFemale>
+  <Mirelurk.lifeStages.0.labelFemalePlural>Болотники женского пола</Mirelurk.lifeStages.0.labelFemalePlural>
+  <Mirelurk.lifeStages.1.label>Болотник</Mirelurk.lifeStages.1.label>
+  <Mirelurk.lifeStages.1.labelPlural>Болотники</Mirelurk.lifeStages.1.labelPlural>
+  <Mirelurk.lifeStages.1.labelMale>Болотник мужского пола</Mirelurk.lifeStages.1.labelMale>
+  <Mirelurk.lifeStages.1.labelMalePlural>Болотники мужского пола</Mirelurk.lifeStages.1.labelMalePlural>
+  <Mirelurk.lifeStages.1.labelFemale>Болотник женского пола</Mirelurk.lifeStages.1.labelFemale>
+  <Mirelurk.lifeStages.1.labelFemalePlural>Болотники женского пола</Mirelurk.lifeStages.1.labelFemalePlural>
+  <Mirelurk.lifeStages.2.label>Болотник</Mirelurk.lifeStages.2.label>
+  <Mirelurk.lifeStages.2.labelPlural>Болотники</Mirelurk.lifeStages.2.labelPlural>
+  <Mirelurk.lifeStages.2.labelMale>Болотник мужского пола</Mirelurk.lifeStages.2.labelMale>
+  <Mirelurk.lifeStages.2.labelMalePlural>Болотники мужского пола</Mirelurk.lifeStages.2.labelMalePlural>
+  <Mirelurk.lifeStages.2.labelFemale>Болотник женского пола</Mirelurk.lifeStages.2.labelFemale>
+  <Mirelurk.lifeStages.2.labelFemalePlural>Болотники женского пола</Mirelurk.lifeStages.2.labelFemalePlural>
+  <Mirelurk.labelMale>Болотник мужского пола</Mirelurk.labelMale>
+  <Mirelurk.labelMalePlural>Болотники мужского пола</Mirelurk.labelMalePlural>
+  <Mirelurk.labelFemale>Болотник женского пола</Mirelurk.labelFemale>
+  <Mirelurk.labelFemalePlural>Болотники женского пола</Mirelurk.labelFemalePlural>
+
+  <Brahmin.label>Брамин</Brahmin.label>
+  <Brahmin.labelPlural>Брамины</Brahmin.labelPlural>
+  <Brahmin.lifeStages.0.label>Телёнок</Brahmin.lifeStages.0.label>
+  <Brahmin.lifeStages.0.labelPlural>Телята</Brahmin.lifeStages.0.labelPlural>
+  <Brahmin.lifeStages.0.labelMale>Телёнок мужского пола</Brahmin.lifeStages.0.labelMale>
+  <Brahmin.lifeStages.0.labelMalePlural>Телята мужского пола</Brahmin.lifeStages.0.labelMalePlural>
+  <Brahmin.lifeStages.0.labelFemale>Телёнок женского пола</Brahmin.lifeStages.0.labelFemale>
+  <Brahmin.lifeStages.0.labelFemalePlural>Телята женского пола</Brahmin.lifeStages.0.labelFemalePlural>
+  <Brahmin.lifeStages.1.label>Брамин</Brahmin.lifeStages.1.label>
+  <Brahmin.lifeStages.1.labelPlural>Брамины</Brahmin.lifeStages.1.labelPlural>
+  <Brahmin.lifeStages.1.labelMale>Брамин мужского пола</Brahmin.lifeStages.1.labelMale>
+  <Brahmin.lifeStages.1.labelMalePlural>Брамины мужского пола</Brahmin.lifeStages.1.labelMalePlural>
+  <Brahmin.lifeStages.1.labelFemale>Брамин женского пола</Brahmin.lifeStages.1.labelFemale>
+  <Brahmin.lifeStages.1.labelFemalePlural>Брамины женского пола</Brahmin.lifeStages.1.labelFemalePlural>
+  <Brahmin.lifeStages.2.label>Брамин</Brahmin.lifeStages.2.label>
+  <Brahmin.lifeStages.2.labelPlural>Брамины</Brahmin.lifeStages.2.labelPlural>
+  <Brahmin.lifeStages.2.labelMale>Брамин мужского пола</Brahmin.lifeStages.2.labelMale>
+  <Brahmin.lifeStages.2.labelMalePlural>Брамины мужского пола</Brahmin.lifeStages.2.labelMalePlural>
+  <Brahmin.lifeStages.2.labelFemale>Брамин женского пола</Brahmin.lifeStages.2.labelFemale>
+  <Brahmin.lifeStages.2.labelFemalePlural>Брамины женского пола</Brahmin.lifeStages.2.labelFemalePlural>
+  <Brahmin.labelMale>Брамин мужского пола</Brahmin.labelMale>
+  <Brahmin.labelMalePlural>Брамины мужского пола</Brahmin.labelMalePlural>
+  <Brahmin.labelFemale>Брамин женского пола</Brahmin.labelFemale>
+  <Brahmin.labelFemalePlural>Брамины женского пола</Brahmin.labelFemalePlural>
+
+  <RadDeer.label>Рад-олень</RadDeer.label>
+  <RadDeer.labelPlural>Рад-олени</RadDeer.labelPlural>
+  <RadDeer.lifeStages.0.label>Рад-олень</RadDeer.lifeStages.0.label>
+  <RadDeer.lifeStages.0.labelPlural>Рад-олени</RadDeer.lifeStages.0.labelPlural>
+  <RadDeer.lifeStages.0.labelMale>Рад-самец</RadDeer.lifeStages.0.labelMale>
+  <RadDeer.lifeStages.0.labelMalePlural>Рад-самцы</RadDeer.lifeStages.0.labelMalePlural>
+  <RadDeer.lifeStages.0.labelFemale>Рад-самка</RadDeer.lifeStages.0.labelFemale>
+  <RadDeer.lifeStages.0.labelFemalePlural>Рад-самки</RadDeer.lifeStages.0.labelFemalePlural>
+  <RadDeer.lifeStages.1.label>Рад-олень</RadDeer.lifeStages.1.label>
+  <RadDeer.lifeStages.1.labelPlural>Рад-олени</RadDeer.lifeStages.1.labelPlural>
+  <RadDeer.lifeStages.1.labelMale>Рад-самец</RadDeer.lifeStages.1.labelMale>
+  <RadDeer.lifeStages.1.labelMalePlural>Рад-самцы</RadDeer.lifeStages.1.labelMalePlural>
+  <RadDeer.lifeStages.1.labelFemale>Рад-самка</RadDeer.lifeStages.1.labelFemale>
+  <RadDeer.lifeStages.1.labelFemalePlural>Рад-самки</RadDeer.lifeStages.1.labelFemalePlural>
+  <RadDeer.lifeStages.2.label>Рад-олень</RadDeer.lifeStages.2.label>
+  <RadDeer.lifeStages.2.labelPlural>Рад-олени</RadDeer.lifeStages.2.labelPlural>
+  <RadDeer.lifeStages.2.labelMale>Рад-самец</RadDeer.lifeStages.2.labelMale>
+  <RadDeer.lifeStages.2.labelMalePlural>Рад-самцы</RadDeer.lifeStages.2.labelMalePlural>
+  <RadDeer.lifeStages.2.labelFemale>Рад-самка</RadDeer.lifeStages.2.labelFemale>
+  <RadDeer.lifeStages.2.labelFemalePlural>Рад-самки</RadDeer.lifeStages.2.labelFemalePlural>
+  <RadDeer.labelMale>Рад-самец</RadDeer.labelMale>
+  <RadDeer.labelMalePlural>Рад-самцы</RadDeer.labelMalePlural>
+  <RadDeer.labelFemale>Рад-самка</RadDeer.labelFemale>
+  <RadDeer.labelFemalePlural>Рад-самки</RadDeer.labelFemalePlural>
+
+  <GlowRadDeer.label>Светящийся рад-олень</GlowRadDeer.label>
+  <GlowRadDeer.labelPlural>Светящиеся рад-олени</GlowRadDeer.labelPlural>
+  <GlowRadDeer.lifeStages.0.label>Светящийся рад-олень</GlowRadDeer.lifeStages.0.label>
+  <GlowRadDeer.lifeStages.0.labelPlural>Светящиеся рад-олени</GlowRadDeer.lifeStages.0.labelPlural>
+  <GlowRadDeer.lifeStages.0.labelMale>Светящийся рад-самец</GlowRadDeer.lifeStages.0.labelMale>
+  <GlowRadDeer.lifeStages.0.labelMalePlural>Светящиеся рад-самцы</GlowRadDeer.lifeStages.0.labelMalePlural>
+  <GlowRadDeer.lifeStages.0.labelFemale>Светящаяся рад-самка</GlowRadDeer.lifeStages.0.labelFemale>
+  <GlowRadDeer.lifeStages.0.labelFemalePlural>Светящиеся рад-самки</GlowRadDeer.lifeStages.0.labelFemalePlural>
+  <GlowRadDeer.lifeStages.1.label>Светящийся рад-олень</GlowRadDeer.lifeStages.1.label>
+  <GlowRadDeer.lifeStages.1.labelPlural>Светящиеся рад-олени</GlowRadDeer.lifeStages.1.labelPlural>
+  <GlowRadDeer.lifeStages.1.labelMale>Светящийся рад-самец</GlowRadDeer.lifeStages.1.labelMale>
+  <GlowRadDeer.lifeStages.1.labelMalePlural>Светящиеся рад-самцы</GlowRadDeer.lifeStages.1.labelMalePlural>
+  <GlowRadDeer.lifeStages.1.labelFemale>Светящаяся рад-самка</GlowRadDeer.lifeStages.1.labelFemale>
+  <GlowRadDeer.lifeStages.1.labelFemalePlural>Светящиеся рад-самки</GlowRadDeer.lifeStages.1.labelFemalePlural>
+  <GlowRadDeer.lifeStages.2.label>Светящийся рад-олень</GlowRadDeer.lifeStages.2.label>
+  <GlowRadDeer.lifeStages.2.labelPlural>Светящиеся рад-олени</GlowRadDeer.lifeStages.2.labelPlural>
+  <GlowRadDeer.lifeStages.2.labelMale>Светящийся рад-самец</GlowRadDeer.lifeStages.2.labelMale>
+  <GlowRadDeer.lifeStages.2.labelMalePlural>Светящиеся рад-самцы</GlowRadDeer.lifeStages.2.labelMalePlural>
+  <GlowRadDeer.lifeStages.2.labelFemale>Светящаяся рад-самка</GlowRadDeer.lifeStages.2.labelFemale>
+  <GlowRadDeer.lifeStages.2.labelFemalePlural>Светящиеся рад-самки</GlowRadDeer.lifeStages.2.labelFemalePlural>
+  <GlowRadDeer.labelMale>Светящийся рад-самец</GlowRadDeer.labelMale>
+  <GlowRadDeer.labelMalePlural>Светящиеся рад-самцы</GlowRadDeer.labelMalePlural>
+  <GlowRadDeer.labelFemale>Светящаяся рад-самка</GlowRadDeer.labelFemale>
+  <GlowRadDeer.labelFemalePlural>Светящиеся рад-самки</GlowRadDeer.labelFemalePlural>
+
+  <MoleRat.label>Кротокрыс</MoleRat.label>
+  <MoleRat.labelPlural>Кротокрысы</MoleRat.labelPlural>
+  <MoleRat.lifeStages.0.label>Кротокрыс</MoleRat.lifeStages.0.label>
+  <MoleRat.lifeStages.0.labelPlural>Кротокрысы</MoleRat.lifeStages.0.labelPlural>
+  <MoleRat.lifeStages.0.labelMale>Кротокрыс мужского пола</MoleRat.lifeStages.0.labelMale>
+  <MoleRat.lifeStages.0.labelMalePlural>Кротокрысы мужского пола</MoleRat.lifeStages.0.labelMalePlural>
+  <MoleRat.lifeStages.0.labelFemale>Кротокрыс женского пола</MoleRat.lifeStages.0.labelFemale>
+  <MoleRat.lifeStages.0.labelFemalePlural>Кротокрысы женского пола</MoleRat.lifeStages.0.labelFemalePlural>
+  <MoleRat.lifeStages.1.label>Кротокрыс</MoleRat.lifeStages.1.label>
+  <MoleRat.lifeStages.1.labelPlural>Кротокрысы</MoleRat.lifeStages.1.labelPlural>
+  <MoleRat.lifeStages.1.labelMale>Кротокрыс мужского пола</MoleRat.lifeStages.1.labelMale>
+  <MoleRat.lifeStages.1.labelMalePlural>Кротокрысы мужского пола</MoleRat.lifeStages.1.labelMalePlural>
+  <MoleRat.lifeStages.1.labelFemale>Кротокрыс женского пола</MoleRat.lifeStages.1.labelFemale>
+  <MoleRat.lifeStages.1.labelFemalePlural>Кротокрысы женского пола</MoleRat.lifeStages.1.labelFemalePlural>
+  <MoleRat.lifeStages.2.label>Кротокрыс</MoleRat.lifeStages.2.label>
+  <MoleRat.lifeStages.2.labelPlural>Кротокрысы</MoleRat.lifeStages.2.labelPlural>
+  <MoleRat.lifeStages.2.labelMale>Кротокрыс мужского пола</MoleRat.lifeStages.2.labelMale>
+  <MoleRat.lifeStages.2.labelMalePlural>Кротокрысы мужского пола</MoleRat.lifeStages.2.labelMalePlural>
+  <MoleRat.lifeStages.2.labelFemale>Кротокрыс женского пола</MoleRat.lifeStages.2.labelFemale>
+  <MoleRat.lifeStages.2.labelFemalePlural>Кротокрысы женского пола</MoleRat.lifeStages.2.labelFemalePlural>
+  <MoleRat.labelMale>Кротокрыс мужского пола</MoleRat.labelMale>
+  <MoleRat.labelMalePlural>Кротокрысы мужского пола</MoleRat.labelMalePlural>
+  <MoleRat.labelFemale>Кротокрыс женского пола</MoleRat.labelFemale>
+  <MoleRat.labelFemalePlural>Кротокрысы женского пола</MoleRat.labelFemalePlural>
+
+  <MutantHound.label>Мутант-гончая</MutantHound.label>
+  <MutantHound.labelPlural>Мутант-гончие</MutantHound.labelPlural>
+  <MutantHound.lifeStages.0.label>Щенок мутант-гончей</MutantHound.lifeStages.0.label>
+  <MutantHound.lifeStages.0.labelPlural>Щенки мутант-гончей</MutantHound.lifeStages.0.labelPlural>
+  <MutantHound.lifeStages.0.labelMale>Щенок мутант-гончей мужского пола</MutantHound.lifeStages.0.labelMale>
+  <MutantHound.lifeStages.0.labelMalePlural>Щенки мутант-гончей мужского пола</MutantHound.lifeStages.0.labelMalePlural>
+  <MutantHound.lifeStages.0.labelFemale>Щенок мутант-гончей женского пола</MutantHound.lifeStages.0.labelFemale>
+  <MutantHound.lifeStages.0.labelFemalePlural>Щенки мутант-гончей женского пола</MutantHound.lifeStages.0.labelFemalePlural>
+  <MutantHound.lifeStages.1.label>Мутант-гончая</MutantHound.lifeStages.1.label>
+  <MutantHound.lifeStages.1.labelPlural>Мутант-гончие</MutantHound.lifeStages.1.labelPlural>
+  <MutantHound.lifeStages.1.labelMale>Мутант-гончая мужского пола</MutantHound.lifeStages.1.labelMale>
+  <MutantHound.lifeStages.1.labelMalePlural>Мутант-гончие мужского пола</MutantHound.lifeStages.1.labelMalePlural>
+  <MutantHound.lifeStages.1.labelFemale>Мутант-гончая женского пола</MutantHound.lifeStages.1.labelFemale>
+  <MutantHound.lifeStages.1.labelFemalePlural>Мутант-гончие женского пола</MutantHound.lifeStages.1.labelFemalePlural>
+  <MutantHound.lifeStages.2.label>Мутант-гончая</MutantHound.lifeStages.2.label>
+  <MutantHound.lifeStages.2.labelPlural>Мутант-гончие</MutantHound.lifeStages.2.labelPlural>
+  <MutantHound.lifeStages.2.labelMale>Мутант-гончая мужского пола</MutantHound.lifeStages.2.labelMale>
+  <MutantHound.lifeStages.2.labelMalePlural>Мутант-гончие мужского пола</MutantHound.lifeStages.2.labelMalePlural>
+  <MutantHound.lifeStages.2.labelFemale>Мутант-гончая женского пола</MutantHound.lifeStages.2.labelFemale>
+  <MutantHound.lifeStages.2.labelFemalePlural>Мутант-гончие женского пола</MutantHound.lifeStages.2.labelFemalePlural>
+  <MutantHound.labelMale>Мутант-гончая мужского пола</MutantHound.labelMale>
+  <MutantHound.labelMalePlural>Мутант-гончие мужского пола</MutantHound.labelMalePlural>
+  <MutantHound.labelFemale>Мутант-гончая женского пола</MutantHound.labelFemale>
+  <MutantHound.labelFemalePlural>Мутант-гончие женского пола</MutantHound.labelFemalePlural>
+
+  <Radboar.label>Рад-вепрь</Radboar.label>
+  <Radboar.labelPlural>Рад-вепри</Radboar.labelPlural>
+  <Radboar.lifeStages.0.label>Рад-вепрь</Radboar.lifeStages.0.label>
+  <Radboar.lifeStages.0.labelPlural>Рад-вепри</Radboar.lifeStages.0.labelPlural>
+  <Radboar.lifeStages.0.labelMale>Рад-вепрь мужского пола</Radboar.lifeStages.0.labelMale>
+  <Radboar.lifeStages.0.labelMalePlural>Рад-вепри мужского пола</Radboar.lifeStages.0.labelMalePlural>
+  <Radboar.lifeStages.0.labelFemale>Рад-вепрь женского пола</Radboar.lifeStages.0.labelFemale>
+  <Radboar.lifeStages.0.labelFemalePlural>Рад-вепри женского пола</Radboar.lifeStages.0.labelFemalePlural>
+  <Radboar.lifeStages.1.label>Рад-вепрь</Radboar.lifeStages.1.label>
+  <Radboar.lifeStages.1.labelPlural>Рад-вепри</Radboar.lifeStages.1.labelPlural>
+  <Radboar.lifeStages.1.labelMale>Рад-вепрь мужского пола</Radboar.lifeStages.1.labelMale>
+  <Radboar.lifeStages.1.labelMalePlural>Рад-вепри мужского пола</Radboar.lifeStages.1.labelMalePlural>
+  <Radboar.lifeStages.1.labelFemale>Рад-вепрь женского пола</Radboar.lifeStages.1.labelFemale>
+  <Radboar.lifeStages.1.labelFemalePlural>Рад-вепри женского пола</Radboar.lifeStages.1.labelFemalePlural>
+  <Radboar.lifeStages.2.label>Рад-вепрь</Radboar.lifeStages.2.label>
+  <Radboar.lifeStages.2.labelPlural>Рад-вепри</Radboar.lifeStages.2.labelPlural>
+  <Radboar.lifeStages.2.labelMale>Рад-вепрь мужского пола</Radboar.lifeStages.2.labelMale>
+  <Radboar.lifeStages.2.labelMalePlural>Рад-вепри мужского пола</Radboar.lifeStages.2.labelMalePlural>
+  <Radboar.lifeStages.2.labelFemale>Рад-вепрь женского пола</Radboar.lifeStages.2.labelFemale>
+  <Radboar.lifeStages.2.labelFemalePlural>Рад-вепри женского пола</Radboar.lifeStages.2.labelFemalePlural>
+  <Radboar.labelMale>Рад-вепрь мужского пола</Radboar.labelMale>
+  <Radboar.labelMalePlural>Рад-вепри мужского пола</Radboar.labelMalePlural>
+  <Radboar.labelFemale>Рад-вепрь женского пола</Radboar.labelFemale>
+  <Radboar.labelFemalePlural>Рад-вепри женского пола</Radboar.labelFemalePlural>
+
+  <Glutton.label>Заглот</Glutton.label>
+  <Glutton.labelPlural>Заглоты</Glutton.labelPlural>
+  <Glutton.labelMale>Заглот мужского пола</Glutton.labelMale>
+  <Glutton.labelMalePlural>Заглоты мужского пола</Glutton.labelMalePlural>
+  <Glutton.labelFemale>Заглот женского пола</Glutton.labelFemale>
+  <Glutton.labelFemalePlural>Заглоты женского пола</Glutton.labelFemalePlural>
+</LanguageData>

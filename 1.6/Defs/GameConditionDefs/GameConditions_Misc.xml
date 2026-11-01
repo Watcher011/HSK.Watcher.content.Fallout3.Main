@@ -21,5 +21,12 @@
     </GameConditionDef>
 	
 
-  
+  	<GameConditionDef>
+		<defName>TeslaEMPField</defName>
+		<conditionClass>Watcher.Comps.GameCondition_TeslaEMP</conditionClass>
+		<label>Tesla EMP field</label>
+		<description>A map-wide electromagnetic field released by a failed Tesla Nova generator. All electrical devices are disabled and mechanoids are stunned until the generator is repaired.</description>
+		<endMessage>The EMP field has collapsed. Electrical systems are coming back online.</endMessage>
+		<canBePermanent>true</canBePermanent>
+	</GameConditionDef>
 </Defs>

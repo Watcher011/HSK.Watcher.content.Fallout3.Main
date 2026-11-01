@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Institute_Courser.label>Курьер Института</Institute_Courser.label>
+  <Institute_Courser.labelPlural>Курьеры Института</Institute_Courser.labelPlural>
+  <Institute_Courser.labelMale>курьер Института мужского пола</Institute_Courser.labelMale>
+  <Institute_Courser.labelMalePlural>курьеры Института мужского пола</Institute_Courser.labelMalePlural>
+  <Institute_Courser.labelFemale>курьер Института женского пола</Institute_Courser.labelFemale>
+  <Institute_Courser.labelFemalePlural>курьеры Института женского пола</Institute_Courser.labelFemalePlural>
+
+  <Institute_Courser_Advanced.label>Продвинутый курьер Института</Institute_Courser_Advanced.label>
+  <Institute_Courser_Advanced.labelPlural>Продвинутые курьеры Института</Institute_Courser_Advanced.labelPlural>
+  <Institute_Courser_Advanced.labelMale>продвинутый курьер Института мужского пола</Institute_Courser_Advanced.labelMale>
+  <Institute_Courser_Advanced.labelMalePlural>продвинутые курьеры Института мужского пола</Institute_Courser_Advanced.labelMalePlural>
+  <Institute_Courser_Advanced.labelFemale>продвинутый курьер Института женского пола</Institute_Courser_Advanced.labelFemale>
+  <Institute_Courser_Advanced.labelFemalePlural>продвинутые курьеры Института женского пола</Institute_Courser_Advanced.labelFemalePlural>
+
+
+  <!-- Synth Enforcer -->
+
+  <Synth_Enforcer.label>Синт-каратель</Synth_Enforcer.label>
+  <Synth_Enforcer.labelPlural>Синт-каратели</Synth_Enforcer.labelPlural>
+  <Synth_Enforcer.labelMale>синт-каратель мужского пола</Synth_Enforcer.labelMale>
+  <Synth_Enforcer.labelMalePlural>синт-каратели мужского пола</Synth_Enforcer.labelMalePlural>
+  <Synth_Enforcer.labelFemale>синт-каратель женского пола</Synth_Enforcer.labelFemale>
+  <Synth_Enforcer.labelFemalePlural>синт-каратели женского пола</Synth_Enforcer.labelFemalePlural>
+
+  <Synth_Enforcer_Advanced.label>Продвинутый синт-каратель</Synth_Enforcer_Advanced.label>
+  <Synth_Enforcer_Advanced.labelPlural>Продвинутые синт-каратели</Synth_Enforcer_Advanced.labelPlural>
+  <Synth_Enforcer_Advanced.labelMale>продвинутый синт-каратель мужского пола</Synth_Enforcer_Advanced.labelMale>
+  <Synth_Enforcer_Advanced.labelMalePlural>продвинутые синт-каратели мужского пола</Synth_Enforcer_Advanced.labelMalePlural>
+  <Synth_Enforcer_Advanced.labelFemale>продвинутый синт-каратель женского пола</Synth_Enforcer_Advanced.labelFemale>
+  <Synth_Enforcer_Advanced.labelFemalePlural>продвинутые синт-каратели женского пола</Synth_Enforcer_Advanced.labelFemalePlural>
+
+
+  <!-- Gen-3 Suppressor -->
+
+  <Suppressor_Sniper.label>Ген-3 Подавитель</Suppressor_Sniper.label>
+  <Suppressor_Sniper.labelPlural>Ген-3 Подавители</Suppressor_Sniper.labelPlural>
+  <Suppressor_Sniper.labelMale>Ген-3 Подавитель мужского пола</Suppressor_Sniper.labelMale>
+  <Suppressor_Sniper.labelMalePlural>Ген-3 Подавители мужского пола</Suppressor_Sniper.labelMalePlural>
+  <Suppressor_Sniper.labelFemale>Ген-3 Подавитель женского пола</Suppressor_Sniper.labelFemale>
+  <Suppressor_Sniper.labelFemalePlural>Ген-3 Подавители женского пола</Suppressor_Sniper.labelFemalePlural>
+
+  <Suppressor_Sniper_Advanced.label>Продвинутый Ген-3 Подавитель</Suppressor_Sniper_Advanced.label>
+  <Suppressor_Sniper_Advanced.labelPlural>Продвинутые Ген-3 Подавители</Suppressor_Sniper_Advanced.labelPlural>
+  <Suppressor_Sniper_Advanced.labelMale>продвинутый Ген-3 Подавитель мужского пола</Suppressor_Sniper_Advanced.labelMale>
+  <Suppressor_Sniper_Advanced.labelMalePlural>продвинутые Ген-3 Подавители мужского пола</Suppressor_Sniper_Advanced.labelMalePlural>
+  <Suppressor_Sniper_Advanced.labelFemale>продвинутый Ген-3 Подавитель женского пола</Suppressor_Sniper_Advanced.labelFemale>
+  <Suppressor_Sniper_Advanced.labelFemalePlural>продвинутые Ген-3 Подавители женского пола</Suppressor_Sniper_Advanced.labelFemalePlural>
+
+
+  <!-- Division Agent -->
+
+  <Division_Agent.label>Агент дивизиона</Division_Agent.label>
+  <Division_Agent.labelPlural>Агенты дивизиона</Division_Agent.labelPlural>
+  <Division_Agent.labelMale>агент дивизиона мужского пола</Division_Agent.labelMale>
+  <Division_Agent.labelMalePlural>агенты дивизиона мужского пола</Division_Agent.labelMalePlural>
+  <Division_Agent.labelFemale>агент дивизиона женского пола</Division_Agent.labelFemale>
+  <Division_Agent.labelFemalePlural>агенты дивизиона женского пола</Division_Agent.labelFemalePlural>
+
+  <Division_Agent_Advanced.label>Продвинутый агент дивизиона</Division_Agent_Advanced.label>
+  <Division_Agent_Advanced.labelPlural>Продвинутые агенты дивизиона</Division_Agent_Advanced.labelPlural>
+  <Division_Agent_Advanced.labelMale>продвинутый агент дивизиона мужского пола</Division_Agent_Advanced.labelMale>
+  <Division_Agent_Advanced.labelMalePlural>продвинутые агенты дивизиона мужского пола</Division_Agent_Advanced.labelMalePlural>
+  <Division_Agent_Advanced.labelFemale>продвинутый агент дивизиона женского пола</Division_Agent_Advanced.labelFemale>
+  <Division_Agent_Advanced.labelFemalePlural>продвинутые агенты дивизиона женского пола</Division_Agent_Advanced.labelFemalePlural>
+
+
+  <!-- Molecular Harrier -->
+
+  <Molecular_Harrier.label>Молекулярный загонщик</Molecular_Harrier.label>
+  <Molecular_Harrier.labelPlural>Молекулярные загонщики</Molecular_Harrier.labelPlural>
+  <Molecular_Harrier.labelMale>молекулярный загонщик мужского пола</Molecular_Harrier.labelMale>
+  <Molecular_Harrier.labelMalePlural>молекулярные загонщики мужского пола</Molecular_Harrier.labelMalePlural>
+  <Molecular_Harrier.labelFemale>молекулярный загонщик женского пола</Molecular_Harrier.labelFemale>
+  <Molecular_Harrier.labelFemalePlural>молекулярные загонщики женского пола</Molecular_Harrier.labelFemalePlural>
+
+  <Molecular_Harrier_Advanced.label>Продвинутый молекулярный загонщик</Molecular_Harrier_Advanced.label>
+  <Molecular_Harrier_Advanced.labelPlural>Продвинутые молекулярные загонщики</Molecular_Harrier_Advanced.labelPlural>
+  <Molecular_Harrier_Advanced.labelMale>продвинутый молекулярный загонщик мужского пола</Molecular_Harrier_Advanced.labelMale>
+  <Molecular_Harrier_Advanced.labelMalePlural>продвинутые молекулярные загонщики мужского пола</Molecular_Harrier_Advanced.labelMalePlural>
+  <Molecular_Harrier_Advanced.labelFemale>продвинутый молекулярный загонщик женского пола</Molecular_Harrier_Advanced.labelFemale>
+  <Molecular_Harrier_Advanced.labelFemalePlural>продвинутые молекулярные загонщики женского пола</Molecular_Harrier_Advanced.labelFemalePlural>
+
+
+  <!-- Reclamation Strider -->
+
+  <Reclamation_Strider.label>Поступь возрождения</Reclamation_Strider.label>
+  <Reclamation_Strider.labelPlural>Поступи возрождения</Reclamation_Strider.labelPlural>
+  <Reclamation_Strider.labelMale>Поступь возрождения</Reclamation_Strider.labelMale>
+  <Reclamation_Strider.labelMalePlural>Поступи возрождения</Reclamation_Strider.labelMalePlural>
+  <Reclamation_Strider.labelFemale>Поступь возрождения</Reclamation_Strider.labelFemale>
+  <Reclamation_Strider.labelFemalePlural>Поступи возрождения</Reclamation_Strider.labelFemalePlural>
+
+
+</LanguageData>

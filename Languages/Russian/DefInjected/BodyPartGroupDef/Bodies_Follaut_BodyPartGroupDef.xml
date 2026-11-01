@@ -1,9 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<SporePlantStalk.label>стебель</SporePlantStalk.label>
+  <SporePlantStalk.label>стебель</SporePlantStalk.label>
 
-<SporePlantTendril.label>щупалец</SporePlantTendril.label>
+  <SporePlantTendril.label>щупалец</SporePlantTendril.label>
 
-<SporePlantMaw.label>пасть</SporePlantMaw.label>
+  <SporePlantMaw.label>пасть</SporePlantMaw.label>
 
-<SporePlantRoot.label>корень</SporePlantRoot.label>
+  <SporePlantRoot.label>корень</SporePlantRoot.label>
+
 </LanguageData>

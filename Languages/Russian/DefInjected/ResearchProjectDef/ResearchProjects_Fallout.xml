@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vault-TecPowerA.label>Энергетика Волт-Тек I</Vault-TecPowerA.label>
+  <Vault-TecPowerA.description>Строить генераторы по чертежам Волт-Тек.</Vault-TecPowerA.description>
+  <Vault-TecPowerA.generalRules.rulesStrings.0>subject-&gt;Vault-Tec Power</Vault-TecPowerA.generalRules.rulesStrings.0>
+
+  <Vault-TecPowerB.label>Энергетика Волт-Тек II</Vault-TecPowerB.label>
+  <Vault-TecPowerB.description>Строить генераторы по чертежам Волт-Тек.</Vault-TecPowerB.description>
+  <Vault-TecPowerB.generalRules.rulesStrings.0>subject-&gt;Vault-Tec Power</Vault-TecPowerB.generalRules.rulesStrings.0>
+
+  <Vault-TecProtection.label>Защита Волт-Тек</Vault-TecProtection.label>
+  <Vault-TecProtection.description>Строить средства защиты по чертежам Волт-Тек.</Vault-TecProtection.description>
+  <Vault-TecProtection.generalRules.rulesStrings.0>subject-&gt;Vault-Tec Protection</Vault-TecProtection.generalRules.rulesStrings.0>
+
+  <Vault-TecIED.label>Самодельное взрывное устройство Волт-Тек</Vault-TecIED.label>
+  <Vault-TecIED.description>Строить средства защиты по чертежам Волт-Тек.</Vault-TecIED.description>
+  <Vault-TecIED.generalRules.rulesStrings.0>subject-&gt;Vault-Tec improvised explosive device</Vault-TecIED.generalRules.rulesStrings.0>
+
+  <Vault-TecProcessing.label>Химическая обработка Волт-Тек</Vault-TecProcessing.label>
+  <Vault-TecProcessing.description>Строить лабораторию по чертежам Волт-Тек.</Vault-TecProcessing.description>
+  <Vault-TecProcessing.generalRules.rulesStrings.0>subject-&gt;Vault-Tec laboratory</Vault-TecProcessing.generalRules.rulesStrings.0>
+
+  <Vault-TecHW.label>Тяжёлое вооружение Волт-Тек</Vault-TecHW.label>
+  <Vault-TecHW.description>Строить тяжёлое вооружение по чертежам Волт-Тек.</Vault-TecHW.description>
+  <Vault-TecHW.generalRules.rulesStrings.0>subject-&gt;Vault-Tec heavy weapons</Vault-TecHW.generalRules.rulesStrings.0>
+
+  <Vault-TecEW.label>Энергетическое вооружение Волт-Тек</Vault-TecEW.label>
+  <Vault-TecEW.description>Строить энергетическое вооружение по чертежам Волт-Тек.</Vault-TecEW.description>
+  <Vault-TecEW.generalRules.rulesStrings.0>subject-&gt;Vault-Tec energy weapons</Vault-TecEW.generalRules.rulesStrings.0>
+
+
+</LanguageData>

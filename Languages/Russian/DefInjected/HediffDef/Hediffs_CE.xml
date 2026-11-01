@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DeathIonization.label>Смертельная ионизация</DeathIonization.label>
+  <DeathIonization.description>Нестабильное состояние.</DeathIonization.description>
+  <DeathIonization.labelNoun>Смертельная ионизация</DeathIonization.labelNoun>
+
+
+  <!-- <HediffDef>
+        <defName>FEV</defName>
+        <label>FEV</label>
+        <description>FEV.</description>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>0.001</initialSeverity>
+        <stages />
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
+                <xenotypes>
+                    <Supermutant>1</Supermutant>
+                </xenotypes>
+                <severities>1~999</severities>
+                <setXenotype>True</setXenotype>
+            </li>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>1</severityPerDay>
+            </li>
+        </comps>
+    </HediffDef> -->
+
+  <WearingPipBoy.label>Пип-Бой</WearingPipBoy.label>
+  <WearingPipBoy.description>В.А.Т.С., или Система Наведения Волт-Тек, — это передовая боевая технология, чьё происхождение затерялось во времени…</WearingPipBoy.description>
+  <WearingPipBoy.stages.0.label>В.А.Т.С.</WearingPipBoy.stages.0.label>
+
+  <GhoulLK.label>Гуль</GhoulLK.label>
+  <GhoulLK.description>Гуль.</GhoulLK.description>
+
+  <Charge.label>Заряд</Charge.label>
+  <Charge.description>Атомы в нестабильном состоянии</Charge.description>
+
+  <RadScorpionPoison.label>Накопление яда радскорпиона</RadScorpionPoison.label>
+  <RadScorpionPoison.description>Накопление яда радскорпиона</RadScorpionPoison.description>
+  <RadScorpionPoison.stages.0.label>начальное</RadScorpionPoison.stages.0.label>
+  <RadScorpionPoison.stages.1.label>начальное</RadScorpionPoison.stages.1.label>
+  <RadScorpionPoison.stages.2.label>лёгкое</RadScorpionPoison.stages.2.label>
+  <RadScorpionPoison.stages.3.label>умеренное</RadScorpionPoison.stages.3.label>
+  <RadScorpionPoison.stages.4.label>серьёзное</RadScorpionPoison.stages.4.label>
+  <RadScorpionPoison.stages.5.label>крайнее</RadScorpionPoison.stages.5.label>
+
+  <Scorponade.label>Энергетик «Скорпонад»</Scorponade.label>
+  <Scorponade.description>Выпил энергетик «Скорпонад».</Scorponade.description>
+  <Scorponade.stages.0.label>Напиток «Скорпонад», уф</Scorponade.stages.0.label>
+  <Scorponade.stages.1.label>Напиток «Скорпонад», становится лучше</Scorponade.stages.1.label>
+
+
+  <!-- <HediffDef ParentName="InfectionBase">
+			<defName>BlowflyLarva</defName>
+		<label>Blowfly Larva</label>
+		<labelNoun>Larva</labelNoun>
+		<description>Blowfly Larva</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<makesSickThought>false</makesSickThought>
+		 <scenarioCanAdd>false</scenarioCanAdd>
+		<lethalSeverity>1</lethalSeverity>
+		
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>12</baseTendDurationHours>
+				<severityPerDayTended>-0.35</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
+				<immunityPerDaySick>0.3</immunityPerDaySick>
+				<severityPerDayNotImmune>0.4</severityPerDayNotImmune>
+				<severityPerDayImmune>-0.2</severityPerDayImmune>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SpawnPawnKindOnRemoval">
+                <pawnKind>Duten</pawnKind>
+				<activation>OnDeathOnly</activation>
+				 <validSeverity>0.9</validSeverity>
+                <count>1~2</count>
+                <mentalStateOnSpawn>ManhunterPermanent</mentalStateOnSpawn>
+            </li>
+			<li Class="HediffCompProperties_DissolveGearOnDeath">
+				<fleck>ActivatorCountdownFlash</fleck>
+				<moteCount>6</moteCount>
+				<moteOffsetRange>0.25~0.75</moteOffsetRange>
+				<filth>Filth_Slime</filth>
+				<sound>DeathAcidifier</sound>
+				<injuryCreatedOnDeath>Burn</injuryCreatedOnDeath>
+				<injuryCount>3~6</injuryCount>
+			</li>
+			     <li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath">
+                <thingSpawn>HiveBlowfly</thingSpawn>
+            </li>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+		</comps>
+		<stages>
+			<li>
+			
+				<label>minor-hidden</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<minSeverity>0.10</minSeverity>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.666</minSeverity>
+				<label>major</label>
+				<painOffset>0.15</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.833</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.4</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.3</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.2</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.25</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef> -->
+
+  <ManhunterPermanentAnimal.label>Постоянный охотник</ManhunterPermanentAnimal.label>
+  <ManhunterPermanentAnimal.description>-/-.</ManhunterPermanentAnimal.description>
+
+
+  <!-- <HediffDef>
+    <defName>Savagery</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0, 1, 1)</defaultLabelColor>
+    <label>Savagery</label>
+    <description>Feralization is a severe neurodegenerative disease affecting ghouls. It is characterized by progressive loss of cognitive function and memory, culminating in complete personality disintegration. Contrary to previous understanding, the process is reversible in the early and middle stages with aggressive therapy.</description>
+    <lethalSeverity>1</lethalSeverity>
+    <makesSickThought>false</makesSickThought>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <comps>
+        <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>0.0027</severityPerDay>
+        </li>
+    </comps>
+	<stages>
+			<li>
+				<label>initial</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>Stage 1: "The Mirror Crackles"</label>
+				<minSeverity>0.05</minSeverity>
+				 <regeneration>15</regeneration>
+				<capMods>
+				
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Stage 2: "Fading"</label>
+				<minSeverity>0.7</minSeverity>
+				 <regeneration>25</regeneration>
+				<capMods>
+				
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+					<capacity>Manipulation</capacity>
+						<offset>0.3</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Stage 3: "Cliff"</label>
+				<minSeverity>0.9</minSeverity>
+				<vomitMtbDays>0.5</vomitMtbDays>
+				<painOffset>-0.5</painOffset>
+				 <regeneration>50</regeneration>
+				<capMods>
+				
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.5</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<MoveSpeed>+0.7</MoveSpeed>
+					<MeleeHitChance>0.25</MeleeHitChance>
+                  <!{1}**  <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>**{1}>
+					<MeleeWeapon_CooldownMultiplier>-0.25</MeleeWeapon_CooldownMultiplier>
+					<!{1}**<AimingDelayFactor>0.35</AimingDelayFactor>**{1}>
+					<Suppressability>-0.90</Suppressability>
+				</statOffsets>
+				 <mentalStateGivers>
+                 <li>
+                 <mentalState>Berserk</mentalState>
+                 <mtbDays>0.1</mtbDays>
+                 </li>
+                 </mentalStateGivers>
+			</li>
+		</stages>
+  
+</HediffDef> -->
+
+  <Watcher_ExplosiveDeath.label>Активная боеголовка</Watcher_ExplosiveDeath.label>
+  <Watcher_ExplosiveDeath.description>Описание активной боеголовки</Watcher_ExplosiveDeath.description>
+  <Watcher_ExplosiveDeath.stages.0.label>активна</Watcher_ExplosiveDeath.stages.0.label>
+
+  <Watcher_CoveredInFoam.label>Покрыт медицинской пеной</Watcher_CoveredInFoam.label>
+  <Watcher_CoveredInFoam.description>Быстротвердеющая гемостатическая пена, покрывающая тело. Останавливает кровотечение и ускоряет заживление.</Watcher_CoveredInFoam.description>
+  <Watcher_CoveredInFoam.stages.0.label>свежая</Watcher_CoveredInFoam.stages.0.label>
+
+  <Watcher_StimulantCocktail.label>Стимуляторы</Watcher_StimulantCocktail.label>
+  <Watcher_StimulantCocktail.description>Химический коктейль, подавляющий потребности во сне и еде, повышающий ясность сознания.</Watcher_StimulantCocktail.description>
+  <Watcher_StimulantCocktail.stages.0.label>слабое</Watcher_StimulantCocktail.stages.0.label>
+  <Watcher_StimulantCocktail.stages.1.label>активное</Watcher_StimulantCocktail.stages.1.label>
+  <Watcher_StimulantCocktail.stages.2.label>сильное</Watcher_StimulantCocktail.stages.2.label>
+
+  <Watcher_StimulantOverdose.label>Передозировка стимуляторами</Watcher_StimulantOverdose.label>
+  <Watcher_StimulantOverdose.description>Потеря сознания из-за чрезмерного употребления стимуляторов.</Watcher_StimulantOverdose.description>
+  <Watcher_StimulantOverdose.stages.0.label>без сознания</Watcher_StimulantOverdose.stages.0.label>
+
+  <Harold.label>Арараксис</Harold.label>
+  <Harold.description>Это была не инфекция в привычном смысле. Это был приговор, вписанный в каждую клетку тела с того самого момента, как радиация и вирус встретились в крови. Болезнь Гарольда была медленным, неуловимым превращением человека во что-то, что природа не задумывала. Это было не преображением — это было растворением личности в биомассе.</Harold.description>
+  <Harold.comps.3.tools.0.label>Клинок</Harold.comps.3.tools.0.label>
+  <Harold.comps.4.letterLabel>Операция с плотемассой</Harold.comps.4.letterLabel>
+  <Harold.comps.4.letterText>Попытка удалить плотевой хлыст {PAWN_nameDef} вызвала атаку извивающейся массы плоти. Плотемасса отделилась от {PAWN_nameDef} и превратилась в плотевого зверя!</Harold.comps.4.letterText>
+  <Harold.stages.0.label>лёгкая</Harold.stages.0.label>
+  <Harold.stages.1.label>серьёзная</Harold.stages.1.label>
+  <Harold.stages.2.label>крайняя</Harold.stages.2.label>
+  <Harold.stages.3.label>терминальная</Harold.stages.3.label>
+  <Harold.labelNoun>Прогрессирующий фитогенетический диссонанс</Harold.labelNoun>
+
+  <SolarBattery_Charged.label>Заряжен солнечной энергией</SolarBattery_Charged.label>
+  <SolarBattery_Charged.description>Заряжен ярким светом.</SolarBattery_Charged.description>
+
+  <StrongSpine_Hediff.label>Крепкий позвоночник</StrongSpine_Hediff.label>
+  <StrongSpine_Hediff.description>Твёрдая осанка и устойчивость.</StrongSpine_Hediff.description>
+
+  <VigorCharge_Hediff.label>Заряд бодрости</VigorCharge_Hediff.label>
+  <VigorCharge_Hediff.description>Природная жизненная сила снижает потребность во сне.</VigorCharge_Hediff.description>
+
+  <Insectophobe_HunterInstinct.label>инстинкт охотника</Insectophobe_HunterInstinct.label>
+  <Insectophobe_HunterInstinct.description>Адреналин от убийства ненавистных насекомых всё ещё бурлит в крови. Чем больше их гибнет, тем острее становятся рефлексы.</Insectophobe_HunterInstinct.description>
+  <Insectophobe_HunterInstinct.stages.0.label>пробуждение</Insectophobe_HunterInstinct.stages.0.label>
+  <Insectophobe_HunterInstinct.stages.1.label>нарастание</Insectophobe_HunterInstinct.stages.1.label>
+  <Insectophobe_HunterInstinct.stages.2.label>подъем</Insectophobe_HunterInstinct.stages.2.label>
+  <Insectophobe_HunterInstinct.stages.3.label>неистовство</Insectophobe_HunterInstinct.stages.3.label>
+  <Insectophobe_HunterInstinct.stages.4.label>жажда убийства</Insectophobe_HunterInstinct.stages.4.label>
+  <Insectophobe_HunterInstinct.stages.5.label>кровавая бойня</Insectophobe_HunterInstinct.stages.5.label>
+  <Insectophobe_HunterInstinct.labelNoun>инстинкт охотника</Insectophobe_HunterInstinct.labelNoun>
+
+
+</LanguageData>

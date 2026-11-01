@@ -114,7 +114,7 @@ This compact power source is the perfect companion for any wastelander! Designed
 			<texPath>Things/Building/Power/Generator/FalloutTeslaGenerator/FalloutTeslaGenerator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(2,2)</drawSize>
+			<drawSize>(3,2.8)</drawSize>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<rotatable>false</rotatable>
@@ -129,7 +129,7 @@ This compact power source is the perfect companion for any wastelander! Designed
 		</statBases>
 		<description>A scientific breakthrough in a transparent flask!
 A stable (conditionally stable*) clot of high-energy plasma is contained inside a hermetically sealed container made of combat plexiglass, resistant to a muzzle charge from a laser rifle. Our scientists, sacrificing sleep and safety precautions, have achieved quantum synchronization of discharges, creating not only a hypnotizing spectacle, but also a source of constant energy!</description>
-		<size>(1,2)</size>
+		<size>(2,3)</size>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
@@ -156,8 +156,8 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 				<soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
 			</li>
 			<li Class="CompProperties_Glower">
-				<glowRadius>3</glowRadius>
-				<glowColor>(17,12,233,0)</glowColor>
+				<glowRadius>5</glowRadius>
+				<glowColor>(217,217,255,0)</glowColor>
 			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>
@@ -186,12 +186,20 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 					<li>EMP</li>
 				</affectedDamageDefs>
 			</li>
+			<li Class="Watcher.Comps.CompProperties_TeslaMalfunction">
+				<conditionDef>TeslaEMPField</conditionDef>
+				<mtbDays>80</mtbDays>
+				<cooldownDays>30</cooldownDays>
+				<mechStunTicks>90</mechStunTicks>
+				<letterLabel>Tesla generator malfunction</letterLabel>
+				<letterText>The Tesla Nova generator has lost containment of its plasma and failed. A map-wide EMP field is disabling all electrical devices and stunning mechanoids. It will last until the generator is repaired.</letterText>
+				<fieldInspectString>EMP field active - repair the generator to end it.</fieldInspectString>
+			</li>
 		</comps>
 		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<researchPrerequisites>
 			<li>Vault-TecPowerB</li>
-			<li>RimatomicsActivate</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 		<modExtensions>

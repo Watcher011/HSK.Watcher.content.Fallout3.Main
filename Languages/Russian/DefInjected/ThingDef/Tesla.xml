@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_ChargedTesla.label>Заряженный тесла-заряд</Ammo_ChargedTesla.label>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_Tesla.label>Тесла-луч</Bullet_Tesla.label>
+
+
+</LanguageData>

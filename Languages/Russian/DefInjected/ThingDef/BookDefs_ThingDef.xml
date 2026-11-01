@@ -1,4 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ComicsBook.label>Комиксы «Грогнак-Варвар»</ComicsBook.label>
-<ComicsBook.description>Серия комиксов, издававшаяся в довоенный период компанией Hubris Comics. Повествует о приключениях варвара Грогнака — одного из самых популярных героев своего времени.</ComicsBook.description>
+  <ComicsBook.label>Комиксы «Грогнак-Варвар»</ComicsBook.label>
+  <ComicsBook.description>Серия комиксов, издававшаяся в довоенный период компанией Hubris Comics. Повествует о приключениях варвара Грогнака — одного из самых популярных героев своего времени.</ComicsBook.description>
+
 </LanguageData>

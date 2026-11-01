@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- Glutton -->
+
+  <Glutton.label>Обжора</Glutton.label>
+  <Glutton.corePart.parts.3.customLabel>левое лёгкое</Glutton.corePart.parts.3.customLabel>
+  <Glutton.corePart.parts.4.customLabel>правое лёгкое</Glutton.corePart.parts.4.customLabel>
+  <Glutton.corePart.parts.5.customLabel>левая почка</Glutton.corePart.parts.5.customLabel>
+  <Glutton.corePart.parts.6.customLabel>правая почка</Glutton.corePart.parts.6.customLabel>
+  <Glutton.corePart.parts.8.parts.0.parts.1.customLabel>левый глаз</Glutton.corePart.parts.8.parts.0.parts.1.customLabel>
+  <Glutton.corePart.parts.8.parts.0.parts.2.customLabel>правый глаз</Glutton.corePart.parts.8.parts.0.parts.2.customLabel>
+  <Glutton.corePart.parts.8.parts.0.parts.3.customLabel>левое ухо</Glutton.corePart.parts.8.parts.0.parts.3.customLabel>
+  <Glutton.corePart.parts.8.parts.0.parts.4.customLabel>правое ухо</Glutton.corePart.parts.8.parts.0.parts.4.customLabel>
+  <Glutton.corePart.parts.9.customLabel>левый плавник</Glutton.corePart.parts.9.customLabel>
+  <Glutton.corePart.parts.10.customLabel>правый плавник</Glutton.corePart.parts.10.customLabel>
+
+
+  <!-- Определение тела спорового растения -->
+
+  <SporePlant.label>Споровое растение</SporePlant.label>
+  <SporePlant.corePart.parts.0.customLabel>центральная луковица</SporePlant.corePart.parts.0.customLabel>
+  <SporePlant.corePart.parts.2.customLabel>пульсирующее ядро</SporePlant.corePart.parts.2.customLabel>
+  <SporePlant.corePart.parts.3.customLabel>черепная луковица</SporePlant.corePart.parts.3.customLabel>
+  <SporePlant.corePart.parts.3.parts.0.parts.0.customLabel>сенсорный усик</SporePlant.corePart.parts.3.parts.0.parts.0.customLabel>
+  <SporePlant.corePart.parts.3.parts.1.customLabel>первичный глазной узел</SporePlant.corePart.parts.3.parts.1.customLabel>
+  <SporePlant.corePart.parts.3.parts.2.customLabel>вторичный глазной узел</SporePlant.corePart.parts.3.parts.2.customLabel>
+  <SporePlant.corePart.parts.3.parts.3.customLabel>вибрационный сенсор</SporePlant.corePart.parts.3.parts.3.customLabel>
+  <SporePlant.corePart.parts.4.customLabel>передний усик</SporePlant.corePart.parts.4.customLabel>
+  <SporePlant.corePart.parts.5.customLabel>задний усик</SporePlant.corePart.parts.5.customLabel>
+  <SporePlant.corePart.parts.6.customLabel>левый боковой усик</SporePlant.corePart.parts.6.customLabel>
+  <SporePlant.corePart.parts.7.customLabel>правый боковой усик</SporePlant.corePart.parts.7.customLabel>
+  <SporePlant.corePart.parts.8.customLabel>первичный якорный корень</SporePlant.corePart.parts.8.customLabel>
+  <SporePlant.corePart.parts.9.customLabel>вторичный питающий корень</SporePlant.corePart.parts.9.customLabel>
+  <SporePlant.corePart.parts.10.customLabel>третичный стабилизирующий корень</SporePlant.corePart.parts.10.customLabel>
+
+  <Mech_SentryBot_Body.label>корпус сторожевого бота</Mech_SentryBot_Body.label>
+  <Mech_SentryBot_Body.corePart.parts.0.parts.0.parts.1.customLabel>левый зрительный сенсор</Mech_SentryBot_Body.corePart.parts.0.parts.0.parts.1.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.0.parts.0.parts.2.customLabel>правый зрительный сенсор</Mech_SentryBot_Body.corePart.parts.0.parts.0.parts.2.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.0.parts.0.parts.3.customLabel>левый слуховой сенсор</Mech_SentryBot_Body.corePart.parts.0.parts.0.parts.3.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.0.parts.0.parts.4.customLabel>правый слуховой сенсор</Mech_SentryBot_Body.corePart.parts.0.parts.0.parts.4.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.1.customLabel>левая рука</Mech_SentryBot_Body.corePart.parts.1.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.1.parts.0.customLabel>левая кисть</Mech_SentryBot_Body.corePart.parts.1.parts.0.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.2.customLabel>правая рука</Mech_SentryBot_Body.corePart.parts.2.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.2.parts.0.customLabel>правая кисть</Mech_SentryBot_Body.corePart.parts.2.parts.0.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.3.customLabel>передняя левая нога</Mech_SentryBot_Body.corePart.parts.3.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.3.parts.0.customLabel>передняя левая ступня</Mech_SentryBot_Body.corePart.parts.3.parts.0.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.4.customLabel>передняя правая нога</Mech_SentryBot_Body.corePart.parts.4.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.4.parts.0.customLabel>передняя правая ступня</Mech_SentryBot_Body.corePart.parts.4.parts.0.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.5.customLabel>задняя левая нога</Mech_SentryBot_Body.corePart.parts.5.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.5.parts.0.customLabel>задняя левая ступня</Mech_SentryBot_Body.corePart.parts.5.parts.0.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.6.customLabel>задняя правая нога</Mech_SentryBot_Body.corePart.parts.6.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.6.parts.0.customLabel>задняя правая ступня</Mech_SentryBot_Body.corePart.parts.6.parts.0.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.8.customLabel>система охлаждения</Mech_SentryBot_Body.corePart.parts.8.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.9.customLabel>вторичный процессор</Mech_SentryBot_Body.corePart.parts.9.customLabel>
+  <Mech_SentryBot_Body.corePart.parts.10.customLabel>плечевая турель</Mech_SentryBot_Body.corePart.parts.10.customLabel>
+
+
+</LanguageData>

@@ -1,6 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<ListenedToRadio.label>слушал радио</ListenedToRadio.label>
-<ListenedToRadio.rulePack.rulesStrings>
+  <ListenedToRadio.label>слушал радио</ListenedToRadio.label>
+  <ListenedToRadio.rulePack.rulesStrings>
 		<li>tale_noun->[PAWN_nameDef] слушает радио</li>
 		<li>tale_noun->[PAWN_nameDef] наслаждается музыкой из радиоприёмника</li>
 		<li>image->[PAWN_nameFull] сидит возле радиоприёмника [circumstance_group]</li>
@@ -11,4 +12,5 @@
 		<li>desc_sentence->[PAWN_pronoun] кажется полностью поглощённым музыкой.</li>
 		<li>desc_sentence->Мелодия наполняет комнату теплом.</li>
 	</ListenedToRadio.rulePack.rulesStrings>
+
 </LanguageData>

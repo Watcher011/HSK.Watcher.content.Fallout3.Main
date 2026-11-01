@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <JobDef>
+    <defName>MoleRatDig</defName>
+    <driverClass>Watcher.Jobs.JobDriver_MoleRatDig</driverClass>
+    <reportString>Digging tunnel.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+    <checkOverrideOnDamage>true</checkOverrideOnDamage>
+    <alwaysShowWeapon>false</alwaysShowWeapon>
+    <suspendable>true</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+    <collideWithPawns>false</collideWithPawns>
+  </JobDef> -->
+
+  <CleanRadioactiveFilth.reportString>уборка радиоактивной грязи.</CleanRadioactiveFilth.reportString>
+  <ListenToRadio.reportString>слушает радио.</ListenToRadio.reportString>
+<Watcher_RepairReactorCore.reportString>ремонтирует ядро реактора.</Watcher_RepairReactorCore.reportString>
+
+
+</LanguageData>

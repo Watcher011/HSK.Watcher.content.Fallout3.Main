@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RadNado.label>Радиоактивный торнадо</RadNado.label>
+  <RadNado.description>Радиоактивный торнадо</RadNado.description>
+
+  <GreenRain_WeatherCondition.label>Зелёный дождь</GreenRain_WeatherCondition.label>
+  <GreenRain_WeatherCondition.description>Странный зелёный дождь омывает поля, заставляя растения бурно расти.</GreenRain_WeatherCondition.description>
+  <GreenRain_WeatherCondition.endMessage>Зелёный дождь прекратился.</GreenRain_WeatherCondition.endMessage>
+  <GreenRain_WeatherCondition.letterText>Небо позеленело, и начался дождь...</GreenRain_WeatherCondition.letterText>
+
+ <TeslaEMPField.label>Поле ЭМИ Теслы</TeslaEMPField.label>
+  <TeslaEMPField.description>Электромагнитное поле, высвободившееся из-за отказа генератора «Тесла Нова» и охватывающее всю карту. Все электрические устройства отключены, а механоиды оглушены, пока генератор не будет отремонтирован.</TeslaEMPField.description>
+  <TeslaEMPField.endMessage>Поле ЭМИ рассеялось. Электрические системы возвращаются в строй.</TeslaEMPField.endMessage>
+
+
+</LanguageData>

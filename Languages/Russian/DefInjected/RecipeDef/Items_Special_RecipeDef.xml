@@ -1,6 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-<MakeAmmo_StimulantCartridge.label>Сделать стимулирующие патроны x5</MakeAmmo_StimulantCartridge.label>
-<MakeAmmo_StimulantCartridge.description>Создать 5 стимулирующих патронов.</MakeAmmo_StimulantCartridge.description>
-<MakeAmmo_StimulantCartridge.jobString>Создаёт стимулирующие патроны.</MakeAmmo_StimulantCartridge.jobString>
+
+  <MakeAmmo_StimulantCartridge.label>Сделать стимулирующие патроны x5</MakeAmmo_StimulantCartridge.label>
+  <MakeAmmo_StimulantCartridge.description>Создать 5 стимулирующих патронов.</MakeAmmo_StimulantCartridge.description>
+  <MakeAmmo_StimulantCartridge.jobString>Создаёт стимулирующие патроны.</MakeAmmo_StimulantCartridge.jobString>
+
 </LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <ListenedToRadio.label>слушал радио</ListenedToRadio.label>
+  <ListenedToRadio.rulePack.rulesStrings.0>tale_noun->[PAWN_nameDef] слушает радио</ListenedToRadio.rulePack.rulesStrings.0>
+  <ListenedToRadio.rulePack.rulesStrings.1>tale_noun->[PAWN_nameDef] наслаждается музыкой по радио</ListenedToRadio.rulePack.rulesStrings.1>
+  <ListenedToRadio.rulePack.rulesStrings.2>image->[PAWN_nameFull] сидит рядом с радио [circumstance_group]</ListenedToRadio.rulePack.rulesStrings.2>
+  <ListenedToRadio.rulePack.rulesStrings.3>image->[PAWN_nameFull] отдыхает у радио [circumstance_group]</ListenedToRadio.rulePack.rulesStrings.3>
+  <ListenedToRadio.rulePack.rulesStrings.4>circumstance_phrase->с довольным видом</ListenedToRadio.rulePack.rulesStrings.4>
+  <ListenedToRadio.rulePack.rulesStrings.5>circumstance_phrase->подпевая</ListenedToRadio.rulePack.rulesStrings.5>
+  <ListenedToRadio.rulePack.rulesStrings.6>circumstance_phrase->с умиротворённым выражением лица</ListenedToRadio.rulePack.rulesStrings.6>
+  <ListenedToRadio.rulePack.rulesStrings.7>desc_sentence->[PAWN_pronoun] кажется полностью поглощённым музыкой.</ListenedToRadio.rulePack.rulesStrings.7>
+  <ListenedToRadio.rulePack.rulesStrings.8>desc_sentence->Мелодия наполняет комнату теплом.</ListenedToRadio.rulePack.rulesStrings.8>
+
+
+</LanguageData>

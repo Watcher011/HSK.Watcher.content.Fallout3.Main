@@ -1,15 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<Fin.label>плавник</Fin.label>
+  <Fin.label>плавник</Fin.label>
 
-<MovingBody.label>туловище</MovingBody.label>
+  <MovingBody.label>туловище</MovingBody.label>
 
-<SporeStalk.label>стебель</SporeStalk.label>
+  <SporeStalk.label>стебель</SporeStalk.label>
 
-<SporeTendril.label>щупалец</SporeTendril.label>
+  <SporeTendril.label>щупалец</SporeTendril.label>
 
-<SporeBulb.label>луковица</SporeBulb.label>
+  <SporeBulb.label>луковица</SporeBulb.label>
 
-<SporeMaw.label>пасть</SporeMaw.label>
+  <SporeMaw.label>пасть</SporeMaw.label>
 
-<SporeRoot.label>корень</SporeRoot.label>
+  <SporeRoot.label>корень</SporeRoot.label>
+
 </LanguageData>

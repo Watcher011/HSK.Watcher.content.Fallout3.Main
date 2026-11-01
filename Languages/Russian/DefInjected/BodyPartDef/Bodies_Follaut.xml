@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Glutton -->
+
+  <Fin.label>плавник</Fin.label>
+  <MovingBody.label>туловище</MovingBody.label>
+
+
+  <!-- Увеличены hitPoints для защиты от мелких калибров -->
+
+  <SporeStalk.label>стебель</SporeStalk.label>
+  <SporeTendril.label>щупалец</SporeTendril.label>
+  <SporeBulb.label>луковица</SporeBulb.label>
+  <SporeMaw.label>пасть</SporeMaw.label>
+  <SporeRoot.label>корень</SporeRoot.label>
+
+
+</LanguageData>

@@ -1,4 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<CleanRadioactiveFilth.reportString>уборка радиоактивной грязи.</CleanRadioactiveFilth.reportString>
-<ListenToRadio.reportString>слушает радио.</ListenToRadio.reportString>
+  <CleanRadioactiveFilth.reportString>уборка радиоактивной грязи.</CleanRadioactiveFilth.reportString>
+  <ListenToRadio.reportString>слушает радио.</ListenToRadio.reportString>
+
 </LanguageData>

@@ -96,6 +96,7 @@
     <Compile Include="Comps\CompProperties_EarthquakeStabilizer.cs" />
     <Compile Include="Comps\CompProperties_GlowingPawn.cs" />
     <Compile Include="Comps\CompProperties_IV_Drip.cs" />
+    <Compile Include="Comps\CompProperties_TeslaNova.cs" />
     <Compile Include="Comps\CompProperties_UseEffectInstallImplant.cs" />
     <Compile Include="Comps\CompSummonCreature.cs" />
     <Compile Include="Comps\CompsWithFilth.cs" />

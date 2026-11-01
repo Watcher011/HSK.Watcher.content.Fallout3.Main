@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Watcher_InjectStimulants.label>ввести стимуляторы</Watcher_InjectStimulants.label>
+  <Watcher_InjectStimulants.description>Ручное введение дозы стимулятора.</Watcher_InjectStimulants.description>
+
+  <RadioactivePinhole.label>Разрыв изотопной петли</RadioactivePinhole.label>
+  <RadioactivePinhole.description>Сквозь этот пульсирующий сгусток времени сочится застывший огонь цепной реакции — взрыв, длящийся одно мгновение, но растянутый в бесконечность, заливающий руины мертвенно-зелёным свечением, пока хроносфера медленно истончается под тяжестью реальности.</RadioactivePinhole.description>
+
+
+</LanguageData>

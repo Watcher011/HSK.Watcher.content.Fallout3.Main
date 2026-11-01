@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <VaultecScout.label>Разведчик Волт-Тек</VaultecScout.label>
+  <VaultecScout.labelPlural>Разведчики Волт-Тек</VaultecScout.labelPlural>
+
+  <VaultecRanger.label>Рейнджер Волт-Тек</VaultecRanger.label>
+  <VaultecRanger.labelPlural>Рейнджеры Волт-Тек</VaultecRanger.labelPlural>
+
+  <VaultecSheriffHeavy.label>Тяжеловооружённый рейнджер Волт-Тек</VaultecSheriffHeavy.label>
+  <VaultecSheriffHeavy.labelPlural>Тяжеловооружённые рейнджеры Волт-Тек</VaultecSheriffHeavy.labelPlural>
+
+  <VaultecOfficer.label>Офицер Волт-Тек</VaultecOfficer.label>
+  <VaultecOfficer.labelPlural>Офицеры Волт-Тек</VaultecOfficer.labelPlural>
+
+  <VaultecCorporal.label>Капрал Волт-Тек</VaultecCorporal.label>
+  <VaultecCorporal.labelPlural>Капралы Волт-Тек</VaultecCorporal.labelPlural>
+  <VaultecCorporal.labelMale>капрал Волт-Тек мужского пола</VaultecCorporal.labelMale>
+  <VaultecCorporal.labelMalePlural>капралы Волт-Тек мужского пола</VaultecCorporal.labelMalePlural>
+  <VaultecCorporal.labelFemale>капрал Волт-Тек женского пола</VaultecCorporal.labelFemale>
+  <VaultecCorporal.labelFemalePlural>капралы Волт-Тек женского пола</VaultecCorporal.labelFemalePlural>
+
+  <VaultecSpy.label>Шпион Волт-Тек</VaultecSpy.label>
+  <VaultecSpy.labelPlural>Шпионы Волт-Тек</VaultecSpy.labelPlural>
+
+  <VaultecInvestigator.label>Следователь Волт-Тек</VaultecInvestigator.label>
+  <VaultecInvestigator.labelPlural>Следователи Волт-Тек</VaultecInvestigator.labelPlural>
+  <VaultecInvestigator.labelMale>следователь Волт-Тек мужского пола</VaultecInvestigator.labelMale>
+  <VaultecInvestigator.labelMalePlural>следователи Волт-Тек мужского пола</VaultecInvestigator.labelMalePlural>
+  <VaultecInvestigator.labelFemale>следователь Волт-Тек женского пола</VaultecInvestigator.labelFemale>
+  <VaultecInvestigator.labelFemalePlural>следователи Волт-Тек женского пола</VaultecInvestigator.labelFemalePlural>
+
+  <VaultecLiquidator.label>Ликвидатор Волт-Тек</VaultecLiquidator.label>
+  <VaultecLiquidator.labelPlural>Ликвидаторы Волт-Тек</VaultecLiquidator.labelPlural>
+
+  <Vaultec_Trader_liquidator.label>Ликвидатор-торговец Волт-Тек</Vaultec_Trader_liquidator.label>
+  <Vaultec_Trader_liquidator.labelPlural>Ликвидаторы-торговцы Волт-Тек</Vaultec_Trader_liquidator.labelPlural>
+
+  <Vaultecglowing.label>Светящийся Волт-Тек</Vaultecglowing.label>
+  <Vaultecglowing.labelPlural>Светящиеся Волт-Тек</Vaultecglowing.labelPlural>
+  <Vaultecglowing.labelMale>светящийся Волт-Тек мужского пола</Vaultecglowing.labelMale>
+  <Vaultecglowing.labelMalePlural>светящиеся Волт-Тек мужского пола</Vaultecglowing.labelMalePlural>
+  <Vaultecglowing.labelFemale>светящийся Волт-Тек женского пола</Vaultecglowing.labelFemale>
+  <Vaultecglowing.labelFemalePlural>светящиеся Волт-Тек женского пола</Vaultecglowing.labelFemalePlural>
+
+</LanguageData>

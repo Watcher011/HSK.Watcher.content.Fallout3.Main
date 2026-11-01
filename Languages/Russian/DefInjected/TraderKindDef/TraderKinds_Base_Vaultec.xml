@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Base_Vaultec_Standard.label>Оптовик Волт-Тек</Base_Vaultec_Standard.label>
+  <Visitor_Vaultec_Standard.label>Торговец Волт-Тек</Visitor_Vaultec_Standard.label>
+  <Caravan_Vaultec_Main.label>Торговец из Убежища ☢</Caravan_Vaultec_Main.label>
+
+
+  <!-- <TraderKindDef>
+    <defName>Vaultec_Caravan_TributeCollector</defName>
+    <label>Vaultec tribute collector</label>
+    <stockGenerators>
+      <!{1}** Buying **{1}>
+      <li Class="StockGenerator_BuySlaves" />
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>AntidoteSavagery</thingDef>
+        <countRange>20~70</countRange>
+      </li>
+	  
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3800~8000</countRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef> -->
+
+  <Caravan_Vaultec_medic.label>Торговец наркотиками из Убежища ☢</Caravan_Vaultec_medic.label>
+  <Caravan_Vaultec_gunsmith.label>Оружейник из Убежища ☢</Caravan_Vaultec_gunsmith.label>
+
+
+</LanguageData>

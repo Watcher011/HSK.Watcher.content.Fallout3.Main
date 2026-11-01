@@ -1,5 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<Filth_Cap.label>Крышки</Filth_Cap.label>
-<Filth_NFRAD.label>Радиоактивная грязь</Filth_NFRAD.label>
-<Filth_NFRAD.description>Радиоактивное загрязнение, светящееся в темноте. Требует тщательной очистки.</Filth_NFRAD.description>
+  <Filth_Cap.label>Крышки</Filth_Cap.label>
+  <Filth_NFRAD.label>Радиоактивная грязь</Filth_NFRAD.label>
+  <Filth_NFRAD.description>Радиоактивное загрязнение, светящееся в темноте. Требует тщательной очистки.</Filth_NFRAD.description>
+
 </LanguageData>

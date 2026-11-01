@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Mech_SentryBot.label>Сторожевой бот</Mech_SentryBot.label>
+  <Mech_SentryBot.labelPlural>Сторожевые боты</Mech_SentryBot.labelPlural>
+  <Mech_SentryBot.lifeStages.0.label>Сторожевой бот</Mech_SentryBot.lifeStages.0.label>
+  <Mech_SentryBot.lifeStages.0.labelPlural>Сторожевые боты</Mech_SentryBot.lifeStages.0.labelPlural>
+  <Mech_SentryBot.lifeStages.0.labelMale>Сторожевой бот мужского пола</Mech_SentryBot.lifeStages.0.labelMale>
+  <Mech_SentryBot.lifeStages.0.labelMalePlural>Сторожевые боты мужского пола</Mech_SentryBot.lifeStages.0.labelMalePlural>
+  <Mech_SentryBot.lifeStages.0.labelFemale>Сторожевой бот женского пола</Mech_SentryBot.lifeStages.0.labelFemale>
+  <Mech_SentryBot.lifeStages.0.labelFemalePlural>Сторожевые боты женского пола</Mech_SentryBot.lifeStages.0.labelFemalePlural>
+  <Mech_SentryBot.lifeStages.1.label>Сторожевой бот</Mech_SentryBot.lifeStages.1.label>
+  <Mech_SentryBot.lifeStages.1.labelPlural>Сторожевые боты</Mech_SentryBot.lifeStages.1.labelPlural>
+  <Mech_SentryBot.lifeStages.1.labelMale>Сторожевой бот мужского пола</Mech_SentryBot.lifeStages.1.labelMale>
+  <Mech_SentryBot.lifeStages.1.labelMalePlural>Сторожевые боты мужского пола</Mech_SentryBot.lifeStages.1.labelMalePlural>
+  <Mech_SentryBot.lifeStages.1.labelFemale>Сторожевой бот женского пола</Mech_SentryBot.lifeStages.1.labelFemale>
+  <Mech_SentryBot.lifeStages.1.labelFemalePlural>Сторожевые боты женского пола</Mech_SentryBot.lifeStages.1.labelFemalePlural>
+  <Mech_SentryBot.labelMale>Сторожевой бот мужского пола</Mech_SentryBot.labelMale>
+  <Mech_SentryBot.labelMalePlural>Сторожевые боты мужского пола</Mech_SentryBot.labelMalePlural>
+  <Mech_SentryBot.labelFemale>Сторожевой бот женского пола</Mech_SentryBot.labelFemale>
+  <Mech_SentryBot.labelFemalePlural>Сторожевые боты женского пола</Mech_SentryBot.labelFemalePlural>
+
+</LanguageData>

@@ -884,27 +884,27 @@ WorkGiver
 
   <HaroldInfectionLabel>Арараксис</HaroldInfectionLabel>
   <HaroldInfectionText>{0} закашлялся пылью, которая не была пылью. Кожа пошла трещинами, обнажая твёрдые наросты. Радиация не убила — она вспомнила, что им нужно тело погорячее. Старый вирус встряхнулся, потянулся и решил, что {0} — отличный дом для начала. Трансформация пошла не по плану эволюции. Или как раз по плану. Чёрт его знает.</HaroldInfectionText>
-  
-   <Watcher_AnalyzeInspect>Может быть проанализирован колонистом. Открывает: {0}</Watcher_AnalyzeInspect>
-    
-    <!-- Для сообщения о требовании механитора -->
-    <Watcher_RequiresMechanitor>Требуется механитор</Watcher_RequiresMechanitor>
-    
-    <!-- Для статуса "уже проанализирован" -->
-    <Watcher_AlreadyAnalyzed>Уже проанализирован</Watcher_AlreadyAnalyzed>
-    
-    <!-- Заголовок письма о завершении анализа -->
-    <Watcher_AnalyzeComplete>Голодиск изучен: {RESEARCH} открыто</Watcher_AnalyzeComplete>
-    
-    <!-- Текст письма о завершении анализа -->
-    <Watcher_AnalyzeCompleteDesc>Расшифровав данные с голодиска, {PAWN_labelShort} получил критически важное понимание, необходимое для исследовательского(их) проекта(ов) {RESEARCH}.
+
+  <Watcher_AnalyzeInspect>Может быть проанализирован колонистом. Открывает: {0}</Watcher_AnalyzeInspect>
+
+   Для сообщения о требовании механитора 
+  <Watcher_RequiresMechanitor>Требуется механитор</Watcher_RequiresMechanitor>
+
+   Для статуса "уже проанализирован" 
+  <Watcher_AlreadyAnalyzed>Уже проанализирован</Watcher_AlreadyAnalyzed>
+
+   Заголовок письма о завершении анализа 
+  <Watcher_AnalyzeComplete>Голодиск изучен: {RESEARCH} открыто</Watcher_AnalyzeComplete>
+
+   Текст письма о завершении анализа 
+  <Watcher_AnalyzeCompleteDesc>Расшифровав данные с голодиска, {PAWN_labelShort} получил критически важное понимание, необходимое для исследовательского(их) проекта(ов) {RESEARCH}.
 
 Ваши исследователи теперь могут использовать верстаки для начала внедрения этих довоенных технологий в производство.</Watcher_AnalyzeCompleteDesc>
 
   <RustyDevils.Settings.MechBetrayalLabel>Включить предательство механоидов</RustyDevils.Settings.MechBetrayalLabel>
   <RustyDevils.Settings.MechBetrayalTooltip>Если включено, ваши механоиды могут предать вас во время рейда Ржавых Дьяволов</RustyDevils.Settings.MechBetrayalTooltip>
-  
-  <!-- Письмо о рейде - используем {0} для подстановки названия фракции -->
+
+   Письмо о рейде - используем {0} для подстановки названия фракции 
   <RustyDevils.Letter.Title>Рейд Ржавых Дьяволов</RustyDevils.Letter.Title>
   <RustyDevils.Letter.Text>Фракция {0} атакует вашу колонию!
 
@@ -917,7 +917,7 @@ WorkGiver
 
 Немедленно подготовьте оборону!</RustyDevils.Letter.Text>
 
-  <!-- Письмо о предательстве механоидов - используем {0} для подстановки количества -->
+   Письмо о предательстве механоидов - используем {0} для подстановки количества 
   <RustyDevils.MechBetrayal.Letter.Title>ПРЕДАТЕЛЬСТВО МЕХАНОИДОВ!</RustyDevils.MechBetrayal.Letter.Title>
   <RustyDevils.MechBetrayal.Letter.Text>Ваши механоиды были взломаны сигналом Ржавых Дьяволов!
 
@@ -930,11 +930,12 @@ WorkGiver
   <Watcher_ReactorDestabilizing>Реактор {0} дестабилизируется! Требуется срочная замена активной зоны, иначе произойдёт расплавление.</Watcher_ReactorDestabilizing>
   <Watcher_ReactorStabilized>Реактор {0} успешно стабилизирован.</Watcher_ReactorStabilized>
   <Watcher_ReactorMeltdown>КРИТИЧЕСКИЙ ОТКАЗ: реактор {0} расплавился!</Watcher_ReactorMeltdown>
- 
+
   <Watcher_ReactorState_Offline>Выключен</Watcher_ReactorState_Offline>
   <Watcher_ReactorState_RampingUp>Разгон: {0}%</Watcher_ReactorState_RampingUp>
   <Watcher_ReactorState_Working>Работает на полной мощности</Watcher_ReactorState_Working>
   <Watcher_ReactorState_RampingDown>Остановка: {0}%</Watcher_ReactorState_RampingDown>
   <Watcher_ReactorState_Destabilizing>ДЕСТАБИЛИЗАЦИЯ! До расплавления: {0} ч.</Watcher_ReactorState_Destabilizing>
   <Watcher_ReactorState_Meltdown>РАСПЛАВЛЕНО</Watcher_ReactorState_Meltdown>
+
 </LanguageData>

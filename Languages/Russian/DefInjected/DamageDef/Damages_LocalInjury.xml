@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CapShredded.label>Крышки</CapShredded.label>
+  <CapShredded.deathMessage>{0} был забит до смерти.</CapShredded.deathMessage>
+
+  <ACP.label>Снаряд</ACP.label>
+  <ACP.deathMessage>{0} был изрешёчен до смерти.</ACP.deathMessage>
+
+  <ACB.label>Бомба</ACB.label>
+  <ACB.deathMessage>{0} был убит.</ACB.deathMessage>
+
+  <NuclearB.label>Бомба</NuclearB.label>
+  <NuclearB.deathMessage>{0} был убит.</NuclearB.deathMessage>
+
+  <Charge.label>Заряд</Charge.label>
+  <Charge.deathMessage>{0} был убит.</Charge.deathMessage>
+
+  <PlasmaCharge.label>Плазменный заряд</PlasmaCharge.label>
+  <PlasmaCharge.deathMessage>{0} был сожжён до смерти.</PlasmaCharge.deathMessage>
+
+
+  <!-- <DamageDef ParentName="Bullet">
+		<defName>DutenDart</defName>
+         <label>Duten Dart</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death by an arrow.</deathMessage>
+		<hediff>Cut</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<buildingDamageFactor>0.05</buildingDamageFactor>
+		<plantDamageFactor>0.5</plantDamageFactor>
+		 
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<additionalHediffs>
+			<li>
+				<hediff>BlowflyLarva</hediff>
+				<severityPerDamageDealt>0.12</severityPerDamageDealt>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef> -->
+
+  <HealyFog.label>Целебный туман</HealyFog.label>
+  <HealyFog.deathMessage>{0} был убит.</HealyFog.deathMessage>
+
+  <FalloutBomb.deathMessage>{0} испарился от невыносимого жара.</FalloutBomb.deathMessage>
+
+  <Watcher_MedicalFoam.label>Медицинская пена</Watcher_MedicalFoam.label>
+  <Watcher_MedicalFoam.deathMessage>{0} был убит.</Watcher_MedicalFoam.deathMessage>
+
+
+</LanguageData>

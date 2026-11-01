@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <Mech_SentryBot.label>Сторожевой бот</Mech_SentryBot.label>
+  <Mech_SentryBot.description>Сторожевой бот — элитная боевая машина довоенных Соединённых Штатов, созданная для максимальной огневой мощи и защиты важных объектов.</Mech_SentryBot.description>
+  <Mech_SentryBot.tools.0.label>удар головой</Mech_SentryBot.tools.0.label>
+  <Mech_SentryBot.tools.1.label>тяжёлый удар</Mech_SentryBot.tools.1.label>
+  <Mech_SentryBot.tools.2.label>силовой удар</Mech_SentryBot.tools.2.label>
+
+
+</LanguageData>

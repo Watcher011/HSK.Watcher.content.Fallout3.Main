@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CleanRadioactiveFilth.label>Убрать радиоактивную грязь</CleanRadioactiveFilth.label>
+  <CleanRadioactiveFilth.verb>Убрать</CleanRadioactiveFilth.verb>
+  <CleanRadioactiveFilth.gerund>Убирает</CleanRadioactiveFilth.gerund>
+
+
+  <!-- <WorkGiverDef>
+    <defName>RefuelIVDrip</defName>
+    <label>refuel IV drip</label>
+    <giverClass>Watcher.Comps.WorkGiver_RefuelIVDrip</giverClass>
+    <workType>Hauling</workType>
+    <verb>refuel</verb>
+    <gerund>refueling</gerund>
+    <priorityInType>50</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef> -->
+
+ <Watcher_RepairReactorCore.label>ремонт ядра реактора</Watcher_RepairReactorCore.label>
+  <Watcher_RepairReactorCore.verb>ремонтирует</Watcher_RepairReactorCore.verb>
+  <Watcher_RepairReactorCore.gerund>ремонт ядра реактора</Watcher_RepairReactorCore.gerund>
+
+
+</LanguageData>

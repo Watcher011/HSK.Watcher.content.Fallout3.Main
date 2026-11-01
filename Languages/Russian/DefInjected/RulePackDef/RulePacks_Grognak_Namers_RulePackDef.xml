@@ -1,5 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<Namer_ComicsBook.rulePack.rulesStrings>
+  <Namer_ComicsBook.rulePack.rulesStrings>
 		<li>title->[titleBasic]</li>
 		<li>title->[titleAdjective] [titleSubject]</li>
 		<li>title->[titleSubject]: [titleSubtitle]</li>
@@ -107,4 +108,5 @@
 		<li>randAdjective->Грогнак-Варвар и Что за Колдовство?</li>
 		<li>randAdjective->Грогнак-Варвар и Тяжела Дубовая Корона!</li>
 	</Namer_ComicsBook.rulePack.rulesStrings>
+
 </LanguageData>

@@ -1,5 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<Description_Comics.rulePack.rulesStrings>
+  <Description_Comics.rulePack.rulesStrings>
 		<li>desc->[inThisBook], [author] [experiencesWithHeroes]. [writingQualitySentence].</li>
 		<li>desc->[inThisBook], [author] [tellsAStoryOf] [storySource] [heroName]. [writingQualitySentence].</li>
 		<li>desc->[inThisBook], [author] [detailsAdventure] [worldname]. [writingQualitySentence].</li>
@@ -191,4 +192,5 @@
 		<li>excellentDesc->дизайн персонажей иконографичен и запоминается</li>
 		<li>excellentDesc->раскраска идеально усиливает драматическое напряжение</li>
 	</Description_Comics.rulePack.rulesStrings>
+
 </LanguageData>

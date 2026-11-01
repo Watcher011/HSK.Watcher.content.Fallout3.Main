@@ -1,5 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<CleanRadioactiveFilth.label>Убрать радиоактивную грязь</CleanRadioactiveFilth.label>
-<CleanRadioactiveFilth.verb>Убрать</CleanRadioactiveFilth.verb>
-<CleanRadioactiveFilth.gerund>Убирает</CleanRadioactiveFilth.gerund>
+  <CleanRadioactiveFilth.label>Убрать радиоактивную грязь</CleanRadioactiveFilth.label>
+  <CleanRadioactiveFilth.verb>Убрать</CleanRadioactiveFilth.verb>
+  <CleanRadioactiveFilth.gerund>Убирает</CleanRadioactiveFilth.gerund>
+
 </LanguageData>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <Radroach.label>Рад-таракан</Radroach.label>
+  <Radroach.labelPlural>Рад-тараканы</Radroach.labelPlural>
+  <Radroach.labelMale>Рад-таракан мужского пола</Radroach.labelMale>
+  <Radroach.labelMalePlural>Рад-тараканы мужского пола</Radroach.labelMalePlural>
+  <Radroach.labelFemale>Рад-таракан женского пола</Radroach.labelFemale>
+  <Radroach.labelFemalePlural>Рад-тараканы женского пола</Radroach.labelFemalePlural>
+
+  <GlowingRadroach.label>Светящийся рад-таракан</GlowingRadroach.label>
+  <GlowingRadroach.labelPlural>Светящиеся рад-тараканы</GlowingRadroach.labelPlural>
+  <GlowingRadroach.labelMale>Светящийся рад-таракан мужского пола</GlowingRadroach.labelMale>
+  <GlowingRadroach.labelMalePlural>Светящиеся рад-тараканы мужского пола</GlowingRadroach.labelMalePlural>
+  <GlowingRadroach.labelFemale>Светящийся рад-таракан женского пола</GlowingRadroach.labelFemale>
+  <GlowingRadroach.labelFemalePlural>Светящиеся рад-тараканы женского пола</GlowingRadroach.labelFemalePlural>
+
+  <RadScorpion.label>Радскорпион</RadScorpion.label>
+  <RadScorpion.labelPlural>Радскорпионы</RadScorpion.labelPlural>
+  <RadScorpion.lifeStages.0.label>Радскорпион</RadScorpion.lifeStages.0.label>
+  <RadScorpion.lifeStages.0.labelPlural>Радскорпионы</RadScorpion.lifeStages.0.labelPlural>
+  <RadScorpion.lifeStages.0.labelMale>Радскорпион мужского пола</RadScorpion.lifeStages.0.labelMale>
+  <RadScorpion.lifeStages.0.labelMalePlural>Радскорпионы мужского пола</RadScorpion.lifeStages.0.labelMalePlural>
+  <RadScorpion.lifeStages.0.labelFemale>Радскорпион женского пола</RadScorpion.lifeStages.0.labelFemale>
+  <RadScorpion.lifeStages.0.labelFemalePlural>Радскорпионы женского пола</RadScorpion.lifeStages.0.labelFemalePlural>
+  <RadScorpion.lifeStages.1.label>Радскорпион</RadScorpion.lifeStages.1.label>
+  <RadScorpion.lifeStages.1.labelPlural>Радскорпионы</RadScorpion.lifeStages.1.labelPlural>
+  <RadScorpion.lifeStages.1.labelMale>Радскорпион мужского пола</RadScorpion.lifeStages.1.labelMale>
+  <RadScorpion.lifeStages.1.labelMalePlural>Радскорпионы мужского пола</RadScorpion.lifeStages.1.labelMalePlural>
+  <RadScorpion.lifeStages.1.labelFemale>Радскорпион женского пола</RadScorpion.lifeStages.1.labelFemale>
+  <RadScorpion.lifeStages.1.labelFemalePlural>Радскорпионы женского пола</RadScorpion.lifeStages.1.labelFemalePlural>
+  <RadScorpion.lifeStages.2.label>Радскорпион</RadScorpion.lifeStages.2.label>
+  <RadScorpion.lifeStages.2.labelPlural>Радскорпионы</RadScorpion.lifeStages.2.labelPlural>
+  <RadScorpion.lifeStages.2.labelMale>Радскорпион мужского пола</RadScorpion.lifeStages.2.labelMale>
+  <RadScorpion.lifeStages.2.labelMalePlural>Радскорпионы мужского пола</RadScorpion.lifeStages.2.labelMalePlural>
+  <RadScorpion.lifeStages.2.labelFemale>Радскорпион женского пола</RadScorpion.lifeStages.2.labelFemale>
+  <RadScorpion.lifeStages.2.labelFemalePlural>Радскорпионы женского пола</RadScorpion.lifeStages.2.labelFemalePlural>
+  <RadScorpion.labelMale>Радскорпион мужского пола</RadScorpion.labelMale>
+  <RadScorpion.labelMalePlural>Радскорпионы мужского пола</RadScorpion.labelMalePlural>
+  <RadScorpion.labelFemale>Радскорпион женского пола</RadScorpion.labelFemale>
+  <RadScorpion.labelFemalePlural>Радскорпионы женского пола</RadScorpion.labelFemalePlural>
+
+  <Duten.label>Дутень</Duten.label>
+  <Duten.labelPlural>Дутни</Duten.labelPlural>
+  <Duten.lifeStages.0.label>Дутень</Duten.lifeStages.0.label>
+  <Duten.lifeStages.0.labelPlural>Дутни</Duten.lifeStages.0.labelPlural>
+  <Duten.lifeStages.0.labelMale>Дутень мужского пола</Duten.lifeStages.0.labelMale>
+  <Duten.lifeStages.0.labelMalePlural>Дутни мужского пола</Duten.lifeStages.0.labelMalePlural>
+  <Duten.lifeStages.0.labelFemale>Дутень женского пола</Duten.lifeStages.0.labelFemale>
+  <Duten.lifeStages.0.labelFemalePlural>Дутни женского пола</Duten.lifeStages.0.labelFemalePlural>
+  <Duten.lifeStages.1.label>Дутень</Duten.lifeStages.1.label>
+  <Duten.lifeStages.1.labelPlural>Дутни</Duten.lifeStages.1.labelPlural>
+  <Duten.lifeStages.1.labelMale>Дутень мужского пола</Duten.lifeStages.1.labelMale>
+  <Duten.lifeStages.1.labelMalePlural>Дутни мужского пола</Duten.lifeStages.1.labelMalePlural>
+  <Duten.lifeStages.1.labelFemale>Дутень женского пола</Duten.lifeStages.1.labelFemale>
+  <Duten.lifeStages.1.labelFemalePlural>Дутни женского пола</Duten.lifeStages.1.labelFemalePlural>
+  <Duten.lifeStages.2.label>Дутень</Duten.lifeStages.2.label>
+  <Duten.lifeStages.2.labelPlural>Дутни</Duten.lifeStages.2.labelPlural>
+  <Duten.lifeStages.2.labelMale>Дутень мужского пола</Duten.lifeStages.2.labelMale>
+  <Duten.lifeStages.2.labelMalePlural>Дутни мужского пола</Duten.lifeStages.2.labelMalePlural>
+  <Duten.lifeStages.2.labelFemale>Дутень женского пола</Duten.lifeStages.2.labelFemale>
+  <Duten.lifeStages.2.labelFemalePlural>Дутни женского пола</Duten.lifeStages.2.labelFemalePlural>
+  <Duten.labelMale>Дутень мужского пола</Duten.labelMale>
+  <Duten.labelMalePlural>Дутни мужского пола</Duten.labelMalePlural>
+  <Duten.labelFemale>Дутень женского пола</Duten.labelFemale>
+  <Duten.labelFemalePlural>Дутни женского пола</Duten.labelFemalePlural>
+
+  <StrangeDuten.label>Странный дутень</StrangeDuten.label>
+  <StrangeDuten.labelPlural>Странные дутни</StrangeDuten.labelPlural>
+  <StrangeDuten.lifeStages.0.label>Странный дутень</StrangeDuten.lifeStages.0.label>
+  <StrangeDuten.lifeStages.0.labelPlural>Странные дутни</StrangeDuten.lifeStages.0.labelPlural>
+  <StrangeDuten.lifeStages.0.labelMale>Странный дутень мужского пола</StrangeDuten.lifeStages.0.labelMale>
+  <StrangeDuten.lifeStages.0.labelMalePlural>Странные дутни мужского пола</StrangeDuten.lifeStages.0.labelMalePlural>
+  <StrangeDuten.lifeStages.0.labelFemale>Странный дутень женского пола</StrangeDuten.lifeStages.0.labelFemale>
+  <StrangeDuten.lifeStages.0.labelFemalePlural>Странные дутни женского пола</StrangeDuten.lifeStages.0.labelFemalePlural>
+  <StrangeDuten.lifeStages.1.label>Странный дутень</StrangeDuten.lifeStages.1.label>
+  <StrangeDuten.lifeStages.1.labelPlural>Странные дутни</StrangeDuten.lifeStages.1.labelPlural>
+  <StrangeDuten.lifeStages.1.labelMale>Странный дутень мужского пола</StrangeDuten.lifeStages.1.labelMale>
+  <StrangeDuten.lifeStages.1.labelMalePlural>Странные дутни мужского пола</StrangeDuten.lifeStages.1.labelMalePlural>
+  <StrangeDuten.lifeStages.1.labelFemale>Странный дутень женского пола</StrangeDuten.lifeStages.1.labelFemale>
+  <StrangeDuten.lifeStages.1.labelFemalePlural>Странные дутни женского пола</StrangeDuten.lifeStages.1.labelFemalePlural>
+  <StrangeDuten.lifeStages.2.label>Странный дутень</StrangeDuten.lifeStages.2.label>
+  <StrangeDuten.lifeStages.2.labelPlural>Странные дутни</StrangeDuten.lifeStages.2.labelPlural>
+  <StrangeDuten.lifeStages.2.labelMale>Странный дутень мужского пола</StrangeDuten.lifeStages.2.labelMale>
+  <StrangeDuten.lifeStages.2.labelMalePlural>Странные дутни мужского пола</StrangeDuten.lifeStages.2.labelMalePlural>
+  <StrangeDuten.lifeStages.2.labelFemale>Странный дутень женского пола</StrangeDuten.lifeStages.2.labelFemale>
+  <StrangeDuten.lifeStages.2.labelFemalePlural>Странные дутни женского пола</StrangeDuten.lifeStages.2.labelFemalePlural>
+  <StrangeDuten.labelMale>Странный дутень мужского пола</StrangeDuten.labelMale>
+  <StrangeDuten.labelMalePlural>Странные дутни мужского пола</StrangeDuten.labelMalePlural>
+  <StrangeDuten.labelFemale>Странный дутень женского пола</StrangeDuten.labelFemale>
+  <StrangeDuten.labelFemalePlural>Странные дутни женского пола</StrangeDuten.labelFemalePlural>
+
+  <HugeBee.label>Гигантская пчела</HugeBee.label>
+  <HugeBee.labelPlural>Гигантские пчёлы</HugeBee.labelPlural>
+  <HugeBee.lifeStages.0.label>Гигантская пчела</HugeBee.lifeStages.0.label>
+  <HugeBee.lifeStages.0.labelPlural>Гигантские пчёлы</HugeBee.lifeStages.0.labelPlural>
+  <HugeBee.lifeStages.0.labelMale>Гигантская пчела мужского пола</HugeBee.lifeStages.0.labelMale>
+  <HugeBee.lifeStages.0.labelMalePlural>Гигантские пчёлы мужского пола</HugeBee.lifeStages.0.labelMalePlural>
+  <HugeBee.lifeStages.0.labelFemale>Гигантская пчела женского пола</HugeBee.lifeStages.0.labelFemale>
+  <HugeBee.lifeStages.0.labelFemalePlural>Гигантские пчёлы женского пола</HugeBee.lifeStages.0.labelFemalePlural>
+  <HugeBee.lifeStages.1.label>Гигантская пчела</HugeBee.lifeStages.1.label>
+  <HugeBee.lifeStages.1.labelPlural>Гигантские пчёлы</HugeBee.lifeStages.1.labelPlural>
+  <HugeBee.lifeStages.1.labelMale>Гигантская пчела мужского пола</HugeBee.lifeStages.1.labelMale>
+  <HugeBee.lifeStages.1.labelMalePlural>Гигантские пчёлы мужского пола</HugeBee.lifeStages.1.labelMalePlural>
+  <HugeBee.lifeStages.1.labelFemale>Гигантская пчела женского пола</HugeBee.lifeStages.1.labelFemale>
+  <HugeBee.lifeStages.1.labelFemalePlural>Гигантские пчёлы женского пола</HugeBee.lifeStages.1.labelFemalePlural>
+  <HugeBee.lifeStages.2.label>Гигантская пчела</HugeBee.lifeStages.2.label>
+  <HugeBee.lifeStages.2.labelPlural>Гигантские пчёлы</HugeBee.lifeStages.2.labelPlural>
+  <HugeBee.lifeStages.2.labelMale>Гигантская пчела мужского пола</HugeBee.lifeStages.2.labelMale>
+  <HugeBee.lifeStages.2.labelMalePlural>Гигантские пчёлы мужского пола</HugeBee.lifeStages.2.labelMalePlural>
+  <HugeBee.lifeStages.2.labelFemale>Гигантская пчела женского пола</HugeBee.lifeStages.2.labelFemale>
+  <HugeBee.lifeStages.2.labelFemalePlural>Гигантские пчёлы женского пола</HugeBee.lifeStages.2.labelFemalePlural>
+  <HugeBee.labelMale>Гигантская пчела мужского пола</HugeBee.labelMale>
+  <HugeBee.labelMalePlural>Гигантские пчёлы мужского пола</HugeBee.labelMalePlural>
+  <HugeBee.labelFemale>Гигантская пчела женского пола</HugeBee.labelFemale>
+  <HugeBee.labelFemalePlural>Гигантские пчёлы женского пола</HugeBee.labelFemalePlural>
+
+  <SewageCreature.label>Тварь из канализации</SewageCreature.label>
+  <SewageCreature.labelPlural>Твари из канализации</SewageCreature.labelPlural>
+  <SewageCreature.lifeStages.0.label>Тварь из канализации</SewageCreature.lifeStages.0.label>
+  <SewageCreature.lifeStages.0.labelPlural>Твари из канализации</SewageCreature.lifeStages.0.labelPlural>
+  <SewageCreature.lifeStages.0.labelMale>Тварь из канализации мужского пола</SewageCreature.lifeStages.0.labelMale>
+  <SewageCreature.lifeStages.0.labelMalePlural>Твари из канализации мужского пола</SewageCreature.lifeStages.0.labelMalePlural>
+  <SewageCreature.lifeStages.0.labelFemale>Тварь из канализации женского пола</SewageCreature.lifeStages.0.labelFemale>
+  <SewageCreature.lifeStages.0.labelFemalePlural>Твари из канализации женского пола</SewageCreature.lifeStages.0.labelFemalePlural>
+  <SewageCreature.lifeStages.1.label>Тварь из канализации</SewageCreature.lifeStages.1.label>
+  <SewageCreature.lifeStages.1.labelPlural>Твари из канализации</SewageCreature.lifeStages.1.labelPlural>
+  <SewageCreature.lifeStages.1.labelMale>Тварь из канализации мужского пола</SewageCreature.lifeStages.1.labelMale>
+  <SewageCreature.lifeStages.1.labelMalePlural>Твари из канализации мужского пола</SewageCreature.lifeStages.1.labelMalePlural>
+  <SewageCreature.lifeStages.1.labelFemale>Тварь из канализации женского пола</SewageCreature.lifeStages.1.labelFemale>
+  <SewageCreature.lifeStages.1.labelFemalePlural>Твари из канализации женского пола</SewageCreature.lifeStages.1.labelFemalePlural>
+  <SewageCreature.lifeStages.2.label>Тварь из канализации</SewageCreature.lifeStages.2.label>
+  <SewageCreature.lifeStages.2.labelPlural>Твари из канализации</SewageCreature.lifeStages.2.labelPlural>
+  <SewageCreature.lifeStages.2.labelMale>Тварь из канализации мужского пола</SewageCreature.lifeStages.2.labelMale>
+  <SewageCreature.lifeStages.2.labelMalePlural>Твари из канализации мужского пола</SewageCreature.lifeStages.2.labelMalePlural>
+  <SewageCreature.lifeStages.2.labelFemale>Тварь из канализации женского пола</SewageCreature.lifeStages.2.labelFemale>
+  <SewageCreature.lifeStages.2.labelFemalePlural>Твари из канализации женского пола</SewageCreature.lifeStages.2.labelFemalePlural>
+  <SewageCreature.labelMale>Тварь из канализации мужского пола</SewageCreature.labelMale>
+  <SewageCreature.labelMalePlural>Твари из канализации мужского пола</SewageCreature.labelMalePlural>
+  <SewageCreature.labelFemale>Тварь из канализации женского пола</SewageCreature.labelFemale>
+  <SewageCreature.labelFemalePlural>Твари из канализации женского пола</SewageCreature.labelFemalePlural>
+
+  <SporePlant.label>Споровое растение</SporePlant.label>
+  <SporePlant.labelPlural>Споровые растения</SporePlant.labelPlural>
+  <SporePlant.labelMale>Споровое растение мужского пола</SporePlant.labelMale>
+  <SporePlant.labelMalePlural>Споровые растения мужского пола</SporePlant.labelMalePlural>
+  <SporePlant.labelFemale>Споровое растение женского пола</SporePlant.labelFemale>
+  <SporePlant.labelFemalePlural>Споровые растения женского пола</SporePlant.labelFemalePlural>
+
+  <Mucus.label>Слизень</Mucus.label>
+  <Mucus.labelPlural>Слизни</Mucus.labelPlural>
+  <Mucus.lifeStages.0.label>Слизень</Mucus.lifeStages.0.label>
+  <Mucus.lifeStages.0.labelPlural>Слизни</Mucus.lifeStages.0.labelPlural>
+  <Mucus.lifeStages.0.labelMale>Слизень мужского пола</Mucus.lifeStages.0.labelMale>
+  <Mucus.lifeStages.0.labelMalePlural>Слизни мужского пола</Mucus.lifeStages.0.labelMalePlural>
+  <Mucus.lifeStages.0.labelFemale>Слизень женского пола</Mucus.lifeStages.0.labelFemale>
+  <Mucus.lifeStages.0.labelFemalePlural>Слизни женского пола</Mucus.lifeStages.0.labelFemalePlural>
+  <Mucus.lifeStages.1.label>Слизень</Mucus.lifeStages.1.label>
+  <Mucus.lifeStages.1.labelPlural>Слизни</Mucus.lifeStages.1.labelPlural>
+  <Mucus.lifeStages.1.labelMale>Слизень мужского пола</Mucus.lifeStages.1.labelMale>
+  <Mucus.lifeStages.1.labelMalePlural>Слизни мужского пола</Mucus.lifeStages.1.labelMalePlural>
+  <Mucus.lifeStages.1.labelFemale>Слизень женского пола</Mucus.lifeStages.1.labelFemale>
+  <Mucus.lifeStages.1.labelFemalePlural>Слизни женского пола</Mucus.lifeStages.1.labelFemalePlural>
+  <Mucus.lifeStages.2.label>Слизень</Mucus.lifeStages.2.label>
+  <Mucus.lifeStages.2.labelPlural>Слизни</Mucus.lifeStages.2.labelPlural>
+  <Mucus.lifeStages.2.labelMale>Слизень мужского пола</Mucus.lifeStages.2.labelMale>
+  <Mucus.lifeStages.2.labelMalePlural>Слизни мужского пола</Mucus.lifeStages.2.labelMalePlural>
+  <Mucus.lifeStages.2.labelFemale>Слизень женского пола</Mucus.lifeStages.2.labelFemale>
+  <Mucus.lifeStages.2.labelFemalePlural>Слизни женского пола</Mucus.lifeStages.2.labelFemalePlural>
+  <Mucus.labelMale>Слизень мужского пола</Mucus.labelMale>
+  <Mucus.labelMalePlural>Слизни мужского пола</Mucus.labelMalePlural>
+  <Mucus.labelFemale>Слизень женского пола</Mucus.labelFemale>
+  <Mucus.labelFemalePlural>Слизни женского пола</Mucus.labelFemalePlural>
+
+</LanguageData>

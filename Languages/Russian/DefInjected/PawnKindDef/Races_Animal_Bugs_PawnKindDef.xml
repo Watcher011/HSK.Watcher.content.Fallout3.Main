@@ -1,28 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	<Radroach.label>Рад-таракан</Radroach.label>
-<Radroach.lifeStages.0.labelPlural>Рад-тараканы</Radroach.lifeStages.0.labelPlural>
+  <Radroach.label>Рад-таракан</Radroach.label>
+  <Radroach.lifeStages.0.labelPlural>Рад-тараканы</Radroach.lifeStages.0.labelPlural>
 
-<GlowingRadroach.label>Светящийся рад-таракан</GlowingRadroach.label>
-<GlowingRadroach.lifeStages.0.labelPlural>Светящиеся рад-тараканы</GlowingRadroach.lifeStages.0.labelPlural>
+  <GlowingRadroach.label>Светящийся рад-таракан</GlowingRadroach.label>
+  <GlowingRadroach.lifeStages.0.labelPlural>Светящиеся рад-тараканы</GlowingRadroach.lifeStages.0.labelPlural>
 
-<RadScorpion.label>Радскорпион</RadScorpion.label>
-<RadScorpion.lifeStages.2.labelPlural>Радскорпионы</RadScorpion.lifeStages.2.labelPlural>
+  <RadScorpion.label>Радскорпион</RadScorpion.label>
+  <RadScorpion.lifeStages.2.labelPlural>Радскорпионы</RadScorpion.lifeStages.2.labelPlural>
 
-<Duten.label>Дутень</Duten.label>
-<Duten.lifeStages.2.labelPlural>Дутни</Duten.lifeStages.2.labelPlural>
+  <Duten.label>Дутень</Duten.label>
+  <Duten.lifeStages.2.labelPlural>Дутни</Duten.lifeStages.2.labelPlural>
 
-<StrangeDuten.label>Странный дутень</StrangeDuten.label>
-<StrangeDuten.lifeStages.2.labelPlural>Странные дутни</StrangeDuten.lifeStages.2.labelPlural>
+  <StrangeDuten.label>Странный дутень</StrangeDuten.label>
+  <StrangeDuten.lifeStages.2.labelPlural>Странные дутни</StrangeDuten.lifeStages.2.labelPlural>
 
-<HugeBee.label>Гигантская пчела</HugeBee.label>
-<HugeBee.lifeStages.2.labelPlural>Гигантские пчёлы</HugeBee.lifeStages.2.labelPlural>
+  <HugeBee.label>Гигантская пчела</HugeBee.label>
+  <HugeBee.lifeStages.2.labelPlural>Гигантские пчёлы</HugeBee.lifeStages.2.labelPlural>
 
-<SewageCreature.label>Тварь из канализации</SewageCreature.label>
-<SewageCreature.lifeStages.2.labelPlural>Твари из канализации</SewageCreature.lifeStages.2.labelPlural>
+  <SewageCreature.label>Тварь из канализации</SewageCreature.label>
+  <SewageCreature.lifeStages.2.labelPlural>Твари из канализации</SewageCreature.lifeStages.2.labelPlural>
 
-<SporePlant.label>Споровое растение</SporePlant.label>
-<SporePlant.lifeStages.0.labelPlural>Споровые растения</SporePlant.lifeStages.0.labelPlural>
+  <SporePlant.label>Споровое растение</SporePlant.label>
+  <SporePlant.lifeStages.0.labelPlural>Споровые растения</SporePlant.lifeStages.0.labelPlural>
 
-<Mucus.label>Слизень</Mucus.label>
-<Mucus.lifeStages.2.labelPlural>Слизни</Mucus.lifeStages.2.labelPlural>
+  <Mucus.label>Слизень</Mucus.label>
+  <Mucus.lifeStages.2.labelPlural>Слизни</Mucus.lifeStages.2.labelPlural>
+
 </LanguageData>

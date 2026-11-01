@@ -1,10 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-	
-<NamerFactionVaultec.rulePack.rulesStrings>
+
+  <NamerFactionVaultec.rulePack.rulesStrings>
 		<li>empire->Волт-Тек</li>
 	</NamerFactionVaultec.rulePack.rulesStrings>
-	
-	<NamerSettlementVaultec.rulePack.rulesStrings>
+
+  <NamerSettlementVaultec.rulePack.rulesStrings>
 		<li>townend->Убежище 101</li>
 		<li>townend->Убежище 102</li>
 		<li>townend->Убежище 103</li>
@@ -23,4 +24,5 @@
 		<li>townend->Убежище 116</li>
 		<li>townend->Убежище 117</li>
 	</NamerSettlementVaultec.rulePack.rulesStrings>
+
 </LanguageData>
