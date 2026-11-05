@@ -8,26 +8,23 @@
         <li>TableFalloutChemicalSynthesis</li>
       </recipeUsers>-->
       <workSpeedStat>DrugCookingSpeed</workSpeedStat>
-      <workSkill>Cooking</workSkill>
       <skillRequirements>
         <Cooking>5</Cooking>
       </skillRequirements>
       <requiredGiverWorkType>Cooking</requiredGiverWorkType>
-      <bulkRecipeCount>4</bulkRecipeCount>
       <displayPriority>1460</displayPriority>
+      <workSkill>Intellectual</workSkill>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <bulkRecipeCount>4</bulkRecipeCount>
     </recipeMaker>
   </ThingDef>
   
-  <ThingDef ParentName="FalloutDrugBase">
+<ThingDef ParentName="MakeableDrugBase">
     <defName>FalloutJet</defName>
     <label>Jet</label>
     <description>The screw causes an altered state of consciousness in which time seems to pass very slowly. This allows you to perform more actions in a short period of time than usual.</description>
-    <descriptionHyperlinks>
-      <HediffDef>JetHigh</HediffDef>
-      <HediffDef>JetTolerance</HediffDef>
-      <HediffDef>JetAddiction</HediffDef>
-      <HediffDef>ChemicalDamageSevere</HediffDef>
-    </descriptionHyperlinks>
+    <!-- Удалили проблемный блок descriptionHyperlinks, вызывающий краш окна -->
     <graphicData>
       <texPath>Things/Item/Special/Jet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -41,6 +38,7 @@
       <DeteriorationRate>6</DeteriorationRate>
     </statBases>
     <techLevel>Industrial</techLevel>
+    
     <ingestible>
       <foodType>Fluid, Processed</foodType>
       <joyKind>Chemical</joyKind>
@@ -56,7 +54,7 @@
       </ingestHoldOffsetStanding>
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
       <ingestCommandString>Use {0}</ingestCommandString>
-      <ingestReportString>Useing {0}.</ingestReportString>
+      <ingestReportString>Using {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>JetHigh</hediffDef>
@@ -68,38 +66,33 @@
           <offset>0.3</offset>
           <toleranceChemical>Jet</toleranceChemical>
         </li>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
+      <!--  <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>JetTolerance</hediffDef>
           <toleranceChemical>Jet</toleranceChemical>
           <severity>0.05</severity>
           <divideByBodySize>true</divideByBodySize>
           <multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
-        </li>
+        </li>-->
       </outcomeDoers>
     </ingestible>
     <costList>
       <Yayo>4</Yayo>
-	  <RawTarberry>1</RawTarberry>
+      <RawTarberry>1</RawTarberry>
     </costList>
     <comps>
-      <li Class="CompProperties_Drug">
-        <chemical>Jet</chemical>
-        <addictiveness>0.02</addictiveness>
-        <minToleranceToAddict>0.10</minToleranceToAddict>
-        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
-        <needLevelOffset>0.9</needLevelOffset>
-        <listOrder>110</listOrder>
+       <li Class="CompProperties_Drug">
+        <addictiveness>0</addictiveness>
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>2.50~3.50</overdoseSeverityOffset>
       </li>
     </comps>
   </ThingDef>
   
-   <ThingDef ParentName="FalloutDrugBase">
+   <ThingDef ParentName="MakeableDrugBase">
     <defName>FalloutUltraJet</defName>
     <label>Ultra jet</label>
     <description>Is an improved version jet causes an altered state of consciousness in which time seems to pass very slowly. This allows you to perform more actions in a short period of time than usual.</description>
-    <descriptionHyperlinks>
-      <HediffDef>JetHigh</HediffDef>
-    </descriptionHyperlinks>
+    <!-- Удалили проблемный блок descriptionHyperlinks -->
     <graphicData>
       <texPath>Things/Item/Special/Ultrajet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -113,7 +106,7 @@
       <DeteriorationRate>6</DeteriorationRate>
     </statBases>
     <techLevel>Industrial</techLevel>
-
+    
     <ingestible>
       <foodType>Fluid, Processed</foodType>
       <joyKind>Chemical</joyKind>
@@ -129,7 +122,7 @@
       </ingestHoldOffsetStanding>
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
       <ingestCommandString>Use {0}</ingestCommandString>
-      <ingestReportString>Useing {0}.</ingestReportString>
+      <ingestReportString>Using {0}.</ingestReportString>
       <outcomeDoers>
         <li Class="IngestionOutcomeDoer_GiveHediff">
           <hediffDef>JetHigh</hediffDef>
@@ -145,17 +138,14 @@
     </ingestible>
     <costList>
       <Yayo>4</Yayo>
-	  <RawTarberry>1</RawTarberry>
-	  <HemogenPack>1</HemogenPack>
+      <RawTarberry>1</RawTarberry>
+      <HemogenPack>1</HemogenPack>
     </costList>
     <comps>
       <li Class="CompProperties_Drug">
-        <chemical>Jet</chemical>
-        <addictiveness>0.02</addictiveness>
-        <minToleranceToAddict>0.10</minToleranceToAddict>
-        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
-        <needLevelOffset>0.9</needLevelOffset>
-        <listOrder>110</listOrder>
+        <addictiveness>0</addictiveness>
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>2.50~3.50</overdoseSeverityOffset>
       </li>
     </comps>
   </ThingDef>
